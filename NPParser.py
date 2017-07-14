@@ -192,7 +192,7 @@ class NPParser:
         """Input file, output a FreqDist of terms"""
         filterfname = os.path.join(os.path.dirname(filename), 'filter.save')
         if os.path.exists(filename + '.nps') and os.path.exists(filterfname):
-            f = open(filename + '.nps')
+            f = open(filename+'.nps','rb')
             old_filters, fd = pickle.load(f)
             f.close()
             if old_filters == filters:
@@ -213,7 +213,7 @@ class NPParser:
                 if t:
                     fd[t] += 1
         if overwrite or (not os.path.isfile(filename + '.nps')):
-            f = open(filename + '.nps', "wb")       # @semanticbeeng
+            f = open(filename+'.nps','wb')
             pickle.dump((filters, fd), f)
             f.close()
         if os.path.exists(filterfname):

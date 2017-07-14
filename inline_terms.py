@@ -8,8 +8,8 @@ ok_path_types = ['url']  ##  currently 'ratio' is not an ok_path_type
 compound_inbetween_string = re.compile('^ +(of|for) +((the|a|[A-Z]\.) +)?$', re.I)
 term_stop_words_with_periods = re.compile('(^|\s)(u\.s|e\.g|i\.e|u\.k|c\.f|see|ser)([\.\s]|$)', re.I)
 
-lemma_dict : Dict[str, str] = {}        # @semanticbeeng typing
-cluster_hash : Dict = {}
+lemma_dict: Dict[str, str] = {}        # @semanticbeeng typing
+cluster_hash: Dict = {}
 
 
 ## @func comp_termChunker
@@ -59,7 +59,7 @@ def ugly_word(word: str):
 
 # @semanticbeeng typing
 def topic_term_ok(word_list: List[str], pos_list: List[str], term_string: str):
-    signif_term = 0
+    signif_term: int = 0
     OOV_count = 0
     nominalization_count = 0
     nom_length = 0
@@ -605,8 +605,7 @@ def global_formula_filter(term_list, term_hash, type_hash):
 
 def get_topic_terms(text, offset, filter_off=False):
     txt_markup = re.compile('(\[in-line-formulae\].*?\[/in-line-formulae\])|(</[a-z]+>)|(<(/)?[a-z]+( [a-z]+=[^>]+)* ?>)', re.I)
-    single_quote_pattern = re.compile(
-        '(\s|^)[\`\'‘](?!(s[^a-z]|d[^a-z]| |t[^a-z]|ll[^a-z]|m[^a-z]|ve[^a-z]|re[^a-z]))([^\`\']*?)[\'’](?!(s[^a-z]|d[^a-z]|t[^a-z]|ll[^a-z]|m[^a-z]|ve[^a-z]|re[^a-z]))')
+    single_quote_pattern = re.compile('(\s|^)[\`\'‘](?!(s[^a-z]|d[^a-z]| |t[^a-z]|ll[^a-z]|m[^a-z]|ve[^a-z]|re[^a-z]))([^\`\']*?)[\'’](?!(s[^a-z]|d[^a-z]|t[^a-z]|ll[^a-z]|m[^a-z]|ve[^a-z]|re[^a-z]))')
     ## '...', where ' is not followed by a contraction or possessive marker (the first one cannot be followed by a space either,
     ## since this would make it a second quote or a plural possessive marker -- note this procludes an apostrophe inside a single quote
     double_quote_pattern = re.compile('(\s|^)["“]([^"“”]*?)["”](\s|$)')

@@ -81,7 +81,7 @@ class Metric:
             logging.debug('done')
         # Related Document Group -- we need each document separately
         logging.debug('Loading RDG from '+rdgDir+'...')
-        #self.rdgDocs = [Document(rdgDir+rdgFile) for rdgFile in os.listdir(rdgDir) if rdgFile[-4:]=='.txt']
+        # self.rdgDocs = [Document(rdgDir+rdgFile) for rdgFile in os.listdir(rdgDir) if rdgFile[-4:]=='.txt']
         self.rdgDocs = list (map(lambda x: Document(filename=x.strip(),overwrite=overwrite), open(rdgDir).readlines()))
         ## Python 3 compatibility -- rdgDocs needs to be a list and Python3 makes it an iterator
         logging.debug('done')
@@ -310,7 +310,8 @@ Keys = 'patent', 'science', 'law', 'common', and 'medicine'."""
                     ('law', 'uscourts.lst'), ('common', 'gsl.lst'),
                     ('medicine', 'medical_roots.lst')]
         if not hasattr(self, 'lstProbs'):
-            self.lstProbs : Dict[str, float] = {'patent': 0.75, 'science': 0.25, 'law': 0.25, 'common': 0.01, 'medicine': 0.75}
+            self.lstProbs : Dict[str, float] = {'patent':0.75, 'science': 0.25, 'law':0.25,
+                                                'common':0.01, 'medicine': 0.75}
         if not hasattr(self, 'wordlistdict'):
             self.wordlistdict = {}
             for item in lstfiles:
@@ -519,28 +520,21 @@ for use in weighted scoring. This method is VERY slow."""
                 currweight = self.weights[w]
                 currscore = self.scoreByRankSum(termfiles, measure='Weighted')
                 print(w, 2)
-                print (w, 2)
                 self.weights[w] = currweight - 0.1
                 score = self.scoreByRankSum(termfiles, measure='Weighted')
                 print(w, 3)
-                print (w, 3)
                 if score < currscore:
                     continue
                 print(w, 4)
-                print (w, 4)
                 self.weights[w] = currweight + 0.1
                 score = self.scoreByRankSum(termfiles, measure='Weighted')
                 print(w, 5)
-                print (w, 5)
                 if score < currscore:
                     continue
                 print(w, 6)
-                print (w, 6)
                 self.weights[w] = currweight
                 print(w, 7)
-            print(self.weights)
-                print (w, 7)
-            print (self.weights)
+                print(self.weights)
         return self.weights
 
     def _EMWeights(testfolder, N=300):
@@ -560,8 +554,6 @@ weighted scoring. Here we are minimizing the perplexity of a held out set."""
         # Calculate term hypothesized probability distribution
         print('Calculating probabilities...', )
         Probs = {}
-        print ('Calculating probabilities...',)
-        Probs={}
         for measure in measures:
             ranklist = metric.rankTerms(measure)
             # hypothesized probability distribution
@@ -573,14 +565,8 @@ weighted scoring. Here we are minimizing the perplexity of a held out set."""
                     raise ('Rounding Error! P = 0.0')
             print(measure + ' '),
         print('done')
-                Probs[measure][item[0]] = 2**item[1]
-                if Probs[measure][item[0]]==0.0:
-                    raise('Rounding Error! P = 0.0')
-            print (measure+' ',)
-        print ('done')
         # import test set
         print('Retrieving test set...'),
-        print ('Retrieving test set...',)
         try:
             self.testwords
         except:
@@ -596,7 +582,6 @@ weighted scoring. Here we are minimizing the perplexity of a held out set."""
             # restore Filter.stemdict
             Filter.stemdict, Filter.unstemdict = backupstems
         print('done')
-        print ('done')
         # set initial weights
         weight = {}
         for measure in measures:
@@ -604,7 +589,6 @@ weighted scoring. Here we are minimizing the perplexity of a held out set."""
         # set tolerance
         tolerance = 1e-10
         # E-M loop
-        print('Optimizing weights...'),
         print ('Optimizing weights...',)
         delta = 1.0
         weight_old = weight.copy()
@@ -634,9 +618,6 @@ weighted scoring. Here we are minimizing the perplexity of a held out set."""
                 weight_old[j] = weight[j]
                 weight[j] = c[j] / sum(c.values())
                 delta += (weight[j] - weight_old[j]) ** 2
-        print('done')
-                weight[j] = c[j]/sum(c.values())
-                delta += (weight[j]-weight_old[j])**2
         print ('done')
         # set those weights
         metric.setWeights(weight)

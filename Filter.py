@@ -44,8 +44,7 @@ def _get_stemdict(filename):
     f = open(filename, 'rb')
     global stemdict
     global unstemdict
-    unpickler = pickle.Unpickler(f)          # @semanticbeeng
-    stemdict, unstemdict = unpickler.load()
+    stemdict, unstemdict = pickle.load(f)
     f.close()
 
 
@@ -142,9 +141,16 @@ def stem(string):
     if string not in stemdict:
         if bad_unicode(string):
             ## added A. Meyers 8/28/15
-            temp = stemmer.stem(remove_non_unicode(string))
-        else:
+            string = remove_non_unicode(string)
+            if len(string)>3:
+                temp = stemmer.stem(string)
+            else:
+                temp = string
+        elif len(string)>3:
+            ## print('***',string,'***')
             temp = stemmer.stem(string)
+        else:
+            temp = string
         if temp:
             stemdict[string] = temp
         if not temp:
