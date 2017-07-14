@@ -1,3 +1,4 @@
+from typing import List, Dict  # @semanticbeeng typing
 from term_utilities import *
 
 global abbr_to_full_dict
@@ -9,11 +10,11 @@ global greek_match_table
 global number_match_table
 
 word_split_pattern = re.compile(r'[^\w@]+')
-ABBREVIATION_STOP_WORDS = ['a','the','an','and','or','but','about','above','after','along','amid','among','as','at','by','for','from','in','into','like','minus','near','of','off','on','onto','out','over','past','per','plus','since','till','to','under','until','up','via','vs','with','that']
+ABBREVIATION_STOP_WORDS: List[str] = ['a','the','an','and','or','but','about','above','after','along','amid','among','as','at','by','for','from','in','into','like','minus','near','of','off','on','onto','out','over','past','per','plus','since','till','to','under','until','up','via','vs','with','that']
 
 id_number = 0
-abbr_to_full_dict = {}
-full_to_abbr_dict = {}
+abbr_to_full_dict: Dict[str, str] = {}
+full_to_abbr_dict: Dict[str, str] = {}
 greek_match_table = {'Α':'A','Β':'B','Γ':'G','Δ':'D','Ε':'E','Ζ':'Z', 'Η':'H', 'Θ':'T',\
                          'Ι':'I', 'Κ':'K', 'Λ':'L','Μ':'M', 'Ν':'N','Ξ':'X', 'Ο':'O', \
                          'Π':'P', 'Ρ':'R', 'Σ':'S','Τ':'T', 'Υ':'U','Φ':'P','Χ':'C','Ψ':'P','ϖ':'P'}
