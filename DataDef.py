@@ -3,7 +3,7 @@ import sys
 
 # @resource https://www.python.org/dev/peps/pep-0484/#user-defined-generic-types
 
-DT = TypeVar('DT', contravariant=True)
+DT = TypeVar('DT')      #, contravariant=True)
 
 # class TP:
 #     def __init__(self, v: str) -> None:

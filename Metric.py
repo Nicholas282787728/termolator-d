@@ -1,4 +1,4 @@
-from typing import List, Dict           # @semanticbeeng typing
+from typing import List, Dict
 import logging
 import math
 import nltk

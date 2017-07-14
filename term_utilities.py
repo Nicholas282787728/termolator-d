@@ -1,4 +1,4 @@
-from typing import List, Dict  # @semanticbeeng typing
+from typing import List, Dict
 import os
 import random
 import re
@@ -26,15 +26,15 @@ jargon_files = [DICT_DIRECTORY + 'chemicals.dict', DICT_DIRECTORY + 'more_jargon
 dictionary_table: Dict[str, str] = {'legal': DICT_DIRECTORY + 'legal_dictionary.dict'}
 special_domains: List[str] = []
 
-stat_adj_dict: Dict[str, int] = {}          ## @func comp_termChunker, @arch static state
-stat_term_dict: Dict[str, bool] = {}        ## @func comp_termChunker, @arch static state
-noun_base_form_dict: Dict[str, str] = {}    ## @func comp_termChunker, @arch static state
-plural_dict: Dict[str, str] = {}            ## @arch static state
-verb_base_form_dict: Dict[str, str] = {}    ## @arch static state
-verb_variants_dict: Dict[str, str] = {}     ## @arch static state
+stat_adj_dict: Dict[str, int] = {}  ## @func comp_termChunker, @arch static state
+stat_term_dict: Dict[str, bool] = {}  ## @func comp_termChunker, @arch static state
+noun_base_form_dict: Dict[str, str] = {}  ## @func comp_termChunker, @arch static state
+plural_dict: Dict[str, str] = {}  ## @arch static state
+verb_base_form_dict: Dict[str, str] = {}  ## @arch static state
+verb_variants_dict: Dict[str, str] = {}  ## @arch static state
 nom_dict: Dict[str, str] = {}
 pos_dict: Dict[str, str] = {}
-jargon_words = set()                        ## @arch shared static state
+jargon_words = set()  ## @arch shared static state
 pos_offset_table: Dict[str, str] = {}
 organization_dictionary = {}
 location_dictionary = {}
@@ -44,33 +44,33 @@ unigram_dictionary = set()
 ## add all observed words (in the foreground set) to unigram_dictionary
 
 
-closed_class_stop_words = ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among', \
-                           'as', 'at', 'by', 'for', 'from', 'in', 'into', 'like', 'minus', 'near', 'of', 'off', 'on', \
-                           'onto', 'out', 'over', 'past', 'per', 'plus', 'since', 'till', 'to', 'under', 'until', 'up', \
-                           'via', 'vs', 'with', 'that', 'can', 'cannot', 'could', 'may', 'might', 'must', \
-                           'need', 'ought', 'shall', 'should', 'will', 'would', 'have', 'had', 'has', 'having', 'be', \
-                           'is', 'am', 'are', 'was', 'were', 'being', 'been', 'get', 'gets', 'got', 'gotten', \
-                           'getting', 'seem', 'seeming', 'seems', 'seemed', \
-                           'enough', 'both', 'all', 'your' 'those', 'this', 'these', \
-                           'their', 'the', 'that', 'some', 'our', 'no', 'neither', 'my', \
-                           'its', 'his' 'her', 'every', 'either', 'each', 'any', 'another', \
-                           'an', 'a', 'just', 'mere', 'such', 'merely' 'right', 'no', 'not', \
-                           'only', 'sheer', 'even', 'especially', 'namely', 'as', 'more', \
-                           'most', 'less' 'least', 'so', 'enough', 'too', 'pretty', 'quite', \
-                           'rather', 'somewhat', 'sufficiently' 'same', 'different', 'such', \
-                           'when', 'why', 'where', 'how', 'what', 'who', 'whom', 'which', \
-                           'whether', 'why', 'whose', 'if', 'anybody', 'anyone', 'anyplace', \
-                           'anything', 'anytime' 'anywhere', 'everybody', 'everyday', \
-                           'everyone', 'everyplace', 'everything' 'everywhere', 'whatever', \
-                           'whenever', 'whereever', 'whichever', 'whoever', 'whomever' 'he', \
-                           'him', 'his', 'her', 'she', 'it', 'they', 'them', 'its', 'their', 'theirs', \
+closed_class_stop_words = ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among',
+                           'as', 'at', 'by', 'for', 'from', 'in', 'into', 'like', 'minus', 'near', 'of', 'off', 'on',
+                           'onto', 'out', 'over', 'past', 'per', 'plus', 'since', 'till', 'to', 'under', 'until', 'up',
+                           'via', 'vs', 'with', 'that', 'can', 'cannot', 'could', 'may', 'might', 'must',
+                           'need', 'ought', 'shall', 'should', 'will', 'would', 'have', 'had', 'has', 'having', 'be',
+                           'is', 'am', 'are', 'was', 'were', 'being', 'been', 'get', 'gets', 'got', 'gotten',
+                           'getting', 'seem', 'seeming', 'seems', 'seemed',
+                           'enough', 'both', 'all', 'your' 'those', 'this', 'these',
+                           'their', 'the', 'that', 'some', 'our', 'no', 'neither', 'my',
+                           'its', 'his' 'her', 'every', 'either', 'each', 'any', 'another',
+                           'an', 'a', 'just', 'mere', 'such', 'merely' 'right', 'no', 'not',
+                           'only', 'sheer', 'even', 'especially', 'namely', 'as', 'more',
+                           'most', 'less' 'least', 'so', 'enough', 'too', 'pretty', 'quite',
+                           'rather', 'somewhat', 'sufficiently' 'same', 'different', 'such',
+                           'when', 'why', 'where', 'how', 'what', 'who', 'whom', 'which',
+                           'whether', 'why', 'whose', 'if', 'anybody', 'anyone', 'anyplace',
+                           'anything', 'anytime' 'anywhere', 'everybody', 'everyday',
+                           'everyone', 'everyplace', 'everything' 'everywhere', 'whatever',
+                           'whenever', 'whereever', 'whichever', 'whoever', 'whomever' 'he',
+                           'him', 'his', 'her', 'she', 'it', 'they', 'them', 'its', 'their', 'theirs',
                            'you', 'your', 'yours', 'me', 'my', 'mine', 'I', 'we', 'us', 'much', 'and/or'
                            ]
 ## ABBREVIATION_STOP_WORDS plus some
 
-patent_stop_words = ['patent', 'provisional', 'kokai', 'open', 'publication', 'number', 'nos', 'serial', \
-                     'related', 'claim', 'claims', 'embodiment', 'related', 'present', 'priority', 'design', \
-                     'said', 'respective', 'fig', 'figs', 'copyright', 'following', 'preceding', 'according', \
+patent_stop_words = ['patent', 'provisional', 'kokai', 'open', 'publication', 'number', 'nos', 'serial',
+                     'related', 'claim', 'claims', 'embodiment', 'related', 'present', 'priority', 'design',
+                     'said', 'respective', 'fig', 'figs', 'copyright', 'following', 'preceding', 'according',
                      'barring', 'pending', 'pertaining', 'international', 'wo', 'pct']
 
 signal_set = ['academically', 'accordance', 'according', 'accordingly', 'actuality', 'actually', 'addition', 'additionally', 'administratively', 'admittedly', 'aesthetically',
@@ -112,15 +112,15 @@ signal_set = ['academically', 'accordance', 'according', 'accordingly', 'actuali
 
 NE_stop_words = ['eds', 'publications?', 'et', 'co', 'al', 'eds', 'corp', 'inc', 'sa', 'cia', 'ltd', 'gmbh', 'esq', 'phd', 'natl', 'acad', 'sci', 'proc', 'chem', 'soc']
 
-ARG1_NAME_TABLE = {'EXEMPLIFY': 'SUBCLASS', 'DISCOVER': 'INVENTOR', 'MANUFACTURE': 'MAKER', 'SUPPLY': 'SUPPLIER', \
-                   'ORIGINATE': 'INVENTOR', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'FULLNAME', 'BETTER_THAN': 'BETTER', \
-                   'BASED_ON': 'DERIVED', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME', \
+ARG1_NAME_TABLE = {'EXEMPLIFY': 'SUBCLASS', 'DISCOVER': 'INVENTOR', 'MANUFACTURE': 'MAKER', 'SUPPLY': 'SUPPLIER',
+                   'ORIGINATE': 'INVENTOR', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'FULLNAME', 'BETTER_THAN': 'BETTER',
+                   'BASED_ON': 'DERIVED', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
                    'POSITIVE': 'JUDGE', 'NEGATIVE': 'JUDGE', 'SIGNIFICANT': 'JUDGE', 'PRACTICAL': 'JUDGE', 'STANDARD': 'JUDGE', 'EMPHASIZED_TERM': 'THEME', 'COMPONENT': 'PART',
                    'FEATURE': 'FEATURE'}
 
-ARG2_NAME_TABLE = {'EXEMPLIFY': 'SUPERCLASS', 'DISCOVER': 'INVENTION', 'MANUFACTURE': 'PRODUCT', 'SUPPLY': 'PRODUCT', \
-                   'ORIGINATE': 'INVENTION', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'SHORTNAME', 'BETTER_THAN': 'WORSE', \
-                   'BASED_ON': 'ORIGINAL', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME', \
+ARG2_NAME_TABLE = {'EXEMPLIFY': 'SUPERCLASS', 'DISCOVER': 'INVENTION', 'MANUFACTURE': 'PRODUCT', 'SUPPLY': 'PRODUCT',
+                   'ORIGINATE': 'INVENTION', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'SHORTNAME', 'BETTER_THAN': 'WORSE',
+                   'BASED_ON': 'ORIGINAL', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
                    'POSITIVE': 'THEME', 'NEGATIVE': 'THEME', 'SIGNIFICANT': 'THEME', 'PRACTICAL': 'THEME', 'STANDARD': 'THEME', 'EMPHASIZED_TERM': 'THEME', 'COMPONENT': 'WHOLE',
                    'FEATURE': 'BEARER'}
 
@@ -485,7 +485,7 @@ def update_pos_dict(name_infiles=[person_name_file, nat_name_file], other_infile
 def read_in_nom_dict(infile=nom_file):
     global nom_dict
     for line in open(infile).readlines():
-        nom_class, word = line.strip().split('\t')
+        nom_class: str, word: str = line.strip().split('\t')
         if word in nom_dict:
             nom_dict[word].append(nom_class)
         else:
@@ -777,7 +777,7 @@ def verbal_profile(word):
     if (len(word) > 5) and re.search('[aeiou][b-df-hj-np-ts-z]ed$', word):
         return (True)
 
-    ## @arch global state mutation
+        ## @arch global state mutation
 
 
 ## @func comp_termChunker

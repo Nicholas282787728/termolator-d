@@ -1,4 +1,4 @@
-from typing import List, Dict  # @semanticbeeng typing
+from typing import List, Dict
 from term_utilities import *
 
 global abbr_to_full_dict
