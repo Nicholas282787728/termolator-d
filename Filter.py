@@ -41,7 +41,7 @@ def _get_stops(filename=dir_name + 'patentstops.txt'):
 
 def _get_stemdict(filename):
     logger.debug('Loading stemming dictionary...')
-    f = open(filename, "rb")  # @semanticbeeng
+    f = open(filename, 'rb')
     global stemdict
     global unstemdict
     unpickler = pickle.Unpickler(f)          # @semanticbeeng
@@ -51,7 +51,7 @@ def _get_stemdict(filename):
 
 def _save_stemdict(filename):
     logger.debug('Saving stemming dictionary...')
-    f = open(filename, 'wb')  # @semanticbeeng
+    f = open(filename, 'wb')
     global stemdict
     global unstemdict
     pickle.dump((stemdict, unstemdict), f)
