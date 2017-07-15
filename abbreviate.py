@@ -1,35 +1,34 @@
-import re
-from typing import List, Dict
+from typing import List, Dict, Pattern
 from term_utilities import *
 
 # global abbr_to_full_dict
 # global full_to_abbr_dict
-global id_number
-global word_split_pattern
+# global id_number
+# global word_split_pattern
 # global ABBREVIATION_STOP_WORDS
-global greek_match_table
-global number_match_table
+# global greek_match_table
+# global number_match_table
 
-word_split_pattern = re.compile(r'[^\w@]+')
+word_split_pattern: Pattern[str] = re.compile(r'[^\w@]+')
 ABBREVIATION_STOP_WORDS: List[str] = ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among', 'as', 'at', 'by', 'for', 'from', 'in', 'into',
                                       'like',
                                       'minus', 'near', 'of', 'off', 'on', 'onto', 'out', 'over', 'past', 'per', 'plus', 'since', 'till', 'to', 'under', 'until', 'up', 'via', 'vs',
                                       'with',
                                       'that']
 
-id_number = 0
+id_number: int = 0
 abbr_to_full_dict: Dict[str, str] = {}
 full_to_abbr_dict: Dict[str, str] = {}
-greek_match_table = {'Α': 'A', 'Β': 'B', 'Γ': 'G', 'Δ': 'D', 'Ε': 'E', 'Ζ': 'Z', 'Η': 'H', 'Θ': 'T',
+greek_match_table: Dict[str, str] = {'Α': 'A', 'Β': 'B', 'Γ': 'G', 'Δ': 'D', 'Ε': 'E', 'Ζ': 'Z', 'Η': 'H', 'Θ': 'T',
                      'Ι': 'I', 'Κ': 'K', 'Λ': 'L', 'Μ': 'M', 'Ν': 'N', 'Ξ': 'X', 'Ο': 'O',
                      'Π': 'P', 'Ρ': 'R', 'Σ': 'S', 'Τ': 'T', 'Υ': 'U', 'Φ': 'P', 'Χ': 'C', 'Ψ': 'P', 'ϖ': 'P'}
 
-number_match_table = {'ONE': '1', 'TWO': '2', 'THREE': '3', 'FOUR': '4', 'FIVE': '5', 'SIX': '6', 'SEVEN': '7', 'EIGHT': '8', 'NINE': '9', 'FIRST': '1', 'SECOND': '2',
+number_match_table: Dict[str, str] = {'ONE': '1', 'TWO': '2', 'THREE': '3', 'FOUR': '4', 'FIVE': '5', 'SIX': '6', 'SEVEN': '7', 'EIGHT': '8', 'NINE': '9', 'FIRST': '1', 'SECOND': '2',
                       'THIRD': '3', 'FOURTH': '4', 'FIFTH': '5', 'SIXTH': '6', 'SEVENTH': '7', 'EIGHTH': '8', 'NINTH': '9', 'UNI': '1', 'BI': '2', 'TRI': '3', 'QUAD': '4',
                       'QUINT': '5'}
 
 
-def ill_formed_abbreviation_pattern(abbreviation_pattern):
+def ill_formed_abbreviation_pattern(abbreviation_pattern: Match[str]) -> bool:
     ## attempts to identify parentheses that do not contain abbreviations
     ## first type is of the form (X,Y) (or (X,Y,Z,...) where X and Y are
     ## single characters
@@ -47,15 +46,15 @@ def ill_formed_abbreviation_pattern(abbreviation_pattern):
         return (False)
 
 
-def regularize_match_string(string):
+def regularize_match_string(string: str) -> str:
     return (re.sub('[- ]+', ' ', string.strip(''' ,.?><'";:][{}-_=)(*&^%$#@!~''').upper()))
 
 
-def regularize_match_string1(string):
+def regularize_match_string1(string: str) -> str:
     return (re.sub('[-]', ' ', string.upper()))
 
 
-def remove_empties(input_list):
+def remove_empties(input_list: List[str]) -> List[str]:
     if type(input_list) == list:
         return ([x for x in input_list if (x != '')])
     else:

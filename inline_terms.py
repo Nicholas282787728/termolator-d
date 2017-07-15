@@ -1,12 +1,13 @@
-import re
 import sys
+import re
+from typing import List, Dict, Pattern, Match
 
 from abbreviate import *
 
-et_al_citation = re.compile(' et[.]? al[.]? *$')
+et_al_citation: Pattern[str] = re.compile(' et[.]? al[.]? *$')
 ok_path_types = ['url']  ##  currently 'ratio' is not an ok_path_type
-compound_inbetween_string = re.compile('^ +(of|for) +((the|a|[A-Z]\.) +)?$', re.I)
-term_stop_words_with_periods = re.compile('(^|\s)(u\.s|e\.g|i\.e|u\.k|c\.f|see|ser)([\.\s]|$)', re.I)
+compound_inbetween_string: Pattern[str] = re.compile('^ +(of|for) +((the|a|[A-Z]\.) +)?$', re.I)
+term_stop_words_with_periods: Pattern[str] = re.compile('(^|\s)(u\.s|e\.g|i\.e|u\.k|c\.f|see|ser)([\.\s]|$)', re.I)
 
 lemma_dict: Dict[str, str] = {}
 
@@ -233,8 +234,8 @@ def get_next_word(instring, start):
         elif instring[border] == "-":
             ## Don't split at hyphen unless both adjacent chars are alpha chars maybe done
             next_word = word_pattern.search(instring, found.end())
-            if next_word and (border + 1 == next_word.start()) and (((found.group(0).isalpha() and \
-                                                                          ((len(found.group(0)) == 1) or found.group(0).isalpha()))) or \
+            if next_word and (border + 1 == next_word.start()) and (((found.group(0).isalpha() and
+                                                                          ((len(found.group(0)) == 1) or found.group(0).isalpha()))) or
                                                                         ((len(next_word.group(0)) > 3) and (
                                                                                     (next_word.group(0)[-2:] == "ed") or (next_word.group(0)[-3:] == 'ing')))):
                 end = next_word.end()
@@ -245,9 +246,9 @@ def get_next_word(instring, start):
             else:
                 end = found.end()
                 found = False
-        elif ((instring[border] == ',') and \
+        elif ((instring[border] == ',') and
                   ((not ((border > 0) and instring[border - 1].isalpha)) or (not re.search('\s', instring[border + 1])))) \
-                or ((instring[border] == ')') and \
+                or ((instring[border] == ')') and
                         (border < (len(instring) - 1)) and (re.search('[a-zA-Z0-9]', instring[border + 1]))):
             ## don't split unless preceding character is alphachar and following char is whitespace
             next_word = word_pattern.search(instring, found.end())
@@ -255,7 +256,7 @@ def get_next_word(instring, start):
                 end = next_word.end()
                 found = next_word
         elif (instring[border] == '(') and (border > 0) and (not re.search('\s', instring[border - 1])):
-            paren_pat = parentheses_pattern_match(instring, border, 2)
+            paren_pat: Match = parentheses_pattern_match(instring, border, 2)
             ### parentheses_pattern2.search(instring,border)
             if paren_pat and (not re.search('\s', paren_pat.group(1))):
                 ## require matching paren pattern
@@ -362,7 +363,7 @@ def OK_chemical(chem_string):
                 ## elements can only occur once
                 return (False)
             elements.append(current_element)
-    if (len(elements) > 2) or ((len(elements) == 2) and \
+    if (len(elements) > 2) or ((len(elements) == 2) and
                                    (has_two_char_element or re.search('[0-9]', chem_string))):
         return (True)
     else:
@@ -423,7 +424,7 @@ def get_next_path_match(text, start):
     while path_match or path_match2:
         if path_match and path_match2:
             if (path_match.start() < path_match2.start()) or \
-                    ((path_match.start() == path_match2.start()) and \
+                    ((path_match.start() == path_match2.start()) and
                          (path_match.end() <= path_match2.end())):
                 if (re.search('^[^/]*:[^/]*/', path_match.group(0)) or re.search('^[^/]*[a-zA-Z]\.[a-zA-Z][^/]*/', path_match.group(0))) \
                         and OK_path(path_match.group(0), url=True):
@@ -694,7 +695,7 @@ def get_topic_terms(text, offset, filter_off=False):
         while (start < len(piece)) and (sing or doub):
             if doub and ((not sing) or ((sing.start() < doub.start()) and (sing.end() > doub.end()))):
                 ## if doub nested inside of singular, assume singular quotes are in error
-                pieces2.extend([[meta_start + start, piece[start:doub.start()]], \
+                pieces2.extend([[meta_start + start, piece[start:doub.start()]],
                                 [meta_start + doub.start(2), doub.group(2)]])
                 start = doub.end()
                 doub = double_quote_pattern.search(piece, start)

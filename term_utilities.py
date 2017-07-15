@@ -1,7 +1,7 @@
 import os
 import random
 import re
-from typing import List, Dict
+from typing import List, Dict, Pattern, Match
 
 DICT_DIRECTORY = os.path.dirname(os.path.realpath(__file__)) + os.sep + "dicts" + os.sep
 ## DICT_DIRECTORY = '../'
@@ -152,12 +152,12 @@ xml_pattern = re.compile(r'<([/!?]?)([a-z?\-]+)[^>]*>', re.I)
 xml_string = '<([/!?]?)([a-z?\-]+)[^>]*>'
 
 ## abbreviate patterns -- the b patterns ignore square brackets
-global parentheses_pattern2
-global parentheses_pattern3
-parentheses_pattern2a = re.compile(r'[(\[]([ \t]*)([^)\]]*)([)\]]|$)')
-parentheses_pattern3a = re.compile(r'(\s|^)[(\[]([^)\]]*)([)\]]|$)([^a-zA-Z0-9-]|$)')
-parentheses_pattern2b = re.compile(r'[(]([ \t]*)([^)]*)([)]|$)')
-parentheses_pattern3b = re.compile(r'(\s|^)[(]([^)]*)([)\]]|$)([^a-zA-Z0-9-]|$)')
+# global parentheses_pattern2
+# global parentheses_pattern3
+parentheses_pattern2a: Pattern[str] = re.compile(r'[(\[]([ \t]*)([^)\]]*)([)\]]|$)')
+parentheses_pattern3a: Pattern[str] = re.compile(r'(\s|^)[(\[]([^)\]]*)([)\]]|$)([^a-zA-Z0-9-]|$)')
+parentheses_pattern2b: Pattern[str] = re.compile(r'[(]([ \t]*)([^)]*)([)]|$)')
+parentheses_pattern3b: Pattern[str] = re.compile(r'(\s|^)[(]([^)]*)([)\]]|$)([^a-zA-Z0-9-]|$)')
 
 html_fields_to_remove = ['style', 'script']
 
@@ -511,7 +511,7 @@ def initialize_utilities():
         parentheses_pattern3 = parentheses_pattern3a
 
 
-def parentheses_pattern_match(instring, start, pattern_number):
+def parentheses_pattern_match(instring: str, start: int, pattern_number: int) -> Match:
     if 'legal' in special_domains:
         if pattern_number == 2:
             return (parentheses_pattern2b.search(instring, start))
