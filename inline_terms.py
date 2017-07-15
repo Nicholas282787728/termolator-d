@@ -1,4 +1,4 @@
-from typing import List, Dict
+from typing import Dict
 from abbreviate import *
 import sys
 import re
@@ -9,7 +9,7 @@ compound_inbetween_string = re.compile('^ +(of|for) +((the|a|[A-Z]\.) +)?$', re.
 term_stop_words_with_periods = re.compile('(^|\s)(u\.s|e\.g|i\.e|u\.k|c\.f|see|ser)([\.\s]|$)', re.I)
 
 lemma_dict: Dict[str, str] = {}
-cluster_hash: Dict = {}
+# @semanticbeeng not used cluster_hash: Dict = {}
 
 
 ## @func comp_termChunker
