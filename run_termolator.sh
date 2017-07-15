@@ -31,7 +31,7 @@ echo "dedicated webscore file ${12}"
 
 ## Step 1: Finding inline terms for foreground files
 echo "Running Step 1: finding inline terms for foreground files"
-# @semanticbeeng TERMOLATOR=${9:-$TERMOLATORPATH}
+TERMOLATOR=${9:-$TERMOLATORPATH}
 $TERMOLATOR/make_io_file.py $1 $4.internal_prefix_list BARE
 $TERMOLATOR/make_io_file.py $1 $4.internal_pos_list .pos
 $TERMOLATOR/make_io_file.py $1 $4.internal_txt_fact_list .txt3 .fact
