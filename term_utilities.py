@@ -3,7 +3,7 @@ import random
 import re
 from typing import List, Dict
 
-DICT_DIRECTORY = os.path.dirname(os.path.realpath(__file__)) + os.sep
+DICT_DIRECTORY = os.path.dirname(os.path.realpath(__file__)) + os.sep + "dicts" + os.sep
 ## DICT_DIRECTORY = '../'
 ## DICT_DIRECTORY = './'
 ORG_DICTIONARY = DICT_DIRECTORY + 'org_dict.txt'

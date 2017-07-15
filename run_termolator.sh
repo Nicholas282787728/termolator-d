@@ -51,7 +51,7 @@ else
 fi
 
 echo "Calling Java Consule TJet jar with properties above"
-java -Xmx16g -cp ${TERMOLATOR}/TJet.jar FuseJet.Utils.Console ./temporary_TERMOLATOR_POS.properties $4.internal_txt_fact_list $4.internal_pos_list
+java -Xmx16g -cp ${TERMOLATOR}/lib/TJet.jar FuseJet.Utils.Console ./temporary_TERMOLATOR_POS.properties $4.internal_txt_fact_list $4.internal_pos_list
 ## generates POS files
 
 echo "Generating POS files"
@@ -77,7 +77,7 @@ if [ "$5" = "True" ]; then
     $TERMOLATOR/make_io_file.py $2 $4.internal_pos_terms_abbr_list .pos .terms .abbr
     $TERMOLATOR/make_termolator_fact_txt_files.py $4.internal_prefix_list $3
 ## generates fact, txt2 and txt3 files from input files
-    java -Xmx16g -cp ${TERMOLATOR}/TJet.jar FuseJet.Utils.Console ./temporary_TERMOLATOR_POS.properties $4.internal_txt_fact_list $4.internal_pos_list
+    java -Xmx16g -cp ${TERMOLATOR}/lib/TJet.jar FuseJet.Utils.Console ./temporary_TERMOLATOR_POS.properties $4.internal_txt_fact_list $4.internal_pos_list
 ## generates POS files
     $TERMOLATOR/run_adjust_missing_char_pos.py $4.internal_fact_pos_list
 ## adjustment for special characters

@@ -11,7 +11,7 @@ stops = []
 stemmer = None
 stemdict = {}  # stemming dictionary
 unstemdict = {}  # reverse stemming dictionary
-dir_name = os.path.dirname(os.path.realpath(__file__)) + os.sep
+dir_name = os.path.dirname(os.path.realpath(__file__)) + os.sep + "dicts" + os.sep
 logger = logging.getLogger()
 
 
