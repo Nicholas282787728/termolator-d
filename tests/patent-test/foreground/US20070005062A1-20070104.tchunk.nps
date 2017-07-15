@@ -1,0 +1,416 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'of adjacent vertebra'
+p7
+I1
+sS'trans-axial orient'
+p8
+I1
+sS'relative mot'
+p9
+I4
+sS'opposit'
+p10
+I1
+sS'friction'
+p11
+I1
+sS'disc'
+p12
+I3
+sS'trans-axial portion engag'
+p13
+I4
+sS'sutur'
+p14
+I4
+sS'fit'
+p15
+I1
+sS'proxim'
+p16
+I2
+sS'flex rel'
+p17
+I2
+sS'uni-axi'
+p18
+I1
+sS'tn'
+p19
+I6
+sS'u-shaped receptacl'
+p20
+I1
+sS'multi-directional stabilization of a spinal column seg'
+p21
+I1
+sS'diagrammatic view of'
+p22
+I7
+sS'return'
+p23
+I1
+sS'spinal mot'
+p24
+I5
+sS'multi-directional stabilization of'
+p25
+I1
+sS'fusion'
+p26
+I2
+sS'adjacent anchor'
+p27
+I1
+sS'bottom-loading connector'
+p28
+I1
+sS'dynamic fix'
+p29
+I1
+sS'the stabil'
+p30
+I1
+sS'spine'
+p31
+I1
+sS'cordova tn'
+p32
+I1
+sS'compressible body position'
+p33
+I4
+sS'artificial disc'
+p34
+I2
+sS'flexion'
+p35
+I1
+sS'arrow'
+p36
+I1
+sS'multi-directional stabilization of a spinal column'
+p37
+I1
+sS'compressible stabil'
+p38
+I2
+sS'upper'
+p39
+I1
+sS'stabilization of a spinal column seg'
+p40
+I1
+sS'spinal motion seg'
+p41
+I11
+sS'receptacl'
+p42
+I1
+sS'postero-later'
+p43
+I1
+sS'receiving portion engag'
+p44
+I1
+sS'orient'
+p45
+I6
+sS'extend'
+p46
+I5
+sS'column seg'
+p47
+I18
+sS'oblique orient'
+p48
+I5
+sS'diagrammatic view of the spinal mot'
+p49
+I6
+sS'spinal column'
+p50
+I30
+sS'physiolog'
+p51
+I1
+sS'the spinal motion seg'
+p52
+I6
+sS'rel'
+p53
+I6
+sS'cordova'
+p54
+I1
+sS'approach'
+p55
+I1
+sS'diagrammatic view of the spinal motion seg'
+p56
+I6
+sS'motion seg'
+p57
+I10
+sS'lange er'
+p58
+I1
+sS'antero-later'
+p59
+I1
+sS'antero-lateral portions of'
+p60
+I1
+sS'extens'
+p61
+I1
+sS'continuous loop'
+p62
+I1
+sS'of a spinal motion seg'
+p63
+I2
+sS'side-loading connector'
+p64
+I1
+sS'fixation of a spinal column seg'
+p65
+I1
+sS'column'
+p66
+I14
+sS'of'
+p67
+I1
+sS'motion'
+p68
+I5
+sS'antero-lateral portions of a spinal column seg'
+p69
+I1
+sS'ceram'
+p70
+I2
+sS'dynamic stabil'
+p71
+I1
+sS'friction fit'
+p72
+I1
+sS'multi-directional spinal stabil'
+p73
+I9
+sS'proximal receiv'
+p74
+I2
+sS'proximal receiving portion engag'
+p75
+I1
+sS'multi-axi'
+p76
+I1
+sS'connector'
+p77
+I3
+sS'indiana'
+p78
+I1
+sS'of the spinal motion seg'
+p79
+I12
+sS'diagrammatic view of th'
+p80
+I6
+sS'anchor trans-axi'
+p81
+I4
+sS'adjacent upp'
+p82
+I1
+sS'adhes'
+p83
+I1
+sS'multi-directional stabil'
+p84
+I5
+sS'diagrammatic view of a spinal mot'
+p85
+I1
+sS'collierville tn'
+p86
+I1
+sS'trans-axi'
+p87
+I19
+sS'colliervil'
+p88
+I1
+sS'carbon fib'
+p89
+I2
+sS'distract'
+p90
+I6
+sS'opposite arrow'
+p91
+I2
+sS'trans-axial stabil'
+p92
+I2
+sS'of a spinal column seg'
+p93
+I4
+sS'lange eric c'
+p94
+I1
+sS'b h'
+p95
+I1
+sS'pedicles of'
+p96
+I1
+sS'relative motion therebetween'
+p97
+I1
+sS'anchor'
+p98
+I1
+sS'loop'
+p99
+I1
+sS'spinal stabil'
+p100
+I8
+sS'engag'
+p101
+I36
+sS'dynamic fixation of a spinal column'
+p102
+I1
+sS'memphis tn'
+p103
+I4
+sS'swage'
+p104
+I1
+sS'antero-lateral portions of a spinal column'
+p105
+I1
+sS'adjacent vertebra'
+p106
+I5
+sS'carbon'
+p107
+I2
+sS'loop position'
+p108
+I4
+sS'indianapoli'
+p109
+I1
+sS'screw'
+p110
+I8
+sS'strength'
+p111
+I1
+sS'pedicles of adjacent vertebra'
+p112
+I1
+sS'intervertebral disc'
+p113
+I1
+sS'receiv'
+p114
+I2
+sS'pedicl'
+p115
+I3
+sS'spinal column seg'
+p116
+I21
+sS'dynamic fixation of'
+p117
+I1
+sS'diagrammatic view of a spinal motion seg'
+p118
+I1
+sS'slidable rel'
+p119
+I4
+sS'memphi'
+p120
+I4
+sS'anatomi'
+p121
+I1
+sS'tension'
+p122
+I3
+sS'dynamic fixation of a spinal column seg'
+p123
+I1
+sS'compress'
+p124
+I7
+sS'capabl'
+p125
+I1
+sS'x-shape extend'
+p126
+I1
+sS'segment'
+p127
+I28
+sS'lang'
+p128
+I1
+sS'stabil'
+p129
+I68
+sS'non-tens'
+p130
+I3
+sS'bi-later'
+p131
+I3
+sS'of the stabil'
+p132
+I2
+sS'therebetween'
+p133
+I2
+sS'motion therebetween'
+p134
+I1
+sS'vertebra'
+p135
+I44
+sS'of th'
+p136
+I1
+sS'anchor engag'
+p137
+I20
+sS'position'
+p138
+I41
+sS'top-loading connector'
+p139
+I1
+stp140
+Rp141
+tp142
+.

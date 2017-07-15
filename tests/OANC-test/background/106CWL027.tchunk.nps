@@ -1,0 +1,53 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'volunt'
+p7
+I1
+sS'organ'
+p8
+I3
+sS'cancer'
+p9
+I1
+sS'leader'
+p10
+I2
+sS'program'
+p11
+I1
+sS'victim'
+p12
+I1
+sS'world'
+p13
+I1
+sS'develop'
+p14
+I1
+sS'professional world'
+p15
+I1
+sS'cancer victim'
+p16
+I1
+sS'volunteer organ'
+p17
+I1
+sS'comprehensive program'
+p18
+I1
+stp19
+Rp20
+tp21
+.

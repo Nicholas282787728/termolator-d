@@ -1,0 +1,1277 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'protein databas'
+p7
+I1
+sS'pigmentosum'
+p8
+I1
+sS'segmental rmsd'
+p9
+I1
+sS'founder'
+p10
+I1
+sS'opposit'
+p11
+I3
+sS'endonuclease domain'
+p12
+I1
+sS'rat murin'
+p13
+I1
+sS'signific'
+p14
+I1
+sS'concept'
+p15
+I1
+sS'saccharomyc'
+p16
+I1
+sS'ap-dna'
+p17
+I1
+sS'core of huape1'
+p18
+I1
+sS'cytolethal distending toxin'
+p19
+I1
+sS'mammalian cell growth'
+p20
+I1
+sS'neutral sphingomyelin phosphodiesteras'
+p21
+I1
+sS'chain'
+p22
+I2
+sS'murin'
+p23
+I1
+sS'homologu'
+p24
+I5
+sS'helic'
+p25
+I1
+sS"rmsd '"
+p26
+I1
+sS'enzymatic act'
+p27
+I1
+sS'endonuclease act'
+p28
+I1
+sS'enzyme dnas'
+p29
+I1
+sS'masia printout'
+p30
+I1
+sS'non-specific dna bind'
+p31
+I1
+sS'n226'
+p32
+I1
+sS'xth'
+p33
+I2
+sS'wb'
+p34
+I1
+sS'contribut'
+p35
+I1
+sS'yeast'
+p36
+I2
+sS'rnase h'
+p37
+I1
+sS'non-conservative residu'
+p38
+I1
+sS'dna bind'
+p39
+I3
+sS'nuclease dnas'
+p40
+I1
+sS'neisseria'
+p41
+I1
+sS'1de8 cryst'
+p42
+I1
+sS'bacterial ancestor'
+p43
+I1
+sS'blast'
+p44
+I2
+sS'acidophilum'
+p45
+I1
+sS'ber pathway'
+p46
+I2
+sS'n-terminal motif'
+p47
+I1
+sS'repair protein'
+p48
+I1
+sS'of r177'
+p49
+I1
+sS'domain of synaptojanin'
+p50
+I1
+sS'abasic sit'
+p51
+I12
+sS'list'
+p52
+I4
+sS'phosphate backbon'
+p53
+I3
+sS'architecture conserv'
+p54
+I1
+sS'superfamili'
+p55
+I1
+sS'qe'
+p56
+I1
+sS'common'
+p57
+I1
+sS'plots of'
+p58
+I2
+sS'homology model'
+p59
+I2
+sS'ipp domain of'
+p60
+I1
+sS'physical property similar'
+p61
+I1
+sS'align'
+p62
+I7
+sS'alignment using molego'
+p63
+I2
+sS'web-based masia'
+p64
+I1
+sS'printout'
+p65
+I1
+sS'thermoplasma acidophilum'
+p66
+I1
+sS'alanine mutant of'
+p67
+I1
+sS'packet'
+p68
+I1
+sS'casp5 competit'
+p69
+I1
+sS'dna repair'
+p70
+I2
+sS'representatives of a protein'
+p71
+I1
+sS'diverse famili'
+p72
+I1
+sS'parameters of clustalw'
+p73
+I1
+sS'distending toxin'
+p74
+I1
+sS'rrp'
+p75
+I1
+sS'\xce\xb2-strand molego'
+p76
+I1
+sS'statu'
+p77
+I1
+sS'phosphate backbone of the dna'
+p78
+I1
+sS'clustalw align'
+p79
+I1
+sS'excis'
+p80
+I1
+sS'databas'
+p81
+I1
+sS'of dna repair protein'
+p82
+I1
+sS'fission'
+p83
+I1
+sS'cell'
+p84
+I1
+sS'methyltransferase famili'
+p85
+I1
+sS'repair'
+p86
+I2
+sS'damage sit'
+p87
+I2
+sS'arabidopsi'
+p88
+I1
+sS'exodeoxyribonucleas'
+p89
+I1
+sS'approach'
+p90
+I6
+sS'psiblast search'
+p91
+I1
+sS'concentr'
+p92
+I1
+sS'blast list'
+p93
+I2
+sS'ape molego'
+p94
+I1
+sS'multifunctional family of dna repair protein'
+p95
+I1
+sS'clustal-w misalignment of th'
+p96
+I1
+sS'misalignment of the nuclease area of the protein'
+p97
+I1
+sS'phosphodiesteras'
+p98
+I1
+sS'phosphodiester backbon'
+p99
+I1
+sS'mutant of r177'
+p100
+I1
+sS'mammalian ape1'
+p101
+I1
+sS'ungapped seg'
+p102
+I1
+sS'search'
+p103
+I1
+sS'molegos common'
+p104
+I1
+sS'of synaptojanin'
+p105
+I1
+sS'observ'
+p106
+I1
+sS'mutagen'
+p107
+I1
+sS'bacterial exoiii'
+p108
+I1
+sS'arabidopsis thaliana'
+p109
+I1
+sS'studi'
+p110
+I2
+sS'gene'
+p111
+I1
+sS'individual \xce\xb2-strand'
+p112
+I2
+sS'f266 mutat'
+p113
+I1
+sS'\xce\xb2-barrel cor'
+p114
+I1
+sS'transition state complex'
+p115
+I1
+sS'hydroxyl group for dna polymeras'
+p116
+I1
+sS'activ'
+p117
+I7
+sS'transit'
+p118
+I1
+sS'residu'
+p119
+I4
+sS'ipp'
+p120
+I5
+sS'total sequence decomposit'
+p121
+I1
+sS'famili'
+p122
+I9
+sS'yeast apeii'
+p123
+I1
+sS'ape'
+p124
+I5
+sS'turnov'
+p125
+I1
+sS'plot'
+p126
+I3
+sS'dna'
+p127
+I31
+sS'acid mammalian'
+p128
+I1
+sS'molegos of ape1'
+p129
+I1
+sS'molegos distinct'
+p130
+I1
+sS'molego'
+p131
+I29
+sS'pseudomona'
+p132
+I1
+sS'implic'
+p133
+I1
+sS'the nuclease area of the protein'
+p134
+I1
+sS'lego styl'
+p135
+I1
+sS'deviat'
+p136
+I1
+sS'criteria'
+p137
+I1
+sS'implications for'
+p138
+I1
+sS'amino acid methyltransferas'
+p139
+I1
+sS'dna backbon'
+p140
+I1
+sS'reaction'
+p141
+I1
+sS'dna sit'
+p142
+I1
+sS'n-termini'
+p143
+I1
+sS'molegos of'
+p144
+I1
+sS'recent cryst'
+p145
+I1
+sS'masia packet'
+p146
+I1
+sS'gap'
+p147
+I1
+sS'dnase1'
+p148
+I2
+sS'molegos form individual \xce\xb2-strand'
+p149
+I1
+sS'recent crystal structures of'
+p150
+I1
+sS'cerevisia'
+p151
+I1
+sS'phosphate backbone of'
+p152
+I1
+sS'falciparum'
+p153
+I1
+sS'iii'
+p154
+I2
+sS'n-terminu'
+p155
+I1
+sS'cress'
+p156
+I1
+sS'mammalian enzym'
+p157
+I2
+sS'enzymatic activity of'
+p158
+I1
+sS'prepar'
+p159
+I3
+sS'individual domain'
+p160
+I1
+sS'mammalian'
+p161
+I2
+sS'masia masia'
+p162
+I1
+sS'r177'
+p163
+I1
+sS'amino acid methyltransferase famili'
+p164
+I1
+sS'amino acid mammalian'
+p165
+I1
+sS'exonuclease iii'
+p166
+I2
+sS'bacterial ancestral gen'
+p167
+I1
+sS'program'
+p168
+I4
+sS'repair pathway'
+p169
+I1
+sS'motif'
+p170
+I5
+sS'genomic cross-network'
+p171
+I2
+sS'process'
+p172
+I2
+sS'substitution mut'
+p173
+I1
+sS'cell growth'
+p174
+I2
+sS'share'
+p175
+I1
+sS'-polyphosphate phosphatas'
+p176
+I2
+sS'\xce\xb2-barrel core of huape1'
+p177
+I1
+sS'molego approach'
+p178
+I4
+sS'neisseria meningitidi'
+p179
+I1
+sS'protein'
+p180
+I22
+sS'hydrogen'
+p181
+I2
+sS'phosphorolysi'
+p182
+I2
+sS'counterpart'
+p183
+I1
+sS'dna ethyl'
+p184
+I1
+sS'of th'
+p185
+I2
+sS'masia motif'
+p186
+I1
+sS'di'
+p187
+I2
+sS'of the protein'
+p188
+I2
+sS'sphingomyelin phosphodiesteras'
+p189
+I1
+sS'activity spectrum'
+p190
+I1
+sS'thermoplasma'
+p191
+I1
+sS'for dna polymeras'
+p192
+I2
+sS'cleavage sit'
+p193
+I1
+sS'ccr4'
+p194
+I1
+sS'molegos distinctive for ape1'
+p195
+I1
+sS'ancestor'
+p196
+I1
+sS'pathway'
+p197
+I3
+sS'of the nuclease area of the protein'
+p198
+I1
+sS'breakdown'
+p199
+I1
+sS'map'
+p200
+I2
+sS'subfamili'
+p201
+I3
+sS'default parameters of clustalw'
+p202
+I1
+sS'masia consensus macro'
+p203
+I1
+sS'genomic clon'
+p204
+I2
+sS'clone'
+p205
+I1
+sS'original align'
+p206
+I1
+sS'ipp domain'
+p207
+I1
+sS'molego build'
+p208
+I1
+sS'plasmodium falciparum'
+p209
+I1
+sS'ion'
+p210
+I10
+sS'alanine mut'
+p211
+I1
+sS'multifunctional family of dna repair'
+p212
+I1
+sS'nucleotid'
+p213
+I1
+sS'mutat'
+p214
+I2
+sS'residues clos'
+p215
+I1
+sS'excision repair'
+p216
+I1
+sS'of the molego'
+p217
+I3
+sS'caenorhabd'
+p218
+I1
+sS'bind'
+p219
+I3
+sS'phosphatas'
+p220
+I2
+sS'alanine substitution mut'
+p221
+I1
+sS'dnase-1'
+p222
+I2
+sS'schizosaccharomyces pomb'
+p223
+I1
+sS'thaliana'
+p224
+I3
+sS'model'
+p225
+I2
+sS'dna mutagen'
+p226
+I1
+sS'ipp famili'
+p227
+I2
+sS'of ape1'
+p228
+I7
+sS'polymerase mov'
+p229
+I1
+sS'of huape1'
+p230
+I5
+sS'entri'
+p231
+I2
+sS'move'
+p232
+I1
+sS'rosetta program'
+p233
+I1
+sS'synaptojanin'
+p234
+I6
+sS'coli'
+p235
+I2
+sS'prosit'
+p236
+I2
+sS'ethyl'
+p237
+I1
+sS'site'
+p238
+I18
+sS'rosetta'
+p239
+I1
+sS'default parameters of'
+p240
+I1
+sS'consensu'
+p241
+I1
+sS'duplex'
+p242
+I1
+sS'clustal-w misalignment of the nuclease area of the protein'
+p243
+I1
+sS'of molego'
+p244
+I1
+sS'identif'
+p245
+I1
+sS'default paramet'
+p246
+I1
+sS'acid methyltransferase famili'
+p247
+I1
+sS'complex'
+p248
+I6
+sS'one-dimensional definit'
+p249
+I1
+sS'strand'
+p250
+I2
+sS'scop'
+p251
+I1
+sS'essential residu'
+p252
+I1
+sS'clustal-w misalign'
+p253
+I1
+sS'toxin'
+p254
+I1
+sS'w280'
+p255
+I2
+sS'the dna'
+p256
+I1
+sS'-phosphodiester act'
+p257
+I1
+sS'mouse-ear cress'
+p258
+I1
+sS'drosophila'
+p259
+I1
+sS'recent crystal structures of huape1'
+p260
+I1
+sS'enzymatic activity of huape1'
+p261
+I1
+sS'representatives of a protein famili'
+p262
+I1
+sS'masia'
+p263
+I12
+sS'of the dna'
+p264
+I1
+sS'mammalian protein'
+p265
+I1
+sS'ape1'
+p266
+I9
+sS'polymeras'
+p267
+I2
+sS'backbon'
+p268
+I5
+sS'rmsd'
+p269
+I4
+sS'xeroderma pigmentosum'
+p270
+I1
+sS'-exonuclease act'
+p271
+I1
+sS'meningitidi'
+p272
+I1
+sS'protein famili'
+p273
+I5
+sS'coli exonuclease iii'
+p274
+I2
+sS'radiat'
+p275
+I1
+sS'elegan'
+p276
+I1
+sS'genom'
+p277
+I1
+sS'mammalian ap'
+p278
+I1
+sS'backbone devi'
+p279
+I1
+sS'bond'
+p280
+I1
+sS'bacterial surviv'
+p281
+I1
+sS'nocturnin'
+p282
+I1
+sS'domain'
+p283
+I2
+sS'competit'
+p284
+I1
+sS'site architectur'
+p285
+I1
+sS'swisspdb view'
+p286
+I1
+sS'growth'
+p287
+I2
+sS'expect'
+p288
+I1
+sS'motif definit'
+p289
+I2
+sS'missense mut'
+p290
+I1
+sS'cross-network'
+p291
+I2
+sS'crystal structures of huape1'
+p292
+I1
+sS'excision repair pathway'
+p293
+I2
+sS'dna polymeras'
+p294
+I1
+sS'crc'
+p295
+I1
+sS'schizosaccharomyc'
+p296
+I1
+sS'definit'
+p297
+I4
+sS'masia tool'
+p298
+I1
+sS'activity of huape1'
+p299
+I1
+sS'deficit'
+p300
+I1
+sS'saccharomyces cerevisia'
+p301
+I1
+sS'plot of'
+p302
+I1
+sS'xeroderma'
+p303
+I1
+sS'damag'
+p304
+I2
+sS'clustal-w misalignment of'
+p305
+I1
+sS'cleavag'
+p306
+I3
+sS'the molego'
+p307
+I1
+sS'the protein'
+p308
+I1
+sS'eukaryot'
+p309
+I1
+sS'ident'
+p310
+I4
+sS'of clustalw'
+p311
+I1
+sS'common molego'
+p312
+I1
+sS'dna repair enzym'
+p313
+I1
+sS'molegos distinctive for'
+p314
+I1
+sS'molego concept'
+p315
+I1
+sS'releas'
+p316
+I1
+sS'conservation of individual residu'
+p317
+I1
+sS'mutant'
+p318
+I3
+sS'\xce\xb2-barrel core of'
+p319
+I1
+sS'dna repair protein'
+p320
+I1
+sS"segmental rmsd '"
+p321
+I1
+sS'of'
+p322
+I5
+sS'hydroxyl group for'
+p323
+I1
+sS'literatur'
+p324
+I1
+sS'of individual residu'
+p325
+I1
+sS'similarities of'
+p326
+I1
+sS'normal dna'
+p327
+I1
+sS'ap-sit'
+p328
+I2
+sS'plot of huape1'
+p329
+I2
+sS'repair deficit'
+p330
+I1
+sS'multifunctional family of'
+p331
+I1
+sS'masia criteria'
+p332
+I1
+sS'subset'
+p333
+I1
+sS'multifunctional famili'
+p334
+I1
+sS'amino acid'
+p335
+I2
+sS'facit'
+p336
+I1
+sS'plots of ape1'
+p337
+I2
+sS'multifunctional family of dna'
+p338
+I1
+sS'mammalian cel'
+p339
+I1
+sS'vitro'
+p340
+I1
+sS'surviv'
+p341
+I1
+sS'phosphate backbone of th'
+p342
+I1
+sS'web-based masia program'
+p343
+I1
+sS'nuclease area of the protein'
+p344
+I1
+sS'backbone of the dna'
+p345
+I1
+sS'lego'
+p346
+I1
+sS'xpa'
+p347
+I1
+sS'drosophila rrp'
+p348
+I1
+sS'evolut'
+p349
+I1
+sS'dnase'
+p350
+I2
+sS'enzym'
+p351
+I4
+sS'mutagenesi'
+p352
+I1
+sS'similarities of molego'
+p353
+I2
+sS'family of dna repair protein'
+p354
+I1
+sS'non-specific dna'
+p355
+I1
+sS'fission yeast'
+p356
+I1
+sS'decomposit'
+p357
+I2
+sS'target dna'
+p358
+I2
+sS'site architecture conserv'
+p359
+I1
+sS'individual residu'
+p360
+I1
+sS'masia program'
+p361
+I3
+sS'pomb'
+p362
+I1
+sS'conserv'
+p363
+I8
+sS'crc protein'
+p364
+I1
+sS'clustalw'
+p365
+I4
+sS'repair enzym'
+p366
+I1
+sS'target'
+p367
+I2
+sS'default'
+p368
+I1
+sS'phosphorolytic cleavag'
+p369
+I2
+sS'exoiii'
+p370
+I2
+sS'clustal-w misalignment of the nuclease area of th'
+p371
+I1
+sS'ber-pathway'
+p372
+I1
+sS'macro'
+p373
+I1
+sS'ber'
+p374
+I2
+sS'c-termin'
+p375
+I1
+sS'similar'
+p376
+I9
+sS'huape1'
+p377
+I7
+sS'molecular lego'
+p378
+I1
+sS'non-specific dnase1'
+p379
+I1
+sS'viewer'
+p380
+I1
+sS'modular analysis approach'
+p381
+I1
+sS'dna cleavag'
+p382
+I1
+sS'representatives of'
+p383
+I1
+sS'spectrum'
+p384
+I1
+sS'repres'
+p385
+I3
+sS'f266'
+p386
+I1
+sS'ancestral gen'
+p387
+I1
+sS'caenorhabditis elegan'
+p388
+I1
+sS'psiblast'
+p389
+I5
+sS'close'
+p390
+I1
+sS'of a protein famili'
+p391
+I1
+sS'apeii'
+p392
+I1
+sS'bacterial xth'
+p393
+I1
+sS'plots of protein'
+p394
+I1
+sS'n-termin'
+p395
+I1
+sS'charge statu'
+p396
+I1
+sS'build'
+p397
+I1
+sS'dna opposit'
+p398
+I1
+sS'apurinic sit'
+p399
+I2
+sS'enzyme famili'
+p400
+I1
+sS'abasic dna sit'
+p401
+I1
+sS'tool'
+p402
+I1
+sS'conservation of'
+p403
+I1
+sS'repeat'
+p404
+I1
+sS"'s"
+p405
+I1
+sS'clustal-w misalignment of the nuclease area of'
+p406
+I1
+sS'dali'
+p407
+I3
+sS'phosphodeoxyribos'
+p408
+I1
+sS'e-valu'
+p409
+I2
+sS'abasic dna'
+p410
+I1
+sS'-exonucleas'
+p411
+I1
+sS'endonucleases shar'
+p412
+I1
+sS'ape1 protein'
+p413
+I1
+sS'oligonucleotid'
+p414
+I1
+sS'segment'
+p415
+I1
+sS'charg'
+p416
+I1
+sS'kd'
+p417
+I1
+sS'\xce\xb2-strand'
+p418
+I1
+sS'km'
+p419
+I1
+sS'mutagenesis studi'
+p420
+I2
+sS'ipp domain of synaptojanin'
+p421
+I1
+sS'hydrogen bond'
+p422
+I2
+sS'alanine mutant of r177'
+p423
+I1
+sS'hydroxyl group for dna'
+p424
+I1
+sS'masia consensu'
+p425
+I2
+sS'dna strand'
+p426
+I2
+stp427
+Rp428
+tp429
+.

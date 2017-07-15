@@ -1,0 +1,2027 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'precocious deposition of'
+p7
+I1
+sS'ml of'
+p8
+I2
+sS'centrifug'
+p9
+I1
+sS'milligen biosearch'
+p10
+I1
+sS'tn-c'
+p11
+I2
+sS'of antisens'
+p12
+I1
+sS'rou'
+p13
+I1
+sS'cells of the microvessel'
+p14
+I1
+sS'tx'
+p15
+I2
+sS'formic'
+p16
+I1
+sS'laminin'
+p17
+I1
+sS'tcef'
+p18
+I2
+sS'normal wound h'
+p19
+I1
+sS'tn'
+p20
+I49
+sS'beta-pleated sheet'
+p21
+I1
+sS'tenascin'
+p22
+I1
+sS'n-terminal peptid'
+p23
+I2
+sS'trichrom'
+p24
+I1
+sS'sens'
+p25
+I4
+sS'chemokin'
+p26
+I34
+sS'cdna'
+p27
+I1
+sS'tissue of burn wound'
+p28
+I1
+sS'assay'
+p29
+I6
+sS'unknown rol'
+p30
+I1
+sS'aminomethane ph'
+p31
+I1
+sS'endothelial cells of'
+p32
+I1
+sS'tgf\xce\xb21'
+p33
+I3
+sS'fn gene'
+p34
+I1
+sS'stimulator of collagen express'
+p35
+I1
+sS'strand'
+p36
+I1
+sS'week-old chick'
+p37
+I2
+sS'collagen accumul'
+p38
+I2
+sS'sigma genosi'
+p39
+I1
+sS'the microvessel'
+p40
+I1
+sS'proteas'
+p41
+I1
+sS'vehicl'
+p42
+I3
+sS'alexa antibodi'
+p43
+I1
+sS'ecl reag'
+p44
+I1
+sS'protein assay kit'
+p45
+I1
+sS'odn'
+p46
+I5
+sS'matrix accumul'
+p47
+I1
+sS'normal wound'
+p48
+I1
+sS'antisense studi'
+p49
+I1
+sS'acid'
+p50
+I1
+sS'gene express'
+p51
+I1
+sS'of tn-c'
+p52
+I2
+sS'excis'
+p53
+I1
+sS'chemokine concentr'
+p54
+I1
+sS'ml of the chemokin'
+p55
+I1
+sS'cell'
+p56
+I10
+sS'drug'
+p57
+I1
+sS'mm ripa buffer containing protease inhibitor'
+p58
+I1
+sS'temecula ca'
+p59
+I1
+sS'fn-degrading metalloproteinas'
+p60
+I1
+sS'casein zymogram'
+p61
+I1
+sS'closur'
+p62
+I1
+sS'concentration gradi'
+p63
+I1
+sS'stimulated migration of the fibroblast'
+p64
+I1
+sS'ethanol'
+p65
+I2
+sS'paraffin'
+p66
+I1
+sS'aaatgcatctgcgagggc'
+p67
+I1
+sS'chemotaxis of monocyt'
+p68
+I1
+sS'goat serum'
+p69
+I1
+sS'subpopulation of'
+p70
+I1
+sS'ccaf-induc'
+p71
+I4
+sS'ctp'
+p72
+I1
+sS'northern'
+p73
+I1
+sS'granulation tissue of burn wound'
+p74
+I1
+sS'ccaf chemoattracts fibroblast'
+p75
+I1
+sS'studi'
+p76
+I3
+sS'c-terminal peptides of'
+p77
+I1
+sS'tn express'
+p78
+I2
+sS'the odn'
+p79
+I1
+sS'non-specific stain'
+p80
+I1
+sS'interstitial collagen'
+p81
+I3
+sS'-ggagtcccattgtagtgctcagttc-3'
+p82
+I1
+sS'proteases for fn'
+p83
+I1
+sS'activate leukocyt'
+p84
+I1
+sS'keratinocyt'
+p85
+I1
+sS'famili'
+p86
+I1
+sS'fibroblast cultur'
+p87
+I2
+sS'horseradish peroxidas'
+p88
+I1
+sS'dna'
+p89
+I1
+sS'injuri'
+p90
+I3
+sS'assay kit'
+p91
+I1
+sS'normal fibroblast'
+p92
+I3
+sS'monocyte chemotactic protein'
+p93
+I1
+sS'differentiation of'
+p94
+I4
+sS'enzyme affect'
+p95
+I1
+sS'fibroblasts of'
+p96
+I1
+sS'broth'
+p97
+I1
+sS'ccaf-induced tn'
+p98
+I4
+sS'cloning ring assay'
+p99
+I1
+sS'knockout mic'
+p100
+I2
+sS'mgsa'
+p101
+I5
+sS'ccaf-induced fn accumul'
+p102
+I1
+sS'site'
+p103
+I2
+sS'rabbit'
+p104
+I1
+sS'chorioallantoic membran'
+p105
+I1
+sS'chemotact'
+p106
+I2
+sS'angiogenic factor cefs chicken'
+p107
+I1
+sS'donor calf'
+p108
+I1
+sS'room'
+p109
+I2
+sS'hemo-d'
+p110
+I1
+sS'ml'
+p111
+I3
+sS'prepar'
+p112
+I2
+sS'work'
+p113
+I1
+sS'cam'
+p114
+I1
+sS'of'
+p115
+I2
+sS'inhibitor'
+p116
+I2
+sS'fibrin-plasma fibronectin'
+p117
+I1
+sS'immunolabel'
+p118
+I3
+sS'plasminogen act'
+p119
+I1
+sS'embryo fibroblast'
+p120
+I1
+sS'anti-rabbit hrp'
+p121
+I1
+sS'experiment full-thickness excision wound'
+p122
+I1
+sS'dako'
+p123
+I1
+sS'chimeric mic'
+p124
+I1
+sS'for rapid migr'
+p125
+I1
+sS'protein'
+p126
+I19
+sS'angiogenic factor cefs chicken embryo fibroblast'
+p127
+I1
+sS'differenti'
+p128
+I6
+sS'texas r'
+p129
+I1
+sS'anti-coll iii'
+p130
+I1
+sS'subpopulation of macrophag'
+p131
+I1
+sS'ectoderm'
+p132
+I1
+sS'rabbit anti-chicken tn'
+p133
+I1
+sS'for chemokin'
+p134
+I1
+sS'pgem1'
+p135
+I1
+sS'protein extract'
+p136
+I1
+sS'goat'
+p137
+I1
+sS'angiogenic factor cef'
+p138
+I1
+sS'kind gift'
+p139
+I1
+sS'alpha helix'
+p140
+I1
+sS'fitc'
+p141
+I1
+sS'vectashield mount'
+p142
+I1
+sS'rabbit anti-human mmp-1'
+p143
+I1
+sS'wounding experi'
+p144
+I1
+sS'gelatin'
+p145
+I1
+sS'monoclonal antibodi'
+p146
+I1
+sS'mm salt'
+p147
+I1
+sS'immunoblot analysis for'
+p148
+I1
+sS'precocious deposit'
+p149
+I1
+sS'demonstr'
+p150
+I1
+sS'mm ripa buffer contain'
+p151
+I1
+sS'n-peptide treat'
+p152
+I1
+sS'tn-c knockout mic'
+p153
+I2
+sS'for mgsa'
+p154
+I1
+sS'chemotaxis of fibroblast'
+p155
+I1
+sS'mouse anti-human timp-1'
+p156
+I1
+sS'degrading enzym'
+p157
+I1
+sS'ccaf treat'
+p158
+I10
+sS'the granulation tissu'
+p159
+I1
+sS'deposit'
+p160
+I1
+sS'denaturing polyacrylamid'
+p161
+I1
+sS'biocclus'
+p162
+I2
+sS'wing'
+p163
+I2
+sS'triton'
+p164
+I1
+sS'wound heal'
+p165
+I7
+sS'bio-rad'
+p166
+I3
+sS'enzyme affecting fn'
+p167
+I1
+sS'-gaactgagcactacaatgggactcc-3'
+p168
+I1
+sS'hybridoma bank'
+p169
+I1
+sS'secondary antibodi'
+p170
+I2
+sS'mmp-7'
+p171
+I1
+sS'coll'
+p172
+I4
+sS'microscop'
+p173
+I1
+sS'ttb'
+p174
+I3
+sS'\xce\xbcm of antisens'
+p175
+I1
+sS'genosi'
+p176
+I1
+sS'gtp'
+p177
+I1
+sS'blood cel'
+p178
+I1
+sS'of the microvessel'
+p179
+I1
+sS'metalloproteinas'
+p180
+I3
+sS'immunoblot'
+p181
+I2
+sS'sephadex g-50'
+p182
+I1
+sS'dc protein assay'
+p183
+I1
+sS'cef'
+p184
+I1
+sS'casein zymographi'
+p185
+I1
+sS'therapeutic agonist'
+p186
+I1
+sS'chicken homologu'
+p187
+I1
+sS'northerns tot'
+p188
+I1
+sS'reagent'
+p189
+I4
+sS'rsv-transformed cef'
+p190
+I1
+sS'day'
+p191
+I1
+sS'bank'
+p192
+I1
+sS'migration assay'
+p193
+I1
+sS'endothelial cells of the microvessel'
+p194
+I1
+sS'wash'
+p195
+I1
+sS'protein chemoattracts fibroblast'
+p196
+I1
+sS'fibrillar collagen'
+p197
+I1
+sS'mrna'
+p198
+I1
+sS'receptor'
+p199
+I2
+sS'\xce\xbcg of pgem1'
+p200
+I1
+sS'ring assay'
+p201
+I1
+sS'stimulator of'
+p202
+I1
+sS'chemokine famili'
+p203
+I1
+sS'anti-human mmp-1'
+p204
+I1
+sS'c-terminus peptid'
+p205
+I1
+sS'anti-mouse alexa'
+p206
+I1
+sS'fibronectin'
+p207
+I1
+sS'membran'
+p208
+I2
+sS'matrix metalloproteinas'
+p209
+I2
+sS'unknown role for'
+p210
+I1
+sS'extract'
+p211
+I1
+sS'event'
+p212
+I2
+sS'polyacrylamid'
+p213
+I1
+sS'rt'
+p214
+I2
+sS'anti-timp-2'
+p215
+I1
+sS'ambion hybridization buff'
+p216
+I1
+sS'matrix'
+p217
+I6
+sS'gradient'
+p218
+I1
+sS'piperazine- n'
+p219
+I1
+sS'hybridoma'
+p220
+I1
+sS'mm dithiothreitol'
+p221
+I1
+sS'ccaf increases production of'
+p222
+I1
+sS'formaldehyd'
+p223
+I2
+sS'trypsin-edta'
+p224
+I1
+sS'clone'
+p225
+I1
+sS'red'
+p226
+I1
+sS'high levels of fn'
+p227
+I1
+sS'sodium pentobarbitol'
+p228
+I1
+sS'migrat'
+p229
+I2
+sS'ecm'
+p230
+I15
+sS'ecl'
+p231
+I2
+sS'mmp'
+p232
+I5
+sS'caseinolytic act'
+p233
+I1
+sS'mmp-3'
+p234
+I2
+sS'rt-pcr total'
+p235
+I1
+sS'sheet'
+p236
+I1
+sS'mmg'
+p237
+I1
+sS'matrix for rapid migr'
+p238
+I1
+sS'c-terminal peptides of ccaf'
+p239
+I1
+sS'rt-pcr total rna'
+p240
+I1
+sS'\xce\xbcg'
+p241
+I1
+sS'wound contract'
+p242
+I1
+sS'\xce\xbcm'
+p243
+I1
+sS'granulation tissu'
+p244
+I21
+sS'precocious deposition of ecm'
+p245
+I1
+sS'morpholino oligo'
+p246
+I1
+sS'plasminogen'
+p247
+I2
+sS'lymphocyt'
+p248
+I1
+sS'primary chicken embryonic fibroblast'
+p249
+I1
+sS'cefs chicken embryo fibroblast'
+p250
+I2
+sS'myofibroblast differenti'
+p251
+I2
+sS'rt-pcr'
+p252
+I2
+sS'manuscript'
+p253
+I1
+sS'collagenas'
+p254
+I1
+sS'masson trichrom'
+p255
+I1
+sS'collagen'
+p256
+I5
+sS'dc protein'
+p257
+I1
+sS'nacl'
+p258
+I2
+sS'nucleotid'
+p259
+I1
+sS'instruct'
+p260
+I1
+sS'supernat'
+p261
+I3
+sS'mm hepe'
+p262
+I1
+sS'ring'
+p263
+I2
+sS'unknown role for chemokin'
+p264
+I1
+sS'transgenic mic'
+p265
+I1
+sS'mt-mmp1'
+p266
+I1
+sS'jef'
+p267
+I1
+sS'fn'
+p268
+I40
+sS'receptor for mgsa'
+p269
+I1
+sS'chemoattracts fibroblast'
+p270
+I2
+sS'termin'
+p271
+I1
+sS're-epitheli'
+p272
+I2
+sS'tn antisens'
+p273
+I1
+sS'chemotaxis of'
+p274
+I2
+sS'primary chicken'
+p275
+I1
+sS'absence of tn-c'
+p276
+I2
+sS'chemicon'
+p277
+I1
+sS'c-terminal alpha'
+p278
+I1
+sS'fibroblast migr'
+p279
+I1
+sS'of fibroblast'
+p280
+I3
+sS'tissu'
+p281
+I24
+sS'anti-mous'
+p282
+I5
+sS'immunoblot analysis for fn'
+p283
+I1
+sS'sephadex g-50 column'
+p284
+I1
+sS'rna prob'
+p285
+I1
+sS'kind'
+p286
+I1
+sS'chemoattract'
+p287
+I1
+sS'plasminogen activ'
+p288
+I2
+sS'anti-mouse alexa antibodi'
+p289
+I1
+sS'ccaf stimulated migration of'
+p290
+I1
+sS'granulation-like tissu'
+p291
+I1
+sS'granulation tissue develop'
+p292
+I1
+sS'phosphothioated oligo'
+p293
+I1
+sS'plasmin'
+p294
+I1
+sS'exhibit'
+p295
+I1
+sS'resident fibroblast'
+p296
+I1
+sS'ccaf increases production of tn'
+p297
+I1
+sS'ip-10'
+p298
+I2
+sS'secondary cultur'
+p299
+I2
+sS'defect'
+p300
+I1
+sS'primary cel'
+p301
+I1
+sS'iii'
+p302
+I1
+sS'immunoblot analysis of'
+p303
+I1
+sS'excision wound'
+p304
+I5
+sS'cytokin'
+p305
+I4
+sS'extracellular matrix'
+p306
+I2
+sS'day ccaf'
+p307
+I1
+sS'tn amplif'
+p308
+I1
+sS'mm ripa'
+p309
+I1
+sS'hr'
+p310
+I12
+sS'antisense phosphothioated oligonucleotid'
+p311
+I1
+sS'cloning r'
+p312
+I3
+sS'graviti'
+p313
+I1
+sS'blue'
+p314
+I1
+sS'chemokine ccaf'
+p315
+I1
+sS'kind gift of'
+p316
+I1
+sS'c-peptid'
+p317
+I3
+sS'anti-chicken tn'
+p318
+I1
+sS'buffer'
+p319
+I1
+sS'of pgem1'
+p320
+I1
+sS'glycin'
+p321
+I3
+sS'adhesive sit'
+p322
+I1
+sS'martins-green'
+p323
+I1
+sS'biosearch'
+p324
+I1
+sS'ambion'
+p325
+I3
+sS'bsa'
+p326
+I7
+sS'mgcl'
+p327
+I1
+sS'purifi'
+p328
+I1
+sS'g-50 column'
+p329
+I1
+sS'polyclonal antibodi'
+p330
+I1
+sS'gelatinolytic act'
+p331
+I1
+sS'buffer ph'
+p332
+I1
+sS'anti-mouse texas r'
+p333
+I1
+sS'sigma'
+p334
+I4
+sS'sense oligonucleotid'
+p335
+I1
+sS'masson'
+p336
+I1
+sS'anti-rabbit horseradish peroxidas'
+p337
+I1
+sS'for fn'
+p338
+I3
+sS'probe'
+p339
+I3
+sS'peroxidas'
+p340
+I1
+sS'tn antisense studi'
+p341
+I1
+sS'chicken'
+p342
+I3
+sS'exhibit defect'
+p343
+I1
+sS'angiogenic factor cefs chicken embryo'
+p344
+I1
+sS'promega access'
+p345
+I1
+sS'\xce\xbcg of'
+p346
+I1
+sS'dc protein assay kit'
+p347
+I1
+sS'mm tri'
+p348
+I1
+sS'homologu'
+p349
+I1
+sS'hrp'
+p350
+I1
+sS'anti-human timp-1'
+p351
+I1
+sS'toludine blu'
+p352
+I1
+sS'helix'
+p353
+I1
+sS'fn accumul'
+p354
+I7
+sS'stain'
+p355
+I1
+sS'milligen'
+p356
+I1
+sS'cellular fn'
+p357
+I3
+sS'contribut'
+p358
+I1
+sS'express'
+p359
+I4
+sS'dc'
+p360
+I1
+sS'gibco-brl'
+p361
+I1
+sS'wound closur'
+p362
+I1
+sS'primary chicken embryon'
+p363
+I1
+sS'subpopul'
+p364
+I1
+sS'chicken embryonic fibroblast'
+p365
+I1
+sS'pellet'
+p366
+I1
+sS'ssc'
+p367
+I2
+sS'gel'
+p368
+I1
+sS'\xce\xbcl'
+p369
+I2
+sS'for th'
+p370
+I1
+sS'fn gene express'
+p371
+I1
+sS'casein'
+p372
+I2
+sS'final manuscript'
+p373
+I1
+sS'hplc'
+p374
+I1
+sS'of myofibroblast'
+p375
+I2
+sS'rapid migr'
+p376
+I1
+sS'conform'
+p377
+I1
+sS'inhibition experi'
+p378
+I1
+sS'the casein zymogram'
+p379
+I1
+sS'leukocyt'
+p380
+I3
+sS'role for chemokin'
+p381
+I1
+sS'gro\xce\xb1'
+p382
+I1
+sS'ripa buffer containing protease inhibitor'
+p383
+I1
+sS'of the odn'
+p384
+I2
+sS'hybridization buff'
+p385
+I1
+sS'coli trna'
+p386
+I1
+sS'experimental work'
+p387
+I1
+sS'chemotaxi'
+p388
+I3
+sS'biocclusive bandag'
+p389
+I1
+sS'promega'
+p390
+I1
+sS'blood cell autofluoresc'
+p391
+I1
+sS'zymographi'
+p392
+I4
+sS'ml ccaf'
+p393
+I1
+sS'experi'
+p394
+I1
+sS'mm ripa buffer containing proteas'
+p395
+I1
+sS'anti-coll i'
+p396
+I1
+sS'induc'
+p397
+I1
+sS'ccaf-induced fn'
+p398
+I1
+sS'amplif'
+p399
+I1
+sS'chicken chemotact'
+p400
+I2
+sS'ccaf induced high levels of fn'
+p401
+I1
+sS'proteases for'
+p402
+I1
+sS'antisense sequence of the odn'
+p403
+I1
+sS'pf-4'
+p404
+I1
+sS'prommp-9'
+p405
+I1
+sS'migration of the fibroblast'
+p406
+I1
+sS'agonist'
+p407
+I1
+sS'carpinteria'
+p408
+I1
+sS'contract'
+p409
+I1
+sS'hplc purifi'
+p410
+I1
+sS'n-peptid'
+p411
+I6
+sS'prommp-2'
+p412
+I1
+sS'angiogen'
+p413
+I1
+sS'fibroblasts of th'
+p414
+I1
+sS'strip-ez kit'
+p415
+I1
+sS'proteases induc'
+p416
+I1
+sS'mm hepes buffer ph'
+p417
+I1
+sS'ca'
+p418
+I6
+sS'deposition of ecm molecul'
+p419
+I1
+sS'rous sarcoma'
+p420
+I1
+sS'vector prob'
+p421
+I1
+sS'rdday'
+p422
+I1
+sS'endothelial cel'
+p423
+I5
+sS'adhesion molecul'
+p424
+I1
+sS'temecula'
+p425
+I1
+sS'muscle cel'
+p426
+I2
+sS'collagen express'
+p427
+I1
+sS'timp-2'
+p428
+I2
+sS'timp-1'
+p429
+I3
+sS'situhybridization fibroblast cultur'
+p430
+I1
+sS'burn wound'
+p431
+I1
+sS'ccaf chicken'
+p432
+I1
+sS'pb'
+p433
+I13
+sS'normal granulation tissu'
+p434
+I1
+sS'pa'
+p435
+I2
+sS'transwell assay'
+p436
+I3
+sS'extracellular matrix protein'
+p437
+I1
+sS'of ccaf'
+p438
+I1
+sS'ph'
+p439
+I2
+sS'treatment'
+p440
+I11
+sS'accumulation of the ecm molecul'
+p441
+I1
+sS'tn-c knockout'
+p442
+I2
+sS'ccaf receptor'
+p443
+I2
+sS'chicken chorioallanto'
+p444
+I1
+sS'immunoblotting protein'
+p445
+I1
+sS'the ecm molecul'
+p446
+I1
+sS'collagenase mmp-1'
+p447
+I3
+sS'fibroblast'
+p448
+I37
+sS'fn protein'
+p449
+I1
+sS'gelatinases mmp-2'
+p450
+I1
+sS'induced high levels of fn'
+p451
+I1
+sS'hepes buffer ph'
+p452
+I1
+sS'of fn'
+p453
+I6
+sS'c-terminu'
+p454
+I1
+sS'nephriti'
+p455
+I1
+sS'amersham'
+p456
+I5
+sS'immunostain'
+p457
+I2
+sS'c-termini'
+p458
+I1
+sS'biocoat'
+p459
+I1
+sS'full-thickness excision wound'
+p460
+I1
+sS'ripa'
+p461
+I1
+sS'of burn wound'
+p462
+I1
+sS'blood'
+p463
+I1
+sS'optimal dos'
+p464
+I1
+sS'sense odn'
+p465
+I2
+sS'mm hepes buff'
+p466
+I1
+sS'activ'
+p467
+I7
+sS'ccaf prob'
+p468
+I1
+sS'chemoattract leukocyt'
+p469
+I1
+sS'zymography zymographi'
+p470
+I1
+sS'formic acid'
+p471
+I1
+sS'ecm molecul'
+p472
+I14
+sS'sarcoma'
+p473
+I1
+sS'accumulation of fn'
+p474
+I4
+sS'ccaf-treated wound'
+p475
+I3
+sS'absence of'
+p476
+I2
+sS'lw'
+p477
+I1
+sS'antisense oligonucleotid'
+p478
+I1
+sS'develop'
+p479
+I1
+sS'autofluoresc'
+p480
+I2
+sS'of th'
+p481
+I1
+sS'wound'
+p482
+I15
+sS'of tn'
+p483
+I3
+sS'of the granulation tissu'
+p484
+I1
+sS'rabbit anti-human'
+p485
+I1
+sS'concentration of'
+p486
+I1
+sS'trna'
+p487
+I1
+sS'serum'
+p488
+I6
+sS'wound healing ev'
+p489
+I1
+sS'protein chemoattract'
+p490
+I1
+sS'activated fibroblast'
+p491
+I1
+sS'ccaf cdna'
+p492
+I1
+sS'ccaf stimulated migration of th'
+p493
+I1
+sS'qjl'
+p494
+I1
+sS'anti-mouse fitc'
+p495
+I1
+sS'absorb'
+p496
+I1
+sS'mm stock'
+p497
+I1
+sS'kit'
+p498
+I2
+sS'chemokine-containing pellet'
+p499
+I1
+sS'of protein'
+p500
+I2
+sS'antisense sequence of'
+p501
+I1
+sS'wound fibroblast'
+p502
+I1
+sS'mcp-1'
+p503
+I1
+sS'gene'
+p504
+I1
+sS'northerns total rna'
+p505
+I1
+sS'accumulation of th'
+p506
+I1
+sS'min'
+p507
+I11
+sS'9e3 gen'
+p508
+I1
+sS'c-terminal alpha helix'
+p509
+I1
+sS'myofibroblast'
+p510
+I9
+sS'granulation tissue of'
+p511
+I1
+sS'paraformaldehyd'
+p512
+I3
+sS'ccaf increased fn accumul'
+p513
+I1
+sS'vectashield'
+p514
+I3
+sS'n-termin'
+p515
+I1
+sS'formamid'
+p516
+I1
+sS'anti-angiogen'
+p517
+I1
+sS'matrix degrading enzym'
+p518
+I1
+sS'enzyme affecting fn degrad'
+p519
+I1
+sS'concentr'
+p520
+I6
+sS'primary ev'
+p521
+I1
+sS'fn cellular fn'
+p522
+I1
+sS'decalcifi'
+p523
+I1
+sS'stimul'
+p524
+I1
+sS'cell autofluoresc'
+p525
+I1
+sS'matrix for'
+p526
+I1
+sS'cultur'
+p527
+I4
+sS'angiogenic chemokin'
+p528
+I1
+sS'situ hybrid'
+p529
+I1
+sS'anti-tn antibodi'
+p530
+I1
+sS'primary fibroblast'
+p531
+I1
+sS'\xce\xbcg ccaf'
+p532
+I1
+sS'ccaf chicken chemotact'
+p533
+I1
+sS'interferon-\xce\xb310'
+p534
+I1
+sS'rna'
+p535
+I4
+sS'fibroblasts of the granulation tissu'
+p536
+I1
+sS'molecul'
+p537
+I21
+sS'of ecm molecul'
+p538
+I2
+sS'of macrophag'
+p539
+I1
+sS'terminal peptid'
+p540
+I1
+sS'donor'
+p541
+I1
+sS'mmp-10'
+p542
+I1
+sS'polymeras'
+p543
+I1
+sS'resid'
+p544
+I1
+sS'burn pati'
+p545
+I1
+sS'anti-rabbit'
+p546
+I1
+sS'anti-mouse texa'
+p547
+I1
+sS'anti-col'
+p548
+I1
+sS'cxcr2'
+p549
+I1
+sS'affecting fn degrad'
+p550
+I1
+sS'chick'
+p551
+I2
+sS'receptor for'
+p552
+I1
+sS'donor calf serum'
+p553
+I1
+sS'differentiation of myofibroblast'
+p554
+I2
+sS'healing ev'
+p555
+I1
+sS'muscl'
+p556
+I2
+sS'primary antibodi'
+p557
+I3
+sS'\xce\xbcm of'
+p558
+I1
+sS'triton-x'
+p559
+I2
+sS'growth'
+p560
+I3
+sS'transwell membran'
+p561
+I1
+sS'macrophag'
+p562
+I2
+sS'angiogenesi'
+p563
+I3
+sS'of the chemokin'
+p564
+I3
+sS'for'
+p565
+I1
+sS'of col'
+p566
+I3
+sS'piscataway'
+p567
+I1
+sS'zymogram'
+p568
+I1
+sS'matrix protein'
+p569
+I1
+sS'ccaf stimulated migration of the fibroblast'
+p570
+I1
+sS'mm ripa buff'
+p571
+I1
+sS'containing protease inhibitor'
+p572
+I1
+sS'protein concentr'
+p573
+I1
+sS'tenascin protein'
+p574
+I1
+sS'calf serum'
+p575
+I1
+sS'for the casein zymogram'
+p576
+I3
+sS'investig'
+p577
+I2
+sS'patient'
+p578
+I1
+sS'trizol reag'
+p579
+I2
+sS'accumulation of'
+p580
+I6
+sS'peptides of ccaf'
+p581
+I1
+sS'wound tissu'
+p582
+I4
+sS'ccaf molecul'
+p583
+I3
+sS'accumulation of the ecm'
+p584
+I1
+sS'the fibroblast'
+p585
+I1
+sS'matrix-degrading enzym'
+p586
+I1
+sS'of collagen express'
+p587
+I1
+sS'ambion hybrid'
+p588
+I1
+sS'column'
+p589
+I1
+sS'microvessel'
+p590
+I1
+sS'antibodi'
+p591
+I9
+sS'accumulation of col'
+p592
+I1
+sS'ml of th'
+p593
+I1
+sS'protease inhibitor'
+p594
+I2
+sS'bandag'
+p595
+I1
+sS'ccaf induced high levels of'
+p596
+I1
+sS'anti-tn'
+p597
+I1
+sS'repair'
+p598
+I2
+sS'wound repair'
+p599
+I2
+sS'antisens'
+p600
+I2
+sS'chicken chorioallantoic membran'
+p601
+I1
+sS'iowa'
+p602
+I1
+sS'wounding experiment full-thickness excis'
+p603
+I1
+sS'edta'
+p604
+I1
+sS'mmp-1'
+p605
+I5
+sS'mmp-2'
+p606
+I2
+sS'oligonucleotid'
+p607
+I4
+sS'accumul'
+p608
+I16
+sS'mmp-9'
+p609
+I1
+sS'of the fibroblast'
+p610
+I1
+sS'phosphothioated oligonucleotid'
+p611
+I1
+sS'crescentic nephr'
+p612
+I1
+sS'sephadex'
+p613
+I1
+sS'dithiothreitol'
+p614
+I1
+sS'project'
+p615
+I1
+sS'wounding experiment full-thickness excision wound'
+p616
+I1
+sS'integrin'
+p617
+I2
+sS'total rna'
+p618
+I3
+sS'triton x-100'
+p619
+I1
+sS'heal'
+p620
+I7
+sS'wound sit'
+p621
+I1
+sS'of the ecm molecul'
+p622
+I1
+sS'antisense sequence of th'
+p623
+I1
+sS'stromelysin'
+p624
+I2
+sS'mice'
+p625
+I4
+sS'transwel'
+p626
+I1
+sS'buffer containing protease inhibitor'
+p627
+I1
+sS'prelud'
+p628
+I1
+sS'vivo'
+p629
+I8
+sS'precocious deposition of ecm molecul'
+p630
+I1
+sS'absenc'
+p631
+I3
+sS'anti-fn'
+p632
+I2
+sS'aa'
+p633
+I1
+sS'immunoblot analysis of protein'
+p634
+I1
+sS'ccaf stimulated migr'
+p635
+I1
+sS'fn degrad'
+p636
+I1
+sS'ccaf increased fn'
+p637
+I1
+sS'embryonic fibroblast'
+p638
+I2
+sS'min wash'
+p639
+I1
+sS'phase-contrast microscop'
+p640
+I1
+sS'decreas'
+p641
+I1
+sS'dose-dependent studi'
+p642
+I1
+sS'mm nacl'
+p643
+I1
+sS'promega access rt-pcr'
+p644
+I1
+sS'\xce\xbcl vehicl'
+p645
+I1
+sS'tn c'
+p646
+I1
+sS'nj'
+p647
+I1
+sS'nm'
+p648
+I2
+sS'differentiation of fibroblast'
+p649
+I2
+sS'x-100'
+p650
+I1
+sS'hybrid'
+p651
+I1
+sS'dose'
+p652
+I2
+sS'nitrocellulos'
+p653
+I1
+sS'oligo'
+p654
+I2
+sS'il-8'
+p655
+I5
+sS'prehybrid'
+p656
+I1
+sS'fn cellular'
+p657
+I1
+sS'the chemokin'
+p658
+I2
+sS'chicken embryo fibroblast'
+p659
+I1
+sS'inflamm'
+p660
+I1
+sS'mm edta'
+p661
+I1
+sS'toludin'
+p662
+I1
+sS'accumulation of ecm molecul'
+p663
+I1
+sS'enzym'
+p664
+I5
+sS'ccaf'
+p665
+I28
+sS'endothelial cells of th'
+p666
+I1
+sS'timp'
+p667
+I1
+sS'piperazine-'
+p668
+I1
+sS'peptid'
+p669
+I12
+sS'pentobarbitol'
+p670
+I1
+sS'c-terminal peptid'
+p671
+I2
+sS'salt'
+p672
+I1
+sS'tissue develop'
+p673
+I1
+sS'ortologu'
+p674
+I1
+sS'degrad'
+p675
+I1
+sS'sense strand'
+p676
+I1
+stp677
+Rp678
+tp679
+.

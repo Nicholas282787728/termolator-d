@@ -1,0 +1,401 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'week do'
+p7
+I1
+sS'mission'
+p8
+I1
+sS'family plan'
+p9
+I1
+sS'inner-c'
+p10
+I1
+sS'skill'
+p11
+I1
+sS'youth development program'
+p12
+I1
+sS'of greater indianapolis rlyoc-urban miss'
+p13
+I1
+sS'staff'
+p14
+I2
+sS'involv'
+p15
+I1
+sS'ymca of greater indianapolis rlyoc-urban'
+p16
+I1
+sS'youth asset model'
+p17
+I1
+sS'character educ'
+p18
+I1
+sS'program'
+p19
+I6
+sS'adult supervis'
+p20
+I1
+sS'homework'
+p21
+I1
+sS'asset model'
+p22
+I1
+sS'esteem build'
+p23
+I1
+sS'for youth develop'
+p24
+I1
+sS'inner-city youth'
+p25
+I1
+sS'know'
+p26
+I1
+sS'school'
+p27
+I4
+sS'adulthood'
+p28
+I1
+sS'school counselor'
+p29
+I1
+sS'indianapolis rlyoc-urban miss'
+p30
+I1
+sS'team'
+p31
+I1
+sS'track record'
+p32
+I1
+sS'educational outreach'
+p33
+I1
+sS'partnerships for youth'
+p34
+I1
+sS'enjoy'
+p35
+I1
+sS'development program'
+p36
+I1
+sS'famili'
+p37
+I1
+sS'ymca of great'
+p38
+I1
+sS'growth'
+p39
+I1
+sS'reach adulthood'
+p40
+I1
+sS'ymca of greater indianapolis rlyoc-urban miss'
+p41
+I1
+sS'supervis'
+p42
+I1
+sS'alcohol'
+p43
+I1
+sS'particip'
+p44
+I6
+sS'ymca'
+p45
+I8
+sS'middle school youth'
+p46
+I1
+sS'experi'
+p47
+I1
+sS'approach'
+p48
+I1
+sS'anticipated outcom'
+p49
+I1
+sS'ymca of'
+p50
+I1
+sS'school youth'
+p51
+I1
+sS'elementary school'
+p52
+I1
+sS'y staff'
+p53
+I1
+sS'partnerships for'
+p54
+I1
+sS'youth development survey'
+p55
+I1
+sS'youth develop'
+p56
+I3
+sS'greater indianapolis rlyoc-urban miss'
+p57
+I1
+sS'drug'
+p58
+I1
+sS'two-thirds of substance abus'
+p59
+I1
+sS'survey'
+p60
+I1
+sS'mentor'
+p61
+I1
+sS'development survey'
+p62
+I1
+sS'indiana youth'
+p63
+I1
+sS'resolution skil'
+p64
+I1
+sS'plan'
+p65
+I1
+sS'grade'
+p66
+I2
+sS'transit'
+p67
+I1
+sS'constructive effort'
+p68
+I1
+sS'doing homework'
+p69
+I1
+sS'ymca leadership'
+p70
+I1
+sS'critical transit'
+p71
+I1
+sS'inner-city environ'
+p72
+I1
+sS'school program'
+p73
+I1
+sS'two-third'
+p74
+I1
+sS'two-thirds of'
+p75
+I1
+sS'urban miss'
+p76
+I2
+sS'indiana'
+p77
+I1
+sS'service work'
+p78
+I2
+sS'urban'
+p79
+I2
+sS'life'
+p80
+I1
+sS'school hour'
+p81
+I1
+sS'resolut'
+p82
+I1
+sS'adult'
+p83
+I1
+sS'non-violent conflict'
+p84
+I1
+sS'substance abus'
+p85
+I1
+sS'personal growth'
+p86
+I1
+sS'educ'
+p87
+I3
+sS'effort'
+p88
+I1
+sS'conflict resolution skil'
+p89
+I1
+sS'hour'
+p90
+I1
+sS'ymca of greater indianapoli'
+p91
+I1
+sS'servic'
+p92
+I1
+sS'work'
+p93
+I1
+sS'charact'
+p94
+I1
+sS'non-violent conflict resolution skil'
+p95
+I1
+sS'record'
+p96
+I1
+sS'outcom'
+p97
+I1
+sS'counselor'
+p98
+I1
+sS'middle school'
+p99
+I1
+sS'project'
+p100
+I1
+sS'partnership'
+p101
+I1
+sS'mission branch'
+p102
+I2
+sS'leadership'
+p103
+I1
+sS'youth involv'
+p104
+I1
+sS'8th grade'
+p105
+I1
+sS'agenc'
+p106
+I2
+sS'youth asset'
+p107
+I1
+sS'ymca program'
+p108
+I1
+sS'underserved ag'
+p109
+I1
+sS'develop'
+p110
+I1
+sS'week doing homework'
+p111
+I1
+sS'adolescent program'
+p112
+I1
+sS'of substance abus'
+p113
+I1
+sS'build'
+p114
+I1
+sS'branch'
+p115
+I2
+sS'conflict'
+p116
+I2
+sS'week'
+p117
+I1
+sS'youth'
+p118
+I11
+sS'resourc'
+p119
+I2
+sS'non-violent conflict resolut'
+p120
+I1
+sS'track'
+p121
+I1
+sS'reach'
+p122
+I1
+sS'outreach'
+p123
+I1
+sS'partnerships for youth develop'
+p124
+I1
+sS'systematic approach'
+p125
+I1
+sS'abus'
+p126
+I1
+sS'rlyoc-urban miss'
+p127
+I1
+sS'conflict resolut'
+p128
+I2
+sS'age'
+p129
+I2
+sS'environ'
+p130
+I1
+sS'urban mission branch'
+p131
+I2
+sS'environmental educ'
+p132
+I1
+sS'model'
+p133
+I1
+sS'two-thirds of subst'
+p134
+I1
+stp135
+Rp136
+tp137
+.

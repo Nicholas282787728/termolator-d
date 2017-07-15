@@ -1,0 +1,752 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'modem'
+p7
+I3
+sS'code'
+p8
+I8
+sS'protocol'
+p9
+I8
+sS'rom'
+p10
+I1
+sS'chain'
+p11
+I1
+sS'programming languag'
+p12
+I1
+sS'random'
+p13
+I1
+sS'external rf antenna'
+p14
+I1
+sS'radio'
+p15
+I2
+sS'dsp'
+p16
+I1
+sS'flow-chart'
+p17
+I2
+sS'broadway'
+p18
+I1
+sS'skill'
+p19
+I1
+sS'disk'
+p20
+I3
+sS'simo'
+p21
+I1
+sS'dynam'
+p22
+I1
+sS'paramet'
+p23
+I30
+sS'compact'
+p24
+I3
+sS'disk record'
+p25
+I1
+sS'monopole antenna'
+p26
+I1
+sS'monitor'
+p27
+I3
+sS'non-removable media'
+p28
+I1
+sS'interfer'
+p29
+I94
+sS'activ'
+p30
+I9
+sS'subject matt'
+p31
+I1
+sS'articl'
+p32
+I4
+sS'fortran'
+p33
+I1
+sS'digital assist'
+p34
+I1
+sS'wi-max'
+p35
+I1
+sS'reception mode of a transceiv'
+p36
+I1
+sS'aviv il'
+p37
+I1
+sS'sub-unit'
+p38
+I1
+sS'of transmiss'
+p39
+I1
+sS'recept'
+p40
+I10
+sS'digit'
+p41
+I2
+sS'activation of'
+p42
+I1
+sS'read'
+p43
+I1
+sS'read onli'
+p44
+I1
+sS'cellular telephon'
+p45
+I1
+sS'adaptive bias voltag'
+p46
+I2
+sS'lcd'
+p47
+I1
+sS'sd-ram'
+p48
+I1
+sS'bias voltage controlled oscil'
+p49
+I1
+sS'tel aviv'
+p50
+I1
+sS'disk re-writ'
+p51
+I1
+sS'adaptive bias voltage controlled oscil'
+p52
+I1
+sS'versatile disk'
+p53
+I1
+sS'organ'
+p54
+I1
+sS'crt'
+p55
+I1
+sS'personal digital assist'
+p56
+I1
+sS'york ni'
+p57
+I1
+sS'list'
+p58
+I14
+sS'circularly polarized antenna'
+p59
+I1
+sS'abl'
+p60
+I1
+sS'multi receiver chain'
+p61
+I1
+sS'ear-phon'
+p62
+I1
+sS'wide area network'
+p63
+I1
+sS'transmitter-receiv'
+p64
+I1
+sS'bluetooth standard'
+p65
+I1
+sS'digital signal processor'
+p66
+I1
+sS'ordinary skil'
+p67
+I1
+sS'tel'
+p68
+I1
+sS'keypad'
+p69
+I1
+sS'pan'
+p70
+I2
+sS'emi'
+p71
+I1
+sS'phone wireless communication standard'
+p72
+I1
+sS'micro-strip antenna'
+p73
+I1
+sS'bluetooth'
+p74
+I2
+sS'omni-directional antenna'
+p75
+I1
+sS'cathode ray'
+p76
+I1
+sS'cellular phone wireless'
+p77
+I1
+sS'transceivers '
+p78
+I1
+sS'lna'
+p79
+I1
+sS'ieee'
+p80
+I4
+sS'transmiss'
+p81
+I42
+sS'executable cod'
+p82
+I1
+sS'wpan'
+p83
+I2
+sS'statu'
+p84
+I1
+sS're-writeable media'
+p85
+I1
+sS'network'
+p86
+I7
+sS'microphon'
+p87
+I1
+sS'transmission stream'
+p88
+I2
+sS'external rf'
+p89
+I1
+sS'parameter of'
+p90
+I2
+sS'tube'
+p91
+I1
+sS'digital versatile disk'
+p92
+I1
+sS'machine cod'
+p93
+I1
+sS'vco'
+p94
+I3
+sS'dynamic ram'
+p95
+I1
+sS'rf'
+p96
+I1
+sS'reception mode of transceiv'
+p97
+I2
+sS'pre-defined algorithm'
+p98
+I1
+sS'interference reduc'
+p99
+I44
+sS'irc'
+p100
+I44
+sS'multiple input singl'
+p101
+I1
+sS'machin'
+p102
+I1
+sS'synchronous dram'
+p103
+I1
+sS'diversity antenna'
+p104
+I1
+sS'numer'
+p105
+I2
+sS'standard'
+p106
+I24
+sS'dipole antenna'
+p107
+I1
+sS'york'
+p108
+I1
+sS'tel aviv il'
+p109
+I1
+sS'local area network'
+p110
+I1
+sS'liquid cryst'
+p111
+I1
+sS'wi-fi'
+p112
+I1
+sS'mimo'
+p113
+I1
+sS'nois'
+p114
+I5
+sS'central'
+p115
+I1
+sS'frequenc'
+p116
+I1
+sS'synchron'
+p117
+I1
+sS'local'
+p118
+I1
+sS'integr'
+p119
+I1
+sS'wireless communication standard'
+p120
+I1
+sS'cd-rw'
+p121
+I1
+sS'non-erasable media'
+p122
+I1
+sS'receiver chain'
+p123
+I1
+sS'os'
+p124
+I1
+sS'processor'
+p125
+I2
+sS'pda'
+p126
+I2
+sS'miso'
+p127
+I1
+sS'softwar'
+p128
+I1
+sS'telephon'
+p129
+I2
+sS'wlan'
+p130
+I2
+sS'transceiv'
+p131
+I57
+sS'cellular phon'
+p132
+I1
+sS'parameter of interference reduc'
+p133
+I3
+sS'qualiti'
+p134
+I2
+sS'ray tub'
+p135
+I1
+sS'adaptive bias vco'
+p136
+I1
+sS'dram'
+p137
+I2
+sS'instruct'
+p138
+I2
+sS'of transceiv'
+p139
+I6
+sS'commenc'
+p140
+I1
+sS'reception mode ind'
+p141
+I19
+sS'pre-defin'
+p142
+I1
+sS'multi receiv'
+p143
+I1
+sS'wan'
+p144
+I1
+sS'pre-defined standard'
+p145
+I1
+sS'rf antenna'
+p146
+I1
+sS'java'
+p147
+I1
+sS'radio frequ'
+p148
+I1
+sS'cd-r'
+p149
+I1
+sS'electromagnetic interfer'
+p150
+I1
+sS'optical disk'
+p151
+I1
+sS'pc'
+p152
+I1
+sS'pa'
+p153
+I1
+sS'wireless lan'
+p154
+I1
+sS'personal digit'
+p155
+I1
+sS'static cod'
+p156
+I1
+sS'wpan network'
+p157
+I1
+sS'magnetic media'
+p158
+I1
+sS'deactiv'
+p159
+I8
+sS'schematic flow-chart'
+p160
+I2
+sS'amplifi'
+p161
+I3
+sS'wireless'
+p162
+I5
+sS'phone'
+p163
+I2
+sS'floppy disk'
+p164
+I2
+sS'link'
+p165
+I2
+sS'compact disk re-writ'
+p166
+I1
+sS'voltage controlled oscil'
+p167
+I2
+sS'touch-pad'
+p168
+I1
+sS'matter'
+p169
+I1
+sS'wide'
+p170
+I1
+sS'multi'
+p171
+I1
+sS're-writ'
+p172
+I1
+sS'liquid'
+p173
+I1
+sS'compact disk read onli'
+p174
+I1
+sS'zigbe'
+p175
+I1
+sS'servic'
+p176
+I2
+sS'access'
+p177
+I16
+sS'writeabl'
+p178
+I1
+sS'transmitt'
+p179
+I1
+sS'low-noise amplifi'
+p180
+I1
+sS'noise reduc'
+p181
+I4
+sS'record'
+p182
+I1
+sS'personal area network'
+p183
+I1
+sS'deactivation of a transceiv'
+p184
+I1
+sS'of'
+p185
+I2
+sS'b h'
+p186
+I2
+sS'parameter of interfer'
+p187
+I1
+sS'display'
+p188
+I5
+sS'il'
+p189
+I1
+sS'object-ori'
+p190
+I1
+sS'program'
+p191
+I1
+sS'multiple input multipl'
+p192
+I1
+sS'status of'
+p193
+I1
+sS'stream'
+p194
+I2
+sS'compact disk read'
+p195
+I1
+sS'activation of a transceiv'
+p196
+I1
+sS'ram'
+p197
+I2
+sS'dynamic cod'
+p198
+I1
+sS'indic'
+p199
+I46
+sS'ap'
+p200
+I1
+sS'cobol'
+p201
+I1
+sS'eras'
+p202
+I1
+sS'substitut'
+p203
+I1
+sS'low-level'
+p204
+I1
+sS'station'
+p205
+I52
+sS'ic'
+p206
+I1
+sS'of a transceiv'
+p207
+I4
+sS'activity mode ind'
+p208
+I4
+sS'multipl'
+p209
+I2
+sS'digital versatil'
+p210
+I1
+sS'antenna'
+p211
+I7
+sS'cathode ray tub'
+p212
+I1
+sS'media'
+p213
+I4
+sS'liquid crystal display'
+p214
+I1
+sS'check'
+p215
+I1
+sS'ny'
+p216
+I1
+sS'crystal display'
+p217
+I1
+sS'compact disk record'
+p218
+I1
+sS'languag'
+p219
+I3
+sS'voltag'
+p220
+I7
+sS'divers'
+p221
+I1
+sS'singl'
+p222
+I1
+sS'servicing st'
+p223
+I2
+sS'lan'
+p224
+I2
+sS'buffer'
+p225
+I1
+sS'wireless pan'
+p226
+I1
+sS'assist'
+p227
+I1
+sS'driver'
+p228
+I2
+sS'single input multipl'
+p229
+I1
+sS'of interference reduc'
+p230
+I1
+sS'notebook'
+p231
+I1
+sS'random access'
+p232
+I1
+sS'adaptive bia'
+p233
+I3
+sS'electromagnet'
+p234
+I1
+sS'bias vco'
+p235
+I1
+sS'oscil'
+p236
+I4
+sS'reduc'
+p237
+I43
+sS'cathod'
+p238
+I1
+sS'polarized antenna'
+p239
+I1
+sS'algorithm'
+p240
+I1
+sS'cellular phone wireless communication standard'
+p241
+I1
+sS'dvd'
+p242
+I1
+sS'cd-rom'
+p243
+I2
+sS'cpu'
+p244
+I1
+sS'person'
+p245
+I3
+sS'status of interference reduc'
+p246
+I1
+sS'multi-purpos'
+p247
+I2
+sS'plasma monitor'
+p248
+I1
+sS'deactivation of'
+p249
+I1
+sS'compact disk'
+p250
+I3
+sS'mrc'
+p251
+I1
+stp252
+Rp253
+tp254
+.

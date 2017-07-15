@@ -1,0 +1,65 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'deduct'
+p7
+I1
+sS'contribut'
+p8
+I3
+sS'cancer'
+p9
+I1
+sS'cancer research'
+p10
+I1
+sS'payrol'
+p11
+I1
+sS'phone'
+p12
+I1
+sS'payroll deduct'
+p13
+I1
+sS'kim'
+p14
+I1
+sS'kim gattl'
+p15
+I1
+sS'card'
+p16
+I1
+sS'basi'
+p17
+I1
+sS'gattl'
+p18
+I1
+sS'research'
+p19
+I3
+sS'credit'
+p20
+I1
+sS'one-to-one basi'
+p21
+I1
+sS'credit card'
+p22
+I1
+stp23
+Rp24
+tp25
+.

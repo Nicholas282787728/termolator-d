@@ -1,0 +1,539 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'ic hav'
+p7
+I1
+sS'the ic packag'
+p8
+I2
+sS'hiroshi'
+p9
+I1
+sS'of the heatsink fin'
+p10
+I1
+sS'probe'
+p11
+I24
+sS'heatsink slit'
+p12
+I11
+sS'socket yamada'
+p13
+I1
+sS'permiss'
+p14
+I1
+sS'heatsinking cap'
+p15
+I3
+sS'ground'
+p16
+I2
+sS'heatsinking of the heatsink fin'
+p17
+I1
+sS'current'
+p18
+I6
+sS'voltage loss'
+p19
+I1
+sS'dispers'
+p20
+I2
+sS'board'
+p21
+I26
+sS'opposit'
+p22
+I4
+sS'land grid'
+p23
+I1
+sS'peripheral portions of the '
+p24
+I1
+sS'fin'
+p25
+I5
+sS'heatsink components mov'
+p26
+I1
+sS'dc'
+p27
+I1
+sS'fan'
+p28
+I24
+sS'unshown prob'
+p29
+I1
+sS'cool'
+p30
+I2
+sS'loss'
+p31
+I5
+sS'aluminum'
+p32
+I1
+sS'socket yamada hiroshi'
+p33
+I1
+sS'electronic appli'
+p34
+I43
+sS'drop'
+p35
+I11
+sS'resin'
+p36
+I2
+sS'the heatsink fin'
+p37
+I1
+sS'electricity loss pm'
+p38
+I1
+sS'extraction board'
+p39
+I50
+sS'sidewal'
+p40
+I4
+sS'integr'
+p41
+I1
+sS'extraction board correspond'
+p42
+I12
+sS'electric conductor'
+p43
+I1
+sS'prevent'
+p44
+I1
+sS'arrow h'
+p45
+I1
+sS'ic packag'
+p46
+I44
+sS'spring'
+p47
+I1
+sS'excerpt'
+p48
+I1
+sS'maximum'
+p49
+I1
+sS'heatsink component adjac'
+p50
+I2
+sS'ball'
+p51
+I1
+sS'of the air fan'
+p52
+I2
+sS'the ic chip'
+p53
+I1
+sS'peripheral portions of'
+p54
+I1
+sS'extract'
+p55
+I29
+sS'probe align'
+p56
+I9
+sS'subject'
+p57
+I2
+sS'pin detachment prevent'
+p58
+I1
+sS'ic chip'
+p59
+I7
+sS'maximum current capac'
+p60
+I3
+sS'semiconductor'
+p61
+I1
+sS'conduct'
+p62
+I3
+sS'rm'
+p63
+I2
+sS'sensor'
+p64
+I6
+sS'connecticut avenu'
+p65
+I1
+sS'of the '
+p66
+I1
+sS'technical matt'
+p67
+I2
+sS'peripheral portions of th'
+p68
+I1
+sS'heatsinking capability of the electronic appli'
+p69
+I2
+sS'electrical power consumpt'
+p70
+I1
+sS'peripheral portions of the ic packag'
+p71
+I1
+sS'sink'
+p72
+I2
+sS'consumpt'
+p73
+I2
+sS'pins of'
+p74
+I1
+sS'bga'
+p75
+I1
+sS'heatsink'
+p76
+I15
+sS'conductor of th'
+p77
+I2
+sS'socket'
+p78
+I7
+sS'bu'
+p79
+I1
+sS'of'
+p80
+I10
+sS'of air fan'
+p81
+I4
+sS'w'
+p82
+I10
+sS'act'
+p83
+I4
+sS'detachment prevent'
+p84
+I2
+sS'copper'
+p85
+I4
+sS'of the electronic appli'
+p86
+I2
+sS'applianc'
+p87
+I47
+sS'washington'
+p88
+I1
+sS'probe hold'
+p89
+I2
+sS'avenu'
+p90
+I1
+sS'dummy heatsink fin'
+p91
+I1
+sS'suppli'
+p92
+I6
+sS'ball grid'
+p93
+I1
+sS'array'
+p94
+I2
+sS'guid'
+p95
+I1
+sS'rpm'
+p96
+I3
+sS'maximum permissible curr'
+p97
+I5
+sS'of the ic chip'
+p98
+I1
+sS'yamada hiroshi'
+p99
+I1
+sS'capac'
+p100
+I3
+sS'pins of the ic chip'
+p101
+I2
+sS'accumul'
+p102
+I4
+sS'adjac'
+p103
+I4
+sS'pa'
+p104
+I6
+sS'electr'
+p105
+I3
+sS'washington dc'
+p106
+I1
+sS'conductor correspond'
+p107
+I6
+sS'pm'
+p108
+I2
+sS'head'
+p109
+I4
+sS'regul'
+p110
+I4
+sS'spiral'
+p111
+I1
+sS'conductor'
+p112
+I3
+sS'densiti'
+p113
+I8
+sS'heatsink component mov'
+p114
+I2
+sS'heatsinking capability of th'
+p115
+I2
+sS'connecticut'
+p116
+I1
+sS'current capac'
+p117
+I3
+sS'hold'
+p118
+I3
+sS'holder'
+p119
+I2
+sS'grid array'
+p120
+I2
+sS'the electronic appli'
+p121
+I2
+sS'ic socket'
+p122
+I6
+sS'electricity loss'
+p123
+I3
+sS'target'
+p124
+I2
+sS'h10'
+p125
+I1
+sS'pins of th'
+p126
+I1
+sS'multi-pin '
+p127
+I1
+sS'matter'
+p128
+I2
+sS'thereat'
+p129
+I1
+sS'gnd'
+p130
+I1
+sS'frequenc'
+p131
+I2
+sS'b h'
+p132
+I1
+sS'electrical insul'
+p133
+I1
+sS'pin'
+p134
+I8
+sS'board correspond'
+p135
+I6
+sS'heatsinking capability of'
+p136
+I2
+sS'chip'
+p137
+I7
+sS'packag'
+p138
+I49
+sS'slit'
+p139
+I11
+sS'external circuits of th'
+p140
+I1
+sS'electrical conduct'
+p141
+I1
+sS'encompass'
+p142
+I9
+sS'ic'
+p143
+I61
+sS'of th'
+p144
+I8
+sS'frame-like socket'
+p145
+I1
+sS'conductor of'
+p146
+I2
+sS'heatsinking of'
+p147
+I1
+sS'spiral spr'
+p148
+I1
+sS'hereinbelow'
+p149
+I1
+sS'voltag'
+p150
+I1
+sS'peripheral appli'
+p151
+I4
+sS'loss pm'
+p152
+I1
+sS'pins of the '
+p153
+I1
+sS'aluminum alloy'
+p154
+I1
+sS'lga'
+p155
+I1
+sS'distribut'
+p156
+I3
+sS'capability of the electronic appli'
+p157
+I2
+sS'land grid array'
+p158
+I1
+sS'permissible curr'
+p159
+I6
+sS'slant'
+p160
+I2
+sS'probe pin'
+p161
+I3
+sS'heatsink fin'
+p162
+I8
+sS'capabl'
+p163
+I1
+sS'external circuits of'
+p164
+I1
+sS'the air fan'
+p165
+I1
+sS'probe pin detachment prevent'
+p166
+I2
+sS'insul'
+p167
+I3
+sS'ic package hav'
+p168
+I1
+sS'electric conductor correspond'
+p169
+I6
+sS'charg'
+p170
+I4
+sS'pc'
+p171
+I4
+sS'probe pin detach'
+p172
+I2
+sS'cooling air w'
+p173
+I1
+sS'land'
+p174
+I1
+sS'heatsinking of th'
+p175
+I1
+sS'of the ic packag'
+p176
+I5
+sS'correspond'
+p177
+I14
+sS'voltage drop'
+p178
+I11
+sS'depth'
+p179
+I1
+sS'ball grid array'
+p180
+I1
+stp181
+Rp182
+tp183
+.

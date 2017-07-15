@@ -1,0 +1,110 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'gutenberg ebook'
+p7
+I2
+sS'text'
+p8
+I1
+sS'hyphen'
+p9
+I1
+sS'ebook'
+p10
+I3
+sS'project gutenberg ebook'
+p11
+I2
+sS'hospital nurse author'
+p12
+I1
+sS'restrict'
+p13
+I1
+sS'date'
+p14
+I1
+sS'motte release d'
+p15
+I1
+sS'hospit'
+p16
+I1
+sS'proofreading team'
+p17
+I1
+sS'release d'
+p18
+I1
+sS'librari'
+p19
+I1
+sS'proofread'
+p20
+I1
+sS'nurse author'
+p21
+I1
+sS'project gutenberg'
+p22
+I3
+sS'author'
+p23
+I1
+sS'project gutenberg licens'
+p24
+I1
+sS'la motte release d'
+p25
+I1
+sS'licens'
+p26
+I1
+sS'hospital nurs'
+p27
+I1
+sS'american librari'
+p28
+I1
+sS'project'
+p29
+I3
+sS'gutenberg licens'
+p30
+I1
+sS'ellen'
+p31
+I1
+sS're-us'
+p32
+I1
+sS'internet'
+p33
+I1
+sS'internet arch'
+p34
+I1
+sS'team'
+p35
+I1
+sS'page'
+p36
+I2
+sS'original text'
+p37
+I1
+stp38
+Rp39
+tp40
+.

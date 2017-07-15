@@ -1,0 +1,371 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'adequate perm'
+p7
+I1
+sS'polyetherketon'
+p8
+I1
+sS'individual lay'
+p9
+I1
+sS'ceramic fib'
+p10
+I1
+sS'lay'
+p11
+I1
+sS'diffusion adhes'
+p12
+I1
+sS'pseudo-parallel'
+p13
+I1
+sS'polypeptid'
+p14
+I1
+sS'the papermachine fabr'
+p15
+I1
+sS'polyethylen'
+p16
+I2
+sS'batt'
+p17
+I12
+sS'polyetherketoneketon'
+p18
+I1
+sS'ptt'
+p19
+I1
+sS'fine'
+p20
+I2
+sS'poli'
+p21
+I1
+sS'fiber-reinforc'
+p22
+I2
+sS'web'
+p23
+I15
+sS'pp'
+p24
+I2
+sS'fabric'
+p25
+I31
+sS'poly trimethylene or poli'
+p26
+I1
+sS'capac'
+p27
+I1
+sS'of transverse thread'
+p28
+I1
+sS'main street'
+p29
+I1
+sS'board'
+p30
+I1
+sS'pe'
+p31
+I1
+sS'main'
+p32
+I1
+sS'adhes'
+p33
+I9
+sS'polybutylen'
+p34
+I1
+sS'of adjacent thread'
+p35
+I4
+sS'pbt'
+p36
+I1
+sS'rebound'
+p37
+I1
+sS'trimethylene or poly terephthal'
+p38
+I1
+sS'b'
+p39
+I2
+sS'polyphenylen'
+p40
+I1
+sS'b of transvers'
+p41
+I1
+sS'poly trimethylene or poly terephthal'
+p42
+I1
+sS'adjacent thread'
+p43
+I8
+sS'sulfid'
+p44
+I1
+sS'carbon fib'
+p45
+I1
+sS'exemplary courses of'
+p46
+I2
+sS'f'
+p47
+I1
+sS'b of transverse thread'
+p48
+I2
+sS'transvers'
+p49
+I1
+sS'align'
+p50
+I1
+sS'optimal load distribut'
+p51
+I3
+sS'poly trimethylen'
+p52
+I1
+sS'charact'
+p53
+I2
+sS'sheath-core thread'
+p54
+I1
+sS'fibrous web'
+p55
+I15
+sS'poly terephthal'
+p56
+I1
+sS'behavior'
+p57
+I2
+sS'alia'
+p58
+I1
+sS'b h'
+p59
+I2
+sS'papermachine fabric westerkamp arv'
+p60
+I1
+sS'corresponding reference charact'
+p61
+I1
+sS'coarse fib'
+p62
+I5
+sS'reactive adhes'
+p63
+I1
+sS'polyethylene terephthal'
+p64
+I1
+sS'interspac'
+p65
+I4
+sS'final stag'
+p66
+I1
+sS'polyphenylene sulfid'
+p67
+I1
+sS'optimized perm'
+p68
+I1
+sS'b3'
+p69
+I1
+sS'exemplif'
+p70
+I2
+sS'fine fiber batt'
+p71
+I5
+sS'terephtal'
+p72
+I1
+sS'multi-component thread'
+p73
+I1
+sS'scrim'
+p74
+I14
+sS'reductive fabr'
+p75
+I1
+sS'polybutylene terephtal'
+p76
+I1
+sS'pet'
+p77
+I1
+sS'pa'
+p78
+I1
+sS'side-by-side thread'
+p79
+I1
+sS'terephthal'
+p80
+I2
+sS'parallel align'
+p81
+I1
+sS'polyurethan'
+p82
+I5
+sS'rebound capac'
+p83
+I1
+sS'pekk'
+p84
+I1
+sS'exemplary courses of adjacent thread'
+p85
+I2
+sS'coarse fiber batt'
+p86
+I5
+sS'pek'
+p87
+I1
+sS'papermachine fabric westerkamp arved h'
+p88
+I1
+sS'machin'
+p89
+I1
+sS'fiber'
+p90
+I6
+sS'distribut'
+p91
+I3
+sS'optimal load'
+p92
+I3
+sS'h later'
+p93
+I1
+sS'of the papermachine fabr'
+p94
+I3
+sS'foam'
+p95
+I9
+sS'polyurethane foam'
+p96
+I8
+sS'transverse thread'
+p97
+I10
+sS'restrict'
+p98
+I1
+sS'a5'
+p99
+I1
+sS'avilla'
+p100
+I1
+sS'customary practic'
+p101
+I1
+sS'fine fib'
+p102
+I5
+sS'carbon'
+p103
+I1
+sS'longitudinal thread'
+p104
+I15
+sS'stage'
+p105
+I1
+sS'box'
+p106
+I1
+sS'poly trimethylene or'
+p107
+I1
+sS'e'
+p108
+I2
+sS'practic'
+p109
+I1
+sS'thread'
+p110
+I36
+sS'polyamid'
+p111
+I1
+sS'of'
+p112
+I1
+sS'load distribut'
+p113
+I3
+sS'of th'
+p114
+I1
+sS'permeabl'
+p115
+I2
+sS'carrier'
+p116
+I4
+sS'or poly terephthal'
+p117
+I1
+sS'fiber batt'
+p118
+I12
+sS'papermachine fabr'
+p119
+I32
+sS'board machin'
+p120
+I1
+sS'dtex'
+p121
+I2
+sS'papermachine fabric westerkamp'
+p122
+I1
+sS'two-dimensional carri'
+p123
+I2
+sS'b of'
+p124
+I1
+stp125
+Rp126
+tp127
+.

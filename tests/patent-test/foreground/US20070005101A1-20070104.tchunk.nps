@@ -1,0 +1,203 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'load'
+p7
+I1
+sS'embolic protection filt'
+p8
+I2
+sS'street suit'
+p9
+I2
+sS'the catheter for rapid exchange of the cathet'
+p10
+I2
+sS'exchange of the cathet'
+p11
+I3
+sS'boston'
+p12
+I1
+sS'protection fil'
+p13
+I1
+sS'cathet'
+p14
+I30
+sS'rapid exchange guidewir'
+p15
+I3
+sS'street'
+p16
+I1
+sS'of the cathet'
+p17
+I3
+sS'proximal end of the catheter for rapid exchange of th'
+p18
+I2
+sS'of the catheter shaft'
+p19
+I1
+sS'ie'
+p20
+I1
+sS'embolic protection fil'
+p21
+I1
+sS'proximal end of the catheter for rapid exchange of'
+p22
+I2
+sS'the catheter shaft'
+p23
+I1
+sS'vasculatur'
+p24
+I3
+sS'filter retriev'
+p25
+I1
+sS'guidewir'
+p26
+I4
+sS'embolic protect'
+p27
+I3
+sS'catheter for rapid exchange of the cathet'
+p28
+I2
+sS'rapid exchange of'
+p29
+I1
+sS'of the catheter for rapid exchange of the cathet'
+p30
+I4
+sS'filter retrieval cathet'
+p31
+I1
+sS'for rapid exchange of the cathet'
+p32
+I2
+sS'sidewall of the cathet'
+p33
+I1
+sS'lumen'
+p34
+I1
+sS'exchang'
+p35
+I1
+sS'catheter shaft'
+p36
+I16
+sS'proximal end of the catheter for rapid exchang'
+p37
+I2
+sS'filer'
+p38
+I1
+sS'sidewall of the catheter shaft'
+p39
+I1
+sS'boston ma'
+p40
+I1
+sS'county i'
+p41
+I1
+sS'proximal end of the catheter for rapid exchange of the cathet'
+p42
+I2
+sS'suit'
+p43
+I1
+sS'reinforc'
+p44
+I6
+sS'tortuous vasculatur'
+p45
+I1
+sS'rapid exchange of th'
+p46
+I1
+sS'protection filt'
+p47
+I2
+sS'rosscahill counti'
+p48
+I1
+sS'sidewall of'
+p49
+I1
+sS'proximal end of the cathet'
+p50
+I2
+sS'filter cathet'
+p51
+I5
+sS'shaft'
+p52
+I16
+sS'proximal end of th'
+p53
+I2
+sS'ma'
+p54
+I1
+sS'rapid exchang'
+p55
+I5
+sS'sidewall of th'
+p56
+I1
+sS'retrieval cathet'
+p57
+I4
+sS'proximal end of the catheter for'
+p58
+I2
+sS'the cathet'
+p59
+I3
+sS'rosscahill county i'
+p60
+I1
+sS'rosscahil'
+p61
+I1
+sS'filter'
+p62
+I2
+sS'proximal end of'
+p63
+I2
+sS'sidewal'
+p64
+I1
+sS'b h'
+p65
+I1
+sS'embolic load'
+p66
+I1
+sS'rapid exchange of the cathet'
+p67
+I3
+sS'therethrough'
+p68
+I1
+stp69
+Rp70
+tp71
+.

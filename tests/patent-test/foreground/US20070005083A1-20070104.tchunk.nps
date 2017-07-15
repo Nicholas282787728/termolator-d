@@ -1,0 +1,731 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'stent having barb'
+p7
+I1
+sS'consider'
+p8
+I1
+sS'deformable closed-cel'
+p9
+I2
+sS'placement sit'
+p10
+I1
+sS'rod'
+p11
+I1
+sS'mucosa'
+p12
+I3
+sS'serious natur'
+p13
+I1
+sS'clot'
+p14
+I1
+sS'hypoxaemic pati'
+p15
+I1
+sS'circumfer'
+p16
+I2
+sS'hyper-inflated alveoli pressuris'
+p17
+I1
+sS'suffer'
+p18
+I2
+sS'supplemental oxygen therapi'
+p19
+I1
+sS'for a bronchial tub'
+p20
+I1
+sS'paramet'
+p21
+I1
+sS'current therethrough'
+p22
+I1
+sS'serious diseas'
+p23
+I1
+sS'real-time x-ray'
+p24
+I1
+sS'obturator for'
+p25
+I1
+sS'monitor'
+p26
+I1
+sS'stent'
+p27
+I41
+sS'proxim'
+p28
+I3
+sS'pressurise neighbouring alveoli'
+p29
+I1
+sS'optical guid'
+p30
+I1
+sS'surgical quality steel wir'
+p31
+I2
+sS'of emphysema'
+p32
+I1
+sS'exercis'
+p33
+I1
+sS'of biocompat'
+p34
+I1
+sS'neighbouring alveoli'
+p35
+I1
+sS'tube therealong'
+p36
+I1
+sS'logical opt'
+p37
+I1
+sS'therapi'
+p38
+I2
+sS'loss'
+p39
+I1
+sS'arteri'
+p40
+I1
+sS'de-u-9205797'
+p41
+I1
+sS'fluid'
+p42
+I4
+sS'distal ends of th'
+p43
+I2
+sS'framework'
+p44
+I1
+sS'surgical grad'
+p45
+I1
+sS'ductu'
+p46
+I2
+sS'friction'
+p47
+I3
+sS'undeflated alveoli'
+p48
+I1
+sS'surgical qu'
+p49
+I5
+sS'delivery tub'
+p50
+I13
+sS'for the obtur'
+p51
+I2
+sS'compressible framework'
+p52
+I1
+sS'hyper-inflated alveoli pressurise neighbour'
+p53
+I1
+sS'oxygen'
+p54
+I2
+sS'therapy for the hypoxaemic pati'
+p55
+I1
+sS'individual alveoli'
+p56
+I1
+sS'respiratori'
+p57
+I1
+sS'numerous opportun'
+p58
+I1
+sS'dome st'
+p59
+I1
+sS'lung'
+p60
+I1
+sS'mucosa of'
+p61
+I1
+sS'temporary relief'
+p62
+I1
+sS'x-ray'
+p63
+I1
+sS'natur'
+p64
+I1
+sS'surgeri'
+p65
+I3
+sS'adjacent nerv'
+p66
+I1
+sS'continu'
+p67
+I1
+sS'acinu'
+p68
+I1
+sS'vessel'
+p69
+I1
+sS'pvc'
+p70
+I7
+sS'barb'
+p71
+I5
+sS'cylindrical plug of biocompat'
+p72
+I1
+sS'seal'
+p73
+I3
+sS'patient'
+p74
+I1
+sS'therealong'
+p75
+I1
+sS'steel wire leg'
+p76
+I2
+sS'obturator for a bronchial tub'
+p77
+I1
+sS'the hypoxaemic pati'
+p78
+I1
+sS'delivery tube of th'
+p79
+I1
+sS'tube'
+p80
+I31
+sS'membrane s'
+p81
+I1
+sS'alveoli pressurise neighbouring alveoli'
+p82
+I1
+sS'emphysema'
+p83
+I14
+sS'axial'
+p84
+I1
+sS'tight seal'
+p85
+I1
+sS'bronchial obtur'
+p86
+I1
+sS'friction surface of th'
+p87
+I1
+sS'non-uniform'
+p88
+I1
+sS'mucosa of the air passag'
+p89
+I1
+sS'delivery tube therealong'
+p90
+I1
+sS'pvc foam'
+p91
+I4
+sS'diseas'
+p92
+I1
+sS'bronchial tub'
+p93
+I15
+sS'leg'
+p94
+I2
+sS'bronchial mucosa'
+p95
+I1
+sS'sabanathan'
+p96
+I1
+sS'delivery device for'
+p97
+I1
+sS'plug of biocompat'
+p98
+I1
+sS'electric current therethrough'
+p99
+I1
+sS'closur'
+p100
+I2
+sS'umbrella'
+p101
+I1
+sS'obturator complet'
+p102
+I1
+sS'steel stent'
+p103
+I1
+sS'airway'
+p104
+I9
+sS'distal ends of'
+p105
+I2
+sS'meshbasket'
+p106
+I1
+sS'plug'
+p107
+I2
+sS'pvc foam plug'
+p108
+I1
+sS'airflow'
+p109
+I2
+sS'occlus'
+p110
+I7
+sS'terminal bronchiol'
+p111
+I1
+sS'drug'
+p112
+I1
+sS'biocompat'
+p113
+I1
+sS'occlud'
+p114
+I2
+sS'transverse dimens'
+p115
+I1
+sS'therapeut'
+p116
+I1
+sS'modal'
+p117
+I1
+sS'passag'
+p118
+I2
+sS'guide tub'
+p119
+I6
+sS'supplemental oxygen therapy for th'
+p120
+I1
+sS'therethrough'
+p121
+I1
+sS'lung volume reduction surgeri'
+p122
+I1
+sS'aortic'
+p123
+I1
+sS'delivery device for the obtur'
+p124
+I1
+sS'grade'
+p125
+I1
+sS'exchang'
+p126
+I1
+sS'qualiti'
+p127
+I3
+sS'emphysema suffer'
+p128
+I2
+sS'bronchial obturator complet'
+p129
+I1
+sS'diaphragm s'
+p130
+I1
+sS'airway tract'
+p131
+I1
+sS'circular diaphragm'
+p132
+I1
+sS'pulmonary blood'
+p133
+I1
+sS'opportun'
+p134
+I1
+sS'ductus arteriosu'
+p135
+I2
+sS'guid'
+p136
+I8
+sS'sabaratham'
+p137
+I1
+sS'chronic infect'
+p138
+I1
+sS'surgical quality steel wire leg'
+p139
+I2
+sS'anti-inflammatory drug'
+p140
+I1
+sS'arteriosu'
+p141
+I2
+sS'cor pulmonal'
+p142
+I1
+sS'delivery tube of'
+p143
+I1
+sS'traction'
+p144
+I1
+sS'supplemental oxygen therapy for the hypoxaemic pati'
+p145
+I1
+sS'hyper-inflated alveoli pressurise neighbouring alveoli'
+p146
+I1
+sS'for the hypoxaemic pati'
+p147
+I1
+sS'termin'
+p148
+I1
+sS'transverse dimension of'
+p149
+I1
+sS'frame'
+p150
+I1
+sS'friction surface of the obtur'
+p151
+I1
+sS'treat'
+p152
+I1
+sS'deliveri'
+p153
+I24
+sS'heterogenous distribution of emphysema'
+p154
+I1
+sS'expiratory airflow'
+p155
+I1
+sS'airspace enlarg'
+p156
+I1
+sS'option'
+p157
+I1
+sS'stent crown'
+p158
+I2
+sS'crown'
+p159
+I4
+sS'lobe emphysema'
+p160
+I1
+sS'cylindrical plug'
+p161
+I3
+sS'physical paramet'
+p162
+I1
+sS'of the air passag'
+p163
+I1
+sS'delivery tube of the deliveri'
+p164
+I1
+sS'oxygen therapy for the hypoxaemic pati'
+p165
+I1
+sS'pulmonal'
+p166
+I1
+sS'wo-a-9532018'
+p167
+I1
+sS'biocompatible plast'
+p168
+I1
+sS'sabanathan sabaratham'
+p169
+I1
+sS'steel'
+p170
+I1
+sS'heterogenous distribution of'
+p171
+I1
+sS'proximal end of th'
+p172
+I1
+sS'supplemental oxygen therapy for'
+p173
+I1
+sS'supplemental oxygen'
+p174
+I1
+sS'mn'
+p175
+I1
+sS'guide rod'
+p176
+I1
+sS'hyper-inflated alveoli'
+p177
+I1
+sS'segmental bronchu'
+p178
+I1
+sS'friction surface of'
+p179
+I1
+sS'reabsorb'
+p180
+I1
+sS'delivery device for th'
+p181
+I1
+sS'stent hav'
+p182
+I1
+sS'b h'
+p183
+I2
+sS'internal st'
+p184
+I1
+sS'anchor'
+p185
+I4
+sS'airway closur'
+p186
+I1
+sS'wire leg'
+p187
+I2
+sS'fluid tight s'
+p188
+I1
+sS'enlarg'
+p189
+I1
+sS'diaphragm'
+p190
+I5
+sS'cylindrical plug of'
+p191
+I2
+sS'site'
+p192
+I2
+sS'quality steel wire leg'
+p193
+I2
+sS'endo-bronchial obtur'
+p194
+I1
+sS'vascular occlus'
+p195
+I1
+sS'unrelentless'
+p196
+I1
+sS'dyspnoea'
+p197
+I1
+sS'foam plug'
+p198
+I1
+sS'having barb'
+p199
+I1
+sS'the air passag'
+p200
+I1
+sS'surgical quality steel'
+p201
+I2
+sS'bronchiol'
+p202
+I1
+sS'closed-cel'
+p203
+I3
+sS'heterogenous distribut'
+p204
+I1
+sS'alveoli'
+p205
+I5
+sS'distal end of'
+p206
+I1
+sS'external anchor'
+p207
+I3
+sS'infect'
+p208
+I1
+sS'transverse dimension of th'
+p209
+I1
+sS'embolism therapi'
+p210
+I1
+sS'complet'
+p211
+I1
+sS'minneapolis mn'
+p212
+I1
+sS'of the obtur'
+p213
+I2
+sS'rise'
+p214
+I2
+sS'aforementioned obtur'
+p215
+I1
+sS'inhal'
+p216
+I1
+sS'lobar bronchu'
+p217
+I1
+sS'therapeutic mod'
+p218
+I1
+sS'expans'
+p219
+I1
+sS'foam'
+p220
+I3
+sS'compress'
+p221
+I2
+sS'distal end of th'
+p222
+I1
+sS'bronchodil'
+p223
+I1
+sS'tubul'
+p224
+I20
+sS'hyper-infl'
+p225
+I1
+sS'passageway'
+p226
+I5
+sS'minneapoli'
+p227
+I1
+sS'bronchial passageway'
+p228
+I6
+sS'crown stent'
+p229
+I2
+sS'segment'
+p230
+I1
+sS'distribution of emphysema'
+p231
+I1
+sS'delivery sit'
+p232
+I1
+sS'internal barb'
+p233
+I4
+sS'placement'
+p234
+I1
+sS'medical therapi'
+p235
+I1
+sS'vessel occlud'
+p236
+I1
+sS'the obtur'
+p237
+I2
+sS'physiological loss'
+p238
+I1
+sS'obtur'
+p239
+I40
+sS'circular fram'
+p240
+I1
+sS'proximal end of'
+p241
+I1
+sS'relief'
+p242
+I1
+sS'mucosa of th'
+p243
+I1
+sS'bronchu'
+p244
+I2
+stp245
+Rp246
+tp247
+.

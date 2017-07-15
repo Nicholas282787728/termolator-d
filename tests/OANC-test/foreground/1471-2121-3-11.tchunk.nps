@@ -1,0 +1,701 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'normal human blood'
+p7
+I1
+sS'acute coronary syndrom'
+p8
+I1
+sS'contrast microscopi'
+p9
+I2
+sS'platelet protein kinas'
+p10
+I1
+sS'protein c'
+p11
+I1
+sS'i inhibitor camptothecin'
+p12
+I1
+sS'platelet protein'
+p13
+I1
+sS'endotoxin-stimulated monocyt'
+p14
+I1
+sS'apoptosis of adherent cel'
+p15
+I1
+sS'human blood'
+p16
+I1
+sS'affin'
+p17
+I1
+sS'concentr'
+p18
+I3
+sS'diagnostic marker of'
+p19
+I1
+sS'plasma counts of endothelial mp'
+p20
+I1
+sS'marker of vessel wall injuri'
+p21
+I1
+sS'stimul'
+p22
+I3
+sS'coronary syndrom'
+p23
+I1
+sS'activ'
+p24
+I2
+sS'topoisomerase i inhibitor'
+p25
+I1
+sS'platelet'
+p26
+I2
+sS'treatment'
+p27
+I4
+sS'for phagocyte recognit'
+p28
+I2
+sS'diagnostic mark'
+p29
+I1
+sS'cell apoptosi'
+p30
+I2
+sS'pathophysiological rol'
+p31
+I1
+sS'nm camptothecin induc'
+p32
+I1
+sS'dmso'
+p33
+I3
+sS'plasma'
+p34
+I1
+sS'plasma membrane bleb'
+p35
+I1
+sS'pathophysiological role of circulating mp'
+p36
+I1
+sS'collagen'
+p37
+I1
+sS'v-binding microparticl'
+p38
+I1
+sS'apoptosis of'
+p39
+I1
+sS'polymorphonuclear'
+p40
+I1
+sS'monocyt'
+p41
+I1
+sS'huvec mp count'
+p42
+I1
+sS'cpt treated huvec cultur'
+p43
+I1
+sS'5\xce\xbcm cpt'
+p44
+I1
+sS'phosphatidylserin'
+p45
+I1
+sS'of circulating mp'
+p46
+I1
+sS'ssc'
+p47
+I1
+sS'diagnostic marker of vessel wall injuri'
+p48
+I1
+sS'similar short-time activ'
+p49
+I1
+sS'necrotic cel'
+p50
+I1
+sS'cycloheximid'
+p51
+I1
+sS'\xce\xbcm ionophor'
+p52
+I1
+sS'huvec reaching conflu'
+p53
+I1
+sS'tunel'
+p54
+I1
+sS'annexin v-binding membran'
+p55
+I1
+sS'of vessel wall injuri'
+p56
+I1
+sS'unstimulated cel'
+p57
+I2
+sS'proapoptotic stimul'
+p58
+I1
+sS'microscopi'
+p59
+I1
+sS'endothelial origin'
+p60
+I1
+sS'v-bind'
+p61
+I2
+sS'vessel wall injuri'
+p62
+I1
+sS'apoptotic t-lymphocyt'
+p63
+I1
+sS'normal restriction of'
+p64
+I1
+sS'antigen'
+p65
+I2
+sS'protein kinas'
+p66
+I1
+sS'mp detect'
+p67
+I1
+sS'activate protein c'
+p68
+I1
+sS'pma'
+p69
+I1
+sS'bleb'
+p70
+I1
+sS'for p'
+p71
+I1
+sS'nm camptothecin induced mp-releas'
+p72
+I1
+sS'spontaneous apoptosi'
+p73
+I1
+sS'endothelial cel'
+p74
+I5
+sS'nm cpt'
+p75
+I2
+sS'syndrom'
+p76
+I1
+sS'detect'
+p77
+I1
+sS'reaching conflu'
+p78
+I1
+sS'cd105'
+p79
+I1
+sS'short-time activation of huvec'
+p80
+I1
+sS'thrombin'
+p81
+I3
+sS'agtii'
+p82
+I1
+sS'cell'
+p83
+I18
+sS'recognit'
+p84
+I1
+sS'proapoptot'
+p85
+I1
+sS'tissue plasminogen activ'
+p86
+I1
+sS'camptothecin phase contrast microscopi'
+p87
+I1
+sS'anticoagul'
+p88
+I1
+sS'trap'
+p89
+I1
+sS'pathophysiological role of'
+p90
+I1
+sS'similar short-time activation of'
+p91
+I1
+sS'affinity for p'
+p92
+I1
+sS'dissoci'
+p93
+I1
+sS'induc'
+p94
+I1
+sS'induced mp-releas'
+p95
+I1
+sS'nm camptothecin'
+p96
+I1
+sS'ps-containing membrane mp'
+p97
+I1
+sS'membrane mp'
+p98
+I2
+sS'cell supernat'
+p99
+I1
+sS'of huvec'
+p100
+I2
+sS'confluenc'
+p101
+I1
+sS'popul'
+p102
+I1
+sS'huvec'
+p103
+I18
+sS'v-binding mp'
+p104
+I3
+sS'agonist'
+p105
+I3
+sS'topoisomerase i inhibitor camptothecin'
+p106
+I1
+sS'topoisomeras'
+p107
+I2
+sS'endothelial mp'
+p108
+I1
+sS'\xce\xbcm'
+p109
+I2
+sS'rapid stimul'
+p110
+I1
+sS'prothrombinase complex'
+p111
+I1
+sS'plasma counts of'
+p112
+I1
+sS'origin'
+p113
+I2
+sS'tunel-posit'
+p114
+I1
+sS'culture matur'
+p115
+I1
+sS'tissue plasminogen'
+p116
+I1
+sS'cpt treat'
+p117
+I1
+sS'polymorphonuclear leucocyt'
+p118
+I1
+sS'rapid stimulation of huvec'
+p119
+I1
+sS'ionophor'
+p120
+I2
+sS'membran'
+p121
+I2
+sS'huvec cultur'
+p122
+I3
+sS't-lymphocyt'
+p123
+I1
+sS'cell desquam'
+p124
+I1
+sS'affinity for'
+p125
+I1
+sS'calpain-dependent dissoci'
+p126
+I1
+sS'annexin v-bind'
+p127
+I2
+sS'role of circulating mp'
+p128
+I1
+sS'cpt treatment'
+p129
+I2
+sS'\xce\xbcm cpt'
+p130
+I6
+sS'normal restriction of p'
+p131
+I1
+sS'injuri'
+p132
+I3
+sS'phagocyte recognit'
+p133
+I1
+sS'angiotensin ii'
+p134
+I1
+sS'of ionophor'
+p135
+I1
+sS'platelets stimul'
+p136
+I1
+sS'stimulation of huvec'
+p137
+I1
+sS'submembrane cytoskeleton'
+p138
+I1
+sS'microparticl'
+p139
+I1
+sS'huvec reach'
+p140
+I1
+sS'adher'
+p141
+I1
+sS'vesicul'
+p142
+I1
+sS'incub'
+p143
+I1
+sS'lp'
+p144
+I1
+sS'plasma count'
+p145
+I1
+sS'hr'
+p146
+I7
+sS'subconfluent huvec'
+p147
+I1
+sS'cpt treated huvec'
+p148
+I1
+sS'phospholipid-binding protein'
+p149
+I1
+sS'concentration of cpt'
+p150
+I2
+sS'endothelial antigen'
+p151
+I2
+sS'v-binding membran'
+p152
+I1
+sS'huvec mp'
+p153
+I1
+sS'tissu'
+p154
+I1
+sS'of p'
+p155
+I1
+sS'ps-exposing mp'
+p156
+I1
+sS'apoptosi'
+p157
+I6
+sS'lupus anticoagul'
+p158
+I1
+sS'zvad'
+p159
+I2
+sS'topoisomerase i'
+p160
+I2
+sS'pathophysiological role of circul'
+p161
+I1
+sS'count'
+p162
+I2
+sS'camptothecin induced mp-releas'
+p163
+I1
+sS'of cpt'
+p164
+I2
+sS'of endothelial mp'
+p165
+I1
+sS'ml'
+p166
+I3
+sS'plasminogen activ'
+p167
+I1
+sS'annexin v-binding microparticl'
+p168
+I1
+sS'\xce\xbcm cpt treatment'
+p169
+I1
+sS'plasma membran'
+p170
+I1
+sS'mp'
+p171
+I18
+sS'ps-expos'
+p172
+I1
+sS'dmso treated huvec'
+p173
+I1
+sS'mp count'
+p174
+I2
+sS'cell cultur'
+p175
+I1
+sS'camptothecin'
+p176
+I2
+sS'mp-release induc'
+p177
+I1
+sS'ps'
+p178
+I4
+sS'thr'
+p179
+I1
+sS'ii'
+p180
+I1
+sS'camptothecin phase contrast'
+p181
+I1
+sS'cpt analogu'
+p182
+I1
+sS'tnf\xce\xb1'
+p183
+I1
+sS'cultur'
+p184
+I7
+sS'protein'
+p185
+I1
+sS'treated huvec'
+p186
+I1
+sS'cytoskeleton'
+p187
+I1
+sS'concentration of ionophor'
+p188
+I1
+sS'cellular activ'
+p189
+I1
+sS'treated huvec cultur'
+p190
+I1
+sS'unstimulated cell cultur'
+p191
+I1
+sS'nm'
+p192
+I1
+sS'desquam'
+p193
+I1
+sS'of adherent cel'
+p194
+I1
+sS'adherent cel'
+p195
+I2
+sS'circulating mp'
+p196
+I1
+sS'complex'
+p197
+I1
+sS'normal restrict'
+p198
+I1
+sS'concentration of'
+p199
+I3
+sS'leucocyt'
+p200
+I1
+sS'endothelial injuri'
+p201
+I1
+sS'analogu'
+p202
+I1
+sS'kinas'
+p203
+I1
+sS'cytometri'
+p204
+I4
+sS'mp-releas'
+p205
+I13
+sS'annexin v-binding mp'
+p206
+I3
+sS'counts of endothelial mp'
+p207
+I1
+sS'matur'
+p208
+I2
+sS'cd59'
+p209
+I1
+sS'5\xce\xbcm'
+p210
+I1
+sS'dmso treat'
+p211
+I1
+sS'rapid stimulation of'
+p212
+I1
+sS'min treat'
+p213
+I1
+sS'dna-fragment'
+p214
+I2
+sS'blood'
+p215
+I2
+sS'huvec stimul'
+p216
+I1
+sS'membrane bleb'
+p217
+I1
+sS'blood platelet'
+p218
+I1
+sS'restriction of p'
+p219
+I1
+sS'activate protein'
+p220
+I1
+sS'fsc'
+p221
+I1
+sS'for'
+p222
+I1
+sS'tpa'
+p223
+I1
+sS'inhibitor camptothecin'
+p224
+I1
+sS'hrs incub'
+p225
+I1
+sS'activation of huvec'
+p226
+I1
+sS'apoptotic cel'
+p227
+I1
+sS'nih'
+p228
+I1
+sS'supernat'
+p229
+I1
+sS'cycloheximide treat'
+p230
+I1
+sS'similar short-time activation of huvec'
+p231
+I1
+sS'cellular origin'
+p232
+I1
+sS'membrane vesicul'
+p233
+I1
+sS'cpt'
+p234
+I17
+stp235
+Rp236
+tp237
+.

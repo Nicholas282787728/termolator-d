@@ -1,0 +1,479 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'pre-defined soft-key'
+p7
+I1
+sS'identifi'
+p8
+I7
+sS'gp'
+p9
+I2
+sS'for the subscriber termin'
+p10
+I1
+sS'home base st'
+p11
+I1
+sS'global'
+p12
+I1
+sS'terminal regist'
+p13
+I1
+sS'telephon'
+p14
+I2
+sS'protocol'
+p15
+I1
+sS'service provid'
+p16
+I49
+sS'superior'
+p17
+I1
+sS'monitor'
+p18
+I1
+sS'vendor information satisfying subscriber provis'
+p19
+I1
+sS'mobile termin'
+p20
+I1
+sS'restaur'
+p21
+I3
+sS'sugar'
+p22
+I1
+sS'program'
+p23
+I1
+sS'sms messag'
+p24
+I1
+sS'flowchart'
+p25
+I1
+sS'vendor'
+p26
+I78
+sS'vendor information satisfying subscriber provisioned response criteria'
+p27
+I1
+sS'food'
+p28
+I3
+sS'criteria for'
+p29
+I1
+sS'subscriber travel'
+p30
+I1
+sS'vendor information response criteria'
+p31
+I3
+sS'voic'
+p32
+I1
+sS'subscriber terminal regist'
+p33
+I1
+sS'vendor information service provid'
+p34
+I3
+sS'rank'
+p35
+I2
+sS'vlr'
+p36
+I5
+sS'vendor information satisfying pre-established criteria'
+p37
+I1
+sS'sugar grove il'
+p38
+I1
+sS'criteria pre-provis'
+p39
+I3
+sS'criteria for the subscriber termin'
+p40
+I2
+sS'subscription servic'
+p41
+I2
+sS'button'
+p42
+I1
+sS'server'
+p43
+I3
+sS'floor cleveland oh'
+p44
+I1
+sS'further scope of'
+p45
+I1
+sS'elmhurst il'
+p46
+I1
+sS'short messag'
+p47
+I1
+sS'telecommun'
+p48
+I1
+sS'soft-key'
+p49
+I1
+sS'hmsc'
+p50
+I12
+sS'old'
+p51
+I1
+sS'vendor contact paramet'
+p52
+I7
+sS'message servic'
+p53
+I1
+sS'visiting location regist'
+p54
+I1
+sS'home'
+p55
+I5
+sS'terminal sheen baol'
+p56
+I1
+sS'dial'
+p57
+I1
+sS'network'
+p58
+I1
+sS'for'
+p59
+I5
+sS'chicago'
+p60
+I2
+sS'databas'
+p61
+I16
+sS'criteria for the subscrib'
+p62
+I1
+sS'superior av'
+p63
+I1
+sS'further scope of th'
+p64
+I1
+sS'geographic area for'
+p65
+I1
+sS'internet'
+p66
+I5
+sS'subscript'
+p67
+I2
+sS'paramet'
+p68
+I14
+sS'difficulti'
+p69
+I1
+sS'subscriber termin'
+p70
+I4
+sS'sophist'
+p71
+I1
+sS'chart'
+p72
+I4
+sS'web accessible mobile termin'
+p73
+I1
+sS'address'
+p74
+I2
+sS'oh'
+p75
+I1
+sS'pre-established criteria'
+p76
+I1
+sS'richton'
+p77
+I1
+sS'phone cal'
+p78
+I1
+sS'provis'
+p79
+I2
+sS'criteria for th'
+p80
+I1
+sS'hsmc'
+p81
+I1
+sS'cellular phon'
+p82
+I2
+sS'landline telephon'
+p83
+I1
+sS'messaging protocol'
+p84
+I1
+sS'for provid'
+p85
+I5
+sS'subscriber provisioned response criteria'
+p86
+I25
+sS'instruct'
+p87
+I1
+sS'floor cleveland'
+p88
+I1
+sS'establish'
+p89
+I1
+sS'terminal sheen'
+p90
+I1
+sS'continual monitor'
+p91
+I1
+sS'geographic area for provid'
+p92
+I1
+sS'websit'
+p93
+I2
+sS'accessible mobile termin'
+p94
+I1
+sS'pre-provis'
+p95
+I1
+sS'dial button'
+p96
+I2
+sS'visit'
+p97
+I1
+sS'messag'
+p98
+I4
+sS'website address'
+p99
+I2
+sS'station'
+p100
+I8
+sS'call'
+p101
+I1
+sS'subscrib'
+p102
+I54
+sS'termin'
+p103
+I13
+sS'msc'
+p104
+I3
+sS'provider serv'
+p105
+I3
+sS'desir'
+p106
+I1
+sS'the subscriber termin'
+p107
+I1
+sS'criteria'
+p108
+I135
+sS'phone'
+p109
+I9
+sS'winfield il'
+p110
+I1
+sS'programming instruct'
+p111
+I1
+sS'elmhurst'
+p112
+I1
+sS'vendor information satisfi'
+p113
+I2
+sS'provid'
+p114
+I40
+sS'service provider provid'
+p115
+I1
+sS'servic'
+p116
+I55
+sS'access'
+p117
+I1
+sS'vendor information request'
+p118
+I3
+sS'grove il'
+p119
+I1
+sS'old telephon'
+p120
+I1
+sS'b h'
+p121
+I1
+sS'subscriber databas'
+p122
+I11
+sS'winfield'
+p123
+I1
+sS'telecommunications servic'
+p124
+I1
+sS'satisfying subscriber provisioned response criteria'
+p125
+I2
+sS'internet access'
+p126
+I1
+sS'vendor information servic'
+p127
+I5
+sS'vendor phon'
+p128
+I1
+sS'registr'
+p129
+I4
+sS'subscriber desir'
+p130
+I1
+sS'geolocation provid'
+p131
+I1
+sS'il'
+p132
+I3
+sS'ave'
+p133
+I1
+sS'service directory databas'
+p134
+I5
+sS'cleveland oh'
+p135
+I1
+sS'travel'
+p136
+I4
+sS'terminal sheen baoling '
+p137
+I1
+sS'satisfying pre-established criteria'
+p138
+I2
+sS'subscriber provis'
+p139
+I27
+sS'regist'
+p140
+I5
+sS'vendor information satisfying subscrib'
+p141
+I1
+sS'vmsc'
+p142
+I11
+sS'geolocation coordin'
+p143
+I1
+sS'directory databas'
+p144
+I5
+sS'provisioned response criteria'
+p145
+I25
+sS'short message servic'
+p146
+I1
+sS'vendor identifi'
+p147
+I7
+sS'geographic rank'
+p148
+I2
+sS'service directori'
+p149
+I5
+sS'geoloc'
+p150
+I1
+sS'sugar grov'
+p151
+I1
+sS'service provider serv'
+p152
+I3
+sS'short'
+p153
+I1
+sS'coordin'
+p154
+I1
+sS'floor'
+p155
+I1
+sS'request'
+p156
+I6
+sS'food restaur'
+p157
+I3
+sS'above-referenced difficulti'
+p158
+I1
+sS'sm'
+p159
+I2
+sS'smsc'
+p160
+I2
+stp161
+Rp162
+tp163
+.

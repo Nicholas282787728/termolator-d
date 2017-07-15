@@ -1,0 +1,146 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'fundraising plan'
+p7
+I1
+sS'contribution today'
+p8
+I1
+sS'address c'
+p9
+I1
+sS'f_name l_name title company address c'
+p10
+I1
+sS'l_name title company address c'
+p11
+I1
+sS'personal contribut'
+p12
+I1
+sS'service provid'
+p13
+I1
+sS'develop'
+p14
+I1
+sS'f_name l_nam'
+p15
+I1
+sS'particip'
+p16
+I1
+sS'offic'
+p17
+I1
+sS'citi'
+p18
+I1
+sS'f_name l_name title compani'
+p19
+I1
+sS'board'
+p20
+I1
+sS'f_name l_name title company address'
+p21
+I1
+sS'development offic'
+p22
+I1
+sS'st zip'
+p23
+I1
+sS'f_name'
+p24
+I1
+sS'today'
+p25
+I1
+sS'title company address c'
+p26
+I1
+sS'march'
+p27
+I1
+sS'contribut'
+p28
+I2
+sS'f_name l_name titl'
+p29
+I1
+sS'in-house commit'
+p30
+I1
+sS'financial support of'
+p31
+I1
+sS'initi'
+p32
+I2
+sS'zip march'
+p33
+I1
+sS'financial support of th'
+p34
+I1
+sS'plan'
+p35
+I1
+sS'ltr_name'
+p36
+I1
+sS'board particip'
+p37
+I1
+sS'service organ'
+p38
+I1
+sS'organ'
+p39
+I2
+sS'provid'
+p40
+I1
+sS'st zip march'
+p41
+I1
+sS'servic'
+p42
+I2
+sS'valeri'
+p43
+I1
+sS'st'
+p44
+I1
+sS'x23'
+p45
+I1
+sS'committe'
+p46
+I1
+sS'commit'
+p47
+I1
+sS'company address c'
+p48
+I1
+sS'financial support of the develop'
+p49
+I1
+stp50
+Rp51
+tp52
+.

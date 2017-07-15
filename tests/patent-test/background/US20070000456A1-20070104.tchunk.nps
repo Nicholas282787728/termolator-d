@@ -1,0 +1,941 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'diesel fuel mass'
+p7
+I2
+sS'concept'
+p8
+I1
+sS'metering valve discharg'
+p9
+I1
+sS'optimal pilot'
+p10
+I1
+sS'gas lambda'
+p11
+I32
+sS'total energy content of'
+p12
+I1
+sS'fuel suppli'
+p13
+I2
+sS'instantaneous air mass'
+p14
+I2
+sS'homogenous charge dual fuel'
+p15
+I1
+sS'ga'
+p16
+I48
+sS'hc'
+p17
+I1
+sS'cycle-by-cycle basi'
+p18
+I5
+sS'zur loy'
+p19
+I1
+sS'depend'
+p20
+I6
+sS'turbocharg'
+p21
+I2
+sS'avenue suit'
+p22
+I1
+sS'gas-equ'
+p23
+I1
+sS'gaseous fuel'
+p24
+I72
+sS'turbin'
+p25
+I2
+sS'program'
+p26
+I1
+sS'fuel engin'
+p27
+I12
+sS'fuel'
+p28
+I42
+sS'total fuel'
+p29
+I18
+sS'gaseous fuel transit'
+p30
+I1
+sS'total fuel energy content const'
+p31
+I2
+sS'stoichiometric air-fuel ratio of gaseous fuel'
+p32
+I1
+sS'compressor inlet'
+p33
+I3
+sS'total fuel charg'
+p34
+I3
+sS'mass fract'
+p35
+I4
+sS'util'
+p36
+I1
+sS'cylinder-by-cylind'
+p37
+I2
+sS'outlet'
+p38
+I3
+sS'total energy fuel'
+p39
+I3
+sS'ignit'
+p40
+I2
+sS'safrdiesel=stoichiometr'
+p41
+I1
+sS'intake manifold'
+p42
+I6
+sS'of a dual fuel engin'
+p43
+I3
+sS'o2'
+p44
+I1
+sS'total energy content of the fuel'
+p45
+I1
+sS'lambda ga'
+p46
+I1
+sS'multimode engin'
+p47
+I9
+sS'btu'
+p48
+I1
+sS'vehicl'
+p49
+I5
+sS'mass ratio of the liquid fuel'
+p50
+I1
+sS'o2 concentr'
+p51
+I1
+sS'of the liquid fuel'
+p52
+I2
+sS'air-fuel ratio for'
+p53
+I3
+sS'gas lambda-rich limit for prevail'
+p54
+I3
+sS'lng'
+p55
+I1
+sS'fuel energy basi'
+p56
+I1
+sS'gaseous fuel quant'
+p57
+I2
+sS'supply fuel'
+p58
+I2
+sS'air-fuel ratio for th'
+p59
+I3
+sS'dual fuel'
+p60
+I13
+sS'lug'
+p61
+I2
+sS'premixed charg'
+p62
+I2
+sS'boost'
+p63
+I1
+sS'of the fuel'
+p64
+I1
+sS'pilot diesel'
+p65
+I4
+sS'egr inlet'
+p66
+I1
+sS'numer'
+p67
+I2
+sS'diesel fuel quant'
+p68
+I1
+sS'dual fuel engin'
+p69
+I13
+sS'wi'
+p70
+I1
+sS'optimal ga'
+p71
+I1
+sS'cycl'
+p72
+I6
+sS'charge dual fuel engin'
+p73
+I1
+sS'high pressure direct inject'
+p74
+I1
+sS'valv'
+p75
+I1
+sS'airflow'
+p76
+I1
+sS'of a multimode engin'
+p77
+I2
+sS'diesel pilot inject'
+p78
+I1
+sS'milwauke'
+p79
+I1
+sS'smoke'
+p80
+I1
+sS'fuel quantity qdiesel-equ'
+p81
+I1
+sS'fuel quant'
+p82
+I4
+sS'load'
+p83
+I1
+sS'safrgas=stoichiometr'
+p84
+I1
+sS'diesel lambda'
+p85
+I26
+sS'ca'
+p86
+I1
+sS'prefer'
+p87
+I2
+sS'homogenous charg'
+p88
+I1
+sS'suppli'
+p89
+I6
+sS'hvr'
+p90
+I4
+sS'liquid fuel inject'
+p91
+I1
+sS'conventional dual fuel'
+p92
+I2
+sS'injector'
+p93
+I5
+sS'pilot diesel mass fract'
+p94
+I2
+sS'valve discharg'
+p95
+I1
+sS'fuel charg'
+p96
+I4
+sS'vehicle load'
+p97
+I1
+sS'egr inlet of'
+p98
+I1
+sS'qdf'
+p99
+I4
+sS'torqu'
+p100
+I4
+sS'regul'
+p101
+I2
+sS'bypass'
+p102
+I2
+sS'diesel injection timing map'
+p103
+I1
+sS'for gaseous fuel'
+p104
+I3
+sS'diesel fuel mass fract'
+p105
+I2
+sS'homogenous charge dual fuel engin'
+p106
+I1
+sS'intake passag'
+p107
+I4
+sS'pilot'
+p108
+I5
+sS'gas lambda-rich'
+p109
+I2
+sS'engine parameters includ'
+p110
+I1
+sS'fuel energy content const'
+p111
+I2
+sS'quantity qdiesel'
+p112
+I1
+sS'intak'
+p113
+I7
+sS'qdiesel-equ'
+p114
+I3
+sS'calcul'
+p115
+I1
+sS'stoichiometric air fuel'
+p116
+I1
+sS'b h'
+p117
+I1
+sS'rapid switchov'
+p118
+I1
+sS'lambda decreas'
+p119
+I1
+sS'gas lambda of'
+p120
+I7
+sS'diesel inject'
+p121
+I3
+sS'engine parameters including lambda'
+p122
+I1
+sS'egr cool'
+p123
+I1
+sS'tab'
+p124
+I5
+sS'the gaseous fuel'
+p125
+I10
+sS'egr inlet of a venturi'
+p126
+I1
+sS'airflow intak'
+p127
+I1
+sS'inquiri'
+p128
+I3
+sS'wisconsin avenue suit'
+p129
+I1
+sS'combustion engin'
+p130
+I5
+sS'of th'
+p131
+I1
+sS'engine operating cycl'
+p132
+I2
+sS'conventional dual fuel engin'
+p133
+I2
+sS'diesel fuel deliveri'
+p134
+I2
+sS'fuel mass fract'
+p135
+I2
+sS'speed-dependent transit'
+p136
+I1
+sS'split'
+p137
+I2
+sS'safr ga'
+p138
+I3
+sS'diego ca'
+p139
+I1
+sS'engine knock'
+p140
+I1
+sS'gas-rich-limit'
+p141
+I5
+sS'map'
+p142
+I6
+sS'conventional tank'
+p143
+I1
+sS'dual fuel internal combustion engin'
+p144
+I1
+sS'gas-actual drop'
+p145
+I1
+sS'diesel fuel quantity qdiesel'
+p146
+I1
+sS'internal combustion engin'
+p147
+I5
+sS'engin'
+p148
+I64
+sS'split inlet'
+p149
+I1
+sS'quantity qdiesel-equ'
+p150
+I1
+sS'gas lambda-rich limit for'
+p151
+I3
+sS'air-fuel ratio for the gaseous fuel'
+p152
+I3
+sS'egr'
+p153
+I14
+sS'routine program'
+p154
+I1
+sS'for the gaseous fuel'
+p155
+I6
+sS'total engine torqu'
+p156
+I2
+sS'relief'
+p157
+I1
+sS'optimal gas lambda'
+p158
+I1
+sS'for transit'
+p159
+I2
+sS'manifold'
+p160
+I3
+sS'mass ratio of'
+p161
+I1
+sS'pilot diesel inject'
+p162
+I2
+sS'gaseous fuel suppli'
+p163
+I1
+sS'total mass'
+p164
+I1
+sS'charge paramet'
+p165
+I2
+sS'engine speed lug'
+p166
+I1
+sS'primary fuel lambda'
+p167
+I1
+sS'including lambda'
+p168
+I1
+sS'paramet'
+p169
+I18
+sS'concentr'
+p170
+I1
+sS'lb'
+p171
+I1
+sS'inlet'
+p172
+I6
+sS'passag'
+p173
+I3
+sS'internal combust'
+p174
+I4
+sS'energy content const'
+p175
+I2
+sS'densiti'
+p176
+I1
+sS'transit'
+p177
+I64
+sS'engine paramet'
+p178
+I1
+sS'unthrottled engin'
+p179
+I1
+sS'particulate trap'
+p180
+I1
+sS'liquefied natural ga'
+p181
+I1
+sS'ignition engin'
+p182
+I1
+sS'oxidation catalyst'
+p183
+I1
+sS'lube oil'
+p184
+I1
+sS'lambda sensor'
+p185
+I1
+sS'hpdi'
+p186
+I2
+sS'massair'
+p187
+I1
+sS'safr'
+p188
+I9
+sS'knock'
+p189
+I1
+sS'parameters including lambda'
+p190
+I1
+sS'cooler'
+p191
+I1
+sS'safrga'
+p192
+I1
+sS'drop'
+p193
+I3
+sS'engine torqu'
+p194
+I4
+sS'for controlling transit'
+p195
+I2
+sS'chamber'
+p196
+I2
+sS'primary fuel'
+p197
+I3
+sS'energy basi'
+p198
+I1
+sS'trap'
+p199
+I1
+sS'dual fuel internal combust'
+p200
+I1
+sS'diesel quantity qdiesel-limit'
+p201
+I1
+sS'injection timing map'
+p202
+I2
+sS'gas lambda-rich limit for prevailing engin'
+p203
+I3
+sS'total fuel quant'
+p204
+I1
+sS'combust'
+p205
+I3
+sS'engine lube oil'
+p206
+I1
+sS'fluctuat'
+p207
+I4
+sS'energi'
+p208
+I2
+sS'diesel fuel inject'
+p209
+I1
+sS'diesel injector'
+p210
+I1
+sS'for'
+p211
+I3
+sS'condensation prevent'
+p212
+I1
+sS'mass ratio of th'
+p213
+I1
+sS'diesel'
+p214
+I14
+sS'discharg'
+p215
+I1
+sS'cng'
+p216
+I1
+sS'subject matt'
+p217
+I1
+sS'inject'
+p218
+I3
+sS'liquid fuel'
+p219
+I6
+sS'sensor'
+p220
+I4
+sS'pilot diesel mass'
+p221
+I2
+sS'total engin'
+p222
+I2
+sS'engine speed fluctu'
+p223
+I1
+sS'gas lambda of the gaseous fuel'
+p224
+I7
+sS'total fuel energy basi'
+p225
+I1
+sS'lhvdiesel=18272'
+p226
+I1
+sS'relief valv'
+p227
+I2
+sS'safr diesel'
+p228
+I6
+sS'engine util'
+p229
+I1
+sS'basi'
+p230
+I6
+sS'zur'
+p231
+I1
+sS'combustion effici'
+p232
+I2
+sS'of'
+p233
+I4
+sS'nominal injection timing map'
+p234
+I1
+sS'milwaukee wi'
+p235
+I1
+sS'act'
+p236
+I2
+sS'fuel deliveri'
+p237
+I3
+sS'supply passag'
+p238
+I1
+sS'lambda'
+p239
+I61
+sS'effici'
+p240
+I2
+sS'tri-mod'
+p241
+I1
+sS'total energy content of th'
+p242
+I1
+sS'fuel energi'
+p243
+I1
+sS'qdf-equ'
+p244
+I1
+sS'inlet of a venturi'
+p245
+I1
+sS'diesel fuel'
+p246
+I6
+sS'safrgas=th'
+p247
+I3
+sS'multimod'
+p248
+I1
+sS'compression ignition engin'
+p249
+I1
+sS'diesel pilot'
+p250
+I1
+sS'engine operating paramet'
+p251
+I6
+sS'natural ga'
+p252
+I2
+sS'fraction'
+p253
+I4
+sS'suit'
+p254
+I1
+sS'engine lub'
+p255
+I1
+sS'density calcul'
+p256
+I2
+sS'loy'
+p257
+I1
+sS'deliveri'
+p258
+I3
+sS'practical load'
+p259
+I1
+sS'the liquid fuel'
+p260
+I1
+sS'qair'
+p261
+I1
+sS'exhibit power surg'
+p262
+I1
+sS'qdiesel-limit'
+p263
+I2
+sS'safrdiesel=th'
+p264
+I3
+sS'fuel internal combustion engin'
+p265
+I1
+sS'oil'
+p266
+I1
+sS'of a venturi'
+p267
+I1
+sS'diesel-limit'
+p268
+I9
+sS'fuel quantity qdiesel'
+p269
+I1
+sS'cylinder engin'
+p270
+I1
+sS'gas lambda of th'
+p271
+I7
+sS'turbo air bypass'
+p272
+I1
+sS'prevent'
+p273
+I1
+sS'matter'
+p274
+I1
+sS'venturi'
+p275
+I3
+sS'constant'
+p276
+I4
+sS'san'
+p277
+I1
+sS'atmospher'
+p278
+I1
+sS'diesel-limit prevail'
+p279
+I1
+sS'nominal inject'
+p280
+I1
+sS'engine speed depend'
+p281
+I1
+sS'fuel lambda'
+p282
+I1
+sS'optimum lambda'
+p283
+I1
+sS'decreas'
+p284
+I1
+sS'air-fuel ratio of gaseous fuel'
+p285
+I1
+sS'stoichiometric air-fuel ratio of'
+p286
+I1
+sS'diesel mass fract'
+p287
+I2
+sS'prevail'
+p288
+I1
+sS'optimizing lambda'
+p289
+I1
+sS'quantity qdiesel-limit'
+p290
+I1
+sS'safrdiesel'
+p291
+I1
+sS'san diego'
+p292
+I1
+sS'total energi'
+p293
+I4
+sS'split outlet'
+p294
+I1
+sS'lambda-rich'
+p295
+I2
+sS'fuel mass'
+p296
+I2
+sS'map sensor'
+p297
+I1
+sS'mass'
+p298
+I9
+sS'of the gaseous fuel'
+p299
+I7
+sS'san diego ca'
+p300
+I1
+sS'surg'
+p301
+I8
+sS'lambda of the gaseous fuel'
+p302
+I7
+sS'combustion chamb'
+p303
+I2
+sS'of gaseous fuel'
+p304
+I2
+sS'charg'
+p305
+I13
+sS'lhvgas=20440'
+p306
+I1
+sS'total fuel energi'
+p307
+I14
+sS'tank'
+p308
+I1
+sS'switchov'
+p309
+I2
+sS'quantiti'
+p310
+I5
+sS'of a dual fuel'
+p311
+I1
+sS'diesel quant'
+p312
+I1
+sS'qdiesel'
+p313
+I3
+sS'catalyst'
+p314
+I1
+stp315
+Rp316
+tp317
+.

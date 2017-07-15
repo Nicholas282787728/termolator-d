@@ -1,0 +1,1337 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'subendothelial matrix'
+p7
+I1
+sS'chemiluminesc'
+p8
+I1
+sS'tb'
+p9
+I7
+sS'actin microfila'
+p10
+I5
+sS'relevant subendothelial matric'
+p11
+I1
+sS'bovine serum'
+p12
+I2
+sS'enos expression biochem'
+p13
+I1
+sS'polyphenolic constitu'
+p14
+I1
+sS'pkc'
+p15
+I2
+sS'uprighted-staged microscop'
+p16
+I1
+sS'correl'
+p17
+I1
+sS'c-fo'
+p18
+I1
+sS'integrin complex'
+p19
+I1
+sS'preincub'
+p20
+I1
+sS'rhodamine-conjugated phalloidin'
+p21
+I1
+sS'ldl oxid'
+p22
+I1
+sS'resveratrol-treated bpaec'
+p23
+I4
+sS'depend'
+p24
+I1
+sS'reversible change of'
+p25
+I1
+sS'reorganization of'
+p26
+I1
+sS'leupeptin'
+p27
+I1
+sS'phalloidin'
+p28
+I1
+sS'horseradish peroxidase-conjugated igg'
+p29
+I1
+sS'actin'
+p30
+I1
+sS'map kinas'
+p31
+I1
+sS'of relative changes of total erk1'
+p32
+I1
+sS'stain'
+p33
+I1
+sS'preparation of'
+p34
+I1
+sS'perfusion chamb'
+p35
+I5
+sS'representative pictur'
+p36
+I1
+sS'resveratrol-treated cel'
+p37
+I4
+sS'freeze-thaw cycl'
+p38
+I1
+sS'contribut'
+p39
+I1
+sS'preparation of primary bpaec'
+p40
+I1
+sS'arteri'
+p41
+I2
+sS'express'
+p42
+I4
+sS'induction of eno'
+p43
+I1
+sS'growth arrest'
+p44
+I1
+sS'oxidant damag'
+p45
+I1
+sS'quantif'
+p46
+I1
+sS'coronary heart diseas'
+p47
+I1
+sS'mapk pathway'
+p48
+I1
+sS'modulation of ec'
+p49
+I1
+sS'cellular'
+p50
+I1
+sS'the vascular endothelium'
+p51
+I1
+sS'intracellular calcium'
+p52
+I2
+sS'bpaec-covered coverslip'
+p53
+I1
+sS'induct'
+p54
+I2
+sS'resveratrol treat'
+p55
+I4
+sS'effector'
+p56
+I1
+sS'bpaec prepar'
+p57
+I1
+sS'stimulation of the receptor'
+p58
+I1
+sS'collective effect of resveratrol'
+p59
+I1
+sS'expression of eno'
+p60
+I1
+sS'resveratrol-tr'
+p61
+I2
+sS'cooperative stimulation of'
+p62
+I1
+sS'of chelerythrin'
+p63
+I2
+sS'microscopi'
+p64
+I3
+sS'vehicl'
+p65
+I1
+sS'resveratrol'
+p66
+I26
+sS'repres'
+p67
+I1
+sS'6-h'
+p68
+I1
+sS'speci'
+p69
+I1
+sS'fluid-impos'
+p70
+I1
+sS'x-100'
+p71
+I1
+sS'fiber'
+p72
+I1
+sS'aggreg'
+p73
+I2
+sS'nm'
+p74
+I3
+sS'representative field screen captur'
+p75
+I1
+sS'kinas'
+p76
+I2
+sS'excit'
+p77
+I1
+sS'bovin'
+p78
+I1
+sS'endothelial cell monolay'
+p79
+I1
+sS'appear'
+p80
+I1
+sS'calcium'
+p81
+I2
+sS'homeostasi'
+p82
+I1
+sS'exquisite sensit'
+p83
+I1
+sS'reorganization of the endotheli'
+p84
+I1
+sS'cell'
+p85
+I27
+sS'platelet'
+p86
+I1
+sS'alcohol consumpt'
+p87
+I1
+sS'phosphatase-1'
+p88
+I1
+sS'c-jun'
+p89
+I1
+sS'concentr'
+p90
+I7
+sS'cooperative stimulation of th'
+p91
+I1
+sS'rbi'
+p92
+I2
+sS'cobblestone-like appear'
+p93
+I1
+sS'mem'
+p94
+I3
+sS'retinoid'
+p95
+I1
+sS'induc'
+p96
+I3
+sS'perfus'
+p97
+I1
+sS'endothelium'
+p98
+I3
+sS'cycl'
+p99
+I1
+sS'of the vascular endothelium'
+p100
+I1
+sS'relative changes of total erk1'
+p101
+I1
+sS'ethanol'
+p102
+I1
+sS'consumpt'
+p103
+I1
+sS'uv radi'
+p104
+I1
+sS'valv'
+p105
+I1
+sS'roller'
+p106
+I1
+sS'of the endothelial cell monolay'
+p107
+I1
+sS'tyrosine kinase act'
+p108
+I2
+sS'gibcobrl'
+p109
+I1
+sS'ec cytoskeleton'
+p110
+I1
+sS'statu'
+p111
+I1
+sS'polyphenol'
+p112
+I4
+sS'resveratrol depend'
+p113
+I1
+sS'parallel plate perfusion chamb'
+p114
+I2
+sS'cell cytoskeleton'
+p115
+I1
+sS'resveratrol act'
+p116
+I1
+sS'studi'
+p117
+I3
+sS'gene'
+p118
+I1
+sS'the endothelial cell monolay'
+p119
+I1
+sS'roller peristalt'
+p120
+I1
+sS'declin'
+p121
+I1
+sS'color'
+p122
+I1
+sS'activ'
+p123
+I6
+sS'modul'
+p124
+I3
+sS'oxygen speci'
+p125
+I1
+sS'excitation of rhodamine-phalloidin'
+p126
+I1
+sS'endothelial cel'
+p127
+I13
+sS'induction of'
+p128
+I1
+sS'damag'
+p129
+I3
+sS'activation of erk1'
+p130
+I1
+sS'degener'
+p131
+I1
+sS'chd'
+p132
+I7
+sS'degeneration of'
+p133
+I1
+sS'culture substratum'
+p134
+I1
+sS'injuri'
+p135
+I1
+sS'negative correl'
+p136
+I1
+sS'homeostasis of the vascular endothelium'
+p137
+I1
+sS'of the endothelial cell cytoskeleton'
+p138
+I1
+sS'ph'
+p139
+I2
+sS'concentration of resveratrol'
+p140
+I1
+sS'cell growth'
+p141
+I2
+sS'non-elongated cel'
+p142
+I1
+sS'microtubule network'
+p143
+I5
+sS'reorganization of th'
+p144
+I1
+sS'resveratrol further insight'
+p145
+I1
+sS'reaction'
+p146
+I1
+sS'mutual orient'
+p147
+I2
+sS'degeneration of the endothelial cell monolay'
+p148
+I1
+sS'hepe'
+p149
+I1
+sS'cell monolay'
+p150
+I1
+sS'vascular endothelium'
+p151
+I2
+sS'ingredi'
+p152
+I1
+sS'inhibit'
+p153
+I1
+sS'chemokin'
+p154
+I1
+sS'prepar'
+p155
+I4
+sS'laminar arteri'
+p156
+I1
+sS'physiologically relevant subendothelial matric'
+p157
+I1
+sS'final concentr'
+p158
+I1
+sS'panel b'
+p159
+I2
+sS'chamber slit'
+p160
+I2
+sS'lysat'
+p161
+I1
+sS'maximum induct'
+p162
+I1
+sS'inhibitor'
+p163
+I6
+sS'min sampl'
+p164
+I1
+sS'erk'
+p165
+I2
+sS'pathway inhibitor'
+p166
+I3
+sS'knob'
+p167
+I1
+sS'parallel plate perfus'
+p168
+I2
+sS'\xce\xbcl of rhodamine-phalloidin'
+p169
+I1
+sS'antibodi'
+p170
+I2
+sS'challeng'
+p171
+I4
+sS'total erk1'
+p172
+I3
+sS'contributor'
+p173
+I1
+sS'ec interact'
+p174
+I1
+sS'nutritional statu'
+p175
+I1
+sS'slit'
+p176
+I1
+sS'homeostasis of th'
+p177
+I1
+sS'enos express'
+p178
+I4
+sS'protein'
+p179
+I2
+sS'the endothelial cell cytoskeleton'
+p180
+I1
+sS'serum'
+p181
+I2
+sS'dietary resveratrol'
+p182
+I1
+sS'physiologic act'
+p183
+I1
+sS'rhodamine-phalloidin'
+p184
+I4
+sS'mechanosensitive k'
+p185
+I1
+sS'critical rol'
+p186
+I1
+sS'peroxidase-conjugated igg'
+p187
+I1
+sS'quantification of relative changes of total erk1'
+p188
+I1
+sS'effector of'
+p189
+I1
+sS'mapk'
+p190
+I4
+sS'slab'
+p191
+I1
+sS'concentrations of resveratrol'
+p192
+I2
+sS'focal contact adhesion sit'
+p193
+I1
+sS'eno'
+p194
+I5
+sS'aprotinin'
+p195
+I1
+sS'complex'
+p196
+I1
+sS'cytoskeletal rearrang'
+p197
+I1
+sS'concentration of'
+p198
+I1
+sS'the receptor'
+p199
+I1
+sS'\xce\xbcl tb'
+p200
+I1
+sS'pathway'
+p201
+I2
+sS'stock'
+p202
+I3
+sS'inhibitor study passag'
+p203
+I1
+sS'glutaraldehyd'
+p204
+I1
+sS'coverslip stain'
+p205
+I1
+sS'siemann'
+p206
+I1
+sS'concentrations of'
+p207
+I2
+sS'vasculatur'
+p208
+I1
+sS'chelerythrin'
+p209
+I6
+sS'\xce\xbcl of'
+p210
+I1
+sS'nitric oxid'
+p211
+I1
+sS'demonstr'
+p212
+I2
+sS'pepstatin'
+p213
+I1
+sS'illumination attach'
+p214
+I1
+sS'stress'
+p215
+I2
+sS'of the receptor'
+p216
+I1
+sS'potential damag'
+p217
+I1
+sS'reorganization of the endothelial cel'
+p218
+I1
+sS'alkaline phosphatase-conjugated igg'
+p219
+I1
+sS'main intrapulmonary arteri'
+p220
+I1
+sS'homeostasis of'
+p221
+I1
+sS'sd'
+p222
+I1
+sS'phosphatase-conjugated igg'
+p223
+I1
+sS'constitu'
+p224
+I1
+sS'trans-resveratrol'
+p225
+I1
+sS'min exposur'
+p226
+I1
+sS'insight'
+p227
+I1
+sS'of bpaec'
+p228
+I2
+sS'ldl'
+p229
+I1
+sS'secondary antibodi'
+p230
+I1
+sS'radiat'
+p231
+I1
+sS'fetal bovine serum'
+p232
+I1
+sS'microscop'
+p233
+I2
+sS'statistic ev'
+p234
+I1
+sS'paramet'
+p235
+I1
+sS'sds-page'
+p236
+I1
+sS'of resveratrol'
+p237
+I7
+sS'igg'
+p238
+I2
+sS'peristalt'
+p239
+I1
+sS'coverslip'
+p240
+I15
+sS'vivo studi'
+p241
+I1
+sS'passag'
+p242
+I1
+sS'mm mg'
+p243
+I1
+sS'except'
+p244
+I1
+sS'arrest'
+p245
+I1
+sS'modulation of endothelial cel'
+p246
+I1
+sS'treatment'
+p247
+I4
+sS'tortuous project'
+p248
+I1
+sS'subendothelial matric'
+p249
+I1
+sS'dmso'
+p250
+I1
+sS'alter'
+p251
+I2
+sS'\xce\xbcm resveratrol-treated bpaec'
+p252
+I1
+sS'microfila'
+p253
+I5
+sS'activation of'
+p254
+I2
+sS'molecul'
+p255
+I2
+sS'vitro'
+p256
+I1
+sS'band'
+p257
+I1
+sS'stilben'
+p258
+I1
+sS'monoclonal primary antibodi'
+p259
+I1
+sS'detach'
+p260
+I1
+sS'phenotyp'
+p261
+I4
+sS'mkp-1'
+p262
+I2
+sS'd-valin'
+p263
+I1
+sS'coronary heart'
+p264
+I1
+sS'restricted detach'
+p265
+I1
+sS'phenylmethylsulfonyl fluorid'
+p266
+I1
+sS'reversible change of endothelial cel'
+p267
+I1
+sS'chamber'
+p268
+I4
+sS'quantification of relative changes of'
+p269
+I1
+sS'effector of erk1'
+p270
+I1
+sS'significant cellular'
+p271
+I1
+sS'endothelial cell damag'
+p272
+I1
+sS'tri-hydroxy stilben'
+p273
+I1
+sS'inlet valv'
+p274
+I1
+sS'oxid'
+p275
+I2
+sS'captur'
+p276
+I1
+sS'excitation of'
+p277
+I1
+sS'ec'
+p278
+I5
+sS'nocodazol'
+p279
+I5
+sS'redistribut'
+p280
+I1
+sS'growth'
+p281
+I7
+sS'sampl'
+p282
+I1
+sS'plaqu'
+p283
+I1
+sS'sucros'
+p284
+I1
+sS'extract'
+p285
+I1
+sS'orient'
+p286
+I2
+sS'alcohol'
+p287
+I1
+sS'endothelial cell shape change induc'
+p288
+I1
+sS'reorganization of the endothelial cell cytoskeleton'
+p289
+I1
+sS'microcentrifug'
+p290
+I1
+sS'adhesion molecul'
+p291
+I1
+sS'mm dithiothreitol'
+p292
+I1
+sS'plastic coverslip'
+p293
+I4
+sS'arterial flow challeng'
+p294
+I1
+sS'ro'
+p295
+I1
+sS'matric'
+p296
+I1
+sS'platelet adhes'
+p297
+I2
+sS'diseas'
+p298
+I1
+sS'collective effect of'
+p299
+I1
+sS'barrier'
+p300
+I1
+sS'only studi'
+p301
+I1
+sS'confocal microscop'
+p302
+I1
+sS'representative field screen'
+p303
+I1
+sS'degeneration of the endothelial cel'
+p304
+I1
+sS'substratum'
+p305
+I1
+sS'growth inhibit'
+p306
+I1
+sS'primary bpaec'
+p307
+I2
+sS'glycerol'
+p308
+I1
+sS'investig'
+p309
+I1
+sS'peak expression of eno'
+p310
+I1
+sS'\xce\xbcm resveratrol'
+p311
+I4
+sS'panel'
+p312
+I3
+sS'plug'
+p313
+I1
+sS'of ec growth'
+p314
+I1
+sS'total cel'
+p315
+I1
+sS'adhesion sit'
+p316
+I2
+sS'of'
+p317
+I3
+sS'inhibitor studi'
+p318
+I1
+sS'\xce\xbcm'
+p319
+I5
+sS'\xce\xbcl'
+p320
+I1
+sS'induced significant cellular'
+p321
+I1
+sS'endothelial cell cytoskeleton'
+p322
+I1
+sS'atherosclerosi'
+p323
+I2
+sS'act'
+p324
+I1
+sS'\xce\xbcm resveratrol-treated cel'
+p325
+I2
+sS'of control cel'
+p326
+I1
+sS'tyrosine kinas'
+p327
+I1
+sS'of rhodamine-phalloidin'
+p328
+I2
+sS'triton'
+p329
+I1
+sS'subset'
+p330
+I1
+sS'2-p'
+p331
+I1
+sS'intracellular'
+p332
+I1
+sS'peak express'
+p333
+I1
+sS'cell-free extract'
+p334
+I1
+sS'collagen'
+p335
+I1
+sS'cooperative stimul'
+p336
+I1
+sS'reactive oxygen'
+p337
+I1
+sS'resveratrol induced significant cellular'
+p338
+I1
+sS'receptor'
+p339
+I1
+sS'numerous studi'
+p340
+I1
+sS'modulation of ec growth'
+p341
+I1
+sS'screen captur'
+p342
+I2
+sS'mm hepe'
+p343
+I1
+sS'fluorid'
+p344
+I1
+sS'epifluorescent illumination attach'
+p345
+I1
+sS'immediate-early response gen'
+p346
+I1
+sS'quin2-am'
+p347
+I3
+sS'pictur'
+p348
+I1
+sS'panel '
+p349
+I1
+sS'interact'
+p350
+I2
+sS'fibrinogen'
+p351
+I1
+sS'of mapk'
+p352
+I1
+sS'bsa'
+p353
+I1
+sS'attach'
+p354
+I1
+sS'inhibitor concentr'
+p355
+I1
+sS'of total erk1'
+p356
+I2
+sS'cellular blood'
+p357
+I1
+sS'modulation of'
+p358
+I2
+sS'dithiothreitol'
+p359
+I1
+sS'quantification of'
+p360
+I1
+sS'adhes'
+p361
+I2
+sS'atherosclerotic plaqu'
+p362
+I1
+sS'erk2'
+p363
+I1
+sS'reorgan'
+p364
+I1
+sS'microtubul'
+p365
+I1
+sS'muscl'
+p366
+I1
+sS'intrapulmonary arteri'
+p367
+I1
+sS'primary antibodi'
+p368
+I1
+sS'peak expression of'
+p369
+I1
+sS'biorad confocal microscop'
+p370
+I1
+sS'heart diseas'
+p371
+I1
+sS'monolay'
+p372
+I1
+sS'preparations of primary bpaec'
+p373
+I1
+sS'exposur'
+p374
+I1
+sS'cell interact'
+p375
+I1
+sS'protease inhibitors aprotinin'
+p376
+I1
+sS'of primary bpaec'
+p377
+I2
+sS'uv'
+p378
+I1
+sS'endothelial cell interact'
+p379
+I1
+sS'vivo'
+p380
+I1
+sS'project'
+p381
+I1
+sS'ec-specific integrin complex'
+p382
+I1
+sS'cellular phenotyp'
+p383
+I3
+sS'dietary ingredi'
+p384
+I1
+sS'sensit'
+p385
+I1
+sS'site'
+p386
+I2
+sS'growth of'
+p387
+I1
+sS'np40'
+p388
+I1
+sS'matrix'
+p389
+I1
+sS'cellular heterogen'
+p390
+I1
+sS'dtt'
+p391
+I1
+sS'ec growth'
+p392
+I1
+sS'confocal microscopi'
+p393
+I3
+sS'erk1'
+p394
+I6
+sS'dual specificity phosphas'
+p395
+I1
+sS'study passag'
+p396
+I1
+sS'distal main intrapulmonary arteri'
+p397
+I1
+sS'color react'
+p398
+I1
+sS'thrombotic plug'
+p399
+I1
+sS'kinase act'
+p400
+I2
+sS'cultur'
+p401
+I1
+sS'cytoskeleton'
+p402
+I4
+sS'cell damag'
+p403
+I1
+sS'cell shape change induc'
+p404
+I1
+sS'probabl'
+p405
+I1
+sS'redistribution of th'
+p406
+I1
+sS'cacodyl'
+p407
+I1
+sS'paradox'
+p408
+I1
+sS'stress fib'
+p409
+I1
+sS'min'
+p410
+I15
+sS'ca'
+p411
+I4
+sS'inhibitors aprotinin'
+p412
+I1
+sS'centrifug'
+p413
+I1
+sS'event'
+p414
+I1
+sS'degeneration of th'
+p415
+I1
+sS'triton x-100'
+p416
+I1
+sS'role'
+p417
+I1
+sS'of erk1'
+p418
+I2
+sS'muscle prolifer'
+p419
+I1
+sS'gene express'
+p420
+I1
+sS'mapk phosphatase-1'
+p421
+I1
+sS'preparations of'
+p422
+I1
+sS'vasodil'
+p423
+I1
+sS'redistribution of'
+p424
+I1
+sS'bpaec'
+p425
+I18
+sS'buffer'
+p426
+I1
+sS'rearrang'
+p427
+I1
+sS'reactive oxygen speci'
+p428
+I1
+sS'activation of mapk'
+p429
+I1
+sS'of eno'
+p430
+I2
+sS'prolifer'
+p431
+I1
+sS'peak'
+p432
+I1
+sS'min flow challeng'
+p433
+I1
+sS'focal contact adhes'
+p434
+I1
+sS'heterogen'
+p435
+I1
+sS'growth of control cel'
+p436
+I1
+sS'immunoreactive band'
+p437
+I2
+sS'network'
+p438
+I4
+sS'soluble blood'
+p439
+I1
+sS'precipitous declin'
+p440
+I1
+sS'cooperative stimulation of the receptor'
+p441
+I1
+sS'endothelial injuri'
+p442
+I1
+sS'biochemical paramet'
+p443
+I1
+sS'further insight'
+p444
+I1
+sS'phosphas'
+p445
+I2
+sS'sigma'
+p446
+I7
+stp447
+Rp448
+tp449
+.

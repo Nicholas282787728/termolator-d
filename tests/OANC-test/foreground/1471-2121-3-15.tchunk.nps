@@ -1,0 +1,2726 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'proteolytic cleavage of the prosequ'
+p7
+I1
+sS'chain'
+p8
+I1
+sS'protein ump1'
+p9
+I1
+sS'transcriptional regul'
+p10
+I3
+sS'protein p105 subunit of nf-\xce\xbab'
+p11
+I1
+sS'mammalian express'
+p12
+I1
+sS'of bmp-responsive gen'
+p13
+I1
+sS'transcriptional activation domain b42'
+p14
+I1
+sS'lacz'
+p15
+I1
+sS'constitutive interact'
+p16
+I1
+sS'rapid degrad'
+p17
+I1
+sS't7-\xce\x94n3'
+p18
+I2
+sS'hrs of bmp7 treat'
+p19
+I1
+sS'transduc'
+p20
+I2
+sS'receptor-mediated phosphorylation of smad1'
+p21
+I1
+sS'of the p105 subunit of nf-\xce\xbab'
+p22
+I2
+sS'intermedi'
+p23
+I14
+sS'characterization of'
+p24
+I2
+sS'family protein'
+p25
+I2
+sS'n-terminal prosequ'
+p26
+I1
+sS'bmp-responsive gen'
+p27
+I1
+sS'domain of smad1'
+p28
+I1
+sS'\xce\x94n3-containing complex'
+p29
+I1
+sS'assay'
+p30
+I5
+sS'phosphorylation of'
+p31
+I1
+sS'protein-protein interact'
+p32
+I4
+sS'gal4-smad1 transcriptional act'
+p33
+I1
+sS'mapping analyses of az'
+p34
+I1
+sS'dna bind'
+p35
+I1
+sS'regulation characteristic of'
+p36
+I1
+sS'mutant n3'
+p37
+I1
+sS'\xce\xb2'
+p38
+I1
+sS'degradation ev'
+p39
+I1
+sS'c-myc promoter binding protein'
+p40
+I1
+sS'immunoprecipitates of f-\xce\x94n3'
+p41
+I1
+sS'antizym'
+p42
+I2
+sS'tri'
+p43
+I1
+sS'activation of the tlx2 promot'
+p44
+I1
+sS'ssvs motif'
+p45
+I1
+sS'bmp-induced activ'
+p46
+I1
+sS'of cytoplasm'
+p47
+I1
+sS'ubiquitin-dependent pathway'
+p48
+I1
+sS'signific'
+p49
+I4
+sS'artificial removal of the prosequ'
+p50
+I2
+sS'of anti-flag antibodi'
+p51
+I2
+sS'of expression plasmids for the yeast two-hybrid screen'
+p52
+I2
+sS'phosphorylation of smad1'
+p53
+I2
+sS'co-activator cbp'
+p54
+I2
+sS'clone of'
+p55
+I1
+sS'transduct'
+p56
+I4
+sS'full length smad1'
+p57
+I1
+sS'bmp type ii receptor'
+p58
+I1
+sS'smad1 nuclear interacting protein-1'
+p59
+I1
+sS'prepar'
+p60
+I3
+sS'bmp receptor'
+p61
+I1
+sS'i receptor'
+p62
+I4
+sS'serum-free media'
+p63
+I1
+sS'bmp-induced activation of th'
+p64
+I1
+sS'for the yeast two-hybrid screen'
+p65
+I1
+sS'subset of smad family protein'
+p66
+I1
+sS'ecl kit'
+p67
+I1
+sS'neurogenesi'
+p68
+I1
+sS'odc'
+p69
+I10
+sS'key signal transduc'
+p70
+I2
+sS'transcriptional regulatory activities of'
+p71
+I1
+sS'precipit'
+p72
+I1
+sS'gene express'
+p73
+I1
+sS'proteolytic cleavag'
+p74
+I1
+sS'co-expression of'
+p75
+I3
+sS'homeostasi'
+p76
+I1
+sS'activation of bmp type i receptor'
+p77
+I2
+sS'mutant type i'
+p78
+I1
+sS'endogenous protein'
+p79
+I3
+sS'az-bound'
+p80
+I1
+sS'epitope tag'
+p81
+I1
+sS'cell'
+p82
+I14
+sS'version'
+p83
+I3
+sS'protein p105'
+p84
+I1
+sS'ubiquitin-independent pathway'
+p85
+I1
+sS'cdna clon'
+p86
+I1
+sS'degradation of smad1'
+p87
+I3
+sS'transcriptional activity of'
+p88
+I1
+sS'repressor of th'
+p89
+I1
+sS'total iod'
+p90
+I1
+sS'of expression plasmids for th'
+p91
+I1
+sS'nuclear translocation of hsn3'
+p92
+I1
+sS'transcription co-activator cbp'
+p93
+I1
+sS'protein p105 subunit'
+p94
+I1
+sS'auto-activ'
+p95
+I1
+sS'cos1'
+p96
+I2
+sS'fitc-conjugated anti-mouse secondari'
+p97
+I1
+sS'scanning microscop'
+p98
+I1
+sS'two-hybrid screen'
+p99
+I2
+sS'cellular protein'
+p100
+I1
+sS't7-epitop'
+p101
+I1
+sS'smad activation domain'
+p102
+I1
+sS'smad activ'
+p103
+I2
+sS'associated gene ,'
+p104
+I2
+sS'molecular ev'
+p105
+I2
+sS'equal amount of'
+p106
+I1
+sS'total cellular protein'
+p107
+I1
+sS'proliferation associated gene ,'
+p108
+I1
+sS'studi'
+p109
+I6
+sS'gene'
+p110
+I6
+sS'repressor'
+p111
+I2
+sS'turnover of cytoplasm'
+p112
+I1
+sS'proteolytic cleavage of th'
+p113
+I1
+sS'repressor of the master transcription co-activator cbp'
+p114
+I2
+sS'p300 interactor'
+p115
+I1
+sS'of bmp7 treat'
+p116
+I1
+sS'modul'
+p117
+I3
+sS'unknown ident'
+p118
+I1
+sS'of cbp'
+p119
+I2
+sS'co-repressor'
+p120
+I1
+sS'famili'
+p121
+I1
+sS'smad'
+p122
+I19
+sS'sites of'
+p123
+I1
+sS'domain of cbp'
+p124
+I1
+sS'nuclear transloc'
+p125
+I8
+sS'dna'
+p126
+I5
+sS'domain mapping studi'
+p127
+I3
+sS'transcriptional activity of smad1'
+p128
+I1
+sS'dna-binding domain'
+p129
+I1
+sS'of expression plasmid'
+p130
+I1
+sS'co-activ'
+p131
+I1
+sS'histone acetyltransferas'
+p132
+I1
+sS'parallel western blot'
+p133
+I1
+sS'transcriptional regulatory act'
+p134
+I1
+sS'enzym'
+p135
+I1
+sS'dna-binding complex'
+p136
+I1
+sS'cytoplasmic interactors of'
+p137
+I1
+sS'ump1'
+p138
+I2
+sS'cytoplasmic smad protein'
+p139
+I1
+sS'integral component of proteasom'
+p140
+I1
+sS'key rol'
+p141
+I3
+sS'the tlx2 promot'
+p142
+I1
+sS'bmp receptor activ'
+p143
+I1
+sS'original transform'
+p144
+I1
+sS'templat'
+p145
+I1
+sS'domain map'
+p146
+I4
+sS'ubiquitin-independent degrad'
+p147
+I2
+sS'homo-oligomers of smad1'
+p148
+I1
+sS'receptor-mediated phosphoryl'
+p149
+I2
+sS'ibi'
+p150
+I1
+sS'smad-regulated transcript'
+p151
+I3
+sS'room'
+p152
+I1
+sS'multiple endogenous protein'
+p153
+I1
+sS'gal4-smad1'
+p154
+I2
+sS'transducer of bmp'
+p155
+I2
+sS'removal of the prosequ'
+p156
+I2
+sS'domain of'
+p157
+I1
+sS'co-migr'
+p158
+I1
+sS'tag'
+p159
+I2
+sS'inhibitor'
+p160
+I2
+sS'\xce\xbcl of report'
+p161
+I1
+sS'\xce\xb2-galactosidase act'
+p162
+I1
+sS'mapping studies for az interact'
+p163
+I1
+sS'brain cdna librari'
+p164
+I2
+sS'of snip1'
+p165
+I2
+sS'screen study of smad1'
+p166
+I1
+sS'az smad1'
+p167
+I1
+sS'scan'
+p168
+I1
+sS'the master transcription co-activator cbp'
+p169
+I1
+sS'tax'
+p170
+I1
+sS'of the tlx2 promot'
+p171
+I1
+sS'hacat cel'
+p172
+I1
+sS'localization of'
+p173
+I1
+sS'nuclear repressor of cbp'
+p174
+I1
+sS'modulator functions of smad1'
+p175
+I1
+sS'covalent attach'
+p176
+I1
+sS'western blot'
+p177
+I1
+sS'prosequence-less hsn3'
+p178
+I2
+sS'of the physical link'
+p179
+I1
+sS'tumor'
+p180
+I1
+sS'protein antizym'
+p181
+I1
+sS'co-precipit'
+p182
+I1
+sS'activation of bmp-responsive gen'
+p183
+I1
+sS'degradation machineri'
+p184
+I1
+sS'hrs of'
+p185
+I1
+sS'activation of th'
+p186
+I2
+sS'nexin famili'
+p187
+I1
+sS'master transcriptional co-activator cbp'
+p188
+I1
+sS'smad1-binding sit'
+p189
+I1
+sS'receptor-mediated phosphorylation of'
+p190
+I1
+sS'ubiquitin'
+p191
+I6
+sS'pathway'
+p192
+I13
+sS'inside of the proteasom'
+p193
+I1
+sS'absence of az'
+p194
+I1
+sS'kind gift'
+p195
+I1
+sS'clone'
+p196
+I8
+sS'of expression plasmids for'
+p197
+I1
+sS'luciferas'
+p198
+I1
+sS'tax-induced proteasomal processing of the p105 subunit of nf-\xce\xbab'
+p199
+I1
+sS'fetal brain'
+p200
+I2
+sS'subcloning smad1'
+p201
+I1
+sS'co-transfect'
+p202
+I1
+sS'critical regulatory rol'
+p203
+I1
+sS'associ'
+p204
+I1
+sS'cos-1'
+p205
+I1
+sS'alk3'
+p206
+I5
+sS'ident'
+p207
+I1
+sS'wrana'
+p208
+I1
+sS'study of smad1'
+p209
+I1
+sS'bind'
+p210
+I4
+sS'transcriptional activ'
+p211
+I1
+sS'interacting protein'
+p212
+I2
+sS'transfect'
+p213
+I8
+sS'cooperative functional partnership'
+p214
+I1
+sS'bmp type i'
+p215
+I25
+sS'nuclear protein'
+p216
+I4
+sS'mh2 domain of'
+p217
+I1
+sS'candid'
+p218
+I2
+sS'transcriptional co-activator cbp'
+p219
+I1
+sS'subject of proteasomal degradation of'
+p220
+I1
+sS'constitutive interactor'
+p221
+I1
+sS'llnl'
+p222
+I3
+sS'monoclon'
+p223
+I1
+sS'r-smads of'
+p224
+I1
+sS'c-myc promoter binding protein ,'
+p225
+I1
+sS'integrated opt'
+p226
+I1
+sS'protein g'
+p227
+I1
+sS'pcmv6'
+p228
+I1
+sS'secondary antibodi'
+p229
+I3
+sS'smad-regulated gen'
+p230
+I1
+sS'luciferase reag'
+p231
+I1
+sS'microscop'
+p232
+I1
+sS'family type i'
+p233
+I1
+sS'dna-binding transcriptional modul'
+p234
+I1
+sS'sds-page'
+p235
+I1
+sS'co-translocation of az'
+p236
+I1
+sS'az interact'
+p237
+I3
+sS'ligand'
+p238
+I1
+sS'pcr'
+p239
+I7
+sS'immunoprecipitation of smad1'
+p240
+I1
+sS'pcr amplif'
+p241
+I2
+sS'ectopic bon'
+p242
+I1
+sS'activities of smad1'
+p243
+I1
+sS'two-hybrid system studi'
+p244
+I1
+sS'of smad family protein'
+p245
+I1
+sS'hetero-oligomers of'
+p246
+I1
+sS'tax-induced proteasomal processing of'
+p247
+I1
+sS'of proteasome inhibitor llnl'
+p248
+I2
+sS'dmso'
+p249
+I1
+sS'degradation pathway'
+p250
+I6
+sS't7-\xce\x94n3 pcmv6'
+p251
+I1
+sS'monoclonal anti-hsn3 antibodi'
+p252
+I1
+sS'bmp-induced gal4-smad1'
+p253
+I1
+sS'of f-\xce\x94n3'
+p254
+I1
+sS'mature hsn3'
+p255
+I1
+sS'activation of'
+p256
+I10
+sS'subunit of nf-\xce\xbab'
+p257
+I2
+sS'family ligand'
+p258
+I1
+sS'constitutive level of smad1'
+p259
+I1
+sS'band'
+p260
+I1
+sS'novel bmp-regul'
+p261
+I1
+sS'yeast two-hybrid screen'
+p262
+I3
+sS'half'
+p263
+I2
+sS'plasmids for the yeast two-hybrid screen'
+p264
+I1
+sS'complexes of smad1'
+p265
+I1
+sS'carboxylterminal ssv'
+p266
+I1
+sS'keratinocyte hacat'
+p267
+I1
+sS', clone'
+p268
+I1
+sS'of smad1 induc'
+p269
+I1
+sS'snip1-fre'
+p270
+I1
+sS'az-dependent proteasomal degrad'
+p271
+I1
+sS'transcription modul'
+p272
+I1
+sS'proteasome-mediated degradation pathway'
+p273
+I3
+sS'wallac'
+p274
+I1
+sS'co-express'
+p275
+I4
+sS'of bmp'
+p276
+I5
+sS'for rapid degrad'
+p277
+I1
+sS'for az interact'
+p278
+I1
+sS'subset'
+p279
+I1
+sS'integral component of'
+p280
+I1
+sS'domain'
+p281
+I10
+sS'transform'
+p282
+I7
+sS'laboratori'
+p283
+I1
+sS'gfp'
+p284
+I1
+sS'polyamine synthesi'
+p285
+I1
+sS'i receptor-regulated smad'
+p286
+I2
+sS'nuclear interacting protein-1'
+p287
+I1
+sS'subset of'
+p288
+I1
+sS'event'
+p289
+I4
+sS'original observ'
+p290
+I1
+sS'jackson'
+p291
+I1
+sS'co-localization of'
+p292
+I2
+sS'bulk turnover of cytoplasm'
+p293
+I1
+sS'bmp-induced activation of the tlx2 promot'
+p294
+I1
+sS'phosphoryl'
+p295
+I3
+sS'proteasome complex'
+p296
+I2
+sS'co-precipitation of'
+p297
+I1
+sS'ii receptor'
+p298
+I2
+sS'pathways of'
+p299
+I1
+sS'characterization of clon'
+p300
+I4
+sS'the physical link'
+p301
+I1
+sS'activity of az'
+p302
+I2
+sS'pre-assembled hsn3'
+p303
+I1
+sS'activation-induced decreas'
+p304
+I1
+sS'receptor-induced degrad'
+p305
+I1
+sS'activation of the bmp type i'
+p306
+I2
+sS'lactacystin'
+p307
+I7
+sS'nf-\xce\xbab'
+p308
+I2
+sS'goat anti-mouse igg'
+p309
+I1
+sS'insid'
+p310
+I1
+sS'corey laboratori'
+p311
+I1
+sS'ecl'
+p312
+I1
+sS'of the bmp type i'
+p313
+I2
+sS'dose-dependent inhibition of the bmp-induced gene activ'
+p314
+I1
+sS'smad interacting protein'
+p315
+I2
+sS'of expression plasmids for the yeast'
+p316
+I1
+sS'of the bmp-induced gene activ'
+p317
+I1
+sS'protein levels of'
+p318
+I5
+sS'wallac victor'
+p319
+I1
+sS'immunoprecipitates of'
+p320
+I6
+sS'smad family protein'
+p321
+I2
+sS'anti-flag'
+p322
+I3
+sS'bmp signaling pathway'
+p323
+I1
+sS'pre-clean'
+p324
+I1
+sS'az-bound odc'
+p325
+I1
+sS'proteasome inhibitor lactacystin'
+p326
+I1
+sS'hc9'
+p327
+I1
+sS'\xce\xbcl'
+p328
+I4
+sS'proteasomal degradation of smad1'
+p329
+I4
+sS'degrad'
+p330
+I12
+sS'of peg202'
+p331
+I1
+sS'tumor associated gene ,'
+p332
+I1
+sS'degradation of smad1 induc'
+p333
+I1
+sS'total protein'
+p334
+I1
+sS'nuclear co-transloc'
+p335
+I1
+sS'monoclonal anti-hsn3'
+p336
+I2
+sS'mammalian cel'
+p337
+I5
+sS'of pro-n3-f'
+p338
+I2
+sS'of the proteasom'
+p339
+I1
+sS'nacl'
+p340
+I1
+sS'transcription factors including smad4'
+p341
+I1
+sS'transfect cos-1'
+p342
+I1
+sS'co-precipitation of smad1'
+p343
+I1
+sS'immunoprecipitation experi'
+p344
+I1
+sS'pro-n3-f'
+p345
+I10
+sS'anti-20'
+p346
+I1
+sS'ring'
+p347
+I1
+sS'reporter gene \xce\xb2-g'
+p348
+I2
+sS'tax-induced proteasomal processing of the p105 subunit of'
+p349
+I1
+sS'anti-snip1 antibodi'
+p350
+I1
+sS'bmp-induced gene activ'
+p351
+I1
+sS'named antizym'
+p352
+I1
+sS'promoter binding protein , clon'
+p353
+I1
+sS'domain mapping studies for az'
+p354
+I1
+sS'of supernat'
+p355
+I1
+sS'interact'
+p356
+I21
+sS'smad-regulated gene activ'
+p357
+I1
+sS'novel cbp'
+p358
+I4
+sS'anti-rabbit secondary antibodi'
+p359
+I1
+sS'transcriptional co-activ'
+p360
+I1
+sS'master'
+p361
+I2
+sS'essential functional partn'
+p362
+I1
+sS'of smad1 mh2 domain'
+p363
+I2
+sS'gene ,'
+p364
+I2
+sS'flag-epitop'
+p365
+I1
+sS'incub'
+p366
+I1
+sS'hoxc-8'
+p367
+I1
+sS'interactors of smad1'
+p368
+I1
+sS'lexaop-lacz report'
+p369
+I1
+sS'essential rol'
+p370
+I1
+sS'intracellular localization of'
+p371
+I1
+sS'co-expression of smad1'
+p372
+I2
+sS'mature form of hsn3'
+p373
+I1
+sS'machineri'
+p374
+I1
+sS'proliferation associ'
+p375
+I1
+sS'kind'
+p376
+I1
+sS'dose-dependent inhibition of th'
+p377
+I1
+sS'ubiquitin-independent degradation pathway'
+p378
+I1
+sS'i'
+p379
+I26
+sS'smad famili'
+p380
+I1
+sS'enzyme for polyamine synthesi'
+p381
+I1
+sS'plasmid'
+p382
+I2
+sS'role of hsc73'
+p383
+I1
+sS'cytoplasmic signals of az'
+p384
+I1
+sS'exhibit'
+p385
+I1
+sS'vector'
+p386
+I2
+sS'luciferase report'
+p387
+I1
+sS'smad protein'
+p388
+I1
+sS'exact rol'
+p389
+I1
+sS'cytoplasm'
+p390
+I7
+sS'repressor of'
+p391
+I1
+sS'partnership'
+p392
+I2
+sS'bone morphogenetic protein'
+p393
+I2
+sS'manuscript'
+p394
+I1
+sS'transfection effici'
+p395
+I1
+sS'dna-binding protein'
+p396
+I1
+sS'remodel'
+p397
+I1
+sS'transcriptional activation domain'
+p398
+I1
+sS'glass cov'
+p399
+I1
+sS'mature form of pro-n3-f'
+p400
+I1
+sS'including smad4'
+p401
+I2
+sS'final matur'
+p402
+I3
+sS'nuclear co-translocation of az'
+p403
+I1
+sS'localization of az'
+p404
+I2
+sS'bulk turnover of'
+p405
+I1
+sS'regulatory rol'
+p406
+I1
+sS'hr'
+p407
+I15
+sS'subset of smad'
+p408
+I1
+sS'anti-hsn3'
+p409
+I1
+sS'cdna insert'
+p410
+I2
+sS'victor'
+p411
+I1
+sS'rapid dissociation of'
+p412
+I1
+sS'galacto-star kit'
+p413
+I1
+sS'proteasome for rapid degrad'
+p414
+I1
+sS'sites of peg202'
+p415
+I1
+sS'buffer'
+p416
+I3
+sS'morphogenetic protein'
+p417
+I2
+sS'targeting pathway'
+p418
+I1
+sS'tlx2 promot'
+p419
+I1
+sS'prolifer'
+p420
+I1
+sS'final degrad'
+p421
+I1
+sS'mutant bmp'
+p422
+I1
+sS'trp1'
+p423
+I1
+sS'transcript'
+p424
+I8
+sS'potential proteasom'
+p425
+I1
+sS'synthesi'
+p426
+I1
+sS'protein nam'
+p427
+I1
+sS'sequential incub'
+p428
+I1
+sS'cover'
+p429
+I1
+sS'p105 subunit of nf-\xce\xbab'
+p430
+I2
+sS'for polyamine synthesi'
+p431
+I1
+sS'hrs of bmp7'
+p432
+I1
+sS'expression plasmids for the yeast two-hybrid screen'
+p433
+I1
+sS'nuclear repressor of th'
+p434
+I1
+sS'linker region of smad1'
+p435
+I1
+sS'mapping studi'
+p436
+I2
+sS'protein , clon'
+p437
+I1
+sS'bait'
+p438
+I1
+sS'integrated optical dens'
+p439
+I1
+sS'eastman kodak'
+p440
+I1
+sS'b42'
+p441
+I1
+sS'optical dens'
+p442
+I1
+sS'activation of bmp'
+p443
+I7
+sS'receptor-regulated smad'
+p444
+I1
+sS'tgf-\xce\xb2 famili'
+p445
+I1
+sS'transcriptional modulator functions of'
+p446
+I1
+sS'outcome of'
+p447
+I1
+sS'tgf-\xce\xb2'
+p448
+I5
+sS'anti-mouse secondari'
+p449
+I1
+sS'affin'
+p450
+I1
+sS'proteasomal targeting rol'
+p451
+I1
+sS'dna-binding transcriptional regul'
+p452
+I1
+sS'tropix'
+p453
+I1
+sS'exact role of hsc73'
+p454
+I1
+sS'role of az'
+p455
+I2
+sS'molecular weight protein'
+p456
+I1
+sS'dissoci'
+p457
+I2
+sS'mm tri'
+p458
+I1
+sS'activ'
+p459
+I31
+sS'chaperon protein'
+p460
+I1
+sS'confoc'
+p461
+I1
+sS'leu2'
+p462
+I1
+sS'westgrov'
+p463
+I1
+sS'local'
+p464
+I3
+sS'proteasome matur'
+p465
+I1
+sS'hbss'
+p466
+I1
+sS'tgf-\xce\xb2 pathway'
+p467
+I1
+sS'immunoresearch'
+p468
+I1
+sS'contribut'
+p469
+I1
+sS'dose-dependent inhibition of'
+p470
+I1
+sS'express'
+p471
+I2
+sS'analyses of az'
+p472
+I1
+sS'the proteasome inhibitor lactacystin'
+p473
+I1
+sS'secondari'
+p474
+I1
+sS'inhibitor lactacystin'
+p475
+I2
+sS'hsp70'
+p476
+I1
+sS'bead'
+p477
+I2
+sS'of luciferase reag'
+p478
+I1
+sS'of hsc73'
+p479
+I1
+sS'\xce\xb2-gal report'
+p480
+I1
+sS'proteasomal degradation of'
+p481
+I6
+sS'ump1 associ'
+p482
+I1
+sS'subject of proteasomal degrad'
+p483
+I1
+sS'dissociation of'
+p484
+I2
+sS'final manuscript'
+p485
+I1
+sS'eukaryotic cel'
+p486
+I1
+sS'mh2 domain of smad1'
+p487
+I1
+sS'nuclear translocation of az'
+p488
+I2
+sS'microscopi'
+p489
+I1
+sS'lexa dna'
+p490
+I1
+sS'\xce\xb2-gal'
+p491
+I1
+sS'proteolytic cleavage of'
+p492
+I1
+sS'transcriptional co-modul'
+p493
+I1
+sS'\xce\xbcl of reporter lysis buff'
+p494
+I1
+sS'confocal microscopy immunocytochemistri'
+p495
+I1
+sS'potential proteasomal targeting rol'
+p496
+I1
+sS'pcr approach'
+p497
+I1
+sS'immunoprecipitates of smad1'
+p498
+I4
+sS'prosequence of hsn3'
+p499
+I1
+sS'subject'
+p500
+I1
+sS'bulk turnov'
+p501
+I1
+sS'interactor'
+p502
+I13
+sS'odc interact'
+p503
+I1
+sS'repressor of the master transcription co-activ'
+p504
+I1
+sS'transcriptional activation of bmp-responsive gen'
+p505
+I1
+sS'proteasomal degrad'
+p506
+I12
+sS'cleavage of the prosequ'
+p507
+I1
+sS'label'
+p508
+I1
+sS'promega'
+p509
+I1
+sS'bmp type i receptor'
+p510
+I2
+sS'fugen'
+p511
+I1
+sS'fundamental quest'
+p512
+I1
+sS'cytoplasmic signals of'
+p513
+I1
+sS'experi'
+p514
+I1
+sS'approach'
+p515
+I1
+sS'induc'
+p516
+I1
+sS'dose-dependent effect of'
+p517
+I1
+sS'prosequ'
+p518
+I22
+sS'deletion vers'
+p519
+I2
+sS'repressor of the mast'
+p520
+I1
+sS'protein tax'
+p521
+I1
+sS'anti-hsn3 antibodi'
+p522
+I1
+sS'screen'
+p523
+I2
+sS'amplif'
+p524
+I2
+sS'mcp444'
+p525
+I1
+sS'sip4'
+p526
+I1
+sS'cycl'
+p527
+I1
+sS'the p105 subunit of nf-\xce\xbab'
+p528
+I1
+sS'sip2'
+p529
+I2
+sS'tumor associ'
+p530
+I1
+sS'anti-smad1 antibodi'
+p531
+I2
+sS'the bmp type i'
+p532
+I2
+sS'growth factor \xce\xb2'
+p533
+I1
+sS'multi-functional regul'
+p534
+I1
+sS'\xce\x94n3'
+p535
+I4
+sS'subcloning of'
+p536
+I1
+sS'smad1 mh2 domain'
+p537
+I1
+sS'transcriptional act'
+p538
+I3
+sS'flag epitop'
+p539
+I1
+sS'nuclear repressor of'
+p540
+I2
+sS'equal'
+p541
+I1
+sS'gelatin-coated glass cov'
+p542
+I1
+sS'epitop'
+p543
+I3
+sS'his3'
+p544
+I1
+sS'hacat'
+p545
+I1
+sS'of the prosequ'
+p546
+I3
+sS'smad1 induc'
+p547
+I1
+sS'clone of snip1'
+p548
+I2
+sS'of the proteasome inhibitor lactacystin'
+p549
+I2
+sS'p300'
+p550
+I18
+sS'az interactor'
+p551
+I1
+sS'co'
+p552
+I3
+sS'snip1'
+p553
+I48
+sS'of nf-\xce\xbab'
+p554
+I2
+sS'reporter gen'
+p555
+I2
+sS'linker region of'
+p556
+I1
+sS'the prosequ'
+p557
+I3
+sS'transcriptional activation of'
+p558
+I1
+sS'artificial remov'
+p559
+I2
+sS'tansfect'
+p560
+I1
+sS'smad-responsive gen'
+p561
+I1
+sS'unique rol'
+p562
+I1
+sS'amino-acid prosequ'
+p563
+I1
+sS'degradation of snip1'
+p564
+I1
+sS'carboxylterminal ssvs motif'
+p565
+I1
+sS'cell cycl'
+p566
+I1
+sS'gelatin-coated glass'
+p567
+I1
+sS'proteasome substrate-targeting protein'
+p568
+I1
+sS'protease inhibitor'
+p569
+I1
+sS'n-terminal domain'
+p570
+I1
+sS'pb'
+p571
+I1
+sS'pa'
+p572
+I1
+sS'proteasome for'
+p573
+I1
+sS'regulation characteristic of th'
+p574
+I1
+sS'ph'
+p575
+I1
+sS'protein express'
+p576
+I1
+sS'regulatory activities of smad1'
+p577
+I1
+sS'subset of smad famili'
+p578
+I1
+sS'master transcript'
+p579
+I1
+sS'pre-assembled form of hsn3'
+p580
+I1
+sS'regul'
+p581
+I8
+sS'sympathetic neuron'
+p582
+I1
+sS'yeast two-hybrid screen study of smad1'
+p583
+I1
+sS'\xce\xbcl lysat'
+p584
+I1
+sS'densiti'
+p585
+I1
+sS'the bmp-induced gene activ'
+p586
+I1
+sS'bmp'
+p587
+I35
+sS'1mm'
+p588
+I1
+sS'dna-binding complexes of'
+p589
+I1
+sS'inhibitor llnl'
+p590
+I1
+sS'repressor of cbp'
+p591
+I1
+sS'viral protein'
+p592
+I1
+sS'present'
+p593
+I2
+sS'intrinsic histone acetyltransferas'
+p594
+I1
+sS'protein p105 subunit of'
+p595
+I1
+sS'novel'
+p596
+I5
+sS'bmp-induced gal4-smad1 transcriptional act'
+p597
+I1
+sS'c-terminu'
+p598
+I2
+sS'fugene kit'
+p599
+I1
+sS'immunoprecipitation of'
+p600
+I1
+sS'cell lys'
+p601
+I1
+sS'reporter lysis buff'
+p602
+I1
+sS'deletion mut'
+p603
+I1
+sS'proliferation associated gen'
+p604
+I1
+sS'kodak'
+p605
+I2
+sS'polyubiquitin chain'
+p606
+I1
+sS'outcom'
+p607
+I2
+sS'lysat'
+p608
+I3
+sS'transcriptional regulatory activities of smad1'
+p609
+I1
+sS'report'
+p610
+I7
+sS'viral protein tax'
+p611
+I1
+sS'gene \xce\xb2-g'
+p612
+I1
+sS'observ'
+p613
+I6
+sS'of total plasmid'
+p614
+I2
+sS'key signal transducer of bmp'
+p615
+I1
+sS'mutant'
+p616
+I2
+sS'motif'
+p617
+I1
+sS'transfected cel'
+p618
+I2
+sS'microscopy immunocytochemistri'
+p619
+I1
+sS'neuron'
+p620
+I1
+sS'nuclear repressor'
+p621
+I2
+sS'site'
+p622
+I6
+sS'rodamine-conjugated goat anti-mouse igg'
+p623
+I1
+sS'mh1 domain'
+p624
+I1
+sS'bmp-induced gen'
+p625
+I1
+sS'activation domain b42'
+p626
+I1
+sS'protein sample buff'
+p627
+I1
+sS'partner'
+p628
+I2
+sS'protein'
+p629
+I44
+sS'prosequence of'
+p630
+I1
+sS'attach'
+p631
+I1
+sS'activation domain'
+p632
+I1
+sS'mbp-1'
+p633
+I1
+sS'bmp7 treatment'
+p634
+I1
+sS'of th'
+p635
+I1
+sS'media'
+p636
+I2
+sS'receptor activ'
+p637
+I3
+sS'transloc'
+p638
+I5
+sS'f-pcmv6'
+p639
+I1
+sS'embryogenesi'
+p640
+I2
+sS'complex'
+p641
+I10
+sS'master transcription co-activator cbp'
+p642
+I1
+sS'pag'
+p643
+I1
+sS'proteasome-mediated degradation ev'
+p644
+I1
+sS'subunit'
+p645
+I1
+sS'the proteasom'
+p646
+I1
+sS'tax-induced proteasomal processing of th'
+p647
+I1
+sS'domain mapping studies for'
+p648
+I1
+sS'proteasome inhibitor llnl'
+p649
+I1
+sS'subject of proteasomal degradation of smad'
+p650
+I1
+sS'artificial removal of th'
+p651
+I2
+sS'smad4'
+p652
+I31
+sS'jackson immunoresearch'
+p653
+I1
+sS'domain mapping studies for az interact'
+p654
+I1
+sS'dna-binding complexes of smad1'
+p655
+I1
+sS'lysis buff'
+p656
+I2
+sS'smad2'
+p657
+I2
+sS'kit'
+p658
+I3
+sS'domain mapping analys'
+p659
+I1
+sS'\xce\xbcl of'
+p660
+I4
+sS'protein sampl'
+p661
+I1
+sS'co-expression of az'
+p662
+I1
+sS'oaz'
+p663
+I1
+sS'iod'
+p664
+I3
+sS'dose-dependent inhibit'
+p665
+I1
+sS'\xce\xbcl of supernat'
+p666
+I1
+sS'translocation of hsn3'
+p667
+I1
+sS'yeast two-hybrid system studi'
+p668
+I1
+sS'proteasome assembly intermedi'
+p669
+I1
+sS'gst'
+p670
+I1
+sS'reagent'
+p671
+I1
+sS'of smad'
+p672
+I5
+sS'lexa-fus'
+p673
+I1
+sS'min'
+p674
+I6
+sS'studies for az interact'
+p675
+I1
+sS'n3-f'
+p676
+I2
+sS'modulator rol'
+p677
+I1
+sS'exact role of'
+p678
+I1
+sS'paraformaldehyd'
+p679
+I1
+sS'smad1'
+p680
+I135
+sS'confocal microscopi'
+p681
+I1
+sS'protein ump1 associ'
+p682
+I1
+sS'of anti-t7'
+p683
+I1
+sS'pre-assembled form of'
+p684
+I1
+sS'pharmacia'
+p685
+I1
+sS'f-\xce\x94n3'
+p686
+I3
+sS'mutant bmp type i'
+p687
+I1
+sS'mh2 domain'
+p688
+I3
+sS'proteasom'
+p689
+I18
+sS'cytoplasmic interactor'
+p690
+I1
+sS'degradation of smad'
+p691
+I2
+sS'hsn3'
+p692
+I98
+sS'anti-flag antibodi'
+p693
+I1
+sS'prosequence-process'
+p694
+I1
+sS'transcriptional modulator rol'
+p695
+I1
+sS'blot'
+p696
+I1
+sS'yeast transform'
+p697
+I1
+sS'constitutive reduction of'
+p698
+I1
+sS'domain b42'
+p699
+I1
+sS'character'
+p700
+I9
+sS'tumor associated gen'
+p701
+I1
+sS'identif'
+p702
+I1
+sS'substrate-targeting protein'
+p703
+I1
+sS'cytoplasmic interactors of smad1'
+p704
+I1
+sS'treatment'
+p705
+I1
+sS'smad3'
+p706
+I1
+sS'total plasmid'
+p707
+I1
+sS'domain mapping analyses of az'
+p708
+I1
+sS'hat'
+p709
+I1
+sS'inside of th'
+p710
+I1
+sS'protein levels of smad1'
+p711
+I5
+sS'ornithine decarboxylas'
+p712
+I3
+sS'ecorv sit'
+p713
+I1
+sS'proteasome-specific inhibitor lactacystin'
+p714
+I1
+sS'of the master transcription co-activator cbp'
+p715
+I1
+sS'bmp type ii'
+p716
+I1
+sS'az-involved targeting pathway'
+p717
+I1
+sS'peg202'
+p718
+I2
+sS'inhibition of the bmp-induced gene activ'
+p719
+I1
+sS'cloning sit'
+p720
+I1
+sS'fusion'
+p721
+I1
+sS'capo'
+p722
+I1
+sS'equal amount of total plasmid'
+p723
+I1
+sS'repressor of the master transcript'
+p724
+I1
+sS'c-myc promoter binding protein , clon'
+p725
+I1
+sS'insert'
+p726
+I2
+sS'az precipit'
+p727
+I1
+sS'gift'
+p728
+I1
+sS'dissociation of smad1'
+p729
+I3
+sS'of reporter lysis buff'
+p730
+I1
+sS'decarboxylas'
+p731
+I3
+sS'az-involved target'
+p732
+I1
+sS'mature form of'
+p733
+I2
+sS'heteromeric complex'
+p734
+I1
+sS'of clon'
+p735
+I2
+sS'bmp family ligand'
+p736
+I1
+sS'intracellular localization of az'
+p737
+I1
+sS'transient transfect'
+p738
+I1
+sS'constitutive level of'
+p739
+I1
+sS'c-myc promoter bind'
+p740
+I1
+sS'potential proteasomal target'
+p741
+I1
+sS'proteasomal degradation of smad1 induc'
+p742
+I1
+sS'nuclear co-translocation of'
+p743
+I1
+sS'protein-1'
+p744
+I1
+sS'proteasomal degradation of smad'
+p745
+I2
+sS'\xce\xbcl of luciferase reag'
+p746
+I1
+sS'master transcriptional co-activ'
+p747
+I1
+sS'deae'
+p748
+I2
+sS'activation of smad1'
+p749
+I1
+sS'two-hybrid screen study of smad1'
+p750
+I1
+sS'antigen present'
+p751
+I1
+sS'tgf-\xce\xb2 family type i'
+p752
+I1
+sS'mature proteasom'
+p753
+I3
+sS'yeast'
+p754
+I13
+sS'librari'
+p755
+I2
+sS'key signal transducer of'
+p756
+I1
+sS'luciferase act'
+p757
+I2
+sS'proteasome-mediated degrad'
+p758
+I2
+sS'of express'
+p759
+I1
+sS'transforming growth factor \xce\xb2'
+p760
+I1
+sS'domain mapping analyses of'
+p761
+I1
+sS'rhodamine-conjugated anti-rabbit secondary antibodi'
+p762
+I1
+sS'endogenous smad1'
+p763
+I1
+sS'overexpressed alk3'
+p764
+I1
+sS'dose-dependent effect of smad1'
+p765
+I1
+sS'activation of the bmp'
+p766
+I2
+sS'chromatin remodel'
+p767
+I1
+sS'pathways of hsn3'
+p768
+I2
+sS'smad1 nuclear'
+p769
+I1
+sS'bmp-regul'
+p770
+I1
+sS'subclon'
+p771
+I1
+sS'fitc-conjug'
+p772
+I1
+sS'core'
+p773
+I1
+sS'bmp-responsive cel'
+p774
+I1
+sS'proteolytic sit'
+p775
+I1
+sS'activity of smad1'
+p776
+I1
+sS'immunoprecipitation assay'
+p777
+I3
+sS'co-localization of smad1'
+p778
+I2
+sS'promot'
+p779
+I1
+sS'translocation of az'
+p780
+I2
+sS'acetyltransferas'
+p781
+I1
+sS'cellular responsiveness of bmp'
+p782
+I1
+sS'confluenc'
+p783
+I1
+sS'hsc73'
+p784
+I2
+sS'constitutive reduction of smad4'
+p785
+I1
+sS'homo-oligomers of'
+p786
+I1
+sS'inside of'
+p787
+I1
+sS'receptor activation-induced decreas'
+p788
+I1
+sS'of'
+p789
+I13
+sS'antibodi'
+p790
+I10
+sS'immunoprecipitates of az'
+p791
+I1
+sS'integr'
+p792
+I1
+sS'subject of'
+p793
+I1
+sS'catalytic cor'
+p794
+I1
+sS'cellular responsiveness of'
+p795
+I1
+sS'westgrove pa'
+p796
+I1
+sS'tax-induced proteasomal processing of the p105 subunit'
+p797
+I1
+sS'triton'
+p798
+I1
+sS'effici'
+p799
+I1
+sS'transcriptional modul'
+p800
+I2
+sS'outcome of th'
+p801
+I1
+sS'\xce\xbcl cell'
+p802
+I1
+sS'rapid dissociation of smad1'
+p803
+I1
+sS'receptor'
+p804
+I8
+sS'half proteasom'
+p805
+I2
+sS'edta'
+p806
+I1
+sS'activity of'
+p807
+I2
+sS'subcloning of smad1'
+p808
+I1
+sS'x-gal'
+p809
+I3
+sS'1mm edta'
+p810
+I1
+sS'inframe fus'
+p811
+I1
+sS'defective assembly intermedi'
+p812
+I1
+sS'of smad1'
+p813
+I55
+sS'question'
+p814
+I1
+sS'\xce\xbcl of anti-t7'
+p815
+I1
+sS'of smad4'
+p816
+I4
+sS'activation of bmp type i'
+p817
+I6
+sS'cdna librari'
+p818
+I2
+sS'ternary complex'
+p819
+I2
+sS'molecular mechanism for th'
+p820
+I1
+sS'protein named antizym'
+p821
+I1
+sS'autoradiographi'
+p822
+I1
+sS'sample buff'
+p823
+I1
+sS'co-modul'
+p824
+I1
+sS'polyclonal anti-smad1'
+p825
+I2
+sS'transforming growth'
+p826
+I1
+sS'the yeast two-hybrid screen'
+p827
+I1
+sS'artificial removal of'
+p828
+I2
+sS'triton x-100'
+p829
+I1
+sS'ubiquitin-depend'
+p830
+I1
+sS'nuclear translocation of'
+p831
+I3
+sS'of bmp type i receptor'
+p832
+I2
+sS'eastman'
+p833
+I1
+sS'uba52'
+p834
+I1
+sS'link'
+p835
+I7
+sS'bmp type i receptor-regulated smad'
+p836
+I1
+sS'anti-t7'
+p837
+I1
+sS'proteasomal degradation of snip1'
+p838
+I1
+sS'degradation chamb'
+p839
+I3
+sS'nucleu'
+p840
+I18
+sS'hendil'
+p841
+I1
+sS'of proteasom'
+p842
+I2
+sS'of smad1 mh2'
+p843
+I1
+sS'metabolic label'
+p844
+I1
+sS'absenc'
+p845
+I4
+sS'anti-mouse igg'
+p846
+I1
+sS'down-regul'
+p847
+I2
+sS'interacting protein-1'
+p848
+I1
+sS'ub'
+p849
+I1
+sS'smad interact'
+p850
+I2
+sS't7-pcmv6'
+p851
+I1
+sS'f-az'
+p852
+I2
+sS'transcription factors includ'
+p853
+I1
+sS'physical link'
+p854
+I1
+sS'yeast two-hybrid screen study of'
+p855
+I1
+sS'sepharose bead'
+p856
+I2
+sS'n-terminu'
+p857
+I1
+sS'hetero-oligomers of smad1'
+p858
+I1
+sS'cbp'
+p859
+I23
+sS'decreas'
+p860
+I1
+sS'smad1 nuclear interact'
+p861
+I1
+sS'mm nacl'
+p862
+I1
+sS'snip-1'
+p863
+I1
+sS'absence of'
+p864
+I1
+sS'az'
+p865
+I80
+sS'polyclonal anti-smad1 antibodi'
+p866
+I2
+sS'\xce\xbcl of reporter lysi'
+p867
+I1
+sS'of az'
+p868
+I18
+sS'proteasomal processing of the p105 subunit of nf-\xce\xbab'
+p869
+I1
+sS'rapid dissoci'
+p870
+I1
+sS'intracellular loc'
+p871
+I1
+sS'x-100'
+p872
+I1
+sS'n-termin'
+p873
+I1
+sS'molecular mechanism for'
+p874
+I1
+sS'igg'
+p875
+I1
+sS'fetal brain cdna librari'
+p876
+I2
+sS'immunocytochemistri'
+p877
+I2
+sS'role'
+p878
+I12
+sS'chamber'
+p879
+I3
+sS'eluted protein'
+p880
+I1
+sS'bmp famili'
+p881
+I2
+sS'dose-dependent inhibition of the bmp-induced gen'
+p882
+I1
+sS'immunoprecipit'
+p883
+I25
+sS'matur'
+p884
+I6
+sS'inhibitory act'
+p885
+I3
+sS'bait transform'
+p886
+I1
+sS'binding protein , clon'
+p887
+I1
+sS'targeting rol'
+p888
+I1
+sS'\xce\xbcl cell lys'
+p889
+I1
+sS'gene activ'
+p890
+I2
+sS'of bmp type i'
+p891
+I4
+sS'snip1-free cbp'
+p892
+I1
+sS'role of'
+p893
+I1
+sS'transcriptional modulator functions of smad1'
+p894
+I1
+sS'bmp-induced activation of'
+p895
+I1
+sS'cytoplasmic smad1'
+p896
+I1
+sS'outcome of the physical link'
+p897
+I2
+sS'of proteasomal degradation of smad'
+p898
+I1
+sS'physical interact'
+p899
+I7
+sS'coordin'
+p900
+I1
+sS'sigma'
+p901
+I1
+sS'yeast two-hybrid screen studi'
+p902
+I1
+sS'proteasome inhibitor'
+p903
+I1
+sS'supernat'
+p904
+I1
+sS'enzyme for'
+p905
+I1
+sS'r-smads of bmp'
+p906
+I1
+sS'c-myc promot'
+p907
+I1
+sS'n3'
+p908
+I1
+sS'of hsn3'
+p909
+I7
+stp910
+Rp911
+tp912
+.

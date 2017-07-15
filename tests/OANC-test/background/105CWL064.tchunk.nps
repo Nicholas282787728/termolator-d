@@ -1,0 +1,119 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'volunt'
+p7
+I1
+sS'evalu'
+p8
+I1
+sS'benefits volunt'
+p9
+I1
+sS'program evalu'
+p10
+I1
+sS'scouting benefit'
+p11
+I2
+sS'girl'
+p12
+I1
+sS'social program'
+p13
+I1
+sS'skill'
+p14
+I1
+sS'outcomes studi'
+p15
+I1
+sS'asset'
+p16
+I1
+sS'social program evalu'
+p17
+I1
+sS'leadership skil'
+p18
+I1
+sS'spec'
+p19
+I1
+sS'opportunity---an invest'
+p20
+I1
+sS'contribut'
+p21
+I1
+sS'leaders---our girl'
+p22
+I1
+sS'nation'
+p23
+I1
+sS'spec associ'
+p24
+I1
+sS'scout'
+p25
+I2
+sS'adult'
+p26
+I1
+sS'associ'
+p27
+I1
+sS'investment opportunity---an invest'
+p28
+I1
+sS'invest'
+p29
+I1
+sS'scouting benefits par'
+p30
+I1
+sS'national outcom'
+p31
+I1
+sS'leader'
+p32
+I3
+sS'membership'
+p33
+I2
+sS'leadership'
+p34
+I1
+sS'scouting benefits volunt'
+p35
+I1
+sS'national outcomes studi'
+p36
+I1
+sS'social'
+p37
+I1
+sS'adult lead'
+p38
+I1
+sS'studi'
+p39
+I1
+sS'personal asset'
+p40
+I1
+stp41
+Rp42
+tp43
+.

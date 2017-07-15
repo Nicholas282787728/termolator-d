@@ -1,0 +1,80 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'gutenberg ebook of fraternal char'
+p7
+I1
+sS'charity author'
+p8
+I1
+sS'ebook'
+p9
+I1
+sS'project gutenberg ebook'
+p10
+I1
+sS'chariti'
+p11
+I1
+sS'restrict'
+p12
+I1
+sS'ebook of fraternal char'
+p13
+I1
+sS'project gutenberg ebook of'
+p14
+I1
+sS'of fraternal char'
+p15
+I1
+sS'fratern'
+p16
+I1
+sS'project gutenberg'
+p17
+I2
+sS'author'
+p18
+I1
+sS'project gutenberg licens'
+p19
+I1
+sS'licens'
+p20
+I1
+sS'fraternal char'
+p21
+I2
+sS'project'
+p22
+I2
+sS'gutenberg licens'
+p23
+I1
+sS'project gutenberg ebook of fraternal char'
+p24
+I1
+sS'fraternal charity author'
+p25
+I1
+sS're-us'
+p26
+I1
+sS'project gutenberg ebook of fratern'
+p27
+I1
+stp28
+Rp29
+tp30
+.

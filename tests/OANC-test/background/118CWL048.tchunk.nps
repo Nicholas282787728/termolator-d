@@ -1,0 +1,77 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'encourag'
+p7
+I1
+sS'unserv'
+p8
+I1
+sS'name address c'
+p9
+I1
+sS'mentoring program'
+p10
+I1
+sS'life'
+p11
+I1
+sS'name address'
+p12
+I1
+sS'adult'
+p13
+I1
+sS'contributor'
+p14
+I1
+sS'address c'
+p15
+I1
+sS'early adolesc'
+p16
+I1
+sS'experience lif'
+p17
+I1
+sS'name'
+p18
+I1
+sS'zip'
+p19
+I1
+sS'adolesc'
+p20
+I1
+sS'children'
+p21
+I1
+sS'youth'
+p22
+I2
+sS'citi'
+p23
+I1
+sS'program'
+p24
+I1
+sS'regular contributor'
+p25
+I1
+sS'experi'
+p26
+I1
+stp27
+Rp28
+tp29
+.

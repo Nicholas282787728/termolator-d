@@ -1,0 +1,611 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'non-lead'
+p7
+I1
+sS'leadless chip'
+p8
+I1
+sS'voltages of the leadless termin'
+p9
+I2
+sS'chip carri'
+p10
+I1
+sS'voltages of'
+p11
+I1
+sS'diagnosis fil'
+p12
+I4
+sS'flowchart of a diagnosi'
+p13
+I2
+sS'pseudo-output voltage of'
+p14
+I5
+sS'ground'
+p15
+I8
+sS'jig'
+p16
+I1
+sS'cut'
+p17
+I14
+sS'wacker'
+p18
+I1
+sS'of a connection destin'
+p19
+I2
+sS'impedance of th'
+p20
+I1
+sS'diagnosis operation for the leadless termin'
+p21
+I1
+sS'flowchart of fault diagnosi'
+p22
+I2
+sS'program'
+p23
+I12
+sS'board'
+p24
+I142
+sS'flowchart'
+p25
+I4
+sS'impedance of'
+p26
+I1
+sS'pseudo-output voltage for fault diagnosi'
+p27
+I1
+sS'ground side of th'
+p28
+I1
+sS'fault diagnosing operation of the fault'
+p29
+I1
+sS'pseudo-set'
+p30
+I3
+sS'soldering connection of'
+p31
+I7
+sS'of the circuit board'
+p32
+I21
+sS'lcc'
+p33
+I2
+sS'ground side of the circuit board'
+p34
+I1
+sS'diagnosis switch'
+p35
+I1
+sS'soldering trouble of th'
+p36
+I3
+sS'fault diagnosing unit for th'
+p37
+I1
+sS'of the power source voltag'
+p38
+I1
+sS'pseudo-output voltage of th'
+p39
+I4
+sS'pseudo-output voltage for fault'
+p40
+I1
+sS'tetsuya'
+p41
+I1
+sS'voltage of th'
+p42
+I5
+sS'yield'
+p43
+I1
+sS'soldering of a leadless termin'
+p44
+I2
+sS'fault diagnosis program'
+p45
+I6
+sS'soldering trouble of'
+p46
+I3
+sS'cuts connections of leadless termin'
+p47
+I3
+sS'integr'
+p48
+I1
+sS'pull-up resistor'
+p49
+I1
+sS'yokota tetsuya'
+p50
+I1
+sS'leadless terminal side cut'
+p51
+I3
+sS'pseudo-output voltag'
+p52
+I18
+sS'diagnosis instruct'
+p53
+I2
+sS'past'
+p54
+I1
+sS'ball'
+p55
+I7
+sS'diagnosis target'
+p56
+I1
+sS'solder'
+p57
+I14
+sS'of the mpu'
+p58
+I2
+sS's6'
+p59
+I4
+sS'soldering trouble of the leadless termin'
+p60
+I3
+sS'external circuit of the circuit board'
+p61
+I9
+sS'transmiss'
+p62
+I2
+sS'fault diagnosis of'
+p63
+I1
+sS'soldering troubl'
+p64
+I3
+sS'network'
+p65
+I4
+sS'apparatus'
+p66
+I5
+sS'voltage of'
+p67
+I6
+sS'rx'
+p68
+I5
+sS'ry'
+p69
+I4
+sS'self-diagnosi'
+p70
+I1
+sS'supply voltage vc'
+p71
+I8
+sS'switch'
+p72
+I2
+sS'diagnosis program'
+p73
+I6
+sS'leadless packag'
+p74
+I1
+sS'fault diagnosing operation of th'
+p75
+I1
+sS'print'
+p76
+I2
+sS'self-diagnosis fil'
+p77
+I1
+sS'quad flat non-lead'
+p78
+I1
+sS'voltage of the leadless termin'
+p79
+I10
+sS'trouble diagnosi'
+p80
+I1
+sS's11'
+p81
+I2
+sS's10'
+p82
+I2
+sS'bu'
+p83
+I5
+sS'short-circuit malfunct'
+p84
+I1
+sS'fault diagnosi'
+p85
+I45
+sS'fault diagnosis command'
+p86
+I2
+sS'of the leadless termin'
+p87
+I13
+sS'flat non-lead'
+p88
+I1
+sS'fault diagnosis instruct'
+p89
+I2
+sS'bga'
+p90
+I1
+sS'troubl'
+p91
+I4
+sS'supply voltag'
+p92
+I6
+sS'fault'
+p93
+I82
+sS'synchron'
+p94
+I5
+sS'the normal voltag'
+p95
+I1
+sS'magnetic disk'
+p96
+I1
+sS'qfn'
+p97
+I2
+sS'board yokota'
+p98
+I1
+sS'voltage vc'
+p99
+I7
+sS'soldering of th'
+p100
+I3
+sS'integrated-circuit fault'
+p101
+I2
+sS'implement'
+p102
+I4
+sS'diagnosis command'
+p103
+I2
+sS'voltage for fault diagnosis of the leadless termin'
+p104
+I1
+sS'pseudo-output voltage for fault diagnosis of the leadless termin'
+p105
+I1
+sS'the mpu'
+p106
+I1
+sS'cuts connections of'
+p107
+I3
+sS'fault diagnosis operation for the leadless termin'
+p108
+I1
+sS'instruct'
+p109
+I2
+sS'leadless termin'
+p110
+I109
+sS'soldering connection of th'
+p111
+I6
+sS'suppli'
+p112
+I6
+sS'ground side of'
+p113
+I1
+sS'pseudo-output voltage for fault diagnosis of th'
+p114
+I1
+sS'resistor circuit network'
+p115
+I2
+sS'normal voltag'
+p116
+I24
+sS'voltage divis'
+p117
+I1
+sS'trouble of the leadless termin'
+p118
+I3
+sS'the power source voltage vc'
+p119
+I1
+sS'leadless chip carri'
+p120
+I1
+sS'criteria'
+p121
+I6
+sS'termin'
+p122
+I102
+sS'of leadless termin'
+p123
+I7
+sS'diagnosing unit for the leadless termin'
+p124
+I1
+sS'resistor'
+p125
+I1
+sS'equip'
+p126
+I15
+sS'impedance of the circuit board'
+p127
+I1
+sS'integrated-circuit fault diagnosi'
+p128
+I2
+sS'board yokota tetsuya'
+p129
+I2
+sS'fault diagnosing operation of the fault diagnos'
+p130
+I1
+sS'for fault diagnosis of the leadless termin'
+p131
+I1
+sS'quad flat'
+p132
+I1
+sS'quad'
+p133
+I1
+sS'voltages of th'
+p134
+I1
+sS'pseudo-output voltage for fault diagnosis of'
+p135
+I1
+sS'short-circuit troubl'
+p136
+I3
+sS'voltage resistance of'
+p137
+I3
+sS'fault diagnosis operation for th'
+p138
+I1
+sS'target'
+p139
+I1
+sS'packag'
+p140
+I7
+sS'the circuit board'
+p141
+I11
+sS'terminal voltag'
+p142
+I1
+sS'the leadless termin'
+p143
+I15
+sS'fault diagnosis fil'
+p144
+I1
+sS'voltage resistance of th'
+p145
+I3
+sS'flowchart of'
+p146
+I4
+sS'of'
+p147
+I32
+sS'imped'
+p148
+I2
+sS'b h'
+p149
+I1
+sS'fault diagnosis of leadless termin'
+p150
+I1
+sS'equipment for'
+p151
+I1
+sS'pseudo-output voltage for'
+p152
+I1
+sS'vc'
+p153
+I7
+sS'of the power source voltage vc'
+p154
+I4
+sS'soldering of the leadless termin'
+p155
+I3
+sS'fault diagnosis operation for'
+p156
+I1
+sS'diagnosi'
+p157
+I41
+sS'destin'
+p158
+I3
+sS'fault diagnosing unit for'
+p159
+I1
+sS'file'
+p160
+I5
+sS'voltage of a leadless termin'
+p161
+I2
+sS'ship'
+p162
+I2
+sS'diagnosis of leadless termin'
+p163
+I1
+sS's9'
+p164
+I4
+sS'sequential cut'
+p165
+I1
+sS'flowchart of fault'
+p166
+I2
+sS'external circuit of th'
+p167
+I9
+sS's3'
+p168
+I4
+sS's2'
+p169
+I6
+sS's1'
+p170
+I4
+sS's7'
+p171
+I4
+sS'ball-grid-array packag'
+p172
+I1
+sS's5'
+p173
+I6
+sS's4'
+p174
+I4
+sS'divis'
+p175
+I1
+sS'board pattern of a connection destin'
+p176
+I2
+sS'carrier'
+p177
+I1
+sS'terminal side cut'
+p178
+I3
+sS'recoveri'
+p179
+I1
+sS'voltag'
+p180
+I59
+sS'leadless'
+p181
+I1
+sS'high-density implement'
+p182
+I3
+sS'diagnosis of the leadless termin'
+p183
+I1
+sS'soldering of'
+p184
+I5
+sS'malfunct'
+p185
+I1
+sS'logic'
+p186
+I11
+sS'soldering bal'
+p187
+I7
+sS's8'
+p188
+I2
+sS'board pattern of'
+p189
+I1
+sS'for the leadless termin'
+p190
+I4
+sS'soldering connection of a leadless termin'
+p191
+I1
+sS'of a leadless termin'
+p192
+I5
+sS'fault diagnosing operation of'
+p193
+I1
+sS'package structure sold'
+p194
+I1
+sS'fault diagnosing unit for the leadless termin'
+p195
+I1
+sS'external circuit of'
+p196
+I9
+sS'of the normal voltag'
+p197
+I3
+sS'of th'
+p198
+I31
+sS'solder past'
+p199
+I1
+sS'mpu'
+p200
+I13
+sS'command'
+p201
+I2
+sS'abnorm'
+p202
+I3
+sS'fault diagnos'
+p203
+I39
+sS'fault diagnosis of the leadless termin'
+p204
+I1
+stp205
+Rp206
+tp207
+.

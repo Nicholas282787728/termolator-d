@@ -1,0 +1,1136 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'of passive touch screen'
+p7
+I1
+sS'roi'
+p8
+I12
+sS'closed-loop'
+p9
+I1
+sS'thefindpointermot'
+p10
+I2
+sS'photobit'
+p11
+I1
+sS'scalability of'
+p12
+I1
+sS'pointer ptr'
+p13
+I2
+sS'lrc checksum diagnostic packet'
+p14
+I2
+sS'threshold'
+p15
+I29
+sS'humid'
+p16
+I1
+sS'ptr'
+p17
+I2
+sS'row'
+p18
+I2
+sS'quality writ'
+p19
+I1
+sS'camera image sensor'
+p20
+I2
+sS'layout'
+p21
+I1
+sS'nois'
+p22
+I2
+sS'low-resolution passive touch screen'
+p23
+I1
+sS'activ'
+p24
+I1
+sS'of the pixel'
+p25
+I1
+sS'program'
+p26
+I6
+sS'threshold value for'
+p27
+I2
+sS'screen'
+p28
+I40
+sS'mincount paramet'
+p29
+I1
+sS'tvalue for the difference image idiff'
+p30
+I2
+sS'x-coordin'
+p31
+I1
+sS'count'
+p32
+I5
+sS'digit'
+p33
+I2
+sS'tvalu'
+p34
+I2
+sS'unus'
+p35
+I1
+sS'touch'
+p36
+I106
+sS'triangul'
+p37
+I7
+sS'dc'
+p38
+I1
+sS'eprom'
+p39
+I2
+sS'wave'
+p40
+I3
+sS'mous'
+p41
+I2
+sS'of the pointer tip'
+p42
+I1
+sS'two-dimensional cmo'
+p43
+I1
+sS'first-in-first-out'
+p44
+I1
+sS'3rd floor'
+p45
+I1
+sS'optical properties of'
+p46
+I2
+sS'cmo'
+p47
+I2
+sS'screen correspond'
+p48
+I1
+sS'mass parameter cx'
+p49
+I1
+sS'extract point'
+p50
+I1
+sS'misplac'
+p51
+I1
+sS'microdot'
+p52
+I1
+sS'of the touch'
+p53
+I4
+sS'corner portion of the touch screen'
+p54
+I2
+sS'subset of pixel'
+p55
+I3
+sS'connaught building calgary ab'
+p56
+I1
+sS'absolute value of'
+p57
+I1
+sS'rectangular planar sheet'
+p58
+I1
+sS'frame'
+p59
+I6
+sS'packet'
+p60
+I9
+sS'pointer position restrict'
+p61
+I1
+sS'street'
+p62
+I1
+sS'video'
+p63
+I2
+sS'levcount'
+p64
+I1
+sS'statu'
+p65
+I1
+sS'detect'
+p66
+I1
+sS'diagnostic pip'
+p67
+I2
+sS'the pointer tip'
+p68
+I1
+sS'triangulation of'
+p69
+I1
+sS'high-resolution touch screen'
+p70
+I1
+sS'for center-of-mass'
+p71
+I1
+sS'intersect'
+p72
+I1
+sS'right comers of the touch screen'
+p73
+I1
+sS'subarray'
+p74
+I1
+sS'intersection of th'
+p75
+I1
+sS'parameter xleft'
+p76
+I5
+sS'digital signal processor'
+p77
+I7
+sS'threshold value tvalue for'
+p78
+I1
+sS'peak paramet'
+p79
+I2
+sS'x-direct'
+p80
+I1
+sS'physics formulae for'
+p81
+I1
+sS'len'
+p82
+I39
+sS'isometric view of a corner portion of th'
+p83
+I1
+sS'toler'
+p84
+I1
+sS'scalability of passive touch'
+p85
+I1
+sS'box'
+p86
+I2
+sS'acoust'
+p87
+I2
+sS'threshold value tmin'
+p88
+I3
+sS'cmos camera'
+p89
+I1
+sS'board surface nois'
+p90
+I1
+sS'the touch screen'
+p91
+I7
+sS'checksum diagnostic packet'
+p92
+I1
+sS'improv'
+p93
+I1
+sS'the difference image idiff'
+p94
+I5
+sS'orient'
+p95
+I1
+sS'pointer information packet'
+p96
+I1
+sS'applianc'
+p97
+I1
+sS'glref'
+p98
+I4
+sS'ca'
+p99
+I1
+sS'avenu'
+p100
+I1
+sS'cz'
+p101
+I7
+sS'cx'
+p102
+I1
+sS'suppli'
+p103
+I4
+sS'batteri'
+p104
+I1
+sS'boot eprom'
+p105
+I2
+sS'comers of the touch screen'
+p106
+I1
+sS'desktop'
+p107
+I1
+sS'damag'
+p108
+I1
+sS'usb'
+p109
+I1
+sS'xright'
+p110
+I5
+sS'contiguous row'
+p111
+I1
+sS'camera'
+p112
+I15
+sS'identification of the pointer tip'
+p113
+I1
+sS'maximum i'
+p114
+I1
+sS'the image sensor'
+p115
+I6
+sS'pointer position coordin'
+p116
+I1
+sS'auto-buff'
+p117
+I1
+sS'calibration image glref'
+p118
+I2
+sS'subsets of the pixels of the image sensor'
+p119
+I1
+sS'schematic diagram of a mast'
+p120
+I1
+sS'subsystem'
+p121
+I2
+sS'minimum tmin'
+p122
+I2
+sS'pixel row'
+p123
+I2
+sS'coordin'
+p124
+I9
+sS'jefferson street'
+p125
+I1
+sS'mounting of the image sensor'
+p126
+I2
+sS'formulae for center-of-mass'
+p127
+I1
+sS'frame rate intens'
+p128
+I1
+sS'scalabl'
+p129
+I1
+sS'electromagnetic frequ'
+p130
+I1
+sS'mount'
+p131
+I1
+sS'tip'
+p132
+I2
+sS'pixel array'
+p133
+I2
+sS'touch screen correspond'
+p134
+I1
+sS'the pixels of the image sensor'
+p135
+I1
+sS'min_ptr_siz'
+p136
+I4
+sS'frequenc'
+p137
+I4
+sS'b h'
+p138
+I1
+sS'touch surface of th'
+p139
+I2
+sS'adm222'
+p140
+I1
+sS'photobit pb300'
+p141
+I1
+sS'count paramet'
+p142
+I1
+sS'mounting of th'
+p143
+I1
+sS'lrc'
+p144
+I1
+sS'passive touch screen'
+p145
+I8
+sS'minimum'
+p146
+I2
+sS'transparent overlay'
+p147
+I1
+sS'afindpointermot'
+p148
+I1
+sS'pixels of'
+p149
+I2
+sS'threshold value tvalu'
+p150
+I2
+sS'ithres of the difference image idiff'
+p151
+I1
+sS'threshold value for the difference image idiff'
+p152
+I2
+sS'of th'
+p153
+I4
+sS'optical properties of the image sensor'
+p154
+I2
+sS'thomas jefferson'
+p155
+I1
+sS'write'
+p156
+I2
+sS'connaught build'
+p157
+I1
+sS'video display'
+p158
+I7
+sS'voltage gradi'
+p159
+I4
+sS'frame sync'
+p160
+I2
+sS'alignment routin'
+p161
+I4
+sS'map'
+p162
+I1
+sS'unused z position lrc checksum diagnostic packet'
+p163
+I1
+sS'subset of'
+p164
+I4
+sS'unused z position lrc'
+p165
+I1
+sS'serial bu'
+p166
+I1
+sS'active touch'
+p167
+I1
+sS'driver'
+p168
+I8
+sS'lobbi'
+p169
+I1
+sS'sync puls'
+p170
+I2
+sS'assigne'
+p171
+I1
+sS'distort'
+p172
+I5
+sS'mincount'
+p173
+I1
+sS'high-resolution passive touch'
+p174
+I1
+sS'physic'
+p175
+I1
+sS'threshold minimum tmin'
+p176
+I2
+sS'touch surface of the touch'
+p177
+I2
+sS'master controller dsp'
+p178
+I1
+sS'universal seri'
+p179
+I1
+sS'mass paramet'
+p180
+I12
+sS'floor'
+p181
+I1
+sS'sw'
+p182
+I1
+sS'correspond'
+p183
+I3
+sS'parameter cx'
+p184
+I1
+sS'subsets of the pixels of'
+p185
+I1
+sS'issu'
+p186
+I1
+sS'tol paramet'
+p187
+I1
+sS'identification of th'
+p188
+I1
+sS'threshold value tvalue for the difference image idiff'
+p189
+I1
+sS'ab ca'
+p190
+I1
+sS'acoustic wav'
+p191
+I5
+sS'two-dimensional cmos camera image sensor'
+p192
+I1
+sS'ito'
+p193
+I1
+sS'pixel subset'
+p194
+I11
+sS'non-zero count'
+p195
+I4
+sS'protocol'
+p196
+I2
+sS'unused z position lrc checksum diagnost'
+p197
+I1
+sS'isometric view of a corner portion of'
+p198
+I1
+sS'fifo'
+p199
+I5
+sS'bandwidth'
+p200
+I1
+sS'pixels of the image sensor'
+p201
+I3
+sS'mass parameters massx'
+p202
+I1
+sS'pointer'
+p203
+I4
+sS'optical properties of th'
+p204
+I2
+sS'paramet'
+p205
+I23
+sS'startlevel paramet'
+p206
+I3
+sS'non-zero bin'
+p207
+I1
+sS'thomas jefferson street'
+p208
+I1
+sS'triangulation geometri'
+p209
+I1
+sS'passive touch'
+p210
+I37
+sS'identif'
+p211
+I2
+sS'color'
+p212
+I1
+sS'findpointermot'
+p213
+I1
+sS'peripheral edge of'
+p214
+I1
+sS'board'
+p215
+I1
+sS'icurr'
+p216
+I9
+sS'flowchart'
+p217
+I6
+sS'pixel'
+p218
+I27
+sS'physics formula'
+p219
+I1
+sS'bin'
+p220
+I1
+sS'threshold value min_ptr_s'
+p221
+I2
+sS'capacitive touch'
+p222
+I3
+sS'building calgary ab ca'
+p223
+I1
+sS'washington'
+p224
+I1
+sS'rectangular fram'
+p225
+I1
+sS'right comers of the touch'
+p226
+I1
+sS'parameters massx'
+p227
+I1
+sS'initi'
+p228
+I1
+sS'z-posit'
+p229
+I2
+sS'threshold ithr'
+p230
+I1
+sS'elevational view of the touch'
+p231
+I1
+sS'szregion'
+p232
+I8
+sS'frame sync puls'
+p233
+I2
+sS'isometric view of a corner portion of the touch screen'
+p234
+I1
+sS'passive point'
+p235
+I2
+sS'count parameter mincount'
+p236
+I1
+sS'calgary ab ca'
+p237
+I1
+sS'binary difference image idiff'
+p238
+I1
+sS'pointer damag'
+p239
+I1
+sS'peak_div paramet'
+p240
+I2
+sS'physics formulae for center-of-mass'
+p241
+I1
+sS'elevational view of'
+p242
+I1
+sS'capacitive touch screen'
+p243
+I2
+sS'schematic diagram of'
+p244
+I2
+sS'of the touch system hardwar'
+p245
+I2
+sS'subset'
+p246
+I16
+sS'right'
+p247
+I1
+sS'the touch system hardwar'
+p248
+I1
+sS'of the image sensor'
+p249
+I8
+sS'elevational view of th'
+p250
+I1
+sS'isometric view of a touch'
+p251
+I1
+sS'continu'
+p252
+I1
+sS'y-axi'
+p253
+I1
+sS'avenue sw'
+p254
+I1
+sS'pip layout'
+p255
+I1
+sS'elevational view of the touch screen'
+p256
+I1
+sS'event'
+p257
+I6
+sS'pointer veloc'
+p258
+I2
+sS'high-resolution touch'
+p259
+I1
+sS'touch surface of the touch screen'
+p260
+I2
+sS'absolute value of th'
+p261
+I1
+sS'3rd'
+p262
+I1
+sS'overlay'
+p263
+I1
+sS'gradient'
+p264
+I4
+sS'region-of-interest'
+p265
+I1
+sS'lens assemblies hav'
+p266
+I1
+sS'dsp'
+p267
+I24
+sS'touch screen map'
+p268
+I1
+sS'right com'
+p269
+I1
+sS'parallax'
+p270
+I3
+sS'hardwar'
+p271
+I2
+sS'sensor'
+p272
+I74
+sS'right comers of'
+p273
+I1
+sS'tmin'
+p274
+I12
+sS'linear'
+p275
+I1
+sS'connaught building calgari'
+p276
+I1
+sS'manipul'
+p277
+I1
+sS'center-of-mass'
+p278
+I1
+sS'parameter mincount'
+p279
+I1
+sS'bu'
+p280
+I5
+sS'of pixel'
+p281
+I3
+sS'camera identif'
+p282
+I1
+sS'universal serial bu'
+p283
+I1
+sS'mounting of'
+p284
+I1
+sS'z position lrc checksum diagnostic packet'
+p285
+I1
+sS'high-resolut'
+p286
+I1
+sS'for the difference image idiff'
+p287
+I5
+sS'isometric view of a corner portion of the touch'
+p288
+I1
+sS'threshold value for th'
+p289
+I2
+sS'threshold ithres of th'
+p290
+I1
+sS'xleft'
+p291
+I5
+sS'threshold minimum'
+p292
+I4
+sS'intersection of'
+p293
+I1
+sS'veloc'
+p294
+I3
+sS'two-dimensional image sensor'
+p295
+I2
+sS'dpi'
+p296
+I4
+sS'geometri'
+p297
+I1
+sS'desktop appli'
+p298
+I1
+sS'processor'
+p299
+I14
+sS'peak'
+p300
+I6
+sS'routin'
+p301
+I4
+sS'of the touch screen'
+p302
+I13
+sS'right comers of th'
+p303
+I1
+sS'threshold ithres of the difference image idiff'
+p304
+I1
+sS'two-dimensional cmos camera'
+p305
+I1
+sS'qualiti'
+p306
+I1
+sS'restrict'
+p307
+I2
+sS'diagnostic packet'
+p308
+I3
+sS'touch system hardwar'
+p309
+I1
+sS'array'
+p310
+I1
+sS'icurr b'
+p311
+I1
+sS'sheet'
+p312
+I1
+sS'threshold ithres of'
+p313
+I1
+sS'high-resolution passive touch screen'
+p314
+I1
+sS'of'
+p315
+I4
+sS'master'
+p316
+I21
+sS'washington dc'
+p317
+I1
+sS'parameter xright'
+p318
+I5
+sS'of a corner portion of the touch screen'
+p319
+I2
+sS'parameter p'
+p320
+I5
+sS'electronic digit'
+p321
+I1
+sS'digital camera'
+p322
+I11
+sS'subset of the pixel'
+p323
+I1
+sS'planar sheet'
+p324
+I1
+sS'the pixel'
+p325
+I1
+sS'x0'
+p326
+I1
+sS'subsets of'
+p327
+I1
+sS'pointer act'
+p328
+I1
+sS'cmos camera image sensor'
+p329
+I2
+sS'contiguous rows of'
+p330
+I1
+sS'screen map'
+p331
+I1
+sS'photobit pb300 image sensor'
+p332
+I1
+sS'unused z position lrc checksum'
+p333
+I1
+sS'project'
+p334
+I2
+sS'transmission bandwidth'
+p335
+I1
+sS'connaught'
+p336
+I1
+sS'identification of'
+p337
+I1
+sS'subsets of the pixel'
+p338
+I1
+sS'peripheral edge of th'
+p339
+I1
+sS'display'
+p340
+I27
+sS'puls'
+p341
+I2
+sS'schematic diagram of a passive touch'
+p342
+I1
+sS'subsets of the pixels of th'
+p343
+I1
+sS'ultrasonic frequ'
+p344
+I1
+sS'isometric view of a corn'
+p345
+I1
+sS'connaught building calgary ab ca'
+p346
+I1
+sS'isometric view of a touch screen'
+p347
+I1
+sS'unused z'
+p348
+I1
+sS'touch screen'
+p349
+I46
+sS'pip'
+p350
+I10
+sS'scalability of passive touch screen'
+p351
+I1
+sS'saw'
+p352
+I2
+sS'tolerance issu'
+p353
+I2
+sS'low-resolution passive touch'
+p354
+I2
+sS'peripheral edge of the touch'
+p355
+I1
+sS'iprev'
+p356
+I12
+sS'touch surface of'
+p357
+I2
+sS'camera subsystem'
+p358
+I2
+sS'massx'
+p359
+I1
+sS'accuraci'
+p360
+I1
+sS'dsp clock'
+p361
+I1
+sS'thoma'
+p362
+I1
+sS'transmiss'
+p363
+I4
+sS'sub-pixel'
+p364
+I1
+sS'of the pixels of the image sensor'
+p365
+I1
+sS'isometric view of'
+p366
+I2
+sS'subsets of th'
+p367
+I1
+sS'pixels of th'
+p368
+I2
+sS'subset of th'
+p369
+I1
+sS'mass coordin'
+p370
+I1
+sS'idiff'
+p371
+I63
+sS'threshold value tvalue for th'
+p372
+I1
+sS'display manipul'
+p373
+I2
+sS'xright paramet'
+p374
+I1
+sS'pointer tip'
+p375
+I2
+sS'absolute value of the difference image idiff'
+p376
+I1
+sS'mass'
+p377
+I2
+sS'x-axi'
+p378
+I1
+sS'of the difference image idiff'
+p379
+I3
+stp380
+Rp381
+tp382
+.

@@ -1,0 +1,860 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'rapid download'
+p7
+I1
+sS'cis db'
+p8
+I2
+sS'curated semi-automat'
+p9
+I1
+sS'expression studi'
+p10
+I1
+sS'signific'
+p11
+I1
+sS'micro-array expression studi'
+p12
+I1
+sS'plant tf'
+p13
+I1
+sS'classification of arabidopsi'
+p14
+I1
+sS'promoter motif'
+p15
+I1
+sS'arabidopsis root cultur'
+p16
+I1
+sS'contextual menu'
+p17
+I1
+sS'intron'
+p18
+I1
+sS'tair'
+p19
+I5
+sS'regulatory network'
+p20
+I5
+sS'amino acid sequences for individual tf'
+p21
+I1
+sS'breakdown of'
+p22
+I1
+sS'genome refin'
+p23
+I1
+sS'theme'
+p24
+I1
+sS'queri'
+p25
+I1
+sS'tf'
+p26
+I22
+sS'promoter id entri'
+p27
+I2
+sS'annotation of th'
+p28
+I1
+sS'head-to-head direction shar'
+p29
+I1
+sS'contribut'
+p30
+I1
+sS'express'
+p31
+I5
+sS'db'
+p32
+I2
+sS'classification of'
+p33
+I1
+sS'of gen'
+p34
+I1
+sS'throughput micro-array express'
+p35
+I1
+sS'pathogen infection treat'
+p36
+I1
+sS'blast'
+p37
+I1
+sS'servlet'
+p38
+I1
+sS'regulatory information serv'
+p39
+I1
+sS'organ'
+p40
+I1
+sS'for tf'
+p41
+I1
+sS'annotation of the promot'
+p42
+I1
+sS'gather'
+p43
+I1
+sS'final manuscript'
+p44
+I1
+sS'expression patterns of tf'
+p45
+I1
+sS'fraction of the total ci'
+p46
+I1
+sS'agris online resourc'
+p47
+I1
+sS'tair websit'
+p48
+I2
+sS'target gen'
+p49
+I3
+sS'download'
+p50
+I2
+sS'tf gene'
+p51
+I2
+sS'bindingsite table stor'
+p52
+I1
+sS'gene express'
+p53
+I2
+sS'transcript profiles of'
+p54
+I1
+sS'databas'
+p55
+I4
+sS'gene id of'
+p56
+I1
+sS'throughput micro-array expression studi'
+p57
+I1
+sS'of arabidopsis gen'
+p58
+I1
+sS'individual tf'
+p59
+I1
+sS'profiles of arabidopsis gen'
+p60
+I1
+sS'experi'
+p61
+I1
+sS'approach'
+p62
+I1
+sS'public'
+p63
+I1
+sS'complement'
+p64
+I1
+sS'genes for tf'
+p65
+I1
+sS'public domain online resourc'
+p66
+I1
+sS'gene regulatory information serv'
+p67
+I1
+sS'promoter gen'
+p68
+I2
+sS'search'
+p69
+I5
+sS'of arabidopsis tf'
+p70
+I1
+sS'database atcisdb'
+p71
+I1
+sS'menu'
+p72
+I1
+sS'implement'
+p73
+I1
+sS'gene'
+p74
+I28
+sS'markov model'
+p75
+I1
+sS'ci'
+p76
+I2
+sS'color'
+p77
+I1
+sS'famili'
+p78
+I6
+sS'semi-automat'
+p79
+I1
+sS'tfs bind'
+p80
+I1
+sS'tf famili'
+p81
+I3
+sS'dna'
+p82
+I3
+sS'web implement'
+p83
+I1
+sS'gene annot'
+p84
+I1
+sS'color squar'
+p85
+I1
+sS'websit'
+p86
+I3
+sS'gene id of tair'
+p87
+I1
+sS'similar studi'
+p88
+I1
+sS'head-to-head direction sharing bi-directional promot'
+p89
+I1
+sS'loci'
+p90
+I1
+sS'regul'
+p91
+I1
+sS'family nam'
+p92
+I1
+sS'mismatch'
+p93
+I1
+sS'blat'
+p94
+I1
+sS'coordin'
+p95
+I1
+sS'visual'
+p96
+I2
+sS'transcriptional regul'
+p97
+I1
+sS'symbol entri'
+p98
+I2
+sS'atcisdb databas'
+p99
+I2
+sS'tigr'
+p100
+I2
+sS'identification of mut'
+p101
+I1
+sS'novel'
+p102
+I1
+sS'annotation of'
+p103
+I1
+sS'annot'
+p104
+I5
+sS'mk'
+p105
+I1
+sS'of mut'
+p106
+I1
+sS'amino acid sequences for'
+p107
+I1
+sS'unidirectional promoter gen'
+p108
+I1
+sS'arabidopsis gene regulatori'
+p109
+I1
+sS'mutant'
+p110
+I1
+sS'motif'
+p111
+I4
+sS'dna-binding domain'
+p112
+I2
+sS'arabidopsis gene regulatory information serv'
+p113
+I1
+sS'acid sequences for individual tf'
+p114
+I1
+sS'visualization toolkit'
+p115
+I2
+sS'toolkit'
+p116
+I1
+sS'putative tf'
+p117
+I1
+sS'domain search'
+p118
+I1
+sS'gene id'
+p119
+I1
+sS'protein'
+p120
+I5
+sS'relative information for promoter annot'
+p121
+I1
+sS'id'
+p122
+I3
+sS'iterative blast approach'
+p123
+I1
+sS'develop'
+p124
+I1
+sS'of tf'
+p125
+I2
+sS'web-based resourc'
+p126
+I1
+sS'graphical organization of th'
+p127
+I1
+sS'unidirectional promot'
+p128
+I1
+sS'promoter id'
+p129
+I4
+sS'bidirectional gen'
+p130
+I1
+sS'breakdown'
+p131
+I1
+sS'map'
+p132
+I1
+sS'plant'
+p133
+I1
+sS'resourc'
+p134
+I3
+sS'matdb'
+p135
+I1
+sS'genome data visualization toolkit'
+p136
+I1
+sS'microarray express'
+p137
+I1
+sS'target gene promot'
+p138
+I1
+sS'promoterinfo stor'
+p139
+I1
+sS'refin'
+p140
+I1
+sS'nucleotid'
+p141
+I1
+sS'classification of arabidopsis tf'
+p142
+I1
+sS'studi'
+p143
+I2
+sS'contributions h'
+p144
+I1
+sS'sp'
+p145
+I1
+sS'transcript profiles of arabidopsi'
+p146
+I1
+sS'atcisdb'
+p147
+I5
+sS'homeo-domain famili'
+p148
+I1
+sS'entri'
+p149
+I4
+sS'graphical organ'
+p150
+I1
+sS'for individual tf'
+p151
+I2
+sS'gene promot'
+p152
+I3
+sS'expression profil'
+p153
+I1
+sS'model'
+p154
+I1
+sS'online repositori'
+p155
+I1
+sS'total ci'
+p156
+I1
+sS'move'
+p157
+I2
+sS'identification of regulatory network'
+p158
+I1
+sS'unknown gen'
+p159
+I1
+sS'promoter annot'
+p160
+I1
+sS'web'
+p161
+I4
+sS'bi-directional promot'
+p162
+I1
+sS'motif search'
+p163
+I1
+sS'identif'
+p164
+I4
+sS'treatment'
+p165
+I1
+sS'promoter gene annot'
+p166
+I1
+sS'tss'
+p167
+I1
+sS'transcript profiles of arabidopsis gen'
+p168
+I1
+sS'of the total ci'
+p169
+I1
+sS'name'
+p170
+I5
+sS'wrki'
+p171
+I2
+sS'promoter map'
+p172
+I1
+sS'server'
+p173
+I2
+sS'downloadable databas'
+p174
+I1
+sS'genom'
+p175
+I5
+sS'page'
+p176
+I4
+sS'regulatory loci'
+p177
+I1
+sS'arabidopsis gen'
+p178
+I5
+sS'urgenc'
+p179
+I1
+sS'unique id'
+p180
+I1
+sS'eg'
+p181
+I1
+sS'microarray experi'
+p182
+I1
+sS'novel promoter motif'
+p183
+I1
+sS'regulatory protein'
+p184
+I1
+sS'matrix'
+p185
+I1
+sS'profil'
+p186
+I1
+sS'riechmann'
+p187
+I1
+sS'unique opportun'
+p188
+I1
+sS'representative protein'
+p189
+I1
+sS'web pag'
+p190
+I3
+sS'gene nam'
+p191
+I2
+sS'pathogen infect'
+p192
+I1
+sS'public domain'
+p193
+I1
+sS'infection treat'
+p194
+I1
+sS'gdvtk'
+p195
+I1
+sS'javaserver pag'
+p196
+I1
+sS'target genes for tf'
+p197
+I1
+sS'attfdb'
+p198
+I4
+sS'repositori'
+p199
+I1
+sS'markov'
+p200
+I1
+sS'gene symbol'
+p201
+I6
+sS'atg'
+p202
+I1
+sS'the total ci'
+p203
+I1
+sS'fraction of th'
+p204
+I1
+sS'of'
+p205
+I1
+sS'public onlin'
+p206
+I1
+sS'attfdb database attfdb'
+p207
+I1
+sS'public domain onlin'
+p208
+I1
+sS'amino acid'
+p209
+I1
+sS'manuscript'
+p210
+I1
+sS'arabidopsis tf'
+p211
+I8
+sS'qualiti'
+p212
+I1
+sS'domain'
+p213
+I4
+sS'agri'
+p214
+I13
+sS'opportun'
+p215
+I1
+sS'expression patterns of'
+p216
+I1
+sS'root cultur'
+p217
+I1
+sS'web interface for'
+p218
+I1
+sS'database attfdb'
+p219
+I1
+sS'interact'
+p220
+I2
+sS'promot'
+p221
+I20
+sS'fraction'
+p222
+I2
+sS'gene symbol entri'
+p223
+I2
+sS'domain motif'
+p224
+I1
+sS'store'
+p225
+I5
+sS'hs'
+p226
+I1
+sS'tool'
+p227
+I2
+sS'blast approach'
+p228
+I1
+sS'of gene express'
+p229
+I3
+sS'fraction of'
+p230
+I1
+sS'for agri'
+p231
+I2
+sS'extensive search'
+p232
+I1
+sS'genome data visu'
+p233
+I1
+sS'pwm'
+p234
+I1
+sS'maintainability qu'
+p235
+I1
+sS'arabidopsis root'
+p236
+I1
+sS'arabidopsi'
+p237
+I13
+sS'target'
+p238
+I3
+sS'rd'
+p239
+I1
+sS'atcisdb database atcisdb'
+p240
+I1
+sS'id entri'
+p241
+I2
+sS'for promoter annot'
+p242
+I2
+sS'identification of'
+p243
+I2
+sS'online resourc'
+p244
+I2
+sS'putative ci'
+p245
+I1
+sS'classif'
+p246
+I1
+sS'relative information for'
+p247
+I1
+sS'id of tair'
+p248
+I1
+sS'bind'
+p249
+I1
+sS'automatic gath'
+p250
+I1
+sS'repres'
+p251
+I1
+sS'cultur'
+p252
+I1
+sS'fasta'
+p253
+I1
+sS'myb'
+p254
+I2
+sS'individual famili'
+p255
+I1
+sS'nm'
+p256
+I1
+sS'attfdb databas'
+p257
+I1
+sS'transcription factor nam'
+p258
+I1
+sS'sharing bi-directional promot'
+p259
+I2
+sS'discrep'
+p260
+I1
+sS'squar'
+p261
+I1
+sS'of tair'
+p262
+I1
+sS'nt'
+p263
+I5
+sS'novel promot'
+p264
+I1
+sS'transfacinfo table stor'
+p265
+I1
+sS'distribut'
+p266
+I1
+sS'ftp'
+p267
+I1
+sS'target genes for'
+p268
+I1
+sS'symbol'
+p269
+I4
+sS'of regulatory network'
+p270
+I1
+sS'e-valu'
+p271
+I1
+sS'web interface for agri'
+p272
+I1
+sS'jsp'
+p273
+I2
+sS'transcript profil'
+p274
+I1
+sS'arabidopsis genom'
+p275
+I3
+sS'domain online resourc'
+p276
+I1
+sS'transcript'
+p277
+I1
+sS'network'
+p278
+I5
+sS'kb'
+p279
+I2
+sS'salk'
+p280
+I1
+sS'graphical organization of'
+p281
+I1
+sS'database queri'
+p282
+I1
+sS'public online repositori'
+p283
+I1
+sS'regulatory motif'
+p284
+I1
+sS'cdna microarray experi'
+p285
+I1
+sS'spatial express'
+p286
+I1
+sS'rapid develop'
+p287
+I1
+stp288
+Rp289
+tp290
+.

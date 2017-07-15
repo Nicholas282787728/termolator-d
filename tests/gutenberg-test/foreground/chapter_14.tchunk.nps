@@ -1,0 +1,452 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'explan'
+p7
+I1
+sS'cordonnet'
+p8
+I4
+sS'4th bobbin'
+p9
+I1
+sS'lace'
+p10
+I16
+sS'represent'
+p11
+I1
+sS'brussel'
+p12
+I5
+sS'next chapt'
+p13
+I1
+sS'whilst'
+p14
+I1
+sS'paper'
+p15
+I6
+sS'comprehensive account'
+p16
+I1
+sS'ornamental ground'
+p17
+I1
+sS'thumb'
+p18
+I1
+sS'articl'
+p19
+I1
+sS'woof'
+p20
+I1
+sS'lacet'
+p21
+I1
+sS'valencienn'
+p22
+I1
+sS'needle-point lac'
+p23
+I1
+sS'rise'
+p24
+I2
+sS'lace-work'
+p25
+I1
+sS'piec'
+p26
+I2
+sS'b'
+p27
+I1
+sS'cushion'
+p28
+I1
+sS'fall'
+p29
+I2
+sS'interrupt'
+p30
+I1
+sS'outline thread'
+p31
+I1
+sS'flannel'
+p32
+I1
+sS'agrav'
+p33
+I10
+sS'close stitch'
+p34
+I1
+sS'bar'
+p35
+I1
+sS'd'
+p36
+I1
+sS'laquo'
+p37
+I7
+sS'h'
+p38
+I1
+sS'cru'
+p39
+I1
+sS'brun-caroubi'
+p40
+I1
+sS'household articl'
+p41
+I1
+sS'round'
+p42
+I1
+sS'right'
+p43
+I1
+sS'interv'
+p44
+I1
+sS'winder'
+p45
+I3
+sS'pass'
+p46
+I1
+sS'broder surfin'
+p47
+I1
+sS'close'
+p48
+I2
+sS'twisted hole ground'
+p49
+I1
+sS'cog-wheel'
+p50
+I1
+sS'subject'
+p51
+I1
+sS'dexter'
+p52
+I1
+sS'brussels ground'
+p53
+I1
+sS'stitch'
+p54
+I2
+sS'3rd'
+p55
+I21
+sS'frac12'
+p56
+I1
+sS'fine'
+p57
+I1
+sS'linen ground'
+p58
+I1
+sS'finger'
+p59
+I4
+sS'intersect'
+p60
+I1
+sS'foundation thread'
+p61
+I1
+sS'ground'
+p62
+I24
+sS'perpendicular bar'
+p63
+I1
+sS'primitive kind'
+p64
+I1
+sS'coarse cotton'
+p65
+I1
+sS'fine thread'
+p66
+I1
+sS'picot'
+p67
+I13
+sS'regular interv'
+p68
+I1
+sS'preparatory work'
+p69
+I1
+sS'passing clos'
+p70
+I1
+sS'eacut'
+p71
+I4
+sS'thread'
+p72
+I3
+sS'needlemade lac'
+p73
+I1
+sS'mdash'
+p74
+I5
+sS'dark green flannel'
+p75
+I1
+sS'rouge-g'
+p76
+I1
+sS'work point d'
+p77
+I1
+sS'work point g'
+p78
+I1
+sS'work point f'
+p79
+I1
+sS'ground resembling linen'
+p80
+I1
+sS'2nd bobbin'
+p81
+I2
+sS'foundat'
+p82
+I1
+sS'2nd'
+p83
+I23
+sS'instruct'
+p84
+I1
+sS'table-cov'
+p85
+I1
+sS'openwork'
+p86
+I1
+sS'ground resembl'
+p87
+I1
+sS'normandi'
+p88
+I1
+sS'reticella lac'
+p89
+I2
+sS'steel axl'
+p90
+I1
+sS'fine clos'
+p91
+I1
+sS'coarse lac'
+p92
+I1
+sS'saxoni'
+p93
+I1
+sS'simplif'
+p94
+I1
+sS'valenciennes ground'
+p95
+I2
+sS'torchon lac'
+p96
+I2
+sS'netherland'
+p97
+I1
+sS'ordinary brussel'
+p98
+I1
+sS'preliminary work'
+p99
+I1
+sS'picots round'
+p100
+I1
+sS'foliag'
+p101
+I1
+sS'steel'
+p102
+I1
+sS'kind'
+p103
+I1
+sS'manual dexter'
+p104
+I1
+sS'g'
+p105
+I2
+sS'f'
+p106
+I3
+sS'torchon stitch'
+p107
+I1
+sS'prepar'
+p108
+I1
+sS'outlin'
+p109
+I1
+sS'venetian'
+p110
+I5
+sS'9th'
+p111
+I4
+sS'4th finger'
+p112
+I2
+sS'fine lac'
+p113
+I1
+sS'chapter'
+p114
+I1
+sS'reticella'
+p115
+I1
+sS'jaune-rouil'
+p116
+I1
+sS'hue'
+p117
+I1
+sS'household'
+p118
+I1
+sS'cru hu'
+p119
+I1
+sS'smyrna'
+p120
+I1
+sS'resembling linen'
+p121
+I1
+sS'7th'
+p122
+I5
+sS'original piec'
+p123
+I1
+sS'work point '
+p124
+I1
+sS'alsac'
+p125
+I2
+sS'work'
+p126
+I9
+sS'cotton'
+p127
+I1
+sS'coarse linen'
+p128
+I1
+sS'green flannel'
+p129
+I1
+sS'linen'
+p130
+I5
+sS'dentel'
+p131
+I1
+sS'quadril'
+p132
+I1
+sS'bobbin'
+p133
+I3
+sS'bohemia'
+p134
+I1
+sS'torchon ground'
+p135
+I2
+sS'surfin'
+p136
+I1
+sS'needle-point'
+p137
+I1
+sS'unbleached linen'
+p138
+I1
+sS'bleu-indigo'
+p139
+I1
+sS'fine dark green flannel'
+p140
+I1
+sS'venetian lac'
+p141
+I6
+sS'account'
+p142
+I1
+sS'cushion cov'
+p143
+I1
+sS'e'
+p144
+I4
+sS'embroideri'
+p145
+I1
+sS'venetian embroideri'
+p146
+I1
+sS'6th'
+p147
+I10
+sS'cover'
+p148
+I1
+sS'eternel'
+p149
+I2
+sS'raquo'
+p150
+I7
+sS'axl'
+p151
+I3
+stp152
+Rp153
+tp154
+.

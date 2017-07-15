@@ -1,0 +1,62 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'fine program'
+p7
+I1
+sS'volunt'
+p8
+I1
+sS'organ'
+p9
+I1
+sS'cancer'
+p10
+I1
+sS'education program'
+p11
+I1
+sS'cancer societi'
+p12
+I1
+sS'thru adult education program'
+p13
+I1
+sS'society volunt'
+p14
+I1
+sS'adult education program'
+p15
+I1
+sS'thru adult educ'
+p16
+I1
+sS'program'
+p17
+I3
+sS'thru adult'
+p18
+I1
+sS'educational program'
+p19
+I1
+sS'contribut'
+p20
+I1
+sS'cancer society volunt'
+p21
+I1
+stp22
+Rp23
+tp24
+.

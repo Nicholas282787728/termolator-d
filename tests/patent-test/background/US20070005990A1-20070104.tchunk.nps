@@ -1,0 +1,731 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'multidevice session establishment for multimod'
+p7
+I1
+sS'hypertext transf'
+p8
+I1
+sS'sathish sailesh'
+p9
+I1
+sS'nc'
+p10
+I1
+sS'protocol'
+p11
+I2
+sS'rom'
+p12
+I4
+sS'execut'
+p13
+I1
+sS'charlott'
+p14
+I1
+sS'text'
+p15
+I1
+sS'hypertext'
+p16
+I1
+sS'multidevice session establishment for'
+p17
+I1
+sS'sailesh'
+p18
+I1
+sS'modality cap'
+p19
+I1
+sS'session'
+p20
+I18
+sS'multidevice session establishment for multimodal brows'
+p21
+I1
+sS'identifi'
+p22
+I1
+sS'skill'
+p23
+I2
+sS'disk'
+p24
+I3
+sS'session identif'
+p25
+I4
+sS'languag'
+p26
+I13
+sS'web'
+p27
+I1
+sS'manager modul'
+p28
+I13
+sS'online form for purchasing airlin'
+p29
+I1
+sS'monitor'
+p30
+I1
+sS'single sess'
+p31
+I1
+sS'sip uri'
+p32
+I1
+sS'management controller for'
+p33
+I1
+sS'web sit'
+p34
+I9
+sS'voice recognizer of the electronic amulet'
+p35
+I3
+sS'identif'
+p36
+I24
+sS'personal data assist'
+p37
+I1
+sS'gestur'
+p38
+I1
+sS'program'
+p39
+I36
+sS'liquid crystal display'
+p40
+I1
+sS'of a profile manag'
+p41
+I3
+sS'sens'
+p42
+I2
+sS'local'
+p43
+I2
+sS'charlotte nc'
+p44
+I1
+sS'recogn'
+p45
+I15
+sS'bio'
+p46
+I2
+sS'anim'
+p47
+I1
+sS'hypertext transfer protocol'
+p48
+I1
+sS'bernoulli'
+p49
+I1
+sS'cartridg'
+p50
+I1
+sS'digital video'
+p51
+I1
+sS'voic'
+p52
+I15
+sS'autom'
+p53
+I1
+sS'amulet'
+p54
+I12
+sS'lcd'
+p55
+I1
+sS'phone vibr'
+p56
+I1
+sS'voice recognizer of'
+p57
+I3
+sS'ticket'
+p58
+I1
+sS'management controller for th'
+p59
+I1
+sS'voice prompt'
+p60
+I1
+sS'multidevice sess'
+p61
+I1
+sS'profile manager modul'
+p62
+I13
+sS'crt'
+p63
+I1
+sS'personal digital assist'
+p64
+I1
+sS'automated speech recognit'
+p65
+I1
+sS'establishment for multimodal browsing sathish sailesh'
+p66
+I1
+sS'server'
+p67
+I20
+sS'integr'
+p68
+I2
+sS'computer-readable media'
+p69
+I4
+sS'manag'
+p70
+I121
+sS'vision'
+p71
+I1
+sS'multimodal browsing sathish sailesh'
+p72
+I1
+sS'cd-rom disk'
+p73
+I1
+sS'computer-readable instruct'
+p74
+I1
+sS'ordinary skil'
+p75
+I2
+sS'asr'
+p76
+I1
+sS'voice brows'
+p77
+I4
+sS'tryon'
+p78
+I1
+sS'computer-readable program'
+p79
+I10
+sS'session initi'
+p80
+I1
+sS'street'
+p81
+I1
+sS'computer-readable program instruct'
+p82
+I1
+sS'unique session id'
+p83
+I14
+sS'wide area network'
+p84
+I2
+sS'consortium'
+p85
+I1
+sS'speech recogn'
+p86
+I9
+sS'sub-components of'
+p87
+I2
+sS'network'
+p88
+I14
+sS'language model'
+p89
+I1
+sS'resource identifi'
+p90
+I1
+sS'pda speech'
+p91
+I1
+sS'vision brows'
+p92
+I1
+sS'profil'
+p93
+I140
+sS'recognit'
+p94
+I11
+sS'digital assist'
+p95
+I1
+sS'for purchasing airline ticket'
+p96
+I2
+sS'internet'
+p97
+I3
+sS'hardwar'
+p98
+I3
+sS'new'
+p99
+I1
+sS'transfer protocol'
+p100
+I1
+sS'high-end speech'
+p101
+I1
+sS'vocabulary grammar'
+p102
+I1
+sS'altern'
+p103
+I1
+sS'voice recognit'
+p104
+I1
+sS'vibrat'
+p105
+I1
+sS'computer-readable program cod'
+p106
+I9
+sS'unique identif'
+p107
+I2
+sS'voice recogn'
+p108
+I9
+sS'bu'
+p109
+I2
+sS'sub-compon'
+p110
+I1
+sS'multidevice session establishment for multimodal browsing sathish sailesh'
+p111
+I1
+sS'microcontrol'
+p112
+I1
+sS'local area network'
+p113
+I2
+sS'liquid cryst'
+p114
+I1
+sS'multimodal web'
+p115
+I1
+sS'schematic block diagram of a profil'
+p116
+I1
+sS'video disk'
+p117
+I1
+sS'interpret'
+p118
+I3
+sS'gesture model'
+p119
+I1
+sS'multidevice session establish'
+p120
+I1
+sS'program modul'
+p121
+I4
+sS'bernoulli cartridg'
+p122
+I1
+sS'unique sess'
+p123
+I18
+sS'plaza'
+p124
+I1
+sS'synchron'
+p125
+I1
+sS'magnetic disk'
+p126
+I1
+sS'digital video disk'
+p127
+I1
+sS'markup languag'
+p128
+I12
+sS'sub-components of th'
+p129
+I2
+sS'modal'
+p130
+I14
+sS'purchasing airline ticket'
+p131
+I1
+sS'multimodal profil'
+p132
+I60
+sS'america plaza'
+p133
+I1
+sS'pda'
+p134
+I13
+sS'text-to-speech synthesi'
+p135
+I1
+sS'softwar'
+p136
+I4
+sS'telephon'
+p137
+I2
+sS'tryon street'
+p138
+I1
+sS'unique user identif'
+p139
+I9
+sS'modul'
+p140
+I27
+sS'prefer'
+p141
+I62
+sS'america'
+p142
+I1
+sS'session establish'
+p143
+I5
+sS'instruct'
+p144
+I12
+sS'establish'
+p145
+I1
+sS'payload'
+p146
+I2
+sS'internet protocol'
+p147
+I1
+sS'w3c'
+p148
+I1
+sS'web consortium'
+p149
+I1
+sS'for multimodal browsing sathish sailesh'
+p150
+I1
+sS'unique user id'
+p151
+I16
+sS'interact'
+p152
+I81
+sS'univers'
+p153
+I1
+sS'automated speech'
+p154
+I1
+sS'messag'
+p155
+I2
+sS'optical disk'
+p156
+I1
+sS'magnetic cassett'
+p157
+I1
+sS'master'
+p158
+I14
+sS'card'
+p159
+I2
+sS'unique id'
+p160
+I14
+sS'cassett'
+p161
+I1
+sS'synthesi'
+p162
+I1
+sS'session establishment for multimodal browsing sathish sailesh'
+p163
+I1
+sS'universal resource identifi'
+p164
+I1
+sS'ipv6'
+p165
+I2
+sS'phone'
+p166
+I1
+sS'floppy disk'
+p167
+I1
+sS'schematic block diagram of'
+p168
+I1
+sS'capability profil'
+p169
+I100
+sS'voice recognition cap'
+p170
+I1
+sS'online form for'
+p171
+I1
+sS'info'
+p172
+I1
+sS'wide'
+p173
+I1
+sS'synchronization channel'
+p174
+I2
+sS'program instruct'
+p175
+I10
+sS'message payload'
+p176
+I1
+sS'pre-record'
+p177
+I1
+sS'cd-rom'
+p178
+I3
+sS'uniqu'
+p179
+I12
+sS'flash memory card'
+p180
+I1
+sS'online form for purchasing airline ticket'
+p181
+I1
+sS'b h'
+p182
+I10
+sS'schematic block diagram of a profile manag'
+p183
+I1
+sS'airline ticket'
+p184
+I1
+sS'display'
+p185
+I4
+sS'synthetic speech'
+p186
+I1
+sS'browser'
+p187
+I5
+sS'prompt'
+p188
+I1
+sS'unique id generator modul'
+p189
+I5
+sS'wan'
+p190
+I2
+sS'channel'
+p191
+I2
+sS'ram'
+p192
+I2
+sS'site'
+p193
+I9
+sS'id generator modul'
+p194
+I5
+sS'multidevice session establishment for multimodal browsing sathish'
+p195
+I1
+sS'session id'
+p196
+I16
+sS'the electronic amulet'
+p197
+I3
+sS'electronic amulet'
+p198
+I12
+sS'voice recognizer of th'
+p199
+I3
+sS'id'
+p200
+I63
+sS'sip'
+p201
+I2
+sS'author'
+p202
+I6
+sS'media'
+p203
+I4
+sS'profile manag'
+p204
+I36
+sS'session establishment request'
+p205
+I4
+sS'web-implemented computer softwar'
+p206
+I1
+sS'recognition cap'
+p207
+I1
+sS'multimodal web sit'
+p208
+I9
+sS'crystal display'
+p209
+I1
+sS'speech'
+p210
+I21
+sS'online form for purchas'
+p211
+I1
+sS'unique session identif'
+p212
+I4
+sS'high-end speech recogn'
+p213
+I1
+sS'singl'
+p214
+I1
+sS'architectur'
+p215
+I2
+sS'optimal interact'
+p216
+I1
+sS'lan'
+p217
+I2
+sS'http'
+p218
+I1
+sS'multimodal interact'
+p219
+I3
+sS'assist'
+p220
+I3
+sS'chart'
+p221
+I13
+sS'capabl'
+p222
+I63
+sS'browsing sathish sailesh'
+p223
+I1
+sS'recognizer of the electronic amulet'
+p224
+I3
+sS'random access'
+p225
+I2
+sS'preform'
+p226
+I1
+sS'keystrok'
+p227
+I5
+sS'multimod'
+p228
+I5
+sS'establishment request'
+p229
+I4
+sS'vocabulari'
+p230
+I1
+sS'pc'
+p231
+I2
+sS'initiation protocol'
+p232
+I1
+sS'synchronization messag'
+p233
+I1
+sS'universal resourc'
+p234
+I1
+sS'markup'
+p235
+I20
+sS'request'
+p236
+I4
+sS'uri'
+p237
+I3
+sS'interaction manag'
+p238
+I99
+sS'environ'
+p239
+I1
+sS'of the electronic amulet'
+p240
+I3
+sS'modality markup'
+p241
+I17
+sS'model'
+p242
+I2
+sS'speech recognit'
+p243
+I7
+sS'session initiation protocol'
+p244
+I1
+stp245
+Rp246
+tp247
+.

@@ -1,0 +1,2216 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'circadian transcript'
+p7
+I1
+sS'scn'
+p8
+I3
+sS'maximum'
+p9
+I1
+sS'internal granule layer of'
+p10
+I1
+sS'rich region of ccr4'
+p11
+I1
+sS'interaction domain'
+p12
+I2
+sS'primer'
+p13
+I1
+sS'kda for'
+p14
+I1
+sS'pineal gland of non-mammalian vertebr'
+p15
+I1
+sS'leucine rich-region'
+p16
+I1
+sS'circadian expression of'
+p17
+I1
+sS'ii xnoc'
+p18
+I1
+sS'intron'
+p19
+I4
+sS'food intak'
+p20
+I1
+sS'regulation of mnoc'
+p21
+I1
+sS'high amplitude circadian regulation of'
+p22
+I1
+sS'deviat'
+p23
+I1
+sS'rhythm'
+p24
+I11
+sS'sens'
+p25
+I1
+sS'leucine-rich domain'
+p26
+I1
+sS'environmental compart'
+p27
+I1
+sS'cdna'
+p28
+I4
+sS'random'
+p29
+I1
+sS'yeast'
+p30
+I3
+sS'intron i of'
+p31
+I1
+sS'account'
+p32
+I2
+sS'mous'
+p33
+I7
+sS'ident'
+p34
+I1
+sS'amplitude rhythm'
+p35
+I4
+sS'retinal tissu'
+p36
+I1
+sS'of ccr4'
+p37
+I3
+sS'half of ccr4'
+p38
+I1
+sS'gibco'
+p39
+I3
+sS't3'
+p40
+I1
+sS'kb band'
+p41
+I1
+sS'mouse balb'
+p42
+I1
+sS'proline residu'
+p43
+I2
+sS'rhythmic gen'
+p44
+I3
+sS'carbon dioxid'
+p45
+I1
+sS'expression of xnoc'
+p46
+I1
+sS'bigdye terminator cycl'
+p47
+I1
+sS'phenylalanin'
+p48
+I1
+sS'protein interaction domain'
+p49
+I2
+sS'speci'
+p50
+I6
+sS'carbon catabolit'
+p51
+I1
+sS'natur'
+p52
+I1
+sS'random primers dna'
+p53
+I1
+sS'of the single-strand dna protocol of bednarczuk'
+p54
+I2
+sS'consequ'
+p55
+I1
+sS'rhythms of gene express'
+p56
+I1
+sS'circadian regulation of the xnoc mrna'
+p57
+I1
+sS'adult mous'
+p58
+I1
+sS'mrna speci'
+p59
+I1
+sS'mammalian circadian regul'
+p60
+I1
+sS'zt'
+p61
+I3
+sS'reverse prim'
+p62
+I1
+sS'gene express'
+p63
+I4
+sS'nen'
+p64
+I2
+sS'rhythmic regulation of mnoc'
+p65
+I1
+sS'rhythmic expression of mnocin'
+p66
+I1
+sS'dd treatment'
+p67
+I1
+sS'abi'
+p68
+I3
+sS'the protein'
+p69
+I1
+sS'circadian expression of mnoc mrna'
+p70
+I1
+sS'of nocturnin'
+p71
+I6
+sS'vertebrate speci'
+p72
+I1
+sS'amino termin'
+p73
+I1
+sS'deriv'
+p74
+I1
+sS'phosphorimag'
+p75
+I1
+sS'genet'
+p76
+I2
+sS'rna sampl'
+p77
+I1
+sS'regulation of the xnoc mrna'
+p78
+I1
+sS'mnoc transcript'
+p79
+I2
+sS'ests deriv'
+p80
+I1
+sS'wratten'
+p81
+I1
+sS'circadian oscil'
+p82
+I4
+sS'normal rhythms of'
+p83
+I1
+sS'qiaamp tissu'
+p84
+I1
+sS'c mice'
+p85
+I5
+sS'35'
+p86
+I1
+sS'observ'
+p87
+I1
+sS'pineal tissu'
+p88
+I1
+sS'reverse transcript'
+p89
+I1
+sS'ubiquitous express'
+p90
+I1
+sS'j mice'
+p91
+I1
+sS'studi'
+p92
+I2
+sS'gene'
+p93
+I14
+sS'zipper motif'
+p94
+I1
+sS'muscl'
+p95
+I1
+sS'dioxid'
+p96
+I1
+sS'federal guidelin'
+p97
+I1
+sS'homologu'
+p98
+I3
+sS'subiculum'
+p99
+I1
+sS'widespread rhythmic express'
+p100
+I1
+sS'brl'
+p101
+I3
+sS'suprachiasmatic nucleus of the mammalian brain'
+p102
+I1
+sS'gland of non-mammalian vertebr'
+p103
+I1
+sS'motif'
+p104
+I2
+sS'mrna detect'
+p105
+I1
+sS'nylon membran'
+p106
+I1
+sS'mrna transcript'
+p107
+I1
+sS'eye'
+p108
+I2
+sS'iap transcriptional start sit'
+p109
+I1
+sS'of yeast ccr4'
+p110
+I1
+sS'co-activ'
+p111
+I2
+sS'pcr probe'
+p112
+I1
+sS'hybrid forms of'
+p113
+I1
+sS'pineal gland'
+p114
+I2
+sS'molecular-genetic analysis of'
+p115
+I1
+sS'taq dna polymeras'
+p116
+I3
+sS'c retinal cdna librari'
+p117
+I1
+sS'of the xnoc mrna'
+p118
+I1
+sS'of mrna abund'
+p119
+I2
+sS'ubiquitous expression of'
+p120
+I1
+sS'sv mice'
+p121
+I2
+sS'domain homolog'
+p122
+I1
+sS'unigen'
+p123
+I1
+sS'adult'
+p124
+I1
+sS'cervical disloc'
+p125
+I1
+sS'circadian express'
+p126
+I3
+sS'cerebellum'
+p127
+I1
+sS'heptad repeat'
+p128
+I2
+sS'endogenous rhythmicity of mnoc express'
+p129
+I1
+sS'room'
+p130
+I1
+sS'physiology of the retina'
+p131
+I1
+sS'prepar'
+p132
+I1
+sS'rnasin ribonuclease inhibitor'
+p133
+I1
+sS'rhythmic physiology of th'
+p134
+I1
+sS'per3'
+p135
+I1
+sS'per2'
+p136
+I1
+sS'degenerative pcr'
+p137
+I1
+sS'inhibitor'
+p138
+I1
+sS'dna sequencing kit'
+p139
+I1
+sS'templat'
+p140
+I1
+sS'multi-domain protein'
+p141
+I1
+sS'compart'
+p142
+I1
+sS'locu'
+p143
+I1
+sS'protocol of bednarczuk'
+p144
+I1
+sS'amplitude circadian rhythm'
+p145
+I1
+sS'qiagen plasmid maxi'
+p146
+I1
+sS'introduction circadian'
+p147
+I1
+sS'xnoc exon'
+p148
+I1
+sS'intron i of balb'
+p149
+I1
+sS'pathway'
+p150
+I2
+sS'mouse nocturnin cdna'
+p151
+I2
+sS'referenc'
+p152
+I1
+sS't7 sequenas'
+p153
+I1
+sS'clone'
+p154
+I2
+sS'prolin'
+p155
+I4
+sS'rhythmic increases of'
+p156
+I1
+sS'dba'
+p157
+I2
+sS'circadian rhythm of xnoc'
+p158
+I1
+sS'qiagen'
+p159
+I2
+sS'midbrain'
+p160
+I1
+sS'parallel'
+p161
+I2
+sS'random primed prob'
+p162
+I1
+sS'non-neural tissu'
+p163
+I1
+sS'differential display screen for circadian gen'
+p164
+I1
+sS'sv'
+p165
+I5
+sS'of the mammalian brain'
+p166
+I1
+sS'transcription co-activ'
+p167
+I1
+sS'codon of'
+p168
+I1
+sS'rhythmic phenotyp'
+p169
+I2
+sS'differential display screen for'
+p170
+I2
+sS'translation initi'
+p171
+I2
+sS'of mnoc mrna'
+p172
+I3
+sS'retinal cdna librari'
+p173
+I1
+sS'iap insert'
+p174
+I3
+sS'brain'
+p175
+I1
+sS'neurospora'
+p176
+I1
+sS'leucine repeat'
+p177
+I2
+sS'mnoc cdna'
+p178
+I2
+sS'of the retina'
+p179
+I1
+sS'sequenas'
+p180
+I1
+sS'transposable iap of viral origin'
+p181
+I1
+sS'ld'
+p182
+I9
+sS'embryogenesi'
+p183
+I1
+sS'pcr'
+p184
+I11
+sS'classical leucine zipper model'
+p185
+I1
+sS'transposable iap of'
+p186
+I1
+sS'embryonic stag'
+p187
+I1
+sS'bmal1'
+p188
+I1
+sS'endogenous rhythmicity of'
+p189
+I1
+sS'pcrii-topo'
+p190
+I2
+sS'ribonuclease inhibitor'
+p191
+I1
+sS'fragment'
+p192
+I1
+sS'c-terminus of'
+p193
+I1
+sS'initi'
+p194
+I2
+sS'disloc'
+p195
+I1
+sS'band'
+p196
+I4
+sS'-gtttggaagaggcttcaac-3'
+p197
+I1
+sS'exon'
+p198
+I1
+sS'align'
+p199
+I1
+sS'introduct'
+p200
+I1
+sS'suprachiasmatic nucleus of th'
+p201
+I1
+sS'screen for circadian clock-regulated gen'
+p202
+I1
+sS'organ'
+p203
+I1
+sS'of mnoc'
+p204
+I1
+sS'absence of rhythmic express'
+p205
+I1
+sS'rhythms of mnocmrna abund'
+p206
+I1
+sS'hybrid transcripts includ'
+p207
+I1
+sS'mrna'
+p208
+I14
+sS'genom'
+p209
+I2
+sS'biomax film'
+p210
+I1
+sS'mouse embryo rna'
+p211
+I1
+sS'screen for circadian gene express'
+p212
+I1
+sS'leucine rich domain'
+p213
+I1
+sS'nocturnin'
+p214
+I19
+sS'domain'
+p215
+I13
+sS'peak abund'
+p216
+I1
+sS'nocturnin protein'
+p217
+I2
+sS'leucine rich region of ccr4'
+p218
+I1
+sS'ld cycl'
+p219
+I2
+sS'invitrogen'
+p220
+I1
+sS'behavioral rhythm'
+p221
+I1
+sS'extract'
+p222
+I3
+sS'hippocampu'
+p223
+I1
+sS'coiled-coil structure of the protein'
+p224
+I1
+sS'gene array'
+p225
+I1
+sS'of leucine zipper motif'
+p226
+I1
+sS'transcript'
+p227
+I12
+sS'research'
+p228
+I2
+sS'dd sampl'
+p229
+I1
+sS'vector'
+p230
+I1
+sS'xenopu'
+p231
+I8
+sS'of viral origin'
+p232
+I1
+sS'zipper-like domain of xnoc'
+p233
+I1
+sS'model'
+p234
+I2
+sS'amino-terminal half of'
+p235
+I1
+sS'wisconsin'
+p236
+I1
+sS'putative nocturnin protein'
+p237
+I2
+sS'santa claita'
+p238
+I1
+sS'radioactive prob'
+p239
+I1
+sS'situ hybridization c57'
+p240
+I1
+sS'dnoc'
+p241
+I1
+sS'zt4'
+p242
+I1
+sS'mouse embryo'
+p243
+I1
+sS'the single-strand dna protocol of bednarczuk'
+p244
+I1
+sS'non-mammalian vertebr'
+p245
+I1
+sS'nuctrap gel filtration column'
+p246
+I1
+sS'care'
+p247
+I1
+sS'rnase-free dnase i'
+p248
+I1
+sS'atg'
+p249
+I1
+sS'normal ld'
+p250
+I1
+sS'\xce\xbcg'
+p251
+I1
+sS'hybrid transcript'
+p252
+I2
+sS'bl6'
+p253
+I2
+sS'neuroendocrine rhythm'
+p254
+I1
+sS'nuctrap gel filtr'
+p255
+I1
+sS'charateristic of leucine zipper motif'
+p256
+I2
+sS'amplitude circadian rhythm of'
+p257
+I1
+sS'rnoc'
+p258
+I1
+sS'nen life sci'
+p259
+I2
+sS'of rhythmic express'
+p260
+I1
+sS'pcr experi'
+p261
+I1
+sS'qiagen plasmid maxi kit'
+p262
+I1
+sS'origin'
+p263
+I2
+sS'softwar'
+p264
+I2
+sS'formaldehyde-agarose gel'
+p265
+I1
+sS'rt-pcr'
+p266
+I2
+sS'vertebr'
+p267
+I1
+sS'zt12'
+p268
+I2
+sS'nacl'
+p269
+I1
+sS'zt16'
+p270
+I1
+sS'rhythms of melatonin'
+p271
+I1
+sS'-aaccatgcaggtacagtc-3'
+p272
+I1
+sS'membran'
+p273
+I1
+sS'display screen for circadian clock-regulated gen'
+p274
+I1
+sS'rhythmic expression of'
+p275
+I1
+sS'mnoc mrna'
+p276
+I10
+sS'circadian clock'
+p277
+I3
+sS'interact'
+p278
+I1
+sS'breed'
+p279
+I1
+sS'mouse genom'
+p280
+I1
+sS'rhythmic regulation of'
+p281
+I1
+sS'amplitude circadian express'
+p282
+I1
+sS'rhythmic physiolog'
+p283
+I2
+sS'transcriptional co-activ'
+p284
+I1
+sS'environmental cycl'
+p285
+I1
+sS'kda for xnoc'
+p286
+I1
+sS'storm'
+p287
+I1
+sS'start sit'
+p288
+I1
+sS'genomic dna'
+p289
+I2
+sS'the mammalian brain'
+p290
+I1
+sS'iap'
+p291
+I24
+sS'rna extract'
+p292
+I1
+sS'tyrosin'
+p293
+I1
+sS'custom sequenc'
+p294
+I1
+sS'protein interact'
+p295
+I2
+sS'conserv'
+p296
+I4
+sS'hypothalamu'
+p297
+I1
+sS'mouse nocturnin'
+p298
+I1
+sS'research genet'
+p299
+I2
+sS'sv bac librari'
+p300
+I1
+sS'molecular'
+p301
+I1
+sS'photoreceptor'
+p302
+I2
+sS'breeding coloni'
+p303
+I1
+sS'rd locu'
+p304
+I1
+sS'leucine zipper motif'
+p305
+I1
+sS'quikhyb hybridization solution protocol'
+p306
+I1
+sS'\xce\xb2-actin'
+p307
+I1
+sS'intron i'
+p308
+I1
+sS'normal rhythms of melatonin'
+p309
+I1
+sS'rat'
+p310
+I1
+sS'for circadian clock-regulated gen'
+p311
+I1
+sS'phenylalanine for leucin'
+p312
+I1
+sS'-aacacagtgagacgctgtct-3'
+p313
+I1
+sS'of melatonin'
+p314
+I1
+sS'kodak wratten'
+p315
+I1
+sS'mountain'
+p316
+I1
+sS'gcaccag'
+p317
+I1
+sS'min'
+p318
+I1
+sS'embryo rna'
+p319
+I1
+sS'leucine zipper-like domain of xnoc'
+p320
+I1
+sS'maxi kit'
+p321
+I1
+sS'identification of ests deriv'
+p322
+I1
+sS'significant devi'
+p323
+I1
+sS'mrna abund'
+p324
+I2
+sS'circadian oscillation of gene express'
+p325
+I1
+sS'phenotyp'
+p326
+I2
+sS'of circadian rhythm'
+p327
+I2
+sS'repeat domain'
+p328
+I2
+sS'maximal transcript'
+p329
+I1
+sS'heptad'
+p330
+I1
+sS'internal granule layer of the olfactory bulb'
+p331
+I1
+sS'bovin'
+p332
+I1
+sS'rich domain'
+p333
+I1
+sS'circadian gene express'
+p334
+I1
+sS'mouse retina'
+p335
+I1
+sS'reactions total rna'
+p336
+I1
+sS'macvector softwar'
+p337
+I1
+sS'rhythmic physiology of the retina'
+p338
+I1
+sS'internal granule layer of th'
+p339
+I1
+sS'c mouse liv'
+p340
+I1
+sS'kodak biomax'
+p341
+I1
+sS'bac'
+p342
+I3
+sS'kb'
+p343
+I4
+sS'amino-terminal half'
+p344
+I1
+sS'ks'
+p345
+I1
+sS'leucin'
+p346
+I1
+sS'databas'
+p347
+I2
+sS'of halothane anesthesia'
+p348
+I1
+sS'sd'
+p349
+I1
+sS'tissu'
+p350
+I7
+sS'leucine-repeat domain'
+p351
+I1
+sS'absence of external cu'
+p352
+I1
+sS'-race'
+p353
+I3
+sS'leucine zipper-like domain of'
+p354
+I1
+sS'xnoc exon i'
+p355
+I1
+sS'mid-brain'
+p356
+I1
+sS'probe'
+p357
+I7
+sS'alanin'
+p358
+I1
+sS'oscillation of gene express'
+p359
+I1
+sS'-accagtcgactctacagtgc-3'
+p360
+I1
+sS'dna isolation total rna'
+p361
+I1
+sS'piriform'
+p362
+I1
+sS'dbp'
+p363
+I1
+sS'find'
+p364
+I1
+sS'exon i'
+p365
+I1
+sS'primed prob'
+p366
+I1
+sS'day-tim'
+p367
+I1
+sS'northern'
+p368
+I1
+sS'xenopus ey'
+p369
+I2
+sS'activ'
+p370
+I1
+sS'regulatory domain'
+p371
+I1
+sS'of mammalian homologu'
+p372
+I2
+sS'identification of period gen'
+p373
+I1
+sS'glucose repressed activation domain'
+p374
+I1
+sS'hip'
+p375
+I1
+sS'dd'
+p376
+I6
+sS'express'
+p377
+I18
+sS'clock act'
+p378
+I1
+sS'principal find'
+p379
+I1
+sS'phenylalanine for'
+p380
+I1
+sS'introduction circadian rhythm'
+p381
+I1
+sS'dna sequencing mouse nocturnin'
+p382
+I1
+sS'codon of xenopu'
+p383
+I1
+sS'gel'
+p384
+I1
+sS'primers dna'
+p385
+I1
+sS'sense prob'
+p386
+I1
+sS'experi'
+p387
+I1
+sS'viral origin'
+p388
+I2
+sS'wilmington'
+p389
+I1
+sS'est databas'
+p390
+I1
+sS'zt8'
+p391
+I1
+sS'bednarczuk'
+p392
+I1
+sS'granule layer of the olfactory bulb'
+p393
+I1
+sS'zt6'
+p394
+I1
+sS'zt0'
+p395
+I2
+sS'bac dna'
+p396
+I1
+sS'rhythmicity of mnoc express'
+p397
+I1
+sS'zeitgeb'
+p398
+I1
+sS'mouse homologue of nocturnin'
+p399
+I1
+sS'absence of'
+p400
+I2
+sS'differential display screen for circadian gene express'
+p401
+I1
+sS'mm phosphat'
+p402
+I1
+sS'pbluescript k'
+p403
+I1
+sS'laevi'
+p404
+I1
+sS'custom screen'
+p405
+I1
+sS'nen lif'
+p406
+I2
+sS'for circadian gene express'
+p407
+I1
+sS'detect'
+p408
+I1
+sS'baseline express'
+p409
+I1
+sS'-ggctggaaggtgtcaaag-3'
+p410
+I1
+sS'expression of mouse nocturnin'
+p411
+I1
+sS'cdna frag'
+p412
+I1
+sS'amplitude circadian rhythm of xnoc'
+p413
+I1
+sS'label'
+p414
+I1
+sS'promega'
+p415
+I6
+sS'clock-regulated gen'
+p416
+I1
+sS'physiolog'
+p417
+I1
+sS'dynam'
+p418
+I1
+sS'amplitude circadian regulation of the xnoc mrna'
+p419
+I1
+sS'intron adjac'
+p420
+I1
+sS'import'
+p421
+I1
+sS'hybridization solution protocol'
+p422
+I1
+sS'overdos'
+p423
+I1
+sS'rhythmic expression of mnocin balb'
+p424
+I1
+sS'widespread rhythmic expression of mous'
+p425
+I1
+sS'pir'
+p426
+I1
+sS'rhythmic function of'
+p427
+I1
+sS'skeletal muscl'
+p428
+I1
+sS'screen'
+p429
+I1
+sS'of a genomic clon'
+p430
+I2
+sS'plasmid maxi kit'
+p431
+I1
+sS'wi'
+p432
+I1
+sS'of the single-strand dna'
+p433
+I1
+sS'cycl'
+p434
+I5
+sS't7'
+p435
+I1
+sS'carbon'
+p436
+I2
+sS'pcr reaction'
+p437
+I1
+sS'rhythmic gene express'
+p438
+I1
+sS'tissue kit'
+p439
+I1
+sS'reaction'
+p440
+I1
+sS'exon ii'
+p441
+I2
+sS'molecular dynam'
+p442
+I1
+sS'-tgatgtccagggcgtcaata-3'
+p443
+I1
+sS'hybrid mrna transcript'
+p444
+I1
+sS'mnocmrna abund'
+p445
+I1
+sS'ccr4'
+p446
+I13
+sS'mouse liv'
+p447
+I1
+sS'mouse exon ii'
+p448
+I1
+sS'aa ident'
+p449
+I1
+sS'c57'
+p450
+I3
+sS'differential display screen'
+p451
+I2
+sS'extensive sequence similar'
+p452
+I1
+sS'amino-terminal half of ccr4'
+p453
+I1
+sS'guidelin'
+p454
+I1
+sS'ca'
+p455
+I6
+sS'glucose independent activation domain'
+p456
+I1
+sS'codon'
+p457
+I1
+sS'laboratory strain'
+p458
+I1
+sS'residu'
+p459
+I2
+sS'mammalian homologu'
+p460
+I1
+sS'circadian oscillation of'
+p461
+I1
+sS'endogenous rhythm'
+p462
+I1
+sS'circadian regul'
+p463
+I1
+sS'rhythms of'
+p464
+I2
+sS'phosporimag'
+p465
+I1
+sS'overdose of'
+p466
+I1
+sS'circadian clock act'
+p467
+I1
+sS'cdna librari'
+p468
+I2
+sS'rhythmic mnoc express'
+p469
+I1
+sS'pe'
+p470
+I1
+sS'rhythmic physiology of'
+p471
+I1
+sS'mnoc clon'
+p472
+I1
+sS'nocturnin gen'
+p473
+I2
+sS'of non-mammalian vertebr'
+p474
+I1
+sS'coiled-coil structure charateristic of leucine zipper motif'
+p475
+I1
+sS'regul'
+p476
+I1
+sS'for leucin'
+p477
+I1
+sS'terminator cycle sequencing kit'
+p478
+I1
+sS'rockvil'
+p479
+I4
+sS'gene transcript'
+p480
+I3
+sS'abi pr'
+p481
+I3
+sS'rhythmic regul'
+p482
+I1
+sS'rat unigen'
+p483
+I1
+sS'rnase-free dnas'
+p484
+I1
+sS'of xnoc'
+p485
+I3
+sS'liver'
+p486
+I1
+sS'bulb'
+p487
+I1
+sS'mnoc'
+p488
+I10
+sS'rhythmic function of nocturnin'
+p489
+I1
+sS'hnoc'
+p490
+I3
+sS'replic'
+p491
+I1
+sS'halothane anesthesia'
+p492
+I2
+sS'taq'
+p493
+I3
+sS'normal rhythm'
+p494
+I1
+sS'intak'
+p495
+I1
+sS'kodak'
+p496
+I2
+sS'amersham'
+p497
+I1
+sS'high amplitude circadian regulation of the xnoc mrna'
+p498
+I1
+sS'of bednarczuk'
+p499
+I1
+sS'cycle sequencing kit'
+p500
+I1
+sS'gel filtration column'
+p501
+I1
+sS'normal ld cycl'
+p502
+I1
+sS'widespread rhythmic expression of mouse nocturnin'
+p503
+I1
+sS'methionin'
+p504
+I1
+sS'xenopus retina'
+p505
+I2
+sS'widespread rhythmic expression of'
+p506
+I1
+sS'endogenous oscil'
+p507
+I1
+sS'coiled-coil structure charaterist'
+p508
+I1
+sS'neuron'
+p509
+I1
+sS'nocturnin cdna'
+p510
+I1
+sS'site'
+p511
+I1
+sS'ii'
+p512
+I2
+sS'strain'
+p513
+I1
+sS'genomic pcr'
+p514
+I3
+sS'protein'
+p515
+I9
+sS'qiagen plasmid'
+p516
+I1
+sS'situ'
+p517
+I1
+sS'activation domain'
+p518
+I3
+sS'coiled-coil structure of th'
+p519
+I1
+sS'mutat'
+p520
+I1
+sS'circadian clock-regulated gen'
+p521
+I1
+sS'rhythms of gen'
+p522
+I1
+sS'of th'
+p523
+I1
+sS'random prim'
+p524
+I1
+sS'nocturningene laboratori'
+p525
+I1
+sS'mouse homologu'
+p526
+I1
+sS'xenopus tissu'
+p527
+I1
+sS'food'
+p528
+I1
+sS'of the olfactory bulb'
+p529
+I2
+sS'yeast ccr4'
+p530
+I3
+sS'lateral neuron'
+p531
+I1
+sS'qiaamp tissue kit'
+p532
+I1
+sS'bigdye terminator cycle sequencing kit'
+p533
+I1
+sS'of mouse nocturnin'
+p534
+I1
+sS'independent activation domain'
+p535
+I1
+sS'committe'
+p536
+I2
+sS'circadian rhythm'
+p537
+I2
+sS'genomic clon'
+p538
+I2
+sS'exhibits significant devi'
+p539
+I1
+sS'balb'
+p540
+I10
+sS'kit'
+p541
+I7
+sS'c-terminus of yeast ccr4'
+p542
+I1
+sS'taq dna'
+p543
+I3
+sS'xenopus nocturnin'
+p544
+I1
+sS'rhythmic expression of mouse nocturnin'
+p545
+I1
+sS'mouse homologue of'
+p546
+I1
+sS'yeast transcript'
+p547
+I1
+sS'labeling singl'
+p548
+I1
+sS'repressed activation domain'
+p549
+I1
+sS'rhythmic increases of mrna abund'
+p550
+I1
+sS'overdose halothane anesthesia'
+p551
+I1
+sS'hypothalamic nucleu'
+p552
+I1
+sS'proline adjac'
+p553
+I1
+sS'carbon catabolite repress'
+p554
+I1
+sS'the xnoc mrna'
+p555
+I1
+sS'a-particl'
+p556
+I1
+sS'identification of period gene homologu'
+p557
+I1
+sS'fukuhara'
+p558
+I1
+sS'dna sequencing mouse nocturnin cdna'
+p559
+I1
+sS'hybridization c57'
+p560
+I1
+sS'abund'
+p561
+I6
+sS'transcriptional start sit'
+p562
+I1
+sS'c-terminus of yeast'
+p563
+I1
+sS'effector'
+p564
+I1
+sS'pcr reactions total rna'
+p565
+I1
+sS'genomic dna isol'
+p566
+I1
+sS'classic leucine zipper model'
+p567
+I1
+sS'kodak biomax film'
+p568
+I1
+sS'of mnoc express'
+p569
+I1
+sS'nocturningene laboratory strain'
+p570
+I1
+sS'qualitative natur'
+p571
+I1
+sS'bac librari'
+p572
+I1
+sS'external cu'
+p573
+I1
+sS'identif'
+p574
+I2
+sS'cue'
+p575
+I1
+sS'ubiquitous expression of xnoc'
+p576
+I1
+sS'treatment'
+p577
+I1
+sS'situ hybrid'
+p578
+I3
+sS'high amplitude circadian regulation of th'
+p579
+I1
+sS'mrna band'
+p580
+I2
+sS'nucleus of the mammalian brain'
+p581
+I1
+sS'overdose of halothane anesthesia'
+p582
+I1
+sS'transposable iap'
+p583
+I3
+sS'rna'
+p584
+I9
+sS'molecul'
+p585
+I1
+sS'xnoc'
+p586
+I12
+sS'atcc'
+p587
+I1
+sS'dna sequencing mous'
+p588
+I1
+sS'xnoc homologu'
+p589
+I1
+sS'peripheral tissu'
+p590
+I3
+sS'insert'
+p591
+I3
+sS'polymeras'
+p592
+I3
+sS'embryonic cdna librari'
+p593
+I1
+sS'xenopus embryogenesi'
+p594
+I1
+sS'mouse exon'
+p595
+I1
+sS'ventral hypothalamic nucleu'
+p596
+I1
+sS'qiaamp'
+p597
+I1
+sS'pineal gland of'
+p598
+I1
+sS'single-strand dna protocol of bednarczuk'
+p599
+I1
+sS'singl'
+p600
+I1
+sS'leucine zipper model'
+p601
+I2
+sS'mnoc express'
+p602
+I4
+sS'institutional anim'
+p603
+I1
+sS'adh2'
+p604
+I1
+sS'differential display'
+p605
+I2
+sS'kda'
+p606
+I2
+sS'sv bac'
+p607
+I1
+sS'animal car'
+p608
+I1
+sS'sampl'
+p609
+I2
+sS'circadian oscillation of gen'
+p610
+I1
+sS'dna extract'
+p611
+I1
+sS'putative nocturnin'
+p612
+I2
+sS'librari'
+p613
+I3
+sS'claita'
+p614
+I1
+sS'est'
+p615
+I3
+sS'genomic dna extract'
+p616
+I1
+sS'coloni'
+p617
+I1
+sS'xnoc mrna'
+p618
+I2
+sS'protocol'
+p619
+I3
+sS'piscataway'
+p620
+I1
+sS'substitut'
+p621
+I1
+sS'the retina'
+p622
+I1
+sS'intracisternal a-particl'
+p623
+I1
+sS'storm phosporimag'
+p624
+I1
+sS'huntsvil'
+p625
+I2
+sS'thymu'
+p626
+I1
+sS'c-terminal domain'
+p627
+I1
+sS'mouse \xce\xb2-actin cdna'
+p628
+I1
+sS'bp'
+p629
+I1
+sS'santa'
+p630
+I1
+sS'light-dark cycl'
+p631
+I1
+sS'dna'
+p632
+I4
+sS'mmol'
+p633
+I1
+sS'stage'
+p634
+I1
+sS'differential display screen for circadian clock-regulated gen'
+p635
+I1
+sS'transpos'
+p636
+I1
+sS'of'
+p637
+I4
+sS'northern blot'
+p638
+I1
+sS'exon ii xnoc'
+p639
+I1
+sS'of ests deriv'
+p640
+I1
+sS'rhythmic express'
+p641
+I8
+sS'of mnocmrna abund'
+p642
+I1
+sS'domain of xnoc'
+p643
+I1
+sS'olfactory bulb'
+p644
+I1
+sS'stratagen'
+p645
+I3
+sS'physiological import'
+p646
+I1
+sS'iap transcriptional start'
+p647
+I1
+sS'antisens'
+p648
+I1
+sS'external environmental cycl'
+p649
+I1
+sS'genomic dna isolation total rna'
+p650
+I1
+sS'phenol-chloroform extract'
+p651
+I1
+sS'the olfactory bulb'
+p652
+I1
+sS'degen'
+p653
+I1
+sS'of the protein'
+p654
+I2
+sS'edta'
+p655
+I1
+sS'coiled-coil structure of'
+p656
+I1
+sS'leucine rich region of'
+p657
+I1
+sS'atgttccactgcat'
+p658
+I1
+sS'institut'
+p659
+I1
+sS'hybrid forms of mnoc mrna'
+p660
+I1
+sS'xenopus laevi'
+p661
+I1
+sS'iap of viral origin'
+p662
+I1
+sS'drosophila'
+p663
+I4
+sS'column'
+p664
+I1
+sS'high amplitude circadian regul'
+p665
+I1
+sS'melatonin output rhythm'
+p666
+I1
+sS'adjac'
+p667
+I2
+sS'institutional animal car'
+p668
+I1
+sS'molecular-genetic analysis of circadian rhythm'
+p669
+I1
+sS'rhythmic'
+p670
+I11
+sS'total rna'
+p671
+I3
+sS'retina'
+p672
+I12
+sS'of gene express'
+p673
+I2
+sS'oscil'
+p674
+I4
+sS'd-binding protein'
+p675
+I1
+sS'physiological rhythm'
+p676
+I1
+sS'mice'
+p677
+I13
+sS'rnasin'
+p678
+I1
+sS'isolation total rna'
+p679
+I1
+sS'dnase i'
+p680
+I1
+sS'of xenopu'
+p681
+I1
+sS'utr'
+p682
+I2
+sS'utp'
+p683
+I1
+sS'of period gene homologu'
+p684
+I1
+sS'absenc'
+p685
+I2
+sS'suprachiasmatic nucleu'
+p686
+I4
+sS'identification of'
+p687
+I2
+sS'display screen for circadian gene express'
+p688
+I1
+sS'similar'
+p689
+I4
+sS'of external cu'
+p690
+I1
+sS'cba'
+p691
+I3
+sS'of the single-strand dna protocol'
+p692
+I1
+sS'\xce\xb1- 35'
+p693
+I1
+sS'gland'
+p694
+I1
+sS'probe prepar'
+p695
+I1
+sS'experimental protocol'
+p696
+I1
+sS'gene homologu'
+p697
+I2
+sS'mnoc gen'
+p698
+I1
+sS'melatonin'
+p699
+I1
+sS'anesthesia'
+p700
+I2
+sS'film'
+p701
+I1
+sS'nj'
+p702
+I1
+sS'leucine zipper-like domain'
+p703
+I1
+sS'mammalian brain'
+p704
+I1
+sS'hybrid'
+p705
+I3
+sS'dna protocol of bednarczuk'
+p706
+I1
+sS'bp741-759'
+p707
+I1
+sS'prism'
+p708
+I3
+sS't3 rna'
+p709
+I1
+sS'carlsbad'
+p710
+I1
+sS'coiled-coil structure charateristic of'
+p711
+I1
+sS'vitro transcript'
+p712
+I1
+sS'for xnoc'
+p713
+I1
+sS'repeat'
+p714
+I2
+sS'suprachiasmatic nucleus of'
+p715
+I1
+sS'sequenc'
+p716
+I3
+sS'rhythm of xnoc'
+p717
+I1
+sS'imagequant softwar'
+p718
+I1
+sS'of the single-strand dna protocol of'
+p719
+I1
+sS'amplitud'
+p720
+I2
+sS'homologue of nocturnin'
+p721
+I1
+sS'dna polymeras'
+p722
+I3
+sS'mm edta'
+p723
+I1
+sS'homolog'
+p724
+I1
+sS'study rnoc'
+p725
+I1
+sS'insertional mut'
+p726
+I1
+sS'filtration column'
+p727
+I1
+sS'nucleu'
+p728
+I4
+sS'rich-region'
+p729
+I1
+sS'expression of mnoc mrna'
+p730
+I1
+sS'ovari'
+p731
+I1
+sS'\xce\xb2-actin cdna'
+p732
+I1
+sS'genomic dna isolation tot'
+p733
+I1
+sS'zipper model'
+p734
+I2
+sS'rnasin ribonucleas'
+p735
+I1
+sS'week'
+p736
+I1
+sS'utr prob'
+p737
+I1
+sS'leucine repeat domain'
+p738
+I2
+sS'phosphat'
+p739
+I1
+stp740
+Rp741
+tp742
+.

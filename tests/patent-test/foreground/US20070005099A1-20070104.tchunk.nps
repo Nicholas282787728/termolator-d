@@ -1,0 +1,566 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'interfer'
+p7
+I1
+sS'move'
+p8
+I2
+sS'friction'
+p9
+I2
+sS'adams street chicago il'
+p10
+I1
+sS'clot'
+p11
+I1
+sS'brain'
+p12
+I1
+sS'aventura'
+p13
+I1
+sS'expandable react'
+p14
+I8
+sS'adams street'
+p15
+I1
+sS'dual lumen'
+p16
+I1
+sS'sectioned view of the vascular occlusion device deploy'
+p17
+I1
+sS'reactant'
+p18
+I45
+sS'distal end opening of'
+p19
+I2
+sS'cross-sectional view of'
+p20
+I1
+sS'fit'
+p21
+I3
+sS'stent'
+p22
+I1
+sS'proxim'
+p23
+I3
+sS'activ'
+p24
+I1
+sS'rapid deployment of'
+p25
+I1
+sS'cross-sectional view of th'
+p26
+I1
+sS'accuracy of coil plac'
+p27
+I1
+sS'endovascular diseas'
+p28
+I1
+sS'accuracy of'
+p29
+I1
+sS'distal end opening of th'
+p30
+I2
+sS'risk'
+p31
+I1
+sS'electrical resistance heating coil'
+p32
+I1
+sS'retract'
+p33
+I1
+sS'potential risk'
+p34
+I1
+sS'delivery tub'
+p35
+I2
+sS'duromet'
+p36
+I1
+sS'distal end of a delivery cathet'
+p37
+I1
+sS'cross-sectional view of the react'
+p38
+I1
+sS'elastic expandable membran'
+p39
+I1
+sS'of the cav'
+p40
+I2
+sS'polycyanoacrylate foam'
+p41
+I1
+sS'cranial blood vessel'
+p42
+I2
+sS'catheter deliveri'
+p43
+I2
+sS'of coil plac'
+p44
+I1
+sS'chamber'
+p45
+I36
+sS'releasable adhes'
+p46
+I2
+sS'the lumen'
+p47
+I2
+sS'vessel'
+p48
+I3
+sS'coil deploy'
+p49
+I1
+sS'blood vessel'
+p50
+I3
+sS'advance pierc'
+p51
+I1
+sS'cabl'
+p52
+I7
+sS'dual-lumen'
+p53
+I1
+sS'distal end of a deliveri'
+p54
+I1
+sS'current travel'
+p55
+I1
+sS'cathet'
+p56
+I23
+sS'diseas'
+p57
+I1
+sS'cranial blood'
+p58
+I2
+sS'piercable membran'
+p59
+I1
+sS'adams street chicago'
+p60
+I1
+sS'electrical current travel'
+p61
+I1
+sS'alloy connector'
+p62
+I3
+sS'plunger activ'
+p63
+I1
+sS'brain tissu'
+p64
+I2
+sS'mandrel'
+p65
+I1
+sS'dual-lumen dispending tub'
+p66
+I2
+sS'distal end of the cathet'
+p67
+I6
+sS'energi'
+p68
+I4
+sS'tube'
+p69
+I4
+sS'rapid deploy'
+p70
+I1
+sS'internal lumen'
+p71
+I3
+sS'current'
+p72
+I1
+sS'jones donald'
+p73
+I1
+sS'biogel'
+p74
+I1
+sS'chemic'
+p75
+I1
+sS'approach'
+p76
+I1
+sS'proximal membran'
+p77
+I1
+sS'fiber'
+p78
+I6
+sS'cross-sectional view of the reaction chamb'
+p79
+I1
+sS'advanc'
+p80
+I3
+sS'cavity proxim'
+p81
+I1
+sS'polyurethane foam'
+p82
+I1
+sS'sectioned view of'
+p83
+I4
+sS'cyanoacrylate adhes'
+p84
+I2
+sS'optic fib'
+p85
+I1
+sS'bioactive coil'
+p86
+I1
+sS'representative basi'
+p87
+I1
+sS'ethanol'
+p88
+I8
+sS'releas'
+p89
+I4
+sS'chemical reaction chamb'
+p90
+I1
+sS'silicone polym'
+p91
+I1
+sS'optic c'
+p92
+I2
+sS'reaction'
+p93
+I25
+sS'chemical react'
+p94
+I1
+sS'electrical curr'
+p95
+I1
+sS'distal wall of th'
+p96
+I1
+sS'cross-sectional view of the reaction chamber of th'
+p97
+I1
+sS'fiber opt'
+p98
+I2
+sS'silicon'
+p99
+I2
+sS'chamber proxim'
+p100
+I1
+sS'jones donald k'
+p101
+I1
+sS'distal wall of the cav'
+p102
+I1
+sS'dilation balloon'
+p103
+I1
+sS'rapid releas'
+p104
+I2
+sS'expandable reaction chamb'
+p105
+I7
+sS'delivery cathet'
+p106
+I5
+sS'delivery unit mov'
+p107
+I1
+sS'dispending tub'
+p108
+I2
+sS'cross-sectional view of the reaction chamber of'
+p109
+I1
+sS'friction fit'
+p110
+I3
+sS'of the cathet'
+p111
+I12
+sS'suppli'
+p112
+I2
+sS'batteri'
+p113
+I1
+sS'membran'
+p114
+I4
+sS'cyanoacrylate monom'
+p115
+I4
+sS'silicone elastom'
+p116
+I1
+sS'connector'
+p117
+I1
+sS'lumen'
+p118
+I14
+sS'basi'
+p119
+I1
+sS'expandable membran'
+p120
+I1
+sS'adhes'
+p121
+I7
+sS'equip'
+p122
+I6
+sS'of the lumen'
+p123
+I6
+sS'bulk'
+p124
+I1
+sS'tissu'
+p125
+I1
+sS'embolic coil'
+p126
+I10
+sS'vascular occlusion deploy'
+p127
+I1
+sS'coil plac'
+p128
+I1
+sS'expandable chamb'
+p129
+I2
+sS'accuraci'
+p130
+I1
+sS'hous'
+p131
+I1
+sS'silicone membran'
+p132
+I1
+sS'electrical equip'
+p133
+I1
+sS'aneurysm'
+p134
+I1
+sS'axially advanc'
+p135
+I1
+sS'b h'
+p136
+I1
+sS'pack'
+p137
+I1
+sS'deliveri'
+p138
+I17
+sS'preselected sit'
+p139
+I7
+sS'durometer polym'
+p140
+I1
+sS'street chicago il'
+p141
+I1
+sS'battery pack'
+p142
+I1
+sS'site'
+p143
+I9
+sS'the cathet'
+p144
+I6
+sS'il'
+p145
+I1
+sS'vascular occlusion device deploy'
+p146
+I3
+sS'reaction chamb'
+p147
+I33
+sS'sectioned view of th'
+p148
+I2
+sS'electronic equip'
+p149
+I2
+sS'connector fib'
+p150
+I3
+sS'vent lumen'
+p151
+I1
+sS'cylindrical h'
+p152
+I1
+sS'hydrogel'
+p153
+I1
+sS'vasculatur'
+p154
+I13
+sS'divid'
+p155
+I1
+sS'balloon'
+p156
+I1
+sS'biocompatible adhes'
+p157
+I1
+sS'vascular occlus'
+p158
+I1
+sS'distal end of'
+p159
+I7
+sS'jone'
+p160
+I1
+sS'fiber optic c'
+p161
+I2
+sS'n-dimethyl-p-toluidin'
+p162
+I1
+sS'caviti'
+p163
+I2
+sS'the cav'
+p164
+I1
+sS'distal wall of'
+p165
+I1
+sS'foam'
+p166
+I3
+sS'original react'
+p167
+I2
+sS'monom'
+p168
+I4
+sS'deployment approach'
+p169
+I1
+sS'distal end of th'
+p170
+I6
+sS'catheter deploy'
+p171
+I1
+sS'blood'
+p172
+I1
+sS'coil'
+p173
+I24
+sS'elastom'
+p174
+I1
+sS'inoper'
+p175
+I1
+sS'fl'
+p176
+I1
+sS'chicago il'
+p177
+I1
+sS'delivery sit'
+p178
+I2
+sS'of a delivery cathet'
+p179
+I2
+sS'aventura fl'
+p180
+I1
+sS'placement'
+p181
+I1
+sS'distal end opening of the lumen'
+p182
+I2
+sS'dual lumen dispens'
+p183
+I1
+sS'adam'
+p184
+I1
+sS'polym'
+p185
+I2
+sS'alloy'
+p186
+I1
+sS'pusher proxim'
+p187
+I1
+sS'travel'
+p188
+I1
+sS'optical c'
+p189
+I1
+stp190
+Rp191
+tp192
+.

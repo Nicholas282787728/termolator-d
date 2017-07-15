@@ -1,0 +1,1526 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'alocal search algorithm'
+p7
+I1
+sS'code'
+p8
+I1
+sS'optimal nn'
+p9
+I2
+sS'gp'
+p10
+I15
+sS'forevalu'
+p11
+I1
+sS'complex disease susceptibility gen'
+p12
+I1
+sS'gpnn softwar'
+p13
+I1
+sS'snpsin'
+p14
+I1
+sS'empirical cutoff for'
+p15
+I1
+sS'cutoff for the cross-validation consistencythat'
+p16
+I1
+sS'signific'
+p17
+I1
+sS'thanth'
+p18
+I1
+sS'implement'
+p19
+I1
+sS'nn analys'
+p20
+I1
+sS'thatexhibit gene-gene interact'
+p21
+I1
+sS'interactions for'
+p22
+I1
+sS'nois'
+p23
+I1
+sS'dummy variableencod'
+p24
+I1
+sS'recognit'
+p25
+I1
+sS'functionalsnp'
+p26
+I2
+sS'of automating nn architectur'
+p27
+I1
+sS'snp beingimportant for th'
+p28
+I1
+sS'resultsare import'
+p29
+I1
+sS'geneticalgorithm approach'
+p30
+I1
+sS'program'
+p31
+I2
+sS'predictionerror'
+p32
+I1
+sS'nn methods for'
+p33
+I1
+sS'binary expression tree representation of a nn'
+p34
+I1
+sS'preparation of'
+p35
+I1
+sS'errorof'
+p36
+I2
+sS'priorto network evolut'
+p37
+I1
+sS'methodto over-fit'
+p38
+I1
+sS'programming neural network'
+p39
+I1
+sS'contribut'
+p40
+I1
+sS'final draft ofthe manuscript'
+p41
+I1
+sS'disease statu'
+p42
+I1
+sS'decisionthat'
+p43
+I1
+sS'gene-geneinteract'
+p44
+I1
+sS'estimatedthe power of gpnn'
+p45
+I1
+sS'searchfor complex disease suscept'
+p46
+I1
+sS'importanceof'
+p47
+I1
+sS'ofthe network'
+p48
+I1
+sS'optimization of bpnn'
+p49
+I1
+sS'relev'
+p50
+I2
+sS'binary express'
+p51
+I5
+sS'for the epistasis model'
+p52
+I1
+sS'thebpnn'
+p53
+I1
+sS'consist'
+p54
+I5
+sS'draft ofthe manuscript'
+p55
+I1
+sS'webegan'
+p56
+I1
+sS'of the gp mustb'
+p57
+I1
+sS'jhm'
+p58
+I1
+sS'interactions for the epistasismodel'
+p59
+I1
+sS'the gpnn model'
+p60
+I2
+sS'averageclassification error'
+p61
+I1
+sS'model fit'
+p62
+I1
+sS'gene-gene interactionsa'
+p63
+I1
+sS'statist'
+p64
+I1
+sS'detectgene-gene interact'
+p65
+I1
+sS'heritability valueswil'
+p66
+I1
+sS'algorithm attempt'
+p67
+I1
+sS'snpsare unknown'
+p68
+I2
+sS'heritabilityvari'
+p69
+I1
+sS'bpnn for modeling nonlinear'
+p70
+I1
+sS'predictive ability of thebpnn model'
+p71
+I1
+sS'thesemodel'
+p72
+I1
+sS'phenotypic varianceattribut'
+p73
+I1
+sS'optimizationprocedur'
+p74
+I1
+sS'for gpnn'
+p75
+I1
+sS'varyingdegre'
+p76
+I1
+sS'the final draft ofthe manuscript'
+p77
+I1
+sS'epidemiology studi'
+p78
+I1
+sS'theepistasis model'
+p79
+I1
+sS'implementationof cross-valid'
+p80
+I1
+sS'disadvantag'
+p81
+I3
+sS'prediction error for th'
+p82
+I1
+sS'gpnn allowsoptimal network'
+p83
+I1
+sS'resultsfrom'
+p84
+I1
+sS'polymorph'
+p85
+I1
+sS'thetraditional bpnn approach'
+p86
+I1
+sS'of the gpnn model'
+p87
+I2
+sS'accurate comparison of thetwo nn'
+p88
+I1
+sS'usingthe hardy-weinberg equ'
+p89
+I1
+sS'thebpnn model'
+p90
+I1
+sS'total phenotyp'
+p91
+I1
+sS'bestsolut'
+p92
+I1
+sS'allowsoptimal network architectur'
+p93
+I1
+sS'biological plausibility of'
+p94
+I1
+sS'gpnn software packag'
+p95
+I1
+sS'requiredcomputational resourc'
+p96
+I1
+sS'mustb'
+p97
+I1
+sS'althoughther'
+p98
+I1
+sS'prediction error fit'
+p99
+I1
+sS'import'
+p100
+I1
+sS'included10 dem'
+p101
+I2
+sS'approach'
+p102
+I5
+sS'single nucleotide polymorph'
+p103
+I2
+sS'exchange of'
+p104
+I1
+sS'sample size of200'
+p105
+I1
+sS'of herit'
+p106
+I1
+sS'software packag'
+p107
+I1
+sS'varyingdegrees of herit'
+p108
+I1
+sS'genet'
+p109
+I1
+sS'onli'
+p110
+I1
+sS'interpretation of the gpnn model'
+p111
+I1
+sS'valuestest'
+p112
+I1
+sS'cycl'
+p113
+I1
+sS'nonfunctional snpsin'
+p114
+I1
+sS'predictiveability of the gpnn'
+p115
+I1
+sS'motivation forthi'
+p116
+I1
+sS'shouldb'
+p117
+I1
+sS'popul'
+p118
+I3
+sS'expression tree representation of a nn'
+p119
+I1
+sS'search'
+p120
+I1
+sS'atraditional bpnn'
+p121
+I1
+sS'of gpnn'
+p122
+I8
+sS'gp tree'
+p123
+I1
+sS'empirical cutoff'
+p124
+I1
+sS'the epistasis model'
+p125
+I1
+sS'similarresult'
+p126
+I1
+sS'nucleotide polymorph'
+p127
+I1
+sS'abilityto'
+p128
+I1
+sS'plausibility of thesemodel'
+p129
+I1
+sS'equat'
+p130
+I1
+sS'dummy vari'
+p131
+I3
+sS'searchfor complex disease susceptibility gen'
+p132
+I1
+sS'studi'
+p133
+I1
+sS'gene'
+p134
+I1
+sS'dummy variableencoding for'
+p135
+I1
+sS'minima'
+p136
+I1
+sS'criteriaw'
+p137
+I1
+sS'firstlay'
+p138
+I1
+sS'for determiningsignific'
+p139
+I2
+sS'estimatedthe power of'
+p140
+I1
+sS'snps shouldb'
+p141
+I2
+sS'nn evolv'
+p142
+I1
+sS'the cross-validation consistencythat'
+p143
+I1
+sS'disadvantage isthe interpret'
+p144
+I1
+sS'evolution of'
+p145
+I1
+sS'nn architecture for classificationof galaxi'
+p146
+I1
+sS'nn model'
+p147
+I5
+sS'statistical approach'
+p148
+I1
+sS'becausethey exhibit interact'
+p149
+I1
+sS'parameters of'
+p150
+I1
+sS'representation of a nn'
+p151
+I1
+sS'snps arepres'
+p152
+I1
+sS'dummycod'
+p153
+I1
+sS'preparation of the final draft ofth'
+p154
+I1
+sS'error architectur'
+p155
+I1
+sS'proport'
+p156
+I1
+sS'the gp mustb'
+p157
+I1
+sS'lwh'
+p158
+I1
+sS'diseas'
+p159
+I2
+sS'wasalso'
+p160
+I1
+sS'critical relev'
+p161
+I1
+sS'critical relevance values for'
+p162
+I1
+sS'for classificationof galaxi'
+p163
+I1
+sS'disadvantage of'
+p164
+I1
+sS'bpnn architectur'
+p165
+I4
+sS'parameters of th'
+p166
+I1
+sS'roulette wheel'
+p167
+I1
+sS'optionalinput'
+p168
+I1
+sS'alocal search'
+p169
+I1
+sS'tolook'
+p170
+I2
+sS'train'
+p171
+I2
+sS'tree representation of a nn'
+p172
+I1
+sS'samenn'
+p173
+I1
+sS'maximumnumb'
+p174
+I1
+sS'generalizabilityof bpnn'
+p175
+I1
+sS'highcross-validation consist'
+p176
+I1
+sS'architecture for classificationof galaxi'
+p177
+I1
+sS'beingimportant for the epistasis model'
+p178
+I1
+sS'analys'
+p179
+I2
+sS'prepar'
+p180
+I1
+sS'thebinary express'
+p181
+I1
+sS'presenceof non-functional snp'
+p182
+I1
+sS'arepres'
+p183
+I1
+sS'ofth'
+p184
+I1
+sS'gp parameter settings included10'
+p185
+I1
+sS'error'
+p186
+I23
+sS'nn methods for arang'
+p187
+I1
+sS'observ'
+p188
+I2
+sS'gp mustb'
+p189
+I1
+sS'optimization of'
+p190
+I1
+sS'dummy cod'
+p191
+I1
+sS'predict'
+p192
+I15
+sS'theresult'
+p193
+I1
+sS'excellentway of automating nn'
+p194
+I1
+sS'exchange of bestsolut'
+p195
+I2
+sS'varianceattribut'
+p196
+I1
+sS'changeto'
+p197
+I1
+sS'motiv'
+p198
+I1
+sS'royal institut'
+p199
+I1
+sS'genetic programming neural network'
+p200
+I1
+sS'ofgener'
+p201
+I1
+sS'search algorithm'
+p202
+I1
+sS'thiscriterion'
+p203
+I1
+sS'neural network'
+p204
+I1
+sS'current statistical approach'
+p205
+I1
+sS'thegpnn'
+p206
+I1
+sS'automating nn architectur'
+p207
+I1
+sS'best-so-far solutionsfrom'
+p208
+I1
+sS'thusfour nn'
+p209
+I1
+sS'interconnect'
+p210
+I1
+sS'describedabov'
+p211
+I1
+sS'possibleallel'
+p212
+I1
+sS'preparation of the final draft'
+p213
+I1
+sS'network evolut'
+p214
+I1
+sS'exampleof'
+p215
+I1
+sS'wereidentifi'
+p216
+I1
+sS'snp beingimport'
+p217
+I1
+sS'bpnn for modeling nonlinear epistasi'
+p218
+I1
+sS'numberof nod'
+p219
+I1
+sS'throughevolut'
+p220
+I1
+sS'of thesemodel'
+p221
+I1
+sS'inboth train'
+p222
+I1
+sS'parallel processing environ'
+p223
+I1
+sS'snps for gpnn'
+p224
+I2
+sS'resourc'
+p225
+I1
+sS'optimizationof nn architectur'
+p226
+I1
+sS'excellentway'
+p227
+I1
+sS'optim'
+p228
+I3
+sS'optimal nn architectur'
+p229
+I2
+sS'foran epistasis model'
+p230
+I1
+sS'the epistasismodel'
+p231
+I1
+sS'architecturei'
+p232
+I1
+sS'model gene-gene interact'
+p233
+I1
+sS'phenotypic vari'
+p234
+I1
+sS'disadvantage isthe interpretation of the gpnn'
+p235
+I1
+sS'varianc'
+p236
+I1
+sS'associ'
+p237
+I1
+sS'n processor'
+p238
+I1
+sS'componentsof'
+p239
+I1
+sS'attempt'
+p240
+I1
+sS'optimizationof nn'
+p241
+I1
+sS'nn architectur'
+p242
+I9
+sS'thesnp'
+p243
+I1
+sS'ableto model'
+p244
+I1
+sS'processor'
+p245
+I1
+sS'varyingdegrees of'
+p246
+I1
+sS'critical relevance values for determiningsignific'
+p247
+I1
+sS'usedthe formula'
+p248
+I1
+sS'solutionin'
+p249
+I1
+sS'expression tree form tolook'
+p250
+I1
+sS'interactions for th'
+p251
+I1
+sS'model'
+p252
+I39
+sS'preparation of th'
+p253
+I1
+sS'of a nn'
+p254
+I1
+sS'accurate comparison of'
+p255
+I1
+sS'for the genotyp'
+p256
+I1
+sS'effectof'
+p257
+I1
+sS'nonlinear gene-gene interact'
+p258
+I1
+sS'snps for'
+p259
+I1
+sS'ofthe pap'
+p260
+I4
+sS'prediction error for'
+p261
+I1
+sS'statu'
+p262
+I1
+sS'galaxi'
+p263
+I1
+sS'consistencythat'
+p264
+I1
+sS'cross-validationsfor'
+p265
+I1
+sS'paper'
+p266
+I1
+sS'froma'
+p267
+I1
+sS'of thebpnn model'
+p268
+I2
+sS'differentarchitectur'
+p269
+I1
+sS'paramet'
+p270
+I1
+sS'nn methods for arange of'
+p271
+I1
+sS'relevance values for determiningsignific'
+p272
+I1
+sS'gp paramet'
+p273
+I1
+sS'prediction error for the bpnn'
+p274
+I1
+sS'bpnn architecture optim'
+p275
+I1
+sS'fit'
+p276
+I2
+sS'royal'
+p277
+I1
+sS'optimal architectur'
+p278
+I2
+sS'bpnn'
+p279
+I44
+sS'aweight'
+p280
+I1
+sS'oftechnolog'
+p281
+I1
+sS'featuresof network'
+p282
+I1
+sS'thepower of'
+p283
+I1
+sS'momentum'
+p284
+I2
+sS'gene-gene interaction model'
+p285
+I1
+sS'trial-and-errorexperi'
+p286
+I1
+sS'gpnn over-fit'
+p287
+I1
+sS'excellentway of autom'
+p288
+I1
+sS'thei'
+p289
+I1
+sS'expression tre'
+p290
+I4
+sS'evolution of nn model'
+p291
+I1
+sS'appropriatearchitectur'
+p292
+I1
+sS'variableencoding for the genotyp'
+p293
+I1
+sS'binary expression tree represent'
+p294
+I1
+sS'the genotyp'
+p295
+I1
+sS'predictive ability of'
+p296
+I1
+sS'algorithmparamet'
+p297
+I1
+sS'disadvantage isth'
+p298
+I1
+sS'worst-case scenario for'
+p299
+I1
+sS'evaluatethe approach'
+p300
+I1
+sS'dataset'
+p301
+I4
+sS'non-functionalsnp'
+p302
+I2
+sS'hardy-weinberg equ'
+p303
+I1
+sS'bpnn for model'
+p304
+I1
+sS'propagation nn'
+p305
+I3
+sS'permut'
+p306
+I1
+sS'compris'
+p307
+I1
+sS'genetic epidemiology studi'
+p308
+I1
+sS'proportionof'
+p309
+I1
+sS'otherdem'
+p310
+I1
+sS'gpnn evalu'
+p311
+I1
+sS'noise simul'
+p312
+I1
+sS'constructionstil'
+p313
+I1
+sS'bcw'
+p314
+I1
+sS'isthe interpretation of the gpnn model'
+p315
+I1
+sS'producean associ'
+p316
+I1
+sS'disadvantage isthe interpretation of the gpnn model'
+p317
+I1
+sS'snp beingimportant for'
+p318
+I1
+sS'n-1 dummy vari'
+p319
+I1
+sS'trial-and-error approach'
+p320
+I1
+sS'geneticeffect'
+p321
+I1
+sS'predefined proport'
+p322
+I1
+sS'heritability valuestest'
+p323
+I1
+sS'basis forevalu'
+p324
+I1
+sS'cross-validation consist'
+p325
+I4
+sS'gpnn allowsoptimal network architectur'
+p326
+I1
+sS'variabl'
+p327
+I4
+sS'dummy variableencoding for the genotyp'
+p328
+I1
+sS'for the bpnn'
+p329
+I1
+sS'allinput'
+p330
+I1
+sS'of bestsolut'
+p331
+I1
+sS'network'
+p332
+I7
+sS'cross-validations foral'
+p333
+I1
+sS'weuse predict'
+p334
+I1
+sS'the bpnn'
+p335
+I1
+sS'searchfor complex diseas'
+p336
+I1
+sS'continuesuntil'
+p337
+I1
+sS'bpnn architecture optimization technique onon'
+p338
+I1
+sS'genetic program'
+p339
+I1
+sS'epistasis model'
+p340
+I16
+sS'epistasismodel'
+p341
+I4
+sS'solutioninstead'
+p342
+I1
+sS'evolv'
+p343
+I1
+sS'formula'
+p344
+I1
+sS'disadvantage isthe interpretation of'
+p345
+I1
+sS'worst-case scenario'
+p346
+I1
+sS'run'
+p347
+I1
+sS'preparation of the final draft ofthe manuscript'
+p348
+I1
+sS'biological plaus'
+p349
+I1
+sS'bpnn model'
+p350
+I1
+sS'structurethat'
+p351
+I1
+sS'thepow'
+p352
+I1
+sS'gene-gene interact'
+p353
+I9
+sS'powerthan'
+p354
+I1
+sS'weuse prediction error'
+p355
+I1
+sS'classificationof galaxi'
+p356
+I1
+sS'snps wereidentifi'
+p357
+I2
+sS'thebinary expression tre'
+p358
+I1
+sS'gpnn evaluated using100'
+p359
+I1
+sS'thepower of gpnn'
+p360
+I1
+sS'network architectur'
+p361
+I5
+sS'total phenotypic vari'
+p362
+I1
+sS'basi'
+p363
+I1
+sS'cross-valid'
+p364
+I6
+sS'modelgene-gene interact'
+p365
+I1
+sS'frequenc'
+p366
+I1
+sS'simul'
+p367
+I1
+sS'feed-forwardbpnn'
+p368
+I1
+sS'for the cross-validation consistencythat'
+p369
+I1
+sS'isolatedpopul'
+p370
+I1
+sS'cross-validationconsist'
+p371
+I1
+sS'network constructionstil'
+p372
+I1
+sS'commercialbpnn softwar'
+p373
+I1
+sS'architecture optim'
+p374
+I1
+sS'nn architecture for'
+p375
+I1
+sS'theoptimal architectur'
+p376
+I1
+sS'disease model'
+p377
+I1
+sS'softwar'
+p378
+I1
+sS'bpnn approach'
+p379
+I1
+sS'gp optim'
+p380
+I1
+sS'snp'
+p381
+I31
+sS'manuscript'
+p382
+I2
+sS'exchang'
+p383
+I1
+sS'followingquest'
+p384
+I1
+sS'stop'
+p385
+I1
+sS'nn'
+p386
+I31
+sS'statistical analys'
+p387
+I1
+sS'searchspac'
+p388
+I1
+sS'biological plausibility of thesemodel'
+p389
+I1
+sS'distinctioncan'
+p390
+I1
+sS'optimizationof'
+p391
+I2
+sS'genotyp'
+p392
+I2
+sS'of bpnn architectur'
+p393
+I1
+sS'typicalstructur'
+p394
+I1
+sS'unknown'
+p395
+I1
+sS'interact'
+p396
+I14
+sS'classification error'
+p397
+I5
+sS'empirical cutoff for th'
+p398
+I1
+sS'parallel'
+p399
+I1
+sS'of'
+p400
+I2
+sS'non-functional snps arepres'
+p401
+I1
+sS'evolution of nn'
+p402
+I1
+sS'fraction'
+p403
+I1
+sS'of nn model'
+p404
+I1
+sS'foral'
+p405
+I1
+sS'valueswil'
+p406
+I1
+sS'eachinput'
+p407
+I1
+sS'of the final draft ofthe manuscript'
+p408
+I1
+sS'contributions jsp'
+p409
+I1
+sS'twofunct'
+p410
+I1
+sS'final manuscript'
+p411
+I1
+sS'genetic model'
+p412
+I1
+sS'original popul'
+p413
+I1
+sS'forthe epistasis model'
+p414
+I1
+sS'parameters of the gp'
+p415
+I1
+sS'onethat'
+p416
+I1
+sS'predictiveability of th'
+p417
+I1
+sS'total phenotypic varianceattribut'
+p418
+I1
+sS'royal institute oftechnolog'
+p419
+I1
+sS'thedata'
+p420
+I1
+sS'aswel'
+p421
+I2
+sS'tree form tolook'
+p422
+I1
+sS'motivation forthis statist'
+p423
+I1
+sS'network fit'
+p424
+I1
+sS'twofunctional snp'
+p425
+I1
+sS'non-functional snp'
+p426
+I7
+sS'evolut'
+p427
+I2
+sS'epistasi'
+p428
+I2
+sS'genetic programming neur'
+p429
+I1
+sS'classificationerror'
+p430
+I5
+sS'bpnn for'
+p431
+I1
+sS'tree'
+p432
+I5
+sS'binary expression tree form tolook'
+p433
+I1
+sS'interaction model'
+p434
+I1
+sS'predictiv'
+p435
+I1
+sS'prediction errorof'
+p436
+I2
+sS'prediction error'
+p437
+I14
+sS'absenc'
+p438
+I1
+sS'sampl'
+p439
+I1
+sS'ofthe manuscript'
+p440
+I1
+sS'thanthe bpnn'
+p441
+I2
+sS'error architecture optim'
+p442
+I1
+sS'timeseach vari'
+p443
+I1
+sS'error for the bpnn'
+p444
+I1
+sS'predictiveability of the gpnn model'
+p445
+I1
+sS'over-fit'
+p446
+I8
+sS'hiddenlay'
+p447
+I1
+sS'disease susceptibility gen'
+p448
+I1
+sS'training error'
+p449
+I1
+sS'packag'
+p450
+I1
+sS'for the epistasismodel'
+p451
+I1
+sS'deme'
+p452
+I4
+sS'feed-forwardnetwork compris'
+p453
+I1
+sS'toover-fit'
+p454
+I1
+sS'herit'
+p455
+I5
+sS'thatgpnn'
+p456
+I2
+sS'epistasis model for'
+p457
+I1
+sS'parameters of the gp mustb'
+p458
+I2
+sS'snp beingimportant for the epistasis model'
+p459
+I1
+sS'permutationtest'
+p460
+I1
+sS'gp run'
+p461
+I1
+sS'r_i'
+p462
+I2
+sS'susceptibility gen'
+p463
+I1
+sS'parameter settings included10 dem'
+p464
+I1
+sS'nico'
+p465
+I1
+sS'excellentway of automating nn architectur'
+p466
+I1
+sS'thetraditional bpnn'
+p467
+I1
+sS'environ'
+p468
+I2
+sS'phenotyp'
+p469
+I1
+sS'institute oftechnolog'
+p470
+I1
+sS'divers'
+p471
+I1
+sS'architectur'
+p472
+I24
+sS'node'
+p473
+I1
+sS'allelefrequ'
+p474
+I1
+sS'predictiveability of'
+p475
+I1
+sS'gp-optimized nn'
+p476
+I1
+sS'featuresof network architectur'
+p477
+I1
+sS'inputrelev'
+p478
+I1
+sS'gpnn'
+p479
+I65
+sS'snps onli'
+p480
+I1
+sS'astronomi'
+p481
+I1
+sS'becausethey exhibit'
+p482
+I1
+sS'gpnn stop'
+p483
+I1
+sS'interactionsa'
+p484
+I1
+sS'forthis statist'
+p485
+I1
+sS'determiningsignific'
+p486
+I1
+sS'jsp'
+p487
+I1
+sS'binary expression tre'
+p488
+I5
+sS'disadvantage isthe interpretation of th'
+p489
+I1
+sS'dummy variableencoding for th'
+p490
+I1
+sS'optimization of bpnn architectur'
+p491
+I1
+sS'andcoordin'
+p492
+I1
+sS'theseapproach'
+p493
+I1
+sS'allele frequ'
+p494
+I1
+sS'empirical cutoff for the cross-validation consistencythat'
+p495
+I1
+sS'algorithm'
+p496
+I1
+sS'theclassification error'
+p497
+I2
+sS'solutionsfrom'
+p498
+I1
+sS'disadvantage of gpnn'
+p499
+I1
+sS'excellentway of'
+p500
+I1
+sS'gpnn model'
+p501
+I5
+sS'exchangeincreases divers'
+p502
+I1
+sS'priorto network'
+p503
+I1
+sS'crossov'
+p504
+I2
+sS'valueto'
+p505
+I1
+sS'gp parameter settings included10 dem'
+p506
+I1
+sS'effectswhen allele frequ'
+p507
+I1
+sS'binary expression tree representation of'
+p508
+I1
+sS'cross-validation consistencythat'
+p509
+I1
+stp510
+Rp511
+tp512
+.

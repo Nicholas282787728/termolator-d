@@ -1,0 +1,1229 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'genetic regulatory network'
+p7
+I1
+sS'code'
+p8
+I2
+sS'reproduc'
+p9
+I1
+sS'statistical scor'
+p10
+I1
+sS'adenylate cyclas'
+p11
+I3
+sS'recent pap'
+p12
+I1
+sS'gdp-gtp exchang'
+p13
+I1
+sS'expression studi'
+p14
+I1
+sS'signific'
+p15
+I3
+sS'correl'
+p16
+I1
+sS'interaction map'
+p17
+I7
+sS'network model for filamentous growth'
+p18
+I1
+sS'linear pathway'
+p19
+I1
+sS'abund'
+p20
+I2
+sS'clustering express'
+p21
+I1
+sS'morpholog'
+p22
+I1
+sS'intermedi'
+p23
+I1
+sS'the protein interact'
+p24
+I1
+sS'program'
+p25
+I2
+sS'cutoff for'
+p26
+I1
+sS'network model for'
+p27
+I1
+sS'analys'
+p28
+I1
+sS'share profil'
+p29
+I1
+sS'the ras gtpas'
+p30
+I1
+sS'assay'
+p31
+I1
+sS'intersect'
+p32
+I2
+sS'yeast'
+p33
+I3
+sS'expression dataset'
+p34
+I1
+sS'original dataset'
+p35
+I1
+sS'express'
+p36
+I13
+sS'web-vers'
+p37
+I1
+sS'path-draw'
+p38
+I1
+sS'candid'
+p39
+I2
+sS'starvat'
+p40
+I1
+sS'primary determinant of'
+p41
+I1
+sS'subunit'
+p42
+I2
+sS'ras gtpas'
+p43
+I1
+sS'g protein-coupled receptor'
+p44
+I1
+sS'higher-order protein complex'
+p45
+I1
+sS'candidate pathway'
+p46
+I2
+sS'organ'
+p47
+I2
+sS'program cod'
+p48
+I2
+sS'sensor'
+p49
+I2
+sS'median'
+p50
+I1
+sS'final manuscript'
+p51
+I1
+sS'pathway intermedi'
+p52
+I1
+sS'verif'
+p53
+I1
+sS'homology model'
+p54
+I1
+sS'experi'
+p55
+I2
+sS'two-hybrid experi'
+p56
+I2
+sS'score cutoff'
+p57
+I2
+sS'sm core'
+p58
+I1
+sS'final network'
+p59
+I1
+sS'pheromone detect'
+p60
+I1
+sS'ste20'
+p61
+I1
+sS'parallel pathway'
+p62
+I1
+sS'potential import'
+p63
+I1
+sS'initiated m'
+p64
+I1
+sS'biolog'
+p65
+I1
+sS'high-throughput screen'
+p66
+I1
+sS'shmoo'
+p67
+I1
+sS'share components of the mapk'
+p68
+I1
+sS'gene knockout'
+p69
+I1
+sS'sph1'
+p70
+I1
+sS'integrity network model'
+p71
+I2
+sS'kinas'
+p72
+I3
+sS'gtpase-mediated signal transduct'
+p73
+I1
+sS'detect'
+p74
+I1
+sS'cycle arrest'
+p75
+I6
+sS'chemical treat'
+p76
+I1
+sS'final input paramet'
+p77
+I1
+sS'databas'
+p78
+I1
+sS'gene clust'
+p79
+I1
+sS'cell'
+p80
+I10
+sS'expression profiles of'
+p81
+I1
+sS'score'
+p82
+I7
+sS'heterotrimeric g protein complex'
+p83
+I2
+sS'statistical signific'
+p84
+I1
+sS'pairwise protein-protein interact'
+p85
+I1
+sS'sm core spliceosom'
+p86
+I1
+sS'topolog'
+p87
+I2
+sS'final network model'
+p88
+I1
+sS'signatur'
+p89
+I1
+sS'protein complex'
+p90
+I4
+sS'perimet'
+p91
+I1
+sS'pheromone exposur'
+p92
+I1
+sS'signature expression profil'
+p93
+I1
+sS'screen'
+p94
+I3
+sS'linear signaling pathway'
+p95
+I1
+sS'activation of the pheromon'
+p96
+I1
+sS'model for filamentous growth'
+p97
+I1
+sS'cycl'
+p98
+I2
+sS'environmental cu'
+p99
+I1
+sS'the pheromone signaling pathway'
+p100
+I1
+sS'pheromone initiated m'
+p101
+I1
+sS'two-hybrid screen'
+p102
+I2
+sS'proteome databas'
+p103
+I1
+sS'reaction'
+p104
+I1
+sS'cell differenti'
+p105
+I1
+sS'ras-associated adenylate cyclas'
+p106
+I1
+sS'phenotyp'
+p107
+I1
+sS'numerous interact'
+p108
+I1
+sS'randomized protein'
+p109
+I1
+sS'survey'
+p110
+I1
+sS'core spliceosomal protein'
+p111
+I1
+sS'studi'
+p112
+I3
+sS'gene'
+p113
+I6
+sS'molecular biolog'
+p114
+I1
+sS'the mapk cascad'
+p115
+I1
+sS'sequential bind'
+p116
+I1
+sS'literatur'
+p117
+I1
+sS'pairwise interact'
+p118
+I2
+sS'activ'
+p119
+I5
+sS'two-hybrid'
+p120
+I1
+sS'canonical pheromone response pathway'
+p121
+I1
+sS'establish'
+p122
+I1
+sS'key components of the ras gtpas'
+p123
+I1
+sS'cell cycl'
+p124
+I7
+sS'absolute scor'
+p125
+I1
+sS'dna'
+p126
+I2
+sS'two-hybrid studi'
+p127
+I1
+sS'arrest'
+p128
+I6
+sS'high-throughput yeast'
+p129
+I1
+sS'cue'
+p130
+I1
+sS'transduction network'
+p131
+I2
+sS'alpha-factor'
+p132
+I1
+sS'netsearch'
+p133
+I10
+sS'mapk signal transduct'
+p134
+I2
+sS'false-neg'
+p135
+I1
+sS'cell wall integrity network model'
+p136
+I1
+sS'hundr'
+p137
+I1
+sS'of the protein interact'
+p138
+I1
+sS'gap'
+p139
+I1
+sS'potential importance of a protein'
+p140
+I1
+sS'of signaling network'
+p141
+I2
+sS'cerevisiae expression dataset'
+p142
+I1
+sS'bud growth'
+p143
+I2
+sS'of the ras gtpas'
+p144
+I2
+sS'plausibl'
+p145
+I1
+sS'of adenylate cyclas'
+p146
+I1
+sS'endpoint'
+p147
+I2
+sS'yeast protein-protein interaction map'
+p148
+I1
+sS'signature express'
+p149
+I1
+sS'local'
+p150
+I1
+sS'pheromone signaling pathway'
+p151
+I1
+sS'cyclas'
+p152
+I3
+sS'cluster'
+p153
+I1
+sS'membrane receptor'
+p154
+I1
+sS'non-interacting protein'
+p155
+I1
+sS'error'
+p156
+I3
+sS'far1'
+p157
+I1
+sS'false-positive protein-protein interact'
+p158
+I1
+sS'yeast mapk'
+p159
+I1
+sS'fus1'
+p160
+I1
+sS'predict'
+p161
+I1
+sS'netsearch algorithm'
+p162
+I1
+sS'chip'
+p163
+I2
+sS'share'
+p164
+I2
+sS'interactions of'
+p165
+I1
+sS'strain'
+p166
+I1
+sS'actin filament organ'
+p167
+I2
+sS'false-posit'
+p168
+I1
+sS'systematic error'
+p169
+I3
+sS'pathway protein'
+p170
+I1
+sS'protein'
+p171
+I28
+sS'hog network'
+p172
+I1
+sS'activation of th'
+p173
+I1
+sS'contribut'
+p174
+I2
+sS'hog'
+p175
+I2
+sS'differenti'
+p176
+I1
+sS'mutat'
+p177
+I1
+sS'nuclear effector'
+p178
+I1
+sS'mapk'
+p179
+I9
+sS'nucleotide exchang'
+p180
+I1
+sS'protein-protein interact'
+p181
+I6
+sS'nonspecific inclus'
+p182
+I1
+sS'complex'
+p183
+I6
+sS'hypergeometric distribut'
+p184
+I1
+sS'false-positive protein'
+p185
+I1
+sS'cdc42'
+p186
+I1
+sS'pathway'
+p187
+I23
+sS'filament'
+p188
+I3
+sS'interaction dataset'
+p189
+I5
+sS'map'
+p190
+I11
+sS'interactions of vari'
+p191
+I1
+sS'evid'
+p192
+I1
+sS'self-activ'
+p193
+I1
+sS'microarray express'
+p194
+I3
+sS'multifunctional complex'
+p195
+I1
+sS'heterotrimeric g protein'
+p196
+I2
+sS'motif identif'
+p197
+I1
+sS'refin'
+p198
+I1
+sS'filamentous growth'
+p199
+I3
+sS'vectorial complex'
+p200
+I1
+sS'parallel'
+p201
+I1
+sS'topology of the interaction network'
+p202
+I1
+sS'filament organ'
+p203
+I2
+sS'constitutively activ'
+p204
+I1
+sS'cell wall integrity network'
+p205
+I1
+sS'model refin'
+p206
+I1
+sS'mitogen-activated protein'
+p207
+I1
+sS'bind'
+p208
+I1
+sS'true-posit'
+p209
+I1
+sS'pheromone receptor'
+p210
+I1
+sS'mapk pathway'
+p211
+I2
+sS'expression profil'
+p212
+I7
+sS'growth polar'
+p213
+I1
+sS'interactions of varying strength'
+p214
+I1
+sS'model'
+p215
+I15
+sS'study not'
+p216
+I1
+sS'constitu'
+p217
+I1
+sS'feedback'
+p218
+I1
+sS'netsearch-generated model'
+p219
+I1
+sS'effector'
+p220
+I1
+sS'paper'
+p221
+I1
+sS'network predict'
+p222
+I1
+sS'protein interaction dataset'
+p223
+I1
+sS'network model'
+p224
+I11
+sS'hog pathway'
+p225
+I1
+sS'beta'
+p226
+I1
+sS'paramet'
+p227
+I2
+sS'concentr'
+p228
+I1
+sS'web'
+p229
+I1
+sS'temporal co-loc'
+p230
+I1
+sS'membrane protein'
+p231
+I1
+sS'optimal maximum'
+p232
+I1
+sS'the interaction network'
+p233
+I1
+sS'of the mapk cascad'
+p234
+I2
+sS'importance of a protein'
+p235
+I1
+sS'identif'
+p236
+I2
+sS'topology of the protein'
+p237
+I1
+sS'gtpase'
+p238
+I1
+sS'subcellular loc'
+p239
+I1
+sS'treatment'
+p240
+I1
+sS'fungal cell differenti'
+p241
+I1
+sS'protein-protein interaction map'
+p242
+I1
+sS'fusion protein'
+p243
+I1
+sS'activation of'
+p244
+I2
+sS'g protein'
+p245
+I1
+sS'kinase chip'
+p246
+I2
+sS'g protein complex'
+p247
+I3
+sS'map kinas'
+p248
+I1
+sS'fusion'
+p249
+I1
+sS'cell wall integr'
+p250
+I2
+sS'cutoff for pathway inclus'
+p251
+I1
+sS'key components of'
+p252
+I1
+sS'pheromone response pathway'
+p253
+I3
+sS'expression correl'
+p254
+I1
+sS'protein-coupled receptor'
+p255
+I1
+sS'for filamentous growth'
+p256
+I1
+sS'cerevisiae express'
+p257
+I1
+sS'topology of'
+p258
+I2
+sS'randomized interact'
+p259
+I1
+sS'false-positive interact'
+p260
+I4
+sS'cascad'
+p261
+I3
+sS'pathway origin'
+p262
+I2
+sS'yeast proteom'
+p263
+I1
+sS'page'
+p264
+I1
+sS'protein interaction network'
+p265
+I1
+sS'pheromone-induced cell cycle arrest'
+p266
+I1
+sS'cell cycle arrest'
+p267
+I6
+sS'knockout'
+p268
+I1
+sS'statistical analys'
+p269
+I1
+sS'experimental rational'
+p270
+I1
+sS'of the interaction network'
+p271
+I1
+sS'ste4'
+p272
+I1
+sS'ste5'
+p273
+I1
+sS'higher-order protein'
+p274
+I1
+sS'coclustering scor'
+p275
+I1
+sS'osmolar'
+p276
+I1
+sS'transmiss'
+p277
+I1
+sS'network'
+p278
+I31
+sS'literature survey'
+p279
+I1
+sS'varying strength'
+p280
+I1
+sS'rho-mediated signal transduct'
+p281
+I1
+sS'metabolic pathway'
+p282
+I1
+sS'profil'
+p283
+I7
+sS'regulatory network'
+p284
+I1
+sS'mate'
+p285
+I1
+sS'web pag'
+p286
+I1
+sS'rational'
+p287
+I2
+sS'spliceosomal protein'
+p288
+I1
+sS'pheromone response network'
+p289
+I4
+sS'high-throughput two-hybrid screen'
+p290
+I1
+sS'randomized protein interaction dataset'
+p291
+I1
+sS'phosphorylation react'
+p292
+I1
+sS'integr'
+p293
+I2
+sS'cerevisia'
+p294
+I1
+sS'novo'
+p295
+I3
+sS'protein kinas'
+p296
+I2
+sS'linear'
+p297
+I2
+sS'biological plaus'
+p298
+I1
+sS'acid starv'
+p299
+I1
+sS'transduct'
+p300
+I16
+sS'coregul'
+p301
+I1
+sS'of a protein'
+p302
+I1
+sS'sub-network'
+p303
+I1
+sS'contribution of'
+p304
+I1
+sS'transcript abund'
+p305
+I2
+sS'activation of adenylate cyclas'
+p306
+I1
+sS'microarray dataset'
+p307
+I1
+sS'contribution of false-positive protein-protein interact'
+p308
+I1
+sS'protein-interaction map'
+p309
+I4
+sS'protein netsearch'
+p310
+I1
+sS'sm core spliceosomal protein'
+p311
+I1
+sS'origin'
+p312
+I1
+sS'cutoff'
+p313
+I5
+sS'manuscript'
+p314
+I1
+sS'of the pheromone signaling pathway'
+p315
+I1
+sS'cdc24'
+p316
+I1
+sS'two-hybrid assay'
+p317
+I1
+sS'of varying strength'
+p318
+I1
+sS'dataset'
+p319
+I10
+sS'mitogen-activated protein kinas'
+p320
+I1
+sS'receptor'
+p321
+I5
+sS'activation of the pheromone signaling pathway'
+p322
+I1
+sS'randomized protein interact'
+p323
+I1
+sS'bem1'
+p324
+I1
+sS'topology of th'
+p325
+I2
+sS'gtpase constitu'
+p326
+I1
+sS'inclus'
+p327
+I2
+sS'non-redundant protein-protein interact'
+p328
+I1
+sS'temporal co-localization of'
+p329
+I1
+sS'protein interaction map'
+p330
+I1
+sS'transfer'
+p331
+I2
+sS'interact'
+p332
+I33
+sS'pheromone pathway'
+p333
+I2
+sS'share components of'
+p334
+I1
+sS'molecular signal transduct'
+p335
+I1
+sS'fraction'
+p336
+I5
+sS'pheromone response pathway origin'
+p337
+I1
+sS'nonspecific kinas'
+p338
+I1
+sS'fraction of systematic error'
+p339
+I1
+sS'heterotrimeric g'
+p340
+I2
+sS'a-factor'
+p341
+I1
+sS'interaction network'
+p342
+I2
+sS'for pathway inclus'
+p343
+I1
+sS'high-throughput yeast two-hybrid experi'
+p344
+I1
+sS'netsearch best discrimin'
+p345
+I1
+sS'fraction of'
+p346
+I1
+sS'yeast proteome databas'
+p347
+I1
+sS'protein interact'
+p348
+I4
+sS'pheromone-induced cel'
+p349
+I1
+sS'key components of the ra'
+p350
+I1
+sS'yeast two-hybrid experi'
+p351
+I1
+sS'of systematic error'
+p352
+I1
+sS'exposur'
+p353
+I1
+sS'nucleu'
+p354
+I1
+sS'biological signific'
+p355
+I2
+sS'potential importance of'
+p356
+I1
+sS'maximum'
+p357
+I1
+sS'project'
+p358
+I1
+sS'growth'
+p359
+I10
+sS'protein kinase chip'
+p360
+I1
+sS'classif'
+p361
+I2
+sS'cross-hybrid'
+p362
+I1
+sS'topology of the protein interact'
+p363
+I1
+sS'gamma subunit'
+p364
+I1
+sS'molecular components of'
+p365
+I1
+sS'dna-binding protein'
+p366
+I3
+sS'cytoskeleton'
+p367
+I1
+sS'netsearch reproduc'
+p368
+I1
+sS'key components of th'
+p369
+I1
+sS'strength'
+p370
+I1
+sS'probabl'
+p371
+I1
+sS'share components of the mapk cascad'
+p372
+I1
+sS'discrimin'
+p373
+I2
+sS'fungal cel'
+p374
+I1
+sS'biological rational'
+p375
+I1
+sS'mutant phenotyp'
+p376
+I1
+sS'note'
+p377
+I1
+sS'invasive growth'
+p378
+I1
+sS'molecular components of signaling network'
+p379
+I1
+sS'experimental evid'
+p380
+I1
+sS'ypd'
+p381
+I1
+sS'ste18'
+p382
+I1
+sS'mip'
+p383
+I1
+sS'gene express'
+p384
+I4
+sS'microarray expression studi'
+p385
+I1
+sS'pathway inclus'
+p386
+I1
+sS'polar'
+p387
+I1
+sS'distribut'
+p388
+I1
+sS'filamentation pathway'
+p389
+I2
+sS'netsearch best'
+p390
+I1
+sS'final model'
+p391
+I1
+sS'browse protein-protein interact'
+p392
+I1
+sS'of false-positive protein-protein interact'
+p393
+I1
+sS'vertex'
+p394
+I1
+sS'yeast two-hybrid studi'
+p395
+I1
+sS'protein-interaction dataset'
+p396
+I1
+sS'share components of th'
+p397
+I1
+sS'chaperone protein'
+p398
+I1
+sS'fraction peak'
+p399
+I1
+sS'interactor'
+p400
+I1
+sS'peak'
+p401
+I1
+sS'transcript'
+p402
+I2
+sS'mapk cascad'
+p403
+I3
+sS'diverse mut'
+p404
+I1
+sS'best discrimin'
+p405
+I1
+sS'gtpase-activating protein'
+p406
+I1
+sS'algorithm'
+p407
+I4
+sS'linear transmiss'
+p408
+I1
+sS'pheromone-induced cell cycl'
+p409
+I1
+sS'genetic interact'
+p410
+I2
+stp411
+Rp412
+tp413
+.

@@ -1,0 +1,50 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'diseas'
+p7
+I1
+sS'renal diseas'
+p8
+I1
+sS'list'
+p9
+I1
+sS'dc'
+p10
+I1
+sS'packag'
+p11
+I1
+sS'membership'
+p12
+I3
+sS'aakp'
+p13
+I1
+sS'end-stage renal diseas'
+p14
+I1
+sS'subscript'
+p15
+I1
+sS'membership packag'
+p16
+I1
+sS'membership list'
+p17
+I1
+stp18
+Rp19
+tp20
+.

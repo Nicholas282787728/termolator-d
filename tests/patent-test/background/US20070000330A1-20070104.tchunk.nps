@@ -1,0 +1,1724 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'aln'
+p7
+I1
+sS'represent'
+p8
+I1
+sS'of a pressure sensor'
+p9
+I3
+sS'ballston spa ni'
+p10
+I1
+sS'optical index'
+p11
+I1
+sS'concentration of the etch'
+p12
+I1
+sS'plane sequence of ab cabc'
+p13
+I1
+sS'carrier ga'
+p14
+I1
+sS'grafoil'
+p15
+I1
+sS'ga'
+p16
+I11
+sS'beam epitaxi'
+p17
+I2
+sS'low-temperature buff'
+p18
+I1
+sS'root mean squar'
+p19
+I1
+sS'ammonia'
+p20
+I3
+sS'semiconductor'
+p21
+I31
+sS'crystal aluminum oxid'
+p22
+I7
+sS'quasi-single crystal aluminum oxid'
+p23
+I6
+sS'transduc'
+p24
+I1
+sS'the flux'
+p25
+I1
+sS'chemical vapor deposit'
+p26
+I1
+sS'optical signal decod'
+p27
+I1
+sS'halide vapor phase epitaxi'
+p28
+I1
+sS'emitting diod'
+p29
+I2
+sS'screw disloc'
+p30
+I1
+sS'field-effect transistor'
+p31
+I1
+sS'cm2'
+p32
+I2
+sS'kcl'
+p33
+I1
+sS'blanket'
+p34
+I2
+sS'wave'
+p35
+I2
+sS'caviti'
+p36
+I1
+sS'aluminum indium'
+p37
+I1
+sS'hemt'
+p38
+I1
+sS'die'
+p39
+I1
+sS'aluminum oxide layer of'
+p40
+I1
+sS'diluent salt'
+p41
+I1
+sS'modulation-doped field effect transistor'
+p42
+I1
+sS'alkali earth'
+p43
+I2
+sS'quasi-single crystal aluminum'
+p44
+I6
+sS'graftech'
+p45
+I1
+sS'speci'
+p46
+I3
+sS'natur'
+p47
+I1
+sS'electrode plac'
+p48
+I2
+sS'magnesium oxid'
+p49
+I1
+sS'acid'
+p50
+I4
+sS'decomposition of'
+p51
+I1
+sS'index'
+p52
+I1
+sS'molten salt'
+p53
+I2
+sS'microphon'
+p54
+I1
+sS'non-reactive diluent salt'
+p55
+I1
+sS'clifton park ni'
+p56
+I1
+sS'current'
+p57
+I1
+sS'isotropic remov'
+p58
+I1
+sS'supplier'
+p59
+I1
+sS'non-reactive dilu'
+p60
+I1
+sS'pnictogen'
+p61
+I4
+sS'schottky rectifi'
+p62
+I1
+sS'gas source mb'
+p63
+I1
+sS'led'
+p64
+I1
+sS'mem'
+p65
+I1
+sS'coeffici'
+p66
+I2
+sS'microwave power amplifi'
+p67
+I1
+sS'igbt'
+p68
+I1
+sS'lake ni'
+p69
+I1
+sS'sink'
+p70
+I2
+sS'boron'
+p71
+I2
+sS'removal rate of'
+p72
+I1
+sS'sintered powd'
+p73
+I1
+sS'magnesium fluorid'
+p74
+I1
+sS'silicon-germanium'
+p75
+I1
+sS'complimentary media'
+p76
+I1
+sS'sub-band emitt'
+p77
+I1
+sS'precursor'
+p78
+I2
+sS'suitable control vari'
+p79
+I1
+sS'fiber opt'
+p80
+I2
+sS'tangential stress'
+p81
+I1
+sS'mesfet'
+p82
+I1
+sS'hbt'
+p83
+I1
+sS'optoelectron'
+p84
+I2
+sS'electrode placement aid'
+p85
+I1
+sS'transit'
+p86
+I1
+sS'normal plane sequence of ab cabc'
+p87
+I1
+sS'schenectadi'
+p88
+I3
+sS'ballston'
+p89
+I2
+sS'normal plan'
+p90
+I1
+sS'aluminum nitrid'
+p91
+I3
+sS'chlorid'
+p92
+I2
+sS'suitable semiconductor'
+p93
+I1
+sS'solidif'
+p94
+I1
+sS'single cryst'
+p95
+I4
+sS'tube furnac'
+p96
+I1
+sS'quantitative represent'
+p97
+I1
+sS'ab cabc'
+p98
+I1
+sS'diod'
+p99
+I3
+sS'sonic stir'
+p100
+I1
+sS'vpe'
+p101
+I1
+sS'drumhead di'
+p102
+I1
+sS'carbid'
+p103
+I3
+sS'k1-4a59'
+p104
+I1
+sS'ballston spa'
+p105
+I1
+sS'room'
+p106
+I6
+sS'bonding strength'
+p107
+I1
+sS'prepar'
+p108
+I1
+sS'low-noise amplifi'
+p109
+I1
+sS'literal languag'
+p110
+I2
+sS'graphit'
+p111
+I1
+sS'heterostructure transistor'
+p112
+I1
+sS'b h'
+p113
+I1
+sS'root'
+p114
+I1
+sS'spa ni'
+p115
+I1
+sS'insulator field effect transistor'
+p116
+I2
+sS'sodium ion'
+p117
+I6
+sS'celsiu'
+p118
+I27
+sS'metallorganic chemical vapor deposit'
+p119
+I1
+sS'of the aluminum oxid'
+p120
+I2
+sS'backplan'
+p121
+I1
+sS'high-efficiency mirror'
+p122
+I1
+sS'metalloid'
+p123
+I3
+sS'of a semiconductor'
+p124
+I3
+sS'modfet'
+p125
+I1
+sS'hvpe'
+p126
+I4
+sS'volatilized speci'
+p127
+I2
+sS'vertical cav'
+p128
+I1
+sS'chemical bonding strength'
+p129
+I1
+sS'stir'
+p130
+I1
+sS'inorganic cryst'
+p131
+I1
+sS'solidification of th'
+p132
+I1
+sS'vacuum waf'
+p133
+I1
+sS'parallel'
+p134
+I2
+sS'stabil'
+p135
+I2
+sS'stress'
+p136
+I6
+sS'etchant concentr'
+p137
+I1
+sS'therebetween'
+p138
+I2
+sS'crystallin'
+p139
+I1
+sS'aesar'
+p140
+I1
+sS'switch'
+p141
+I4
+sS'deposit'
+p142
+I1
+sS'sc'
+p143
+I1
+sS'vapor'
+p144
+I1
+sS'chemical vapor phase etch'
+p145
+I1
+sS'avalanche photodiod'
+p146
+I1
+sS'of ab cabc'
+p147
+I2
+sS'optical fib'
+p148
+I3
+sS'hydride vapor phase epitaxi'
+p149
+I1
+sS'nitrogen'
+p150
+I1
+sS'high electron'
+p151
+I1
+sS'metallorgan'
+p152
+I3
+sS'movp'
+p153
+I1
+sS'paramet'
+p154
+I4
+sS'macroscopic surface profil'
+p155
+I2
+sS'sodium'
+p156
+I2
+sS'clifton park'
+p157
+I1
+sS'docket rm'
+p158
+I1
+sS'soi'
+p159
+I1
+sS'liquid etch'
+p160
+I1
+sS'molecular beam'
+p161
+I1
+sS'pcb'
+p162
+I1
+sS'k1-4a59 niskayuna'
+p163
+I1
+sS'silicon oxid'
+p164
+I1
+sS'etchants useful for'
+p165
+I1
+sS'misorient'
+p166
+I1
+sS'rins'
+p167
+I1
+sS'compound'
+p168
+I4
+sS'next-generation cd'
+p169
+I1
+sS'suitable optical fib'
+p170
+I1
+sS'distribution depth'
+p171
+I1
+sS'oxygen'
+p172
+I2
+sS'indium nitrid'
+p173
+I2
+sS'mobility transistor'
+p174
+I1
+sS'solidification of the flux'
+p175
+I1
+sS'radiat'
+p176
+I3
+sS'crystal growth'
+p177
+I2
+sS'vertical mosfet'
+p178
+I2
+sS'ingan-based l'
+p179
+I1
+sS'radial'
+p180
+I1
+sS'park ni'
+p181
+I1
+sS'bond'
+p182
+I3
+sS'subset'
+p183
+I1
+sS'ordinary skil'
+p184
+I2
+sS'silicon carbid'
+p185
+I2
+sS'ballston lake ni'
+p186
+I1
+sS'piezoelectric polarization coeffici'
+p187
+I1
+sS'decomposition of th'
+p188
+I1
+sS'placement aid'
+p189
+I1
+sS'quantum'
+p190
+I1
+sS'gallium nitrid'
+p191
+I7
+sS'energi'
+p192
+I2
+sS'orient'
+p193
+I2
+sS'agit'
+p194
+I7
+sS'variabl'
+p195
+I2
+sS'matrix'
+p196
+I1
+sS'twist boundari'
+p197
+I1
+sS'acid rins'
+p198
+I1
+sS'ingan-based led heterostructur'
+p199
+I1
+sS'semiconductor field effect transistor'
+p200
+I2
+sS'quartz tub'
+p201
+I1
+sS'void'
+p202
+I1
+sS'suitabl'
+p203
+I1
+sS'rel'
+p204
+I1
+sS'reader'
+p205
+I1
+sS'rm'
+p206
+I2
+sS'sensor'
+p207
+I65
+sS'mineral acid'
+p208
+I2
+sS'hcl'
+p209
+I1
+sS'xef2'
+p210
+I1
+sS'fiber'
+p211
+I7
+sS'barrier'
+p212
+I1
+sS'bldg'
+p213
+I1
+sS'sub-rang'
+p214
+I1
+sS'of the etch'
+p215
+I5
+sS'hydrid'
+p216
+I1
+sS'metallorganic compound'
+p217
+I3
+sS'metallorganic vapor'
+p218
+I1
+sS'isotropic etch'
+p219
+I1
+sS'freestanding semiconductor'
+p220
+I3
+sS'silicon'
+p221
+I3
+sS'alpha aesar'
+p222
+I1
+sS'magnesium-based dop'
+p223
+I1
+sS'heterostructur'
+p224
+I1
+sS'sapphire layer portion of'
+p225
+I1
+sS'transfer'
+p226
+I1
+sS'schematic side view of'
+p227
+I1
+sS'perturb'
+p228
+I3
+sS'nacl'
+p229
+I1
+sS'alcohol solution of'
+p230
+I1
+sS'array'
+p231
+I2
+sS'fluorid'
+p232
+I4
+sS'nature of th'
+p233
+I1
+sS'grain boundari'
+p234
+I12
+sS'attack'
+p235
+I1
+sS'molecular'
+p236
+I1
+sS'gallium nitride single cryst'
+p237
+I1
+sS'transistor'
+p238
+I24
+sS'alingan'
+p239
+I1
+sS'nh3'
+p240
+I3
+sS'technic'
+p241
+I1
+sS'sodium hydroxid'
+p242
+I1
+sS'target'
+p243
+I1
+sS'of a wave-guid'
+p244
+I3
+sS'cubic cryst'
+p245
+I1
+sS'remov'
+p246
+I11
+sS'vertical junction field effect transistor'
+p247
+I2
+sS'magnesium'
+p248
+I1
+sS'chemical suppli'
+p249
+I1
+sS'chemical st'
+p250
+I3
+sS'vapor phase etch'
+p251
+I1
+sS'atmospher'
+p252
+I1
+sS'defect'
+p253
+I10
+sS'ammonia gas blanket'
+p254
+I1
+sS'o-r'
+p255
+I1
+sS'dopant precursor'
+p256
+I2
+sS'lif'
+p257
+I1
+sS'strength'
+p258
+I1
+sS'vapor phase epitaxi'
+p259
+I4
+sS'squar'
+p260
+I2
+sS'amorphous aluminum oxid'
+p261
+I1
+sS'cold-wall type furnac'
+p262
+I1
+sS'sdht'
+p263
+I1
+sS'heterojunction field-effect transistor'
+p264
+I1
+sS'potassium'
+p265
+I1
+sS'electron gas field effect transistor'
+p266
+I1
+sS'aluminum oxide layer of a multi-lay'
+p267
+I1
+sS'graphite boat'
+p268
+I4
+sS'vacuum wafer bond'
+p269
+I1
+sS'hfet'
+p270
+I1
+sS'halogen ga'
+p271
+I1
+sS'dielectr'
+p272
+I1
+sS'percent of total weight of'
+p273
+I1
+sS'alpha'
+p274
+I1
+sS'insul'
+p275
+I1
+sS'decomposit'
+p276
+I2
+sS'chemical attack'
+p277
+I1
+sS'placement'
+p278
+I1
+sS'kf'
+p279
+I1
+sS'optical energi'
+p280
+I1
+sS'high-refractive-index contrast'
+p281
+I1
+sS'freestanding film'
+p282
+I4
+sS'tetramethyl ammonium hydroxid'
+p283
+I1
+sS'salt'
+p284
+I6
+sS'normal plane sequence of'
+p285
+I1
+sS'quartz tube furnac'
+p286
+I1
+sS'bandgap semiconductor'
+p287
+I1
+sS'cryolit'
+p288
+I6
+sS'gaseous ammonia blanket'
+p289
+I1
+sS'atom'
+p290
+I1
+sS'electrical lead'
+p291
+I1
+sS'oxygen impur'
+p292
+I2
+sS'earth'
+p293
+I1
+sS'dbr'
+p294
+I1
+sS'electron mobility transistor'
+p295
+I1
+sS'photodetector'
+p296
+I2
+sS'abcababc'
+p297
+I1
+sS'chemical bond'
+p298
+I1
+sS'gallium chlorid'
+p299
+I1
+sS'sapphire layer portion of a semiconductor'
+p300
+I1
+sS'potassium aluminum fluorid'
+p301
+I1
+sS'polycrystalline aluminum'
+p302
+I1
+sS'organic compound'
+p303
+I1
+sS'fluid'
+p304
+I1
+sS'chemical properties of'
+p305
+I1
+sS'trimethyl gallium'
+p306
+I2
+sS'gel'
+p307
+I1
+sS'k1-4a59 niskayuna ni'
+p308
+I1
+sS'aluminum'
+p309
+I33
+sS'epitaxial growth'
+p310
+I2
+sS'hydrogen fluorid'
+p311
+I1
+sS'wilmington'
+p312
+I1
+sS'sidewal'
+p313
+I10
+sS'schottki'
+p314
+I1
+sS'jfet'
+p315
+I2
+sS'removal rate of th'
+p316
+I1
+sS'arsen'
+p317
+I2
+sS'oxygen impurity concentr'
+p318
+I2
+sS'dopant diffus'
+p319
+I1
+sS'arc'
+p320
+I1
+sS'junction field effect transistor'
+p321
+I2
+sS'schematic side view of a wave-guid'
+p322
+I1
+sS'subject'
+p323
+I1
+sS'printed circuit board'
+p324
+I1
+sS'continuation-in-part'
+p325
+I1
+sS'boundari'
+p326
+I9
+sS'chalcogen ga'
+p327
+I4
+sS'nucleat'
+p328
+I1
+sS'dopant atom'
+p329
+I1
+sS'two-dimensional electron gas field effect transistor'
+p330
+I1
+sS'optical pressure sensor'
+p331
+I2
+sS'chemic'
+p332
+I6
+sS'niskayuna'
+p333
+I4
+sS'epitaxi'
+p334
+I11
+sS'isol'
+p335
+I2
+sS'electrical curr'
+p336
+I1
+sS'cascode switch'
+p337
+I2
+sS'marietta'
+p338
+I1
+sS'carbon'
+p339
+I2
+sS'selectively-doped heterostructure transistor'
+p340
+I1
+sS'of the flux'
+p341
+I1
+sS'reaction'
+p342
+I4
+sS'schenectady ni'
+p343
+I3
+sS'vertical orient'
+p344
+I1
+sS'chemical beam epitaxi'
+p345
+I1
+sS'fault'
+p346
+I2
+sS'semiconductor las'
+p347
+I2
+sS'potassium aluminum'
+p348
+I1
+sS'halogenated salt'
+p349
+I3
+sS'dopant atom distribution depth'
+p350
+I1
+sS'grain'
+p351
+I13
+sS'semi-met'
+p352
+I1
+sS'tln'
+p353
+I1
+sS'impurity concentr'
+p354
+I2
+sS'atom distribution depth'
+p355
+I1
+sS'planar defect'
+p356
+I1
+sS'cross-sectional side view of'
+p357
+I1
+sS'aqua regia'
+p358
+I1
+sS'guid'
+p359
+I2
+sS'arsenid'
+p360
+I2
+sS'boat'
+p361
+I4
+sS'p-i-n diod'
+p362
+I1
+sS'hydride vapor'
+p363
+I1
+sS'vertic'
+p364
+I2
+sS'dopant atom distribut'
+p365
+I1
+sS'aluminum oxid'
+p366
+I24
+sS'metal-semiconductor-metal diod'
+p367
+I1
+sS'etchant rel'
+p368
+I1
+sS'p-n junction field effect transistor'
+p369
+I1
+sS'piezoelectr'
+p370
+I1
+sS'film epitaxi'
+p371
+I1
+sS'spectrum'
+p372
+I1
+sS'gan'
+p373
+I7
+sS'gaseous ammonia'
+p374
+I1
+sS'crucibl'
+p375
+I1
+sS'laser'
+p376
+I4
+sS'chemical properties of the aluminum'
+p377
+I1
+sS'gallium arsenid'
+p378
+I2
+sS'ablat'
+p379
+I1
+sS'microcrack'
+p380
+I1
+sS'aid'
+p381
+I1
+sS'glenville ni'
+p382
+I1
+sS'observ'
+p383
+I4
+sS'molten flux'
+p384
+I1
+sS'oxide layer of a multi-lay'
+p385
+I1
+sS'strain'
+p386
+I3
+sS'ballston lak'
+p387
+I1
+sS'nitride single cryst'
+p388
+I1
+sS'normal plane sequence of ab'
+p389
+I1
+sS'spectrum chemical mfg'
+p390
+I1
+sS'silicon nitrid'
+p391
+I1
+sS'of th'
+p392
+I1
+sS'media'
+p393
+I1
+sS'interstiti'
+p394
+I1
+sS'ammonia ga'
+p395
+I1
+sS'aluminum fluorid'
+p396
+I1
+sS'quasi single cryst'
+p397
+I5
+sS'tilt boundari'
+p398
+I1
+sS'visual observ'
+p399
+I1
+sS'hydrogen ga'
+p400
+I1
+sS'decod'
+p401
+I2
+sS'gacl'
+p402
+I1
+sS'concentration of'
+p403
+I1
+sS'lithium'
+p404
+I1
+sS'metallorganic chemical vapor'
+p405
+I1
+sS'ion'
+p406
+I13
+sS'multi-lay'
+p407
+I28
+sS'original crystal growth'
+p408
+I1
+sS'molecular beam epitaxi'
+p409
+I1
+sS'dopant'
+p410
+I5
+sS'potassium ion'
+p411
+I6
+sS'silicon germanium'
+p412
+I1
+sS'aqua regia dissolut'
+p413
+I1
+sS'polym'
+p414
+I1
+sS'solidification of'
+p415
+I1
+sS'docket'
+p416
+I1
+sS'concentration of th'
+p417
+I1
+sS'the etch'
+p418
+I3
+sS'mfg'
+p419
+I1
+sS'regia dissolut'
+p420
+I1
+sS'germanium'
+p421
+I2
+sS'skill'
+p422
+I2
+sS'sidewall arc'
+p423
+I1
+sS'languag'
+p424
+I3
+sS'concentr'
+p425
+I7
+sS'mosfet'
+p426
+I2
+sS'grafoil brand'
+p427
+I1
+sS'polarization coeffici'
+p428
+I2
+sS'board'
+p429
+I2
+sS'densiti'
+p430
+I2
+sS'plasma'
+p431
+I1
+sS'two-dimensional electron ga'
+p432
+I1
+sS'chemical mfg'
+p433
+I1
+sS'chemical beam'
+p434
+I1
+sS'halide vapor'
+p435
+I1
+sS'niskayuna ni'
+p436
+I5
+sS'percent of total weight of a molten salt'
+p437
+I1
+sS'grid'
+p438
+I1
+sS'vacuum'
+p439
+I1
+sS'moc'
+p440
+I2
+sS'cd'
+p441
+I1
+sS'regia'
+p442
+I1
+sS'3-d'
+p443
+I1
+sS'original cryst'
+p444
+I1
+sS'laser abl'
+p445
+I2
+sS'chamber'
+p446
+I2
+sS'halid'
+p447
+I5
+sS'architectur'
+p448
+I1
+sS'indium'
+p449
+I2
+sS'reaction inhibit'
+p450
+I1
+sS'oxid'
+p451
+I21
+sS'rubidium'
+p452
+I1
+sS'diluent'
+p453
+I1
+sS'gas blanket'
+p454
+I1
+sS'nature of the etch'
+p455
+I2
+sS'cabc'
+p456
+I1
+sS'boron nitrid'
+p457
+I2
+sS'photodiod'
+p458
+I1
+sS'metallorganic chem'
+p459
+I1
+sS'sampl'
+p460
+I1
+sS'multi-color'
+p461
+I1
+sS'mirror'
+p462
+I1
+sS'transmiss'
+p463
+I2
+sS'tetramethyl ammonium'
+p464
+I1
+sS'lead'
+p465
+I1
+sS'flux'
+p466
+I2
+sS'miner'
+p467
+I2
+sS'inject'
+p468
+I2
+sS'disloc'
+p469
+I4
+sS'pre-defined area etch'
+p470
+I1
+sS'thermal energi'
+p471
+I1
+sS'metallorganic chlorid'
+p472
+I1
+sS'linear disloc'
+p473
+I1
+sS'gas field effect transistor'
+p474
+I1
+sS'perpendicular'
+p475
+I2
+sS'linear defect'
+p476
+I1
+sS'mocvd'
+p477
+I2
+sS'emitt'
+p478
+I1
+sS'tegfet'
+p479
+I1
+sS'crystal aluminum'
+p480
+I1
+sS'conventional etch'
+p481
+I1
+sS'glenvil'
+p482
+I1
+sS'high electron mobility transistor'
+p483
+I1
+sS'naoh'
+p484
+I2
+sS'of'
+p485
+I1
+sS'gallium'
+p486
+I7
+sS'carrier'
+p487
+I1
+sS'misfet'
+p488
+I1
+sS'semiconductor film'
+p489
+I1
+sS'atom concentr'
+p490
+I1
+sS'metallorganic vapor phase epitaxi'
+p491
+I1
+sS'fluosilicic acid'
+p492
+I1
+sS'alkali hydroxid'
+p493
+I1
+sS'mbe'
+p494
+I3
+sS'clifton'
+p495
+I1
+sS'ppm'
+p496
+I1
+sS'microelectromechan'
+p497
+I1
+sS'bjt'
+p498
+I1
+sS'rectifi'
+p499
+I1
+sS'thyristor'
+p500
+I1
+sS'microwav'
+p501
+I1
+sS'antimoni'
+p502
+I1
+sS'spectrum chem'
+p503
+I1
+sS'ammonia blanket'
+p504
+I1
+sS'nitrid'
+p505
+I17
+sS'dopant atom concentr'
+p506
+I1
+sS'oxide field effect transistor'
+p507
+I2
+sS'fraction'
+p508
+I1
+sS'etch'
+p509
+I4
+sS'suitable agit'
+p510
+I1
+sS'mixed-oxid'
+p511
+I1
+sS'brand'
+p512
+I1
+sS'amplifi'
+p513
+I3
+sS'vertical sidewal'
+p514
+I1
+sS'diffus'
+p515
+I1
+sS'sodium cryolit'
+p516
+I4
+sS'quasi-single crystal semiconductor'
+p517
+I1
+sS'led heterostructur'
+p518
+I1
+sS'hf'
+p519
+I1
+sS'dvd reader'
+p520
+I1
+sS'of a multi-lay'
+p521
+I2
+sS'polycrystalline aluminum oxid'
+p522
+I1
+sS'epitaxial growth of'
+p523
+I1
+sS'high electron mobl'
+p524
+I1
+sS'crystal epitaxi'
+p525
+I1
+sS'crystal'
+p526
+I19
+sS'growth'
+p527
+I3
+sS'suitable halogenated salt'
+p528
+I1
+sS'ammonium hydroxid'
+p529
+I1
+sS'of fluosilicic acid'
+p530
+I2
+sS'quasi-single cryst'
+p531
+I18
+sS'approximating languag'
+p532
+I1
+sS'the aluminum oxid'
+p533
+I1
+sS'halogen-based ga'
+p534
+I1
+sS'graphite cruc'
+p535
+I1
+sS'cbe'
+p536
+I1
+sS'dislocation dens'
+p537
+I2
+sS'etchant'
+p538
+I39
+sS'chemical properties of th'
+p539
+I1
+sS'twist'
+p540
+I1
+sS'gs-mbe'
+p541
+I1
+sS'reaction chamb'
+p542
+I2
+sS'semiconductor cryst'
+p543
+I1
+sS'hot-wall type furnac'
+p544
+I1
+sS'film'
+p545
+I6
+sS'epitaxial growth of a semiconductor'
+p546
+I1
+sS'naf'
+p547
+I1
+sS'dissolut'
+p548
+I1
+sS'alcohol solution of fluosilicic acid'
+p549
+I1
+sS'percent'
+p550
+I41
+sS'ny'
+p551
+I12
+sS'furnac'
+p552
+I5
+sS'marietta ga'
+p553
+I1
+sS'amorphous aluminum'
+p554
+I1
+sS'schottky barri'
+p555
+I1
+sS'nature of'
+p556
+I1
+sS'freestand'
+p557
+I2
+sS'quartz'
+p558
+I2
+sS'cross-sectional side view of a pressure sensor'
+p559
+I1
+sS'percent of'
+p560
+I1
+sS'xenon fluorid'
+p561
+I1
+sS'wave guid'
+p562
+I2
+sS'electronic semiconductor'
+p563
+I1
+sS'chemical properties of the aluminum oxid'
+p564
+I1
+sS'kbf4'
+p565
+I3
+sS'alcohol'
+p566
+I1
+sS'dvd'
+p567
+I1
+sS'iii-nitrid'
+p568
+I2
+sS'hydroxid'
+p569
+I3
+sS'gardena'
+p570
+I1
+sS'thermal transf'
+p571
+I1
+sS'depth'
+p572
+I1
+sS'vapor deposit'
+p573
+I1
+sS'wave-guid'
+p574
+I2
+sS'profil'
+p575
+I4
+stp576
+Rp577
+tp578
+.

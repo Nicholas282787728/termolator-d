@@ -1,0 +1,359 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'repair'
+p7
+I5
+sS'pin'
+p8
+I1
+sS'laberal repair'
+p9
+I2
+sS'pleasant sc'
+p10
+I1
+sS'arcuate tunnel'
+p11
+I1
+sS'cuff surgeri'
+p12
+I2
+sS'fashion'
+p13
+I1
+sS'cuff drill guid'
+p14
+I2
+sS'sutur'
+p15
+I18
+sS'mill'
+p16
+I1
+sS'guid'
+p17
+I19
+sS'anatomic structure of th'
+p18
+I1
+sS'humeral head'
+p19
+I5
+sS'arthroscopic trephin'
+p20
+I1
+sS'lumen of'
+p21
+I1
+sS'non-parallel fashion'
+p22
+I1
+sS'lumen of the arcuate drill guid'
+p23
+I1
+sS'cuff guid'
+p24
+I2
+sS'mallet'
+p25
+I2
+sS'cruciate liga'
+p26
+I1
+sS'non-parallel dril'
+p27
+I1
+sS'styli'
+p28
+I1
+sS'mark'
+p29
+I2
+sS'anatomic structure of the genohumeral joint'
+p30
+I1
+sS'stylu'
+p31
+I5
+sS'tool'
+p32
+I2
+sS'lumen'
+p33
+I16
+sS'shoulder laberal repair'
+p34
+I1
+sS'suture strand'
+p35
+I1
+sS'trephine guide pin'
+p36
+I1
+sS'arcuate drill guid'
+p37
+I15
+sS'cortical bon'
+p38
+I1
+sS'cuff tendon'
+p39
+I2
+sS'attach'
+p40
+I1
+sS'drill guid'
+p41
+I18
+sS'head'
+p42
+I5
+sS'void'
+p43
+I1
+sS'suture anchor'
+p44
+I3
+sS'arthroscopic repair'
+p45
+I1
+sS'joint'
+p46
+I1
+sS'the arcuate drill guid'
+p47
+I1
+sS'tissu'
+p48
+I4
+sS'genohumeral joint'
+p49
+I1
+sS'cuff repair'
+p50
+I2
+sS'strand'
+p51
+I1
+sS'introduct'
+p52
+I1
+sS'shoulder'
+p53
+I1
+sS'arthroscopic fix'
+p54
+I1
+sS'anatomic structure of'
+p55
+I1
+sS'securing tissu'
+p56
+I1
+sS'cuff tissu'
+p57
+I2
+sS'suture lodg'
+p58
+I1
+sS'vertical port'
+p59
+I1
+sS'tunnel'
+p60
+I3
+sS'cuff'
+p61
+I11
+sS'drill'
+p62
+I2
+sS'b h'
+p63
+I1
+sS'dysfunctional tissu'
+p64
+I2
+sS'cutter'
+p65
+I2
+sS'lumen of the arcuate dril'
+p66
+I1
+sS'labrum defici'
+p67
+I1
+sS'bone'
+p68
+I1
+sS'ligament'
+p69
+I1
+sS'shoulder laber'
+p70
+I1
+sS'glenoid'
+p71
+I1
+sS'arthroscopic cr'
+p72
+I1
+sS'of the arcuate drill guid'
+p73
+I1
+sS'suture stylu'
+p74
+I5
+sS'natur'
+p75
+I1
+sS'surgeri'
+p76
+I2
+sS'creation'
+p77
+I2
+sS'arthroscopic securing tissu'
+p78
+I1
+sS'nitinol'
+p79
+I2
+sS'guide pin'
+p80
+I1
+sS'pass'
+p81
+I2
+sS'arthroscopic ti'
+p82
+I2
+sS'port'
+p83
+I1
+sS'arcuate shaped tunnel'
+p84
+I1
+sS'mill type cutt'
+p85
+I1
+sS'geometry of th'
+p86
+I1
+sS'stitch'
+p87
+I1
+sS'trephine guid'
+p88
+I1
+sS'lumen of th'
+p89
+I1
+sS'ligament repair'
+p90
+I1
+sS'inject'
+p91
+I1
+sS'intersect'
+p92
+I2
+sS'arcuate dril'
+p93
+I14
+sS'tie'
+p94
+I2
+sS'of the genohumeral joint'
+p95
+I2
+sS'non-parallel drill guid'
+p96
+I1
+sS'arthroscopic attach'
+p97
+I1
+sS'injection port'
+p98
+I1
+sS'defici'
+p99
+I1
+sS'calibration mark'
+p100
+I2
+sS'cuff dril'
+p101
+I1
+sS'lodg'
+p102
+I1
+sS'pleasant'
+p103
+I1
+sS'drill guide lumen'
+p104
+I3
+sS'portal'
+p105
+I1
+sS'adjacent sutur'
+p106
+I1
+sS'cruciate ligament repair'
+p107
+I1
+sS'suture pass'
+p108
+I2
+sS'invasive natur'
+p109
+I1
+sS'the genohumeral joint'
+p110
+I1
+sS'geometry of'
+p111
+I1
+sS'guide lumen'
+p112
+I4
+sS'tendon'
+p113
+I1
+sS'sc'
+p114
+I1
+sS'anchor'
+p115
+I3
+sS'arcuate drill guide lumen'
+p116
+I1
+sS'trephin'
+p117
+I1
+sS'geometri'
+p118
+I1
+sS'multiple suture pass'
+p119
+I1
+sS'fixat'
+p120
+I1
+stp121
+Rp122
+tp123
+.

@@ -1,0 +1,671 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'adjusted yhl'
+p7
+I1
+sS'peripheral vascular diseas'
+p8
+I1
+sS'baseline hom'
+p9
+I1
+sS'chs particip'
+p10
+I2
+sS'signific'
+p11
+I1
+sS'telephon'
+p12
+I1
+sS'population-based studies of'
+p13
+I1
+sS'healthy lif'
+p14
+I1
+sS'vascular diseas'
+p15
+I1
+sS'relative superiority of yhl'
+p16
+I1
+sS'mass index'
+p17
+I3
+sS'cardiovascular'
+p18
+I2
+sS'potential limitations chs particip'
+p19
+I1
+sS'cardiovascular health studi'
+p20
+I2
+sS'of lif'
+p21
+I1
+sS'of weight modification intervent'
+p22
+I1
+sS'program'
+p23
+I1
+sS'treatment'
+p24
+I1
+sS'exercis'
+p25
+I1
+sS'conclusion recommend'
+p26
+I1
+sS'analys'
+p27
+I1
+sS'behavior change trials of'
+p28
+I1
+sS'yol minus predict'
+p29
+I1
+sS'studies of non-smok'
+p30
+I1
+sS'normal weight p'
+p31
+I1
+sS'arteri'
+p32
+I1
+sS'nation'
+p33
+I1
+sS'the internal carotid arteri'
+p34
+I1
+sS'of yhl'
+p35
+I1
+sS'introduct'
+p36
+I1
+sS'loss'
+p37
+I16
+sS'yol for'
+p38
+I1
+sS'bar'
+p39
+I1
+sS'longitudinal studi'
+p40
+I1
+sS'optimal outcom'
+p41
+I1
+sS'gender'
+p42
+I2
+sS'list'
+p43
+I1
+sS'serum creatinin'
+p44
+I1
+sS'clinical trials of weight modification intervent'
+p45
+I1
+sS'adjust'
+p46
+I1
+sS'outcome vari'
+p47
+I1
+sS'statist'
+p48
+I2
+sS'heart lung'
+p49
+I1
+sS'cardiovascular diseas'
+p50
+I1
+sS'small'
+p51
+I1
+sS'medicare eligibility list'
+p52
+I1
+sS'intervent'
+p53
+I10
+sS'internal carotid arteri'
+p54
+I1
+sS'subset'
+p55
+I1
+sS'predicted yol'
+p56
+I1
+sS'years of healthy lif'
+p57
+I1
+sS'eligibility list'
+p58
+I1
+sS'of yol'
+p59
+I3
+sS'interv'
+p60
+I3
+sS'cardiovascular health'
+p61
+I2
+sS'home interview'
+p62
+I1
+sS'evgfp'
+p63
+I9
+sS'expect'
+p64
+I2
+sS'year'
+p65
+I4
+sS'nhlbi'
+p66
+I2
+sS'event'
+p67
+I2
+sS'year equival'
+p68
+I1
+sS'subject'
+p69
+I7
+sS'variabl'
+p70
+I2
+sS'index'
+p71
+I1
+sS'statu'
+p72
+I2
+sS'error'
+p73
+I1
+sS'of a maximum poss'
+p74
+I1
+sS'of bmi'
+p75
+I4
+sS'compar'
+p76
+I1
+sS'particip'
+p77
+I1
+sS'categori'
+p78
+I1
+sS'yhl of a maximum poss'
+p79
+I1
+sS'score'
+p80
+I1
+sS'health'
+p81
+I6
+sS'mass index bmi'
+p82
+I2
+sS'over-adjust'
+p83
+I2
+sS'diseas'
+p84
+I5
+sS'comparing overweight'
+p85
+I3
+sS'cholesterol'
+p86
+I1
+sS'national heart'
+p87
+I1
+sS'obes'
+p88
+I4
+sS'years of'
+p89
+I3
+sS'population-based longitudinal studi'
+p90
+I1
+sS'peer'
+p91
+I3
+sS'life expect'
+p92
+I2
+sS'for clinical tri'
+p93
+I1
+sS'index bmi'
+p94
+I1
+sS'cerebrovascular diseas'
+p95
+I1
+sS'of'
+p96
+I3
+sS'extensive baselin'
+p97
+I1
+sS'drug'
+p98
+I1
+sS'trial'
+p99
+I5
+sS'recent studi'
+p100
+I1
+sS'yol minus predicted yol'
+p101
+I1
+sS'life-year'
+p102
+I1
+sS'mortal'
+p103
+I2
+sS'improv'
+p104
+I1
+sS'studi'
+p105
+I4
+sS't-test'
+p106
+I1
+sS'health statu'
+p107
+I2
+sS'life yol'
+p108
+I1
+sS'ch'
+p109
+I1
+sS'linear interpol'
+p110
+I1
+sS'guidelin'
+p111
+I4
+sS'surviv'
+p112
+I2
+sS'clinical tri'
+p113
+I6
+sS'lung'
+p114
+I1
+sS'serum cholesterol'
+p115
+I1
+sS'normal yielded smal'
+p116
+I1
+sS'error bar'
+p117
+I1
+sS'national heart lung'
+p118
+I1
+sS'risk'
+p119
+I2
+sS'self-imag'
+p120
+I1
+sS'cesd scor'
+p121
+I1
+sS'gradual weight gain'
+p122
+I2
+sS'behavior change tri'
+p123
+I1
+sS'yhl of'
+p124
+I1
+sS'age squar'
+p125
+I1
+sS'bmi categori'
+p126
+I1
+sS'questionnair'
+p127
+I2
+sS'invers'
+p128
+I1
+sS'non-smok'
+p129
+I1
+sS'continuous distribut'
+p130
+I1
+sS'implic'
+p131
+I1
+sS'osteo-arthr'
+p132
+I1
+sS'recommend'
+p133
+I2
+sS'albumin'
+p134
+I1
+sS'baseline home interview'
+p135
+I1
+sS'of unhealthy lif'
+p136
+I1
+sS'medicare elig'
+p137
+I1
+sS'implications for'
+p138
+I1
+sS'life'
+p139
+I7
+sS'of healthy lif'
+p140
+I1
+sS'population-based studi'
+p141
+I1
+sS'normal-weight p'
+p142
+I1
+sS'baseline covari'
+p143
+I2
+sS'bmi'
+p144
+I35
+sS'nhlbi guidelin'
+p145
+I2
+sS'treatment arm'
+p146
+I1
+sS'distribution of'
+p147
+I1
+sS'subclinical diseas'
+p148
+I1
+sS'adult'
+p149
+I2
+sS'implications for clinical tri'
+p150
+I1
+sS'heart diseas'
+p151
+I1
+sS'standard'
+p152
+I2
+sS'women'
+p153
+I2
+sS'survival analysis surviv'
+p154
+I1
+sS'normal women'
+p155
+I2
+sS'possibl'
+p156
+I1
+sS'health ev'
+p157
+I1
+sS'clinical trials of'
+p158
+I1
+sS'for bmi'
+p159
+I1
+sS'unhealthy lif'
+p160
+I1
+sS'calcul'
+p161
+I1
+sS'outcom'
+p162
+I6
+sS'absenc'
+p163
+I1
+sS'superiority of yhl'
+p164
+I1
+sS'of non-smok'
+p165
+I1
+sS'heart'
+p166
+I1
+sS'conclus'
+p167
+I1
+sS'population-based studies of non-smok'
+p168
+I1
+sS'normal bmi'
+p169
+I1
+sS'of key vari'
+p170
+I1
+sS'of the internal carotid arteri'
+p171
+I2
+sS'activ'
+p172
+I1
+sS'clinical covari'
+p173
+I1
+sS'relative superiority of'
+p174
+I1
+sS'creatinin'
+p175
+I1
+sS'years of unhealthy lif'
+p176
+I1
+sS'key vari'
+p177
+I1
+sS'instrumental act'
+p178
+I1
+sS'maximum thickness of'
+p179
+I1
+sS'yielded smal'
+p180
+I1
+sS'years of lif'
+p181
+I1
+sS'cohort'
+p182
+I4
+sS'weight-loss drug'
+p183
+I1
+sS'yol'
+p184
+I53
+sS'squar'
+p185
+I1
+sS'equival'
+p186
+I1
+sS'carotid arteri'
+p187
+I1
+sS'health studi'
+p188
+I2
+sS'arm'
+p189
+I1
+sS'cardiovascular ev'
+p190
+I1
+sS'subsequent analys'
+p191
+I1
+sS'minus predicted yol'
+p192
+I1
+sS'interview'
+p193
+I2
+sS'medicar'
+p194
+I1
+sS'baselin'
+p195
+I10
+sS'normal weight person'
+p196
+I1
+sS'confid'
+p197
+I3
+sS'maximum thickness of the internal carotid arteri'
+p198
+I1
+sS'relative superior'
+p199
+I1
+sS'distribution of key vari'
+p200
+I1
+sS'distribut'
+p201
+I2
+sS'maximum thickness of th'
+p202
+I1
+sS'telephone interview'
+p203
+I1
+sS'overweight'
+p204
+I2
+sS'yol for bmi'
+p205
+I1
+sS'covari'
+p206
+I10
+sS'yol minu'
+p207
+I1
+sS'extensive covari'
+p208
+I1
+sS'associ'
+p209
+I1
+sS'baseline bmi'
+p210
+I1
+sS'cesd'
+p211
+I1
+sS'optim'
+p212
+I1
+sS'exercise program'
+p213
+I1
+sS'confidence interv'
+p214
+I3
+sS'trials of weight modification intervent'
+p215
+I1
+sS'yhl'
+p216
+I58
+sS'age'
+p217
+I3
+sS'adult lif'
+p218
+I1
+sS'person'
+p219
+I2
+sS'mass'
+p220
+I2
+sS'gain'
+p221
+I4
+sS'interpol'
+p222
+I1
+sS'serum albumin'
+p223
+I1
+sS'maximum poss'
+p224
+I2
+stp225
+Rp226
+tp227
+.

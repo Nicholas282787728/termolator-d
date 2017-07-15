@@ -1,0 +1,722 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'nondestructive reverse breakdown'
+p7
+I1
+sS'reverse bia'
+p8
+I11
+sS'reverse leakage of a polycrystalline silicon'
+p9
+I1
+sS'conductivity of'
+p10
+I3
+sS'chain'
+p11
+I2
+sS'adjacent memory cel'
+p12
+I4
+sS'opposit'
+p13
+I2
+sS'electronics for'
+p14
+I1
+sS'cell program'
+p15
+I2
+sS'bias voltage drop'
+p16
+I1
+sS'breakdown diod'
+p17
+I1
+sS'scott boulevard santa clara ca'
+p18
+I1
+sS'non-destructive breakdown'
+p19
+I1
+sS'circuitri'
+p20
+I2
+sS'scott'
+p21
+I1
+sS'boulevard santa clara ca'
+p22
+I1
+sS'rectangular arrays of memory cel'
+p23
+I1
+sS'reverse breakdown diod'
+p24
+I1
+sS'representative array'
+p25
+I1
+sS'reverse leakag'
+p26
+I4
+sS'clara ca'
+p27
+I2
+sS'cell'
+p28
+I209
+sS'layout'
+p29
+I2
+sS'of the memory cel'
+p30
+I4
+sS'programming unselect'
+p31
+I1
+sS'scott boulevard santa clara'
+p32
+I1
+sS'p-type portions of word lines crossing n-type bit'
+p33
+I1
+sS'subject matt'
+p34
+I2
+sS'high-dielectr'
+p35
+I1
+sS'program'
+p36
+I33
+sS'reverse bias voltag'
+p37
+I2
+sS'densiti'
+p38
+I1
+sS'unprogrammed cel'
+p39
+I1
+sS'unselected cel'
+p40
+I1
+sS'publications of matrix semiconductor'
+p41
+I1
+sS'vertical stack'
+p42
+I1
+sS'programming unselected cel'
+p43
+I1
+sS'reverse bias breakdown'
+p44
+I1
+sS'array knal'
+p45
+I1
+sS'cell dens'
+p46
+I2
+sS'bia'
+p47
+I9
+sS'diode anod'
+p48
+I2
+sS'breakdown voltag'
+p49
+I5
+sS'reverse leakage of a polycrystalline silicon diod'
+p50
+I1
+sS'bit'
+p51
+I17
+sS'unprogrammed antifus'
+p52
+I2
+sS'loss'
+p53
+I8
+sS'voltag'
+p54
+I26
+sS'chain diode stack'
+p55
+I2
+sS'reverse program'
+p56
+I1
+sS'drop'
+p57
+I6
+sS'nm'
+p58
+I2
+sS'polycrystalline silicon'
+p59
+I1
+sS'minority carri'
+p60
+I1
+sS'horizontal direction of th'
+p61
+I1
+sS'programming speed for th'
+p62
+I1
+sS'of silicon'
+p63
+I1
+sS'bl3 adjac'
+p64
+I2
+sS'two-dimensional array'
+p65
+I1
+sS'page'
+p66
+I2
+sS'bit line bl3'
+p67
+I8
+sS'bit line bl2'
+p68
+I10
+sS'santa clara'
+p69
+I1
+sS'matrix semiconductor'
+p70
+I4
+sS'natur'
+p71
+I1
+sS'scheuerlein'
+p72
+I2
+sS'array hav'
+p73
+I4
+sS'conductivity of th'
+p74
+I1
+sS'of memory cel'
+p75
+I2
+sS'leakag'
+p76
+I4
+sS'right-most curv'
+p77
+I1
+sS'k antifus'
+p78
+I1
+sS'disadvantag'
+p79
+I1
+sS'bias voltag'
+p80
+I1
+sS'of matrix semiconductor'
+p81
+I1
+sS'for writing memory cel'
+p82
+I2
+sS'matrix'
+p83
+I3
+sS'conductivity of un-programmed antifus'
+p84
+I1
+sS'wl3'
+p85
+I3
+sS'wl4'
+p86
+I56
+sS'wl5'
+p87
+I17
+sS'wl6'
+p88
+I2
+sS'antifuse of'
+p89
+I1
+sS'semiconductor'
+p90
+I4
+sS'of word line wl4'
+p91
+I2
+sS'polycrystalline silicon diod'
+p92
+I2
+sS'inject'
+p93
+I2
+sS'intersect'
+p94
+I11
+sS'conduct'
+p95
+I14
+sS'integrated circuit memory array'
+p96
+I1
+sS'public'
+p97
+I1
+sS'cells comprising diod'
+p98
+I2
+sS'altern'
+p99
+I1
+sS'un-program'
+p100
+I1
+sS'barrier'
+p101
+I2
+sS'chain diod'
+p102
+I2
+sS'ration'
+p103
+I2
+sS'midpoint'
+p104
+I1
+sS'santa'
+p105
+I1
+sS'consumpt'
+p106
+I6
+sS'polycrystalline diod'
+p107
+I2
+sS'shrinkag'
+p108
+I1
+sS'cleev'
+p109
+I2
+sS'ma-154'
+p110
+I2
+sS'of a polycrystalline silicon diod'
+p111
+I1
+sS'intersection of word line wl4'
+p112
+I2
+sS'intersection of word line wl5'
+p113
+I1
+sS'of'
+p114
+I1
+sS'rectangular arrays of'
+p115
+I1
+sS'silicon diod'
+p116
+I1
+sS'bl3'
+p117
+I14
+sS'bl2'
+p118
+I20
+sS'silicon'
+p119
+I2
+sS'jame'
+p120
+I2
+sS'carrier'
+p121
+I1
+sS'of word line wl5'
+p122
+I1
+sS'neighbor'
+p123
+I1
+sS'swing'
+p124
+I1
+sS'two-dimensional memory array'
+p125
+I1
+sS'improv'
+p126
+I1
+sS'leakage conduct'
+p127
+I1
+sS'dielectric constant antifus'
+p128
+I1
+sS'leakage power loss'
+p129
+I1
+sS'antifuse of memory cel'
+p130
+I1
+sS'of nondestructive reverse breakdown'
+p131
+I1
+sS'asymmetric breakdown voltag'
+p132
+I2
+sS'bit line bl3 adjac'
+p133
+I1
+sS'ca'
+p134
+I2
+sS'three-dimension'
+p135
+I2
+sS'wast'
+p136
+I2
+sS'terminolog'
+p137
+I1
+sS'conductivity antifus'
+p138
+I1
+sS'nitrides of silicon'
+p139
+I1
+sS'programming speed for'
+p140
+I1
+sS'batteri'
+p141
+I1
+sS'array'
+p142
+I32
+sS'array having memory cel'
+p143
+I8
+sS'having memory cel'
+p144
+I4
+sS'kleveland'
+p145
+I2
+sS'bias breakdown'
+p146
+I1
+sS'rectangular array'
+p147
+I1
+sS'conductivity of the unprogrammed antifus'
+p148
+I1
+sS'the unprogrammed antifus'
+p149
+I1
+sS'of drive transistor'
+p150
+I1
+sS'low-leakage curv'
+p151
+I1
+sS'un-programmed antifus'
+p152
+I1
+sS'nitrid'
+p153
+I1
+sS'adjac'
+p154
+I1
+sS'the memory cel'
+p155
+I1
+sS'reverse-bias method for writing memory cel'
+p156
+I1
+sS'minor'
+p157
+I1
+sS'neighbor cel'
+p158
+I1
+sS'antifus'
+p159
+I47
+sS'writing memory cel'
+p160
+I1
+sS'left-most curv'
+p161
+I1
+sS'transistor'
+p162
+I2
+sS'scott boulevard santa'
+p163
+I1
+sS'diode stack'
+p164
+I2
+sS'negative program'
+p165
+I2
+sS'santa clara ca'
+p166
+I2
+sS'asymmetrical natur'
+p167
+I1
+sS'three-dimensional memory array'
+p168
+I3
+sS'erroneous program'
+p169
+I3
+sS'publications of matrix'
+p170
+I1
+sS'unprogrammed memory cel'
+p171
+I1
+sS'chalcogenid'
+p172
+I4
+sS'kamin'
+p173
+I1
+sS'matter'
+p174
+I2
+sS'non-destructive reverse breakdown diod'
+p175
+I1
+sS'lateral shrinkag'
+p176
+I1
+sS'intersection of'
+p177
+I5
+sS'imped'
+p178
+I2
+sS'b h'
+p179
+I1
+sS'reverse conduct'
+p180
+I1
+sS'curv'
+p181
+I11
+sS'diod'
+p182
+I8
+sS'reverse-bias method for writ'
+p183
+I1
+sS'constant'
+p184
+I1
+sS'large integrated circuit memory array'
+p185
+I1
+sS'non-destructive reverse breakdown'
+p186
+I2
+sS'dielectric const'
+p187
+I2
+sS'antifuse conduct'
+p188
+I1
+sS'intersection of bit'
+p189
+I2
+sS'bias'
+p190
+I1
+sS'pre-program'
+p191
+I1
+sS'anti-fuse memory cel'
+p192
+I1
+sS'horizontal direction of'
+p193
+I1
+sS'nitrides of'
+p194
+I1
+sS'of th'
+p195
+I1
+sS'protect'
+p196
+I1
+sS'of un-programmed antifus'
+p197
+I1
+sS'reverse leakage of'
+p198
+I1
+sS'voltage sw'
+p199
+I1
+sS'scott boulevard'
+p200
+I1
+sS'leakage of a polycrystalline silicon diod'
+p201
+I1
+sS'horizontal rail'
+p202
+I1
+sS'physics of'
+p203
+I1
+sS'ns'
+p204
+I1
+sS'of bit line bl3'
+p205
+I2
+sS'asymmetr'
+p206
+I1
+sS'polysilicon diod'
+p207
+I1
+sS'breakdown'
+p208
+I6
+sS'cell diod'
+p209
+I2
+sS'constant antifus'
+p210
+I1
+sS'publications of'
+p211
+I1
+sS'asymmetric breakdown'
+p212
+I2
+sS'p-type portions of word lines cross'
+p213
+I1
+sS'anti-fus'
+p214
+I1
+sS'arrays of memory cel'
+p215
+I1
+sS'rail'
+p216
+I1
+sS'anod'
+p217
+I2
+sS'programming voltag'
+p218
+I16
+sS'biasing phase change memory array'
+p219
+I1
+sS'dielectr'
+p220
+I1
+sS'reverse-bias leakag'
+p221
+I1
+sS'conductivity of drive transistor'
+p222
+I1
+sS'electronics for integr'
+p223
+I1
+sS'intermediate voltag'
+p224
+I1
+sS'stack'
+p225
+I3
+sS'physic'
+p226
+I1
+sS'reverse-bias method for'
+p227
+I1
+sS'ma-155'
+p228
+I1
+sS'word-line-bit-line terminolog'
+p229
+I1
+sS'reverse breakdown'
+p230
+I1
+sS'drain'
+p231
+I10
+sS'physics of nondestructive reverse breakdown'
+p232
+I1
+sS'reverse bias voltage drop'
+p233
+I1
+sS'of the unprogrammed antifus'
+p234
+I1
+sS'electron'
+p235
+I1
+sS'negative programming voltag'
+p236
+I1
+sS'voltage drop'
+p237
+I6
+sS'p-type portions of'
+p238
+I1
+sS'voltage program'
+p239
+I1
+sS'intersection of bit line bl3'
+p240
+I2
+sS'johan'
+p241
+I1
+stp242
+Rp243
+tp244
+.

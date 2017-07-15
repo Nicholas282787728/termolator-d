@@ -1,0 +1,1310 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'tissue damag'
+p7
+I1
+sS'isometric view of the distal end of'
+p8
+I2
+sS'of a subset'
+p9
+I2
+sS'common formulas of nitinol'
+p10
+I1
+sS'vena cava'
+p11
+I3
+sS'correl'
+p12
+I3
+sS'radio'
+p13
+I1
+sS'distal tip of the cathet'
+p14
+I1
+sS'onli'
+p15
+I2
+sS'physical contact of th'
+p16
+I1
+sS'wire electrod'
+p17
+I12
+sS'introduction valv'
+p18
+I2
+sS'proxim'
+p19
+I3
+sS'activ'
+p20
+I1
+sS'subject matt'
+p21
+I1
+sS'the pebax'
+p22
+I1
+sS'program'
+p23
+I2
+sS'rhythm'
+p24
+I1
+sS'intravasuclar catheters for'
+p25
+I1
+sS'o box'
+p26
+I1
+sS'introduc'
+p27
+I13
+sS'linear array parallel'
+p28
+I6
+sS'conductive material of a subset'
+p29
+I1
+sS'unitary structure of the cathet'
+p30
+I1
+sS'pre-form'
+p31
+I1
+sS'shaft'
+p32
+I6
+sS'arteri'
+p33
+I2
+sS'arrhythmia'
+p34
+I8
+sS'myocardium'
+p35
+I4
+sS'adjacent ring electrod'
+p36
+I2
+sS'electrical energi'
+p37
+I1
+sS'ablation cathet'
+p38
+I12
+sS'dando'
+p39
+I1
+sS'electrod'
+p40
+I68
+sS'intravasuclar catheters for abl'
+p41
+I1
+sS'excessive application of'
+p42
+I1
+sS'thermal insulating effects of'
+p43
+I1
+sS'polytetraflouroethylen'
+p44
+I2
+sS'distal portion of the cathet'
+p45
+I2
+sS'noncontractile tissu'
+p46
+I1
+sS'wire electrode abl'
+p47
+I2
+sS'preprogram'
+p48
+I1
+sS'electrical act'
+p49
+I1
+sS'interatrial septum'
+p50
+I2
+sS'common formula'
+p51
+I1
+sS'adjacent tissu'
+p52
+I3
+sS'ring electrod'
+p53
+I54
+sS'conductive wir'
+p54
+I3
+sS'of congestive heart'
+p55
+I1
+sS'formulations of pebax'
+p56
+I2
+sS'precurved sheath'
+p57
+I1
+sS'coagul'
+p58
+I1
+sS'distal tip'
+p59
+I5
+sS'linear lesion of'
+p60
+I1
+sS'shape-memory alloy'
+p61
+I1
+sS'cathet'
+p62
+I157
+sS'wire coupl'
+p63
+I1
+sS'linear lesion correl'
+p64
+I3
+sS'of the pebax'
+p65
+I1
+sS'curvilinear'
+p66
+I1
+sS'polyethylene terephthal'
+p67
+I2
+sS'eman'
+p68
+I1
+sS'wire'
+p69
+I56
+sS'cylindrical vessel'
+p70
+I1
+sS'excessive application of energi'
+p71
+I1
+sS'cardiac tissu'
+p72
+I8
+sS'the ablation cathet'
+p73
+I4
+sS'electrode lead wir'
+p74
+I14
+sS'similar polygon'
+p75
+I1
+sS'version'
+p76
+I1
+sS'pre-molding of the cathet'
+p77
+I1
+sS'polyest'
+p78
+I4
+sS'conduct'
+p79
+I1
+sS'endothelial damag'
+p80
+I1
+sS'distal end of a cathet'
+p81
+I3
+sS'pebax'
+p82
+I3
+sS'of a distal portion of the cathet'
+p83
+I2
+sS'coagulum'
+p84
+I2
+sS'transeptal sheath'
+p85
+I2
+sS'myocardial tissue causing tissu'
+p86
+I1
+sS'hamel mn'
+p87
+I1
+sS'the distal end of a cathet'
+p88
+I1
+sS'sink'
+p89
+I4
+sS'address'
+p90
+I1
+sS'plastic catheter shaft'
+p91
+I1
+sS'electrode r'
+p92
+I13
+sS'addressable subset'
+p93
+I1
+sS'valv'
+p94
+I8
+sS'box'
+p95
+I1
+sS'physiolog'
+p96
+I1
+sS'polyurethan'
+p97
+I3
+sS'dilat'
+p98
+I1
+sS'addressable subset of th'
+p99
+I1
+sS'linear array'
+p100
+I8
+sS'drug'
+p101
+I1
+sS'version of the cathet'
+p102
+I2
+sS'biocompat'
+p103
+I4
+sS'elevation view of'
+p104
+I1
+sS'cross-section view of'
+p105
+I2
+sS'tissue causing tissue necrosi'
+p106
+I1
+sS'longitudinal direction of th'
+p107
+I2
+sS'fluid lumen'
+p108
+I2
+sS'plan view of'
+p109
+I1
+sS'adjacent electrod'
+p110
+I1
+sS'introduction of'
+p111
+I1
+sS'transit'
+p112
+I5
+sS'of cardiac tissu'
+p113
+I1
+sS'synchronous atrioventricular contract'
+p114
+I1
+sS'introducer sheath'
+p115
+I1
+sS'tip of the ablation cathet'
+p116
+I1
+sS'polyethylen'
+p117
+I3
+sS'of the cathet'
+p118
+I23
+sS'the cardiac tissu'
+p119
+I1
+sS'atrium'
+p120
+I8
+sS'of the catheter shaft'
+p121
+I2
+sS'tamponad'
+p122
+I1
+sS'of fluid'
+p123
+I1
+sS'uninsulated conductive band'
+p124
+I1
+sS'the catheter shaft'
+p125
+I1
+sS'addressable subset of'
+p126
+I1
+sS'unitary structure of th'
+p127
+I1
+sS'coupl'
+p128
+I2
+sS'atrial arrhythmia'
+p129
+I2
+sS'distal tip electrode of the cathet'
+p130
+I1
+sS'longitudinal direction of the cathet'
+p131
+I2
+sS'connector'
+p132
+I3
+sS'non-contractil'
+p133
+I1
+sS'ablation electrod'
+p134
+I2
+sS'shape-retention wir'
+p135
+I5
+sS'atrial tachycardia'
+p136
+I1
+sS'sensitive st'
+p137
+I1
+sS'tachycardia'
+p138
+I2
+sS'dando jeremi'
+p139
+I1
+sS'formulas of nitinol'
+p140
+I1
+sS'adjacent r'
+p141
+I2
+sS'conductor'
+p142
+I3
+sS'cardiac arrhythmia'
+p143
+I1
+sS'sinoatri'
+p144
+I1
+sS'formulations of th'
+p145
+I1
+sS'nitinol exemplari'
+p146
+I1
+sS'of the distal end of a cathet'
+p147
+I2
+sS'symmetrical curvilinear'
+p148
+I1
+sS'non-uniform power dens'
+p149
+I1
+sS'tissue necrosi'
+p150
+I1
+sS'electrical conductor'
+p151
+I1
+sS'necrosis les'
+p152
+I1
+sS'electrode abl'
+p153
+I2
+sS'room'
+p154
+I1
+sS'p o'
+p155
+I1
+sS'introduction of fluid'
+p156
+I1
+sS'mn'
+p157
+I1
+sS'ectopic atrial tachycardia'
+p158
+I1
+sS'sheath'
+p159
+I4
+sS'iridium'
+p160
+I3
+sS'target tissu'
+p161
+I6
+sS'distal tip electrode of th'
+p162
+I1
+sS'of the conductive band'
+p163
+I4
+sS'of nitinol'
+p164
+I1
+sS'b h'
+p165
+I1
+sS'septum'
+p166
+I3
+sS'electrochem'
+p167
+I1
+sS'heart'
+p168
+I2
+sS'puncture wound'
+p169
+I2
+sS'conductive electrod'
+p170
+I2
+sS'distal end of the catheter shaft'
+p171
+I1
+sS'guide wir'
+p172
+I1
+sS'irregular polygon'
+p173
+I1
+sS'strain'
+p174
+I1
+sS'contract'
+p175
+I2
+sS'the conductive band'
+p176
+I3
+sS'eptf'
+p177
+I1
+sS'wire lumen'
+p178
+I1
+sS'vasculatur'
+p179
+I6
+sS'polyimid'
+p180
+I6
+sS'of th'
+p181
+I6
+sS'elevation view of a distal portion of th'
+p182
+I1
+sS'dando jeremy d'
+p183
+I1
+sS'energy overlap'
+p184
+I4
+sS'wound'
+p185
+I2
+sS'exemplary surface co'
+p186
+I1
+sS'isometric view of the distal end of th'
+p187
+I1
+sS'circumference of th'
+p188
+I6
+sS'for abl'
+p189
+I1
+sS'relative hemostasi'
+p190
+I1
+sS'pathological cause for the arrhythmia'
+p191
+I1
+sS'shape-memory wir'
+p192
+I9
+sS'lesion'
+p193
+I14
+sS'myocardial tissue causing tissue necrosi'
+p194
+I1
+sS'circumference of the r'
+p195
+I4
+sS'elevation view of a distal portion of the cathet'
+p196
+I1
+sS'fluid'
+p197
+I5
+sS'distal end of th'
+p198
+I7
+sS'formulations of'
+p199
+I3
+sS'parallel'
+p200
+I6
+sS'polygon'
+p201
+I2
+sS'embol'
+p202
+I1
+sS'pre-molding of'
+p203
+I1
+sS'polyamid'
+p204
+I3
+sS'coat'
+p205
+I6
+sS'cardiac cav'
+p206
+I6
+sS'stasi'
+p207
+I1
+sS'co-polyamide polym'
+p208
+I2
+sS'common formulas of'
+p209
+I1
+sS'the arrhythmia'
+p210
+I1
+sS'conventional cathet'
+p211
+I1
+sS'alloy'
+p212
+I1
+sS'nitinol wir'
+p213
+I1
+sS'electrode of the cathet'
+p214
+I1
+sS'of the distal end of the cathet'
+p215
+I2
+sS'incis'
+p216
+I1
+sS'shaft in-lin'
+p217
+I3
+sS'deform'
+p218
+I3
+sS'shape-memory strain'
+p219
+I1
+sS'cardiovascular tissu'
+p220
+I1
+sS'caviti'
+p221
+I7
+sS'exemplary cathet'
+p222
+I1
+sS'pathological cause for'
+p223
+I1
+sS'fibril'
+p224
+I1
+sS'circumfer'
+p225
+I8
+sS'uninsulated electrod'
+p226
+I1
+sS'equip'
+p227
+I1
+sS'braid'
+p228
+I2
+sS'conductive material of'
+p229
+I1
+sS'fluid introduct'
+p230
+I5
+sS'of the electrode r'
+p231
+I1
+sS'energized r'
+p232
+I1
+sS'distal tip of th'
+p233
+I2
+sS'distal end of'
+p234
+I9
+sS'helical electrode wir'
+p235
+I12
+sS'densiti'
+p236
+I8
+sS'cross-section view of the cathet'
+p237
+I2
+sS'the distal end of the cathet'
+p238
+I1
+sS'pulmonary vein'
+p239
+I10
+sS'av nod'
+p240
+I1
+sS'atrioventricular contract'
+p241
+I1
+sS'dissip'
+p242
+I2
+sS'therapi'
+p243
+I1
+sS'handl'
+p244
+I2
+sS'for the arrhythmia'
+p245
+I1
+sS'energy eman'
+p246
+I1
+sS'irregular heart'
+p247
+I1
+sS'band'
+p248
+I28
+sS'ventricular tachycardia'
+p249
+I1
+sS'electrode lead'
+p250
+I25
+sS'addressable subset of the electrode r'
+p251
+I1
+sS'polymer surface co'
+p252
+I1
+sS'optional fluid introduct'
+p253
+I1
+sS'plan view of th'
+p254
+I1
+sS'introduct'
+p255
+I6
+sS'hemostatic valv'
+p256
+I6
+sS'transmural les'
+p257
+I1
+sS'tissue abl'
+p258
+I1
+sS'drug therapi'
+p259
+I1
+sS'unitary structure of'
+p260
+I1
+sS'tip of the cathet'
+p261
+I1
+sS'helical wir'
+p262
+I12
+sS'cardiac ablation cathet'
+p263
+I2
+sS'exemplari'
+p264
+I1
+sS'intravasuclar cathet'
+p265
+I1
+sS'isometric view of th'
+p266
+I2
+sS'lead coupl'
+p267
+I1
+sS'subset'
+p268
+I2
+sS'atrial chamb'
+p269
+I2
+sS'the electrode r'
+p270
+I1
+sS'interv'
+p271
+I1
+sS'electrode tip'
+p272
+I1
+sS'muscl'
+p273
+I1
+sS'ventricl'
+p274
+I2
+sS'vessel'
+p275
+I1
+sS'nitinol'
+p276
+I4
+sS'atrial fibril'
+p277
+I1
+sS'resin'
+p278
+I1
+sS'rf energy eman'
+p279
+I1
+sS'hemodynam'
+p280
+I1
+sS'energi'
+p281
+I19
+sS'selding'
+p282
+I1
+sS'array'
+p283
+I2
+sS'pulmonary arteri'
+p284
+I2
+sS'guid'
+p285
+I1
+sS'excessive tissu'
+p286
+I1
+sS'chamber'
+p287
+I2
+sS'lead wir'
+p288
+I18
+sS'tube'
+p289
+I3
+sS'cross-section view of th'
+p290
+I2
+sS'temporary shape impart'
+p291
+I1
+sS'overlap'
+p292
+I4
+sS'plastic cathet'
+p293
+I1
+sS'rf'
+p294
+I7
+sS'of the cardiac tissu'
+p295
+I2
+sS'impart'
+p296
+I2
+sS'catheter shaft'
+p297
+I2
+sS'polyvinyl chlorid'
+p298
+I1
+sS'niti'
+p299
+I1
+sS'damag'
+p300
+I2
+sS'sensor'
+p301
+I4
+sS'alter'
+p302
+I1
+sS'ablat'
+p303
+I6
+sS'isometric view of'
+p304
+I4
+sS'excessive tissue damag'
+p305
+I1
+sS'continuous les'
+p306
+I2
+sS'linear'
+p307
+I1
+sS'physical contact of the cardiac tissu'
+p308
+I1
+sS'lesion of cardiac tissu'
+p309
+I1
+sS'of'
+p310
+I7
+sS'conductive band'
+p311
+I28
+sS'thermal insulating effects of th'
+p312
+I1
+sS'nitinol shape-memory wir'
+p313
+I1
+sS'irregular interv'
+p314
+I1
+sS'chlorid'
+p315
+I1
+sS'pellethan'
+p316
+I1
+sS'radio frequ'
+p317
+I1
+sS'dielectric surface co'
+p318
+I1
+sS'formulations of the pebax'
+p319
+I1
+sS'frequenc'
+p320
+I1
+sS'hamel'
+p321
+I1
+sS'pulmonari'
+p322
+I9
+sS'tip electrode of the cathet'
+p323
+I1
+sS'vision'
+p324
+I1
+sS'ablating energi'
+p325
+I1
+sS'cause for the arrhythmia'
+p326
+I1
+sS'ptfe'
+p327
+I1
+sS'electrical connector'
+p328
+I3
+sS'distal tip of'
+p329
+I2
+sS'distal'
+p330
+I1
+sS'circumference of'
+p331
+I6
+sS'transform'
+p332
+I1
+sS'circumference of the ring electrod'
+p333
+I4
+sS'pathological cause for th'
+p334
+I1
+sS'linear les'
+p335
+I4
+sS'ring'
+p336
+I59
+sS'plan view of the cathet'
+p337
+I1
+sS'pre-molding of th'
+p338
+I1
+sS'nickel-titanium'
+p339
+I1
+sS'transfer'
+p340
+I1
+sS'philadelphia'
+p341
+I1
+sS'flutter'
+p342
+I2
+sS'adjacent electrode r'
+p343
+I1
+sS'adjac'
+p344
+I2
+sS'formul'
+p345
+I3
+sS'longitud'
+p346
+I3
+sS'lumen'
+p347
+I16
+sS'atrialventricular'
+p348
+I1
+sS'numerous alter'
+p349
+I1
+sS'version of'
+p350
+I1
+sS'electrical conduct'
+p351
+I1
+sS'vena'
+p352
+I3
+sS'distal tip of the ablation cathet'
+p353
+I1
+sS'linear lesion of cardiac tissu'
+p354
+I1
+sS'of the ring electrod'
+p355
+I4
+sS'atria'
+p356
+I2
+sS'helical electrod'
+p357
+I1
+sS'tissu'
+p358
+I20
+sS'normal heart'
+p359
+I1
+sS'inlin'
+p360
+I2
+sS'hemostasi'
+p361
+I1
+sS'in-lin'
+p362
+I3
+sS'ablation les'
+p363
+I1
+sS'distal tip electrod'
+p364
+I1
+sS'helical wire electrod'
+p365
+I10
+sS'target'
+p366
+I6
+sS'catheters for abl'
+p367
+I1
+sS'physical contact of'
+p368
+I1
+sS'cardiac hemodynam'
+p369
+I1
+sS'pvc'
+p370
+I1
+sS'p o box'
+p371
+I1
+sS'coagulation necrosi'
+p372
+I2
+sS'matter'
+p373
+I1
+sS'anxieti'
+p374
+I1
+sS'peripheral vein'
+p375
+I2
+sS'electrical stimulu'
+p376
+I1
+sS'circumference of the conductive band'
+p377
+I2
+sS'causing tissue necrosi'
+p378
+I1
+sS'coil electrod'
+p379
+I1
+sS'distal tip electrode of'
+p380
+I1
+sS'shape-retent'
+p381
+I3
+sS'electrode lead coupl'
+p382
+I1
+sS'myocardial tissu'
+p383
+I1
+sS'array parallel'
+p384
+I6
+sS'the cathet'
+p385
+I13
+sS'femoral vein'
+p386
+I1
+sS'av'
+p387
+I2
+sS'lead wire coupl'
+p388
+I1
+sS'nitinol shape-retention wir'
+p389
+I1
+sS'necrosi'
+p390
+I5
+sS'heart muscl'
+p391
+I1
+sS'isometric view of a abl'
+p392
+I1
+sS'atrial flutt'
+p393
+I2
+sS'isometric view of a ablation cathet'
+p394
+I1
+sS'linear ablation les'
+p395
+I1
+sS'rf energi'
+p396
+I6
+sS'terephthal'
+p397
+I2
+sS'tip'
+p398
+I3
+sS'myocardial tissue caus'
+p399
+I1
+sS'cava'
+p400
+I3
+sS'of a cathet'
+p401
+I6
+sS'isometric view of a cathet'
+p402
+I1
+sS'normal electrochem'
+p403
+I1
+sS'of pebax'
+p404
+I2
+sS'the ring electrod'
+p405
+I4
+sS'isometric view of the distal end of the cathet'
+p406
+I1
+sS'plastically deform'
+p407
+I2
+sS'node'
+p408
+I2
+sS'stimulu'
+p409
+I1
+sS'polym'
+p410
+I2
+sS'of energi'
+p411
+I2
+sS'lesion correl'
+p412
+I3
+sS'two-fold'
+p413
+I1
+sS'continuous linear les'
+p414
+I1
+sS'plan'
+p415
+I9
+sS'preform'
+p416
+I1
+sS'isometric view of the distal end of a cathet'
+p417
+I1
+sS'elevation view of a distal portion of'
+p418
+I1
+sS'of the ablation cathet'
+p419
+I7
+sS'vein'
+p420
+I15
+sS'distal end of the cathet'
+p421
+I4
+sS'subset of the electrode r'
+p422
+I1
+sS'precurved transeptal sheath'
+p423
+I1
+sS'lead'
+p424
+I10
+sS'distal end of the ablation cathet'
+p425
+I3
+sS'pathological caus'
+p426
+I1
+sS'energized ring electrod'
+p427
+I1
+sS'fluid introduction valv'
+p428
+I2
+sS'tissue non-contractil'
+p429
+I1
+sS'thermal transf'
+p430
+I1
+sS'polyether-block co-polyamide polym'
+p431
+I2
+sS'longitudinal direction of'
+p432
+I2
+sS'martenist'
+p433
+I1
+sS'version of th'
+p434
+I1
+sS'electrode wir'
+p435
+I12
+sS'clinician'
+p436
+I5
+sS'correlative tub'
+p437
+I1
+stp438
+Rp439
+tp440
+.

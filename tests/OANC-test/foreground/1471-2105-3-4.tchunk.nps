@@ -1,0 +1,1181 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'of total rna'
+p7
+I1
+sS'dmd duplicate profil'
+p8
+I1
+sS'biotinylated crna'
+p9
+I3
+sS'homogeneous tissu'
+p10
+I1
+sS'accurate gene express'
+p11
+I1
+sS'sample profil'
+p12
+I2
+sS'parallel tissue culture experi'
+p13
+I1
+sS'dmd profil'
+p14
+I3
+sS'signific'
+p15
+I2
+sS'correl'
+p16
+I3
+sS'threshold'
+p17
+I3
+sS'pairwise surviv'
+p18
+I2
+sS'cdna-crna react'
+p19
+I1
+sS'normal serum'
+p20
+I1
+sS'yeast biolog'
+p21
+I1
+sS'female biopsi'
+p22
+I1
+sS'percentage difference cal'
+p23
+I1
+sS'four-comparison surviv'
+p24
+I1
+sS'unknown vari'
+p25
+I1
+sS'individual patient profil'
+p26
+I1
+sS'microarray'
+p27
+I10
+sS'dystrophin'
+p28
+I1
+sS'muscle microarray'
+p29
+I1
+sS'experimental reproduc'
+p30
+I1
+sS'analys'
+p31
+I7
+sS'cdna'
+p32
+I4
+sS'individual pati'
+p33
+I3
+sS'text convers'
+p34
+I1
+sS'hufl microarray'
+p35
+I1
+sS'yeast'
+p36
+I1
+sS'tissue culture experi'
+p37
+I1
+sS'express'
+p38
+I26
+sS'age groups of'
+p39
+I1
+sS'affymetrix custom muscle microarray'
+p40
+I1
+sS'questions concern'
+p41
+I1
+sS'biopsi'
+p42
+I21
+sS'quality control protocol'
+p43
+I1
+sS'affymetrix microarray'
+p44
+I2
+sS'rna purif'
+p45
+I1
+sS'affymetrix custom muscl'
+p46
+I1
+sS'cell cultur'
+p47
+I1
+sS'age groups of dmd pati'
+p48
+I1
+sS'list'
+p49
+I1
+sS'web sit'
+p50
+I3
+sS'p'
+p51
+I2
+sS'muscle biopsi'
+p52
+I6
+sS'ascertain'
+p53
+I1
+sS'age groups of dmd'
+p54
+I1
+sS'individual sampl'
+p55
+I1
+sS'genechip'
+p56
+I4
+sS'oligonucleotide prob'
+p57
+I1
+sS'murine rna'
+p58
+I1
+sS'liquid nitrogen'
+p59
+I1
+sS'biolog'
+p60
+I1
+sS'micrograms of gel-verifi'
+p61
+I1
+sS'homogeneous cultur'
+p62
+I1
+sS'gene express'
+p63
+I12
+sS'lut'
+p64
+I1
+sS'trizol'
+p65
+I1
+sS'factory synthesi'
+p66
+I1
+sS'accurate gen'
+p67
+I1
+sS'dendrogram'
+p68
+I1
+sS'statistical signific'
+p69
+I1
+sS'experi'
+p70
+I5
+sS'array experi'
+p71
+I1
+sS'public'
+p72
+I1
+sS'reproducibility of genechip hybrid'
+p73
+I1
+sS'genomic resourc'
+p74
+I1
+sS'defici'
+p75
+I1
+sS'crna sampl'
+p76
+I1
+sS'genet'
+p77
+I1
+sS'coeffici'
+p78
+I4
+sS'rna sampl'
+p79
+I4
+sS'amplif'
+p80
+I3
+sS'pathophysiological model'
+p81
+I1
+sS'purif'
+p82
+I1
+sS'dystrophin defici'
+p83
+I1
+sS'normal male biopsi'
+p84
+I1
+sS'interpret'
+p85
+I3
+sS'nois'
+p86
+I7
+sS'parallel tissu'
+p87
+I1
+sS'reaction'
+p88
+I1
+sS'intra-patient tissu'
+p89
+I2
+sS'culture experi'
+p90
+I1
+sS'shift'
+p91
+I1
+sS'duplicate profil'
+p92
+I1
+sS'custom musclechip'
+p93
+I1
+sS'mouse muscl'
+p94
+I1
+sS'micrograms of total rna'
+p95
+I1
+sS'affymetrix default'
+p96
+I2
+sS'dystrophy protein'
+p97
+I1
+sS'relative signific'
+p98
+I1
+sS'murine spleen'
+p99
+I1
+sS'concerning vari'
+p100
+I1
+sS'studi'
+p101
+I4
+sS'gene'
+p102
+I16
+sS'rna prepar'
+p103
+I1
+sS'tissue heterogen'
+p104
+I8
+sS't-test detection of express'
+p105
+I1
+sS'micrograms of'
+p106
+I2
+sS'rna accumul'
+p107
+I1
+sS'experimental platform'
+p108
+I1
+sS'murine tissu'
+p109
+I1
+sS'relative sensitivity of'
+p110
+I1
+sS'gene famili'
+p111
+I1
+sS'gibco brl'
+p112
+I1
+sS'murine muscle tissu'
+p113
+I1
+sS'affymetrix array'
+p114
+I1
+sS'brl'
+p115
+I1
+sS'affymetrix oligonucleotide array'
+p116
+I1
+sS'famili'
+p117
+I1
+sS'for the individual profil'
+p118
+I1
+sS'dystrophy profil'
+p119
+I1
+sS'systematic isol'
+p120
+I1
+sS'dna'
+p121
+I1
+sS'dystrophin-deficient mic'
+p122
+I1
+sS'histopathological abnorm'
+p123
+I1
+sS'calorie-restricted mouse muscl'
+p124
+I1
+sS'accumul'
+p125
+I1
+sS'dystrophy patient sampl'
+p126
+I1
+sS'call'
+p127
+I4
+sS'affymetrix softwar'
+p128
+I2
+sS'questions concerning vari'
+p129
+I1
+sS'criteria'
+p130
+I2
+sS'popul'
+p131
+I1
+sS'reproducibility of affymetrix array'
+p132
+I1
+sS'probe'
+p133
+I8
+sS'expression changes showing p'
+p134
+I1
+sS'of gel-verifi'
+p135
+I1
+sS'hybridization intens'
+p136
+I2
+sS'statistical threshold'
+p137
+I1
+sS'templat'
+p138
+I2
+sS'experimental vari'
+p139
+I10
+sS'sensitivity of interpret'
+p140
+I1
+sS'experimental sampl'
+p141
+I1
+sS'convers'
+p142
+I1
+sS'mg'
+p143
+I2
+sS'reproducibility of affymetrix'
+p144
+I1
+sS'inter-patient nois'
+p145
+I1
+sS'extensive filt'
+p146
+I1
+sS'prepar'
+p147
+I2
+sS'patient profil'
+p148
+I1
+sS'cluster'
+p149
+I2
+sS'age-matched female biopsi'
+p150
+I1
+sS'immunostain'
+p151
+I1
+sS'sample prepar'
+p152
+I1
+sS'four-pairwise surviv'
+p153
+I1
+sS'affymetrix microarray suite softwar'
+p154
+I1
+sS'cdna microarray'
+p155
+I1
+sS'surviv'
+p156
+I4
+sS'vivo tissu'
+p157
+I1
+sS'site'
+p158
+I3
+sS'perfect-match'
+p159
+I1
+sS'histopatholog'
+p160
+I1
+sS'gastrocnemius muscl'
+p161
+I1
+sS'hierarchical clust'
+p162
+I1
+sS'murine tissue rna'
+p163
+I1
+sS'oligonucleotide genechip'
+p164
+I1
+sS'pulmonary fibrosi'
+p165
+I1
+sS'protein'
+p166
+I1
+sS'relative contribut'
+p167
+I2
+sS'ascii'
+p168
+I1
+sS'parallel tissue cultur'
+p169
+I1
+sS'sever'
+p170
+I1
+sS'contribut'
+p171
+I1
+sS'filter'
+p172
+I1
+sS'affymetrix custom'
+p173
+I1
+sS'normal dystrophy protein'
+p174
+I1
+sS'individual expression profil'
+p175
+I1
+sS'of interpret'
+p176
+I1
+sS'individual array'
+p177
+I1
+sS'serum'
+p178
+I1
+sS'rnaeasi'
+p179
+I1
+sS'isol'
+p180
+I4
+sS'crna amplif'
+p181
+I3
+sS'split'
+p182
+I2
+sS'relative contribution of experimental variability of'
+p183
+I1
+sS'profiling experi'
+p184
+I2
+sS'relative sensit'
+p185
+I1
+sS'p-value threshold for the individual profil'
+p186
+I1
+sS'rna'
+p187
+I26
+sS'differential express'
+p188
+I1
+sS'resourc'
+p189
+I1
+sS'musclechip'
+p190
+I2
+sS'normal mal'
+p191
+I1
+sS'target intens'
+p192
+I1
+sS'crna prob'
+p193
+I1
+sS'experimental dataset'
+p194
+I1
+sS'custom muscle microarray'
+p195
+I1
+sS'snp'
+p196
+I5
+sS'qiagen'
+p197
+I1
+sS'pairwise comparison surviv'
+p198
+I1
+sS'tissue biopsi'
+p199
+I2
+sS'parallel'
+p200
+I3
+sS'averag'
+p201
+I2
+sS'web-queried sql databas'
+p202
+I1
+sS'affymetrix default algorithm'
+p203
+I1
+sS'diagnostic specimen'
+p204
+I1
+sS'fluorescence intens'
+p205
+I1
+sS'relative sensitivity of interpret'
+p206
+I1
+sS'microarray suite softwar'
+p207
+I2
+sS'vsm sampl'
+p208
+I1
+sS'of genechip hybrid'
+p209
+I1
+sS'expression profil'
+p210
+I17
+sS'model'
+p211
+I2
+sS'male biopsi'
+p212
+I1
+sS'polymorphic nois'
+p213
+I3
+sS'extensive expression profiling studi'
+p214
+I1
+sS'of dmd pati'
+p215
+I2
+sS'protocol'
+p216
+I2
+sS'condition-specific gen'
+p217
+I1
+sS'hybrid'
+p218
+I7
+sS'profiling studi'
+p219
+I3
+sS'duchenne muscular dystrophy patient sampl'
+p220
+I1
+sS'nitrogen'
+p221
+I1
+sS'paramet'
+p222
+I1
+sS'fbooth sampl'
+p223
+I1
+sS'rapid shift'
+p224
+I1
+sS'percent'
+p225
+I1
+sS'identif'
+p226
+I1
+sS'platform'
+p227
+I1
+sS'threshold for the individual profil'
+p228
+I1
+sS'murine array'
+p229
+I1
+sS'sample t-test'
+p230
+I1
+sS'suite softwar'
+p231
+I2
+sS'tissue rna'
+p232
+I1
+sS'primary defect'
+p233
+I1
+sS'fragment'
+p234
+I1
+sS'specimen'
+p235
+I1
+sS'gene list'
+p236
+I1
+sS'normal age-matched female biopsi'
+p237
+I1
+sS'microarray data analys'
+p238
+I1
+sS'expression profiling studi'
+p239
+I3
+sS'intra-patient vari'
+p240
+I6
+sS'of expression profil'
+p241
+I1
+sS'gel-verifi'
+p242
+I1
+sS'murine profil'
+p243
+I2
+sS'duchenn'
+p244
+I1
+sS'yr'
+p245
+I1
+sS'relative contribution of'
+p246
+I1
+sS'non-specif'
+p247
+I1
+sS'duchenne muscular dystrophy pati'
+p248
+I1
+sS't-test detection of'
+p249
+I1
+sS'organ'
+p250
+I1
+sS'inter-array variability of th'
+p251
+I1
+sS'calorie-restricted mous'
+p252
+I1
+sS'p-value threshold'
+p253
+I1
+sS'patient crna'
+p254
+I1
+sS'expression-profiling studi'
+p255
+I1
+sS'parallel murine myogenic cell cultur'
+p256
+I1
+sS'genom'
+p257
+I2
+sS'diff cal'
+p258
+I1
+sS'dmd patient crna'
+p259
+I1
+sS'affymetrix lim'
+p260
+I1
+sS'laboratori'
+p261
+I1
+sS'eg'
+p262
+I1
+sS'muscl'
+p263
+I10
+sS'percentag'
+p264
+I1
+sS'parallel murine myogenic cel'
+p265
+I1
+sS'sampl'
+p266
+I16
+sS'microarray experi'
+p267
+I1
+sS'intra-patient tissue heterogen'
+p268
+I1
+sS'outbred popul'
+p269
+I1
+sS'snp nois'
+p270
+I3
+sS'microgram'
+p271
+I2
+sS'vsm'
+p272
+I1
+sS'transport'
+p273
+I1
+sS'fibrosi'
+p274
+I1
+sS'variabl'
+p275
+I26
+sS'mixed sampl'
+p276
+I1
+sS'ascii text convers'
+p277
+I1
+sS'est'
+p278
+I1
+sS'cdna synthesi'
+p279
+I1
+sS'of express'
+p280
+I1
+sS'fold-chang'
+p281
+I1
+sS'profil'
+p282
+I38
+sS'environmental vari'
+p283
+I1
+sS'oligonucleotide microarray'
+p284
+I1
+sS'reproduc'
+p285
+I6
+sS'factori'
+p286
+I1
+sS'rna isol'
+p287
+I3
+sS'patient'
+p288
+I12
+sS'samples split'
+p289
+I1
+sS'condition-specific gene express'
+p290
+I1
+sS'nearest-neighbor hierarchical clustering analys'
+p291
+I1
+sS'expression profiling experi'
+p292
+I2
+sS'dmd patient'
+p293
+I8
+sS'myogenic cell cultur'
+p294
+I1
+sS'inter-array vari'
+p295
+I2
+sS'affymetrix microarray suit'
+p296
+I2
+sS'dna microarray'
+p297
+I1
+sS'workstat'
+p298
+I1
+sS'reproducibility of'
+p299
+I3
+sS'of'
+p300
+I1
+sS'silicon'
+p301
+I1
+sS'clustering analys'
+p302
+I1
+sS'intens'
+p303
+I3
+sS'neighbor'
+p304
+I1
+sS'duchenne dystrophi'
+p305
+I2
+sS'hierarchical clustering analys'
+p306
+I1
+sS't-test'
+p307
+I6
+sS'muscle tissu'
+p308
+I1
+sS'softwar'
+p309
+I6
+sS'relative contribution of experimental variability of prob'
+p310
+I1
+sS'muscular dystrophy patient sampl'
+p311
+I1
+sS'default paramet'
+p312
+I1
+sS't-test detect'
+p313
+I1
+sS'qualiti'
+p314
+I3
+sS'murine array experi'
+p315
+I1
+sS'dataset'
+p316
+I1
+sS'restrict'
+p317
+I1
+sS'web-queried sql'
+p318
+I1
+sS'array'
+p319
+I4
+sS'custom'
+p320
+I1
+sS'correlation coeffici'
+p321
+I4
+sS'default algorithm'
+p322
+I1
+sS'the individual profil'
+p323
+I1
+sS'question'
+p324
+I1
+sS'relative contribution of experimental vari'
+p325
+I1
+sS'individual express'
+p326
+I1
+sS'suit'
+p327
+I1
+sS'decrease cal'
+p328
+I1
+sS'quality control criteria'
+p329
+I1
+sS'individu'
+p330
+I2
+sS'mismatch prob'
+p331
+I1
+sS'affymetrix hufl microarray'
+p332
+I1
+sS'total rna'
+p333
+I1
+sS'inter-patient vari'
+p334
+I6
+sS'average r'
+p335
+I1
+sS'tissu'
+p336
+I12
+sS'gibco'
+p337
+I1
+sS'crna'
+p338
+I11
+sS'mice'
+p339
+I1
+sS'biopsy express'
+p340
+I1
+sS'genespr'
+p341
+I3
+sS'dmd'
+p342
+I16
+sS'target'
+p343
+I1
+sS'preserv'
+p344
+I1
+sS'affymetrix'
+p345
+I11
+sS'tree'
+p346
+I1
+sS'maximum'
+p347
+I1
+sS'gene expression changes showing p'
+p348
+I1
+sS'duchenne dystrophy profil'
+p349
+I1
+sS'individual profil'
+p350
+I9
+sS'patient biopsi'
+p351
+I1
+sS'biopsy split'
+p352
+I1
+sS'silicon genet'
+p353
+I1
+sS'rna samples split'
+p354
+I1
+sS'murine muscl'
+p355
+I1
+sS'ascii text'
+p356
+I1
+sS'dmd duplic'
+p357
+I1
+sS'oligonucleotide array'
+p358
+I1
+sS'affymetrix default paramet'
+p359
+I1
+sS'nt workstat'
+p360
+I1
+sS'defect'
+p361
+I1
+sS'file'
+p362
+I4
+sS'cultur'
+p363
+I2
+sS'progressive tissu'
+p364
+I1
+sS'individual duchenne dystrophi'
+p365
+I1
+sS'extensive expression profil'
+p366
+I1
+sS'caloric restrict'
+p367
+I1
+sS'lim'
+p368
+I1
+sS'nc'
+p369
+I2
+sS'p-value threshold for th'
+p370
+I1
+sS'genechip hybrid'
+p371
+I1
+sS'muscle group profil'
+p372
+I1
+sS'nt'
+p373
+I1
+sS'p-value threshold for'
+p374
+I1
+sS'tree view softwar'
+p375
+I1
+sS'preliminary model'
+p376
+I1
+sS'patient sampl'
+p377
+I1
+sS'p value threshold'
+p378
+I1
+sS'murine myogenic cell cultur'
+p379
+I1
+sS'crna prepar'
+p380
+I1
+sS'extensive express'
+p381
+I1
+sS'microarray suit'
+p382
+I2
+sS'oligonucleotid'
+p383
+I1
+sS'synthesi'
+p384
+I2
+sS'algorithm'
+p385
+I2
+sS'spleen'
+p386
+I1
+sS'inter-array variability of'
+p387
+I1
+sS'age'
+p388
+I2
+sS'heterogen'
+p389
+I8
+sS'abnorm'
+p390
+I1
+sS'percent nc'
+p391
+I1
+sS'dystrophi'
+p392
+I2
+sS'affymetrix genechip'
+p393
+I2
+sS'adequate post-hybridization sc'
+p394
+I1
+stp395
+Rp396
+tp397
+.

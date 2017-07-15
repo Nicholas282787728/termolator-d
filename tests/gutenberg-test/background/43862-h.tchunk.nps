@@ -1,0 +1,2279 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'represent'
+p7
+I1
+sS'ambitious woman'
+p8
+I1
+sS'brevet'
+p9
+I1
+sS'pirate ship'
+p10
+I2
+sS'scratch'
+p11
+I2
+sS'roy'
+p12
+I2
+sS'wormi'
+p13
+I1
+sS'dish'
+p14
+I1
+sS'long-run'
+p15
+I1
+sS'captain'
+p16
+I9
+sS'full page vignett'
+p17
+I1
+sS'children'
+p18
+I1
+sS'alp'
+p19
+I1
+sS'terbacc'
+p20
+I1
+sS'military habit'
+p21
+I1
+sS'recognit'
+p22
+I1
+sS'commissary stor'
+p23
+I3
+sS'father'
+p24
+I3
+sS'sea-voyage\xe2\x80\x94whil'
+p25
+I1
+sS'rebecca of sunnybrook farm'
+p26
+I1
+sS'brilliants melt'
+p27
+I1
+sS'deject'
+p28
+I1
+sS'ourtown'
+p29
+I2
+sS'week-day'
+p30
+I1
+sS'pride'
+p31
+I1
+sS'martial melodi'
+p32
+I1
+sS'blue-jay'
+p33
+I1
+sS'large octavo'
+p34
+I1
+sS'soft-gray piec'
+p35
+I1
+sS'dart\xe2\x80\x94a'
+p36
+I1
+sS'wood-pile hil'
+p37
+I2
+sS'dunlap'
+p38
+I4
+sS'reb'
+p39
+I12
+sS'spoon'
+p40
+I1
+sS'rolfe gilson'
+p41
+I1
+sS'of waving grass'
+p42
+I1
+sS'hobby-hors'
+p43
+I2
+sS'ticket'
+p44
+I1
+sS'n tonguecantel'
+p45
+I1
+sS'frosting-bowl'
+p46
+I1
+sS'vanilla ascii\xe2\x80\x9d'
+p47
+I2
+sS'cold steel'
+p48
+I1
+sS'tear'
+p49
+I1
+sS'henri'
+p50
+I1
+sS'chocol'
+p51
+I1
+sS'non-locatable land'
+p52
+I1
+sS'decorative text'
+p53
+I1
+sS'maple-tre'
+p54
+I1
+sS'servic'
+p55
+I1
+sS'surf of golden-rod'
+p56
+I1
+sS'rustl'
+p57
+I1
+sS'miller'
+p58
+I1
+sS'bedcloth'
+p59
+I1
+sS'mantel-shelf'
+p60
+I1
+sS'room up-stair'
+p61
+I1
+sS'sabbath'
+p62
+I1
+sS'cherub devin'
+p63
+I1
+sS'bread-and-milk'
+p64
+I1
+sS'grant'
+p65
+I1
+sS'glassi'
+p66
+I1
+sS'barn-sid'
+p67
+I1
+sS'england meeting hous'
+p68
+I1
+sS'chair'
+p69
+I1
+sS'abc'
+p70
+I1
+sS'chicago'
+p71
+I1
+sS'melt'
+p72
+I1
+sS'kate'
+p73
+I1
+sS'access'
+p74
+I2
+sS'indian'
+p75
+I5
+sS'week-day grandmoth'
+p76
+I1
+sS'york grosset'
+p77
+I1
+sS'little boy'
+p78
+I2
+sS'tarnal big hil'
+p79
+I1
+sS'skurri'
+p80
+I1
+sS'leg'
+p81
+I2
+sS'half-past'
+p82
+I6
+sS'theatric'
+p83
+I1
+sS'darning-needl'
+p84
+I1
+sS'hideous spectacle\xe2\x80\x94a'
+p85
+I1
+sS'china'
+p86
+I2
+sS'triumphs of the waxen blond'
+p87
+I1
+sS'coverlet'
+p88
+I1
+sS'commissary chocol'
+p89
+I1
+sS'boy'
+p90
+I3
+sS'unheed'
+p91
+I1
+sS'apple-tree shad'
+p92
+I1
+sS'chicago engin'
+p93
+I1
+sS'oregon lumber camp'
+p94
+I1
+sS'surf of waving grass'
+p95
+I1
+sS'cannon-bal'
+p96
+I1
+sS'cracker-barrel'
+p97
+I2
+sS'war-paint'
+p98
+I1
+sS'tonguecantel'
+p99
+I2
+sS'climb'
+p100
+I1
+sS'domain print edit'
+p101
+I1
+sS'awful cold'
+p102
+I1
+sS'julie opp'
+p103
+I1
+sS'sabbath fac'
+p104
+I1
+sS'heart'
+p105
+I2
+sS'win'
+p106
+I1
+sS'swing grandfath'
+p107
+I1
+sS'rebecca mari'
+p108
+I1
+sS'meadow-bank'
+p109
+I1
+sS'brevetted for'
+p110
+I1
+sS'alpin'
+p111
+I1
+sS'awful tal'
+p112
+I1
+sS'famili'
+p113
+I2
+sS'tub-day'
+p114
+I2
+sS'political carnag'
+p115
+I1
+sS'library-t'
+p116
+I1
+sS'surf of'
+p117
+I2
+sS'garden-path'
+p118
+I1
+sS'eye'
+p119
+I3
+sS'kate dougla'
+p120
+I1
+sS'awful nice p'
+p121
+I1
+sS'doubt'
+p122
+I2
+sS'call'
+p123
+I1
+sS'armi'
+p124
+I1
+sS'blaze'
+p125
+I1
+sS'out-door'
+p126
+I1
+sS'sight to-day\xe2\x80\x94though'
+p127
+I1
+sS'door'
+p128
+I2
+sS'porch'
+p129
+I4
+sS'public domain print edit'
+p130
+I1
+sS'rubber boot'
+p131
+I1
+sS'building-block'
+p132
+I1
+sS'chaw o'
+p133
+I1
+sS'work-basket up-stair'
+p134
+I1
+sS'meeting hous'
+p135
+I1
+sS'grandfath'
+p136
+I2
+sS'wind rustl'
+p137
+I1
+sS'w-what'
+p138
+I1
+sS'ware'
+p139
+I1
+sS'lord war'
+p140
+I1
+sS'wrathful mo'
+p141
+I1
+sS'cry-babi'
+p142
+I1
+sS'supper fath'
+p143
+I1
+sS'room'
+p144
+I1
+sS'hous'
+p145
+I1
+sS'ride'
+p146
+I1
+sS'work'
+p147
+I22
+sS'battl'
+p148
+I1
+sS'histori'
+p149
+I1
+sS'grenadi'
+p150
+I2
+sS'face wet'
+p151
+I1
+sS'corner groceri'
+p152
+I1
+sS'new england meeting hous'
+p153
+I1
+sS'frontispiec'
+p154
+I2
+sS'abc book'
+p155
+I1
+sS'supremaci'
+p156
+I1
+sS'church-bel'
+p157
+I1
+sS'bent'
+p158
+I1
+sS'battle-field of'
+p159
+I1
+sS'aladdin book'
+p160
+I1
+sS'climax'
+p161
+I1
+sS'tax'
+p162
+I1
+sS'hop-toad'
+p163
+I1
+sS'supper-tim'
+p164
+I2
+sS'print edit'
+p165
+I1
+sS'sun-spot'
+p166
+I1
+sS'dress'
+p167
+I1
+sS'the waxen blond'
+p168
+I1
+sS'old peabody pew'
+p169
+I1
+sS'ascii\xe2\x80\x9d'
+p170
+I2
+sS'grosset'
+p171
+I5
+sS'georg'
+p172
+I1
+sS'sunday'
+p173
+I1
+sS'desperate stand'
+p174
+I1
+sS'ominous shadow'
+p175
+I1
+sS'gate'
+p176
+I6
+sS'memory\xe2\x80\x94th'
+p177
+I1
+sS'street-lamp'
+p178
+I2
+sS'stand'
+p179
+I1
+sS'water-pail'
+p180
+I1
+sS'mess'
+p181
+I1
+sS'project gutenberg ebook'
+p182
+I2
+sS'lump'
+p183
+I1
+sS'birthday'
+p184
+I4
+sS'date'
+p185
+I1
+sS'law'
+p186
+I1
+sS'release d'
+p187
+I1
+sS'bread-and-butt'
+p188
+I2
+sS'man'
+p189
+I2
+sS'mother to-day'
+p190
+I1
+sS'silver dish'
+p191
+I1
+sS'coat'
+p192
+I1
+sS'social triumphs of the waxen blond'
+p193
+I1
+sS'gummy-gum'
+p194
+I13
+sS'caus'
+p195
+I1
+sS'switch'
+p196
+I1
+sS'preced'
+p197
+I1
+sS'green'
+p198
+I2
+sS'shade'
+p199
+I3
+sS'library fir'
+p200
+I1
+sS'wind'
+p201
+I1
+sS'mess cal'
+p202
+I1
+sS'unscraped frosting-bowl'
+p203
+I1
+sS'final desperate stand'
+p204
+I1
+sS'pant'
+p205
+I1
+sS'midnight'
+p206
+I1
+sS'carnag'
+p207
+I1
+sS'rebecca of'
+p208
+I1
+sS'cold'
+p209
+I1
+sS'commi'
+p210
+I1
+sS'ambulance corp'
+p211
+I1
+sS'down-stair'
+p212
+I5
+sS'thumb'
+p213
+I1
+sS'supper-t'
+p214
+I1
+sS'lo'
+p215
+I7
+sS'brook'
+p216
+I1
+sS'lizzie-in-the-kitchen'
+p217
+I4
+sS'personal gallantri'
+p218
+I1
+sS'closet countri'
+p219
+I1
+sS'window'
+p220
+I2
+sS'march morn'
+p221
+I1
+sS'of the waxen blond'
+p222
+I1
+sS'brown-bread tobacco'
+p223
+I1
+sS'fool'
+p224
+I1
+sS'crash'
+p225
+I1
+sS'hop'
+p226
+I1
+sS'sentenc'
+p227
+I2
+sS'captain jink'
+p228
+I10
+sS'jame'
+p229
+I1
+sS'pglaf'
+p230
+I1
+sS'to-night'
+p231
+I1
+sS'syrupy fing'
+p232
+I1
+sS'breath moth'
+p233
+I1
+sS'twilight'
+p234
+I1
+sS'silver'
+p235
+I6
+sS'empty flower-pot'
+p236
+I1
+sS'restrict'
+p237
+I2
+sS'goldenrod'
+p238
+I1
+sS'teenty-weenti'
+p239
+I1
+sS'edit'
+p240
+I1
+sS'piano-lamp'
+p241
+I1
+sS'the political carnag'
+p242
+I1
+sS'm-mother\xe2\x80\x94th'
+p243
+I1
+sS'rock'
+p244
+I2
+sS'normal puls'
+p245
+I1
+sS'em'
+p246
+I2
+sS'eye shin'
+p247
+I1
+sS'julie opp faversham'
+p248
+I1
+sS'of sunnybrook farm'
+p249
+I1
+sS'england'
+p250
+I1
+sS'intellig'
+p251
+I1
+sS'replac'
+p252
+I1
+sS'circus-rid'
+p253
+I3
+sS'thumb-mark'
+p254
+I1
+sS'flag-hung balconi'
+p255
+I1
+sS'social triumphs of th'
+p256
+I1
+sS'redistribut'
+p257
+I2
+sS'replacement copi'
+p258
+I1
+sS'non-combatants behind'
+p259
+I1
+sS'wood-pil'
+p260
+I1
+sS'girl'
+p261
+I1
+sS'back-yard f'
+p262
+I1
+sS'retribut'
+p263
+I1
+sS'velvet'
+p264
+I1
+sS'hideous groan'
+p265
+I1
+sS'fool o'
+p266
+I1
+sS'half-way'
+p267
+I1
+sS'hill'
+p268
+I5
+sS'uncl'
+p269
+I1
+sS'by-and-bi'
+p270
+I10
+sS'door-sil'
+p271
+I1
+sS'smudgi'
+p272
+I1
+sS'chloroform'
+p273
+I1
+sS'sun-bonnet'
+p274
+I1
+sS'river-sid'
+p275
+I2
+sS'situat'
+p276
+I1
+sS'rolfe gilson release d'
+p277
+I1
+sS'lineag'
+p278
+I1
+sS'hibernian charact'
+p279
+I1
+sS'york'
+p280
+I2
+sS'jane play'
+p281
+I1
+sS'recognition blaz'
+p282
+I1
+sS'roy rolfe gilson'
+p283
+I2
+sS'dicky-bird hop'
+p284
+I1
+sS'heart tragedi'
+p285
+I1
+sS'outsid'
+p286
+I1
+sS'swing'
+p287
+I1
+sS'turf'
+p288
+I2
+sS'dicky-bird'
+p289
+I1
+sS'shootin'
+p290
+I1
+sS'bucolic joy'
+p291
+I1
+sS'of golden-rod'
+p292
+I1
+sS'kate douglas wiggins stori'
+p293
+I1
+sS'feet'
+p294
+I1
+sS'briddish'
+p295
+I1
+sS'wrapper'
+p296
+I1
+sS'arkansa'
+p297
+I1
+sS'in-door'
+p298
+I1
+sS'ring'
+p299
+I1
+sS'breathless'
+p300
+I1
+sS'death-winged arrow'
+p301
+I1
+sS'naughty boy'
+p302
+I1
+sS'all-four'
+p303
+I1
+sS'licens'
+p304
+I4
+sS'heirloom'
+p305
+I1
+sS'teether'
+p306
+I1
+sS'ambul'
+p307
+I1
+sS'lumber camp'
+p308
+I1
+sS'stori'
+p309
+I2
+sS'penelop'
+p310
+I2
+sS'wedding-gown'
+p311
+I1
+sS'store'
+p312
+I4
+sS'gathering twilight'
+p313
+I1
+sS'bridal triangl'
+p314
+I1
+sS'text pag'
+p315
+I1
+sS'juli'
+p316
+I1
+sS'aunt jan'
+p317
+I2
+sS'negro'
+p318
+I1
+sS'naughty girl'
+p319
+I1
+sS'nighti'
+p320
+I2
+sS'beautifulest'
+p321
+I1
+sS'quak'
+p322
+I1
+sS'river-bank'
+p323
+I2
+sS'lord win'
+p324
+I1
+sS'symptom'
+p325
+I1
+sS'steel'
+p326
+I1
+sS'tummi'
+p327
+I1
+sS'tenement waif'
+p328
+I1
+sS'full pag'
+p329
+I1
+sS'derivative work'
+p330
+I3
+sS'charact'
+p331
+I1
+sS'henry russel'
+p332
+I1
+sS'spoon-fashion'
+p333
+I1
+sS'groceri'
+p334
+I1
+sS'kindli'
+p335
+I1
+sS'cause yesterday'
+p336
+I1
+sS'lover'
+p337
+I1
+sS'of the political carnag'
+p338
+I1
+sS'snow-flak'
+p339
+I1
+sS'orange-tre'
+p340
+I2
+sS'switch descend'
+p341
+I1
+sS'download'
+p342
+I1
+sS'tragedi'
+p343
+I1
+sS'blond'
+p344
+I5
+sS'arm-chair'
+p345
+I1
+sS'gay lord war'
+p346
+I1
+sS'squaw'
+p347
+I2
+sS'tale'
+p348
+I2
+sS'engin'
+p349
+I1
+sS'project gutenberg'
+p350
+I4
+sS'silk triangl'
+p351
+I1
+sS'commercial redistribut'
+p352
+I1
+sS'k-kill'
+p353
+I1
+sS'mud-pi'
+p354
+I1
+sS'gay lord'
+p355
+I1
+sS'charles nevil'
+p356
+I1
+sS'humorous knowledg'
+p357
+I1
+sS'sh'
+p358
+I7
+sS'big hil'
+p359
+I1
+sS'nazareth'
+p360
+I1
+sS'pear-tre'
+p361
+I1
+sS'military bear'
+p362
+I1
+sS'noth'
+p363
+I1
+sS'dee-de'
+p364
+I2
+sS'play'
+p365
+I2
+sS'copi'
+p366
+I1
+sS'distribut'
+p367
+I3
+sS'drummer-boy'
+p368
+I2
+sS'snuff'
+p369
+I1
+sS'battle-field of the political carnag'
+p370
+I1
+sS'price'
+p371
+I1
+sS'ebook'
+p372
+I5
+sS'salli'
+p373
+I1
+sS'soap-box'
+p374
+I1
+sS'charl'
+p375
+I1
+sS'brevetted for personal gallantri'
+p376
+I1
+sS'grave'
+p377
+I1
+sS'sugar pi'
+p378
+I6
+sS'cattle-thiev'
+p379
+I1
+sS'gather'
+p380
+I1
+sS'cover'
+p381
+I1
+sS'jane'
+p382
+I1
+sS'face'
+p383
+I3
+sS'pipe'
+p384
+I1
+sS'nice p'
+p385
+I1
+sS'sabbath grandmother\xe2\x80\x94for'
+p386
+I1
+sS'punkin-eat'
+p387
+I1
+sS'old chester tal'
+p388
+I1
+sS'door-bel'
+p389
+I1
+sS'aunt'
+p390
+I2
+sS'awesom'
+p391
+I1
+sS'official vers'
+p392
+I1
+sS'octave thanet'
+p393
+I1
+sS'ship-carpent'
+p394
+I1
+sS'melodi'
+p395
+I1
+sS'geographi'
+p396
+I1
+sS'cruller'
+p397
+I3
+sS'reviewing-stand'
+p398
+I1
+sS'corner'
+p399
+I1
+sS'leetl'
+p400
+I1
+sS'old chest'
+p401
+I1
+sS'monstrous glassi'
+p402
+I1
+sS'fatal dart\xe2\x80\x94a'
+p403
+I1
+sS'cow-bel'
+p404
+I1
+sS'half-word'
+p405
+I1
+sS'fenc'
+p406
+I1
+sS'jaw'
+p407
+I1
+sS'web sit'
+p408
+I1
+sS'oliver curwood'
+p409
+I1
+sS'sugar'
+p410
+I6
+sS'version'
+p411
+I1
+sS'engaging pictur'
+p412
+I1
+sS'emotional strain'
+p413
+I1
+sS'finger'
+p414
+I1
+sS'gret'
+p415
+I2
+sS'closet country up-stair'
+p416
+I1
+sS'awful sound'
+p417
+I1
+sS'front gat'
+p418
+I6
+sS'bear'
+p419
+I1
+sS'gilson'
+p420
+I1
+sS'new'
+p421
+I2
+sS'geo'
+p422
+I1
+sS'sentimentalist'
+p423
+I1
+sS'wolf-wind howl'
+p424
+I2
+sS'tobacco'
+p425
+I1
+sS'social triumphs of'
+p426
+I1
+sS'dinner-t'
+p427
+I2
+sS'sha'
+p428
+I1
+sS'appreciative audi'
+p429
+I1
+sS'rein'
+p430
+I1
+sS'cri'
+p431
+I1
+sS'work-basket'
+p432
+I2
+sS'manhood count'
+p433
+I1
+sS'false-fac'
+p434
+I2
+sS'habit'
+p435
+I1
+sS'midnight rid'
+p436
+I1
+sS'liquor'
+p437
+I1
+sS'knowledg'
+p438
+I1
+sS'vine'
+p439
+I2
+sS'tax return'
+p440
+I2
+sS'grass-blad'
+p441
+I1
+sS'george barr mccutcheon'
+p442
+I1
+sS'tender'
+p443
+I1
+sS'grandmother\xe2\x80\x94for'
+p444
+I1
+sS'arm'
+p445
+I1
+sS'baro'
+p446
+I1
+sS'family heirloom'
+p447
+I1
+sS'project'
+p448
+I4
+sS'closet'
+p449
+I1
+sS'morn'
+p450
+I4
+sS'project gutenberg licens'
+p451
+I2
+sS'uncle remu'
+p452
+I1
+sS'grandmoth'
+p453
+I1
+sS'aunt jane play'
+p454
+I1
+sS'apple-tre'
+p455
+I3
+sS'o darning-needl'
+p456
+I1
+sS'behind'
+p457
+I1
+sS'dinner-tim'
+p458
+I1
+sS'night-gown'
+p459
+I1
+sS'destini'
+p460
+I1
+sS'mayflow'
+p461
+I1
+sS'boy-fish'
+p462
+I1
+sS'appreci'
+p463
+I1
+sS'do'
+p464
+I1
+sS'dress parad'
+p465
+I1
+sS'joy'
+p466
+I2
+sS'original captain jink'
+p467
+I1
+sS'tut'
+p468
+I1
+sS'golden-rod'
+p469
+I2
+sS'waif'
+p470
+I1
+sS'song-sparrow'
+p471
+I1
+sS'johnny reb'
+p472
+I11
+sS'rhubarb thicket'
+p473
+I3
+sS'silver cup'
+p474
+I1
+sS'electronic work'
+p475
+I17
+sS'tub'
+p476
+I1
+sS'pussy-cat'
+p477
+I2
+sS'cup'
+p478
+I2
+sS'window shad'
+p479
+I1
+sS'waxen blond'
+p480
+I5
+sS'audienc'
+p481
+I1
+sS'roy rolfe gilson releas'
+p482
+I1
+sS'misunderstand'
+p483
+I1
+sS'ash-tray'
+p484
+I1
+sS'social supremaci'
+p485
+I1
+sS'social triumph'
+p486
+I1
+sS'up-stair'
+p487
+I5
+sS'schabelitz'
+p488
+I1
+sS'height'
+p489
+I1
+sS'tragic situ'
+p490
+I1
+sS'taylor'
+p491
+I1
+sS'good-by'
+p492
+I1
+sS'devin'
+p493
+I1
+sS'fairy-tal'
+p494
+I1
+sS'dul'
+p495
+I1
+sS'octavo'
+p496
+I1
+sS'apple-tree alp'
+p497
+I1
+sS'shadder'
+p498
+I1
+sS'mari'
+p499
+I1
+sS'breath'
+p500
+I1
+sS'douglas wiggins stori'
+p501
+I1
+sS'wheelbarrow-ship'
+p502
+I2
+sS'dut'
+p503
+I1
+sS'window-sil'
+p504
+I1
+sS'to-day\xe2\x80\x94though'
+p505
+I1
+sS'play stor'
+p506
+I1
+sS'water-r'
+p507
+I1
+sS'cherry-tre'
+p508
+I2
+sS'gay'
+p509
+I1
+sS'buck'
+p510
+I1
+sS'fire'
+p511
+I1
+sS'nageri'
+p512
+I1
+sS'stratum'
+p513
+I1
+sS'orczi'
+p514
+I1
+sS're-us'
+p515
+I2
+sS'pie'
+p516
+I7
+sS'patchwork coverlet'
+p517
+I1
+sS'pack-hors'
+p518
+I2
+sS'george barr'
+p519
+I1
+sS'blowy night'
+p520
+I1
+sS'door-knob'
+p521
+I1
+sS'individual work'
+p522
+I2
+sS'sound'
+p523
+I1
+sS'jink'
+p524
+I10
+sS'domain ebook'
+p525
+I1
+sS'original captain'
+p526
+I1
+sS'knot-hol'
+p527
+I1
+sS'mantel-shelf\xe2\x80\x94'
+p528
+I1
+sS'vanilla'
+p529
+I2
+sS'remu'
+p530
+I1
+sS'james oliv'
+p531
+I1
+sS'unflushed cheek'
+p532
+I1
+sS'easy-chair'
+p533
+I1
+sS'charles neville buck'
+p534
+I1
+sS'final tear'
+p535
+I1
+sS'grand armi'
+p536
+I1
+sS'baroness orczi'
+p537
+I1
+sS'cherub'
+p538
+I1
+sS'knob'
+p539
+I1
+sS'gimm'
+p540
+I1
+sS'battle-cri'
+p541
+I1
+sS'engag'
+p542
+I1
+sS'barr mccutcheon'
+p543
+I1
+sS'site'
+p544
+I1
+sS'strain'
+p545
+I1
+sS'return'
+p546
+I1
+sS'octav'
+p547
+I1
+sS'paw'
+p548
+I1
+sS'henry russell mil'
+p549
+I1
+sS'binari'
+p550
+I1
+sS'sail-boat'
+p551
+I3
+sS'descend'
+p552
+I1
+sS'silver spoon'
+p553
+I1
+sS'grand'
+p554
+I1
+sS'heart quak'
+p555
+I1
+sS'week'
+p556
+I1
+sS'youth'
+p557
+I2
+sS'gutenberg ebook'
+p558
+I2
+sS'harrison fish'
+p559
+I2
+sS'mountain'
+p560
+I1
+sS'coffee-pot hil'
+p561
+I1
+sS'little pric'
+p562
+I1
+sS'yesterday'
+p563
+I1
+sS'bed-tim'
+p564
+I1
+sS'moment'
+p565
+I1
+sS'supper'
+p566
+I1
+sS'domestic joy'
+p567
+I1
+sS'roy rolf'
+p568
+I2
+sS'special rul'
+p569
+I1
+sS'brown-bread'
+p570
+I3
+sS'cheek'
+p571
+I1
+sS'thought'
+p572
+I1
+sS'head bent'
+p573
+I1
+sS'public domain ebook'
+p574
+I1
+sS'mother'
+p575
+I4
+sS'tail-feath'
+p576
+I1
+sS'old peabodi'
+p577
+I1
+sS'howl'
+p578
+I2
+sS'roy rolfe gilson release d'
+p579
+I1
+sS'country up-stair'
+p580
+I1
+sS'fir-tre'
+p581
+I1
+sS'thicket'
+p582
+I3
+sS'master-strok'
+p583
+I1
+sS'harrison'
+p584
+I2
+sS'flower-pot'
+p585
+I3
+sS'public domain print'
+p586
+I1
+sS'decorative text pag'
+p587
+I1
+sS'theatrical histori'
+p588
+I1
+sS'clock-shelf'
+p589
+I1
+sS'web'
+p590
+I1
+sS'rubber'
+p591
+I1
+sS'parad'
+p592
+I1
+sS'rose'
+p593
+I1
+sS'gate-craft'
+p594
+I1
+sS'rocking chair'
+p595
+I2
+sS'wet'
+p596
+I1
+sS'oregon lumb'
+p597
+I1
+sS'alpine shad'
+p598
+I1
+sS'faversham'
+p599
+I1
+sS'original stori'
+p600
+I1
+sS'royalti'
+p601
+I3
+sS'march'
+p602
+I1
+sS'piec'
+p603
+I1
+sS'chester tal'
+p604
+I1
+sS'china ash-tray'
+p605
+I1
+sS'wolf-wind'
+p606
+I1
+sS'snowdrift'
+p607
+I1
+sS'elaborate wrapp'
+p608
+I1
+sS'council-meet'
+p609
+I2
+sS'bit'
+p610
+I1
+sS'rebecca'
+p611
+I3
+sS'you'
+p612
+I4
+sS'james oliver curwood'
+p613
+I1
+sS'smoking-jacket'
+p614
+I1
+sS'vine-clad height'
+p615
+I1
+sS'rocking chair hil'
+p616
+I1
+sS'battle-field of th'
+p617
+I1
+sS'earthquak'
+p618
+I1
+sS'family law'
+p619
+I1
+sS'wood-pile mountain'
+p620
+I1
+sS'mustach'
+p621
+I1
+sS'night'
+p622
+I1
+sS'thanet'
+p623
+I1
+sS'christmas-tre'
+p624
+I6
+sS'surf'
+p625
+I2
+sS'old'
+p626
+I2
+sS'basket-cav'
+p627
+I1
+sS'bob-sl'
+p628
+I2
+sS'sitting-room window'
+p629
+I1
+sS'courtesi'
+p630
+I1
+sS'brodney'
+p631
+I1
+sS'fagot'
+p632
+I1
+sS'sight'
+p633
+I1
+sS'lamp-light'
+p634
+I1
+sS'wiggins stori'
+p635
+I1
+sS'librari'
+p636
+I3
+sS'hearth-rug'
+p637
+I1
+sS'winter-tim'
+p638
+I1
+sS'pew'
+p639
+I1
+sS'lean'
+p640
+I1
+sS'gilson release d'
+p641
+I1
+sS'e-mail'
+p642
+I1
+sS'nonproprietari'
+p643
+I1
+sS'breakfast-tim'
+p644
+I1
+sS'scalp'
+p645
+I1
+sS'arbor-seat'
+p646
+I2
+sS'distribution of electronic work'
+p647
+I1
+sS'public domain'
+p648
+I5
+sS'plumag'
+p649
+I1
+sS'shadow'
+p650
+I1
+sS'arrow'
+p651
+I1
+sS'fine book'
+p652
+I1
+sS'service moth'
+p653
+I1
+sS'diplomatic preced'
+p654
+I1
+sS'apple-bough'
+p655
+I3
+sS'adversari'
+p656
+I1
+sS'rug'
+p657
+I1
+sS'dicky-bird outsid'
+p658
+I1
+sS'corp'
+p659
+I1
+sS'glassies crash'
+p660
+I1
+sS'r-rose i'
+p661
+I1
+sS'chafe'
+p662
+I1
+sS'attractive cov'
+p663
+I1
+sS'neville buck'
+p664
+I1
+sS'of'
+p665
+I1
+sS'new england'
+p666
+I2
+sS'page'
+p667
+I1
+sS'gutenberg licens'
+p668
+I2
+sS'juicy appl'
+p669
+I1
+sS'of electronic work'
+p670
+I1
+sS'mccutcheon'
+p671
+I1
+sS'kate douglas wiggin'
+p672
+I1
+sS'owl'
+p673
+I1
+sS'battle-field'
+p674
+I1
+sS'trademark'
+p675
+I1
+sS'bay-window'
+p676
+I1
+sS'front porch'
+p677
+I2
+sS'domain'
+p678
+I3
+sS'curwood'
+p679
+I1
+sS'waving grass'
+p680
+I1
+sS'guard'
+p681
+I2
+sS'library rug'
+p682
+I1
+sS'squaw man'
+p683
+I1
+sS'rose o'
+p684
+I1
+sS'week-day morn'
+p685
+I1
+sS'pie to-day'
+p686
+I1
+sS'triangl'
+p687
+I3
+sS'pictur'
+p688
+I1
+sS'spectacle\xe2\x80\x94a'
+p689
+I1
+sS'face grav'
+p690
+I1
+sS'grass-stalk'
+p691
+I1
+sS'appl'
+p692
+I1
+sS'soldier-hat'
+p693
+I1
+sS'suit'
+p694
+I1
+sS'ancestral prid'
+p695
+I1
+sS'front door'
+p696
+I1
+sS'wigwam'
+p697
+I2
+sS'foam'
+p698
+I1
+sS'head'
+p699
+I1
+sS'farm'
+p700
+I1
+sS'jug'
+p701
+I1
+sS'groan'
+p702
+I1
+sS'frost'
+p703
+I1
+sS'peabody pew'
+p704
+I1
+sS'next morn'
+p705
+I1
+sS'distribution of'
+p706
+I1
+sS'hi'
+p707
+I1
+sS'hm'
+p708
+I1
+sS'awful thought'
+p709
+I1
+sS'bright-pink'
+p710
+I1
+sS'count'
+p711
+I1
+sS'woman'
+p712
+I1
+sS'pussy-scratch'
+p713
+I1
+sS'l-lantern'
+p714
+I1
+sS'wood-shed door'
+p715
+I1
+sS'humorous bit'
+p716
+I1
+sS'gallantri'
+p717
+I1
+sS'grass'
+p718
+I1
+sS'vanil'
+p719
+I1
+sS'puls'
+p720
+I1
+sS'camp'
+p721
+I1
+sS'apple-pi'
+p722
+I1
+sS'for personal gallantri'
+p723
+I1
+sS'finger-tip'
+p724
+I1
+sS'corn-cob'
+p725
+I2
+sS'balconi'
+p726
+I1
+sS'johnni'
+p727
+I11
+sS'captain lean'
+p728
+I1
+sS'sailor suit'
+p729
+I1
+sS'ship'
+p730
+I2
+sS'opp faversham'
+p731
+I1
+sS'bird-song'
+p732
+I1
+sS'middlesex'
+p733
+I1
+sS'boot'
+p734
+I1
+sS'captain chaf'
+p735
+I1
+sS'book'
+p736
+I3
+sS'new england meet'
+p737
+I1
+sS'naughty little boy'
+p738
+I2
+sS'chair hil'
+p739
+I1
+sS'republican ticket'
+p740
+I1
+sS'rebecca of sunnybrook'
+p741
+I1
+sS'love-word'
+p742
+I1
+sS'trademark licens'
+p743
+I1
+sS'rake-handl'
+p744
+I1
+sS'patchy-p'
+p745
+I1
+sS'oregon'
+p746
+I1
+sS'surf of wav'
+p747
+I1
+sS'fisher'
+p748
+I2
+sS'russell mil'
+p749
+I1
+sS'awful morn'
+p750
+I1
+sS'land'
+p751
+I1
+sS'to-day'
+p752
+I5
+sS'corn-cob pip'
+p753
+I1
+sS'sunnybrook farm'
+p754
+I1
+sS'rule'
+p755
+I1
+sS'reading-t'
+p756
+I1
+sS'unique destini'
+p757
+I1
+sS'grenadier guard'
+p758
+I2
+sS'shine'
+p759
+I1
+sS'military man'
+p760
+I1
+stp761
+Rp762
+tp763
+.

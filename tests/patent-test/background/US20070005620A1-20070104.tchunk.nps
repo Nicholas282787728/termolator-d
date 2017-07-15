@@ -1,0 +1,398 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'uri'
+p7
+I1
+sS'armonk ni'
+p8
+I1
+sS'code'
+p9
+I1
+sS'identifi'
+p10
+I65
+sS'program comprising instruct'
+p11
+I2
+sS'uniform resource identifi'
+p12
+I1
+sS'ca'
+p13
+I3
+sS'palo alto'
+p14
+I1
+sS'catalog nod'
+p15
+I1
+sS'program cod'
+p16
+I1
+sS'dbmse'
+p17
+I2
+sS'scott'
+p18
+I1
+sS'dbm'
+p19
+I11
+sS'skill'
+p20
+I3
+sS'massiv'
+p21
+I1
+sS'loeser'
+p22
+I1
+sS'stringid column'
+p23
+I2
+sS'languag'
+p24
+I3
+sS'xml'
+p25
+I7
+sS'wan'
+p26
+I1
+sS'scotts valley ca'
+p27
+I1
+sS'lo'
+p28
+I1
+sS'optical disk drives for'
+p29
+I1
+sS'fixed size integ'
+p30
+I1
+sS'optical disk'
+p31
+I1
+sS'busi'
+p32
+I1
+sS'query processor'
+p33
+I1
+sS'exchang'
+p34
+I1
+sS'flowchart'
+p35
+I6
+sS'instruct'
+p36
+I5
+sS'armonk'
+p37
+I1
+sS'string'
+p38
+I42
+sS'default entri'
+p39
+I1
+sS'namespac'
+p40
+I6
+sS'palo alto ca'
+p41
+I1
+sS'node tre'
+p42
+I3
+sS'exemplary environ'
+p43
+I1
+sS'scotts valley'
+p44
+I1
+sS'mpp'
+p45
+I3
+sS'road map'
+p46
+I1
+sS'db2'
+p47
+I2
+sS'present'
+p48
+I1
+sS'ibm'
+p49
+I2
+sS'document compress'
+p50
+I1
+sS'name'
+p51
+I18
+sS'administr'
+p52
+I2
+sS'business partn'
+p53
+I1
+sS'default'
+p54
+I1
+sS'status column'
+p55
+I3
+sS'tree'
+p56
+I3
+sS'prefix'
+p57
+I1
+sS'integ'
+p58
+I2
+sS'string statu'
+p59
+I1
+sS'alto ca'
+p60
+I1
+sS'runtim'
+p61
+I1
+sS'xml databas'
+p62
+I1
+sS'b h'
+p63
+I1
+sS'exemplary associ'
+p64
+I1
+sS'manag'
+p65
+I2
+sS'database manag'
+p66
+I4
+sS'ordinary skil'
+p67
+I3
+sS'purchas'
+p68
+I1
+sS'file'
+p69
+I2
+sS'attribute nam'
+p70
+I8
+sS'massively parallel'
+p71
+I1
+sS'share'
+p72
+I2
+sS'continu'
+p73
+I1
+sS'mpp environ'
+p74
+I2
+sS'database processor'
+p75
+I1
+sS'loeser henrik'
+p76
+I1
+sS'tag'
+p77
+I1
+sS'palo'
+p78
+I1
+sS'partner'
+p79
+I1
+sS'disadvantag'
+p80
+I1
+sS'valley ca'
+p81
+I1
+sS'dasd'
+p82
+I1
+sS'check'
+p83
+I4
+sS'maps str'
+p84
+I1
+sS'exemplary computer environ'
+p85
+I2
+sS'homogeneous docu'
+p86
+I1
+sS'extensible markup languag'
+p87
+I1
+sS'database system shar'
+p88
+I1
+sS'databas'
+p89
+I15
+sS'namespace prefix'
+p90
+I1
+sS'uniform'
+p91
+I1
+sS'access'
+p92
+I1
+sS'ny'
+p93
+I1
+sS'lookup'
+p94
+I10
+sS'rdbm'
+p95
+I1
+sS'internet'
+p96
+I2
+sS'stringid correspond'
+p97
+I1
+sS'document'
+p98
+I9
+sS'string identifi'
+p99
+I10
+sS'namespace str'
+p100
+I12
+sS'node'
+p101
+I7
+sS'map'
+p102
+I6
+sS'program'
+p103
+I10
+sS'compress'
+p104
+I1
+sS'database administr'
+p105
+I2
+sS'henrik'
+p106
+I1
+sS'stringid'
+p107
+I22
+sS'statu'
+p108
+I7
+sS'extens'
+p109
+I1
+sS'catalog'
+p110
+I1
+sS'markup languag'
+p111
+I3
+sS'plan'
+p112
+I1
+sS'sql'
+p113
+I1
+sS'associ'
+p114
+I37
+sS'los gato'
+p115
+I1
+sS'uniform resourc'
+p116
+I1
+sS'los gatos ca'
+p117
+I1
+sS'extensible markup'
+p118
+I1
+sS'executable plan'
+p119
+I1
+sS'column'
+p120
+I7
+sS'entri'
+p121
+I1
+sS'string column'
+p122
+I2
+sS'on-disk'
+p123
+I1
+sS'correspond'
+p124
+I1
+sS'browser present'
+p125
+I1
+sS'temporary statu'
+p126
+I3
+sS'environ'
+p127
+I7
+sS'user-defined tag'
+p128
+I1
+sS'xml document'
+p129
+I2
+sS'resource identifi'
+p130
+I1
+sS'gatos ca'
+p131
+I1
+sS'processor'
+p132
+I2
+sS'road'
+p133
+I1
+stp134
+Rp135
+tp136
+.

@@ -6,8 +6,8 @@
 The_Termolator.iml
 temporary_TERMOLATOR_POS.properties
 __pycache__/
-gutenberg-test/.fact
-gutenberg-test/.pos
-gutenberg-test/.txt2
-gutenberg-test/.txt3
+tests/gutenberg-test/.fact
+tests/gutenberg-test/.pos
+tests/gutenberg-test/.txt2
+tests/gutenberg-test/.txt3
 tmpexec

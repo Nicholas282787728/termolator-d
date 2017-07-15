@@ -1,0 +1,806 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'dermis-contacting arm'
+p7
+I2
+sS'sub-epidermic tissu'
+p8
+I3
+sS'radial expans'
+p9
+I1
+sS'skin'
+p10
+I6
+sS'surgical procedure cal'
+p11
+I1
+sS'hemosiderosi'
+p12
+I1
+sS'ordinary hypodermic needl'
+p13
+I1
+sS'expandable seg'
+p14
+I1
+sS'corkscrew advanc'
+p15
+I1
+sS'cosmetic appear'
+p16
+I1
+sS'zadini filiberto'
+p17
+I1
+sS'surgical procedure called skin subcis'
+p18
+I1
+sS'catheter shaft'
+p19
+I1
+sS'bands detach'
+p20
+I1
+sS'of cellulitic fibrous band'
+p21
+I1
+sS'bar'
+p22
+I1
+sS'zadini filiberto p'
+p23
+I1
+sS'slideable piston'
+p24
+I1
+sS'imperforated tip'
+p25
+I3
+sS'radio'
+p26
+I2
+sS'of the fibrous band'
+p27
+I2
+sS'panniculopathi'
+p28
+I5
+sS'mono-us'
+p29
+I1
+sS'collagenas'
+p30
+I1
+sS'medical grade steel allowing penetr'
+p31
+I1
+sS'vertical seg'
+p32
+I4
+sS'cold-laser massag'
+p33
+I1
+sS'edematous-fibrosclerotic panniculopathi'
+p34
+I6
+sS'of subcutaneous fibrous band'
+p35
+I1
+sS'infra-epiderm'
+p36
+I1
+sS'arm'
+p37
+I7
+sS'hypoderm'
+p38
+I1
+sS'liposuct'
+p39
+I1
+sS'appear'
+p40
+I3
+sS'apparatus'
+p41
+I1
+sS'continuation-in-part'
+p42
+I1
+sS'filler'
+p43
+I1
+sS'inflammatory react'
+p44
+I1
+sS'dermatological device for subcis'
+p45
+I1
+sS'melt'
+p46
+I1
+sS'detachment of subcutaneous fibrous band'
+p47
+I1
+sS'piston'
+p48
+I1
+sS'subcision of sub-epidermic tissu'
+p49
+I1
+sS'lipolyt'
+p50
+I1
+sS'manipul'
+p51
+I1
+sS'extens'
+p52
+I2
+sS'adhesive bind'
+p53
+I1
+sS'camarillo'
+p54
+I1
+sS'distendable airtight membran'
+p55
+I1
+sS'blunt lift'
+p56
+I1
+sS'fibrous band'
+p57
+I30
+sS'reaction'
+p58
+I1
+sS'non medical term coin'
+p59
+I1
+sS'medical apparatus'
+p60
+I1
+sS'improv'
+p61
+I1
+sS'coaxial cathet'
+p62
+I1
+sS'ca'
+p63
+I3
+sS'hvpodermic needl'
+p64
+I1
+sS'foundat'
+p65
+I1
+sS'tissue fibrotic attach'
+p66
+I1
+sS'fibrous attach'
+p67
+I3
+sS'subcutaneous tissu'
+p68
+I8
+sS'vessel'
+p69
+I1
+sS'steel allowing penetr'
+p70
+I1
+sS'radio frequ'
+p71
+I1
+sS'cutting tool'
+p72
+I4
+sS'hypodermic needle tip'
+p73
+I1
+sS'dermis lift'
+p74
+I1
+sS'prep'
+p75
+I1
+sS'lifting seg'
+p76
+I2
+sS'allowing penetr'
+p77
+I1
+sS'expandable balloon'
+p78
+I1
+sS'camarillo ca'
+p79
+I2
+sS'hypodermic needl'
+p80
+I4
+sS'spiral seg'
+p81
+I1
+sS'lift'
+p82
+I2
+sS'shaft'
+p83
+I1
+sS'recent research'
+p84
+I1
+sS'dissect'
+p85
+I4
+sS'upward tract'
+p86
+I1
+sS'medical term coin'
+p87
+I1
+sS'b h'
+p88
+I1
+sS'of sub-epidermic tissu'
+p89
+I1
+sS'blunt tip'
+p90
+I1
+sS'adherent cathet'
+p91
+I1
+sS'medical grade steel allow'
+p92
+I1
+sS'encapsul'
+p93
+I1
+sS'dermis blunt lifting seg'
+p94
+I1
+sS'cylindrically shaped balloon'
+p95
+I1
+sS'hilltop lane camarillo ca'
+p96
+I1
+sS'radial-later'
+p97
+I1
+sS'entrv seg'
+p98
+I1
+sS'balloon'
+p99
+I4
+sS'medic'
+p100
+I1
+sS'fashion seg'
+p101
+I1
+sS'cross'
+p102
+I2
+sS'dermi'
+p103
+I12
+sS'extensible surrounding blood vessel'
+p104
+I1
+sS'cellulitic skin'
+p105
+I3
+sS'dissecting arm'
+p106
+I1
+sS'needl'
+p107
+I4
+sS'lane camarillo ca'
+p108
+I1
+sS'sub-epiderm'
+p109
+I5
+sS'fibrous network encapsul'
+p110
+I1
+sS'sub-epidern'
+p111
+I1
+sS'detachment of'
+p112
+I1
+sS'expans'
+p113
+I4
+sS'lysis of th'
+p114
+I1
+sS'plane'
+p115
+I2
+sS'marginal success'
+p116
+I1
+sS'vertical plan'
+p117
+I1
+sS'medical grade steel'
+p118
+I1
+sS'entri'
+p119
+I5
+sS'adequate tract'
+p120
+I1
+sS'skin tract'
+p121
+I2
+sS'bv dissecting arm'
+p122
+I1
+sS'relief'
+p123
+I1
+sS'entry seg'
+p124
+I4
+sS'hip-high'
+p125
+I1
+sS'hilltop'
+p126
+I1
+sS'skin prep'
+p127
+I1
+sS'adequate skin'
+p128
+I1
+sS'superficial attachments of the fibrous band'
+p129
+I1
+sS'of the cellulitic fibrous band'
+p130
+I2
+sS'pre-fil'
+p131
+I1
+sS'adequate skin tract'
+p132
+I1
+sS'numerous treat'
+p133
+I1
+sS'lysis of the fibrous band'
+p134
+I2
+sS'cut'
+p135
+I4
+sS'transitory improv'
+p136
+I1
+sS'tissue fil'
+p137
+I1
+sS'skin subcis'
+p138
+I1
+sS'imperforated tip seg'
+p139
+I2
+sS'denomin'
+p140
+I1
+sS'treatment'
+p141
+I2
+sS'cellulit'
+p142
+I15
+sS'surgical scalpel-like tip'
+p143
+I1
+sS'disrupt'
+p144
+I1
+sS'proximal seg'
+p145
+I4
+sS'surrounding blood vessel'
+p146
+I1
+sS'amelior'
+p147
+I1
+sS'surgical procedure called skin'
+p148
+I1
+sS'cellulite treat'
+p149
+I1
+sS'scalpel-like tip'
+p150
+I1
+sS'horizontal plan'
+p151
+I1
+sS'band'
+p152
+I32
+sS'pain relief'
+p153
+I1
+sS'the cellulitic fibrous band'
+p154
+I2
+sS'detach'
+p155
+I2
+sS'insert'
+p156
+I2
+sS'subcis'
+p157
+I1
+sS'success'
+p158
+I1
+sS'blunt lifting seg'
+p159
+I1
+sS'adherent catheter shaft'
+p160
+I1
+sS'network encapsul'
+p161
+I1
+sS'blood vessel'
+p162
+I1
+sS'anatomic-pathological found'
+p163
+I1
+sS'tip seg'
+p164
+I2
+sS'muscl'
+p165
+I1
+sS'lifting arm'
+p166
+I2
+sS'balloon expans'
+p167
+I1
+sS'extensible surrounding blood'
+p168
+I1
+sS'fibrous network'
+p169
+I2
+sS'fibrous bands detach'
+p170
+I1
+sS'network'
+p171
+I1
+sS'cellulitic fibrous band'
+p172
+I7
+sS'the fibrous band'
+p173
+I2
+sS'superficial attach'
+p174
+I2
+sS'research'
+p175
+I1
+sS'invasive skin'
+p176
+I1
+sS'inject'
+p177
+I1
+sS'skin invas'
+p178
+I1
+sS'complic'
+p179
+I3
+sS'machin'
+p180
+I1
+sS'disruption of the cellulitic fibrous band'
+p181
+I2
+sS'fiber'
+p182
+I1
+sS'scientific prerequisit'
+p183
+I1
+sS'advanc'
+p184
+I3
+sS'cosmetic amelior'
+p185
+I1
+sS'electrical stimul'
+p186
+I1
+sS'dermatological device for subcision of sub-epidermic tissu'
+p187
+I1
+sS'prerequisit'
+p188
+I1
+sS'fibrou'
+p189
+I3
+sS'invas'
+p190
+I1
+sS'needle tip'
+p191
+I2
+sS'invasive skin lift'
+p192
+I1
+sS'distal seg'
+p193
+I5
+sS'frequenc'
+p194
+I1
+sS'radial-lateral expans'
+p195
+I1
+sS'horizontal seg'
+p196
+I2
+sS'finction'
+p197
+I1
+sS'penetr'
+p198
+I1
+sS'cellulitic fibr'
+p199
+I1
+sS'airtight membran'
+p200
+I2
+sS'grade steel allowing penetr'
+p201
+I1
+sS'zadini'
+p202
+I1
+sS'fibrous tissu'
+p203
+I2
+sS'membran'
+p204
+I2
+sS'coin'
+p205
+I2
+sS'distensible airtight'
+p206
+I1
+sS'segment'
+p207
+I30
+sS'fibrotic attach'
+p208
+I1
+sS'plastic'
+p209
+I1
+sS'traction'
+p210
+I4
+sS'attach'
+p211
+I8
+sS'inflatl'
+p212
+I1
+sS'tissue-lysing med'
+p213
+I1
+sS'enzyme collagenas'
+p214
+I1
+sS'radial balloon expans'
+p215
+I1
+sS'pathological skin'
+p216
+I1
+sS'disruption of cellulitic fibrous band'
+p217
+I1
+sS'glutei'
+p218
+I1
+sS'dermis blunt lift'
+p219
+I1
+sS'dermatological condition edematous-fibrosclerotic panniculopathi'
+p220
+I1
+sS'hub'
+p221
+I1
+sS'architectural disrupt'
+p222
+I1
+sS'for subcision of sub-epidermic tissu'
+p223
+I2
+sS'tool'
+p224
+I6
+sS'multi-us'
+p225
+I1
+sS'radial balloon'
+p226
+I1
+sS'tissu'
+p227
+I18
+sS'tissue fibrot'
+p228
+I1
+sS'attachments of the fibrous band'
+p229
+I1
+sS'cylindrically shaped balloon extens'
+p230
+I1
+sS'hilltop lane camarillo'
+p231
+I1
+sS'cathet'
+p232
+I7
+sS'dermatological device for subcision of'
+p233
+I1
+sS'bind'
+p234
+I1
+sS'collagen fib'
+p235
+I1
+sS'similar'
+p236
+I1
+sS'normal appear'
+p237
+I2
+sS'deliveri'
+p238
+I1
+sS'fashion'
+p239
+I1
+sS'fibrotic band'
+p240
+I3
+sS'subcutaneous architectural disrupt'
+p241
+I1
+sS'balloon extens'
+p242
+I2
+sS'needle-like skin invas'
+p243
+I1
+sS'axial upward tract'
+p244
+I1
+sS'tip'
+p245
+I6
+sS'adjunct'
+p246
+I1
+sS'needle-like skin'
+p247
+I1
+sS'superficial attachments of th'
+p248
+I2
+sS'lysis of'
+p249
+I1
+sS'helicoidal seg'
+p250
+I2
+sS'melting inject'
+p251
+I1
+sS'anatomi'
+p252
+I1
+sS'dissector'
+p253
+I1
+sS'pain'
+p254
+I1
+sS'elev'
+p255
+I1
+sS'cellulitic fibrotic band'
+p256
+I1
+sS'distensible airtight membran'
+p257
+I1
+sS'dermis lifting seg'
+p258
+I1
+sS'extensible surround'
+p259
+I1
+sS'subcutaneous fibrous band'
+p260
+I1
+sS'fluidous component deliveri'
+p261
+I2
+sS'called skin subcis'
+p262
+I2
+sS'lysi'
+p263
+I1
+sS're-sterilizable multi-us'
+p264
+I1
+sS'dermatological device for'
+p265
+I1
+sS'infra-epidermic subcis'
+p266
+I1
+sS'medical grad'
+p267
+I1
+sS'hilltop lan'
+p268
+I1
+sS'superficial attachments of'
+p269
+I2
+stp270
+Rp271
+tp272
+.

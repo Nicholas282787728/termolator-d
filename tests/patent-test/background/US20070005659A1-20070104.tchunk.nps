@@ -1,0 +1,431 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'error recoveri'
+p7
+I4
+sS'file access right'
+p8
+I1
+sS'consider'
+p9
+I2
+sS'execut'
+p10
+I3
+sS'logical block address of the fil'
+p11
+I1
+sS'consum'
+p12
+I1
+sS'the file seg'
+p13
+I1
+sS'deletion fil'
+p14
+I1
+sS'radio'
+p15
+I1
+sS'physical block address'
+p16
+I4
+sS'of a security-data'
+p17
+I1
+sS'of security-data'
+p18
+I1
+sS'deletion command for fil'
+p19
+I2
+sS'protection fil'
+p20
+I3
+sS'logical blocks of the file seg'
+p21
+I1
+sS'ca'
+p22
+I1
+sS'deletion command'
+p23
+I31
+sS'overwritten'
+p24
+I2
+sS'sagamihara'
+p25
+I1
+sS'logical block address'
+p26
+I2
+sS'consideration regard'
+p27
+I1
+sS'file seg'
+p28
+I1
+sS'readout'
+p29
+I1
+sS'floor san francisco'
+p30
+I1
+sS'burden'
+p31
+I1
+sS'set-top box'
+p32
+I1
+sS'name'
+p33
+I2
+sS'correl'
+p34
+I2
+sS'for performing overwrit'
+p35
+I1
+sS'intervent'
+p36
+I1
+sS'theoretical delet'
+p37
+I1
+sS'file map'
+p38
+I5
+sS'p2005-189158'
+p39
+I2
+sS'right'
+p40
+I3
+sS'completion delet'
+p41
+I1
+sS'video'
+p42
+I2
+sS'radio broadcast'
+p43
+I1
+sS'resourc'
+p44
+I2
+sS'intervention of a time consuming error recoveri'
+p45
+I1
+sS'consideration regarding load'
+p46
+I1
+sS'alloc'
+p47
+I1
+sS'access'
+p48
+I6
+sS'delet'
+p49
+I7
+sS'retri'
+p50
+I2
+sS'adapt'
+p51
+I3
+sS'hardwar'
+p52
+I1
+sS'command queu'
+p53
+I2
+sS'of the received command'
+p54
+I2
+sS'bu'
+p55
+I2
+sS'host'
+p56
+I10
+sS'video record'
+p57
+I1
+sS'address'
+p58
+I6
+sS'notif'
+p59
+I1
+sS'regarding secur'
+p60
+I1
+sS'box'
+p61
+I1
+sS'logical blocks of the fil'
+p62
+I1
+sS'protect'
+p63
+I1
+sS'sequential access'
+p64
+I1
+sS'of the receiv'
+p65
+I1
+sS'herebelow'
+p66
+I1
+sS'of'
+p67
+I5
+sS'file descriptor'
+p68
+I4
+sS'adaptation of security-data'
+p69
+I1
+sS'logical delet'
+p70
+I1
+sS'file system issu'
+p71
+I1
+sS'issu'
+p72
+I4
+sS'file access'
+p73
+I1
+sS'logical block address of th'
+p74
+I1
+sS'of the fil'
+p75
+I1
+sS'security protect'
+p76
+I3
+sS'load'
+p77
+I1
+sS'command overwrit'
+p78
+I1
+sS'file nam'
+p79
+I2
+sS'san francisco ca'
+p80
+I1
+sS'code'
+p81
+I2
+sS'resolution video'
+p82
+I2
+sS'transfer'
+p83
+I4
+sS'overwrit'
+p84
+I6
+sS'considerations regarding secur'
+p85
+I1
+sS'the received command'
+p86
+I1
+sS'considerations regard'
+p87
+I1
+sS'command cod'
+p88
+I2
+sS'resolut'
+p89
+I2
+sS'disk'
+p90
+I7
+sS'broadcast'
+p91
+I1
+sS'physical block address of th'
+p92
+I2
+sS'deletion objective fil'
+p93
+I2
+sS'regarding load'
+p94
+I1
+sS'ident'
+p95
+I1
+sS'tokyo'
+p96
+I1
+sS'intervention of a time consuming error'
+p97
+I1
+sS'rotary record'
+p98
+I11
+sS'intervention of a time consum'
+p99
+I1
+sS'logical block address of'
+p100
+I1
+sS'descriptor'
+p101
+I4
+sS'error'
+p102
+I4
+sS'b h'
+p103
+I1
+sS'accurate ident'
+p104
+I1
+sS'display'
+p105
+I1
+sS'intervention of'
+p106
+I1
+sS'security protection fil'
+p107
+I3
+sS'command execut'
+p108
+I1
+sS'of a fil'
+p109
+I1
+sS'logical blocks of'
+p110
+I1
+sS'physical block address of'
+p111
+I2
+sS'file'
+p112
+I63
+sS'display adapt'
+p113
+I1
+sS'access right'
+p114
+I3
+sS'probabl'
+p115
+I1
+sS'magnetic disk'
+p116
+I33
+sS'adaptation of'
+p117
+I2
+sS'file delet'
+p118
+I2
+sS'security-data'
+p119
+I3
+sS'floor'
+p120
+I1
+sS'of th'
+p121
+I3
+sS'accuraci'
+p122
+I1
+sS'complet'
+p123
+I2
+sS'logical blocks of th'
+p124
+I1
+sS'map'
+p125
+I5
+sS'execution complet'
+p126
+I1
+sS'floor san francisco ca'
+p127
+I1
+sS'floor san'
+p128
+I1
+sS'non-associ'
+p129
+I1
+sS'deletion command for'
+p130
+I2
+sS'embarcadero'
+p131
+I1
+sS'video fil'
+p132
+I1
+sS'physical block address of the magnetic disk'
+p133
+I1
+sS'adaptation of a security-data'
+p134
+I1
+sS'received command'
+p135
+I1
+sS'law'
+p136
+I6
+sS'segment'
+p137
+I1
+sS'logical block alloc'
+p138
+I1
+sS'francisco ca'
+p139
+I1
+sS'secur'
+p140
+I5
+sS'of the file seg'
+p141
+I2
+sS'command'
+p142
+I41
+sS'degrad'
+p143
+I2
+sS'cpu'
+p144
+I9
+stp145
+Rp146
+tp147
+.

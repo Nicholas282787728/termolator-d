@@ -1,0 +1,1370 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'los alamos influenza sequence databas'
+p7
+I1
+sS'influenza'
+p8
+I2
+sS'consider'
+p9
+I1
+sS'fitch'
+p10
+I3
+sS'los alamos influenza'
+p11
+I1
+sS'consensus amino'
+p12
+I1
+sS'gpgkvf'
+p13
+I1
+sS'signific'
+p14
+I3
+sS'mapping of'
+p15
+I1
+sS'gpgktf'
+p16
+I1
+sS'of hiv-1 rt'
+p17
+I1
+sS'quasi file converter perl'
+p18
+I1
+sS'v270'
+p19
+I1
+sS'abbreviations hiv'
+p20
+I1
+sS'replacement amino'
+p21
+I1
+sS'ab protect'
+p22
+I1
+sS'quasi'
+p23
+I29
+sS'evolv'
+p24
+I1
+sS'gojobori'
+p25
+I1
+sS'anti-rt drug'
+p26
+I1
+sS'analys'
+p27
+I1
+sS'mutations of varying fit'
+p28
+I1
+sS'hiv-1 gp120'
+p29
+I4
+sS'of rt'
+p30
+I1
+sS'hiv'
+p31
+I13
+sS'immunologically distinct members of a viral quasispeci'
+p32
+I1
+sS'cd4-binding sit'
+p33
+I1
+sS'foot-and-mouth disease virus vaccin'
+p34
+I1
+sS'immunodeficiency viru'
+p35
+I2
+sS'synthetic foot-and-mouth disease viru'
+p36
+I1
+sS'decades-old puzzl'
+p37
+I1
+sS'subpopul'
+p38
+I1
+sS'affect'
+p39
+I1
+sS'histocompatibility complex'
+p40
+I2
+sS'of replacement mut'
+p41
+I2
+sS'carbohydrate-building models of gp120'
+p42
+I1
+sS't-cell epitop'
+p43
+I4
+sS'hiv antigenic drift'
+p44
+I1
+sS'cd4-induc'
+p45
+I1
+sS'maximum likelihood phylogeni'
+p46
+I1
+sS'monom'
+p47
+I3
+sS'ha escape mut'
+p48
+I1
+sS'executable vers'
+p49
+I1
+sS'a--i'
+p50
+I1
+sS'site epitop'
+p51
+I1
+sS'jukes-cantor evolut'
+p52
+I1
+sS'immunologically distinct members of'
+p53
+I1
+sS'immune response strength'
+p54
+I1
+sS'of a viral quasispeci'
+p55
+I2
+sS'antigen'
+p56
+I1
+sS'putative antigenic sit'
+p57
+I1
+sS'neutral drift testing of quasi'
+p58
+I1
+sS'maximum'
+p59
+I3
+sS'vaccin'
+p60
+I4
+sS'immun'
+p61
+I14
+sS'immunity escape vari'
+p62
+I1
+sS'aggreg'
+p63
+I3
+sS'affecting hiv quasispeci'
+p64
+I3
+sS'disadvantag'
+p65
+I2
+sS'acid'
+p66
+I3
+sS'human-infective influenza'
+p67
+I1
+sS'pre-align'
+p68
+I1
+sS'dialign2'
+p69
+I1
+sS'of ha'
+p70
+I3
+sS'ha trim'
+p71
+I1
+sS'escape mut'
+p72
+I2
+sS'gpgkaf'
+p73
+I1
+sS'databas'
+p74
+I2
+sS'empirical replac'
+p75
+I1
+sS'drift frequ'
+p76
+I1
+sS'abbrevi'
+p77
+I1
+sS'hiv breakthrough'
+p78
+I1
+sS'map of hiv-1 rt'
+p79
+I2
+sS'antigenically drifting protein'
+p80
+I1
+sS'most-typical codon'
+p81
+I2
+sS'likelihood phylogeni'
+p82
+I1
+sS'varying fit'
+p83
+I1
+sS'executable version of the quasi softwar'
+p84
+I1
+sS'i424'
+p85
+I1
+sS'of replac'
+p86
+I1
+sS'azt'
+p87
+I10
+sS'mutation of ttt'
+p88
+I2
+sS'perl script'
+p89
+I1
+sS'for replacement mut'
+p90
+I1
+sS'cellular cytotox'
+p91
+I1
+sS'overabund'
+p92
+I3
+sS'antigenic drift'
+p93
+I5
+sS'i th fraction of amino acid'
+p94
+I1
+sS'-dideoxyinosin'
+p95
+I1
+sS'interpret'
+p96
+I1
+sS'popul'
+p97
+I1
+sS'protect'
+p98
+I1
+sS'ile'
+p99
+I1
+sS'evolver program'
+p100
+I1
+sS'consensu'
+p101
+I5
+sS'of influenza a--i'
+p102
+I2
+sS'quasi file convert'
+p103
+I1
+sS'executable version of th'
+p104
+I1
+sS'mutations of'
+p105
+I1
+sS't387'
+p106
+I1
+sS'hiv-1'
+p107
+I10
+sS'drug'
+p108
+I1
+sS'w210'
+p109
+I1
+sS'cystin'
+p110
+I1
+sS'ctg'
+p111
+I2
+sS'cta'
+p112
+I3
+sS'ha escap'
+p113
+I1
+sS'ctl'
+p114
+I1
+sS'anti-gp120'
+p115
+I1
+sS'primary selective force affect'
+p116
+I1
+sS'rt codon'
+p117
+I1
+sS'site '
+p118
+I1
+sS'mutational histori'
+p119
+I1
+sS'demarcations of antigen'
+p120
+I1
+sS'lower-than-expect'
+p121
+I1
+sS'the quasi softwar'
+p122
+I1
+sS'viral vari'
+p123
+I3
+sS'gp120 monom'
+p124
+I2
+sS'vivo rt'
+p125
+I1
+sS'codon'
+p126
+I32
+sS'quasispeci'
+p127
+I11
+sS'mapping of hiv'
+p128
+I2
+sS"' -deoxythymidin"
+p129
+I2
+sS'cy'
+p130
+I1
+sS'mutation of'
+p131
+I1
+sS'immune pressure exert'
+p132
+I1
+sS'y215'
+p133
+I1
+sS'ab-dependent cellular cytotox'
+p134
+I1
+sS'amino'
+p135
+I1
+sS'viral subpopul'
+p136
+I1
+sS'i th fract'
+p137
+I1
+sS'quasi algorithm'
+p138
+I2
+sS'influenza a--i'
+p139
+I1
+sS'influenza epidem'
+p140
+I1
+sS'viru'
+p141
+I3
+sS'current vers'
+p142
+I1
+sS'strain rf'
+p143
+I1
+sS'synthetic foot-and-mouth disease virus vaccin'
+p144
+I1
+sS'executable version of'
+p145
+I1
+sS'recombinant hiv vaccin'
+p146
+I1
+sS'of valin'
+p147
+I1
+sS'infect'
+p148
+I3
+sS'solvent-expos'
+p149
+I3
+sS'gap'
+p150
+I2
+sS'appel'
+p151
+I1
+sS'core protein cryst'
+p152
+I1
+sS'individual codons for'
+p153
+I1
+sS'neutral drift testing of'
+p154
+I1
+sS'viral protein'
+p155
+I1
+sS'hiv-1 vir'
+p156
+I1
+sS'present'
+p157
+I2
+sS'ha codon'
+p158
+I1
+sS'mhc'
+p159
+I3
+sS'of antigenic sit'
+p160
+I1
+sS'antigenic site c'
+p161
+I1
+sS'antigenic site b'
+p162
+I1
+sS'i th fraction of'
+p163
+I1
+sS'replacement mutations of'
+p164
+I1
+sS'carbohydrate-building model'
+p165
+I1
+sS'histori'
+p166
+I1
+sS'non-consensu'
+p167
+I1
+sS'calcul'
+p168
+I2
+sS'exert'
+p169
+I5
+sS'i345'
+p170
+I1
+sS'of'
+p171
+I2
+sS'demarcations of'
+p172
+I1
+sS'ctl epitop'
+p173
+I1
+sS'virus vaccin'
+p174
+I1
+sS'stop'
+p175
+I2
+sS'mutant'
+p176
+I2
+sS'motif'
+p177
+I3
+sS'drifting protein'
+p178
+I1
+sS'quasispeciation of rt'
+p179
+I1
+sS'hiv breakthrough infect'
+p180
+I1
+sS'site'
+p181
+I12
+sS'evolver program of the paml packag'
+p182
+I1
+sS'hiv vaccin'
+p183
+I1
+sS'anti-sera'
+p184
+I1
+sS'false-posit'
+p185
+I1
+sS'alignment gap'
+p186
+I2
+sS"-azido-3 ' -deoxythymidin"
+p187
+I2
+sS'phylogeni'
+p188
+I7
+sS'protein'
+p189
+I10
+sS'amino acid replac'
+p190
+I1
+sS'mutat'
+p191
+I40
+sS'ha protein'
+p192
+I1
+sS'hiv virus'
+p193
+I1
+sS'replacement mutations of varying fit'
+p194
+I1
+sS't-cell immun'
+p195
+I9
+sS'hiv-1 reverse transcriptas'
+p196
+I1
+sS'fraction of amino acid'
+p197
+I1
+sS'hiv strain rf'
+p198
+I1
+sS'neutral drift frequ'
+p199
+I1
+sS'priori'
+p200
+I1
+sS'of amino acid'
+p201
+I1
+sS'h333'
+p202
+I1
+sS'nih'
+p203
+I1
+sS'replacement mutations of vari'
+p204
+I1
+sS'distinct members of a viral quasispeci'
+p205
+I1
+sS'models of gp120'
+p206
+I1
+sS'quasi file converter perl script'
+p207
+I1
+sS'file converter perl script'
+p208
+I1
+sS'epidem'
+p209
+I1
+sS'variant'
+p210
+I24
+sS'phe'
+p211
+I1
+sS'non-neutralizing fac'
+p212
+I4
+sS'monoclonal antibodi'
+p213
+I1
+sS'ha vari'
+p214
+I1
+sS'paml packag'
+p215
+I1
+sS'mutations of viral quasispeci'
+p216
+I1
+sS'gpgrvf'
+p217
+I1
+sS'core'
+p218
+I1
+sS'non-consensus vari'
+p219
+I1
+sS'false-positive percentag'
+p220
+I1
+sS'consensus amino acid'
+p221
+I1
+sS's calcul'
+p222
+I1
+sS'ss'
+p223
+I1
+sS'individual codons for replac'
+p224
+I1
+sS'rt mutat'
+p225
+I1
+sS'for rt'
+p226
+I1
+sS'anti-gp120 ab'
+p227
+I1
+sS'gpgraf motif'
+p228
+I2
+sS'los alamo'
+p229
+I1
+sS'n-\xce\xb11'
+p230
+I1
+sS'converter perl script'
+p231
+I1
+sS'influenza sequence databas'
+p232
+I1
+sS'model'
+p233
+I1
+sS'azt resistance conf'
+p234
+I1
+sS'quasi fil'
+p235
+I1
+sS'ha t-cell epitop'
+p236
+I1
+sS'explan'
+p237
+I1
+sS'replacement mut'
+p238
+I26
+sS'hiv protein'
+p239
+I1
+sS'softwar'
+p240
+I1
+sS'monomer-buri'
+p241
+I1
+sS'trimer-buried portion of antigenic site d'
+p242
+I1
+sS'hiv antigen'
+p243
+I1
+sS'ttt'
+p244
+I3
+sS'exemplary codon'
+p245
+I1
+sS'demarc'
+p246
+I1
+sS'affecting hiv'
+p247
+I1
+sS'of the paml packag'
+p248
+I1
+sS'host cel'
+p249
+I1
+sS'principal surface antigen of'
+p250
+I1
+sS'of antigenic site d'
+p251
+I2
+sS'paramet'
+p252
+I1
+sS'overabundance of replacement mut'
+p253
+I2
+sS'binomial distribut'
+p254
+I1
+sS'fit'
+p255
+I1
+sS'tropism'
+p256
+I1
+sS'of hiv'
+p257
+I2
+sS'lo'
+p258
+I1
+sS'neutral jukes-cantor evolut'
+p259
+I1
+sS'identif'
+p260
+I1
+sS'individual replac'
+p261
+I1
+sS'complex'
+p262
+I2
+sS'non-consensus amino acid'
+p263
+I1
+sS'treatment'
+p264
+I1
+sS'dimmock'
+p265
+I1
+sS'evolver program of the paml'
+p266
+I1
+sS'antigen of hiv'
+p267
+I2
+sS'multivalent vaccin'
+p268
+I1
+sS'breakthrough infect'
+p269
+I1
+sS'map of hiv-1 gp120'
+p270
+I2
+sS'hypothesi'
+p271
+I1
+sS'rna'
+p272
+I1
+sS'molecul'
+p273
+I3
+sS'rna virus'
+p274
+I1
+sS'trimer-buried portion of antigenic sit'
+p275
+I1
+sS'gpgraf'
+p276
+I3
+sS'ttt codon'
+p277
+I1
+sS'viral popul'
+p278
+I1
+sS'gpgrtf'
+p279
+I1
+sS'viral quasispeci'
+p280
+I4
+sS'nucleotid'
+p281
+I1
+sS'interv'
+p282
+I2
+sS'cellular trop'
+p283
+I1
+sS'hemagglutinin'
+p284
+I2
+sS'evolver program of th'
+p285
+I1
+sS'hiv quasispeci'
+p286
+I2
+sS'variants quasi'
+p287
+I1
+sS'phylogenetic analys'
+p288
+I1
+sS'disadvantage of valin'
+p289
+I1
+sS'lowercase lett'
+p290
+I1
+sS'synthetic foot-and-mouth diseas'
+p291
+I1
+sS'current versions of'
+p292
+I1
+sS'lysin'
+p293
+I1
+sS'map'
+p294
+I22
+sS'hiv-1 revers'
+p295
+I1
+sS'laboratori'
+p296
+I1
+sS'a-c'
+p297
+I1
+sS'overabundance of replac'
+p298
+I3
+sS'percentag'
+p299
+I5
+sS'of gp120'
+p300
+I2
+sS'evolver program of'
+p301
+I1
+sS'hiv strain'
+p302
+I1
+sS'transcriptas'
+p303
+I2
+sS'helper t-cell epitop'
+p304
+I1
+sS'estimator for'
+p305
+I1
+sS'event'
+p306
+I2
+sS'shannon'
+p307
+I2
+sS'distribut'
+p308
+I2
+sS'escape vari'
+p309
+I2
+sS'viral divers'
+p310
+I1
+sS'program of the paml packag'
+p311
+I1
+sS'neutrally drift'
+p312
+I1
+sS'disease virus vaccin'
+p313
+I1
+sS'stop codon'
+p314
+I2
+sS'of varying fit'
+p315
+I1
+sS'intra-patient viral divers'
+p316
+I1
+sS't-cell immunity escap'
+p317
+I1
+sS'rf'
+p318
+I1
+sS'estim'
+p319
+I1
+sS'n67'
+p320
+I1
+sS'neutral drift paramet'
+p321
+I1
+sS'h3 viru'
+p322
+I1
+sS'diseas'
+p323
+I1
+sS'maximum frequ'
+p324
+I1
+sS'estimator for th'
+p325
+I1
+sS'of ttt'
+p326
+I1
+sS'envelop'
+p327
+I1
+sS'confer'
+p328
+I4
+sS'r70'
+p329
+I1
+sS'map of hiv-1'
+p330
+I2
+sS'neutral drift'
+p331
+I13
+sS'recombinant hiv'
+p332
+I1
+sS'principal surface antigen'
+p333
+I1
+sS'reverse transcriptas'
+p334
+I2
+sS'puzzl'
+p335
+I1
+sS'epitop'
+p336
+I11
+sS'frequenc'
+p337
+I2
+sS'antibodi'
+p338
+I2
+sS'of the quasi softwar'
+p339
+I1
+sS'replacement point mut'
+p340
+I1
+sS'rt selection map'
+p341
+I1
+sS'drift vari'
+p342
+I1
+sS'cd4i'
+p343
+I1
+sS'anti-rt treat'
+p344
+I1
+sS'of quasi'
+p345
+I3
+sS'b-cell immun'
+p346
+I5
+sS'amino acid'
+p347
+I4
+sS's point mut'
+p348
+I1
+sS'individual codons for replacement mut'
+p349
+I1
+sS'-deoxythymidin'
+p350
+I2
+sS'antigenic sit'
+p351
+I13
+sS'ctg codon'
+p352
+I1
+sS'drift paramet'
+p353
+I1
+sS'human immunodeficiency viru'
+p354
+I1
+sS'core protein'
+p355
+I1
+sS'maximum likelihood'
+p356
+I1
+sS'laboratory mut'
+p357
+I1
+sS'modal codon'
+p358
+I1
+sS'-azido-3'
+p359
+I2
+sS'script'
+p360
+I1
+sS'unknown'
+p361
+I1
+sS'influenza vaccin'
+p362
+I1
+sS'the paml packag'
+p363
+I1
+sS'ttt\xe2\x86\x92tat'
+p364
+I1
+sS'evolut'
+p365
+I3
+sS'quasi--the selection map'
+p366
+I1
+sS'acid replac'
+p367
+I1
+sS'antigenic sites a-c'
+p368
+I1
+sS'of viral quasispeci'
+p369
+I1
+sS'executable version of the quasi'
+p370
+I1
+sS"-azido-3 '"
+p371
+I2
+sS'for rt quasispeci'
+p372
+I3
+sS'seasonal influenza epidem'
+p373
+I1
+sS'tyrosin'
+p374
+I1
+sS't-cell immunity escape vari'
+p375
+I1
+sS'individual codon'
+p376
+I2
+sS'map of'
+p377
+I4
+sS'surveil'
+p378
+I1
+sS'a-d'
+p379
+I1
+sS'versions of quasi'
+p380
+I1
+sS'quasi softwar'
+p381
+I1
+sS'cytotox'
+p382
+I1
+sS'serin'
+p383
+I1
+sS'ha'
+p384
+I18
+sS'l41'
+p385
+I1
+sS'shannon calcul'
+p386
+I1
+sS'b-cell-selected antigenic drift'
+p387
+I1
+sS'sites a-c'
+p388
+I1
+sS'neutral drift hypothesi'
+p389
+I1
+sS'gp120'
+p390
+I10
+sS'vivo'
+p391
+I1
+sS'identification of'
+p392
+I1
+sS'codons for replacement mut'
+p393
+I1
+sS'map of ha'
+p394
+I2
+sS'demarcations of antigenic sit'
+p395
+I1
+sS'gp120 molecul'
+p396
+I1
+sS'glycoprotein--th'
+p397
+I2
+sS'map of gp120'
+p398
+I2
+sS'n295'
+p399
+I1
+sS'ab'
+p400
+I12
+sS'immune surveil'
+p401
+I1
+sS'overabundance of'
+p402
+I3
+sS'th fraction of amino acid'
+p403
+I1
+sS'primary selective force affecting ha'
+p404
+I1
+sS'trimer'
+p405
+I2
+sS'major histocompatibility complex'
+p406
+I1
+sS'packag'
+p407
+I1
+sS'replac'
+p408
+I26
+sS'individual replacement amino'
+p409
+I1
+sS'host'
+p410
+I1
+sS'pileup'
+p411
+I1
+sS'fasta'
+p412
+I1
+sS'current versions of quasi'
+p413
+I1
+sS'jukes-cantor'
+p414
+I1
+sS'disadvantage of'
+p415
+I1
+sS'consensus codon'
+p416
+I4
+sS'strength'
+p417
+I2
+sS'rt quasispeci'
+p418
+I6
+sS'drift hypothesi'
+p419
+I1
+sS'parsimonious explan'
+p420
+I1
+sS'false positive percentag'
+p421
+I1
+sS'drift testing of quasi'
+p422
+I1
+sS'neutral drift vari'
+p423
+I1
+sS'antigenic site d'
+p424
+I3
+sS'valin'
+p425
+I1
+sS'detector'
+p426
+I2
+sS'quasispeciation of'
+p427
+I1
+sS'divers'
+p428
+I1
+sS'trimer-buried portion of'
+p429
+I2
+sS'disease virus'
+p430
+I1
+sS'rt'
+p431
+I15
+sS'principal surface antigen of hiv'
+p432
+I1
+sS'ab immun'
+p433
+I1
+sS'drift'
+p434
+I15
+sS'virus'
+p435
+I3
+sS'site d'
+p436
+I3
+sS'site c'
+p437
+I1
+sS'site b'
+p438
+I1
+sS'letter'
+p439
+I1
+sS'polyclonal anti-sera'
+p440
+I1
+sS'version of the quasi softwar'
+p441
+I1
+sS'tyr'
+p442
+I4
+sS'cd4b'
+p443
+I1
+sS'for'
+p444
+I1
+sS'algorithm'
+p445
+I4
+sS'alamos influenza sequence databas'
+p446
+I1
+sS'of hiv-1 gp120'
+p447
+I1
+sS'hiv-1 rt'
+p448
+I3
+sS'envelope surface glycoprotein--th'
+p449
+I1
+sS'face'
+p450
+I4
+sS'mhc present'
+p451
+I1
+sS'accurate branch'
+p452
+I1
+sS'leucin'
+p453
+I1
+sS'ttg'
+p454
+I1
+sS'carbohydrate-building models of'
+p455
+I1
+sS'competition-group epitop'
+p456
+I1
+sS'trimer-buried portion of ha'
+p457
+I1
+stp458
+Rp459
+tp460
+.

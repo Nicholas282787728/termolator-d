@@ -1,0 +1,1475 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'vitro equivalent of'
+p7
+I1
+sS'reorganization of the actin cytoskeleton'
+p8
+I1
+sS'collagen disk'
+p9
+I1
+sS'sparc-null len'
+p10
+I1
+sS'gel contract'
+p11
+I2
+sS'monolayer of primary dermal fibroblast'
+p12
+I1
+sS'hyclon'
+p13
+I1
+sS'probe'
+p14
+I1
+sS'centrifug'
+p15
+I1
+sS'bovine serum'
+p16
+I2
+sS'wild-type mic'
+p17
+I13
+sS'mice contracted type i'
+p18
+I1
+sS'disc'
+p19
+I1
+sS'cell-matrix linkag'
+p20
+I1
+sS'ultrastructure of'
+p21
+I1
+sS'glass fib'
+p22
+I1
+sS'skin'
+p23
+I5
+sS'gaithersburg'
+p24
+I1
+sS'ca'
+p25
+I2
+sS'disk'
+p26
+I1
+sS'adult anim'
+p27
+I1
+sS'full-thickness dorsal cutaneous biopsi'
+p28
+I1
+sS'depend'
+p29
+I1
+sS'growth factor-\xce\xb21'
+p30
+I1
+sS'\xce\xbcg of'
+p31
+I1
+sS'reepitheli'
+p32
+I8
+sS'formalde-fresh'
+p33
+I1
+sS'cell surface receptor for'
+p34
+I1
+sS'ingrowth of'
+p35
+I1
+sS'cell cycle synchronization of the dermal fibroblast'
+p36
+I1
+sS'platelet'
+p37
+I1
+sS'of the len'
+p38
+I1
+sS'cdna'
+p39
+I1
+sS'mitosi'
+p40
+I2
+sS'cell cycle synchronization of th'
+p41
+I1
+sS'assay'
+p42
+I2
+sS'sparc protein purifi'
+p43
+I1
+sS'express'
+p44
+I3
+sS'skin fibroblast'
+p45
+I1
+sS'epidermal cov'
+p46
+I2
+sS'wound closur'
+p47
+I4
+sS'sparc protein'
+p48
+I1
+sS'bioproduct'
+p49
+I1
+sS'fibroblasts exhibit'
+p50
+I1
+sS'epitheli'
+p51
+I1
+sS'of dermal granulation tissu'
+p52
+I1
+sS'biopsi'
+p53
+I4
+sS'healing progress'
+p54
+I1
+sS'leukocyte immigr'
+p55
+I1
+sS'mesangial cel'
+p56
+I2
+sS'glass fiber filt'
+p57
+I1
+sS'ultrastructur'
+p58
+I1
+sS'incorporation of'
+p59
+I1
+sS'non-adhes'
+p60
+I1
+sS'of wound closur'
+p61
+I3
+sS'wild-type len'
+p62
+I1
+sS'collagen gel contract'
+p63
+I1
+sS'serum-free medium containing insulin'
+p64
+I1
+sS'embryonic fibroblasts exhibit'
+p65
+I1
+sS'circular excision wound'
+p66
+I1
+sS'wound b'
+p67
+I3
+sS'progress'
+p68
+I1
+sS'absence of sparc'
+p69
+I3
+sS'sediment'
+p70
+I1
+sS'of the actin cytoskeleton'
+p71
+I1
+sS'sparc-null fibroblast monolay'
+p72
+I1
+sS'of fibroblast migr'
+p73
+I1
+sS'collagenas'
+p74
+I1
+sS'matricellular protein'
+p75
+I3
+sS'microscop'
+p76
+I1
+sS'wild-type fibroblasts cultur'
+p77
+I1
+sS'monolayer of'
+p78
+I3
+sS'liquid nitrogen'
+p79
+I1
+sS'vivo'
+p80
+I2
+sS'osteonectin'
+p81
+I1
+sS'ingrowth'
+p82
+I5
+sS'guanidine thiocyanate extract'
+p83
+I1
+sS'cell surface receptor'
+p84
+I1
+sS'wild-type counterpart'
+p85
+I1
+sS'tumor'
+p86
+I1
+sS'nen'
+p87
+I1
+sS'collagen disc'
+p88
+I2
+sS'growth factor receptor'
+p89
+I1
+sS'appear'
+p90
+I1
+sS'excis'
+p91
+I2
+sS'fibroblast ingrowth'
+p92
+I1
+sS'crust'
+p93
+I1
+sS'unwound'
+p94
+I2
+sS'cell'
+p95
+I34
+sS'dehydrogenas'
+p96
+I2
+sS'abbrevi'
+p97
+I1
+sS'ultrastructure of th'
+p98
+I1
+sS'expression patterns of ecm'
+p99
+I1
+sS'eosin'
+p100
+I1
+sS'sea-kem'
+p101
+I1
+sS'sparc-null embryonic fibroblast'
+p102
+I1
+sS'progressive contract'
+p103
+I1
+sS'defici'
+p104
+I1
+sS'cell-matrix'
+p105
+I2
+sS'len'
+p106
+I14
+sS'closur'
+p107
+I4
+sS'cycl'
+p108
+I1
+sS'mm oblong'
+p109
+I1
+sS'normal epidermi'
+p110
+I1
+sS'cutaneous biopsi'
+p111
+I1
+sS'ethanol'
+p112
+I1
+sS'paraffin'
+p113
+I1
+sS'of the connective-tissue contract'
+p114
+I1
+sS'fbs-dmem'
+p115
+I1
+sS'actin cytoskeleton'
+p116
+I1
+sS'fmc bioproduct'
+p117
+I1
+sS'cell-ecm'
+p118
+I2
+sS'panniculus carnosu'
+p119
+I1
+sS'full-thickness excision wound'
+p120
+I1
+sS'sparc'
+p121
+I37
+sS'contract'
+p122
+I14
+sS'hybridization filt'
+p123
+I1
+sS'filter pap'
+p124
+I1
+sS'insulin'
+p125
+I1
+sS'neoepidermi'
+p126
+I5
+sS'sparc defici'
+p127
+I1
+sS'studi'
+p128
+I2
+sS'sparc-null cel'
+p129
+I8
+sS'rich in cystein'
+p130
+I2
+sS'cystein'
+p131
+I2
+sS'sparc-null mice contracted type i'
+p132
+I1
+sS'modul'
+p133
+I1
+sS'impaired wound repair'
+p134
+I1
+sS'cycle synchronization of the dermal fibroblast'
+p135
+I1
+sS'keratinocyt'
+p136
+I4
+sS'epidermi'
+p137
+I1
+sS'marker'
+p138
+I1
+sS'fbs for'
+p139
+I1
+sS'celtrix'
+p140
+I1
+sS'ct'
+p141
+I2
+sS'cell cycl'
+p142
+I1
+sS'collagen disc contract'
+p143
+I1
+sS'muscle cel'
+p144
+I1
+sS'proliferation of'
+p145
+I1
+sS'extravas'
+p146
+I1
+sS'injuri'
+p147
+I2
+sS'microscopic appear'
+p148
+I1
+sS'expression patterns of'
+p149
+I1
+sS'collagen-gel contract'
+p150
+I1
+sS'meriden'
+p151
+I1
+sS'dorsal skin of wild-typ'
+p152
+I1
+sS'non-collagenous glycoprotein'
+p153
+I1
+sS'fibroblasts of'
+p154
+I1
+sS'dermal granulation tissu'
+p155
+I1
+sS'phase-contrast microscop'
+p156
+I1
+sS'cell motil'
+p157
+I7
+sS'incorporation of fibroblast'
+p158
+I1
+sS'lamellipodia'
+p159
+I1
+sS'kidney mesangi'
+p160
+I1
+sS'dynamic reorganization of'
+p161
+I1
+sS'ingrowth of sparc-null cel'
+p162
+I1
+sS'glass'
+p163
+I1
+sS'fibroblast'
+p164
+I39
+sS'adult'
+p165
+I2
+sS'examin'
+p166
+I3
+sS'cervical disloc'
+p167
+I1
+sS'wound biopsi'
+p168
+I1
+sS'extract'
+p169
+I1
+sS'of wild-typ'
+p170
+I1
+sS'sparc-null embryonic fibroblasts exhibit'
+p171
+I1
+sS'wild-type cel'
+p172
+I5
+sS'room'
+p173
+I1
+sS'mm'
+p174
+I1
+sS'ml'
+p175
+I5
+sS'prepar'
+p176
+I2
+sS'extracellular glycoprotein'
+p177
+I1
+sS'tyrosine phosphorylation of'
+p178
+I1
+sS'wild-typ'
+p179
+I12
+sS'final collagen concentr'
+p180
+I1
+sS'of wild-type fibroblasts cultur'
+p181
+I1
+sS'lens epitheli'
+p182
+I3
+sS'margin'
+p183
+I2
+sS'tumorigenesi'
+p184
+I1
+sS'kidney mesangial cel'
+p185
+I1
+sS'final collagen'
+p186
+I1
+sS'sparc-deficient mic'
+p187
+I1
+sS'midtransversal plan'
+p188
+I1
+sS'scab'
+p189
+I3
+sS'site'
+p190
+I13
+sS'motil'
+p191
+I8
+sS'delayed wound h'
+p192
+I1
+sS'of sparc'
+p193
+I5
+sS'circular wound tissu'
+p194
+I1
+sS'keratinocyte mark'
+p195
+I1
+sS'collagen-rich matrix'
+p196
+I1
+sS'motility of keratinocyt'
+p197
+I1
+sS'matrix contract'
+p198
+I1
+sS'sparc-null dermal fibroblast'
+p199
+I4
+sS'of sparc-null fibroblast'
+p200
+I3
+sS'tyrosine phosphorylation of adherens junct'
+p201
+I1
+sS'serum'
+p202
+I2
+sS'progressive contraction of the gel'
+p203
+I1
+sS'tyrosine phosphorylation of adherens junction protein'
+p204
+I1
+sS'counterpart'
+p205
+I1
+sS'ecm of the len'
+p206
+I1
+sS'ultrastructure of the dermal fibroblast'
+p207
+I1
+sS'thiocyanate extract'
+p208
+I1
+sS'study wound contract'
+p209
+I1
+sS'of primary dermal fibroblast'
+p210
+I1
+sS'wound'
+p211
+I14
+sS'dermi'
+p212
+I1
+sS'embryogenesi'
+p213
+I1
+sS'progressive contraction of'
+p214
+I1
+sS'fibronectin transcript'
+p215
+I1
+sS'of adherens junction protein'
+p216
+I1
+sS'mm oblong full-thickness excision wound'
+p217
+I1
+sS'circular'
+p218
+I3
+sS'circular wound'
+p219
+I1
+sS'calbiochem'
+p220
+I1
+sS'scintillation count'
+p221
+I1
+sS'lesion'
+p222
+I1
+sS'environment depend'
+p223
+I1
+sS'nj'
+p224
+I1
+sS'fibroblast monolay'
+p225
+I1
+sS'vertebrate adult anim'
+p226
+I1
+sS'wound healing progress'
+p227
+I1
+sS'plane'
+p228
+I1
+sS'the gel'
+p229
+I1
+sS'granulation tissue growth'
+p230
+I1
+sS'wound fibroblast'
+p231
+I1
+sS'vitro studi'
+p232
+I3
+sS'unwounded skin'
+p233
+I5
+sS'wound sit'
+p234
+I14
+sS'disloc'
+p235
+I1
+sS'serum-free medium contain'
+p236
+I1
+sS'protein deposit'
+p237
+I1
+sS'wild-type fibroblast'
+p238
+I3
+sS'well'
+p239
+I2
+sS'epidermal keratinocyt'
+p240
+I1
+sS'myofibroblast'
+p241
+I2
+sS'mutant mic'
+p242
+I1
+sS'environ'
+p243
+I1
+sS'deposit'
+p244
+I1
+sS'incorpor'
+p245
+I2
+sS'synchronization of the dermal fibroblast'
+p246
+I1
+sS'secreted protein acid'
+p247
+I1
+sS'purifi'
+p248
+I1
+sS'northern hybridization filt'
+p249
+I1
+sS'sd'
+p250
+I1
+sS'cell type-specif'
+p251
+I1
+sS'cutaneous wound'
+p252
+I1
+sS'bm-40'
+p253
+I1
+sS'wound heal'
+p254
+I18
+sS'cell ingrowth'
+p255
+I1
+sS'of sparc-null cel'
+p256
+I1
+sS'adherens junction protein'
+p257
+I1
+sS'progressive cataract'
+p258
+I1
+sS'cell-ecm interact'
+p259
+I1
+sS'delayed wound'
+p260
+I1
+sS'paper'
+p261
+I1
+sS'fetal bovine serum'
+p262
+I2
+sS'nitrogen'
+p263
+I1
+sS'wound crust'
+p264
+I1
+sS'sparc-null fibroblast'
+p265
+I3
+sS'cell invas'
+p266
+I1
+sS'dynam'
+p267
+I1
+sS'concentr'
+p268
+I2
+sS'wound scab'
+p269
+I2
+sS'northern analysis of'
+p270
+I1
+sS'adult skin fibroblast'
+p271
+I1
+sS'cell surface receptor for insulin-like growth factor i'
+p272
+I1
+sS'circular excis'
+p273
+I1
+sS'passag'
+p274
+I1
+sS'tomtec'
+p275
+I1
+sS'the connective-tissue contract'
+p276
+I1
+sS'cultur'
+p277
+I1
+sS'cell migr'
+p278
+I1
+sS'ecm of th'
+p279
+I1
+sS'gel'
+p280
+I3
+sS'dorsal cutaneous biopsi'
+p281
+I1
+sS'tumor cell invas'
+p282
+I1
+sS'cell-cell interact'
+p283
+I1
+sS'anim'
+p284
+I1
+sS'protein acid'
+p285
+I1
+sS'glycoprotein'
+p286
+I2
+sS'rna'
+p287
+I3
+sS'proliferative epidermal keratinocyt'
+p288
+I1
+sS'oblong full-thickness excision wound'
+p289
+I1
+sS'vitro'
+p290
+I4
+sS'lens of'
+p291
+I1
+sS'lens of sparc-null mic'
+p292
+I1
+sS'filopodial project'
+p293
+I1
+sS'sparc-null primary dermal fibroblast'
+p294
+I1
+sS'dynamic reorgan'
+p295
+I1
+sS'scrape wound'
+p296
+I1
+sS'for insulin-like growth factor i'
+p297
+I1
+sS'hematoxylin'
+p298
+I1
+sS'molecular dynam'
+p299
+I1
+sS'vitro equivalent of the connective-tissue contract'
+p300
+I1
+sS'vertebrate adult'
+p301
+I1
+sS'the len'
+p302
+I1
+sS'of the dermal fibroblast'
+p303
+I2
+sS'northern analysis of wound biopsi'
+p304
+I1
+sS'cdna prob'
+p305
+I1
+sS'mm oblong full-thickness excis'
+p306
+I1
+sS'primary dermal fibroblast'
+p307
+I5
+sS'protein'
+p308
+I7
+sS'sparc-null mic'
+p309
+I36
+sS'sparc-nul'
+p310
+I1
+sS'angiogenesi'
+p311
+I1
+sS'of the total rna'
+p312
+I1
+sS'adult skin'
+p313
+I1
+sS'secreted protein'
+p314
+I1
+sS'the dermal fibroblast'
+p315
+I2
+sS'phenomena'
+p316
+I1
+sS'muscl'
+p317
+I2
+sS'disc contract'
+p318
+I1
+sS'ecm protein deposit'
+p319
+I1
+sS'containing insulin'
+p320
+I2
+sS'linkag'
+p321
+I1
+sS'motility of'
+p322
+I1
+sS'mitomycin'
+p323
+I1
+sS'carnosu'
+p324
+I1
+sS'tumor cel'
+p325
+I1
+sS'dermal fibroblast prepar'
+p326
+I1
+sS'in cystein'
+p327
+I1
+sS'fb'
+p328
+I15
+sS'sparc-null wound'
+p329
+I1
+sS'of sparc-null mic'
+p330
+I1
+sS'matrix'
+p331
+I3
+sS'neoepidermis of'
+p332
+I1
+sS'hybrid'
+p333
+I1
+sS'size-dependent wound closur'
+p334
+I1
+sS'factor-\xce\xb21'
+p335
+I1
+sS'vitro assay'
+p336
+I1
+sS'fiber filter pap'
+p337
+I1
+sS'ecm protein'
+p338
+I3
+sS'cell cycle synchronization of'
+p339
+I1
+sS'dorsal skin of'
+p340
+I1
+sS'cell cycle synchron'
+p341
+I1
+sS'wound tissues for'
+p342
+I1
+sS'sparc-null mice scab'
+p343
+I1
+sS'fiber'
+p344
+I1
+sS'expression of growth'
+p345
+I1
+sS'migrat'
+p346
+I2
+sS'f-actin bundl'
+p347
+I1
+sS'ecm'
+p348
+I10
+sS'wound tissu'
+p349
+I2
+sS'avertin'
+p350
+I1
+sS'the actin cytoskeleton'
+p351
+I1
+sS'sea-kem l'
+p352
+I1
+sS'invas'
+p353
+I1
+sS'vitro study wound'
+p354
+I1
+sS'repair'
+p355
+I6
+sS'biopsied tissu'
+p356
+I1
+sS'proliferation of keratinocyt'
+p357
+I1
+sS'expression of'
+p358
+I1
+sS'fibroblasts of dermal granulation tissu'
+p359
+I1
+sS'\xce\xbcg'
+p360
+I1
+sS'sparc-null mice contract'
+p361
+I1
+sS'of'
+p362
+I3
+sS'impaired wound'
+p363
+I1
+sS'wound contract'
+p364
+I5
+sS'granulation tissu'
+p365
+I19
+sS'of keratinocyt'
+p366
+I2
+sS'le'
+p367
+I1
+sS'vitro study wound contract'
+p368
+I1
+sS'neoepidermis of sparc-null mic'
+p369
+I1
+sS'epidermal cel'
+p370
+I2
+sS'junction protein'
+p371
+I1
+sS'trypsin'
+p372
+I1
+sS'rna analysis circular'
+p373
+I1
+sS'sparc-null fibroblasts granulation tissu'
+p374
+I1
+sS'wild-type wound'
+p375
+I1
+sS'wound repair'
+p376
+I7
+sS'peak express'
+p377
+I1
+sS're-plat'
+p378
+I1
+sS'collagen'
+p379
+I5
+sS'abbreviations dmem'
+p380
+I1
+sS'insulin-like growth factor i'
+p381
+I1
+sS'type-specif'
+p382
+I1
+sS'ut'
+p383
+I1
+sS'receptor'
+p384
+I2
+sS'supernat'
+p385
+I1
+sS'residual keratinocyt'
+p386
+I1
+sS'gapdh transcript'
+p387
+I1
+sS'cell-cel'
+p388
+I1
+sS'receptor for insulin-like growth factor i'
+p389
+I2
+sS'pb'
+p390
+I4
+sS'dmem'
+p391
+I11
+sS'full-thick'
+p392
+I2
+sS'lens cell-ecm'
+p393
+I1
+sS'epithelial cel'
+p394
+I2
+sS'interact'
+p395
+I3
+sS'bundl'
+p396
+I1
+sS'phosphorylation of adherens junction protein'
+p397
+I1
+sS'collagen gel'
+p398
+I2
+sS'extracellular matrix'
+p399
+I2
+sS'glass fiber filter pap'
+p400
+I1
+sS'ecm of'
+p401
+I1
+sS'molecular'
+p402
+I1
+sS'modulation of'
+p403
+I1
+sS'filter'
+p404
+I1
+sS'dorsal skin'
+p405
+I1
+sS'size-dependent wound'
+p406
+I1
+sS'total rna'
+p407
+I2
+sS'of the gel'
+p408
+I1
+sS'epithelial margin'
+p409
+I2
+sS'adult tissu'
+p410
+I1
+sS'modulation of fibroblast migr'
+p411
+I1
+sS'contraction of the gel'
+p412
+I1
+sS'fibroblast migr'
+p413
+I1
+sS'of fibroblast'
+p414
+I1
+sS'tissu'
+p415
+I12
+sS'mice'
+p416
+I51
+sS'circular les'
+p417
+I2
+sS'dynamic reorganization of the actin cytoskeleton'
+p418
+I1
+sS'monolay'
+p419
+I7
+sS'count'
+p420
+I1
+sS'lens epithelial cel'
+p421
+I2
+sS'extensive granulation tissu'
+p422
+I1
+sS'agarose-coated wel'
+p423
+I1
+sS'bed'
+p424
+I3
+sS'fmc'
+p425
+I1
+sS'project'
+p426
+I1
+sS'i'
+p427
+I3
+sS'growth'
+p428
+I5
+sS'absenc'
+p429
+I10
+sS'phosphoimag'
+p430
+I1
+sS'the total rna'
+p431
+I1
+sS'growth factor i'
+p432
+I1
+sS'\xce\xbcg of th'
+p433
+I1
+sS'plastic micropipette tip'
+p434
+I1
+sS'exhibit'
+p435
+I1
+sS'progressive contraction of th'
+p436
+I1
+sS'vitro equivalent of th'
+p437
+I1
+sS'protrus'
+p438
+I1
+sS'biological phenomena'
+p439
+I1
+sS'cytoskeleton'
+p440
+I1
+sS'embryonic fibroblast'
+p441
+I2
+sS'immigr'
+p442
+I1
+sS'tissue growth'
+p443
+I1
+sS'cell surface receptor for insulin-like growth'
+p444
+I1
+sS'absence of'
+p445
+I3
+sS'of wound biopsi'
+p446
+I2
+sS'kidney'
+p447
+I1
+sS'excision wound'
+p448
+I4
+sS'\xce\xbcg of the total rna'
+p449
+I1
+sS'acid'
+p450
+I1
+sS'agaros'
+p451
+I1
+sS'monolayer of wild-type fibroblasts cultur'
+p452
+I1
+sS'monolayer of sparc-null fibroblast'
+p453
+I1
+sS'gravitation sediment'
+p454
+I1
+sS'tip'
+p455
+I1
+sS'fibronectin'
+p456
+I4
+sS'phenotyp'
+p457
+I2
+sS'heal'
+p458
+I16
+sS'mice scab'
+p459
+I1
+sS'histolog'
+p460
+I2
+sS'dynamic reorganization of th'
+p461
+I1
+sS'dermal'
+p462
+I2
+sS'protein purifi'
+p463
+I1
+sS'fibroblasts cultur'
+p464
+I1
+sS'fiber cel'
+p465
+I1
+sS'primary derm'
+p466
+I1
+sS'bovine type i'
+p467
+I1
+sS'reepithelial'
+p468
+I1
+sS'prolifer'
+p469
+I3
+sS'mitomycin c'
+p470
+I1
+sS'vitro equival'
+p471
+I1
+sS'rockland'
+p472
+I1
+sS'contracted type i'
+p473
+I1
+sS'transcript'
+p474
+I2
+sS'fibroblast prepar'
+p475
+I1
+sS'collagen concentr'
+p476
+I1
+sS'exogenous sparc'
+p477
+I1
+sS'doubl'
+p478
+I1
+sS'macrophag'
+p479
+I3
+sS'connective-tissue contract'
+p480
+I1
+sS'cytokeratin'
+p481
+I1
+sS'vitrogen\xe2\x84\xa2'
+p482
+I1
+sS'cover'
+p483
+I2
+sS'gapdh'
+p484
+I3
+sS'micropipette tip'
+p485
+I1
+sS'histological examin'
+p486
+I3
+sS'equivalent of the connective-tissue contract'
+p487
+I1
+sS'skin of wild-typ'
+p488
+I1
+sS'cell-matrix interact'
+p489
+I1
+sS'tyrosine phosphoryl'
+p490
+I1
+sS'sigma'
+p491
+I2
+sS'dermal fibroblast'
+p492
+I16
+stp493
+Rp494
+tp495
+.

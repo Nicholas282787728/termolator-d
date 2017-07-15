@@ -1,0 +1,434 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'linen embroideri'
+p7
+I1
+sS'cordonnet'
+p8
+I4
+sS'roumanian'
+p9
+I1
+sS'rest'
+p10
+I1
+sS'next chapt'
+p11
+I1
+sS'ocr'
+p12
+I1
+sS'paper'
+p13
+I1
+sS'lozeng'
+p14
+I1
+sS'row'
+p15
+I1
+sS'coarse mesh'
+p16
+I1
+sS'cut'
+p17
+I2
+sS'passag'
+p18
+I1
+sS'coloured linen fabr'
+p19
+I1
+sS'lacet'
+p20
+I1
+sS'fine metal comb'
+p21
+I1
+sS'fine round'
+p22
+I1
+sS'introduct'
+p23
+I2
+sS'coarse thread'
+p24
+I1
+sS'violet-lie-de-vin'
+p25
+I1
+sS'transpar'
+p26
+I1
+sS'vertical stitch'
+p27
+I1
+sS'appliqu'
+p28
+I6
+sS'foundation thread'
+p29
+I2
+sS'fine tissu'
+p30
+I1
+sS'press'
+p31
+I1
+sS'coarse coloured linen fabr'
+p32
+I1
+sS'agrav'
+p33
+I14
+sS'needlemade embroideri'
+p34
+I1
+sS'smyrna stitch'
+p35
+I1
+sS'acirc'
+p36
+I1
+sS'brun-caroubi'
+p37
+I1
+sS'giovan'
+p38
+I1
+sS'round'
+p39
+I1
+sS'bleu'
+p40
+I1
+sS'letter press'
+p41
+I1
+sS'vert-pistach'
+p42
+I1
+sS'fine chain stitch'
+p43
+I1
+sS'past'
+p44
+I1
+sS'miscellaneous fancy work'
+p45
+I1
+sS'soie de coton'
+p46
+I2
+sS'subject'
+p47
+I8
+sS'fancy work'
+p48
+I1
+sS'velvet'
+p49
+I2
+sS'stitch'
+p50
+I17
+sS'embroideri'
+p51
+I5
+sS'frac12'
+p52
+I1
+sS'tambour'
+p53
+I2
+sS'regular little lozeng'
+p54
+I1
+sS'fine little spangl'
+p55
+I1
+sS'soutach'
+p56
+I15
+sS'enough'
+p57
+I1
+sS'stuff'
+p58
+I3
+sS'original colour'
+p59
+I1
+sS'eacut'
+p60
+I20
+sS'spangl'
+p61
+I1
+sS'fine chain'
+p62
+I1
+sS'run'
+p63
+I1
+sS'linen fabr'
+p64
+I1
+sS'picot'
+p65
+I4
+sS'java'
+p66
+I1
+sS'comb'
+p67
+I2
+sS'zig-zag'
+p68
+I2
+sS'tricot'
+p69
+I1
+sS'thread'
+p70
+I4
+sS'mdash'
+p71
+I1
+sS'embroidery cotton'
+p72
+I1
+sS'stuff rest'
+p73
+I1
+sS'crochet-needl'
+p74
+I1
+sS'rouge-cardin'
+p75
+I2
+sS'stitches run'
+p76
+I1
+sS'original work'
+p77
+I1
+sS'coarse canva'
+p78
+I1
+sS'tissue pap'
+p79
+I1
+sS'foundat'
+p80
+I3
+sS'tapestry needl'
+p81
+I3
+sS'overcasting stitch'
+p82
+I1
+sS'malta embroideri'
+p83
+I1
+sS'systematic classif'
+p84
+I1
+sS'triangl'
+p85
+I3
+sS'fabric'
+p86
+I1
+sS'gris-amad'
+p87
+I1
+sS'carpet'
+p88
+I2
+sS'knot stitch'
+p89
+I1
+sS'little spangl'
+p90
+I1
+sS'imit'
+p91
+I1
+sS'oriental carpet'
+p92
+I1
+sS'fine tissue pap'
+p93
+I1
+sS'java linen'
+p94
+I1
+sS'piqu'
+p95
+I1
+sS'chapter'
+p96
+I1
+sS'fine stuff'
+p97
+I2
+sS'chain stitch'
+p98
+I1
+sS'diagonal row'
+p99
+I1
+sS'bulb'
+p100
+I1
+sS'soutache bleu-indigo'
+p101
+I1
+sS'zig-zag bord'
+p102
+I1
+sS'hous'
+p103
+I1
+sS'work'
+p104
+I2
+sS'bleu p'
+p105
+I1
+sS'gobelin stitch'
+p106
+I4
+sS'soie'
+p107
+I2
+sS'classif'
+p108
+I1
+sS'house linen'
+p109
+I1
+sS'smyrna'
+p110
+I1
+sS'ordinary overcasting stitch'
+p111
+I1
+sS'upward passag'
+p112
+I1
+sS'alsac'
+p113
+I2
+sS'starch past'
+p114
+I1
+sS'flemish linen'
+p115
+I1
+sS'border'
+p116
+I1
+sS'cotton'
+p117
+I1
+sS'broder'
+p118
+I2
+sS'montenegrin'
+p119
+I1
+sS'linen'
+p120
+I2
+sS'alphabet'
+p121
+I2
+sS'jaune-d'
+p122
+I1
+sS'cru thread'
+p123
+I1
+sS'satisfactory imit'
+p124
+I1
+sS'little lozeng'
+p125
+I1
+sS'liquid enough'
+p126
+I1
+sS'coarse coloured linen'
+p127
+I1
+sS'needl'
+p128
+I3
+sS'bohemia'
+p129
+I1
+sS'distribut'
+p130
+I2
+sS'embroidery stitch'
+p131
+I1
+sS'back-stitch'
+p132
+I1
+sS'bleu-indigo'
+p133
+I4
+sS'macram'
+p134
+I1
+sS'mesh'
+p135
+I1
+sS'letter'
+p136
+I1
+sS'canva'
+p137
+I1
+sS'house linen embroideri'
+p138
+I1
+sS'gobelin'
+p139
+I4
+sS'gris-tilleul'
+p140
+I1
+sS'colour'
+p141
+I1
+sS'scissor'
+p142
+I4
+sS'smyrna carpet'
+p143
+I1
+sS'roumanian stitch'
+p144
+I3
+sS'principal subject'
+p145
+I1
+stp146
+Rp147
+tp148
+.

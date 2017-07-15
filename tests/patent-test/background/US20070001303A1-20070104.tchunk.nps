@@ -1,0 +1,515 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'move'
+p7
+I1
+sS'non-limiting sens'
+p8
+I1
+sS'seed deposit'
+p9
+I1
+sS'conductor cor'
+p10
+I47
+sS'industrial park'
+p11
+I6
+sS'damascen'
+p12
+I1
+sS'cross-sectional view of'
+p13
+I2
+sS'imd'
+p14
+I1
+sS'cu se'
+p15
+I1
+sS'chemical vapor deposit'
+p16
+I1
+sS'sunnyvale ca'
+p17
+I1
+sS'tetraethylorthosil'
+p18
+I2
+sS'sens'
+p19
+I1
+sS'junction'
+p20
+I1
+sS'barrier metal flash'
+p21
+I7
+sS'dd'
+p22
+I1
+sS'silicon oxid'
+p23
+I5
+sS'stop'
+p24
+I31
+sS'camino'
+p25
+I1
+sS'horizontal plan'
+p26
+I1
+sS'barrier'
+p27
+I49
+sS'semiconductor industri'
+p28
+I1
+sS'compound'
+p29
+I1
+sS'silver'
+p30
+I5
+sS'chemical-mechanical polish'
+p31
+I1
+sS'aluminum'
+p32
+I6
+sS'semiconductor industry mov'
+p33
+I1
+sS'el camino'
+p34
+I1
+sS'yield'
+p35
+I1
+sS'vapor deposit'
+p36
+I1
+sS'singapor'
+p37
+I6
+sS'reactiv'
+p38
+I1
+sS'sidewal'
+p39
+I6
+sS'integr'
+p40
+I1
+sS'stop lav'
+p41
+I1
+sS'channel dielectr'
+p42
+I19
+sS'silica aerogel'
+p43
+I1
+sS'cmp'
+p44
+I4
+sS'dimens'
+p45
+I1
+sS'siox'
+p46
+I1
+sS'oxid'
+p47
+I7
+sS'teo'
+p48
+I1
+sS'xerogel'
+p49
+I1
+sS'industry mov'
+p50
+I1
+sS'sion'
+p51
+I1
+sS'nitride compound'
+p52
+I1
+sS'concern'
+p53
+I2
+sS'electroless'
+p54
+I1
+sS'conductor cores deposit'
+p55
+I2
+sS'for'
+p56
+I1
+sS'semiconductor'
+p57
+I22
+sS'teflon microemuls'
+p58
+I1
+sS'tungsten nitrid'
+p59
+I1
+sS'tmo'
+p60
+I1
+sS'core'
+p61
+I45
+sS'extend'
+p62
+I1
+sS'wn'
+p63
+I1
+sS'sio2'
+p64
+I1
+sS'silicon nitrid'
+p65
+I4
+sS'perpendicular'
+p66
+I2
+sS'hsq'
+p67
+I1
+sS'copper conductor'
+p68
+I1
+sS'ecp'
+p69
+I1
+sS'carbon'
+p70
+I1
+sS'pre-clean'
+p71
+I2
+sS'silsesquioxan'
+p72
+I1
+sS'insufficient pre-clean'
+p73
+I1
+sS'ild'
+p74
+I1
+sS'via'
+p75
+I11
+sS'semiconductor waf'
+p76
+I1
+sS'deposition of'
+p77
+I1
+sS'contamin'
+p78
+I11
+sS'dielectr'
+p79
+I12
+sS'industri'
+p80
+I6
+sS'laver'
+p81
+I1
+sS'reactive pre-clean'
+p82
+I1
+sS'copper'
+p83
+I13
+sS'sob'
+p84
+I1
+sS'ca'
+p85
+I1
+sS'sop'
+p86
+I1
+sS'conductive buildup'
+p87
+I1
+sS'buildup'
+p88
+I1
+sS'copper alloy'
+p89
+I2
+sS'industrial park d'
+p90
+I6
+sS'cu'
+p91
+I8
+sS'nanofoam'
+p92
+I1
+sS'mesoporous silica'
+p93
+I1
+sS'conventional plan'
+p94
+I1
+sS'singapore sg'
+p95
+I1
+sS'nitrid'
+p96
+I9
+sS'cores deposit'
+p97
+I2
+sS'lim yeow'
+p98
+I1
+sS'silicon oxynitrid'
+p99
+I1
+sS'cap dielectr'
+p100
+I1
+sS'sixnx'
+p101
+I1
+sS'adhes'
+p102
+I4
+sS'reliability concern'
+p103
+I2
+sS'gap'
+p104
+I1
+sS'sunnyval'
+p105
+I1
+sS'hmd'
+p106
+I1
+sS'cap'
+p107
+I1
+sS'interlayer dielectr'
+p108
+I1
+sS'fluorinated tetraethylorthosil'
+p109
+I1
+sS'microemuls'
+p110
+I1
+sS'physical vapor'
+p111
+I1
+sS'inter-metal dielectr'
+p112
+I1
+sS'semiconductor device g'
+p113
+I1
+sS'omct'
+p114
+I1
+sS'yeow kheng'
+p115
+I1
+sS'dual damascen'
+p116
+I1
+sS'sealant'
+p117
+I4
+sS'planar'
+p118
+I3
+sS'constant'
+p119
+I3
+sS'ag'
+p120
+I1
+sS'park d'
+p121
+I6
+sS'lim yeow kheng'
+p122
+I2
+sS'dielectric const'
+p123
+I3
+sS'fteo'
+p124
+I1
+sS'bis-benzocyclobuten'
+p125
+I1
+sS'titanium'
+p126
+I2
+sS'diffusion barri'
+p127
+I3
+sS'seed'
+p128
+I12
+sS'dielectric gap'
+p129
+I1
+sS'deposition of a barri'
+p130
+I1
+sS'aerogel'
+p131
+I1
+sS'hydrogen'
+p132
+I2
+sS'polimide nanofoam'
+p133
+I1
+sS'develop'
+p134
+I1
+sS'conductor'
+p135
+I57
+sS'lim'
+p136
+I1
+sS'photolithograph'
+p137
+I1
+sS'low-k imd'
+p138
+I1
+sS'tin'
+p139
+I2
+sS'hydrogen silsesquioxan'
+p140
+I1
+sS'gate'
+p141
+I2
+sS'cu oxid'
+p142
+I2
+sS'channel'
+p143
+I19
+sS'b h'
+p144
+I1
+sS'teflon'
+p145
+I1
+sS'borophosphosil'
+p146
+I1
+sS'chart'
+p147
+I4
+sS'bi-lay'
+p148
+I1
+sS'pore seal'
+p149
+I4
+sS'plane'
+p150
+I3
+sS'cross-sectional view of a semiconductor'
+p151
+I2
+sS'cu seed deposit'
+p152
+I1
+sS'silica xerogel'
+p153
+I1
+sS'parallel'
+p154
+I1
+sS'tan'
+p155
+I2
+sS'plane parallel'
+p156
+I1
+sS'critical dimens'
+p157
+I1
+sS'vapor'
+p158
+I1
+sS'oxynitrid'
+p159
+I1
+sS'wafer'
+p160
+I1
+sS'teflon-af'
+p161
+I1
+sS'tantalum nitrid'
+p162
+I1
+sS'bcb'
+p163
+I1
+sS'dadb'
+p164
+I1
+sS'bpsg'
+p165
+I1
+sS'deposit'
+p166
+I10
+sS'chemical mechanical planar'
+p167
+I1
+sS'alloy'
+p168
+I2
+sS'sin'
+p169
+I1
+sS'silica'
+p170
+I1
+sS'sg'
+p171
+I6
+sS'kheng'
+p172
+I1
+stp173
+Rp174
+tp175
+.

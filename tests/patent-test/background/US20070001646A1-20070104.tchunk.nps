@@ -1,0 +1,1145 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'voltage check'
+p7
+I2
+sS'flowchart of'
+p8
+I1
+sS'feeding of'
+p9
+I2
+sS'voltage of the usb host'
+p10
+I8
+sS'loss ptr56'
+p11
+I2
+sS'voltage detection of th'
+p12
+I6
+sS'loss ptr54'
+p13
+I8
+sS'voltage voa of th'
+p14
+I3
+sS'of the charging '
+p15
+I9
+sS'rechargeable batteri'
+p16
+I148
+sS'preliminary curr'
+p17
+I2
+sS'voltage of the ac adaptor'
+p18
+I18
+sS'ground'
+p19
+I1
+sS'external circuit of the charging '
+p20
+I1
+sS'semiconductor'
+p21
+I1
+sS'one-half'
+p22
+I5
+sS'ic of'
+p23
+I1
+sS'usb connector'
+p24
+I7
+sS'pr of the rechargeable batteri'
+p25
+I1
+sS'tr'
+p26
+I1
+sS'external circuit of the charg'
+p27
+I1
+sS'ps=vo'
+p28
+I1
+sS'loss pr of th'
+p29
+I2
+sS'the charging pattern correspond'
+p30
+I1
+sS'voltage of the constant-current charging cc1'
+p31
+I1
+sS'voltage v2 of th'
+p32
+I1
+sS'icc1'
+p33
+I19
+sS'ldo'
+p34
+I1
+sS'the charging '
+p35
+I3
+sS'dc'
+p36
+I1
+sS'identification information of the ac adaptor'
+p37
+I1
+sS'battery voltage vb'
+p38
+I7
+sS'completion voltag'
+p39
+I4
+sS'for th'
+p40
+I1
+sS'voltage vou of the usb host'
+p41
+I2
+sS't2'
+p42
+I2
+sS'icc2 of'
+p43
+I1
+sS't1'
+p44
+I2
+sS'oxide semiconductor'
+p45
+I2
+sS'charging '
+p46
+I4
+sS'for the rechargeable batteri'
+p47
+I2
+sS'conduct'
+p48
+I6
+sS'the ac adaptor'
+p49
+I23
+sS'v3 of the rechargeable batteri'
+p50
+I1
+sS'prevent'
+p51
+I1
+sS'voltage v2 of the rechargeable batteri'
+p52
+I1
+sS'constant-current charging cc2'
+p53
+I45
+sS'constant-current charging cc1'
+p54
+I31
+sS'of the sense resistor'
+p55
+I12
+sS'pmo'
+p56
+I2
+sS'voltage v6'
+p57
+I1
+sS'voltage v4'
+p58
+I1
+sS'electronic device kojima'
+p59
+I1
+sS'voltage v2'
+p60
+I4
+sS'voltage v3'
+p61
+I2
+sS'loss of the sense resistor'
+p62
+I14
+sS'voltage v1'
+p63
+I3
+sS'voltage of'
+p64
+I19
+sS'current'
+p65
+I11
+sS'stat voltage of the constant-voltag'
+p66
+I1
+sS'ic of the constant-current charging cc1'
+p67
+I1
+sS'constant-voltage charg'
+p68
+I3
+sS'the constant-current charging cc1'
+p69
+I2
+sS'battery status check'
+p70
+I7
+sS'flowchart of the charg'
+p71
+I1
+sS'dc-dc'
+p72
+I3
+sS'of the sens'
+p73
+I1
+sS'pd'
+p74
+I4
+sS's16'
+p75
+I2
+sS'maximum heat generation hmax'
+p76
+I1
+sS's15'
+p77
+I3
+sS'feeding of the usb'
+p78
+I1
+sS'loss p'
+p79
+I5
+sS'efficiency r1'
+p80
+I1
+sS'stat voltag'
+p81
+I1
+sS'loss pr of the sense resistor'
+p82
+I4
+sS'convert'
+p83
+I5
+sS'convers'
+p84
+I1
+sS'hereinabov'
+p85
+I1
+sS'voltage detection of'
+p86
+I6
+sS'transitions of th'
+p87
+I1
+sS'of a cellular phon'
+p88
+I1
+sS'the sense resistor'
+p89
+I10
+sS'start voltage of th'
+p90
+I2
+sS'one-half of'
+p91
+I5
+sS'voltage vb'
+p92
+I7
+sS'voltage vc'
+p93
+I11
+sS'icc3'
+p94
+I3
+sS'icc2'
+p95
+I32
+sS'conventional diod'
+p96
+I1
+sS'start voltag'
+p97
+I3
+sS'total heat generation amount of'
+p98
+I1
+sS'adaptor detection termin'
+p99
+I3
+sS'load'
+p100
+I6
+sS'low drop'
+p101
+I1
+sS'constant-current charg'
+p102
+I78
+sS'transit'
+p103
+I2
+sS'ac'
+p104
+I90
+sS'ipr'
+p105
+I14
+sS'voltage of th'
+p106
+I19
+sS'lithium-ion batteri'
+p107
+I4
+sS'of the charging pattern correspond'
+p108
+I2
+sS'suppli'
+p109
+I4
+sS'batteri'
+p110
+I196
+sS'dc-dc convert'
+p111
+I2
+sS'p-channel'
+p112
+I1
+sS'voa'
+p113
+I4
+sS'pr'
+p114
+I29
+sS'ps'
+p115
+I2
+sS'conversion efficiency r1'
+p116
+I1
+sS'universal serial bu'
+p117
+I2
+sS'battery statu'
+p118
+I8
+sS'identification information of th'
+p119
+I1
+sS'univers'
+p120
+I2
+sS'altern'
+p121
+I1
+sS'ic of th'
+p122
+I1
+sS'connector'
+p123
+I12
+sS'pc'
+p124
+I11
+sS'camera'
+p125
+I1
+sS'call'
+p126
+I1
+sS'one-half of the constant-current charg'
+p127
+I1
+sS'battery voltag'
+p128
+I31
+sS'ph'
+p129
+I8
+sS'stat voltage of th'
+p130
+I1
+sS'dc-dc convers'
+p131
+I5
+sS'voltage v'
+p132
+I1
+sS'current ipr'
+p133
+I2
+sS'diod'
+p134
+I2
+sS'regul'
+p135
+I36
+sS'c'
+p136
+I4
+sS'ptr54='
+p137
+I1
+sS'phone'
+p138
+I24
+sS'linear voltage regul'
+p139
+I36
+sS'sens'
+p140
+I34
+sS'loss ps of th'
+p141
+I1
+sS'ac adaptor'
+p142
+I111
+sS'constant-current icc2'
+p143
+I1
+sS'of the rechargeable batteri'
+p144
+I27
+sS'the usb host'
+p145
+I13
+sS'charging pattern correspond'
+p146
+I1
+sS'mw'
+p147
+I5
+sS'ic of the constant-current charg'
+p148
+I1
+sS'usb host'
+p149
+I99
+sS'b h'
+p150
+I1
+sS'battery of a cellular phon'
+p151
+I1
+sS'vb'
+p152
+I9
+sS'vc'
+p153
+I11
+sS'alternating curr'
+p154
+I2
+sS'pr of the sense resistor'
+p155
+I2
+sS'of icc2'
+p156
+I4
+sS'conversion efficiency q'
+p157
+I1
+sS'flowchart of th'
+p158
+I1
+sS'start voltage of constant-voltag'
+p159
+I1
+sS'ic'
+p160
+I83
+sS'feeding of the ac'
+p161
+I1
+sS'icc2 of cc2'
+p162
+I1
+sS'ground termin'
+p163
+I1
+sS's3'
+p164
+I2
+sS's2'
+p165
+I2
+sS's1'
+p166
+I2
+sS'cc1'
+p167
+I30
+sS's5'
+p168
+I2
+sS's4'
+p169
+I2
+sS'backflow prevention diod'
+p170
+I1
+sS'voltage detect'
+p171
+I7
+sS'one-half of the constant-current charging cc1'
+p172
+I1
+sS'ptr54'
+p173
+I4
+sS'ptr56'
+p174
+I2
+sS'p-channel metal oxid'
+p175
+I1
+sS'total heat generation amount of cc1'
+p176
+I1
+sS'serial bu'
+p177
+I2
+sS'assist'
+p178
+I1
+sS'constant-curr'
+p179
+I5
+sS'v1'
+p180
+I3
+sS'v2'
+p181
+I3
+sS'v3'
+p182
+I1
+sS'v4'
+p183
+I1
+sS'v5'
+p184
+I1
+sS'v6'
+p185
+I1
+sS'voltage voa of the ac adaptor'
+p186
+I6
+sS'ph=177'
+p187
+I1
+sS's35'
+p188
+I2
+sS'universal seri'
+p189
+I2
+sS'correspond'
+p190
+I5
+sS'voltage level of th'
+p191
+I1
+sS's22'
+p192
+I5
+sS'of th'
+p193
+I46
+sS'supply ac'
+p194
+I2
+sS'voltage voa'
+p195
+I5
+sS'feeding of the ac adaptor'
+p196
+I2
+sS'loss of th'
+p197
+I7
+sS'voltage regul'
+p198
+I36
+sS'dc-dc conversion effici'
+p199
+I5
+sS'loss'
+p200
+I39
+sS'the constant-voltag'
+p201
+I2
+sS'constant-voltag'
+p202
+I56
+sS'secondary batteri'
+p203
+I1
+sS'masakazu'
+p204
+I1
+sS'voltage of the rechargeable batteri'
+p205
+I4
+sS'charging-pr'
+p206
+I1
+sS'start voltage of the constant-voltag'
+p207
+I1
+sS'charging cc2'
+p208
+I41
+sS'charging cc1'
+p209
+I26
+sS'voltage of the charg'
+p210
+I2
+sS'commercial alternating curr'
+p211
+I1
+sS'voltage of the ac'
+p212
+I9
+sS'cc2'
+p213
+I47
+sS'adaptor connector'
+p214
+I5
+sS'dc-dc conversion efficiency r1'
+p215
+I1
+sS'p-channel metal oxide semiconductor'
+p216
+I1
+sS'identif'
+p217
+I1
+sS'of the ac'
+p218
+I9
+sS'transitions of'
+p219
+I2
+sS'flowchart'
+p220
+I6
+sS'return'
+p221
+I2
+sS'voltage vou of'
+p222
+I1
+sS'voltage vou of the usb'
+p223
+I1
+sS'of a charg'
+p224
+I1
+sS'diversification of'
+p225
+I1
+sS'voltage v3 of'
+p226
+I1
+sS'of the linear voltage regul'
+p227
+I16
+sS'avenu'
+p228
+I1
+sS'voltag'
+p229
+I68
+sS'd'
+p230
+I4
+sS'loss of the sens'
+p231
+I7
+sS'transitions of charg'
+p232
+I1
+sS'personal digital assist'
+p233
+I1
+sS'drop'
+p234
+I3
+sS'radiat'
+p235
+I4
+sS's44'
+p236
+I2
+sS's45'
+p237
+I2
+sS's46'
+p238
+I2
+sS's40'
+p239
+I2
+sS's41'
+p240
+I2
+sS's42'
+p241
+I2
+sS's43'
+p242
+I4
+sS'complet'
+p243
+I4
+sS'kawasaki'
+p244
+I1
+sS'of the ac adaptor'
+p245
+I33
+sS'of constant-voltag'
+p246
+I1
+sS'detect'
+p247
+I1
+sS'cabl'
+p248
+I9
+sS'prevention diod'
+p249
+I1
+sS'identification information of the ac'
+p250
+I1
+sS'conversion effici'
+p251
+I4
+sS'loss ps of'
+p252
+I1
+sS't3'
+p253
+I2
+sS'start voltage of the constant-current charging cc1'
+p254
+I1
+sS'voltage v2 of'
+p255
+I1
+sS'energi'
+p256
+I3
+sS'pda'
+p257
+I5
+sS'out'
+p258
+I1
+sS'icc1 of cc1'
+p259
+I1
+sS'york avenu'
+p260
+I1
+sS'loss of'
+p261
+I7
+sS'v2 of the rechargeable batteri'
+p262
+I1
+sS'digital assist'
+p263
+I1
+sS'loss ps of the switch'
+p264
+I1
+sS'of the constant-voltag'
+p265
+I2
+sS'identification information of'
+p266
+I1
+sS'resistor'
+p267
+I44
+sS'integr'
+p268
+I1
+sS's19'
+p269
+I5
+sS's18'
+p270
+I5
+sS's13'
+p271
+I4
+sS'usb cabl'
+p272
+I9
+sS's11'
+p273
+I2
+sS's17'
+p274
+I4
+sS'usb detection termin'
+p275
+I4
+sS'preliminary charg'
+p276
+I24
+sS's14'
+p277
+I3
+sS'bu'
+p278
+I2
+sS'host'
+p279
+I99
+sS'york'
+p280
+I1
+sS'voltage of constant-voltag'
+p281
+I1
+sS'usb'
+p282
+I109
+sS'energy loss'
+p283
+I2
+sS'pmos transistor'
+p284
+I1
+sS'central'
+p285
+I1
+sS'r1'
+p286
+I1
+sS'of'
+p287
+I57
+sS'voltage of the usb'
+p288
+I4
+sS'electronic camera'
+p289
+I1
+sS'commercial alternating-current power supply ac'
+p290
+I1
+sS'preliminary charging-pr'
+p291
+I1
+sS'commercial alternating-current power suppli'
+p292
+I1
+sS'ac-dc convert'
+p293
+I1
+sS'the rechargeable batteri'
+p294
+I18
+sS'feed'
+p295
+I11
+sS'diversification of th'
+p296
+I1
+sS'voltage level of'
+p297
+I1
+sS'effici'
+p298
+I4
+sS'preliminary current ipr'
+p299
+I2
+sS'cellular phon'
+p300
+I25
+sS'voltage voa of'
+p301
+I3
+sS'status check'
+p302
+I7
+sS'of the charg'
+p303
+I9
+sS'pr of'
+p304
+I1
+sS'start voltage of the constant-current charg'
+p305
+I1
+sS'loss pr of the sens'
+p306
+I2
+sS's23'
+p307
+I6
+sS's12'
+p308
+I4
+sS'capac'
+p309
+I1
+sS'the linear voltage regul'
+p310
+I5
+sS'start'
+p311
+I3
+sS'kojima masakazu'
+p312
+I2
+sS'low'
+p313
+I1
+sS'detection termin'
+p314
+I10
+sS'termin'
+p315
+I12
+sS'proposit'
+p316
+I1
+sS's39'
+p317
+I2
+sS's38'
+p318
+I2
+sS'voltage level of the rechargeable batteri'
+p319
+I1
+sS'adaptor'
+p320
+I111
+sS's34'
+p321
+I2
+sS's37'
+p322
+I2
+sS'transistor'
+p323
+I1
+sS's31'
+p324
+I2
+sS's33'
+p325
+I2
+sS's32'
+p326
+I2
+sS's20'
+p327
+I3
+sS'sense resistor'
+p328
+I44
+sS'backflow prevent'
+p329
+I4
+sS'b'
+p330
+I4
+sS'feeding of th'
+p331
+I2
+sS'loss pr of'
+p332
+I2
+sS'electronic device kojima masakazu'
+p333
+I1
+sS'voltage v3 of th'
+p334
+I1
+sS'external circuit of'
+p335
+I1
+sS'display'
+p336
+I1
+sS'diversification of the charg'
+p337
+I1
+sS'dp'
+p338
+I4
+sS'of a rechargeable batteri'
+p339
+I2
+sS'of the usb host'
+p340
+I20
+sS'vou of the usb host'
+p341
+I1
+sS'one-half of th'
+p342
+I5
+sS'voltage of the constant-voltag'
+p343
+I2
+sS'drop out'
+p344
+I1
+sS'icc1 of'
+p345
+I1
+sS'of cc2'
+p346
+I1
+sS'of cc1'
+p347
+I5
+sS'efficiency q'
+p348
+I1
+sS'loss pr'
+p349
+I2
+sS'external circuit of th'
+p350
+I1
+sS'check'
+p351
+I9
+sS'voltage detection termin'
+p352
+I1
+sS'voltage voa of the ac'
+p353
+I3
+sS'switch'
+p354
+I2
+sS'for'
+p355
+I1
+sS'stat voltage of'
+p356
+I1
+sS's21'
+p357
+I5
+sS'of the usb'
+p358
+I7
+sS'transmiss'
+p359
+I1
+sS'of rechargeable batteri'
+p360
+I2
+sS'battery of'
+p361
+I1
+sS'voltage vou of th'
+p362
+I1
+sS's36'
+p363
+I2
+sS'dc-dc conversion efficiency q'
+p364
+I1
+sS'phone cal'
+p365
+I1
+sS'voa of the ac adaptor'
+p366
+I3
+sS'pr of th'
+p367
+I1
+sS'chassi'
+p368
+I7
+sS'of the constant-current charging cc1'
+p369
+I2
+sS'statu'
+p370
+I1
+sS'alternating-current power supply ac'
+p371
+I1
+sS'start voltage of'
+p372
+I3
+sS'voltage v5'
+p373
+I1
+sS'electric energi'
+p374
+I1
+sS'charg'
+p375
+I32
+sS'diversif'
+p376
+I1
+sS'hmax'
+p377
+I4
+sS'feeding of the usb host'
+p378
+I2
+sS'voltage drop'
+p379
+I3
+sS'low drop out'
+p380
+I1
+sS'voltage v3 of the rechargeable batteri'
+p381
+I1
+sS'cpu'
+p382
+I2
+stp383
+Rp384
+tp385
+.

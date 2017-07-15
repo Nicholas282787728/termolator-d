@@ -1,0 +1,599 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'incis'
+p7
+I2
+sS'longitudinal axis of'
+p8
+I1
+sS'annandal'
+p9
+I1
+sS'cosmetic procedures including brow'
+p10
+I1
+sS'exemplary co'
+p11
+I1
+sS'cannula'
+p12
+I3
+sS'consum'
+p13
+I2
+sS'non-mattress'
+p14
+I1
+sS'vena cava'
+p15
+I1
+sS'circumfer'
+p16
+I4
+sS'heart valve repair'
+p17
+I1
+sS'sutur'
+p18
+I28
+sS'cross-sect'
+p19
+I1
+sS'collier john'
+p20
+I1
+sS'circular cross-sect'
+p21
+I1
+sS'cut'
+p22
+I4
+sS'annulus begin'
+p23
+I1
+sS'outer periphery p'
+p24
+I1
+sS'exemplary heart valve replac'
+p25
+I1
+sS'outer peripheri'
+p26
+I17
+sS'pledget'
+p27
+I2
+sS'fibrous nature of'
+p28
+I1
+sS'longitudinal axis x-x of the monofila'
+p29
+I1
+sS'valve repair'
+p30
+I1
+sS'monofila'
+p31
+I15
+sS'surgical sutur'
+p32
+I3
+sS'pyrrolidon'
+p33
+I2
+sS'periphery p'
+p34
+I1
+sS'cutting blad'
+p35
+I1
+sS'vena cavae for'
+p36
+I1
+sS'knot'
+p37
+I1
+sS'mitral annulu'
+p38
+I3
+sS'tendinea'
+p39
+I1
+sS'exemplary heart valv'
+p40
+I1
+sS'exemplary heart'
+p41
+I1
+sS'the prosthesi'
+p42
+I1
+sS'resin'
+p43
+I1
+sS'longitudinal axis x-x of th'
+p44
+I1
+sS'unbarbed portions of'
+p45
+I1
+sS'exemplary cut'
+p46
+I1
+sS'barbed sutur'
+p47
+I1
+sS'dimens'
+p48
+I1
+sS'polyurethane-based polym'
+p49
+I1
+sS'carboxymethylcellulos'
+p50
+I2
+sS'unbarb'
+p51
+I2
+sS'replac'
+p52
+I3
+sS'median sternotomi'
+p53
+I1
+sS'teflon'
+p54
+I3
+sS'barb'
+p55
+I1
+sS'unbarbed fila'
+p56
+I5
+sS'angular cut'
+p57
+I1
+sS'chordae tendinea'
+p58
+I1
+sS'surgical incis'
+p59
+I2
+sS'johnson plaza'
+p60
+I1
+sS'peripheri'
+p61
+I17
+sS'ethylen'
+p62
+I1
+sS'of the prosthesi'
+p63
+I1
+sS'valve annulu'
+p64
+I2
+sS'atrial tissu'
+p65
+I1
+sS'longitudinal axis of the fila'
+p66
+I1
+sS'fibrous nature of th'
+p67
+I1
+sS'machin'
+p68
+I1
+sS'polybutil'
+p69
+I2
+sS'glycol'
+p70
+I2
+sS'unbarbed portions of th'
+p71
+I1
+sS'polyolefin'
+p72
+I2
+sS'vice'
+p73
+I1
+sS'annandale nj'
+p74
+I1
+sS'drainag'
+p75
+I1
+sS'the mitral valv'
+p76
+I1
+sS'of the mitral valv'
+p77
+I1
+sS'valv'
+p78
+I7
+sS'prosthetic valv'
+p79
+I3
+sS'the fila'
+p80
+I1
+sS'unbarbed monofila'
+p81
+I2
+sS'arterial perfus'
+p82
+I1
+sS'monofilament barbed sutur'
+p83
+I1
+sS'bedminst'
+p84
+I1
+sS'plaza'
+p85
+I1
+sS'compressed teflon'
+p86
+I1
+sS'suture knot'
+p87
+I1
+sS'prosthesi'
+p88
+I6
+sS'including brow'
+p89
+I2
+sS'fibrous natur'
+p90
+I1
+sS'repair'
+p91
+I1
+sS'vein'
+p92
+I1
+sS'approxim'
+p93
+I1
+sS'collier john p'
+p94
+I1
+sS'primary outer peripheri'
+p95
+I18
+sS'brunswick nj'
+p96
+I1
+sS'circumference of'
+p97
+I1
+sS'polyethylen'
+p98
+I2
+sS'valve replac'
+p99
+I4
+sS'ethibond'
+p100
+I2
+sS'atrium'
+p101
+I2
+sS'suture shaft'
+p102
+I2
+sS'poli'
+p103
+I2
+sS'longitudinal axis x-x of'
+p104
+I1
+sS'valve prosthesi'
+p105
+I2
+sS'holding strength'
+p106
+I7
+sS'unbarbed filamentari'
+p107
+I2
+sS'longitudinal axis x-x'
+p108
+I2
+sS'ethicon'
+p109
+I2
+sS'cardiopulmonary bypass'
+p110
+I2
+sS'slide'
+p111
+I1
+sS'the monofila'
+p112
+I1
+sS'standstil'
+p113
+I1
+sS'heart-lung machin'
+p114
+I1
+sS'adhes'
+p115
+I2
+sS'annulu'
+p116
+I9
+sS'methylcellulos'
+p117
+I2
+sS'mitral valve replac'
+p118
+I4
+sS'circumference of th'
+p119
+I1
+sS'aorta for arterial perfus'
+p120
+I1
+sS'filamentari'
+p121
+I9
+sS'tissu'
+p122
+I2
+sS'exemplary barb'
+p123
+I1
+sS'hold'
+p124
+I7
+sS'annulus of the mitral valv'
+p125
+I1
+sS'cosmetic procedures includ'
+p126
+I1
+sS'shaft'
+p127
+I2
+sS'brunswick'
+p128
+I1
+sS'blade'
+p129
+I2
+sS'x-x of the monofila'
+p130
+I2
+sS'bedminster nj'
+p131
+I1
+sS'x-x'
+p132
+I2
+sS'perfus'
+p133
+I1
+sS'b h'
+p134
+I1
+sS'of the monofila'
+p135
+I1
+sS'primary outer periphery p'
+p136
+I1
+sS'polyvinyl alcohol'
+p137
+I2
+sS'heart'
+p138
+I1
+sS'approximation of the prosthesi'
+p139
+I1
+sS'stress concentr'
+p140
+I1
+sS'aorta'
+p141
+I1
+sS'cavae for venous drainag'
+p142
+I1
+sS'brow'
+p143
+I1
+sS'templat'
+p144
+I1
+sS'polyester resin'
+p145
+I1
+sS'aorta for'
+p146
+I1
+sS'longitudinal axis of th'
+p147
+I1
+sS'collier'
+p148
+I1
+sS'mitral valv'
+p149
+I2
+sS'bypass'
+p150
+I2
+sS'polystyren'
+p151
+I2
+sS'knot ti'
+p152
+I3
+sS'acet'
+p153
+I3
+sS'prosthetic valve slid'
+p154
+I1
+sS'nj'
+p155
+I5
+sS'injection mold'
+p156
+I1
+sS'annulus of th'
+p157
+I1
+sS'heart valv'
+p158
+I1
+sS'flemington nj'
+p159
+I1
+sS'cross'
+p160
+I1
+sS'inject'
+p161
+I1
+sS'sternotomi'
+p162
+I1
+sS'for arterial perfus'
+p163
+I1
+sS'flemington'
+p164
+I1
+sS'evalu'
+p165
+I2
+sS'atriotomi'
+p166
+I1
+sS'monofilament sutur'
+p167
+I4
+sS'tie'
+p168
+I3
+sS'transit'
+p169
+I1
+sS'expoxi'
+p170
+I2
+sS'pulmonary vein'
+p171
+I1
+sS'filament'
+p172
+I9
+sS'polyimid'
+p173
+I2
+sS'cardiac standstil'
+p174
+I1
+sS'begin'
+p175
+I1
+sS'venous drainag'
+p176
+I1
+sS'polym'
+p177
+I6
+sS'compress'
+p178
+I1
+sS'polyethylene glycol'
+p179
+I2
+sS'strength'
+p180
+I11
+sS'dacron'
+p181
+I1
+sS'annular tissu'
+p182
+I1
+sS'mold'
+p183
+I1
+sS'fluoropolym'
+p184
+I2
+sS'ethylcellulos'
+p185
+I2
+sS'alcohol'
+p186
+I2
+sS'for venous drainag'
+p187
+I1
+sS'stress'
+p188
+I1
+sS'johnson'
+p189
+I2
+sS'polyamid'
+p190
+I2
+sS'approximation of'
+p191
+I1
+sS'coat'
+p192
+I1
+sS'polyvinyl pyrrolidon'
+p193
+I2
+sS'annulus of'
+p194
+I1
+sS'double-needle sutur'
+p195
+I1
+sS'vena cavae for venous drainag'
+p196
+I1
+sS'of the fila'
+p197
+I2
+sS'valve slid'
+p198
+I1
+sS'approximation of th'
+p199
+I1
+sS'polyvinyl acet'
+p200
+I3
+stp201
+Rp202
+tp203
+.

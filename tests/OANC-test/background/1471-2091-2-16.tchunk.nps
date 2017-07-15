@@ -1,0 +1,1463 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'entropi'
+p7
+I1
+sS'heart myoglobin'
+p8
+I1
+sS'c4 guard column cartridg'
+p9
+I1
+sS'of solvent b'
+p10
+I1
+sS'fig-'
+p11
+I1
+sS'centrifug'
+p12
+I1
+sS'polypeptid'
+p13
+I1
+sS'cm-iv'
+p14
+I1
+sS'guex'
+p15
+I2
+sS'neurotoxin'
+p16
+I1
+sS'falculata'
+p17
+I2
+sS'agglutinin'
+p18
+I1
+sS'cys5-cys27'
+p19
+I1
+sS'peptide toxin'
+p20
+I3
+sS'mesobuthu'
+p21
+I4
+sS'acet'
+p22
+I2
+sS'maximum entropi'
+p23
+I1
+sS'cm-52 cation exchange column'
+p24
+I1
+sS'formic'
+p25
+I1
+sS'vgmca'
+p26
+I1
+sS'individual hplc fractions of cm-iv fract'
+p27
+I1
+sS'biopesticide scorpion toxin'
+p28
+I1
+sS'core famili'
+p29
+I1
+sS'spectromet'
+p30
+I1
+sS'analyz'
+p31
+I2
+sS'instar larva'
+p32
+I1
+sS'leiurus quinquestriatus haebraeu'
+p33
+I1
+sS'cys20-cys34'
+p34
+I1
+sS'ion channel'
+p35
+I2
+sS'\xce\xb2-sheet'
+p36
+I1
+sS'bioresourc'
+p37
+I1
+sS'lepidopteran-selective toxin'
+p38
+I2
+sS'perkin-elmer gp-100 graph'
+p39
+I1
+sS'assay'
+p40
+I1
+sS'novel toxin'
+p41
+I1
+sS'bioassay of the individual hplc fract'
+p42
+I1
+sS'electric potenti'
+p43
+I1
+sS'capillari'
+p44
+I1
+sS'c4 guard'
+p45
+I1
+sS'administration of cm-iv'
+p46
+I1
+sS'diverse physiolog'
+p47
+I1
+sS'graphic'
+p48
+I1
+sS'protein data bank'
+p49
+I1
+sS'chemic'
+p50
+I1
+sS'n-terminal strand of'
+p51
+I1
+sS'blast'
+p52
+I1
+sS'of sarcophaga falculata'
+p53
+I1
+sS'insect toxin'
+p54
+I7
+sS'buthus tamulu'
+p55
+I1
+sS'administr'
+p56
+I1
+sS'modeling serv'
+p57
+I1
+sS'chlorotoxin'
+p58
+I5
+sS'spectrum chemical insecticid'
+p59
+I1
+sS'hplc'
+p60
+I7
+sS'administration of'
+p61
+I1
+sS'uv'
+p62
+I2
+sS'tris-hcl'
+p63
+I1
+sS'michrom bioresourc'
+p64
+I1
+sS'speci'
+p65
+I1
+sS'crystallographi'
+p66
+I1
+sS'of the peptide toxin'
+p67
+I1
+sS'cm-iv-6'
+p68
+I1
+sS'postsynaptic membran'
+p69
+I1
+sS'lethal'
+p70
+I2
+sS'paralysi'
+p71
+I3
+sS'protein assay'
+p72
+I1
+sS'mass scal'
+p73
+I1
+sS'nmr'
+p74
+I2
+sS'acid'
+p75
+I5
+sS'neurotoxin bt-ii'
+p76
+I1
+sS'concern'
+p77
+I1
+sS'protein modeling serv'
+p78
+I1
+sS'excitatori'
+p79
+I1
+sS'albumin'
+p80
+I1
+sS'of lepidopteran selective tox'
+p81
+I1
+sS'insecticidal toxin'
+p82
+I1
+sS'supernatant fract'
+p83
+I1
+sS'linear gradi'
+p84
+I1
+sS'physiolog'
+p85
+I1
+sS'buthida'
+p86
+I1
+sS'conduct'
+p87
+I1
+sS'altrincham'
+p88
+I1
+sS'insect-selective toxin'
+p89
+I3
+sS'chtx'
+p90
+I1
+sS'lepidopteran insect'
+p91
+I1
+sS'guard column cartridg'
+p92
+I1
+sS'cys2'
+p93
+I1
+sS'mass spectromet'
+p94
+I1
+sS'fraction iv'
+p95
+I2
+sS'insect larva'
+p96
+I1
+sS'cm-fraction iii'
+p97
+I1
+sS'elution of solvent b'
+p98
+I1
+sS'of cm-iv fract'
+p99
+I1
+sS'flaccid paralysi'
+p100
+I2
+sS'purif'
+p101
+I3
+sS'the \xce\xb2-sheet'
+p102
+I1
+sS'chromatographic peak'
+p103
+I1
+sS'dimensional model'
+p104
+I1
+sS'search'
+p105
+I1
+sS'c4 column'
+p106
+I1
+sS'bioassay of the individual hplc fractions of'
+p107
+I1
+sS'n-terminal strand'
+p108
+I1
+sS'iodoacetic acid'
+p109
+I1
+sS'potassium channel'
+p110
+I1
+sS'maxent'
+p111
+I1
+sS'channel toxin'
+p112
+I1
+sS'ammonium acet'
+p113
+I2
+sS'lyophilized fract'
+p114
+I1
+sS'pdb'
+p115
+I3
+sS'michrom'
+p116
+I1
+sS'pdb entri'
+p117
+I2
+sS'biotech'
+p118
+I1
+sS'homologu'
+p119
+I2
+sS'modul'
+p120
+I1
+sS'n-terminal strand of th'
+p121
+I1
+sS'fraction collector'
+p122
+I1
+sS'instar larvae of sarcophaga falculata'
+p123
+I1
+sS'model of butait'
+p124
+I2
+sS'famili'
+p125
+I2
+sS'pil'
+p126
+I1
+sS'swiss-model protein model'
+p127
+I1
+sS'rpm'
+p128
+I1
+sS'myoglobin'
+p129
+I1
+sS'coordinates of'
+p130
+I1
+sS'peptides of'
+p131
+I1
+sS'recombinant baculovirus'
+p132
+I1
+sS'usa'
+p133
+I2
+sS'chemical insecticid'
+p134
+I1
+sS'protease inhibitor'
+p135
+I1
+sS'vg'
+p136
+I2
+sS'of arthropod muscl'
+p137
+I1
+sS'microbore hplc'
+p138
+I3
+sS'pc'
+p139
+I2
+sS'mammalian toxin'
+p140
+I1
+sS'purification of'
+p141
+I1
+sS'conductance ca'
+p142
+I1
+sS'scorpion toxin'
+p143
+I1
+sS'ph'
+p144
+I5
+sS'of cm-iv'
+p145
+I1
+sS'preitsch'
+p146
+I1
+sS'extrajunctional channels of'
+p147
+I1
+sS'of the four-disulfide core famili'
+p148
+I1
+sS'molecular weight of'
+p149
+I1
+sS'extrajunctional channel'
+p150
+I1
+sS'peptides of the four-disulfide cor'
+p151
+I1
+sS'gp-100 graphic'
+p152
+I1
+sS'heptafluorobutyr'
+p153
+I1
+sS'insect-specific toxin'
+p154
+I1
+sS'hfba'
+p155
+I2
+sS'coordin'
+p156
+I1
+sS'visual'
+p157
+I1
+sS'iberiotoxin'
+p158
+I2
+sS'iii'
+p159
+I1
+sS'p2'
+p160
+I1
+sS'mg'
+p161
+I1
+sS'novel'
+p162
+I1
+sS'room'
+p163
+I1
+sS'local'
+p164
+I1
+sS'align'
+p165
+I2
+sS'individual peak'
+p166
+I1
+sS'x-ray crystallographi'
+p167
+I1
+sS'mammalian'
+p168
+I1
+sS'molecular mass'
+p169
+I3
+sS'inhibitor'
+p170
+I1
+sS'gradient system-ii'
+p171
+I2
+sS'butait toxin'
+p172
+I1
+sS'of the \xce\xb2-sheet'
+p173
+I1
+sS'mgtx'
+p174
+I1
+sS'heart'
+p175
+I1
+sS'motif'
+p176
+I1
+sS'budworm'
+p177
+I5
+sS'scan'
+p178
+I1
+sS'molecular'
+p179
+I1
+sS'administration of cm-iv hplc fract'
+p180
+I1
+sS'n-terminal sequence of the toxin'
+p181
+I1
+sS'pharmacological act'
+p182
+I2
+sS'iv'
+p183
+I2
+sS'reliasil c18'
+p184
+I1
+sS'tamulus insect toxin'
+p185
+I1
+sS'agtx'
+p186
+I1
+sS'strand of the \xce\xb2-sheet'
+p187
+I1
+sS'formic acid'
+p188
+I1
+sS'cm-iv fract'
+p189
+I2
+sS'buthid venom'
+p190
+I1
+sS'insecticid'
+p191
+I1
+sS'protein'
+p192
+I3
+sS'protein concentr'
+p193
+I1
+sS'microbor'
+p194
+I1
+sS'instar larvae of sarcophaga'
+p195
+I1
+sS'baculovirus'
+p196
+I1
+sS'larva'
+p197
+I4
+sS'cm-iv-6b'
+p198
+I1
+sS'cm-iv-6a'
+p199
+I1
+sS'the toxin'
+p200
+I2
+sS'toxin'
+p201
+I32
+sS'family buthida'
+p202
+I1
+sS'toxic'
+p203
+I3
+sS'fractionation of'
+p204
+I1
+sS'voltag'
+p205
+I1
+sS'lepidopteran selective tox'
+p206
+I1
+sS'kxtx'
+p207
+I1
+sS'cation exchange column'
+p208
+I1
+sS'heptafluorobutyric acid'
+p209
+I1
+sS'percentage ident'
+p210
+I1
+sS'peptides of th'
+p211
+I1
+sS'larvae of sarcophaga falculata'
+p212
+I1
+sS'pre-cycled cm-52'
+p213
+I1
+sS'chromatographic separ'
+p214
+I1
+sS'solvent b'
+p215
+I2
+sS'fazal'
+p216
+I2
+sS'electrospray ionization mass'
+p217
+I1
+sS'progressive flaccid paralysi'
+p218
+I1
+sS'disulfide bridg'
+p219
+I2
+sS'isco'
+p220
+I1
+sS'anion channel'
+p221
+I1
+sS'nm'
+p222
+I4
+sS'guanidine hydrochlorid'
+p223
+I1
+sS'molecular pdb visualization softwar'
+p224
+I1
+sS'molecular weight of the toxin'
+p225
+I1
+sS'min'
+p226
+I6
+sS'perkin-elm'
+p227
+I2
+sS'caus'
+p228
+I1
+sS'sodium citrate buff'
+p229
+I2
+sS'mm ammonium acet'
+p230
+I1
+sS'visualization softwar'
+p231
+I1
+sS'mass scale spectrum'
+p232
+I1
+sS'electrospray ionization mass spectrometri'
+p233
+I1
+sS'model'
+p234
+I1
+sS'butait'
+p235
+I9
+sS'molecular weight of th'
+p236
+I1
+sS'cartridg'
+p237
+I1
+sS'instar larvae of'
+p238
+I1
+sS'individual lyophilized fract'
+p239
+I1
+sS'pharmacia'
+p240
+I1
+sS'kv electric potenti'
+p241
+I1
+sS'activ'
+p242
+I5
+sS'calibr'
+p243
+I1
+sS'long-chain'
+p244
+I1
+sS'molecular mass of butait'
+p245
+I1
+sS'\xce\xb2- toxin'
+p246
+I1
+sS'noxiustoxin'
+p247
+I1
+sS'vgmca acquisit'
+p248
+I1
+sS'sodium channel'
+p249
+I2
+sS'vertebr'
+p250
+I1
+sS'concentr'
+p251
+I3
+sS'toxins exhibit'
+p252
+I1
+sS'hesperia'
+p253
+I1
+sS'system-i'
+p254
+I1
+sS'sodium'
+p255
+I2
+sS'n-terminal sequence of'
+p256
+I1
+sS'\xce\xb1- insect toxin'
+p257
+I1
+sS'biopesticid'
+p258
+I2
+sS'hplc fractions of cm-iv fract'
+p259
+I1
+sS'haebraeu'
+p260
+I1
+sS'hplc fraction'
+p261
+I1
+sS'modulation of ion channel'
+p262
+I1
+sS'ca'
+p263
+I3
+sS'of the individual hplc fractions of cm-iv fract'
+p264
+I1
+sS'ibtx'
+p265
+I1
+sS'cm-iv hplc fract'
+p266
+I1
+sS'baculovirus express'
+p267
+I1
+sS'peristaltic pump'
+p268
+I1
+sS'similar'
+p269
+I2
+sS'bioassay'
+p270
+I4
+sS'gradient elution of solvent b'
+p271
+I1
+sS'of cm-fract'
+p272
+I2
+sS'vacuum'
+p273
+I1
+sS'everex'
+p274
+I1
+sS'bank'
+p275
+I2
+sS'swiss-model protein'
+p276
+I1
+sS'kaliotoxin'
+p277
+I1
+sS'tobacco'
+p278
+I5
+sS'mm sodium'
+p279
+I2
+sS'chemical librari'
+p280
+I1
+sS'exchange column'
+p281
+I1
+sS'neurotoxin p2'
+p282
+I1
+sS'maurotoxin'
+p283
+I1
+sS'server'
+p284
+I1
+sS'separ'
+p285
+I1
+sS'cm fraction iv'
+p286
+I1
+sS'gradient elution of'
+p287
+I1
+sS'sodium channel toxin'
+p288
+I1
+sS'toxic symptom'
+p289
+I1
+sS'individual protein'
+p290
+I1
+sS'spectrophotomet'
+p291
+I1
+sS'molecular mass of the peptide toxin'
+p292
+I1
+sS'absorbency peak'
+p293
+I1
+sS'mass spectrometri'
+p294
+I1
+sS'citrate buff'
+p295
+I2
+sS'perkin-elmer gp-100'
+p296
+I1
+sS'percentag'
+p297
+I1
+sS'charybdotoxin'
+p298
+I1
+sS'amino acid sequence of'
+p299
+I1
+sS'virescen'
+p300
+I3
+sS'blast search'
+p301
+I1
+sS'membran'
+p302
+I1
+sS'bioassay of the individual hplc'
+p303
+I1
+sS'collector'
+p304
+I1
+sS'chromatographic analysis of'
+p305
+I1
+sS'librari'
+p306
+I1
+sS'valuable crop'
+p307
+I1
+sS'depress'
+p308
+I1
+sS'reliasil c18 reversed-phase column'
+p309
+I1
+sS'pre-cycled cm-52 column'
+p310
+I1
+sS'evid'
+p311
+I1
+sS'gradient'
+p312
+I4
+sS'bombay'
+p313
+I1
+sS'leiuru'
+p314
+I1
+sS'swiss-model protein modeling serv'
+p315
+I1
+sS'reliasil'
+p316
+I1
+sS'venom'
+p317
+I4
+sS'mm dithiothreitol'
+p318
+I1
+sS'bca protein'
+p319
+I1
+sS'inject'
+p320
+I2
+sS'absorb'
+p321
+I1
+sS'sarcophaga falculata'
+p322
+I2
+sS'of butait'
+p323
+I4
+sS'edman degrad'
+p324
+I1
+sS'peitsch'
+p325
+I3
+sS'ntx'
+p326
+I1
+sS'solvent'
+p327
+I3
+sS'trifluroacetic acid'
+p328
+I1
+sS'ident'
+p329
+I1
+sS'biological act'
+p330
+I1
+sS'of the toxin'
+p331
+I4
+sS'mass of the peptide toxin'
+p332
+I1
+sS'concern butait'
+p333
+I1
+sS'protein c4 column'
+p334
+I1
+sS'of neurotoxin'
+p335
+I1
+sS'progressive flaccid'
+p336
+I1
+sS'channels of arthropod muscl'
+p337
+I1
+sS'swiss-prot protein'
+p338
+I1
+sS'esi-m'
+p339
+I1
+sS'ion'
+p340
+I1
+sS'column'
+p341
+I3
+sS'bioassay of the individual hplc fractions of cm-iv fract'
+p342
+I1
+sS'agitoxin'
+p343
+I1
+sS'blowfly larva'
+p344
+I2
+sS'\xce\xbcl'
+p345
+I1
+sS'mm ammonium'
+p346
+I1
+sS'heliothis virescen'
+p347
+I3
+sS'extrajunctional channels of arthropod muscl'
+p348
+I1
+sS'molecular structure facil'
+p349
+I1
+sS'molecular mass of'
+p350
+I2
+sS'buthoid venom'
+p351
+I1
+sS'softwar'
+p352
+I1
+sS'total protein'
+p353
+I1
+sS'amino acid'
+p354
+I4
+sS'attent'
+p355
+I1
+sS'model of'
+p356
+I1
+sS'shimadzu spectrophotomet'
+p357
+I1
+sS'fractions of cm-iv fract'
+p358
+I1
+sS'arthropod muscl'
+p359
+I1
+sS'nmr spectroscopi'
+p360
+I1
+sS'chromatographic analysis of cm-fract'
+p361
+I1
+sS'gradient elut'
+p362
+I1
+sS'pdb visualization softwar'
+p363
+I1
+sS'fisons quattro-bd mass spectromet'
+p364
+I1
+sS'quinquestriatus haebraeu'
+p365
+I1
+sS'of cm-iv hplc fract'
+p366
+I1
+sS'supernat'
+p367
+I1
+sS'neurotoxic symptom'
+p368
+I1
+sS'edta'
+p369
+I1
+sS'four-disulfide core famili'
+p370
+I1
+sS'facil'
+p371
+I2
+sS'mass'
+p372
+I2
+sS'purification of neurotoxin'
+p373
+I1
+sS'neurotoxic act'
+p374
+I1
+sS'spectrum chem'
+p375
+I1
+sS'fractionation of cm-iv'
+p376
+I1
+sS'toxin purif'
+p377
+I1
+sS'acid sequence of butait'
+p378
+I1
+sS'mass calibr'
+p379
+I1
+sS'cm fraction'
+p380
+I1
+sS'cm-52 column'
+p381
+I1
+sS'covalent link'
+p382
+I1
+sS'margatoxin'
+p383
+I1
+sS'fraction'
+p384
+I15
+sS'potter-elvehjam homogen'
+p385
+I1
+sS'amino acid sequence of butait'
+p386
+I1
+sS'cross-link'
+p387
+I1
+sS'modulation of'
+p388
+I1
+sS'dithiothreitol'
+p389
+I1
+sS'n-terminal sequence of th'
+p390
+I1
+sS'c4 guard column'
+p391
+I1
+sS'bioassay of'
+p392
+I1
+sS'pump'
+p393
+I1
+sS'hr'
+p394
+I1
+sS'hydrochlorid'
+p395
+I1
+sS'hp'
+p396
+I1
+sS'the individual hplc fractions of cm-iv fract'
+p397
+I1
+sS'tfa'
+p398
+I2
+sS'molecular mass of th'
+p399
+I1
+sS'link'
+p400
+I1
+sS'crop'
+p401
+I1
+sS'tamulu'
+p402
+I4
+sS'numerous valuable crop'
+p403
+I1
+sS'symptom'
+p404
+I2
+sS'cysl6-cys32'
+p405
+I1
+sS'heliothi'
+p406
+I3
+sS'localization of'
+p407
+I1
+sS'muscl'
+p408
+I1
+sS'ion-pair'
+p409
+I1
+sS'spectroscopi'
+p410
+I1
+sS'causes paralysi'
+p411
+I1
+sS'spectrometri'
+p412
+I1
+sS'administration of cm-iv hplc'
+p413
+I1
+sS'bridg'
+p414
+I4
+sS'the four-disulfide core famili'
+p415
+I1
+sS'scale spectrum'
+p416
+I1
+sS'uk'
+p417
+I1
+sS'entri'
+p418
+I2
+sS'rasmol molecular pdb visualization softwar'
+p419
+I1
+sS'capillary electrophoresi'
+p420
+I3
+sS'x-ray'
+p421
+I1
+sS'exhibit'
+p422
+I1
+sS'bovine serum albumin'
+p423
+I1
+sS'localization of lepidopteran selective tox'
+p424
+I1
+sS'ionization mass spectrometri'
+p425
+I1
+sS'acetonitril'
+p426
+I4
+sS'spectrum'
+p427
+I2
+sS'bioassay of th'
+p428
+I1
+sS'final concentr'
+p429
+I1
+sS'individual fract'
+p430
+I1
+sS'mm sodium citrate buff'
+p431
+I2
+sS'vydac'
+p432
+I2
+sS'vg biotech'
+p433
+I1
+sS'polypeptides cross-link'
+p434
+I1
+sS'mammalian tox'
+p435
+I1
+sS'swiss-prot protein data bank'
+p436
+I1
+sS'cm-fraction'
+p437
+I2
+sS'scorpion venom'
+p438
+I2
+sS'system-ii'
+p439
+I2
+sS'mm sodium citr'
+p440
+I2
+sS'mass of butait'
+p441
+I1
+sS'protein c4'
+p442
+I1
+sS'mesobuthus tamulu'
+p443
+I3
+sS'coordinates of chlorotoxin'
+p444
+I2
+sS'aliquot'
+p445
+I1
+sS'lyophilized venom'
+p446
+I1
+sS'experimental evid'
+p447
+I1
+sS'hplc gradient system-ii'
+p448
+I1
+sS'peptides of the four-disulfide core famili'
+p449
+I1
+sS'cm-52 cation exchang'
+p450
+I1
+sS'peptid'
+p451
+I3
+sS'channel'
+p452
+I5
+sS'rasmol molecular'
+p453
+I1
+sS'bt-ii'
+p454
+I1
+sS'quattro-bd mass spectromet'
+p455
+I1
+sS'buffer'
+p456
+I2
+sS'\xce\xb1-helix'
+p457
+I2
+sS'electrophoresi'
+p458
+I2
+sS'bca protein assay'
+p459
+I1
+sS'tobacco budworm'
+p460
+I5
+sS'fraction cm-iv-6a'
+p461
+I1
+sS'insect'
+p462
+I2
+sS'half-cystin'
+p463
+I1
+sS'budworm ion channel'
+p464
+I1
+sS'peak'
+p465
+I3
+sS'trifluroacet'
+p466
+I1
+sS'rasmol molecular pdb'
+p467
+I1
+sS'the peptide toxin'
+p468
+I1
+sS'homolog'
+p469
+I8
+sS'buthu'
+p470
+I1
+sS'recombinant biopesticid'
+p471
+I2
+sS'homogen'
+p472
+I2
+sS'pharmacia peristaltic pump'
+p473
+I1
+sS'mm edta'
+p474
+I1
+sS'gradient system-i'
+p475
+I1
+sS'\xce\xb2-strand'
+p476
+I1
+sS'bca'
+p477
+I1
+sS'capillary voltag'
+p478
+I1
+sS'n-terminal strand of the \xce\xb2-sheet'
+p479
+I1
+sS'scorpion'
+p480
+I1
+sS'of chlorotoxin'
+p481
+I1
+sS'kv'
+p482
+I1
+sS'potenti'
+p483
+I1
+sS'sarcophaga'
+p484
+I1
+sS'serum albumin'
+p485
+I1
+sS'degrad'
+p486
+I1
+sS'sigma'
+p487
+I1
+sS'column cartridg'
+p488
+I1
+stp489
+Rp490
+tp491
+.

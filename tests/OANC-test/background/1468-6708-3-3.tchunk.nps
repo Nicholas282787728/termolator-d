@@ -1,0 +1,797 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'acute coronary syndrom'
+p7
+I16
+sS'inpatient initiation of'
+p8
+I1
+sS'coronary diseas'
+p9
+I8
+sS'statins for'
+p10
+I1
+sS'abbreviations hmg coa'
+p11
+I1
+sS'restenosi'
+p12
+I1
+sS'lipid-lowing therapi'
+p13
+I1
+sS'fear'
+p14
+I1
+sS'discharg'
+p15
+I2
+sS'efficacy endpoint'
+p16
+I2
+sS'evidence of ischemia'
+p17
+I2
+sS'cohort studi'
+p18
+I1
+sS'theoretical fear'
+p19
+I1
+sS'placebo-controlled tri'
+p20
+I1
+sS'coronary ev'
+p21
+I2
+sS'non-q wave myocardial infarct'
+p22
+I1
+sS'comparative efficaci'
+p23
+I1
+sS'serious harm'
+p24
+I1
+sS'dl'
+p25
+I4
+sS'randomized placebo-controlled tri'
+p26
+I1
+sS'risk'
+p27
+I5
+sS'index hospit'
+p28
+I1
+sS'arrhythmia'
+p29
+I1
+sS'quantif'
+p30
+I1
+sS'util'
+p31
+I1
+sS'heart association guidelin'
+p32
+I1
+sS'for the secondary prevent'
+p33
+I1
+sS'treatment strategi'
+p34
+I1
+sS'future secondary prevention studi'
+p35
+I1
+sS'high dens'
+p36
+I1
+sS'atorvastatin evalu'
+p37
+I2
+sS'non-fatal myocardial infarct'
+p38
+I2
+sS'cholesterol'
+p39
+I9
+sS'prevent'
+p40
+I2
+sS'revascular'
+p41
+I8
+sS'natur'
+p42
+I1
+sS'density lipoprotein'
+p43
+I4
+sS'diseas'
+p44
+I8
+sS'primary endpoint ev'
+p45
+I1
+sS'concern'
+p46
+I1
+sS'lipid-lowering therapi'
+p47
+I6
+sS'randomized tri'
+p48
+I1
+sS'secondary endpoints included strok'
+p49
+I1
+sS'abbrevi'
+p50
+I1
+sS'cardiolog'
+p51
+I1
+sS'lowering therapi'
+p52
+I1
+sS'evidence of'
+p53
+I1
+sS'incremental clinical benefit'
+p54
+I1
+sS'inpatient initiation of lipid-lowing therapi'
+p55
+I1
+sS'secondary prevention studi'
+p56
+I1
+sS'liver transaminase elev'
+p57
+I1
+sS'secondary prevention statin tri'
+p58
+I1
+sS'cardiovascular death'
+p59
+I1
+sS'association guidelin'
+p60
+I1
+sS'initiation of lipid-lowing therapi'
+p61
+I1
+sS'hospital discharg'
+p62
+I2
+sS'secondary prevention statin'
+p63
+I1
+sS'coa'
+p64
+I1
+sS'non-fatal strok'
+p65
+I1
+sS'high-dose statin therapi'
+p66
+I1
+sS'non-q wav'
+p67
+I1
+sS'studi'
+p68
+I6
+sS'baselin'
+p69
+I2
+sS'incremental benefit'
+p70
+I3
+sS'miracl tri'
+p71
+I1
+sS'guidelin'
+p72
+I1
+sS'american heart association guidelin'
+p73
+I1
+sS'q-wave'
+p74
+I1
+sS'confidence interv'
+p75
+I3
+sS'zocor'
+p76
+I2
+sS'secondary endpoint'
+p77
+I1
+sS'electrocardiogram'
+p78
+I1
+sS'cholesterol target'
+p79
+I1
+sS'aggress'
+p80
+I2
+sS'admission ldl'
+p81
+I1
+sS'relative risk'
+p82
+I2
+sS'high density lipoprotein'
+p83
+I1
+sS'myocardial infarct'
+p84
+I13
+sS'prevention tri'
+p85
+I1
+sS'systolic dysfunct'
+p86
+I1
+sS'criteria'
+p87
+I1
+sS'benefit conf'
+p88
+I1
+sS'ischemia'
+p89
+I4
+sS'strategi'
+p90
+I2
+sS'endpoints included strok'
+p91
+I1
+sS'inpatient initi'
+p92
+I1
+sS'rehospitalization for'
+p93
+I1
+sS'lipoprotein'
+p94
+I4
+sS'liver'
+p95
+I1
+sS'efficaci'
+p96
+I1
+sS'generaliz'
+p97
+I1
+sS'mg'
+p98
+I4
+sS'endpoint'
+p99
+I8
+sS'future secondary prevent'
+p100
+I1
+sS'incremental benefit of combination therapi'
+p101
+I1
+sS'q-wave myocardial infarct'
+p102
+I3
+sS'of lipid-lowing therapi'
+p103
+I1
+sS'clinical ev'
+p104
+I1
+sS'hdl'
+p105
+I4
+sS'heart'
+p106
+I4
+sS'non-q wave myocardi'
+p107
+I1
+sS'ptca'
+p108
+I2
+sS'secondary prevention tri'
+p109
+I1
+sS'normal occur'
+p110
+I1
+sS'stroke'
+p111
+I2
+sS'atorvastatin'
+p112
+I9
+sS'coronary revascular'
+p113
+I7
+sS'occur'
+p114
+I1
+sS'contribut'
+p115
+I1
+sS'trial'
+p116
+I7
+sS'for symptomatic myocardial ischemia'
+p117
+I1
+sS'coronari'
+p118
+I1
+sS'evid'
+p119
+I1
+sS'myocardi'
+p120
+I2
+sS'prognost'
+p121
+I1
+sS'primary endpoint'
+p122
+I1
+sS'clinical benefit'
+p123
+I7
+sS'ascertain'
+p124
+I1
+sS'cardiac death'
+p125
+I3
+sS'aforementioned cohort studi'
+p126
+I1
+sS'in-hospital initiation of lipid-lowering therapi'
+p127
+I1
+sS'atorvastatin treat'
+p128
+I1
+sS'ventricular systolic dysfunct'
+p129
+I1
+sS'percutan'
+p130
+I1
+sS'acute coronari'
+p131
+I1
+sS'elev'
+p132
+I1
+sS'exclus'
+p133
+I1
+sS'non-q-wave myocardial infarct'
+p134
+I2
+sS'randomized placebo-controlled clinical tri'
+p135
+I1
+sS'advisory board member for pf'
+p136
+I1
+sS'simvastatin daili'
+p137
+I2
+sS'infection therapi'
+p138
+I2
+sS'primary efficacy endpoint'
+p139
+I2
+sS'ldl'
+p140
+I5
+sS'advisory board member for'
+p141
+I1
+sS'death'
+p142
+I4
+sS'vascular smooth muscle cell prolifer'
+p143
+I1
+sS'non-pharmacologic lipid-lowering intervent'
+p144
+I1
+sS'of simvastatin daili'
+p145
+I2
+sS'rehospitalization for symptomatic myocardi'
+p146
+I1
+sS'coronary syndrom'
+p147
+I17
+sS'dysfunct'
+p148
+I1
+sS'treatment'
+p149
+I3
+sS'densiti'
+p150
+I3
+sS'secondary endpoints includ'
+p151
+I1
+sS'therapi'
+p152
+I20
+sS'theoretical concern'
+p153
+I1
+sS'lipid-lowering intervent'
+p154
+I1
+sS'placebo-controlled clinical tri'
+p155
+I1
+sS'symptomatic myocardial ischemia'
+p156
+I2
+sS'of lipid-lowering therapi'
+p157
+I1
+sS'invasive strategi'
+p158
+I1
+sS'health car'
+p159
+I1
+sS'in-hospital initiation of'
+p160
+I1
+sS'accru'
+p161
+I1
+sS'benefit'
+p162
+I8
+sS'intervent'
+p163
+I1
+sS'confid'
+p164
+I3
+sS'atorvastatin-treated pati'
+p165
+I1
+sS'harm'
+p166
+I1
+sS'of combination therapi'
+p167
+I1
+sS'aggressive treatment strategi'
+p168
+I1
+sS'interv'
+p169
+I3
+sS'liver transaminas'
+p170
+I1
+sS'cabg'
+p171
+I2
+sS'statin tri'
+p172
+I1
+sS'vascular smooth muscle cel'
+p173
+I1
+sS'statin'
+p174
+I6
+sS'aggressive cholesterol'
+p175
+I2
+sS'event'
+p176
+I8
+sS'syndrom'
+p177
+I17
+sS'admission ldl cholesterol'
+p178
+I1
+sS'admiss'
+p179
+I4
+sS'infarct'
+p180
+I13
+sS'confirm'
+p181
+I1
+sS'mg of simvastatin daili'
+p182
+I2
+sS'pravastatin'
+p183
+I2
+sS'endpoint ev'
+p184
+I1
+sS'health'
+p185
+I1
+sS'surgical coronary revascular'
+p186
+I1
+sS'complic'
+p187
+I2
+sS'caucasian'
+p188
+I1
+sS'ecg'
+p189
+I2
+sS'investig'
+p190
+I1
+sS'patient'
+p191
+I3
+sS'primary composite endpoint'
+p192
+I1
+sS'cell prolifer'
+p193
+I1
+sS'prevention studi'
+p194
+I1
+sS'confer'
+p195
+I1
+sS'vascular smooth muscl'
+p196
+I1
+sS'safety endpoint'
+p197
+I1
+sS'wave myocardial infarct'
+p198
+I1
+sS'in-hospital initi'
+p199
+I1
+sS'pfizer'
+p200
+I1
+sS'hdl cholesterol'
+p201
+I1
+sS'rehospit'
+p202
+I4
+sS'cardiovascular ev'
+p203
+I2
+sS'advisory board'
+p204
+I1
+sS'ldl cholesterol'
+p205
+I3
+sS'miracl'
+p206
+I9
+sS'smooth muscle cell prolifer'
+p207
+I1
+sS'heart protect'
+p208
+I1
+sS'incremental benefit conf'
+p209
+I1
+sS'lipid lowering therapi'
+p210
+I1
+sS'serum cholesterol'
+p211
+I1
+sS'total cholesterol'
+p212
+I1
+sS'ventricular arrhythmia'
+p213
+I1
+sS'for pfiz'
+p214
+I2
+sS'atorvastatin-tr'
+p215
+I1
+sS'of ischemia'
+p216
+I1
+sS'board member for pf'
+p217
+I1
+sS'statins for the secondary prevent'
+p218
+I1
+sS'baseline cholesterol'
+p219
+I1
+sS'daili'
+p220
+I2
+sS'statin therapi'
+p221
+I8
+sS'trial safety endpoint'
+p222
+I1
+sS'abbreviations hmg'
+p223
+I1
+sS'clinical trial safety endpoint'
+p224
+I1
+sS'prevention statin tri'
+p225
+I1
+sS'heart protection studi'
+p226
+I1
+sS'aggrastat'
+p227
+I2
+sS'the secondary prevent'
+p228
+I1
+sS'pharmacolog'
+p229
+I1
+sS'exclusion criteria'
+p230
+I1
+sS'target'
+p231
+I1
+sS'statins for th'
+p232
+I1
+sS'observational studi'
+p233
+I1
+sS'baseline lipid'
+p234
+I2
+sS'mg of'
+p235
+I2
+sS'a-2-z studi'
+p236
+I1
+sS'risk pati'
+p237
+I2
+sS'ac'
+p238
+I2
+sS'included strok'
+p239
+I1
+sS'evalu'
+p240
+I2
+sS'rehospitalization for symptomatic myocardial ischemia'
+p241
+I1
+sS'cardiac ev'
+p242
+I1
+sS'initiation of lipid-lowering therapi'
+p243
+I1
+sS'hospit'
+p244
+I4
+sS'hmg coa'
+p245
+I1
+sS'clinical trial safeti'
+p246
+I1
+sS'clinical tri'
+p247
+I2
+sS'infect'
+p248
+I2
+sS'simvastatin'
+p249
+I2
+sS'risk natur'
+p250
+I1
+sS'index'
+p251
+I1
+sS'aggressive treat'
+p252
+I1
+sS'prolifer'
+p253
+I1
+sS'electrocardiographic q-wav'
+p254
+I1
+sS'transaminase elev'
+p255
+I1
+sS'a-2-z'
+p256
+I2
+sS'muscle cell prolifer'
+p257
+I1
+sS'benefit of combination therapi'
+p258
+I1
+sS'rr'
+p259
+I5
+sS'rehospitalization for symptomat'
+p260
+I1
+sS'protection studi'
+p261
+I1
+sS'myocardial ischemia'
+p262
+I5
+sS'rr relative risk'
+p263
+I1
+sS'secondary prevent'
+p264
+I5
+sS'ischemic ev'
+p265
+I1
+sS'incremental benefit of'
+p266
+I1
+stp267
+Rp268
+tp269
+.

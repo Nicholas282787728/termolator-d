@@ -1,0 +1,962 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'osteoclasts retained trap act'
+p7
+I1
+sS'activation of nuclear factor kappa b'
+p8
+I1
+sS'phillips cm10 transmiss'
+p9
+I1
+sS'femur'
+p10
+I4
+sS'jilka'
+p11
+I1
+sS'ga'
+p12
+I1
+sS'acid phosphatase act'
+p13
+I1
+sS'mice'
+p14
+I14
+sS'ocl morpholog'
+p15
+I1
+sS'lymphopoiesi'
+p16
+I1
+sS'ocl'
+p17
+I18
+sS'osteoporosi'
+p18
+I2
+sS'activ'
+p19
+I3
+sS'stromal cel'
+p20
+I4
+sS'udagawa'
+p21
+I1
+sS'local'
+p22
+I3
+sS'ultrastructural studi'
+p23
+I1
+sS'osteoblast'
+p24
+I4
+sS'm-csf'
+p25
+I2
+sS'mous'
+p26
+I1
+sS'for identification of ocl'
+p27
+I2
+sS'paracrine mediator of the antiresorptive action of estrogen'
+p28
+I1
+sS'intracellular calcium'
+p29
+I1
+sS'induct'
+p30
+I1
+sS'phillips cm10 transmission electron'
+p31
+I1
+sS'administr'
+p32
+I5
+sS'vitro studies of avian'
+p33
+I1
+sS'estradiol-tr'
+p34
+I1
+sS'histomorphometri'
+p35
+I2
+sS'microscopi'
+p36
+I1
+sS'mature lymphocytes influ'
+p37
+I1
+sS'antiresorptive action of estrogen'
+p38
+I1
+sS'epiphys'
+p39
+I1
+sS'natural kil'
+p40
+I1
+sS'ultrastructural alter'
+p41
+I2
+sS'tartrate-resistant acid'
+p42
+I1
+sS'animals ocl'
+p43
+I1
+sS'nk cytolyt'
+p44
+I1
+sS'brush border morpholog'
+p45
+I1
+sS'appear'
+p46
+I1
+sS'phosphatase act'
+p47
+I1
+sS'estradiol-treated anim'
+p48
+I5
+sS'for activation of nuclear factor kappa b'
+p49
+I1
+sS'cell'
+p50
+I7
+sS'identification of ocl'
+p51
+I1
+sS'previous work'
+p52
+I1
+sS'diaphyseal cortic'
+p53
+I1
+sS'tartrate-resistant acid phosphatase act'
+p54
+I1
+sS'hematopoietic cel'
+p55
+I1
+sS'perimet'
+p56
+I1
+sS'sensitive histologic method for identification of ocl'
+p57
+I1
+sS'estradiol exposur'
+p58
+I1
+sS'paraffin'
+p59
+I1
+sS'pre-estradiol treat'
+p60
+I1
+sS'trap act'
+p61
+I1
+sS'popul'
+p62
+I2
+sS'macrophage precursor'
+p63
+I1
+sS'influence osteoclast'
+p64
+I1
+sS'cell differenti'
+p65
+I1
+sS'precursor'
+p66
+I3
+sS'podosom'
+p67
+I1
+sS'resorb'
+p68
+I1
+sS'phillips cm10'
+p69
+I1
+sS'opg secret'
+p70
+I1
+sS'osteoclasts retained tartrate-resistant acid phosphatas'
+p71
+I1
+sS'epitop'
+p72
+I2
+sS'committe'
+p73
+I2
+sS'normal ultrastructural appear'
+p74
+I1
+sS'studies of avian osteoclast'
+p75
+I1
+sS'studi'
+p76
+I4
+sS'mithramycin'
+p77
+I1
+sS'temporal develop'
+p78
+I1
+sS'pre-ocl cell line flg'
+p79
+I1
+sS'modul'
+p80
+I1
+sS'ultrastructural examin'
+p81
+I1
+sS'osteoblast cel'
+p82
+I1
+sS'nitrat'
+p83
+I1
+sS'cell line flg'
+p84
+I1
+sS'apposition of th'
+p85
+I1
+sS'vivo studi'
+p86
+I1
+sS'resorpt'
+p87
+I4
+sS'mature lymphocytes influence osteoclast'
+p88
+I1
+sS'histologic method for identification of ocl'
+p89
+I1
+sS'precursor cel'
+p90
+I1
+sS'normal ruffled bord'
+p91
+I1
+sS'secret'
+p92
+I2
+sS'progenitor'
+p93
+I1
+sS'ph'
+p94
+I1
+sS'osteoclast'
+p95
+I16
+sS'of ocl'
+p96
+I2
+sS'receptor for activation of'
+p97
+I1
+sS'brush bord'
+p98
+I3
+sS'hej strain'
+p99
+I1
+sS'ocl precursor'
+p100
+I1
+sS'osteoprotegerin'
+p101
+I2
+sS'sensitive histologic method for identif'
+p102
+I1
+sS'osteoclasts retain'
+p103
+I2
+sS'osteoclast develop'
+p104
+I1
+sS'examin'
+p105
+I3
+sS'of nuclear factor kappa b'
+p106
+I1
+sS'histologic examin'
+p107
+I1
+sS'ocl develop'
+p108
+I1
+sS'pathophysiologic pathway'
+p109
+I1
+sS'avian osteoclast'
+p110
+I1
+sS'phillip'
+p111
+I1
+sS'maturation of osteoclast'
+p112
+I1
+sS'work'
+p113
+I2
+sS'paracrine mediator of th'
+p114
+I1
+sS'calcium'
+p115
+I1
+sS'plasma membran'
+p116
+I1
+sS'citrat'
+p117
+I1
+sS'lead citr'
+p118
+I1
+sS'lymphocytes influence osteoclast'
+p119
+I1
+sS'vivo work'
+p120
+I1
+sS'flg'
+p121
+I2
+sS'formalin'
+p122
+I1
+sS'phosphatas'
+p123
+I1
+sS'apposition of ocl'
+p124
+I1
+sS'strain'
+p125
+I1
+sS'temporal development of'
+p126
+I1
+sS'protein'
+p127
+I1
+sS'disappear'
+p128
+I1
+sS'endosteal margin'
+p129
+I1
+sS'estradiol-treated femur'
+p130
+I1
+sS'differenti'
+p131
+I1
+sS'develop'
+p132
+I2
+sS'osteogenic cell differenti'
+p133
+I1
+sS'tartrate-resistant acid phosphatas'
+p134
+I1
+sS'hybrid resistance studi'
+p135
+I1
+sS'ocl apoptosi'
+p136
+I1
+sS'pathway'
+p137
+I1
+sS'b cell'
+p138
+I1
+sS'osteosclerotic estradiol-treated mous'
+p139
+I1
+sS'empty tub'
+p140
+I1
+sS'maturation of'
+p141
+I1
+sS'osteoclast progenitor'
+p142
+I1
+sS'osteoclast morpholog'
+p143
+I1
+sS'fine structure of th'
+p144
+I1
+sS'estrogen treat'
+p145
+I1
+sS'estradiol-treated animals ocl'
+p146
+I1
+sS'vitro studi'
+p147
+I1
+sS'apposit'
+p148
+I2
+sS'receptor for activation of nuclear factor kappa b'
+p149
+I1
+sS'm-csf precursor'
+p150
+I1
+sS'ovariectomized mic'
+p151
+I1
+sS'kappa b'
+p152
+I2
+sS'transmission electron microscop'
+p153
+I1
+sS'border morpholog'
+p154
+I1
+sS'institutional anim'
+p155
+I1
+sS'baylink'
+p156
+I1
+sS'sensitive histologic method for identification of'
+p157
+I1
+sS'osteogenic cell lineag'
+p158
+I1
+sS'of estrogen'
+p159
+I2
+sS'apposition of'
+p160
+I2
+sS'microscop'
+p161
+I1
+sS'mrna induct'
+p162
+I1
+sS'cortic'
+p163
+I1
+sS'osteoclastogenesi'
+p164
+I5
+sS'death'
+p165
+I1
+sS'cellular functional basi'
+p166
+I1
+sS'ligand'
+p167
+I1
+sS'ocl precursor cel'
+p168
+I1
+sS'receptor for activation of nuclear factor kappa'
+p169
+I1
+sS'fix'
+p170
+I1
+sS'marrow microenviron'
+p171
+I1
+sS'electron microscopi'
+p172
+I1
+sS'osteometr'
+p173
+I1
+sS'treatment'
+p174
+I1
+sS'progeni'
+p175
+I1
+sS'osteoclast popul'
+p176
+I1
+sS'alter'
+p177
+I2
+sS'pre-estradiol treatment endosteal margin'
+p178
+I1
+sS'ion channel act'
+p179
+I1
+sS'the antiresorptive action of estrogen'
+p180
+I1
+sS'anim'
+p181
+I4
+sS'ruffled bord'
+p182
+I1
+sS'specimen'
+p183
+I6
+sS'killer'
+p184
+I1
+sS'opg'
+p185
+I5
+sS'osteoclasts retained tartrate-resistant acid phosphatase act'
+p186
+I1
+sS'midshaft of'
+p187
+I1
+sS'vitro studies of avian osteoclast'
+p188
+I1
+sS'estrogen-treated mic'
+p189
+I5
+sS'midshaft'
+p190
+I1
+sS'postmenopausal osteoporosi'
+p191
+I1
+sS'bone resorpt'
+p192
+I2
+sS'post-implant'
+p193
+I1
+sS'resin'
+p194
+I1
+sS'metaphys'
+p195
+I1
+sS'the ocl'
+p196
+I2
+sS'pre-estradiol treatment endost'
+p197
+I1
+sS'trap'
+p198
+I2
+sS'mrna'
+p199
+I1
+sS'bone marrow'
+p200
+I1
+sS'cellular ph'
+p201
+I1
+sS'spurr resin'
+p202
+I1
+sS'receptor for'
+p203
+I1
+sS'bone'
+p204
+I4
+sS'modulation of th'
+p205
+I1
+sS'midshaft of control specimen'
+p206
+I1
+sS'animal car'
+p207
+I1
+sS'macrophag'
+p208
+I1
+sS'mdp'
+p209
+I1
+sS'interleukin'
+p210
+I1
+sS'uranyl acet'
+p211
+I1
+sS'ovariectomi'
+p212
+I1
+sS'of osteoclast'
+p213
+I4
+sS'tube'
+p214
+I2
+sS'morpholog'
+p215
+I4
+sS'of the antiresorptive action of estrogen'
+p216
+I1
+sS'estradiol'
+p217
+I7
+sS'methacryl'
+p218
+I1
+sS'cm10 transmission electron microscop'
+p219
+I1
+sS'ocl plasma'
+p220
+I1
+sS'decalcifi'
+p221
+I2
+sS'ultrastructural morpholog'
+p222
+I1
+sS'lineag'
+p223
+I1
+sS'osteomeasure softwar'
+p224
+I1
+sS'basi'
+p225
+I2
+sS'statistical analysis of'
+p226
+I1
+sS'of'
+p227
+I1
+sS'antibodi'
+p228
+I1
+sS'marrow stromal cel'
+p229
+I1
+sS'methyl methacryl'
+p230
+I1
+sS'margin'
+p231
+I1
+sS't-test'
+p232
+I1
+sS'sensitive histologic method for'
+p233
+I1
+sS'softwar'
+p234
+I1
+sS'marrow matur'
+p235
+I1
+sS'vitro'
+p236
+I3
+sS'receptor'
+p237
+I1
+sS'brush'
+p238
+I2
+sS'estrogen-treated mous'
+p239
+I2
+sS'membran'
+p240
+I1
+sS'fine structure of'
+p241
+I1
+sS'non-decalcifi'
+p242
+I1
+sS'bone marrow strom'
+p243
+I1
+sS'institut'
+p244
+I1
+sS'roubinian'
+p245
+I1
+sS'acid phosphatas'
+p246
+I1
+sS'p-valu'
+p247
+I1
+sS'ion channel'
+p248
+I1
+sS'osmium tetroxid'
+p249
+I1
+sS'mg estradiol'
+p250
+I2
+sS'institutional animal car'
+p251
+I1
+sS'paracrine mediator of'
+p252
+I1
+sS'modulation of'
+p253
+I1
+sS'phillips cm10 transmission electron microscop'
+p254
+I1
+sS'osteoclasts retained tartrate-resistant acid'
+p255
+I1
+sS'electron microscop'
+p256
+I1
+sS'osteosclerosi'
+p257
+I4
+sS'transmission electron microscopi'
+p258
+I1
+sS'apposition of the ocl'
+p259
+I1
+sS'channel act'
+p260
+I1
+sS'apoptosi'
+p261
+I1
+sS'of the ocl'
+p262
+I3
+sS'exposur'
+p263
+I1
+sS'ultrastructural appear'
+p264
+I1
+sS'receptor for activ'
+p265
+I1
+sS'retained trap act'
+p266
+I1
+sS'ocl plasma membran'
+p267
+I1
+sS'vivo'
+p268
+I1
+sS'retained tartrate-resistant acid phosphatase act'
+p269
+I1
+sS'buffered formalin'
+p270
+I1
+sS'pre-ocl cel'
+p271
+I1
+sS'mouse model'
+p272
+I2
+sS'calcitonin'
+p273
+I1
+sS'care'
+p274
+I1
+sS'spurr'
+p275
+I1
+sS'osteogenic cel'
+p276
+I2
+sS'estrogen'
+p277
+I5
+sS'osteoclast death'
+p278
+I1
+sS'treatment endosteal margin'
+p279
+I1
+sS'bone marrow stromal cel'
+p280
+I1
+sS'post-fix'
+p281
+I1
+sS'silast'
+p282
+I1
+sS'cell lineag'
+p283
+I1
+sS'vitro studies of'
+p284
+I1
+sS'border'
+p285
+I2
+sS'acet'
+p286
+I1
+sS'macrophage matur'
+p287
+I1
+sS'nk'
+p288
+I4
+sS'ehdp'
+p289
+I1
+sS'opg mrna'
+p290
+I1
+sS'silastic tub'
+p291
+I1
+sS'paracrine medi'
+p292
+I1
+sS'radiographic examin'
+p293
+I1
+sS'femoral metaphys'
+p294
+I1
+sS'fine structure of the ocl'
+p295
+I1
+sS'microenviron'
+p296
+I1
+sS'quantitative histomorphometri'
+p297
+I2
+sS'matur'
+p298
+I3
+sS'neutral buffered formalin'
+p299
+I1
+sS'il-8'
+p300
+I1
+sS'estrogen administr'
+p301
+I1
+sS'il-6'
+p302
+I2
+sS'mediator of the antiresorptive action of estrogen'
+p303
+I1
+sS'ocl estrogen receptor'
+p304
+I1
+sS'ethane-1-hydroxy-1,1-diphosphon'
+p305
+I1
+sS'osteoclast precursor'
+p306
+I1
+sS'of control specimen'
+p307
+I1
+sS'of avian osteoclast'
+p308
+I1
+sS'model'
+p309
+I2
+sS'estradiol-treated mic'
+p310
+I8
+sS'osteoclasts retained trap'
+p311
+I1
+sS'bone resorb'
+p312
+I1
+sS'paracrine mediator of the antiresorptive action of'
+p313
+I1
+sS'estradiol-treated mous'
+p314
+I1
+sS'pathophysiolog'
+p315
+I1
+sS'nuclear factor kappa b'
+p316
+I1
+sS'osteoblast progeni'
+p317
+I1
+sS'tetroxid'
+p318
+I1
+sS'rankl'
+p319
+I3
+sS'avian ocl'
+p320
+I2
+sS'estrogen-treated mouse model'
+p321
+I2
+stp322
+Rp323
+tp324
+.

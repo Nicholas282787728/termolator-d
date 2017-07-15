@@ -1,0 +1,1115 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'scd39 hydrolysi'
+p7
+I1
+sS'chelat'
+p8
+I2
+sS'qpowa'
+p9
+I1
+sS'\xce\xb3-phosphate of'
+p10
+I1
+sS'of scd39 bound vo'
+p11
+I1
+sS'ga'
+p12
+I1
+sS'd2'
+p13
+I3
+sS'affin'
+p14
+I2
+sS'd1'
+p15
+I7
+sS'adomet synthetas'
+p16
+I1
+sS'scd catalysi'
+p17
+I1
+sS'of the chel'
+p18
+I1
+sS'ammonium sulfate precipit'
+p19
+I1
+sS'ym30 centricon'
+p20
+I1
+sS'nucleotide phosphate binding domains of'
+p21
+I1
+sS'intermedi'
+p22
+I2
+sS'side-chain of'
+p23
+I1
+sS'enzymatic mechanisms of'
+p24
+I1
+sS'program qpowa'
+p25
+I2
+sS'affinity of scd39'
+p26
+I1
+sS'nitrogen ga'
+p27
+I1
+sS'program'
+p28
+I1
+sS'maximal act'
+p29
+I1
+sS'enzymatic act'
+p30
+I1
+sS'for speci'
+p31
+I2
+sS'cd-epr'
+p32
+I1
+sS'experimental values for speci'
+p33
+I1
+sS'coordination of'
+p34
+I1
+sS'preparation of'
+p35
+I2
+sS'of scd39 for adp'
+p36
+I1
+sS'acr3'
+p37
+I3
+sS'kcl'
+p38
+I1
+sS'centricon'
+p39
+I1
+sS'the ntpdas'
+p40
+I1
+sS'affinity of'
+p41
+I2
+sS'of the enzym'
+p42
+I1
+sS'nucleotidase activities of scd39'
+p43
+I1
+sS'divalent c'
+p44
+I4
+sS'experi'
+p45
+I1
+sS'preparation of soluble cd39 scd39'
+p46
+I1
+sS'tube'
+p47
+I3
+sS'vigorous stir'
+p48
+I1
+sS'non-hydrolysable vo'
+p49
+I1
+sS'monom'
+p50
+I1
+sS'catalytic activity of cd39'
+p51
+I1
+sS'conformations of scd39'
+p52
+I1
+sS'bind metal-adp complex'
+p53
+I1
+sS'catalytic mechanism of cd39'
+p54
+I2
+sS'prepar'
+p55
+I2
+sS'f-type'
+p56
+I1
+sS'preparation of vo'
+p57
+I1
+sS'of h59'
+p58
+I1
+sS'tris-hcl'
+p59
+I2
+sS'millipor'
+p60
+I1
+sS'speci'
+p61
+I4
+sS'preparation of soluble cd39 scd39 transfect'
+p62
+I1
+sS'activities of scd39'
+p63
+I1
+sS'atpas'
+p64
+I1
+sS'catalytic mechanism of ntpdas'
+p65
+I1
+sS'nucleotidase act'
+p66
+I3
+sS'side-chain of aspart'
+p67
+I1
+sS'affinity column'
+p68
+I1
+sS'solvent'
+p69
+I1
+sS'equatorial metal ligand'
+p70
+I1
+sS'cofactor'
+p71
+I6
+sS'epr speci'
+p72
+I2
+sS'tensor'
+p73
+I3
+sS'absence of vo'
+p74
+I1
+sS'species d1'
+p75
+I7
+sS'axial'
+p76
+I1
+sS'd213'
+p77
+I1
+sS'column chromatographi'
+p78
+I1
+sS'ligands for'
+p79
+I1
+sS'acr3 affect'
+p80
+I1
+sS'd219'
+p81
+I2
+sS'e-ntpdas'
+p82
+I1
+sS'concentr'
+p83
+I4
+sS'epr characteristics of scd39'
+p84
+I1
+sS'hydrolysi'
+p85
+I5
+sS'of species d1'
+p86
+I2
+sS'atp analog adpnp'
+p87
+I1
+sS'transfected stable highfive\xe2\x84\xa2'
+p88
+I1
+sS'phosphorylated intermedi'
+p89
+I1
+sS'cd39 scd39 transfected stable highfive\xe2\x84\xa2'
+p90
+I1
+sS'epr characteristics of'
+p91
+I1
+sS'of scd39'
+p92
+I7
+sS'reaction'
+p93
+I1
+sS'of chel'
+p94
+I1
+sS'stock vanadyl'
+p95
+I1
+sS'sensit'
+p96
+I1
+sS'mm nacl'
+p97
+I1
+sS'for vo'
+p98
+I2
+sS'nucleotidase activities of'
+p99
+I1
+sS'ligands of scd39 bound vo'
+p100
+I1
+sS'adpase activities of cd39'
+p101
+I1
+sS'epr spectrum'
+p102
+I2
+sS'stable highfive\xe2\x84\xa2'
+p103
+I1
+sS'nucleotide-binding sit'
+p104
+I1
+sS'activ'
+p105
+I8
+sS'ca'
+p106
+I12
+sS'cf'
+p107
+I1
+sS'famili'
+p108
+I1
+sS'of tensor'
+p109
+I2
+sS'adpase activities of'
+p110
+I1
+sS'v-type atpas'
+p111
+I1
+sS'soluble cd39'
+p112
+I9
+sS'isoform'
+p113
+I1
+sS'cd39 famili'
+p114
+I1
+sS'secret'
+p115
+I1
+sS'vanadyl'
+p116
+I5
+sS'swap'
+p117
+I1
+sS'non-hydrolyzable analog of'
+p118
+I1
+sS'dissolved molecular oxygen'
+p119
+I1
+sS'carboxyl'
+p120
+I2
+sS'highfive\xe2\x84\xa2'
+p121
+I1
+sS'cell motil'
+p122
+I1
+sS'epr tub'
+p123
+I3
+sS'cofactor for scd39'
+p124
+I2
+sS'for adp'
+p125
+I1
+sS'enzymatic mechanisms of th'
+p126
+I1
+sS'conformations of th'
+p127
+I1
+sS'coordin'
+p128
+I2
+sS'hepe'
+p129
+I1
+sS'of vo'
+p130
+I4
+sS'concentration of scd39'
+p131
+I1
+sS'vo'
+p132
+I54
+sS'epr features of'
+p133
+I1
+sS'conformations of scd39 hydrolysi'
+p134
+I1
+sS'interactions of ca'
+p135
+I1
+sS'protein ligands for vo'
+p136
+I1
+sS'mg'
+p137
+I5
+sS'acr1'
+p138
+I6
+sS'room'
+p139
+I3
+sS'acr4'
+p140
+I4
+sS'acr5'
+p141
+I1
+sS'enzymatic mechanisms of the ntpdas'
+p142
+I1
+sS'nonsynaptic information transf'
+p143
+I1
+sS'mn'
+p144
+I1
+sS'metal-atp'
+p145
+I1
+sS'molecular oxygen'
+p146
+I1
+sS'gel filtration column'
+p147
+I1
+sS'x-band'
+p148
+I1
+sS'scd39 for adp'
+p149
+I1
+sS'\xce\xb3-phosphat'
+p150
+I1
+sS'scd39'
+p151
+I16
+sS'of scd39 hydrolysi'
+p152
+I1
+sS'conformations of the enzym'
+p153
+I1
+sS'biotech'
+p154
+I1
+sS'hydrolyze atp'
+p155
+I1
+sS'of the ntpdas'
+p156
+I2
+sS'conformations of'
+p157
+I2
+sS'epr paramet'
+p158
+I1
+sS'site'
+p159
+I9
+sS'motil'
+p160
+I1
+sS'\xce\xbcl'
+p161
+I2
+sS'cation'
+p162
+I5
+sS'carboxypeptidas'
+p163
+I2
+sS'binding sit'
+p164
+I2
+sS'protein'
+p165
+I2
+sS'glutamate of'
+p166
+I1
+sS'sulfate precipitated scd39'
+p167
+I1
+sS'mm tris-hcl'
+p168
+I2
+sS'epr spectra'
+p169
+I4
+sS'of ca'
+p170
+I2
+sS'catalytic sit'
+p171
+I6
+sS'species d2'
+p172
+I3
+sS'of soluble cd39 scd39 transfected stable highfive\xe2\x84\xa2'
+p173
+I1
+sS'transloc'
+p174
+I1
+sS'substitution of'
+p175
+I1
+sS'complex'
+p176
+I1
+sS'concentration of'
+p177
+I1
+sS'species t'
+p178
+I7
+sS'stir'
+p179
+I1
+sS'preparation of soluble cd39 scd39 transfected st'
+p180
+I1
+sS'stock'
+p181
+I1
+sS'cd39'
+p182
+I20
+sS'nucleotide phosphate binding domain'
+p183
+I1
+sS'e-ntpdase1'
+p184
+I1
+sS'acr1 convert'
+p185
+I1
+sS'e-ntpdase2'
+p186
+I1
+sS'pharmacia biotech'
+p187
+I1
+sS'nucleotide phosphate binding domains of ntpdas'
+p188
+I1
+sS'metal-adp complex'
+p189
+I1
+sS'nucleotid'
+p190
+I5
+sS'studi'
+p191
+I1
+sS'intensity of'
+p192
+I1
+sS'absence of chel'
+p193
+I1
+sS'the enzym'
+p194
+I1
+sS'ammonium sulfate precipitated scd39'
+p195
+I1
+sS'affinity of scd39 for'
+p196
+I1
+sS'bind'
+p197
+I1
+sS'binding domains of ntpdas'
+p198
+I1
+sS'spectra'
+p199
+I4
+sS'epr'
+p200
+I18
+sS'ghz'
+p201
+I1
+sS'affinity of th'
+p202
+I1
+sS'linear combination of'
+p203
+I1
+sS'adp binding sit'
+p204
+I1
+sS'catalytic act'
+p205
+I2
+sS'e174'
+p206
+I2
+sS'site of scd39'
+p207
+I1
+sS'abund'
+p208
+I1
+sS'conform'
+p209
+I14
+sS'pharmacia'
+p210
+I1
+sS'\xce\xb3-phosphate bind'
+p211
+I1
+sS'adp intermedi'
+p212
+I1
+sS'cd39 monom'
+p213
+I1
+sS'nitrogen'
+p214
+I3
+sS'solubl'
+p215
+I2
+sS'affinity of scd39 for adp'
+p216
+I1
+sS'of nucleotid'
+p217
+I1
+sS'\xce\xb2-phosphate of'
+p218
+I1
+sS'equatorial coordin'
+p219
+I1
+sS'affinity column chromatographi'
+p220
+I1
+sS'liquid nitrogen flow cryostat'
+p221
+I1
+sS'ligand'
+p222
+I14
+sS'adp'
+p223
+I21
+sS'experimental values for'
+p224
+I1
+sS'character'
+p225
+I1
+sS'hydrolyze nucleotid'
+p226
+I1
+sS'h59'
+p227
+I1
+sS'preparation of soluble cd39 scd39 transfected stable highfive\xe2\x84\xa2'
+p228
+I1
+sS'activity of cd39'
+p229
+I1
+sS'zeocin'
+p230
+I1
+sS'\xce\xb3-phosphate of atp'
+p231
+I1
+sS'standard cav'
+p232
+I1
+sS'synthetas'
+p233
+I2
+sS'glutam'
+p234
+I2
+sS'molecul'
+p235
+I4
+sS'scd39 transfected stable highfive\xe2\x84\xa2'
+p236
+I1
+sS'chromatographi'
+p237
+I1
+sS'discuss'
+p238
+I1
+sS'glutamate of scd39'
+p239
+I1
+sS'non-hydrolysable nucleotide analog'
+p240
+I1
+sS'paramet'
+p241
+I1
+sS'oxygen'
+p242
+I12
+sS'recombinant soluble cd39'
+p243
+I1
+sS'cofactor for scd39 nucleotidase act'
+p244
+I1
+sS'cell'
+p245
+I2
+sS'non-hydrolyzable analog of atp'
+p246
+I1
+sS'atpase act'
+p247
+I2
+sS'bond'
+p248
+I1
+sS'atp analog'
+p249
+I2
+sS'atp hydrolysi'
+p250
+I2
+sS'lysin'
+p251
+I1
+sS'acr3 affected cd39'
+p252
+I1
+sS'resuspend'
+p253
+I1
+sS's-adenosylmethionine synthetas'
+p254
+I1
+sS'invitrogen'
+p255
+I1
+sS'eq'
+p256
+I1
+sS'carlsbad'
+p257
+I1
+sS'rectangular standard cav'
+p258
+I1
+sS'activity of scd39'
+p259
+I1
+sS'for scd39'
+p260
+I1
+sS'hydrolyzes atp'
+p261
+I1
+sS'substitut'
+p262
+I1
+sS'caviti'
+p263
+I1
+sS'mhz'
+p264
+I4
+sS'catalytic mechanism of'
+p265
+I3
+sS'protein ligands for'
+p266
+I1
+sS'aspart'
+p267
+I2
+sS'adpase act'
+p268
+I3
+sS'acr1 converted cd39'
+p269
+I1
+sS'epr features of vo'
+p270
+I1
+sS'cofactor for'
+p271
+I2
+sS'ammonium sulf'
+p272
+I1
+sS'converted cd39'
+p273
+I1
+sS'cw-epr experi'
+p274
+I2
+sS'coordination of ca'
+p275
+I1
+sS'oh'
+p276
+I1
+sS'column'
+p277
+I1
+sS'interactions of'
+p278
+I1
+sS'simul'
+p279
+I1
+sS'acr'
+p280
+I1
+sS'analog of atp'
+p281
+I1
+sS'atp'
+p282
+I19
+sS'ntpdase'
+p283
+I5
+sS'vanadate sensit'
+p284
+I1
+sS'lymphocyt'
+p285
+I1
+sS'd62'
+p286
+I1
+sS'p-type'
+p287
+I1
+sS'precipitated scd39'
+p288
+I1
+sS'coordination sit'
+p289
+I1
+sS'potato apyras'
+p290
+I1
+sS'probable combination of'
+p291
+I1
+sS'nacl'
+p292
+I1
+sS'mm hepe'
+p293
+I1
+sS'catalytic react'
+p294
+I1
+sS'equatorial oxygen'
+p295
+I8
+sS'transfer'
+p296
+I2
+sS'interact'
+p297
+I1
+sS'filtration column'
+p298
+I1
+sS'analog'
+p299
+I2
+sS'ectokinas'
+p300
+I1
+sS'ligands for vo'
+p301
+I3
+sS'affinity of the chel'
+p302
+I1
+sS'for scd39 nucleotidase act'
+p303
+I1
+sS'adhes'
+p304
+I1
+sS'incub'
+p305
+I2
+sS'nucleotide analog'
+p306
+I1
+sS'catalysi'
+p307
+I2
+sS'equatorial ligands of scd39 bound vo'
+p308
+I1
+sS'soluble cd39 scd39 transfected stable highfive\xe2\x84\xa2'
+p309
+I1
+sS'te102 rectangular standard cav'
+p310
+I1
+sS'hemostasi'
+p311
+I1
+sS'of atp'
+p312
+I3
+sS'phosphate binding domains of ntpdas'
+p313
+I1
+sS'of cd39'
+p314
+I6
+sS'room temperature incub'
+p315
+I1
+sS'liquid nitrogen'
+p316
+I2
+sS'activities of cd39'
+p317
+I1
+sS'preparation of soluble cd39'
+p318
+I1
+sS'mutagenesis studi'
+p319
+I1
+sS'domains of ntpdas'
+p320
+I1
+sS'ampcp'
+p321
+I2
+sS'absenc'
+p322
+I4
+sS'epr measurement cw-epr experi'
+p323
+I1
+sS'equatorial ligands of'
+p324
+I1
+sS'bound vo'
+p325
+I1
+sS'intensities of'
+p326
+I1
+sS'intensities of species d1'
+p327
+I2
+sS'cation binding sit'
+p328
+I1
+sS'metal-ligand'
+p329
+I1
+sS'equatorial ligands of scd39 bound'
+p330
+I1
+sS's218'
+p331
+I2
+sS'substitution of h59'
+p332
+I1
+sS'spectrum'
+p333
+I2
+sS'apyras'
+p334
+I1
+sS'analog ampcp'
+p335
+I1
+sS'non-hydrolyzable analog'
+p336
+I1
+sS'absence of nucleotid'
+p337
+I1
+sS'equatorial ligands of scd39'
+p338
+I1
+sS'catalytic base attack'
+p339
+I1
+sS'absence of'
+p340
+I3
+sS'scd39 bound vo'
+p341
+I1
+sS'of aspart'
+p342
+I1
+sS't lymphocyt'
+p343
+I1
+sS'\xce\xb2-phosphate of atp'
+p344
+I1
+sS'discussion vanadyl'
+p345
+I1
+sS'insect cel'
+p346
+I1
+sS'catalytic activity of'
+p347
+I1
+sS'the chel'
+p348
+I1
+sS'affected cd39'
+p349
+I1
+sS'scd39 nucleotidase act'
+p350
+I1
+sS'atpase activity of scd39'
+p351
+I1
+sS'precipit'
+p352
+I1
+sS'equatorial coordination sit'
+p353
+I1
+sS'protein ligand'
+p354
+I1
+sS'atpase activity of'
+p355
+I1
+sS'preparation of solubl'
+p356
+I1
+sS'ammonium'
+p357
+I1
+sS'intens'
+p358
+I8
+sS'enzym'
+p359
+I5
+sS'equatorial ligand'
+p360
+I7
+sS'potato'
+p361
+I1
+sS'catalytic site of'
+p362
+I1
+sS'of ntpdas'
+p363
+I3
+sS'phosphat'
+p364
+I4
+sS'catalytic site of scd39'
+p365
+I1
+sS'hydrogen bond'
+p366
+I1
+sS'equatorial nitrogen'
+p367
+I1
+sS'adpnp'
+p368
+I4
+sS'analog adpnp'
+p369
+I1
+sS'linear combination of tensor'
+p370
+I1
+sS'superose-12hr gel filtration column'
+p371
+I1
+sS'intensity of species d1'
+p372
+I2
+stp373
+Rp374
+tp375
+.

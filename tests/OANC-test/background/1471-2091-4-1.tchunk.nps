@@ -1,0 +1,1547 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'non-overlapping interact'
+p7
+I1
+sS'pedf gag'
+p8
+I1
+sS'consider'
+p9
+I1
+sS'particip'
+p10
+I1
+sS'proteoglycan'
+p11
+I1
+sS'centrifug'
+p12
+I4
+sS'polypeptid'
+p13
+I1
+sS'gag'
+p14
+I21
+sS'recombin'
+p15
+I1
+sS'intrinsic affinity of the cell surface receptor for'
+p16
+I1
+sS'soluble pedf'
+p17
+I1
+sS'mm l-glutamin'
+p18
+I1
+sS'affin'
+p19
+I13
+sS'phenomenon'
+p20
+I1
+sS'glass-fiber filt'
+p21
+I3
+sS'cell'
+p22
+I22
+sS'pedf cdna'
+p23
+I1
+sS'neurotrophic receptor'
+p24
+I1
+sS'pedf-affinity column'
+p25
+I2
+sS'pedf act'
+p26
+I3
+sS'hyaluronan'
+p27
+I1
+sS'human retinoblastoma y-79'
+p28
+I1
+sS'subtilisin'
+p29
+I3
+sS'kidney'
+p30
+I1
+sS'linear range of'
+p31
+I1
+sS'lyas'
+p32
+I4
+sS'chondroitin sulf'
+p33
+I2
+sS'binding assay'
+p34
+I3
+sS'gag lyas'
+p35
+I5
+sS'cdna'
+p36
+I1
+sS'cofactors for pedf-receptor interact'
+p37
+I1
+sS'urea'
+p38
+I1
+sS'assay'
+p39
+I7
+sS'contribut'
+p40
+I1
+sS'complex-form'
+p41
+I1
+sS'kcl'
+p42
+I1
+sS'express'
+p43
+I2
+sS'amino hexos'
+p44
+I1
+sS'tricin'
+p45
+I1
+sS'heparan sulf'
+p46
+I3
+sS'heparin-'
+p47
+I1
+sS'for cell-surface receptor'
+p48
+I1
+sS'affinity of'
+p49
+I1
+sS'cultur'
+p50
+I1
+sS'pedf neurotroph'
+p51
+I1
+sS'affinity for the pedf'
+p52
+I1
+sS'soluble conditioned media'
+p53
+I1
+sS'domains of the receptor protein'
+p54
+I1
+sS'affinity for pedf gag'
+p55
+I1
+sS'ema'
+p56
+I1
+sS'intrinsic affin'
+p57
+I1
+sS'retinoblastoma y-79 cel'
+p58
+I3
+sS'expression vector'
+p59
+I1
+sS'vector'
+p60
+I1
+sS'final manuscript'
+p61
+I1
+sS'matric'
+p62
+I3
+sS'intrinsic affinity of'
+p63
+I1
+sS'extracellular domains of the receptor'
+p64
+I1
+sS'model l'
+p65
+I1
+sS'extracellular domains of th'
+p66
+I1
+sS'proteas'
+p67
+I1
+sS'cord'
+p68
+I1
+sS'reaction mixtures containing cell suspens'
+p69
+I1
+sS'tris-hcl'
+p70
+I4
+sS'toluidine blue-o'
+p71
+I5
+sS'\xce\xb2-scintillation count'
+p72
+I2
+sS'for heparinas'
+p73
+I2
+sS'filters of pedf-receptor'
+p74
+I1
+sS'consequ'
+p75
+I1
+sS'pedf'
+p76
+I63
+sS'receptor binding assay'
+p77
+I1
+sS'molecular basi'
+p78
+I1
+sS'sulfated gag'
+p79
+I2
+sS'cell surface receptor'
+p80
+I1
+sS'pedf-gag'
+p81
+I1
+sS'emphaze\xe2\x84\xa2'
+p82
+I1
+sS'cofactor'
+p83
+I2
+sS'chondroitinase abc'
+p84
+I3
+sS'abc'
+p85
+I4
+sS'chlorat'
+p86
+I6
+sS'supernatant assay'
+p87
+I1
+sS'chemical treat'
+p88
+I1
+sS'malignant transform'
+p89
+I1
+sS'anion-exchange column'
+p90
+I2
+sS'plasma membran'
+p91
+I1
+sS'cell-surface receptors of y-79 cel'
+p92
+I2
+sS'abbrevi'
+p93
+I1
+sS'inhibitory influ'
+p94
+I1
+sS'y-79 cell cultures of h'
+p95
+I1
+sS'column chromatographi'
+p96
+I2
+sS'amicon ym10 filt'
+p97
+I1
+sS'coomassie brilli'
+p98
+I2
+sS'heparin purifi'
+p99
+I1
+sS'putative gag'
+p100
+I1
+sS'receptors of y-79 cel'
+p101
+I2
+sS'intrinsic affinity of th'
+p102
+I1
+sS'eliminative cleavag'
+p103
+I1
+sS'affinity of the cell surface receptor for pedf'
+p104
+I1
+sS'of ligand'
+p105
+I3
+sS'mem'
+p106
+I1
+sS'affinity for the pedf receptor'
+p107
+I1
+sS'heparitinase treated cultur'
+p108
+I1
+sS'integral membrane protein'
+p109
+I1
+sS'excess'
+p110
+I1
+sS'purif'
+p111
+I2
+sS'neurite outgrowth'
+p112
+I1
+sS'of atp-sulfurylas'
+p113
+I1
+sS'retinoblastoma-derived heparin'
+p114
+I1
+sS'heparin-like gag'
+p115
+I1
+sS'pedf mut'
+p116
+I1
+sS'cultures of h'
+p117
+I1
+sS'heparitinase react'
+p118
+I1
+sS'enzymat'
+p119
+I1
+sS'flavobacterium heparinum'
+p120
+I1
+sS'isopropanol'
+p121
+I1
+sS'outgrowth'
+p122
+I1
+sS'the pedf receptor'
+p123
+I1
+sS'cell cultures of h'
+p124
+I1
+sS'sodium'
+p125
+I3
+sS'pedf ligand-receptor interact'
+p126
+I1
+sS'of pedf-receptor'
+p127
+I1
+sS'y-79 cell cultur'
+p128
+I2
+sS'modulators of pedf-receptor interact'
+p129
+I2
+sS'studi'
+p130
+I1
+sS'soluble dialys'
+p131
+I1
+sS'commercial gag'
+p132
+I1
+sS'\xce\xbcl for'
+p133
+I1
+sS'microcon-100'
+p134
+I1
+sS'cup'
+p135
+I1
+sS'binding react'
+p136
+I1
+sS'activ'
+p137
+I4
+sS'modul'
+p138
+I4
+sS'receptor for pedf'
+p139
+I2
+sS'soluble effector'
+p140
+I1
+sS'sodium chlor'
+p141
+I3
+sS'for heparin'
+p142
+I2
+sS'the receptor protein'
+p143
+I1
+sS'ultrafiltr'
+p144
+I3
+sS'of mw'
+p145
+I2
+sS'sodium sulf'
+p146
+I1
+sS'hs proteoglycan'
+p147
+I1
+sS'competitive inhibitor'
+p148
+I1
+sS'binding domain of pedf map'
+p149
+I1
+sS'pedf-resin'
+p150
+I1
+sS'protein deplet'
+p151
+I3
+sS'pedfwer'
+p152
+I1
+sS'competitive inhibitor of'
+p153
+I1
+sS'coordin'
+p154
+I1
+sS'implic'
+p155
+I1
+sS'secret'
+p156
+I1
+sS'hs deplet'
+p157
+I1
+sS'enzym'
+p158
+I1
+sS'glycosaminglycan'
+p159
+I1
+sS'ph'
+p160
+I1
+sS'retina neuron'
+p161
+I1
+sS'morphological differenti'
+p162
+I1
+sS'gag-pedf-receptor complex'
+p163
+I1
+sS'assayed for absorb'
+p164
+I1
+sS'extracellular domain'
+p165
+I2
+sS'cell suspens'
+p166
+I1
+sS'interphotoreceptor matrix'
+p167
+I1
+sS'extracellular domains of'
+p168
+I1
+sS'reaction'
+p169
+I7
+sS'cell-surface receptors of y-79'
+p170
+I2
+sS'contributions ema'
+p171
+I1
+sS'pedf-bind'
+p172
+I1
+sS'toluidine blue-o precipit'
+p173
+I1
+sS'ml bed'
+p174
+I1
+sS'glass'
+p175
+I1
+sS'protease treat'
+p176
+I3
+sS'hepe'
+p177
+I1
+sS'receptor binding studi'
+p178
+I1
+sS'of extracellular matric'
+p179
+I1
+sS'treatment'
+p180
+I7
+sS'na-pyruv'
+p181
+I1
+sS'cacl'
+p182
+I1
+sS'sds-polyacrylamide gel electrophoresi'
+p183
+I1
+sS'spectrophotometric assay'
+p184
+I1
+sS'cerebellum'
+p185
+I1
+sS'soluble extracellular matrix'
+p186
+I1
+sS'hs-pedf complex'
+p187
+I1
+sS'primary consequ'
+p188
+I1
+sS'ml'
+p189
+I3
+sS'prepar'
+p190
+I1
+sS'cofactors for'
+p191
+I1
+sS'chondroitin abc'
+p192
+I1
+sS'mw'
+p193
+I1
+sS'amicon ym10'
+p194
+I1
+sS'deae-sephacel column'
+p195
+I1
+sS'protease inhibition potenti'
+p196
+I1
+sS'inhibitor'
+p197
+I1
+sS'negative charg'
+p198
+I1
+sS'retent'
+p199
+I3
+sS'solid tumor'
+p200
+I1
+sS'exclusion limit of'
+p201
+I1
+sS'mutant'
+p202
+I1
+sS'mm non-essential amino acid'
+p203
+I1
+sS'hs gag'
+p204
+I1
+sS'biochemical interact'
+p205
+I1
+sS'extensive vortex'
+p206
+I1
+sS'neuron'
+p207
+I2
+sS'of the receptor protein'
+p208
+I1
+sS'of heparin'
+p209
+I1
+sS'hexos'
+p210
+I1
+sS'supernatant assayed for'
+p211
+I1
+sS'dialys'
+p212
+I1
+sS'inhibitor of atp-sulfurylas'
+p213
+I1
+sS'spb'
+p214
+I1
+sS'modulator for'
+p215
+I1
+sS'hydrogen'
+p216
+I1
+sS'protein'
+p217
+I10
+sS'tumor'
+p218
+I1
+sS'differenti'
+p219
+I4
+sS'q-sepharos'
+p220
+I2
+sS'develop'
+p221
+I1
+sS'abc react'
+p222
+I1
+sS'spatial structure of pedf'
+p223
+I1
+sS'malignant solid tumor'
+p224
+I1
+sS'mm tris-hcl'
+p225
+I4
+sS'sds buffer'
+p226
+I1
+sS'of pedf'
+p227
+I5
+sS'complex'
+p228
+I3
+sS'inhibition potenti'
+p229
+I1
+sS'concentration of'
+p230
+I1
+sS'conditioned media'
+p231
+I1
+sS'acet'
+p232
+I3
+sS'non-overlap'
+p233
+I1
+sS'of heparin sulf'
+p234
+I2
+sS'hcl'
+p235
+I1
+sS'map'
+p236
+I1
+sS'l-glutamin'
+p237
+I1
+sS'pedf-receptor interact'
+p238
+I6
+sS'absorb'
+p239
+I2
+sS'pedf complex'
+p240
+I1
+sS'glycosaminoglycan'
+p241
+I3
+sS'lyase treat'
+p242
+I1
+sS'enzymatic digestion treat'
+p243
+I1
+sS'pedf bound'
+p244
+I2
+sS'nonspecific bind'
+p245
+I2
+sS'ml for hs-like molecul'
+p246
+I1
+sS'nm'
+p247
+I3
+sS'neuronal differenti'
+p248
+I2
+sS'extracellular neuronal differenti'
+p249
+I1
+sS'competitive inhibitor of atp-sulfurylas'
+p250
+I1
+sS'bind'
+p251
+I3
+sS'counter'
+p252
+I2
+sS'hs-pedf'
+p253
+I1
+sS'hs molecul'
+p254
+I1
+sS'coomassie brilliant blu'
+p255
+I2
+sS'ultrafiltration assay'
+p256
+I1
+sS'media'
+p257
+I3
+sS'exclus'
+p258
+I1
+sS'streptomyc'
+p259
+I1
+sS'model'
+p260
+I1
+sS'purifi'
+p261
+I1
+sS'ml for heparin'
+p262
+I1
+sS'composit'
+p263
+I1
+sS'trophic'
+p264
+I1
+sS'co-receptors of'
+p265
+I1
+sS'bio-rad'
+p266
+I1
+sS'seikagaku'
+p267
+I2
+sS'pharmacia'
+p268
+I1
+sS'mucosa'
+p269
+I1
+sS'heparitinas'
+p270
+I5
+sS'effector'
+p271
+I1
+sS'photoreceptor cel'
+p272
+I1
+sS'observ'
+p273
+I3
+sS'pei-treated glass-fiber filt'
+p274
+I1
+sS'intestinal mucosa'
+p275
+I1
+sS'molar excess'
+p276
+I1
+sS'biological assay'
+p277
+I1
+sS'glass-fiber filters of pedf-receptor'
+p278
+I1
+sS'concentr'
+p279
+I7
+sS'final sampl'
+p280
+I1
+sS'the pedf-receptor interact'
+p281
+I1
+sS'ligand'
+p282
+I7
+sS'serine-protease inhibitor'
+p283
+I1
+sS'interfer'
+p284
+I1
+sS'chondroitinase abc react'
+p285
+I1
+sS'radiolabeled pedf'
+p286
+I1
+sS'hs binding domain of pedf map'
+p287
+I1
+sS'biological activity of pedf'
+p288
+I1
+sS'y-79 cell cultures of heparin'
+p289
+I1
+sS'ls'
+p290
+I1
+sS'biological activity of'
+p291
+I1
+sS'mw exclus'
+p292
+I1
+sS'recombinant protein'
+p293
+I1
+sS'membrane filt'
+p294
+I1
+sS'pedf molecul'
+p295
+I1
+sS'gel electrophoresi'
+p296
+I1
+sS'total bind'
+p297
+I1
+sS'polyanions purif'
+p298
+I1
+sS'read'
+p299
+I1
+sS'polysaccharid'
+p300
+I1
+sS'non-essential amino acid'
+p301
+I1
+sS'for the pedf-receptor interact'
+p302
+I1
+sS'bound'
+p303
+I2
+sS'mm sodium chlor'
+p304
+I1
+sS'deplet'
+p305
+I4
+sS'biorad'
+p306
+I1
+sS'chromatographi'
+p307
+I2
+sS'vacuum'
+p308
+I2
+sS'heparinum'
+p309
+I1
+sS'surviv'
+p310
+I2
+sS'acetic acid'
+p311
+I1
+sS'pretreat'
+p312
+I1
+sS'pedf-affinity column chromatographi'
+p313
+I2
+sS'mm sodium'
+p314
+I3
+sS'hs-like molecul'
+p315
+I2
+sS'resin'
+p316
+I1
+sS'cell cultures of heparin'
+p317
+I1
+sS'vortex'
+p318
+I1
+sS'transform'
+p319
+I1
+sS'cell-surface receptor'
+p320
+I12
+sS'receptor'
+p321
+I29
+sS'stimulatori'
+p322
+I1
+sS'of y-79 cel'
+p323
+I2
+sS'domain'
+p324
+I1
+sS'pei-treated glass-fiber filters of'
+p325
+I1
+sS'enzymatic degrad'
+p326
+I1
+sS'digestion treat'
+p327
+I1
+sS'streptomyces hyalurolyticu'
+p328
+I1
+sS'interact'
+p329
+I16
+sS'store pedf'
+p330
+I1
+sS'ec'
+p331
+I1
+sS'for hs-like molecul'
+p332
+I1
+sS'non-condit'
+p333
+I1
+sS'growth'
+p334
+I1
+sS'sampl'
+p335
+I1
+sS'pedf-binding affin'
+p336
+I1
+sS'membran'
+p337
+I2
+sS'hippocampu'
+p338
+I1
+sS'hyaluronidase treat'
+p339
+I1
+sS'molecul'
+p340
+I4
+sS'bovine kidney'
+p341
+I1
+sS'human retinoblastoma y-79 cel'
+p342
+I1
+sS'matrix'
+p343
+I4
+sS'buffer p'
+p344
+I1
+sS'buffer q'
+p345
+I2
+sS'influenc'
+p346
+I1
+sS'retinoblastoma-derived h'
+p347
+I1
+sS'research'
+p348
+I1
+sS'culturing media'
+p349
+I2
+sS'exclusion limit of mw'
+p350
+I1
+sS'hs-like gag'
+p351
+I1
+sS'extracellular gag'
+p352
+I1
+sS'pvdf membran'
+p353
+I1
+sS'protein concentr'
+p354
+I1
+sS'cleavag'
+p355
+I1
+sS'pedfcontained substrates for heparinas'
+p356
+I1
+sS'supernatant assayed for absorb'
+p357
+I1
+sS'of pedf map'
+p358
+I1
+sS'of'
+p359
+I2
+sS'biological act'
+p360
+I1
+sS'lamina'
+p361
+I1
+sS'activity of pedf'
+p362
+I2
+sS'hss'
+p363
+I2
+sS'of the cell surface receptor for pedf'
+p364
+I1
+sS'ml for'
+p365
+I2
+sS'glycerol'
+p366
+I3
+sS'ethanol-water-acetic acid'
+p367
+I3
+sS'treated cultur'
+p368
+I1
+sS'intrinsic affinity of the cel'
+p369
+I1
+sS'basi'
+p370
+I1
+sS'heparin'
+p371
+I13
+sS'blue-o precipit'
+p372
+I1
+sS'\xce\xbcg'
+p373
+I1
+sS'column'
+p374
+I3
+sS'binding studi'
+p375
+I1
+sS'blue-o'
+p376
+I5
+sS'reaction mixtures containing cel'
+p377
+I1
+sS'\xce\xbcl'
+p378
+I5
+sS'retinoblastoma y-79'
+p379
+I2
+sS'filter'
+p380
+I6
+sS'concentration of ligand'
+p381
+I1
+sS'radioligand binding assay'
+p382
+I2
+sS'for pedf'
+p383
+I4
+sS'\xce\xbcl for heparin'
+p384
+I1
+sS'ionic phenomenon'
+p385
+I1
+sS'polyanion'
+p386
+I1
+sS'pedf polypeptid'
+p387
+I1
+sS'sulfat'
+p388
+I11
+sS'membrane protein'
+p389
+I1
+sS'degrad'
+p390
+I1
+sS'modulators of'
+p391
+I2
+sS'receptor protein'
+p392
+I1
+sS'retinoblastoma cel'
+p393
+I10
+sS'nacl'
+p394
+I5
+sS'bath'
+p395
+I2
+sS'suspens'
+p396
+I1
+sS'undersulfated gag'
+p397
+I1
+sS'spinal cord'
+p398
+I1
+sS'pedfcontained substrates for'
+p399
+I1
+sS'pedf-receptor'
+p400
+I1
+sS'chondroitin-sulf'
+p401
+I1
+sS'affinity for'
+p402
+I6
+sS'flavobacterium'
+p403
+I1
+sS'novex'
+p404
+I1
+sS'pvdf'
+p405
+I1
+sS'pb'
+p406
+I1
+sS'sodium acet'
+p407
+I2
+sS'jew'
+p408
+I1
+sS'final fract'
+p409
+I1
+sS'protein detect'
+p410
+I1
+sS'for absorb'
+p411
+I1
+sS'polyethylenimine-coated glass'
+p412
+I1
+sS'reaction mixtures contain'
+p413
+I1
+sS'lifetechnolog'
+p414
+I1
+sS'extracellular domains of the receptor protein'
+p415
+I1
+sS'mwco'
+p416
+I1
+sS'extracellular matrix'
+p417
+I3
+sS'fraction'
+p418
+I1
+sS'milliunit'
+p419
+I1
+sS'polyethylenimin'
+p420
+I1
+sS'coomassi'
+p421
+I2
+sS'store'
+p422
+I1
+sS'pei-treated glass-fiber filters of pedf-receptor'
+p423
+I1
+sS'intrinsic affinity of the cell surface receptor for pedf'
+p424
+I1
+sS'resuspend'
+p425
+I1
+sS'retina'
+p426
+I5
+sS'mm hepe'
+p427
+I1
+sS'pedf map'
+p428
+I1
+sS'of h'
+p429
+I1
+sS'cell surface receptor for pedf'
+p430
+I1
+sS'modulators of extracellular matric'
+p431
+I2
+sS'radioligand concentr'
+p432
+I1
+sS'atp-sulfurylas'
+p433
+I1
+sS'gag lyase treat'
+p434
+I1
+sS'cell-surface receptors of'
+p435
+I2
+sS'amino acid'
+p436
+I2
+sS'apoptosi'
+p437
+I1
+sS'amicon'
+p438
+I2
+sS'co-receptors of growth'
+p439
+I1
+sS'ym10 filter'
+p440
+I1
+sS'character'
+p441
+I1
+sS'pedf-affinity resin'
+p442
+I1
+sS'photoreceptor'
+p443
+I1
+sS'for pedf-receptor interact'
+p444
+I1
+sS'vial'
+p445
+I1
+sS'affinity of pedf'
+p446
+I1
+sS'polyethylenimine-treated glass-fiber filt'
+p447
+I1
+sS'vivo'
+p448
+I1
+sS'human retinoblastoma'
+p449
+I1
+sS'modulator for the pedf-receptor interact'
+p450
+I2
+sS'neurotrophic act'
+p451
+I2
+sS'absenc'
+p452
+I1
+sS'bovine intestinal mucosa'
+p453
+I1
+sS'the cell surface receptor for pedf'
+p454
+I1
+sS'abbreviations pedf'
+p455
+I1
+sS'bhk'
+p456
+I1
+sS'hyaluronidas'
+p457
+I1
+sS'ligand-receptor interact'
+p458
+I2
+sS'recombinant pedf'
+p459
+I1
+sS'molecular weight gag'
+p460
+I1
+sS'modulator for th'
+p461
+I1
+sS'pedf receptor'
+p462
+I6
+sS'manuscript'
+p463
+I1
+sS'y-79 cell'
+p464
+I7
+sS'of pedf-receptor interact'
+p465
+I1
+sS'mm nacl'
+p466
+I2
+sS'ionic interact'
+p467
+I3
+sS'assay develop'
+p468
+I1
+sS'containing cell suspens'
+p469
+I2
+sS'microcon retenate cup'
+p470
+I1
+sS'spatial structure of'
+p471
+I1
+sS'acid'
+p472
+I5
+sS'polycationic polyethylenimine-coated glass'
+p473
+I1
+sS'heparinas'
+p474
+I7
+sS'domain of pedf map'
+p475
+I1
+sS'min'
+p476
+I4
+sS'y-79 cell cultures of'
+p477
+I2
+sS'affinity for pedf'
+p478
+I4
+sS'mm na-pyruv'
+p479
+I1
+sS'role'
+p480
+I3
+sS'precipit'
+p481
+I1
+sS'retinoblastoma'
+p482
+I12
+sS'hs'
+p483
+I16
+sS'extracellular matric'
+p484
+I3
+sS'affinity for cell-surface receptor'
+p485
+I1
+sS'affinity for th'
+p486
+I1
+sS'blue'
+p487
+I2
+sS'dermatan'
+p488
+I1
+sS'neurotrophic activity of'
+p489
+I1
+sS'linear range of hs-pedf'
+p490
+I1
+sS'buffer'
+p491
+I1
+sS'electrophoresi'
+p492
+I1
+sS'of hs-pedf'
+p493
+I2
+sS'intrinsic affinity of the cell surface receptor'
+p494
+I1
+sS'absorbance read'
+p495
+I1
+sS'detect'
+p496
+I1
+sS'retenate cup'
+p497
+I1
+sS'gag sulf'
+p498
+I2
+sS'for the pedf receptor'
+p499
+I1
+sS'molar-excess'
+p500
+I1
+sS'homolog'
+p501
+I2
+sS'bsa'
+p502
+I2
+sS'charg'
+p503
+I1
+sS'icn'
+p504
+I2
+sS'hyalurolyticu'
+p505
+I1
+sS'basal lamina'
+p506
+I1
+sS'neurotrophic activity of pedf'
+p507
+I1
+sS'for pedf gag'
+p508
+I1
+sS'cultures of heparin'
+p509
+I1
+sS'spatial express'
+p510
+I1
+sS'radioligand'
+p511
+I2
+sS'potenti'
+p512
+I1
+sS'heparin sulf'
+p513
+I1
+sS'toluidin'
+p514
+I5
+sS'brilliant blu'
+p515
+I2
+sS'sigma'
+p516
+I1
+stp517
+Rp518
+tp519
+.

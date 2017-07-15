@@ -1,0 +1,455 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'stenotic debri'
+p7
+I1
+sS'consider'
+p8
+I1
+sS'pta'
+p9
+I1
+sS't of the filt'
+p10
+I1
+sS'polyether block amid'
+p11
+I2
+sS'stenot'
+p12
+I1
+sS'polyethylene naphthalene dicarboxyl'
+p13
+I2
+sS'atherectomy cathet'
+p14
+I1
+sS'avenue suit'
+p15
+I1
+sS'integral extension of th'
+p16
+I1
+sS'the intravascular filt'
+p17
+I1
+sS'balloon cathet'
+p18
+I2
+sS'hoop'
+p19
+I54
+sS'junction'
+p20
+I2
+sS'arnitel trademark'
+p21
+I1
+sS'fluid'
+p22
+I1
+sS'vasculature interact'
+p23
+I1
+sS'pulmonary vasculatur'
+p24
+I1
+sS'of the filter membran'
+p25
+I13
+sS'of the intravascular filt'
+p26
+I3
+sS'polyethylene terephthal'
+p27
+I2
+sS'proximal portion of the filter membran'
+p28
+I2
+sS'd'
+p29
+I4
+sS'oxygen'
+p30
+I1
+sS'distal region of'
+p31
+I1
+sS't'
+p32
+I4
+sS'emboli'
+p33
+I4
+sS'prevent'
+p34
+I4
+sS'distal region of the filter membran'
+p35
+I1
+sS'mn'
+p36
+I1
+sS'fillet tap'
+p37
+I1
+sS'hytrel'
+p38
+I1
+sS'polyethylene naphthal'
+p39
+I1
+sS'muscl'
+p40
+I1
+sS'cross-sectional diameter d'
+p41
+I4
+sS'consequ'
+p42
+I1
+sS'naphthalene dicarboxyl'
+p43
+I2
+sS'naphthal'
+p44
+I1
+sS'mandrel'
+p45
+I5
+sS'debri'
+p46
+I4
+sS'ethylen'
+p47
+I1
+sS'fillet'
+p48
+I8
+sS't of th'
+p49
+I1
+sS'the filter membran'
+p50
+I7
+sS'nicollet'
+p51
+I1
+sS'diseas'
+p52
+I1
+sS'arnitel'
+p53
+I1
+sS'numer'
+p54
+I2
+sS'manipul'
+p55
+I1
+sS'stagnation prevent'
+p56
+I5
+sS'extens'
+p57
+I6
+sS'protection filt'
+p58
+I15
+sS'chlorid'
+p59
+I2
+sS'guidewir'
+p60
+I1
+sS't of the filter membran'
+p61
+I2
+sS'percutaneous transluminal angioplasti'
+p62
+I1
+sS'of'
+p63
+I1
+sS'filter'
+p64
+I53
+sS'vascular diseas'
+p65
+I1
+sS'w'
+p66
+I3
+sS'geometri'
+p67
+I1
+sS'nylon'
+p68
+I3
+sS'therethrough'
+p69
+I2
+sS'embolic protection filt'
+p70
+I15
+sS'nicollet avenue suit'
+p71
+I1
+sS'polyethylene naphthalen'
+p72
+I2
+sS'trademark'
+p73
+I1
+sS'transit'
+p74
+I1
+sS'polyethylen'
+p75
+I5
+sS'proximal region of th'
+p76
+I5
+sS'vessel'
+p77
+I2
+sS'membran'
+p78
+I47
+sS'nickel-titanium alloy'
+p79
+I1
+sS'aromatic polyamid'
+p80
+I1
+sS'distal region of th'
+p81
+I1
+sS'interact'
+p82
+I1
+sS'the filter fillet'
+p83
+I2
+sS'integral extens'
+p84
+I1
+sS'polyetheretherketon'
+p85
+I1
+sS'of the filter fillet'
+p86
+I4
+sS'lumen'
+p87
+I4
+sS'suit'
+p88
+I1
+sS'transluminal angioplasti'
+p89
+I1
+sS'adhes'
+p90
+I1
+sS'filter fillet'
+p91
+I8
+sS'nicollet avenu'
+p92
+I1
+sS'butylene terephthal'
+p93
+I1
+sS'proximal portion of th'
+p94
+I2
+sS'distal end of the filter fillet'
+p95
+I1
+sS'intravascular filt'
+p96
+I13
+sS'proximal portion of'
+p97
+I2
+sS'dicarboxyl'
+p98
+I2
+sS'proximal end of th'
+p99
+I3
+sS'endpoint'
+p100
+I1
+sS'cathet'
+p101
+I3
+sS'taper'
+p102
+I1
+sS'integral extension of'
+p103
+I1
+sS'vascular lumen'
+p104
+I1
+sS't of'
+p105
+I1
+sS'filter-vascular wall junct'
+p106
+I1
+sS'b h'
+p107
+I1
+sS'ethylene terephthal'
+p108
+I1
+sS'polyvinyl chlorid'
+p109
+I2
+sS'cross-sectional diameter of th'
+p110
+I2
+sS'loop'
+p111
+I4
+sS'polyisocyan'
+p112
+I1
+sS'heart'
+p113
+I1
+sS'ptca'
+p114
+I1
+sS'filter membran'
+p115
+I47
+sS'renati'
+p116
+I1
+sS'predict'
+p117
+I1
+sS'angioplasti'
+p118
+I1
+sS'heart muscl'
+p119
+I1
+sS'gradual transit'
+p120
+I1
+sS'vasculatur'
+p121
+I5
+sS'embolic protect'
+p122
+I15
+sS'of th'
+p123
+I1
+sS'renati richard j'
+p124
+I1
+sS'terephthal'
+p125
+I4
+sS'polyurethan'
+p126
+I2
+sS'distal end of'
+p127
+I1
+sS'stenotic les'
+p128
+I2
+sS'proximal region of the filter membran'
+p129
+I2
+sS'cross-sectional diameter of'
+p130
+I2
+sS'minneapolis mn'
+p131
+I1
+sS'lesion'
+p132
+I2
+sS'atherectomi'
+p133
+I1
+sS'intravascular'
+p134
+I1
+sS'embolic debri'
+p135
+I3
+sS'proximal end of the filter membran'
+p136
+I1
+sS'distal end of th'
+p137
+I1
+sS'aromatic polyisocyan'
+p138
+I1
+sS'proximal region of'
+p139
+I5
+sS'minneapoli'
+p140
+I1
+sS'concav'
+p141
+I1
+sS'vein'
+p142
+I2
+sS'ensnar'
+p143
+I1
+sS'polyamid'
+p144
+I1
+sS'amid'
+p145
+I4
+sS'proximal end of'
+p146
+I3
+sS'proximal region of the filt'
+p147
+I1
+sS'alloy'
+p148
+I1
+sS'proximal end of the filter fillet'
+p149
+I1
+sS'filter fillet tap'
+p150
+I1
+sS'balloon'
+p151
+I2
+sS'renati richard'
+p152
+I1
+stp153
+Rp154
+tp155
+.

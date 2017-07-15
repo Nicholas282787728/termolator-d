@@ -1,0 +1,1364 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'represent'
+p7
+I3
+sS'two-dimensional electron micrograph'
+p8
+I1
+sS'localization of mitochondrial creatine kinas'
+p9
+I1
+sS'chain'
+p10
+I4
+sS'cytosol'
+p11
+I2
+sS'mitochondria isol'
+p12
+I1
+sS'tomographic reconstruction of'
+p13
+I1
+sS'membrane integr'
+p14
+I2
+sS'signific'
+p15
+I1
+sS'dish'
+p16
+I1
+sS'aceton'
+p17
+I1
+sS'recent work'
+p18
+I1
+sS'gold'
+p19
+I1
+sS'\xce\xbcg of'
+p20
+I1
+sS'reconstructions of wt tbid'
+p21
+I1
+sS'activ'
+p22
+I2
+sS'mitochondrial membrane preserv'
+p23
+I1
+sS'abbreviations mib'
+p24
+I1
+sS'lipids includ'
+p25
+I1
+sS'discussion mitochondria'
+p26
+I1
+sS'electron micrograph'
+p27
+I2
+sS'demonstration of 3-d organellar protein label'
+p28
+I1
+sS'primary antibodi'
+p29
+I4
+sS'nucleu'
+p30
+I1
+sS'preparation of'
+p31
+I1
+sS'cdna'
+p32
+I1
+sS'isolation buff'
+p33
+I1
+sS'mitochondria undergoing apoptosi'
+p34
+I1
+sS'permeabilization of artificial liposom'
+p35
+I1
+sS'scintillation vials for resin'
+p36
+I1
+sS'durcupan acm'
+p37
+I1
+sS'the matrix'
+p38
+I1
+sS'myc-tagged for'
+p39
+I1
+sS'mutating tbid'
+p40
+I1
+sS'pellet'
+p41
+I3
+sS'induct'
+p42
+I1
+sS'lipid cardiolipin'
+p43
+I1
+sS'aluminum'
+p44
+I1
+sS'myc-tagged for immunogold electron microscopi'
+p45
+I1
+sS'harbor'
+p46
+I1
+sS'immunogold-labeled tbid'
+p47
+I2
+sS'destabil'
+p48
+I1
+sS'gel electrophoresis tbid'
+p49
+I1
+sS'statist'
+p50
+I6
+sS'reconstructions tomographic reconstruct'
+p51
+I1
+sS'quantitative demonstration of 3-d organellar protein'
+p52
+I1
+sS'electron microscopy mouse liver mitochondria'
+p53
+I1
+sS'microscopi'
+p54
+I8
+sS'pro-apoptotic protein tbid'
+p55
+I1
+sS'3-d distribution of'
+p56
+I1
+sS'speci'
+p57
+I2
+sS'of exogenous cytochrom'
+p58
+I2
+sS'two-dimensional immunogold electron microscopi'
+p59
+I1
+sS'unique lipid environ'
+p60
+I1
+sS'gold particl'
+p61
+I2
+sS'of mitochondrial creatine kinas'
+p62
+I1
+sS'acid'
+p63
+I2
+sS'particl'
+p64
+I5
+sS'kinas'
+p65
+I1
+sS'3-d distribution of contact sit'
+p66
+I1
+sS'homeostasi'
+p67
+I1
+sS'albumin'
+p68
+I1
+sS'durcupan'
+p69
+I1
+sS'membrane destabil'
+p70
+I1
+sS'label'
+p71
+I5
+sS'translocation machineri'
+p72
+I1
+sS'death-inducing protein'
+p73
+I2
+sS'abbrevi'
+p74
+I1
+sS'microscopy mouse liver mitochondria'
+p75
+I1
+sS'unique distribut'
+p76
+I1
+sS'3-d organellar protein label'
+p77
+I1
+sS'localization of mitochondrial creatin'
+p78
+I1
+sS'preparation of mitochondria for immunogold'
+p79
+I1
+sS'topolog'
+p80
+I2
+sS'perimet'
+p81
+I1
+sS'immunogold electron microscopy mouse liver mitochondria'
+p82
+I1
+sS'software packag'
+p83
+I1
+sS'liposom'
+p84
+I1
+sS'wt'
+p85
+I8
+sS'spatial point pattern statist'
+p86
+I1
+sS'purification schem'
+p87
+I1
+sS'ethanol'
+p88
+I1
+sS'mutant tbid label'
+p89
+I1
+sS'kev'
+p90
+I1
+sS'goat serum'
+p91
+I1
+sS'for immunogold electron microscopy mouse liver mitochondria'
+p92
+I1
+sS'interpret'
+p93
+I2
+sS'dodecylsulfate-polyacrylamide gel electrophoresis tbid'
+p94
+I1
+sS'glycine residu'
+p95
+I1
+sS'cowork'
+p96
+I1
+sS'mitochondrial domain'
+p97
+I1
+sS'tomographic reconstructions tomographic reconstruct'
+p98
+I1
+sS'lipid'
+p99
+I1
+sS'tomographic reconstructions of'
+p100
+I1
+sS'mitochondrial isolation buff'
+p101
+I1
+sS'truncated bid'
+p102
+I2
+sS'tomographic reconstructions of wt tbid'
+p103
+I1
+sS'monoclonal anti-myc antibodi'
+p104
+I1
+sS'import machineri'
+p105
+I1
+sS'organellar protein label'
+p106
+I1
+sS'herniation of the matrix'
+p107
+I1
+sS'streak'
+p108
+I1
+sS'experimental mean value for nearest'
+p109
+I1
+sS'conventional two-dimensional immunogold electron microscopi'
+p110
+I1
+sS'mutual inhibit'
+p111
+I1
+sS'mitochondri'
+p112
+I3
+sS'oxygen speci'
+p113
+I2
+sS'of wt tbid'
+p114
+I1
+sS'smac'
+p115
+I1
+sS'cumulative damag'
+p116
+I1
+sS'permeabil'
+p117
+I1
+sS'graphic represent'
+p118
+I2
+sS'famili'
+p119
+I2
+sS'antibody conjug'
+p120
+I1
+sS'mitochondrial creatine kinas'
+p121
+I1
+sS'induction of'
+p122
+I1
+sS'damag'
+p123
+I2
+sS'isolation buffer sd'
+p124
+I1
+sS'artificial liposom'
+p125
+I1
+sS'dna'
+p126
+I1
+sS'describ'
+p127
+I2
+sS'numerous mitochondrial protein'
+p128
+I1
+sS'c releas'
+p129
+I1
+sS'buffer sd'
+p130
+I1
+sS'immunoelectron microscopi'
+p131
+I1
+sS'of contact sit'
+p132
+I3
+sS'\xce\xbcg of mitochondrial protein'
+p133
+I1
+sS'electron tomographi'
+p134
+I1
+sS'mouse liver mitochondria'
+p135
+I1
+sS'of the crista'
+p136
+I1
+sS'-catgctgtcctcgacctgggc-3'
+p137
+I1
+sS'quantitative three-dimensional examin'
+p138
+I1
+sS'the crista'
+p139
+I1
+sS'time-expensive tomographi'
+p140
+I1
+sS'of mitochondrial protein'
+p141
+I1
+sS'quantitative demonstr'
+p142
+I1
+sS'peroxisom'
+p143
+I1
+sS'cardiolipin rich contact site membran'
+p144
+I1
+sS'secondary antibody conjug'
+p145
+I1
+sS'oxidative phosphoryl'
+p146
+I1
+sS'mitochondrial membrane integr'
+p147
+I1
+sS'protein transloc'
+p148
+I1
+sS'3-d loci'
+p149
+I1
+sS'visual'
+p150
+I1
+sS'visualization of contact sit'
+p151
+I1
+sS'immunogold labeling qu'
+p152
+I1
+sS'the tbid-immunogold complex'
+p153
+I1
+sS'mitochondrial volume sl'
+p154
+I1
+sS'conventional electron microscopi'
+p155
+I1
+sS'inhibit'
+p156
+I1
+sS'graphic'
+p157
+I1
+sS'herniation of th'
+p158
+I1
+sS'tbid label'
+p159
+I2
+sS'packag'
+p160
+I1
+sS'local'
+p161
+I8
+sS'prepar'
+p162
+I1
+sS'work'
+p163
+I1
+sS'pro-death protein'
+p164
+I2
+sS'anti-myc'
+p165
+I1
+sS'amersham'
+p166
+I1
+sS'euclidean'
+p167
+I1
+sS'of apoptosi'
+p168
+I1
+sS'cytochrom'
+p169
+I2
+sS'cardiolipin rich contact sit'
+p170
+I1
+sS'accuracy of th'
+p171
+I1
+sS'preparation of mitochondria for'
+p172
+I1
+sS'for nearest contact sit'
+p173
+I3
+sS'accurate represent'
+p174
+I1
+sS'wt tbid label'
+p175
+I1
+sS'loci'
+p176
+I1
+sS'xvoxtrace softwar'
+p177
+I1
+sS'for resin'
+p178
+I1
+sS'page-sodium dodecylsulfate-polyacrylamid'
+p179
+I1
+sS'tag'
+p180
+I2
+sS'conventional immuno-electron microscopi'
+p181
+I1
+sS'protein'
+p182
+I13
+sS'cytochrome c releas'
+p183
+I1
+sS'distension of'
+p184
+I1
+sS'serum'
+p185
+I1
+sS'undergoing apoptosi'
+p186
+I1
+sS'quantitative three-dimensional examination of'
+p187
+I1
+sS'cacodylate buff'
+p188
+I3
+sS'preparation of mitochondria'
+p189
+I1
+sS'artifactual streak'
+p190
+I1
+sS'of immunogold-labeled tbid'
+p191
+I2
+sS'tilt'
+p192
+I2
+sS'transloc'
+p193
+I1
+sS'herniat'
+p194
+I1
+sS'immunogold label'
+p195
+I2
+sS'fragment'
+p196
+I1
+sS'complex'
+p197
+I1
+sS'three-myc tag'
+p198
+I2
+sS'mitochondrial protein'
+p199
+I2
+sS'ft'
+p200
+I1
+sS'glutaraldehyd'
+p201
+I1
+sS'3-d distribut'
+p202
+I1
+sS'mitochondrial contact sit'
+p203
+I3
+sS'protein label'
+p204
+I1
+sS'organel'
+p205
+I3
+sS'gelatin'
+p206
+I1
+sS'cytochrome c'
+p207
+I1
+sS'normal goat serum'
+p208
+I1
+sS'3-d placement'
+p209
+I1
+sS'mutat'
+p210
+I3
+sS'associ'
+p211
+I3
+sS'anion channel'
+p212
+I1
+sS'quantitative demonstration of 3-d organellar protein label'
+p213
+I1
+sS'machineri'
+p214
+I2
+sS'calcium buff'
+p215
+I1
+sS'environ'
+p216
+I1
+sS'paraformaldehyd'
+p217
+I1
+sS'ion exchang'
+p218
+I1
+sS'tomographic reconstruct'
+p219
+I6
+sS'anti-mouse secondary antibody conjug'
+p220
+I1
+sS'sd'
+p221
+I1
+sS'tbid harbor'
+p222
+I1
+sS'crista'
+p223
+I2
+sS'mitochondria display'
+p224
+I1
+sS'infiltr'
+p225
+I1
+sS'page-sodium'
+p226
+I1
+sS'secondary antibodi'
+p227
+I2
+sS'anti-mouse secondary antibodi'
+p228
+I1
+sS'thin-section microscopi'
+p229
+I1
+sS'experimental mean value for'
+p230
+I1
+sS'microscop'
+p231
+I3
+sS'reconstruct'
+p232
+I6
+sS'mitochondrial isolation buffer sd'
+p233
+I1
+sS'concentr'
+p234
+I2
+sS'suprim softwar'
+p235
+I1
+sS'preservation of contact sit'
+p236
+I1
+sS'adp'
+p237
+I1
+sS'electrophoresis tbid'
+p238
+I1
+sS'scintillation vials for'
+p239
+I1
+sS'herniation of'
+p240
+I1
+sS'dysfunct'
+p241
+I1
+sS'golgi'
+p242
+I1
+sS'electron microscopi'
+p243
+I3
+sS'final incub'
+p244
+I1
+sS'immunogold electron microscopi'
+p245
+I2
+sS'accuracy of'
+p246
+I1
+sS'biological applications of'
+p247
+I1
+sS'bovine serum albumin'
+p248
+I1
+sS'quantitative demonstration of'
+p249
+I1
+sS'bim'
+p250
+I1
+sS'nucleotide transport'
+p251
+I1
+sS'loss'
+p252
+I1
+sS'immunogold particl'
+p253
+I2
+sS'permeabilization of'
+p254
+I1
+sS'bid'
+p255
+I5
+sS'molecul'
+p256
+I2
+sS'site membran'
+p257
+I2
+sS'protein import'
+p258
+I1
+sS'transport chain'
+p259
+I3
+sS'wild-type tbid'
+p260
+I1
+sS'of the tbid-immunogold complex'
+p261
+I2
+sS'discuss'
+p262
+I1
+sS'interrelationship'
+p263
+I2
+sS'localization of mitochondri'
+p264
+I1
+sS'residu'
+p265
+I1
+sS'organ'
+p266
+I1
+sS'immunogold electron tomographi'
+p267
+I1
+sS'mitochondria for immunogold electron microscopy mouse liver mitochondria'
+p268
+I1
+sS'3-d tool'
+p269
+I1
+sS'mitochondrial damag'
+p270
+I1
+sS'pro-apoptotic protein'
+p271
+I2
+sS'truncat'
+p272
+I2
+sS'em'
+p273
+I1
+sS'domain'
+p274
+I1
+sS'protein translocation machineri'
+p275
+I1
+sS'fish'
+p276
+I1
+sS'resuspend'
+p277
+I2
+sS'apoptotic cell destruct'
+p278
+I1
+sS'page-sodium dodecylsulfate-polyacrylamide gel electrophoresis tbid'
+p279
+I1
+sS'creatine kinas'
+p280
+I1
+sS'resin'
+p281
+I6
+sS'coloc'
+p282
+I2
+sS'mitochondria-like membran'
+p283
+I1
+sS'transport'
+p284
+I1
+sS'ice-cold'
+p285
+I1
+sS'myc-tagged tbid'
+p286
+I1
+sS'electron transport chain'
+p287
+I3
+sS'slice'
+p288
+I2
+sS'of 3-d organellar protein label'
+p289
+I1
+sS'matrix'
+p290
+I2
+sS'tbid associ'
+p291
+I2
+sS'vials for resin'
+p292
+I1
+sS'phosphoryl'
+p293
+I1
+sS'-gcccaggtcgaggacagcatg-3'
+p294
+I1
+sS'tomographic reconstructions of wt'
+p295
+I1
+sS'synu'
+p296
+I1
+sS'resin-infiltrated pellet'
+p297
+I1
+sS'osmium'
+p298
+I1
+sS'3-d distances of'
+p299
+I1
+sS'electron transfer chain'
+p300
+I1
+sS'contaminant organel'
+p301
+I1
+sS'investig'
+p302
+I2
+sS'mitochondrial pellet'
+p303
+I2
+sS'immunogold electron'
+p304
+I1
+sS'adenine nucleotide transport'
+p305
+I1
+sS'tbid-immunogold complex'
+p306
+I1
+sS'nuclear dna fragment'
+p307
+I1
+sS'bcl-2 famili'
+p308
+I2
+sS'conjug'
+p309
+I1
+sS'releas'
+p310
+I1
+sS'mitochondrial homeostasi'
+p311
+I1
+sS'preparation of mitochondria for immunogold electron microscopy mouse liver mitochondria'
+p312
+I1
+sS'\xce\xbcg'
+p313
+I1
+sS'of'
+p314
+I1
+sS'labeling qu'
+p315
+I1
+sS'antibodi'
+p316
+I8
+sS'localization of'
+p317
+I1
+sS'acm'
+p318
+I1
+sS'preparation of mitochondria for immunogold electron'
+p319
+I1
+sS'integr'
+p320
+I2
+sS'induction of apoptosi'
+p321
+I1
+sS'three-myc bid'
+p322
+I1
+sS'neighbor'
+p323
+I4
+sS'immuno-electron microscopi'
+p324
+I1
+sS't-test'
+p325
+I1
+sS'exogenous cytochrom'
+p326
+I1
+sS'softwar'
+p327
+I1
+sS'exchang'
+p328
+I2
+sS'qualiti'
+p329
+I1
+sS'vitro'
+p330
+I1
+sS'reactive oxygen'
+p331
+I2
+sS'pro-death bcl-2 protein'
+p332
+I1
+sS'maximal size of'
+p333
+I1
+sS'preparation of mitochondria for immunogold electron microscopy mous'
+p334
+I1
+sS'3-d distances of immunogold-labeled tbid'
+p335
+I1
+sS'mitochondrial peripheri'
+p336
+I1
+sS'tbid'
+p337
+I22
+sS'including cardiolipin'
+p338
+I1
+sS'membran'
+p339
+I4
+sS'cardiolipin'
+p340
+I8
+sS'osmium tetroxid'
+p341
+I1
+sS'membrane preserv'
+p342
+I1
+sS'immunoelectron tomographi'
+p343
+I3
+sS'nearest contact sit'
+p344
+I1
+sS'of mitochondria for immunogold electron microscopy mouse liver mitochondria'
+p345
+I1
+sS'endoplasmic reticulum'
+p346
+I1
+sS'mitochondria isolation buff'
+p347
+I1
+sS'accurate loc'
+p348
+I1
+sS'scintillation vi'
+p349
+I1
+sS'preparation of mitochondria for immunogold electron microscopy mouse liv'
+p350
+I1
+sS'cytochrome c loss'
+p351
+I1
+sS'compartment'
+p352
+I1
+sS'suprim software packag'
+p353
+I1
+sS'nuclear dna'
+p354
+I1
+sS'visualization of'
+p355
+I1
+sS'anti-myc antibodi'
+p356
+I1
+sS'incub'
+p357
+I1
+sS'hr'
+p358
+I4
+sS'tool'
+p359
+I1
+sS'electron microscop'
+p360
+I1
+sS'distension of the crista'
+p361
+I1
+sS'pro-death bcl-2'
+p362
+I1
+sS'conventional immunoelectron microscopi'
+p363
+I1
+sS'neighbor statist'
+p364
+I3
+sS'apoptosi'
+p365
+I3
+sS'peripheral membran'
+p366
+I1
+sS'lipid environ'
+p367
+I1
+sS'distension of th'
+p368
+I1
+sS'scheme'
+p369
+I1
+sS'liver mitochondria'
+p370
+I2
+sS'preserv'
+p371
+I4
+sS'kd'
+p372
+I2
+sS'mutant transloc'
+p373
+I1
+sS'cardiolipin-rich'
+p374
+I1
+sS'for immunogold electron microscopi'
+p375
+I1
+sS'experimental mean value for nearest contact sit'
+p376
+I1
+sS'lipid membran'
+p377
+I1
+sS'absenc'
+p378
+I1
+sS'electron transport'
+p379
+I3
+sS'site'
+p380
+I80
+sS'myc-tag'
+p381
+I2
+sS'display'
+p382
+I1
+sS'endonuclease g'
+p383
+I1
+sS'page-sodium dodecylsulfate-polyacrylamide gel electrophoresi'
+p384
+I1
+sS'submitochondrial loc'
+p385
+I3
+sS'lipids including cardiolipin'
+p386
+I1
+sS'three-myc'
+p387
+I1
+sS'tomographi'
+p388
+I5
+sS'distens'
+p389
+I1
+sS'of artificial liposom'
+p390
+I1
+sS'caspases activ'
+p391
+I1
+sS'n-terminu'
+p392
+I1
+sS'wt tbid'
+p393
+I6
+sS'caspase activ'
+p394
+I1
+sS'cell destruct'
+p395
+I1
+sS'mitochondrion'
+p396
+I1
+sS'atp exchang'
+p397
+I1
+sS'apoptotic cel'
+p398
+I1
+sS'electron transf'
+p399
+I1
+sS'eqkliseedl'
+p400
+I2
+sS'transfer chain'
+p401
+I1
+sS'compartmentalization of'
+p402
+I1
+sS'probabl'
+p403
+I1
+sS'nm'
+p404
+I11
+sS'mutation changing glycin'
+p405
+I2
+sS'min'
+p406
+I8
+sS'of the matrix'
+p407
+I1
+sS'maximal size of the tbid-immunogold complex'
+p408
+I1
+sS'mib'
+p409
+I5
+sS'hybrid'
+p410
+I1
+sS'accuraci'
+p411
+I1
+sS'immunogold microscopi'
+p412
+I1
+sS'bcl-x'
+p413
+I1
+sS'c loss'
+p414
+I1
+sS'role'
+p415
+I1
+sS'tbid loc'
+p416
+I1
+sS'protein import machineri'
+p417
+I1
+sS'rich contact site membran'
+p418
+I1
+sS'preferential associ'
+p419
+I1
+sS'3-d'
+p420
+I1
+sS'distribution of contact sit'
+p421
+I1
+sS'preparation of mitochondria for immunogold electron microscopi'
+p422
+I1
+sS'suprim'
+p423
+I1
+sS'distribut'
+p424
+I4
+sS'conventional microscopi'
+p425
+I1
+sS'buffer'
+p426
+I11
+sS'glycin'
+p427
+I3
+sS'aluminum dish'
+p428
+I1
+sS'reactive oxygen speci'
+p429
+I2
+sS'maximal size of th'
+p430
+I1
+sS'reticulum'
+p431
+I1
+sS'mitochondrial isol'
+p432
+I1
+sS'probable rol'
+p433
+I1
+sS'page-sodium dodecylsulfate-polyacrylamide gel'
+p434
+I1
+sS'dna fragment'
+p435
+I1
+sS'bh3'
+p436
+I1
+sS'segment'
+p437
+I3
+sS'micrograph'
+p438
+I2
+sS'peripheri'
+p439
+I1
+sS'immunoglobulin molecul'
+p440
+I1
+sS'bcl-2 protein'
+p441
+I1
+sS'mitochondria-specific lipid cardiolipin'
+p442
+I1
+sS'placement'
+p443
+I1
+sS'protein tbid'
+p444
+I1
+sS'bcl-x l'
+p445
+I1
+sS'room'
+p446
+I2
+sS'membrane topolog'
+p447
+I2
+sS'mitochondria'
+p448
+I13
+sS'jeol'
+p449
+I2
+sS'destruct'
+p450
+I1
+sS'fish gelatin'
+p451
+I2
+sS'tetroxid'
+p452
+I1
+sS'serum albumin'
+p453
+I1
+sS'bcl-2'
+p454
+I1
+sS'preservation of'
+p455
+I1
+stp456
+Rp457
+tp458
+.

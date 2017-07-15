@@ -1,0 +1,362 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'capacit'
+p7
+I8
+sS'optical transmittance of'
+p8
+I1
+sS'color'
+p9
+I13
+sS'drain electrode of the tft'
+p10
+I1
+sS'drain electrode of'
+p11
+I1
+sS'non-uniform screen'
+p12
+I1
+sS'spacer'
+p13
+I1
+sS'thin film'
+p14
+I3
+sS'thin film transistor'
+p15
+I3
+sS'conductive channel'
+p16
+I2
+sS'the tft overlap'
+p17
+I1
+sS'of the drain electrod'
+p18
+I2
+sS'liquid crystal display panel'
+p19
+I8
+sS'fabric'
+p20
+I5
+sS'insulation film'
+p21
+I3
+sS'crystal display panel'
+p22
+I8
+sS'of the pixel'
+p23
+I1
+sS'clc'
+p24
+I2
+sS'crystal display'
+p25
+I5
+sS'counter electrod'
+p26
+I1
+sS'washington dc'
+p27
+I1
+sS'tft overlap'
+p28
+I1
+sS'pixel'
+p29
+I17
+sS'optical transmittance of th'
+p30
+I1
+sS'compensation pattern overlap'
+p31
+I6
+sS'film transistor'
+p32
+I31
+sS'washington'
+p33
+I1
+sS'color filt'
+p34
+I13
+sS'transistor'
+p35
+I31
+sS'residual screen'
+p36
+I1
+sS'dc'
+p37
+I6
+sS'lcd'
+p38
+I18
+sS'drain'
+p39
+I43
+sS'pixel electrod'
+p40
+I7
+sS'optical transmittance of the pixel'
+p41
+I1
+sS'electrod'
+p42
+I123
+sS'tft'
+p43
+I24
+sS'of the tft overlap'
+p44
+I1
+sS'counter electrode of th'
+p45
+I1
+sS'pixel voltag'
+p46
+I1
+sS'kickback'
+p47
+I2
+sS'bright'
+p48
+I1
+sS'crystal'
+p49
+I5
+sS'matrix of'
+p50
+I1
+sS'channel'
+p51
+I3
+sS'of'
+p52
+I1
+sS'b h'
+p53
+I1
+sS'parasitic capacitance cgd'
+p54
+I1
+sS'display'
+p55
+I6
+sS'kickback voltag'
+p56
+I46
+sS'color filter array'
+p57
+I1
+sS'liquid crystal capacitor'
+p58
+I1
+sS'electrode overlap'
+p59
+I2
+sS'voltage decreas'
+p60
+I1
+sS'vg'
+p61
+I4
+sS'u-shaped channel'
+p62
+I1
+sS'crystal capacitor'
+p63
+I1
+sS'compens'
+p64
+I49
+sS'the pixel electrod'
+p65
+I1
+sS'vp'
+p66
+I4
+sS'decreas'
+p67
+I1
+sS'seal'
+p68
+I2
+sS'disadvantag'
+p69
+I1
+sS'plan'
+p70
+I4
+sS'the drain electrod'
+p71
+I1
+sS'electrode of the pixel electrod'
+p72
+I1
+sS'film'
+p73
+I39
+sS'capacitance cgd'
+p74
+I1
+sS'drain electrod'
+p75
+I42
+sS'the pixel'
+p76
+I1
+sS'matrix'
+p77
+I4
+sS'dc voltag'
+p78
+I1
+sS'of th'
+p79
+I1
+sS'liquid crystal display'
+p80
+I21
+sS'of the drain'
+p81
+I1
+sS'overlap'
+p82
+I14
+sS'retardation film'
+p83
+I1
+sS'drain electrode of th'
+p84
+I1
+sS'counter electrode of the pixel electrod'
+p85
+I1
+sS'cst'
+p86
+I2
+sS'matrix of pixel'
+p87
+I1
+sS'voltag'
+p88
+I53
+sS'contrast'
+p89
+I1
+sS'polar'
+p90
+I1
+sS'korea'
+p91
+I1
+sS'seoul'
+p92
+I2
+sS'polarization film'
+p93
+I1
+sS'cgd'
+p94
+I6
+sS'alignment film'
+p95
+I2
+sS'parasitic capacit'
+p96
+I8
+sS'optical transmitt'
+p97
+I1
+sS'of pixel'
+p98
+I1
+sS'shift voltag'
+p99
+I2
+sS'non-uniform screen bright'
+p100
+I1
+sS'liquid cryst'
+p101
+I28
+sS'insul'
+p102
+I3
+sS'seoul kr'
+p103
+I2
+sS'panel'
+p104
+I8
+sS'tft array'
+p105
+I2
+sS'negative polar'
+p106
+I1
+sS'proceed'
+p107
+I1
+sS'liquid'
+p108
+I1
+sS'counter electrode of'
+p109
+I1
+sS'shift'
+p110
+I1
+sS'lumin'
+p111
+I1
+sS'drain electrode of the tft overlap'
+p112
+I1
+sS'simul'
+p113
+I6
+sS'filter'
+p114
+I2
+sS'kr'
+p115
+I2
+sS'screen bright'
+p116
+I1
+sS'of the pixel electrod'
+p117
+I1
+sS'electrode of the tft overlap'
+p118
+I1
+sS'transmittance of the pixel'
+p119
+I1
+sS'display panel'
+p120
+I8
+sS'capacitor'
+p121
+I3
+stp122
+Rp123
+tp124
+.

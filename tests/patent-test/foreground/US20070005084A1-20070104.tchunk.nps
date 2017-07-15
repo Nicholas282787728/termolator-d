@@ -1,0 +1,1460 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'consum'
+p7
+I3
+sS'piece intravascular catheter balloon'
+p8
+I1
+sS'prairie mn'
+p9
+I1
+sS'perfor'
+p10
+I2
+sS'artery diseas'
+p11
+I2
+sS'lumen of the cut'
+p12
+I3
+sS'nitroglycerin'
+p13
+I1
+sS'of distal ends of'
+p14
+I1
+sS'planetary gear'
+p15
+I5
+sS'groin incis'
+p16
+I1
+sS'vein tensioning c'
+p17
+I2
+sS'distal end of the cut'
+p18
+I1
+sS'vessel cannula'
+p19
+I1
+sS'clamping wheel'
+p20
+I1
+sS'profil'
+p21
+I4
+sS'clague cynthia t'
+p22
+I1
+sS'piece intravascular'
+p23
+I1
+sS'proxim'
+p24
+I7
+sS'activ'
+p25
+I2
+sS'of lig'
+p26
+I2
+sS'prostaglandin'
+p27
+I1
+sS'plymouth mn'
+p28
+I1
+sS'balloon cathet'
+p29
+I28
+sS'manipulation of the vein'
+p30
+I1
+sS'tape'
+p31
+I1
+sS'vasoconstrictive drug'
+p32
+I1
+sS'spring tensioning adjust'
+p33
+I1
+sS'cabg surgeri'
+p34
+I2
+sS'unexpanded balloon'
+p35
+I1
+sS'hemostatic control tub'
+p36
+I1
+sS'injection of'
+p37
+I1
+sS'channel travers'
+p38
+I1
+sS'epoprostenol sodium'
+p39
+I1
+sS'arteri'
+p40
+I2
+sS'intravascular guid'
+p41
+I4
+sS'fluid'
+p42
+I16
+sS'caviti'
+p43
+I2
+sS'tensioning adjust'
+p44
+I1
+sS'vessel side branch'
+p45
+I2
+sS'secondary cut'
+p46
+I2
+sS'extensive incision sit'
+p47
+I1
+sS'audible ind'
+p48
+I1
+sS'scissor-lik'
+p49
+I2
+sS'bileaflet'
+p50
+I1
+sS'methoxamine hydrochlorid'
+p51
+I1
+sS'of a distal end of'
+p52
+I3
+sS'vein stabil'
+p53
+I1
+sS'vein tens'
+p54
+I1
+sS'complic'
+p55
+I1
+sS'consuming process of lig'
+p56
+I2
+sS'incision sit'
+p57
+I1
+sS'magnet'
+p58
+I1
+sS'adjust'
+p59
+I1
+sS'cholesterol'
+p60
+I1
+sS'gaug'
+p61
+I2
+sS'eden prairi'
+p62
+I1
+sS'brooklyn park'
+p63
+I4
+sS'andov'
+p64
+I1
+sS'blade'
+p65
+I2
+sS'forest lake mn'
+p66
+I1
+sS'natur'
+p67
+I1
+sS'distal tip'
+p68
+I1
+sS'cannulated balloon'
+p69
+I1
+sS'surgical tool'
+p70
+I1
+sS'diseas'
+p71
+I4
+sS'seal'
+p72
+I1
+sS'urethan'
+p73
+I1
+sS'disadvantag'
+p74
+I1
+sS'electrosurgical tool'
+p75
+I1
+sS'audible indication of the relative locations of th'
+p76
+I1
+sS'subject'
+p77
+I1
+sS'wire'
+p78
+I7
+sS'flex straw'
+p79
+I1
+sS'lead screw'
+p80
+I1
+sS'setscrew'
+p81
+I1
+sS'plymouth'
+p82
+I1
+sS'internal pressure of the fluid fil'
+p83
+I1
+sS'vessel tens'
+p84
+I4
+sS'flexible tip'
+p85
+I2
+sS'distal end of the cannula'
+p86
+I1
+sS'endothelial damag'
+p87
+I1
+sS'anticoagul'
+p88
+I2
+sS'postoperative pain'
+p89
+I1
+sS'stable tub'
+p90
+I1
+sS'pebax'
+p91
+I1
+sS'distal portion of'
+p92
+I2
+sS'of a catheter guid'
+p93
+I2
+sS'leg'
+p94
+I1
+sS'numer'
+p95
+I2
+sS'proximal end of tensioning c'
+p96
+I1
+sS'altering gear'
+p97
+I1
+sS'unrol'
+p98
+I1
+sS'intravenous catheter device emit'
+p99
+I1
+sS'guidewir'
+p100
+I21
+sS'distal ends of'
+p101
+I1
+sS'carbon'
+p102
+I2
+sS'catheter guid'
+p103
+I2
+sS'valv'
+p104
+I3
+sS'proximal end of the cathet'
+p105
+I1
+sS'parylen'
+p106
+I2
+sS'original profil'
+p107
+I2
+sS'biocompatible fluid'
+p108
+I1
+sS'of a rollout intravascular sheath'
+p109
+I2
+sS'convers'
+p110
+I1
+sS'agonist'
+p111
+I1
+sS'taper'
+p112
+I1
+sS'dilat'
+p113
+I30
+sS'biocompatible material includ'
+p114
+I1
+sS'fiber opt'
+p115
+I1
+sS'drug'
+p116
+I2
+sS'biocompat'
+p117
+I3
+sS'hemostatic s'
+p118
+I1
+sS'insertion tool'
+p119
+I1
+sS'clagu'
+p120
+I1
+sS'cut branch'
+p121
+I5
+sS'nylon'
+p122
+I2
+sS'quotient'
+p123
+I1
+sS'dioxid'
+p124
+I2
+sS'milrinone lact'
+p125
+I1
+sS'intravascular balloon cathet'
+p126
+I2
+sS'straw'
+p127
+I1
+sS'thrombotic polym'
+p128
+I1
+sS'heparanized salin'
+p129
+I1
+sS'polyethylen'
+p130
+I2
+sS'vein stabilizer tub'
+p131
+I1
+sS'of the cathet'
+p132
+I3
+sS'nitrat'
+p133
+I1
+sS'lubrici'
+p134
+I1
+sS'of fluid'
+p135
+I1
+sS'manipulation of'
+p136
+I1
+sS'damag'
+p137
+I1
+sS'eden prairie mn'
+p138
+I1
+sS'acryl'
+p139
+I1
+sS'coupl'
+p140
+I1
+sS'protective membran'
+p141
+I1
+sS'consuming process of'
+p142
+I1
+sS'alpha-receptor agonist'
+p143
+I1
+sS'bleed'
+p144
+I2
+sS'carbon dioxid'
+p145
+I2
+sS'vessel stabil'
+p146
+I1
+sS'of distal ends of a cut'
+p147
+I1
+sS'leg vein'
+p148
+I1
+sS'stabilizer tub'
+p149
+I1
+sS'proximal end of cathet'
+p150
+I2
+sS'heparin'
+p151
+I1
+sS'c-flex'
+p152
+I1
+sS'infect'
+p153
+I1
+sS'nitroprussid'
+p154
+I1
+sS'visual'
+p155
+I2
+sS'hall-effect sensor'
+p156
+I1
+sS'duckbill valv'
+p157
+I1
+sS'proximal portion of'
+p158
+I5
+sS'harvest'
+p159
+I5
+sS'rockford'
+p160
+I1
+sS'vessel stabilization channel'
+p161
+I1
+sS'rollable sheath'
+p162
+I3
+sS'rollout intravascular sheath'
+p163
+I3
+sS'resilient-materi'
+p164
+I1
+sS'eden'
+p165
+I1
+sS'in-turn'
+p166
+I1
+sS'mn'
+p167
+I15
+sS'external compress'
+p168
+I1
+sS'ratchet'
+p169
+I1
+sS'vasodilative drug'
+p170
+I1
+sS'freedom'
+p171
+I1
+sS'b h'
+p172
+I1
+sS'external cutt'
+p173
+I1
+sS'fenoldopam mesyl'
+p174
+I1
+sS'heart'
+p175
+I2
+sS'torque quoti'
+p176
+I1
+sS'hydrogel co'
+p177
+I2
+sS'proximal end of th'
+p178
+I16
+sS'oval magnet'
+p179
+I1
+sS'guide wir'
+p180
+I7
+sS'site'
+p181
+I1
+sS'tubular cut'
+p182
+I23
+sS'biological seal'
+p183
+I9
+sS'stroke'
+p184
+I2
+sS'northland'
+p185
+I1
+sS'bolus inject'
+p186
+I1
+sS'eptf'
+p187
+I1
+sS'lake mn'
+p188
+I1
+sS'silicon'
+p189
+I3
+sS'audible indication of'
+p190
+I1
+sS'distal ends of a cut'
+p191
+I1
+sS'tubular member lumen'
+p192
+I1
+sS'northland drive brooklyn park'
+p193
+I1
+sS'travel'
+p194
+I1
+sS'occlud'
+p195
+I1
+sS'polyurethan'
+p196
+I3
+sS'ligat'
+p197
+I1
+sS'coronary arteri'
+p198
+I2
+sS'vascular st'
+p199
+I1
+sS'forest'
+p200
+I1
+sS'individual protrus'
+p201
+I2
+sS'enalaprilat'
+p202
+I1
+sS'intravenous cathet'
+p203
+I2
+sS'wheel'
+p204
+I1
+sS'tension'
+p205
+I2
+sS'ball'
+p206
+I1
+sS'deflation of th'
+p207
+I1
+sS'optic'
+p208
+I1
+sS'sympathomimet'
+p209
+I1
+sS'intravascular'
+p210
+I1
+sS'fishing pol'
+p211
+I1
+sS'substanc'
+p212
+I2
+sS'inflat'
+p213
+I1
+sS'northland drive brooklyn park mn'
+p214
+I1
+sS'plane'
+p215
+I2
+sS'blood'
+p216
+I1
+sS'torsionally stable tub'
+p217
+I1
+sS'vertical plan'
+p218
+I1
+sS'proximal end of the vessel'
+p219
+I14
+sS'collar'
+p220
+I1
+sS'distal end flex'
+p221
+I1
+sS'vessel interior'
+p222
+I1
+sS'stabil'
+p223
+I1
+sS'travers'
+p224
+I1
+sS'isosorbide dinitr'
+p225
+I1
+sS'neck'
+p226
+I1
+sS'liquid'
+p227
+I1
+sS'rollout sheath'
+p228
+I4
+sS'coat'
+p229
+I6
+sS'intravascular sheath'
+p230
+I3
+sS'protrus'
+p231
+I2
+sS'correspond'
+p232
+I24
+sS'expens'
+p233
+I1
+sS'polym'
+p234
+I7
+sS'compression bandag'
+p235
+I1
+sS'insert'
+p236
+I1
+sS'balloon'
+p237
+I27
+sS'incis'
+p238
+I23
+sS'tensioning c'
+p239
+I8
+sS'reservoir'
+p240
+I1
+sS'relative mot'
+p241
+I2
+sS'fibrin'
+p242
+I2
+sS'proximal end of a vessel'
+p243
+I1
+sS'thrombogenic subst'
+p244
+I2
+sS'coil natur'
+p245
+I1
+sS'spring tens'
+p246
+I1
+sS'of tensioning c'
+p247
+I6
+sS'fluid reservoir'
+p248
+I1
+sS'equip'
+p249
+I1
+sS'hydralazine hydrochlorid'
+p250
+I1
+sS'flexibl'
+p251
+I2
+sS'midodrine hydrochlorid'
+p252
+I1
+sS'ima'
+p253
+I2
+sS'lumen of'
+p254
+I5
+sS'cut'
+p255
+I21
+sS'fit'
+p256
+I6
+sS'sodium'
+p257
+I1
+sS'stent'
+p258
+I1
+sS'unrolling sheath'
+p259
+I1
+sS'of a cathet'
+p260
+I1
+sS'proximal of'
+p261
+I1
+sS'lightweight bal'
+p262
+I1
+sS'internal pressure of'
+p263
+I1
+sS'gel'
+p264
+I3
+sS'cutter'
+p265
+I1
+sS'complementary tap'
+p266
+I1
+sS'flex'
+p267
+I1
+sS'of a vessel'
+p268
+I2
+sS'return'
+p269
+I1
+sS'stylet'
+p270
+I3
+sS'lumen of th'
+p271
+I5
+sS'dinitr'
+p272
+I2
+sS'maximum freedom'
+p273
+I1
+sS'piec'
+p274
+I1
+sS'horizontal plan'
+p275
+I1
+sS'one-piece intravascular balloon cathet'
+p276
+I2
+sS'tissue adhes'
+p277
+I1
+sS'mid-port'
+p278
+I1
+sS'coronary artery diseas'
+p279
+I2
+sS'coaxial'
+p280
+I2
+sS'cable clamping wheel'
+p281
+I1
+sS'manipulation of th'
+p282
+I1
+sS'stabilization channel travers'
+p283
+I1
+sS'isosorbide mononitr'
+p284
+I1
+sS'proximal end of cut'
+p285
+I1
+sS'cannulated balloon cathet'
+p286
+I1
+sS'mmhg'
+p287
+I1
+sS'nitric oxid'
+p288
+I1
+sS'branch vessel'
+p289
+I5
+sS'internal vessel'
+p290
+I1
+sS'of a one-piece intravascular balloon cathet'
+p291
+I2
+sS'pet'
+p292
+I1
+sS'pole'
+p293
+I1
+sS'transverse incis'
+p294
+I1
+sS'desglymidodrin'
+p295
+I1
+sS'saphenous vein'
+p296
+I12
+sS'coaxial orient'
+p297
+I1
+sS'tension coupl'
+p298
+I1
+sS'fluid deliveri'
+p299
+I1
+sS'minneapolis mn'
+p300
+I1
+sS'oxid'
+p301
+I2
+sS'salin'
+p302
+I1
+sS'cabl'
+p303
+I7
+sS'spring'
+p304
+I3
+sS'fish'
+p305
+I1
+sS'relief'
+p306
+I1
+sS'cabg'
+p307
+I4
+sS'vessel'
+p308
+I308
+sS'nitinol'
+p309
+I1
+sS'concentric circl'
+p310
+I1
+sS'tubular cutting device slid'
+p311
+I6
+sS'of cathet'
+p312
+I6
+sS'orient'
+p313
+I1
+sS'polyacrylamid'
+p314
+I1
+sS'of a distal end of a cut'
+p315
+I3
+sS'cutting device coaxi'
+p316
+I1
+sS'fluid barri'
+p317
+I2
+sS'guid'
+p318
+I12
+sS'twist lock'
+p319
+I1
+sS'vessel attach'
+p320
+I1
+sS'thrombin'
+p321
+I1
+sS'tube'
+p322
+I7
+sS'vein'
+p323
+I17
+sS'extensive accessory equip'
+p324
+I1
+sS'pushes tap'
+p325
+I1
+sS'low profil'
+p326
+I1
+sS'internal pressure of the fluid filled vessel'
+p327
+I1
+sS'return blood'
+p328
+I1
+sS'continuous channel'
+p329
+I1
+sS'inject'
+p330
+I2
+sS'semi-compliant balloon'
+p331
+I1
+sS'vasoconstrictor'
+p332
+I1
+sS'mesyl'
+p333
+I1
+sS'sensor'
+p334
+I4
+sS'secondary cutting strok'
+p335
+I2
+sS'fit coupl'
+p336
+I2
+sS'audible indication of th'
+p337
+I1
+sS'fiber'
+p338
+I1
+sS'barrier'
+p339
+I2
+sS'advanc'
+p340
+I5
+sS'manipul'
+p341
+I1
+sS'tensioning spr'
+p342
+I1
+sS'of a one-piece intravascular balloon'
+p343
+I1
+sS'accessory equip'
+p344
+I1
+sS'distal end of tensioning c'
+p345
+I2
+sS'releas'
+p346
+I1
+sS'vein harvest'
+p347
+I3
+sS'torqu'
+p348
+I3
+sS'deflat'
+p349
+I1
+sS'proximal portion of cathet'
+p350
+I1
+sS'of the cannula'
+p351
+I2
+sS'proximal of cut'
+p352
+I1
+sS'tensioning bobbin spr'
+p353
+I1
+sS'distal end of th'
+p354
+I19
+sS'of'
+p355
+I13
+sS'bobbin spr'
+p356
+I1
+sS'incrementally infl'
+p357
+I1
+sS'motion'
+p358
+I2
+sS'core'
+p359
+I1
+sS'of the vein'
+p360
+I1
+sS'oz'
+p361
+I2
+sS'target anastomosi'
+p362
+I1
+sS'geometri'
+p363
+I1
+sS'bandag'
+p364
+I1
+sS'epinephrin'
+p365
+I1
+sS'y-connector'
+p366
+I2
+sS'endoscop'
+p367
+I2
+sS'distal'
+p368
+I3
+sS'collagen'
+p369
+I1
+sS'saphenous vein harvest'
+p370
+I1
+sS'minneapoli'
+p371
+I1
+sS'bedrail'
+p372
+I1
+sS'elastomeric tub'
+p373
+I1
+sS'membran'
+p374
+I1
+sS'ring'
+p375
+I3
+sS'radial arteri'
+p376
+I1
+sS'non-compli'
+p377
+I2
+sS'vessel harvest'
+p378
+I9
+sS'tensioning cable clamping wheel'
+p379
+I1
+sS'fibrinogen'
+p380
+I2
+sS'plastic'
+p381
+I1
+sS'internal pressure of th'
+p382
+I1
+sS'audible indication of the relative locations of'
+p383
+I1
+sS'lumen'
+p384
+I22
+sS'healthcare expens'
+p385
+I1
+sS'cannula'
+p386
+I18
+sS'surgeri'
+p387
+I2
+sS'piece intravascular cathet'
+p388
+I1
+sS'trinitr'
+p389
+I1
+sS'adhes'
+p390
+I2
+sS'lactat'
+p391
+I1
+sS'proximal neck'
+p392
+I1
+sS'cutting device slid'
+p393
+I6
+sS'distal end of the vessel'
+p394
+I13
+sS'gear'
+p395
+I6
+sS'clague cynthia'
+p396
+I1
+sS'cup'
+p397
+I1
+sS'tool'
+p398
+I4
+sS'injection of fluid'
+p399
+I1
+sS'original low profil'
+p400
+I2
+sS'proximal portion of th'
+p401
+I4
+sS'tissu'
+p402
+I4
+sS'deflation of'
+p403
+I1
+sS'lumen of the cathet'
+p404
+I1
+sS'mammary arteri'
+p405
+I1
+sS'heart diseas'
+p406
+I2
+sS'wound compl'
+p407
+I1
+sS'target'
+p408
+I1
+sS'sodium nitroprussid'
+p409
+I1
+sS'cathet'
+p410
+I94
+sS'northland drive brooklyn'
+p411
+I1
+sS'uv'
+p412
+I1
+sS'shoreview mn'
+p413
+I1
+sS'vessel stabilization channel travers'
+p414
+I1
+sS'proximal portion of the vessel'
+p415
+I4
+sS'tensioning cable clamp'
+p416
+I1
+sS'bipyridin'
+p417
+I1
+sS'coring vein harvest'
+p418
+I1
+sS'cut branch vessel'
+p419
+I5
+sS'clinician adv'
+p420
+I1
+sS'lubricious co'
+p421
+I3
+sS'sealant'
+p422
+I9
+sS'biocompatible plast'
+p423
+I1
+sS'internal mammary arteri'
+p424
+I1
+sS'nicardipine hydrochlorid'
+p425
+I1
+sS'clip'
+p426
+I1
+sS'exert'
+p427
+I2
+sS'shoreview'
+p428
+I1
+sS'electrocauteri'
+p429
+I2
+sS'wound bleed'
+p430
+I2
+sS'twist'
+p431
+I1
+sS'the cathet'
+p432
+I2
+sS'tubular member lock'
+p433
+I2
+sS'sheath'
+p434
+I11
+sS'polytetrafluoroethylen'
+p435
+I1
+sS'brooklyn park mn'
+p436
+I6
+sS'screw'
+p437
+I1
+sS'leg vein harvest'
+p438
+I1
+sS'ratcheting gear'
+p439
+I3
+sS'park mn'
+p440
+I5
+sS'distal portion of th'
+p441
+I2
+sS'tip'
+p442
+I3
+sS'polyethylene oxid'
+p443
+I1
+sS'illumin'
+p444
+I1
+sS'distal end of'
+p445
+I21
+sS'circl'
+p446
+I1
+sS'branch'
+p447
+I13
+sS'hydrochlorid'
+p448
+I4
+sS'interior'
+p449
+I1
+sS'lipophag'
+p450
+I1
+sS'audible indication of the relative locations of the cut'
+p451
+I1
+sS'organic nitr'
+p452
+I1
+sS'forest lak'
+p453
+I1
+sS'channel'
+p454
+I1
+sS'vasodil'
+p455
+I1
+sS'internal pressure of the fluid'
+p456
+I1
+sS'teflon'
+p457
+I3
+sS'pain'
+p458
+I1
+sS'corcoran'
+p459
+I1
+sS'vessel branch'
+p460
+I1
+sS'buffer'
+p461
+I1
+sS'coring vein'
+p462
+I1
+sS'rockford mn'
+p463
+I1
+sS'mononitr'
+p464
+I2
+sS'compress'
+p465
+I1
+sS'intravascular catheter balloon'
+p466
+I1
+sS'brooklyn'
+p467
+I4
+sS'intravascular balloon'
+p468
+I1
+sS'rollout'
+p469
+I3
+sS'diazoxid'
+p470
+I1
+sS'catheter balloon'
+p471
+I1
+sS'polyvinylchlorid'
+p472
+I2
+sS'knee incis'
+p473
+I1
+sS'vessel insert'
+p474
+I1
+sS'semi-rigid'
+p475
+I2
+sS'platelet gel'
+p476
+I3
+sS'cutting strok'
+p477
+I2
+sS'vasculatur'
+p478
+I1
+sS'andover mn'
+p479
+I1
+sS'tubular cutting device coaxi'
+p480
+I1
+sS'proximal end of'
+p481
+I21
+sS'slidabl'
+p482
+I12
+sS'the cannula'
+p483
+I1
+sS'ima vessel'
+p484
+I1
+sS'advawax co'
+p485
+I1
+sS'corcoran mn'
+p486
+I1
+sS'the vein'
+p487
+I1
+stp488
+Rp489
+tp490
+.

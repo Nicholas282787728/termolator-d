@@ -1,0 +1,1184 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'represent'
+p7
+I3
+sS'code'
+p8
+I14
+sS'rom'
+p9
+I1
+sS'tool indents label'
+p10
+I1
+sS'asic'
+p11
+I1
+sS'numerous other kinds of present'
+p12
+I1
+sS'c-steps partit'
+p13
+I1
+sS'machine optim'
+p14
+I2
+sS'icon for a top-level loop'
+p15
+I1
+sS'clock cycle constraint'
+p16
+I1
+sS'monet'
+p17
+I1
+sS'disk'
+p18
+I1
+sS'c1'
+p19
+I4
+sS'hierarch'
+p20
+I2
+sS'original clock synchron'
+p21
+I1
+sS'depend'
+p22
+I2
+sS'resource sharing constraint'
+p23
+I2
+sS'graph'
+p24
+I8
+sS'multi-cycl'
+p25
+I1
+sS'behavioral synthesi'
+p26
+I8
+sS'program'
+p27
+I4
+sS'tape'
+p28
+I1
+sS'rtl'
+p29
+I12
+sS'presentation of the hierarchical gantt chart'
+p30
+I1
+sS'magnetic disk'
+p31
+I1
+sS'top-level list'
+p32
+I4
+sS'voic'
+p33
+I1
+sS'initiation interval constraint'
+p34
+I1
+sS'readslic'
+p35
+I1
+sS'exact structural counterpart'
+p36
+I1
+sS'allocating resourc'
+p37
+I1
+sS'hierarchical gantt chart'
+p38
+I39
+sS'top-level loop'
+p39
+I6
+sS'rtl simul'
+p40
+I1
+sS'list'
+p41
+I36
+sS'iter'
+p42
+I1
+sS'presentation of pseudo-operation icon'
+p43
+I1
+sS'presentation of operation label'
+p44
+I1
+sS'partit'
+p45
+I1
+sS'verif'
+p46
+I1
+sS'architecture-specific implementation for a target fpga'
+p47
+I1
+sS'bold-face vertical bar'
+p48
+I1
+sS'general-purpos'
+p49
+I1
+sS'outlin'
+p50
+I4
+sS'clock cycle for'
+p51
+I1
+sS'vhdl'
+p52
+I10
+sS'instructions for program modul'
+p53
+I1
+sS'natur'
+p54
+I2
+sS'frame'
+p55
+I1
+sS'hierarchical gantt'
+p56
+I1
+sS'hierarchical list of schedul'
+p57
+I1
+sS'arc'
+p58
+I1
+sS'character label'
+p59
+I1
+sS'charact'
+p60
+I2
+sS'then stat'
+p61
+I2
+sS'exploration component outputs cod'
+p62
+I1
+sS'hide'
+p63
+I1
+sS'clock'
+p64
+I12
+sS'asap'
+p65
+I2
+sS'cycle resourc'
+p66
+I1
+sS'designer-provid'
+p67
+I1
+sS'label'
+p68
+I20
+sS'kluwer academ'
+p69
+I1
+sS'clock synchron'
+p70
+I1
+sS'verilog'
+p71
+I1
+sS'constraints constraint description clock'
+p72
+I1
+sS'altern'
+p73
+I6
+sS'elimin'
+p74
+I2
+sS'full'
+p75
+I1
+sS'interactive setting of schedul'
+p76
+I1
+sS'external behavior'
+p77
+I2
+sS'cycle-by-cycle behavior'
+p78
+I2
+sS'numerous other kind'
+p79
+I1
+sS'cycl'
+p80
+I12
+sS'loop handl'
+p81
+I1
+sS'syntax tre'
+p82
+I1
+sS'interactive loop handl'
+p83
+I1
+sS'for c-step'
+p84
+I1
+sS'collapse command'
+p85
+I1
+sS'netlist'
+p86
+I3
+sS'computer-executable instruct'
+p87
+I8
+sS'synthesis tool'
+p88
+I7
+sS'rtl code'
+p89
+I6
+sS'logic'
+p90
+I6
+sS'alternative branch'
+p91
+I4
+sS'implement'
+p92
+I6
+sS'list of operation label'
+p93
+I1
+sS'sub-list'
+p94
+I3
+sS'cycle-by-cycle synchronizations behavior'
+p95
+I1
+sS'array poss'
+p96
+I1
+sS'color'
+p97
+I1
+sS'schedul'
+p98
+I138
+sS'modul'
+p99
+I5
+sS'understanding behavioral synthesi'
+p100
+I1
+sS'iteration finish'
+p101
+I1
+sS'for a top-level loop'
+p102
+I1
+sS'vhdl list'
+p103
+I8
+sS'glue log'
+p104
+I1
+sS'computer-executable instructions for program modul'
+p105
+I1
+sS'decrement'
+p106
+I2
+sS'target architectur'
+p107
+I1
+sS'hierarchical present'
+p108
+I5
+sS'numerous schedul'
+p109
+I1
+sS'c-step branch'
+p110
+I1
+sS'numerous scheduling algorithm'
+p111
+I1
+sS'graphics servic'
+p112
+I1
+sS'of the program'
+p113
+I1
+sS'sub-loop'
+p114
+I2
+sS'understanding behavior'
+p115
+I1
+sS'trackbal'
+p116
+I1
+sS'gutberlet'
+p117
+I1
+sS'formul'
+p118
+I1
+sS'target fpga'
+p119
+I2
+sS'integer linear program'
+p120
+I1
+sS'share'
+p121
+I2
+sS'indents label'
+p122
+I1
+sS'diverse general-purpos'
+p123
+I1
+sS'presentation of'
+p124
+I1
+sS'sequential stat'
+p125
+I1
+sS'hdl code'
+p126
+I9
+sS'c3'
+p127
+I6
+sS'color icon'
+p128
+I1
+sS'c0'
+p129
+I6
+sS'hierarchical presentation of operation label'
+p130
+I1
+sS'present'
+p131
+I45
+sS'c4'
+p132
+I5
+sS'label loop'
+p133
+I1
+sS'icon for a lessthan'
+p134
+I1
+sS'program modul'
+p135
+I5
+sS'servic'
+p136
+I3
+sS'work'
+p137
+I1
+sS'of scheduling constraint'
+p138
+I2
+sS'focu'
+p139
+I2
+sS'schedule sub-block'
+p140
+I15
+sS'hierarchical list of'
+p141
+I1
+sS'behavior'
+p142
+I6
+sS'of the hierarchical gantt chart'
+p143
+I1
+sS'b h'
+p144
+I1
+sS'hdl'
+p145
+I11
+sS'tool softwar'
+p146
+I5
+sS'loop'
+p147
+I14
+sS'leftmost column'
+p148
+I2
+sS'numerous other kinds of'
+p149
+I1
+sS'textual list'
+p150
+I2
+sS'architectural choic'
+p151
+I1
+sS'sub-block schedul'
+p152
+I2
+sS'vertical bar'
+p153
+I1
+sS'special-purpose computing environ'
+p154
+I1
+sS'architectural exploration for a target'
+p155
+I1
+sS'indic'
+p156
+I1
+sS'o timing constraint'
+p157
+I1
+sS'quadratic algorithm'
+p158
+I1
+sS'explor'
+p159
+I4
+sS'nested schedul'
+p160
+I12
+sS'icon width indicating delay'
+p161
+I1
+sS'dependency arc'
+p162
+I1
+sS'multipl'
+p163
+I2
+sS'goal'
+p164
+I2
+sS'of th'
+p165
+I3
+sS'media'
+p166
+I5
+sS'lower-level languag'
+p167
+I1
+sS'delay'
+p168
+I7
+sS'scheduling algorithm'
+p169
+I1
+sS'hierarchical list'
+p170
+I18
+sS'sif'
+p171
+I18
+sS'algorithm'
+p172
+I10
+sS'icon width ind'
+p173
+I1
+sS'collaps'
+p174
+I1
+sS'tree'
+p175
+I1
+sS'finish'
+p176
+I1
+sS'resourc'
+p177
+I4
+sS'rtl netlist'
+p178
+I3
+sS'designer-provided constraints constraint description clock'
+p179
+I1
+sS'recalculate schedul'
+p180
+I2
+sS'tool hid'
+p181
+I1
+sS'feedback loop'
+p182
+I1
+sS'zoom fit'
+p183
+I1
+sS'the program modul'
+p184
+I1
+sS'transforming hdl'
+p185
+I1
+sS'parallel'
+p186
+I1
+sS'alloc'
+p187
+I6
+sS'tool display'
+p188
+I3
+sS'constraint description clock'
+p189
+I1
+sS'sw'
+p190
+I1
+sS'architecture-specific implementation for a target'
+p191
+I1
+sS'absolute timing constraint'
+p192
+I1
+sS'environ'
+p193
+I4
+sS'stores instruct'
+p194
+I1
+sS'of the rectangular icon'
+p195
+I2
+sS'cycle for c-step'
+p196
+I1
+sS'identifi'
+p197
+I1
+sS'tradeoff'
+p198
+I6
+sS'multiplexer optim'
+p199
+I1
+sS'of operation label'
+p200
+I2
+sS'scheduling rul'
+p201
+I1
+sS'basic sub-block'
+p202
+I1
+sS'hardware description languag'
+p203
+I1
+sS'computer-readable medium storing computer-executable instruct'
+p204
+I3
+sS'multiplex'
+p205
+I2
+sS'neglibl'
+p206
+I1
+sS'touch'
+p207
+I1
+sS'icon convent'
+p208
+I2
+sS'languag'
+p209
+I4
+sS'cdfg'
+p210
+I6
+sS'indicating delay'
+p211
+I4
+sS'fit'
+p212
+I1
+sS'icon for'
+p213
+I3
+sS'kluwer'
+p214
+I1
+sS'collapses present'
+p215
+I4
+sS'c-step c0'
+p216
+I6
+sS'cycle-accurate behavior'
+p217
+I1
+sS'architectut'
+p218
+I1
+sS'resource alloc'
+p219
+I1
+sS'interactive setting of scheduling constraint'
+p220
+I1
+sS'of pseudo-operation icon'
+p221
+I1
+sS'for program modul'
+p222
+I1
+sS'architecture-specific implement'
+p223
+I1
+sS'sw salmon street'
+p224
+I1
+sS'then'
+p225
+I1
+sS'sharing constraint'
+p226
+I2
+sS'branch'
+p227
+I6
+sS'handl'
+p228
+I1
+sS'external cycle-by-cycle behavior'
+p229
+I1
+sS'sw salmon street suit'
+p230
+I1
+sS'storing computer-executable instruct'
+p231
+I6
+sS'icon for a mul'
+p232
+I1
+sS'bar'
+p233
+I1
+sS'circular pseudo-operation icon'
+p234
+I1
+sS'computer-readable medium stor'
+p235
+I3
+sS'choic'
+p236
+I1
+sS'compound stat'
+p237
+I1
+sS'relative timing constraint'
+p238
+I3
+sS'cycle-accurate simul'
+p239
+I1
+sS'top-level schedul'
+p240
+I5
+sS'heuristic algorithm'
+p241
+I2
+sS'loop stat'
+p242
+I1
+sS'computer-readable media'
+p243
+I3
+sS'salmon street suit'
+p244
+I1
+sS'rtl synthesi'
+p245
+I1
+sS'subset'
+p246
+I1
+sS'street suit'
+p247
+I1
+sS'dead-code elimin'
+p248
+I1
+sS'non-remov'
+p249
+I1
+sS'interv'
+p250
+I3
+sS'tool ind'
+p251
+I1
+sS'common-sub-expression elimin'
+p252
+I1
+sS'operand'
+p253
+I1
+sS'hierarchical textual list of operation label'
+p254
+I1
+sS'portland'
+p255
+I1
+sS'interactive setting of'
+p256
+I1
+sS'librari'
+p257
+I4
+sS'for'
+p258
+I1
+sS'scheduling delay'
+p259
+I1
+sS'influenc'
+p260
+I2
+sS'optimizes memory alloc'
+p261
+I1
+sS'n rel'
+p262
+I2
+sS'interval constraint'
+p263
+I1
+sS'publish'
+p264
+I1
+sS'optim'
+p265
+I5
+sS'rf'
+p266
+I1
+sS'cycle constraint'
+p267
+I3
+sS'exit'
+p268
+I2
+sS'of the program modul'
+p269
+I2
+sS'rel'
+p270
+I2
+sS'hardwar'
+p271
+I3
+sS'nest'
+p272
+I3
+sS'machin'
+p273
+I3
+sS'scheduler numbers c-step'
+p274
+I1
+sS'hierarchical operation list'
+p275
+I1
+sS'hardware implement'
+p276
+I1
+sS'clock frequ'
+p277
+I1
+sS'circular icon'
+p278
+I1
+sS'kluwer academic publish'
+p279
+I1
+sS'zoom ful'
+p280
+I1
+sS'character identifi'
+p281
+I1
+sS'static schedul'
+p282
+I1
+sS'architecture-specific implementation for'
+p283
+I1
+sS'reinvoke schedul'
+p284
+I1
+sS'low-level cdfg'
+p285
+I2
+sS'subtract'
+p286
+I3
+sS'constraint'
+p287
+I31
+sS'column'
+p288
+I2
+sS'of'
+p289
+I3
+sS'interactive memory alloc'
+p290
+I1
+sS'synchron'
+p291
+I1
+sS'simul'
+p292
+I2
+sS'counterpart'
+p293
+I2
+sS'carrier'
+p294
+I1
+sS'rtl languag'
+p295
+I1
+sS'architectural exploration component outputs cod'
+p296
+I1
+sS'original clock'
+p297
+I1
+sS'pseudo-oper'
+p298
+I1
+sS'processor'
+p299
+I2
+sS'eeprom'
+p300
+I1
+sS'softwar'
+p301
+I10
+sS'loop operation icon'
+p302
+I1
+sS'designer-provided constraints constraint'
+p303
+I1
+sS'iterative natur'
+p304
+I2
+sS'instruct'
+p305
+I8
+sS'exclusive branch'
+p306
+I1
+sS'pseudo-operation icon'
+p307
+I18
+sS'model cycle-by-cycle synchronizations behavior'
+p308
+I1
+sS'latenc'
+p309
+I8
+sS'convent'
+p310
+I1
+sS'tool displays schedul'
+p311
+I1
+sS'list algorithm'
+p312
+I1
+sS'sub-block'
+p313
+I39
+sS'architectural exploration for'
+p314
+I1
+sS'transform'
+p315
+I2
+sS'start'
+p316
+I1
+sS'rtl synthesis tool'
+p317
+I1
+sS'statement'
+p318
+I13
+sS'suit'
+p319
+I1
+sS'resource constraint'
+p320
+I2
+sS'synthesi'
+p321
+I4
+sS'incremental heuristic algorithm'
+p322
+I1
+sS'store'
+p323
+I1
+sS'hierarchical textual list of'
+p324
+I1
+sS'textual list of operation label'
+p325
+I1
+sS'resource shar'
+p326
+I4
+sS'fpga'
+p327
+I1
+sS'architectural explor'
+p328
+I15
+sS'gantt chart'
+p329
+I55
+sS'tool'
+p330
+I22
+sS'latency constraint'
+p331
+I4
+sS'exact lat'
+p332
+I1
+sS'alap'
+p333
+I2
+sS'pragma'
+p334
+I2
+sS'clock cycle for c-step'
+p335
+I1
+sS'hierarchical presentation of'
+p336
+I1
+sS'next stat'
+p337
+I1
+sS'designer-provided constraint'
+p338
+I8
+sS'initiation interv'
+p339
+I3
+sS'target'
+p340
+I1
+sS'possibl'
+p341
+I3
+sS'the rectangular icon'
+p342
+I1
+sS'maximum'
+p343
+I2
+sS'hierarchical textual list'
+p344
+I1
+sS'i'
+p345
+I1
+sS'hierarchically presenting schedul'
+p346
+I1
+sS'greaterequ'
+p347
+I1
+sS'display'
+p348
+I2
+sS'scheduling constraint'
+p349
+I1
+sS'sub-sub-block'
+p350
+I3
+sS'abstract'
+p351
+I1
+sS'interactive feedback loop'
+p352
+I1
+sS'presentation of th'
+p353
+I1
+sS'scheduler work'
+p354
+I1
+sS'sub-block operation label'
+p355
+I1
+sS'academic publish'
+p356
+I1
+sS'sw salmon'
+p357
+I1
+sS'synchronizations behavior'
+p358
+I1
+sS'behavioral synthesis tool'
+p359
+I5
+sS'rectangular outlin'
+p360
+I4
+sS'logic functions i'
+p361
+I1
+sS'clock cycl'
+p362
+I10
+sS'non-sif represent'
+p363
+I1
+sS'the hierarchical gantt chart'
+p364
+I1
+sS'c-step c3'
+p365
+I6
+sS'for a target fpga'
+p366
+I1
+sS'c-step c1'
+p367
+I4
+sS'c-step c4'
+p368
+I5
+sS'command'
+p369
+I1
+sS'architectur'
+p370
+I3
+sS'pipelin'
+p371
+I3
+sS'c-step'
+p372
+I69
+sS'chart'
+p373
+I57
+sS'virtual processor'
+p374
+I2
+sS'pipelined loop'
+p375
+I3
+sS'rectangular icon'
+p376
+I5
+sS'writeslic'
+p377
+I1
+sS'model'
+p378
+I1
+sS'icon'
+p379
+I86
+sS'wilsonvil'
+p380
+I1
+sS'cycle-accurate schedul'
+p381
+I1
+sS'computer-executable instructions for'
+p382
+I1
+sS'implementation for a target fpga'
+p383
+I1
+sS'magnetic tap'
+p384
+I1
+sS'vhdl listing for'
+p385
+I1
+sS'dvd'
+p386
+I1
+sS'cd-rom'
+p387
+I1
+sS'rule'
+p388
+I1
+sS'loop optim'
+p389
+I1
+sS'schedule fram'
+p390
+I1
+sS'understand'
+p391
+I1
+sS'constrain'
+p392
+I1
+sS'computer-executable instructions for program'
+p393
+I1
+sS'sub-block nest'
+p394
+I1
+sS'loop pipelin'
+p395
+I1
+stp396
+Rp397
+tp398
+.

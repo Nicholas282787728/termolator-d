@@ -1,0 +1,1559 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'n-terminal transcriptional activation domain of'
+p7
+I1
+sS'activation of the p53-report'
+p8
+I1
+sS'phosphoryl'
+p9
+I28
+sS'n-terminal of th'
+p10
+I1
+sS'centrifug'
+p11
+I2
+sS'accumulation of p53 protein'
+p12
+I1
+sS'accumulation of p53'
+p13
+I1
+sS'for phosphoryl'
+p14
+I2
+sS'gsk3 phosphorylation sit'
+p15
+I2
+sS'catalyt'
+p16
+I1
+sS'consensus sequence ser-x-x-x-s'
+p17
+I1
+sS'gsk3\xce\xb2-dependent phosphorylation of'
+p18
+I1
+sS'arfgen'
+p19
+I1
+sS'immunoprecipitated protein'
+p20
+I1
+sS'c-terminal serine residu'
+p21
+I1
+sS'basal transcriptional activity of'
+p22
+I2
+sS'dna-depend'
+p23
+I1
+sS'assay'
+p24
+I3
+sS'phosphorylation of'
+p25
+I19
+sS'human wild type p53'
+p26
+I1
+sS'phosphorylation of the n-terminal of p53'
+p27
+I1
+sS'expression vector'
+p28
+I3
+sS'p53 bear'
+p29
+I3
+sS'cdk7-cyclin h complex'
+p30
+I1
+sS'n-terminal transactivation domain'
+p31
+I3
+sS'damage pathway'
+p32
+I1
+sS'vector'
+p33
+I3
+sS'p53 target'
+p34
+I1
+sS'hepes ph'
+p35
+I1
+sS'oncogen'
+p36
+I1
+sS'basal levels of transcriptional act'
+p37
+I1
+sS'of p53'
+p38
+I22
+sS'aliquots of'
+p39
+I1
+sS'target gen'
+p40
+I2
+sS'of kgb'
+p41
+I1
+sS'n-terminal of p53'
+p42
+I2
+sS'kinas'
+p43
+I31
+sS'egta'
+p44
+I2
+sS'role of gsk3\xce\xb2'
+p45
+I1
+sS'cell'
+p46
+I6
+sS'bearing mut'
+p47
+I2
+sS'new'
+p48
+I2
+sS'mdm2'
+p49
+I1
+sS'transcriptional activity of'
+p50
+I1
+sS'dna-activated protein'
+p51
+I1
+sS'upstat'
+p52
+I1
+sS'autophosphoryl'
+p53
+I1
+sS'sub-clon'
+p54
+I1
+sS'acetylation of th'
+p55
+I1
+sS'transcription of the luciferase gen'
+p56
+I1
+sS'glb'
+p57
+I2
+sS'the immunoprecipitated protein'
+p58
+I1
+sS'p38'
+p59
+I1
+sS'observ'
+p60
+I1
+sS's6 kinas'
+p61
+I1
+sS'biolab'
+p62
+I2
+sS'studi'
+p63
+I2
+sS'gene'
+p64
+I6
+sS'of the substrate peptid'
+p65
+I1
+sS'cellular effects of p53'
+p66
+I1
+sS'mdm2 protein bind'
+p67
+I1
+sS'tumorigenesi'
+p68
+I1
+sS'cdk7-cyclin h'
+p69
+I1
+sS'n-terminal of'
+p70
+I2
+sS'whatman'
+p71
+I1
+sS'the luciferase gen'
+p72
+I1
+sS'mdm2 protein'
+p73
+I1
+sS'dna'
+p74
+I24
+sS'usa'
+p75
+I1
+sS'autophosphorylation of'
+p76
+I1
+sS'isoform'
+p77
+I2
+sS'shock factor-1'
+p78
+I2
+sS'of p53-gst'
+p79
+I2
+sS'transcriptional activation of p53 target'
+p80
+I1
+sS'of the potential role of gsk3\xce\xb2'
+p81
+I1
+sS'pgex-2t gst'
+p82
+I1
+sS'telangiectasia gen'
+p83
+I1
+sS'kgb'
+p84
+I2
+sS'dna-dependent protein kinas'
+p85
+I1
+sS'p38 mapk'
+p86
+I1
+sS'p53 bearing mut'
+p87
+I2
+sS'of the immunoprecipitated protein'
+p88
+I2
+sS'non-dna damage mechanisms for p53 activ'
+p89
+I1
+sS'room'
+p90
+I1
+sS'p50-luc'
+p91
+I1
+sS'stabilization of the p53 protein'
+p92
+I2
+sS'saos-2'
+p93
+I4
+sS'dna-activated protein kinas'
+p94
+I1
+sS'of p53 target gen'
+p95
+I1
+sS'of heat shock factor-1'
+p96
+I1
+sS'activation of the p53'
+p97
+I1
+sS'stream'
+p98
+I1
+sS'non-dna damage mechanisms for'
+p99
+I1
+sS'pgex-2t gst fusion vector'
+p100
+I1
+sS'serum'
+p101
+I1
+sS'phosphorylates target protein'
+p102
+I1
+sS'differenti'
+p103
+I1
+sS'prephosphorylation of p53-gst'
+p104
+I1
+sS'mapk'
+p105
+I1
+sS's6'
+p106
+I1
+sS'p53 stabil'
+p107
+I1
+sS'dna-pk phosphorylation sit'
+p108
+I1
+sS'pathway'
+p109
+I4
+sS'map'
+p110
+I4
+sS'n-terminal transcriptional activation domain of th'
+p111
+I1
+sS'p53 kinas'
+p112
+I1
+sS'mm egta'
+p113
+I2
+sS'osteosarcoma cel'
+p114
+I1
+sS'absence of p53'
+p115
+I1
+sS'activity of the p53 protein'
+p116
+I2
+sS'parallel'
+p117
+I1
+sS'stabil'
+p118
+I3
+sS'immunoprecipitating gsk3\xce\xb2'
+p119
+I1
+sS'activation of p53'
+p120
+I9
+sS'bind'
+p121
+I1
+sS'transcriptional activ'
+p122
+I4
+sS'of gsk3\xce\xb2'
+p123
+I9
+sS'primary cel'
+p124
+I1
+sS'of gsk3\xce\xb1'
+p125
+I1
+sS'p53 target gen'
+p126
+I2
+sS'purifi'
+p127
+I1
+sS'mm pmsf'
+p128
+I1
+sS'aprotinin'
+p129
+I1
+sS'acetylation of the c-terminal of'
+p130
+I1
+sS'key target of pkb'
+p131
+I1
+sS'clarification of th'
+p132
+I1
+sS'ataxia telangiectasia gen'
+p133
+I1
+sS'kinase c'
+p134
+I4
+sS'kinase b'
+p135
+I1
+sS'oncogene express'
+p136
+I1
+sS'paper'
+p137
+I2
+sS'of the reaction mix'
+p138
+I1
+sS'jnk'
+p139
+I2
+sS'gsk3'
+p140
+I4
+sS'gst fusion vector'
+p141
+I1
+sS'clarification of the potential role of'
+p142
+I1
+sS'consensu'
+p143
+I1
+sS'dna damag'
+p144
+I18
+sS'catalytic sub-unit'
+p145
+I1
+sS'multiple phosphorylation sit'
+p146
+I1
+sS'status of serin'
+p147
+I1
+sS'activation of'
+p148
+I12
+sS'n-terminal transcriptional activation domain of the p53 protein'
+p149
+I1
+sS'of serin'
+p150
+I12
+sS'vitro phosphoryl'
+p151
+I1
+sS'kinase domain'
+p152
+I1
+sS'p14'
+p153
+I1
+sS'biorad'
+p154
+I1
+sS'phosphorylation site for'
+p155
+I1
+sS'yr'
+p156
+I1
+sS'basal transcriptional activity of the p53'
+p157
+I2
+sS'key target of'
+p158
+I1
+sS'key target'
+p159
+I1
+sS'radiat'
+p160
+I5
+sS'of gsk3'
+p161
+I1
+sS'potential role of gsk3\xce\xb2'
+p162
+I1
+sS'pro-apoptotic protein'
+p163
+I1
+sS'domain'
+p164
+I3
+sS'endogenous p53 protein'
+p165
+I1
+sS'phosphoric acid'
+p166
+I1
+sS'phosphorylates target'
+p167
+I1
+sS'transcription of'
+p168
+I2
+sS'invitrogen'
+p169
+I1
+sS'of p53 transcriptional act'
+p170
+I1
+sS'mdm2-p53 interact'
+p171
+I1
+sS'fusion vector'
+p172
+I1
+sS'inactiv'
+p173
+I1
+sS'ra'
+p174
+I2
+sS'potential gsk3'
+p175
+I2
+sS'activate p53'
+p176
+I1
+sS'ataxia telangiectasia'
+p177
+I1
+sS'physiological regulator of'
+p178
+I1
+sS'non-dna damage mechanisms for p53'
+p179
+I1
+sS'the prephosphorylated p53-gst'
+p180
+I1
+sS'of the luciferase gen'
+p181
+I1
+sS'strand-break repair'
+p182
+I1
+sS'phosphorylation of th'
+p183
+I2
+sS'ioniz'
+p184
+I5
+sS'\xce\xbcg'
+p185
+I2
+sS'c-terminal of p53'
+p186
+I1
+sS'atm'
+p187
+I4
+sS'\xce\xbcl'
+p188
+I3
+sS'activation of heat shock factor-1'
+p189
+I1
+sS'kinases responsible for phosphoryl'
+p190
+I1
+sS'atp'
+p191
+I4
+sS'transcription of th'
+p192
+I1
+sS'absence of gsk3\xce\xb2'
+p193
+I1
+sS'gsk3\xce\xb2 antibodi'
+p194
+I2
+sS'clarification of the potential rol'
+p195
+I1
+sS'naci'
+p196
+I1
+sS'vitro'
+p197
+I3
+sS'kinases responsible for'
+p198
+I1
+sS'untransformed cel'
+p199
+I1
+sS'domain of the p53 protein'
+p200
+I1
+sS'mm hepe'
+p201
+I1
+sS'transcriptional activation of p53 target gen'
+p202
+I1
+sS'jnk1'
+p203
+I2
+sS'jnk2'
+p204
+I1
+sS'p53 tumor'
+p205
+I1
+sS'interact'
+p206
+I2
+sS'phosphorylation of p53'
+p207
+I5
+sS'activation of nf\xce\xba'
+p208
+I1
+sS'activation of p53 target gen'
+p209
+I1
+sS'p53 phosphorylation sit'
+p210
+I1
+sS'p53-regulated growth'
+p211
+I1
+sS'phsophoryl'
+p212
+I1
+sS'biochem'
+p213
+I1
+sS'phosphorylation of serin'
+p214
+I11
+sS'isoforms of'
+p215
+I1
+sS'erk2'
+p216
+I1
+sS'incub'
+p217
+I1
+sS'stress'
+p218
+I1
+sS'glb buffer'
+p219
+I2
+sS'apoptosi'
+p220
+I6
+sS'activated chk2'
+p221
+I1
+sS'p53'
+p222
+I102
+sS'molecular'
+p223
+I1
+sS'p53 phsophoryl'
+p224
+I1
+sS'target'
+p225
+I1
+sS'basal transcriptional act'
+p226
+I2
+sS'p53 activ'
+p227
+I9
+sS'activation of p53 transcriptional act'
+p228
+I1
+sS'c-termin'
+p229
+I1
+sS'dtt'
+p230
+I2
+sS'calbiochem'
+p231
+I1
+sS'luciferase report'
+p232
+I4
+sS'cellular effects of p53 activ'
+p233
+I1
+sS'phosphorylations of p53'
+p234
+I1
+sS'kinase act'
+p235
+I3
+sS'transfection effici'
+p236
+I1
+sS'luciferase reporter assay'
+p237
+I1
+sS'for p53 activ'
+p238
+I2
+sS'prephosphorylated p53-gst'
+p239
+I2
+sS'\xce\xbcl of th'
+p240
+I1
+sS'prephosphoryl'
+p241
+I1
+sS'acid'
+p242
+I1
+sS'gsk3\xce\xb1'
+p243
+I11
+sS'gsk3\xce\xb2'
+p244
+I52
+sS'min'
+p245
+I1
+sS'of the p53-report'
+p246
+I1
+sS'aliquots of th'
+p247
+I1
+sS'atm phosphoryl'
+p248
+I1
+sS'mix'
+p249
+I1
+sS'transcription of p53-regulated growth'
+p250
+I1
+sS'luciferase gen'
+p251
+I1
+sS'casein kinase ii'
+p252
+I3
+sS'embryonic leth'
+p253
+I1
+sS'n-terminal of the p53'
+p254
+I1
+sS'reporter assay'
+p255
+I1
+sS'dna-pk'
+p256
+I19
+sS'buffer'
+p257
+I4
+sS'homolog'
+p258
+I1
+sS'transcript'
+p259
+I2
+sS'damage response pathway'
+p260
+I1
+sS'mgcl'
+p261
+I2
+sS'preliminary experi'
+p262
+I1
+sS'regulator of the p53 protein'
+p263
+I1
+sS'protein bind'
+p264
+I1
+sS'p50-2'
+p265
+I1
+sS'the substrate peptid'
+p266
+I1
+sS'atm protein'
+p267
+I1
+sS'activated pkb'
+p268
+I1
+sS'physiological regulator of th'
+p269
+I1
+sS'cellular context'
+p270
+I1
+sS'p53 regul'
+p271
+I1
+sS'of the c-terminal of p53'
+p272
+I1
+sS'phosphorylation statu'
+p273
+I1
+sS'stream target'
+p274
+I1
+sS'phosphorylation of p53-gst'
+p275
+I1
+sS'pkb'
+p276
+I6
+sS'pcmv-gal'
+p277
+I1
+sS'lethal'
+p278
+I1
+sS'c-terminal regulatory domain'
+p279
+I1
+sS'of the n-terminal of p53'
+p280
+I1
+sS'unstimulated cel'
+p281
+I1
+sS'hsf1'
+p282
+I1
+sS'serine residu'
+p283
+I3
+sS'lipofectin'
+p284
+I1
+sS'mm tri'
+p285
+I1
+sS'activ'
+p286
+I55
+sS'dna strand-break repair'
+p287
+I1
+sS'activation of nf\xce\xba b'
+p288
+I1
+sS'osteosarcoma cell line saos-2'
+p289
+I1
+sS'previous studi'
+p290
+I1
+sS'factor-1'
+p291
+I1
+sS'casein kinas'
+p292
+I3
+sS'express'
+p293
+I3
+sS'growth arrest'
+p294
+I4
+sS'gibco-brl'
+p295
+I1
+sS'for gsk3\xce\xb2'
+p296
+I1
+sS'i0 \xce\xbcm atp'
+p297
+I2
+sS'report'
+p298
+I3
+sS'non-dna damag'
+p299
+I2
+sS'\xce\xbcm atp'
+p300
+I3
+sS'exact amino-acid'
+p301
+I1
+sS'atm protein kinas'
+p302
+I1
+sS'p53-report'
+p303
+I2
+sS'yield'
+p304
+I1
+sS'transcriptional activation of p53'
+p305
+I2
+sS'co-transfected gsk3\xce\xb2'
+p306
+I1
+sS'oncogene activ'
+p307
+I3
+sS'domain of p53'
+p308
+I2
+sS'target of pkb'
+p309
+I1
+sS'key function of p53'
+p310
+I1
+sS'absence of'
+p311
+I2
+sS'gsk3\xce\xb2-dependent phosphorylation of p53'
+p312
+I1
+sS'protein kinase b'
+p313
+I1
+sS'protein kinase c'
+p314
+I4
+sS'suppressor gen'
+p315
+I1
+sS'cell line saos-2'
+p316
+I2
+sS'promega'
+p317
+I2
+sS'transcriptional activation of'
+p318
+I2
+sS'regulatory domain'
+p319
+I1
+sS'gsk3\xce\xb2 expression vector'
+p320
+I2
+sS'experi'
+p321
+I1
+sS'p53 bearing serin'
+p322
+I1
+sS'the p53-report'
+p323
+I1
+sS'activation of p53 transcript'
+p324
+I1
+sS'wl'
+p325
+I2
+sS'p53 transcriptional act'
+p326
+I7
+sS'prebound'
+p327
+I1
+sS'physiological regulator of the p53'
+p328
+I1
+sS'genetic studi'
+p329
+I1
+sS'reaction'
+p330
+I2
+sS'prephosphorylation of'
+p331
+I1
+sS'bio-rad protein'
+p332
+I1
+sS'transcriptional act'
+p333
+I14
+sS'atr protein'
+p334
+I1
+sS'context'
+p335
+I1
+sS'gsk3\xce\xb2 phosphorylation sit'
+p336
+I3
+sS'kinase ii'
+p337
+I3
+sS'n-terminal transcriptional activation domain'
+p338
+I1
+sS'basal levels of'
+p339
+I1
+sS'activation of the p53 protein'
+p340
+I1
+sS'ca'
+p341
+I3
+sS'residu'
+p342
+I3
+sS'clarification of the potential role of gsk3\xce\xb2'
+p343
+I1
+sS'ataxia'
+p344
+I1
+sS'damag'
+p345
+I18
+sS'clarif'
+p346
+I1
+sS'bearing serin'
+p347
+I1
+sS'transcriptional activity of the p53 protein'
+p348
+I2
+sS'accumul'
+p349
+I2
+sS'p53-gst'
+p350
+I7
+sS'n-terminal transactivation domain of p53'
+p351
+I2
+sS'the c-terminal of p53'
+p352
+I1
+sS'activity of wtp53'
+p353
+I1
+sS'aliquot'
+p354
+I1
+sS'activation domain of the p53 protein'
+p355
+I1
+sS'chk2'
+p356
+I1
+sS'transcriptional regul'
+p357
+I1
+sS'inhibit'
+p358
+I1
+sS'individual mut'
+p359
+I1
+sS'wild type p53'
+p360
+I1
+sS'genotoxic stress'
+p361
+I1
+sS'activation of heat shock'
+p362
+I1
+sS'inactivation protocol'
+p363
+I2
+sS'primary kinas'
+p364
+I1
+sS'damage mechanisms for p53 activ'
+p365
+I1
+sS'biotech'
+p366
+I1
+sS'site'
+p367
+I13
+sS'phosphorylation site for gsk3\xce\xb2'
+p368
+I1
+sS'ii'
+p369
+I3
+sS'molecular biochem'
+p370
+I1
+sS'protein'
+p371
+I41
+sS'activation of th'
+p372
+I2
+sS'reaction mix'
+p373
+I1
+sS'mutat'
+p374
+I5
+sS'kinase react'
+p375
+I1
+sS'of th'
+p376
+I1
+sS'of transcriptional act'
+p377
+I2
+sS'basal transcriptional activity of th'
+p378
+I2
+sS'basal transcriptional activity of the p53 protein'
+p379
+I2
+sS'complex'
+p380
+I1
+sS'p53 accumul'
+p381
+I1
+sS'p53 transcript'
+p382
+I6
+sS'non-dna damage pathway'
+p383
+I1
+sS'i0'
+p384
+I2
+sS'of the prephosphorylated p53-gst'
+p385
+I1
+sS'acetyl'
+p386
+I2
+sS'\xce\xbcl of'
+p387
+I2
+sS'key quest'
+p388
+I1
+sS'stabilization of the p53'
+p389
+I2
+sS'gst'
+p390
+I1
+sS'stimuli'
+p391
+I1
+sS'stabilization of'
+p392
+I2
+sS'p53 regulated gen'
+p393
+I1
+sS'target protein'
+p394
+I1
+sS'tumor suppressor gen'
+p395
+I1
+sS'model'
+p396
+I1
+sS'new england biolab'
+p397
+I2
+sS'p53 tumor suppressor gen'
+p398
+I1
+sS'protocol'
+p399
+I3
+sS'of dna-pk'
+p400
+I2
+sS'pharmacia'
+p401
+I1
+sS'vivo p53'
+p402
+I1
+sS'atr protein kinas'
+p403
+I1
+sS'ionizing radi'
+p404
+I5
+sS'mm hepes ph'
+p405
+I1
+sS'cells growth'
+p406
+I1
+sS'\xce\xbcl of kgb'
+p407
+I1
+sS'arrest'
+p408
+I4
+sS'p53 phosphoryl'
+p409
+I2
+sS'sub-unit'
+p410
+I1
+sS'n-terminal transactivation domain of'
+p411
+I2
+sS'map kinas'
+p412
+I5
+sS'fusion'
+p413
+I2
+sS'phosphorylation status of serin'
+p414
+I1
+sS'mm naf'
+p415
+I1
+sS'autophosphorylation of gsk3\xce\xb1'
+p416
+I1
+sS'the n-terminal of p53'
+p417
+I1
+sS'p53-dna damag'
+p418
+I1
+sS'potential gsk3 phosphorylation sit'
+p419
+I2
+sS'gsk3\xce\xb2-depend'
+p420
+I1
+sS'p53 tumor suppressor'
+p421
+I1
+sS'the p53 protein'
+p422
+I8
+sS'n-terminal transcriptional activation domain of the p53'
+p423
+I1
+sS'wtp53'
+p424
+I8
+sS'the reaction mix'
+p425
+I1
+sS'phosphorylation status of'
+p426
+I1
+sS'regulated gen'
+p427
+I1
+sS'p81 paper'
+p428
+I1
+sS'of p53 protein'
+p429
+I1
+sS'of pkb'
+p430
+I1
+sS'growth'
+p431
+I9
+sS'phosphorylation of the substrate peptid'
+p432
+I1
+sS'phosphorylation sit'
+p433
+I11
+sS'gsk3\xce\xb2-dependent phosphoryl'
+p434
+I1
+sS'\xce\xbcl of the reaction mix'
+p435
+I1
+sS'phosphorylation react'
+p436
+I1
+sS'transactivation domain'
+p437
+I1
+sS'protein kinas'
+p438
+I16
+sS'dna-dependent protein'
+p439
+I1
+sS'accumulation of'
+p440
+I1
+sS'p53 protein'
+p441
+I20
+sS'upstate biotech'
+p442
+I1
+sS'transcriptional activity of wtp53'
+p443
+I1
+sS'gsk3 inhibit'
+p444
+I1
+sS'of'
+p445
+I5
+sS'new england'
+p446
+I2
+sS'antibodi'
+p447
+I3
+sS'fusion protein'
+p448
+I2
+sS'mm na-acet'
+p449
+I1
+sS'of p53-regulated growth'
+p450
+I1
+sS'repair'
+p451
+I1
+sS'effici'
+p452
+I1
+sS'sepharos'
+p453
+I1
+sS'the potential role of gsk3\xce\xb2'
+p454
+I1
+sS'h complex'
+p455
+I1
+sS'of p53 activ'
+p456
+I2
+sS'mm dtt'
+p457
+I2
+sS'edta'
+p458
+I3
+sS'physiological regulator of the p53 protein'
+p459
+I1
+sS'endogenous p53'
+p460
+I1
+sS'of the p53 protein'
+p461
+I8
+sS'phosphorylation of the n-terminal of'
+p462
+I1
+sS'question'
+p463
+I1
+sS'aliquots of the prephosphorylated p53-gst'
+p464
+I1
+sS'transcriptional activation domain of the p53 protein'
+p465
+I1
+sS'mutagenesi'
+p466
+I3
+sS'nf\xce\xba b'
+p467
+I2
+sS'recombinant gsk3\xce\xb1'
+p468
+I1
+sS'n-terminal of the p53 protein'
+p469
+I1
+sS'phosphocreb peptid'
+p470
+I2
+sS'\xce\xbcl of the react'
+p471
+I1
+sS'kgb buffer'
+p472
+I1
+sS'serin'
+p473
+I16
+sS'cdk7-cyclin'
+p474
+I1
+sS'ph'
+p475
+I2
+sS'transactivation domain of p53'
+p476
+I2
+sS'stabilization of th'
+p477
+I2
+sS'pcdnap53'
+p478
+I1
+sS'casein'
+p479
+I3
+sS'vivo'
+p480
+I12
+sS'transcription of p53-regul'
+p481
+I1
+sS'munit'
+p482
+I1
+sS'absenc'
+p483
+I2
+sS'cellular effects of'
+p484
+I1
+sS'diverse stimuli'
+p485
+I1
+sS'phosphorylation of gsk3\xce\xb2'
+p486
+I1
+sS'gsk3\xce\xb2 express'
+p487
+I1
+sS'clarification of'
+p488
+I1
+sS'pgex-2t'
+p489
+I1
+sS'p14 arfgen'
+p490
+I1
+sS'of nf\xce\xba b'
+p491
+I1
+sS'regul'
+p492
+I1
+sS'myc'
+p493
+I1
+sS'dna-damag'
+p494
+I1
+sS'key function of'
+p495
+I1
+sS'england biolab'
+p496
+I2
+sS'nj'
+p497
+I1
+sS'naf'
+p498
+I1
+sS'phosphorylations of'
+p499
+I1
+sS'na-acet'
+p500
+I1
+sS'ny'
+p501
+I2
+sS'acetylation of'
+p502
+I1
+sS'physiological regul'
+p503
+I1
+sS'bamh1 sit'
+p504
+I1
+sS'i0 \xce\xbcm'
+p505
+I2
+sS'site for gsk3\xce\xb2'
+p506
+I1
+sS'ubiquitin-dependent degrad'
+p507
+I1
+sS'potential gsk3 phosphoryl'
+p508
+I2
+sS'gst protein'
+p509
+I1
+sS'acetylation of the c-terminal of p53'
+p510
+I1
+sS'kinase assay'
+p511
+I1
+sS'mm edta'
+p512
+I3
+sS'of wtp53'
+p513
+I1
+sS'p53-dna damage response pathway'
+p514
+I1
+sS'wtp53 protein'
+p515
+I1
+sS'peptid'
+p516
+I6
+sS'pgex-2t gst fus'
+p517
+I1
+sS'pcmv-\xce\xb2-galatosidas'
+p518
+I1
+sS'degrad'
+p519
+I1
+sS'isoforms of gsk3'
+p520
+I1
+stp521
+Rp522
+tp523
+.

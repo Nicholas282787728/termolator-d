@@ -1,0 +1,1652 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'circuitri'
+p7
+I1
+sS'rom'
+p8
+I5
+sS'logical network id'
+p9
+I3
+sS'consum'
+p10
+I1
+sS'for web sit'
+p11
+I1
+sS'networking environ'
+p12
+I2
+sS'code'
+p13
+I2
+sS'interactive capability for'
+p14
+I1
+sS'disk'
+p15
+I4
+sS'scp'
+p16
+I61
+sS'millisecond'
+p17
+I1
+sS'timer servic'
+p18
+I1
+sS'exemplary network environ'
+p19
+I1
+sS'tv'
+p20
+I3
+sS'rf'
+p21
+I1
+sS'network interconnect'
+p22
+I1
+sS'escpapvars_net_presenceslowrefresh'
+p23
+I1
+sS'program'
+p24
+I31
+sS'entertainment media'
+p25
+I2
+sS'digital video tap'
+p26
+I1
+sS'internet'
+p27
+I12
+sS'digital video'
+p28
+I1
+sS'voic'
+p29
+I1
+sS'wave'
+p30
+I1
+sS'util'
+p31
+I6
+sS'electron'
+p32
+I1
+sS'device-control protocol'
+p33
+I1
+sS'hypertext-transf'
+p34
+I1
+sS'exemplary scp stack'
+p35
+I1
+sS'universal plug'
+p36
+I1
+sS'dynamic tuning of'
+p37
+I1
+sS'various implementations of scp'
+p38
+I1
+sS'escpapvars_net_presenceslowbaseid'
+p39
+I2
+sS'of potential interplay'
+p40
+I2
+sS'non-remov'
+p41
+I3
+sS'scp device model'
+p42
+I2
+sS'electrical wir'
+p43
+I1
+sS'stamped messag'
+p44
+I2
+sS'address space arbitr'
+p45
+I3
+sS'video'
+p46
+I1
+sS'message packet'
+p47
+I1
+sS'real-world scenario'
+p48
+I1
+sS'telephon'
+p49
+I1
+sS'hamper'
+p50
+I1
+sS'microphon'
+p51
+I1
+sS'clock'
+p52
+I2
+sS'physical environ'
+p53
+I2
+sS'slowbaseid'
+p54
+I2
+sS'access'
+p55
+I4
+sS'optional nested sub-devic'
+p56
+I1
+sS'version'
+p57
+I1
+sS'binary vers'
+p58
+I1
+sS'error'
+p59
+I1
+sS'qualifying messag'
+p60
+I4
+sS'entertain'
+p61
+I2
+sS'world wid'
+p62
+I1
+sS'address'
+p63
+I12
+sS'building-block servic'
+p64
+I1
+sS'routes work'
+p65
+I2
+sS'standard'
+p66
+I1
+sS'interpret'
+p67
+I1
+sS'non-limiting heuristic choic'
+p68
+I1
+sS'program modul'
+p69
+I15
+sS'root'
+p70
+I1
+sS'adjacent apart'
+p71
+I1
+sS'networked component address'
+p72
+I1
+sS'audio-visual equip'
+p73
+I1
+sS'implementations of scp support network'
+p74
+I1
+sS'implement'
+p75
+I6
+sS'countdown incr'
+p76
+I1
+sS'micro channel'
+p77
+I1
+sS'ip network'
+p78
+I1
+sS'keep-alive messag'
+p79
+I1
+sS'home networking environ'
+p80
+I1
+sS'exemplary non-limiting choic'
+p81
+I1
+sS'api'
+p82
+I2
+sS'web serv'
+p83
+I1
+sS'usb'
+p84
+I1
+sS'parallel port'
+p85
+I1
+sS'of the program'
+p86
+I1
+sS'temporary network aberr'
+p87
+I1
+sS'univers'
+p88
+I2
+sS'trackbal'
+p89
+I1
+sS'implementation of scp'
+p90
+I1
+sS'criteria'
+p91
+I1
+sS'decrypts communications for secur'
+p92
+I1
+sS'physical medium utilized for'
+p93
+I1
+sS'enhanc'
+p94
+I1
+sS'server nod'
+p95
+I1
+sS'motion sensor'
+p96
+I1
+sS'reproduct'
+p97
+I1
+sS'graphic'
+p98
+I1
+sS'emulation environ'
+p99
+I3
+sS'player'
+p100
+I2
+sS'mm'
+p101
+I1
+sS'delivery media'
+p102
+I2
+sS'work'
+p103
+I1
+sS'online servic'
+p104
+I1
+sS'b h'
+p105
+I1
+sS'implementation of'
+p106
+I1
+sS'aliv'
+p107
+I2
+sS'optimization of'
+p108
+I1
+sS'protocol stack'
+p109
+I2
+sS'of network bandwidth utilized for presence track'
+p110
+I1
+sS'peer-to-peer network'
+p111
+I1
+sS'household'
+p112
+I1
+sS'share'
+p113
+I3
+sS'redmond wa'
+p114
+I1
+sS'spi'
+p115
+I3
+sS'networked appli'
+p116
+I1
+sS'serial'
+p117
+I1
+sS'accelerated graphics port'
+p118
+I1
+sS'motion'
+p119
+I1
+sS'interconnect'
+p120
+I3
+sS'upnp tv'
+p121
+I1
+sS'of scp support network'
+p122
+I1
+sS'lamp'
+p123
+I4
+sS'carrier'
+p124
+I16
+sS'vcr audio'
+p125
+I1
+sS'simpl'
+p126
+I3
+sS'lan'
+p127
+I4
+sS'resourc'
+p128
+I7
+sS'peer-to-p'
+p129
+I1
+sS'optimal presence assert'
+p130
+I2
+sS'programming error'
+p131
+I1
+sS'attent'
+p132
+I1
+sS'develop'
+p133
+I2
+sS'physic'
+p134
+I2
+sS'universal seri'
+p135
+I1
+sS'environ'
+p136
+I22
+sS'unicast packet'
+p137
+I1
+sS'low-speed communication network'
+p138
+I1
+sS'mainfram'
+p139
+I1
+sS'transport media'
+p140
+I1
+sS'eisa'
+p141
+I1
+sS'implementing cod'
+p142
+I2
+sS'equip'
+p143
+I1
+sS'ieee'
+p144
+I1
+sS'paramet'
+p145
+I1
+sS'monitor'
+p146
+I1
+sS'two-level address'
+p147
+I1
+sS'video tap'
+p148
+I1
+sS'scp emulation environ'
+p149
+I1
+sS'keep al'
+p150
+I2
+sS'handheld'
+p151
+I1
+sS'network tun'
+p152
+I1
+sS'pci'
+p153
+I1
+sS'infrastructur'
+p154
+I2
+sS'diverse geographic boundari'
+p155
+I1
+sS'pixel'
+p156
+I1
+sS'recept'
+p157
+I1
+sS'logical network'
+p158
+I62
+sS'exemplary non-limiting heuristic choic'
+p159
+I1
+sS'server architectur'
+p160
+I1
+sS'arbitr'
+p161
+I8
+sS'fundamental unit of'
+p162
+I1
+sS'world wide web'
+p163
+I1
+sS'versatile disk'
+p164
+I2
+sS'optical media'
+p165
+I1
+sS'assertion criteria'
+p166
+I1
+sS'wide web'
+p167
+I1
+sS'instruct'
+p168
+I5
+sS'micro'
+p169
+I1
+sS'timeout'
+p170
+I3
+sS'x10'
+p171
+I2
+sS'subsystem'
+p172
+I18
+sS'ordinary skil'
+p173
+I1
+sS'voice traff'
+p174
+I1
+sS'for presence track'
+p175
+I1
+sS'continu'
+p176
+I1
+sS'network pc'
+p177
+I2
+sS'interplay'
+p178
+I1
+sS'scp blind'
+p179
+I1
+sS'physical network manag'
+p180
+I2
+sS'event'
+p181
+I1
+sS'rules engin'
+p182
+I2
+sS'variabl'
+p183
+I8
+sS'network'
+p184
+I127
+sS'alarm clock'
+p185
+I2
+sS'publish'
+p186
+I2
+sS'logical split'
+p187
+I1
+sS'recenc'
+p188
+I1
+sS'vcr'
+p189
+I5
+sS'address space arbit'
+p190
+I1
+sS'hardwar'
+p191
+I1
+sS'url address'
+p192
+I1
+sS'sensor'
+p193
+I1
+sS'network environ'
+p194
+I5
+sS'vertex shad'
+p195
+I1
+sS'tape cassett'
+p196
+I1
+sS'asa'
+p197
+I12
+sS'byte'
+p198
+I1
+sS'universal serial bu'
+p199
+I1
+sS'card'
+p200
+I2
+sS'optimization of network bandwidth util'
+p201
+I1
+sS'network cach'
+p202
+I1
+sS'capabl'
+p203
+I2
+sS'frequenc'
+p204
+I1
+sS'synchron'
+p205
+I1
+sS'magnetic disk'
+p206
+I4
+sS'router'
+p207
+I1
+sS'isa'
+p208
+I2
+sS'eeprom'
+p209
+I1
+sS'blind'
+p210
+I1
+sS'softwar'
+p211
+I8
+sS'node track'
+p212
+I1
+sS'physical media'
+p213
+I10
+sS'scp implement'
+p214
+I2
+sS'of scp'
+p215
+I2
+sS'acquisit'
+p216
+I1
+sS'xx'
+p217
+I1
+sS'network control protocol'
+p218
+I2
+sS'upnp ev'
+p219
+I1
+sS'network id'
+p220
+I3
+sS'network infrastructur'
+p221
+I1
+sS'interact'
+p222
+I2
+sS'messag'
+p223
+I9
+sS'optical disk'
+p224
+I4
+sS'magnetic cassett'
+p225
+I1
+sS'cassett'
+p226
+I2
+sS'protocol-level communication task'
+p227
+I2
+sS'upnp network'
+p228
+I1
+sS'gpu'
+p229
+I1
+sS'scheme'
+p230
+I1
+sS'upnp-capable vcr'
+p231
+I1
+sS'scp communication subsystem'
+p232
+I3
+sS'network environment hav'
+p233
+I1
+sS'exemplary scp'
+p234
+I1
+sS'interactive cap'
+p235
+I1
+sS'transport control protocol'
+p236
+I1
+sS'pna'
+p237
+I1
+sS'reusable modul'
+p238
+I1
+sS'automatic network optim'
+p239
+I2
+sS'cable modem'
+p240
+I1
+sS'target'
+p241
+I1
+sS'network media'
+p242
+I1
+sS'networked hosted servic'
+p243
+I1
+sS'flash memory card'
+p244
+I1
+sS'bridg'
+p245
+I4
+sS'interactive capability for web'
+p246
+I1
+sS'bus architectur'
+p247
+I1
+sS'browser'
+p248
+I1
+sS'bandwidth utilized for presence track'
+p249
+I1
+sS'upnp bridg'
+p250
+I3
+sS'ram'
+p251
+I3
+sS'increment'
+p252
+I1
+sS'geographic boundari'
+p253
+I1
+sS'bellevue wa'
+p254
+I2
+sS'game port'
+p255
+I1
+sS'engin'
+p256
+I2
+sS'rout'
+p257
+I5
+sS'information-gathering cap'
+p258
+I1
+sS'port'
+p259
+I3
+sS'magnetic media'
+p260
+I1
+sS'upnp device model'
+p261
+I1
+sS'scp room'
+p262
+I1
+sS'track'
+p263
+I35
+sS'plc implement'
+p264
+I1
+sS'hosted servic'
+p265
+I1
+sS'random access'
+p266
+I1
+sS'model'
+p267
+I17
+sS'modem'
+p268
+I1
+sS'url'
+p269
+I2
+sS'universal resourc'
+p270
+I1
+sS'alarm'
+p271
+I2
+sS'unique device id'
+p272
+I1
+sS'runtim'
+p273
+I1
+sS'microsoft'
+p274
+I2
+sS'keep-al'
+p275
+I2
+sS'notification messag'
+p276
+I1
+sS'programming languag'
+p277
+I1
+sS'optimization of network bandwidth utilized for presence track'
+p278
+I1
+sS'ncp'
+p279
+I1
+sS'network key'
+p280
+I1
+sS'session'
+p281
+I1
+sS'radio'
+p282
+I1
+sS'dynamic tun'
+p283
+I1
+sS'network transport media'
+p284
+I1
+sS'protocol encrypt'
+p285
+I1
+sS'automatic network'
+p286
+I2
+sS'xml'
+p287
+I1
+sS'micro channel architectur'
+p288
+I1
+sS'transact'
+p289
+I1
+sS'web sit'
+p290
+I1
+sS'alives optim'
+p291
+I1
+sS'busi'
+p292
+I1
+sS'tape'
+p293
+I2
+sS'peripheral component interconnect'
+p294
+I1
+sS'buse'
+p295
+I1
+sS'optimization of network'
+p296
+I1
+sS'utilized for presence track'
+p297
+I1
+sS'logical address'
+p298
+I1
+sS'network tuning paramet'
+p299
+I1
+sS'logical network of scp'
+p300
+I1
+sS'integr'
+p301
+I1
+sS'media includ'
+p302
+I1
+sS'magnetic tape cassett'
+p303
+I1
+sS'packet'
+p304
+I2
+sS'facsimile reproduct'
+p305
+I1
+sS'bus interoper'
+p306
+I1
+sS'optimization using keep al'
+p307
+I1
+sS'wire'
+p308
+I1
+sS'escpapvars_net_presenceslowbaseld'
+p309
+I1
+sS'boundari'
+p310
+I1
+sS'digital versatile disk'
+p311
+I2
+sS'network optimization using keep al'
+p312
+I1
+sS'low-bandwidth'
+p313
+I2
+sS'subscript'
+p314
+I4
+sS'dsn'
+p315
+I1
+sS'approach'
+p316
+I1
+sS'network optim'
+p317
+I1
+sS'optimization of network bandwidth utilized for'
+p318
+I1
+sS'assumpt'
+p319
+I1
+sS'wa'
+p320
+I3
+sS'web-enabled interface for'
+p321
+I1
+sS'various implementations of scp support network'
+p322
+I1
+sS'key'
+p323
+I1
+sS'local area network'
+p324
+I1
+sS'exemplary operating environ'
+p325
+I2
+sS'non-removable media'
+p326
+I2
+sS'computer-executable instruct'
+p327
+I1
+sS'mezzanine bu'
+p328
+I1
+sS'scp chipset'
+p329
+I2
+sS'dsl'
+p330
+I1
+sS'coprocessor'
+p331
+I1
+sS'com'
+p332
+I1
+sS'pda'
+p333
+I2
+sS'applianc'
+p334
+I1
+sS'easy-to-use mechanism for'
+p335
+I1
+sS'northbridg'
+p336
+I2
+sS'exemplari'
+p337
+I2
+sS'interactive capability for web sit'
+p338
+I1
+sS'acquisition author'
+p339
+I1
+sS'identif'
+p340
+I3
+sS'radio frequ'
+p341
+I1
+sS'cross-platform integr'
+p342
+I1
+sS'decrypts communications for'
+p343
+I1
+sS'stamp'
+p344
+I1
+sS'bbb'
+p345
+I1
+sS'timer countdown incr'
+p346
+I1
+sS'pc'
+p347
+I9
+sS'trigger'
+p348
+I1
+sS'subscrib'
+p349
+I2
+sS'arbit'
+p350
+I2
+sS'automatic network optimization using keep'
+p351
+I1
+sS'mca'
+p352
+I1
+sS'scp network'
+p353
+I5
+sS'assert'
+p354
+I7
+sS'heuristic choic'
+p355
+I2
+sS'address schem'
+p356
+I1
+sS'cdrom'
+p357
+I1
+sS'channel architectur'
+p358
+I1
+sS'accelerated graph'
+p359
+I1
+sS'interoper'
+p360
+I2
+sS'node re-ent'
+p361
+I1
+sS'consumer electron'
+p362
+I1
+sS'servic'
+p363
+I4
+sS'scp device emulation environ'
+p364
+I1
+sS're-ent'
+p365
+I1
+sS'logical network of'
+p366
+I1
+sS'behavior'
+p367
+I2
+sS'aberr'
+p368
+I1
+sS'intranet'
+p369
+I3
+sS'execution cap'
+p370
+I1
+sS'overview of'
+p371
+I1
+sS'ip'
+p372
+I3
+sS'network behavior'
+p373
+I1
+sS'site'
+p374
+I1
+sS'destin'
+p375
+I2
+sS'of a logical network'
+p376
+I2
+sS'coaxial c'
+p377
+I1
+sS'vesa'
+p378
+I1
+sS'ic'
+p379
+I1
+sS'networked environ'
+p380
+I2
+sS'id'
+p381
+I23
+sS'bellevu'
+p382
+I2
+sS'author'
+p383
+I1
+sS'of th'
+p384
+I1
+sS'media'
+p385
+I47
+sS'html'
+p386
+I1
+sS'pad'
+p387
+I2
+sS'split'
+p388
+I1
+sS'industry standard architectur'
+p389
+I1
+sS'http'
+p390
+I2
+sS'game pad'
+p391
+I1
+sS'serial bu'
+p392
+I1
+sS'logical network for'
+p393
+I1
+sS'optim'
+p394
+I3
+sS'protocol standard'
+p395
+I1
+sS'logic'
+p396
+I2
+sS'primary task'
+p397
+I1
+sS'escpapvars_net_presencefasttimeout'
+p398
+I2
+sS'third-parti'
+p399
+I1
+sS'stack'
+p400
+I4
+sS'task'
+p401
+I5
+sS'scenario'
+p402
+I1
+sS'escpapvars_net_presencefastrefresh'
+p403
+I1
+sS'client'
+p404
+I3
+sS'unique protocol'
+p405
+I1
+sS'joystick'
+p406
+I1
+sS'audio'
+p407
+I1
+sS'lightweight device-control protocol'
+p408
+I1
+sS'protocol'
+p409
+I25
+sS'carrier wav'
+p410
+I1
+sS'execut'
+p411
+I1
+sS'home network'
+p412
+I1
+sS'tcp'
+p413
+I5
+sS'bandwidth'
+p414
+I1
+sS'touch'
+p415
+I1
+sS'skill'
+p416
+I1
+sS'simple control protocol'
+p417
+I3
+sS'languag'
+p418
+I2
+sS'web'
+p419
+I1
+sS'automatic network optimization using keep al'
+p420
+I1
+sS'hint'
+p421
+I3
+sS'interfer'
+p422
+I2
+sS'internet protocol'
+p423
+I1
+sS'e exemplary network'
+p424
+I1
+sS'overview'
+p425
+I5
+sS'apart'
+p426
+I1
+sS'modul'
+p427
+I15
+sS'network nod'
+p428
+I1
+sS'the program modul'
+p429
+I1
+sS'home theat'
+p430
+I1
+sS'bio'
+p431
+I1
+sS'choic'
+p432
+I2
+sS'game'
+p433
+I2
+sS'scp stack'
+p434
+I1
+sS'traffic'
+p435
+I3
+sS'potential interplay'
+p436
+I1
+sS'world'
+p437
+I1
+sS'peripher'
+p438
+I1
+sS'enterprise-wide computer network'
+p439
+I1
+sS'server'
+p440
+I2
+sS'optimization of network bandwidth'
+p441
+I1
+sS'scp address'
+p442
+I1
+sS'wide-spread information shar'
+p443
+I1
+sS'manag'
+p444
+I2
+sS'peripheral bu'
+p445
+I1
+sS'yyyi'
+p446
+I1
+sS'node'
+p447
+I58
+sS'www'
+p448
+I1
+sS'upnp stack'
+p449
+I1
+sS'cabl'
+p450
+I2
+sS'capability for web sit'
+p451
+I1
+sS'touch pad'
+p452
+I1
+sS'home'
+p453
+I3
+sS'transport'
+p454
+I3
+sS'enhanced isa'
+p455
+I1
+sS'exemplary log'
+p456
+I1
+sS'broadband'
+p457
+I1
+sS'logical network for secur'
+p458
+I1
+sS'seamlessly interoper'
+p459
+I1
+sS'e-mail'
+p460
+I2
+sS'dynamic tuning of logical network'
+p461
+I1
+sS'of the program modul'
+p462
+I2
+sS'network layer protocol'
+p463
+I1
+sS'presencerefresh'
+p464
+I1
+sS'wide area network'
+p465
+I1
+sS'network address'
+p466
+I3
+sS'hybrid architectur'
+p467
+I1
+sS'zzz'
+p468
+I2
+sS'escpapvars_net_presenceslowtimeout'
+p469
+I2
+sS'network manag'
+p470
+I2
+sS'acronym'
+p471
+I1
+sS'node id'
+p472
+I12
+sS'application-processor'
+p473
+I1
+sS'bu'
+p474
+I31
+sS'host'
+p475
+I1
+sS'bandwidth util'
+p476
+I4
+sS'plc'
+p477
+I7
+sS'node presence track'
+p478
+I3
+sS'microcontrol'
+p479
+I1
+sS'peer'
+p480
+I1
+sS'ids part track'
+p481
+I1
+sS'plug'
+p482
+I1
+sS'node ids part track'
+p483
+I1
+sS'scp support network'
+p484
+I1
+sS'physical network media'
+p485
+I1
+sS'of'
+p486
+I4
+sS'physical network'
+p487
+I10
+sS'downloadable device softwar'
+p488
+I1
+sS'scp address space arbitr'
+p489
+I1
+sS'industri'
+p490
+I1
+sS'processor'
+p491
+I2
+sS'naive approach'
+p492
+I1
+sS'nested sub-devic'
+p493
+I1
+sS'exemplary network'
+p494
+I4
+sS'mezzanin'
+p495
+I1
+sS'yyy'
+p496
+I1
+sS'automat'
+p497
+I2
+sS'network aberr'
+p498
+I1
+sS'network transport'
+p499
+I1
+sS'wan'
+p500
+I1
+sS'various implementations of'
+p501
+I1
+sS'graphics port'
+p502
+I1
+sS'tracker'
+p503
+I4
+sS'suit'
+p504
+I1
+sS'deliveri'
+p505
+I1
+sS'redmond'
+p506
+I1
+sS'temporary network'
+p507
+I1
+sS'exemplary implement'
+p508
+I1
+sS'link'
+p509
+I2
+sS'two-level address schem'
+p510
+I1
+sS'sub-devic'
+p511
+I3
+sS'nonvolatile computer storage media'
+p512
+I2
+sS'absenc'
+p513
+I1
+sS'chipset'
+p514
+I4
+sS'exemplary logical network'
+p515
+I1
+sS'display'
+p516
+I1
+sS'exemplary non-limiting choice for'
+p517
+I1
+sS'aa'
+p518
+I3
+sS'scp bridg'
+p519
+I1
+sS'ap'
+p520
+I1
+sS'shader'
+p521
+I3
+sS'upnp'
+p522
+I1
+sS'ip suit'
+p523
+I1
+sS'hamper presence track'
+p524
+I2
+sS'encrypt'
+p525
+I1
+sS'node identif'
+p526
+I3
+sS'network environment having cli'
+p527
+I1
+sS'network resourc'
+p528
+I1
+sS'standard architectur'
+p529
+I1
+sS'transmiss'
+p530
+I2
+sS'web brows'
+p531
+I1
+sS'architectur'
+p532
+I7
+sS'industry standard'
+p533
+I1
+sS'hand-held'
+p534
+I1
+sS'tuning paramet'
+p535
+I1
+sS'physical medium util'
+p536
+I1
+sS'lan network'
+p537
+I1
+sS'hypertext-transfer protocol'
+p538
+I1
+sS'overview of scp'
+p539
+I1
+sS'dvi'
+p540
+I1
+sS'magnetic tap'
+p541
+I2
+sS'dvd'
+p542
+I1
+sS'cd-rom'
+p543
+I1
+sS'rule'
+p544
+I3
+sS'network bandwidth utilized for presence track'
+p545
+I1
+sS'various implement'
+p546
+I1
+sS'lan networking environ'
+p547
+I1
+sS'scp device emul'
+p548
+I1
+sS'address-space arbitr'
+p549
+I2
+sS'cpu'
+p550
+I1
+sS'agp'
+p551
+I1
+stp552
+Rp553
+tp554
+.

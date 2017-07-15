@@ -1,0 +1,503 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'cordonnet'
+p7
+I12
+sS'knot'
+p8
+I33
+sS'chain'
+p9
+I5
+sS'gans'
+p10
+I2
+sS'4th row'
+p11
+I7
+sS'next chapt'
+p12
+I1
+sS'coarse stiff thread'
+p13
+I1
+sS'vertical thread'
+p14
+I1
+sS'double bar'
+p15
+I1
+sS'8th thread'
+p16
+I2
+sS'quadruple bar'
+p17
+I2
+sS'row'
+p18
+I46
+sS'round picot'
+p19
+I2
+sS'thumb'
+p20
+I1
+sS'3rd row'
+p21
+I6
+sS'openwork bord'
+p22
+I1
+sS'ganse turqu'
+p23
+I1
+sS'arabian stuff'
+p24
+I1
+sS'scissor'
+p25
+I1
+sS'looped picot'
+p26
+I1
+sS'instruct'
+p27
+I1
+sS'vertical bar'
+p28
+I2
+sS'vert'
+p29
+I1
+sS'macram'
+p30
+I34
+sS'large shel'
+p31
+I1
+sS'arab'
+p32
+I2
+sS'3rd bar'
+p33
+I1
+sS'moucharabieh'
+p34
+I1
+sS'2nd blue thread'
+p35
+I1
+sS'agrav'
+p36
+I18
+sS'bar'
+p37
+I39
+sS'name'
+p38
+I1
+sS'gris-tilleul of th'
+p39
+I1
+sS'laquo'
+p40
+I5
+sS'cru'
+p41
+I3
+sS'tre'
+p42
+I1
+sS'plaited knot'
+p43
+I1
+sS'2nd chain'
+p44
+I1
+sS'stuff'
+p45
+I2
+sS'3rd blue thread'
+p46
+I1
+sS'round'
+p47
+I4
+sS'right'
+p48
+I3
+sS'continuation of th'
+p49
+I1
+sS'brown thread'
+p50
+I1
+sS'continu'
+p51
+I3
+sS'd'
+p52
+I1
+sS'gimp trim'
+p53
+I1
+sS'3rd thread'
+p54
+I4
+sS'7th'
+p55
+I3
+sS'close'
+p56
+I1
+sS'5th thread'
+p57
+I4
+sS'blue'
+p58
+I4
+sS'cotton'
+p59
+I2
+sS'stitch'
+p60
+I1
+sS'3rd'
+p61
+I19
+sS'work round'
+p62
+I2
+sS'egrav'
+p63
+I1
+sS'plait'
+p64
+I1
+sS'finger'
+p65
+I1
+sS'knotting-thread'
+p66
+I2
+sS'eacut'
+p67
+I58
+sS'arabic nam'
+p68
+I1
+sS'dark brown thread'
+p69
+I1
+sS'continuation of'
+p70
+I1
+sS'shell knot'
+p71
+I1
+sS'entir'
+p72
+I14
+sS'picot'
+p73
+I28
+sS'buttonhole knot'
+p74
+I3
+sS'mosaic bord'
+p75
+I1
+sS'fring'
+p76
+I1
+sS'mosaic macram'
+p77
+I1
+sS'chapter'
+p78
+I1
+sS'c'
+p79
+I3
+sS'4th dark green thread'
+p80
+I1
+sS'thread'
+p81
+I63
+sS'cru cotton'
+p82
+I1
+sS'mdash'
+p83
+I59
+sS'trial'
+p84
+I1
+sS'embroidery cotton'
+p85
+I1
+sS'knot clos'
+p86
+I1
+sS'vert-mouss'
+p87
+I1
+sS'wind thread'
+p88
+I1
+sS'4th finger'
+p89
+I1
+sS'letter'
+p90
+I1
+sS'2nd knot'
+p91
+I1
+sS'ground'
+p92
+I1
+sS'2nd'
+p93
+I20
+sS'dark green thread'
+p94
+I1
+sS'7th row'
+p95
+I2
+sS'ring knot'
+p96
+I4
+sS'ring'
+p97
+I4
+sS'quintuple bar'
+p98
+I1
+sS'carpet'
+p99
+I1
+sS'gris-tilleul of'
+p100
+I1
+sS'hand-work'
+p101
+I1
+sS'recommend'
+p102
+I1
+sS'preliminary tri'
+p103
+I1
+sS'vert bouteil'
+p104
+I1
+sS'gimp head'
+p105
+I2
+sS'4th blue thread'
+p106
+I1
+sS'head'
+p107
+I4
+sS'2nd thread'
+p108
+I4
+sS'eastern'
+p109
+I1
+sS'chain stitch'
+p110
+I1
+sS'ornamental fring'
+p111
+I1
+sS'continuous repetit'
+p112
+I1
+sS'eastern hous'
+p113
+I1
+sS'single chain'
+p114
+I1
+sS'repetit'
+p115
+I1
+sS'count'
+p116
+I1
+sS'horizontal thread'
+p117
+I1
+sS'b'
+p118
+I10
+sS'hous'
+p119
+I1
+sS'work'
+p120
+I2
+sS'blue thread'
+p121
+I3
+sS'openwork strip'
+p122
+I1
+sS'diagonal corn'
+p123
+I1
+sS'9th'
+p124
+I2
+sS'bouteil'
+p125
+I1
+sS'4th thread'
+p126
+I9
+sS'beaded ground'
+p127
+I1
+sS'loop'
+p128
+I1
+sS'trim'
+p129
+I1
+sS'knotted picot'
+p130
+I1
+sS'2nd row'
+p131
+I9
+sS'right thread'
+p132
+I1
+sS'border'
+p133
+I2
+sS'knot right'
+p134
+I1
+sS'letter g'
+p135
+I1
+sS'broder'
+p136
+I2
+sS'ordinary double knot'
+p137
+I1
+sS'cru thread'
+p138
+I12
+sS'accuraci'
+p139
+I1
+sS'4th bar'
+p140
+I1
+sS'2nd dark brown thread'
+p141
+I1
+sS'2nd bar'
+p142
+I1
+sS'horizontal bar'
+p143
+I28
+sS'gimp'
+p144
+I7
+sS'unknot'
+p145
+I1
+sS'picot head'
+p146
+I2
+sS'double knot'
+p147
+I1
+sS'6th thread'
+p148
+I1
+sS'4th'
+p149
+I2
+sS'single crossed knot'
+p150
+I1
+sS'stripe'
+p151
+I1
+sS'attent'
+p152
+I1
+sS'crossed knot'
+p153
+I1
+sS'large shell knot'
+p154
+I1
+sS'4th blue'
+p155
+I1
+sS'stiff thread'
+p156
+I1
+sS'knots count'
+p157
+I1
+sS'chain knot'
+p158
+I2
+sS'5th row'
+p159
+I6
+sS'e'
+p160
+I1
+sS'scrupulous attent'
+p161
+I1
+sS'6th'
+p162
+I5
+sS'raquo'
+p163
+I5
+sS'green thread'
+p164
+I1
+sS'6th row'
+p165
+I4
+sS'9th row'
+p166
+I1
+sS'wind'
+p167
+I1
+sS'8th row'
+p168
+I1
+stp169
+Rp170
+tp171
+.

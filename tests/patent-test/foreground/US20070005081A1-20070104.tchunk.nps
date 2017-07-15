@@ -1,0 +1,689 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'incis'
+p7
+I1
+sS'recess'
+p8
+I4
+sS'repairing septal defect'
+p9
+I2
+sS'consider'
+p10
+I1
+sS'proximal edge of cutting recess'
+p11
+I1
+sS'distal anchor'
+p12
+I1
+sS'distal end project'
+p13
+I2
+sS'suture lead'
+p14
+I2
+sS'rod'
+p15
+I5
+sS'longitudinal inner lumen'
+p16
+I1
+sS'legal'
+p17
+I1
+sS'sutur'
+p18
+I52
+sS'the butterfly gear'
+p19
+I1
+sS'distal portion of'
+p20
+I2
+sS'engagement rod'
+p21
+I1
+sS'cut'
+p22
+I6
+sS'cross-sectional view of'
+p23
+I1
+sS'longitudinal movement of'
+p24
+I2
+sS'guidewir'
+p25
+I2
+sS'holder'
+p26
+I10
+sS'single catheter mitr'
+p27
+I1
+sS'proxim'
+p28
+I5
+sS'engagement apertur'
+p29
+I1
+sS'frictional engag'
+p30
+I1
+sS'spindl'
+p31
+I2
+sS'cross-sectional view of th'
+p32
+I1
+sS'of a distal portion of the suture cut'
+p33
+I1
+sS'edward'
+p34
+I1
+sS'guide sutur'
+p35
+I1
+sS'of a suture cut'
+p36
+I1
+sS'cutter'
+p37
+I6
+sS'sheath cutout'
+p38
+I1
+sS'alignment rod'
+p39
+I4
+sS'of a distal portion of the sutur'
+p40
+I1
+sS'handl'
+p41
+I18
+sS'of cutting recess'
+p42
+I2
+sS'of the catheter dist'
+p43
+I2
+sS'piec'
+p44
+I4
+sS'distal fac'
+p45
+I1
+sS'protective outer sheath'
+p46
+I4
+sS'of the butterfly gear'
+p47
+I2
+sS'knot'
+p48
+I4
+sS'surgic'
+p49
+I1
+sS'dye'
+p50
+I1
+sS'foramen oval'
+p51
+I2
+sS'distal portions of the fastener cathet'
+p52
+I1
+sS'introduct'
+p53
+I1
+sS'distal portion of the cathet'
+p54
+I1
+sS'mitral valve repair'
+p55
+I2
+sS'inner lumen'
+p56
+I1
+sS'legal depart'
+p57
+I1
+sS'proximal edge of cut'
+p58
+I1
+sS'catheter distal portion of'
+p59
+I1
+sS'circumfer'
+p60
+I2
+sS'internal attach'
+p61
+I2
+sS'tissue findlay'
+p62
+I1
+sS'adjacent tissu'
+p63
+I2
+sS'foramen'
+p64
+I1
+sS'suture cutt'
+p65
+I6
+sS'apertur'
+p66
+I1
+sS'mitral'
+p67
+I2
+sS'clip dist'
+p68
+I2
+sS'relative larg'
+p69
+I1
+sS'suturing adjacent tissu'
+p70
+I1
+sS'of the fastener cathet'
+p71
+I2
+sS'surgical knot push'
+p72
+I2
+sS'shape-memory alloy'
+p73
+I1
+sS'heart tissu'
+p74
+I1
+sS'cathet'
+p75
+I66
+sS'distal portion of the suture cut'
+p76
+I1
+sS'single cathet'
+p77
+I1
+sS'suture clip'
+p78
+I3
+sS'of a sutur'
+p79
+I1
+sS'catheter dist'
+p80
+I3
+sS'the fastener cathet'
+p81
+I1
+sS'approximation sit'
+p82
+I1
+sS'distal end of the cathet'
+p83
+I1
+sS'lead'
+p84
+I2
+sS'of the suture cutting cathet'
+p85
+I4
+sS'handle knob'
+p86
+I1
+sS'proximal movement of the butterfly gear'
+p87
+I1
+sS'distal portions of th'
+p88
+I1
+sS'larg'
+p89
+I1
+sS'distal portion of a cathet'
+p90
+I1
+sS'cutout'
+p91
+I1
+sS'suturing adjacent tissue piec'
+p92
+I1
+sS'longitudinal movement of th'
+p93
+I2
+sS'fastener cathet'
+p94
+I9
+sS'of a suture cutting cathet'
+p95
+I3
+sS'suture recess'
+p96
+I5
+sS'surgical knot'
+p97
+I2
+sS'catheter proxim'
+p98
+I5
+sS'pre-clip-deployment configuration of th'
+p99
+I1
+sS'cross-sectional view of the cathet'
+p100
+I1
+sS'cutting cathet'
+p101
+I7
+sS'releas'
+p102
+I2
+sS'suture cut'
+p103
+I6
+sS'of a distal portion of th'
+p104
+I1
+sS'indent'
+p105
+I1
+sS'front view of th'
+p106
+I2
+sS'internal structure of the cathet'
+p107
+I1
+sS'proximal edge of'
+p108
+I1
+sS'of'
+p109
+I10
+sS'suture clip hold'
+p110
+I3
+sS'adjacent tissue piec'
+p111
+I3
+sS'knot push'
+p112
+I3
+sS'motion'
+p113
+I4
+sS'tissue findlay thoma'
+p114
+I1
+sS'proximal movement of'
+p115
+I1
+sS'implement'
+p116
+I1
+sS'therethrough'
+p117
+I3
+sS'longitudinal direction of th'
+p118
+I1
+sS'repair'
+p119
+I2
+sS'distal portions of'
+p120
+I1
+sS'of the catheter proxim'
+p121
+I1
+sS'depart'
+p122
+I1
+sS'heart'
+p123
+I1
+sS'distal'
+p124
+I29
+sS'ca'
+p125
+I2
+sS'sequential heart valve repair'
+p126
+I1
+sS'outer sheath'
+p127
+I4
+sS'circumference of'
+p128
+I1
+sS'catheter distal portion of th'
+p129
+I1
+sS'the suture cutting cathet'
+p130
+I2
+sS'oval'
+p131
+I1
+sS'nickel-titanium alloy'
+p132
+I1
+sS'guid'
+p133
+I1
+sS'of a distal portion of'
+p134
+I1
+sS'internal structure of'
+p135
+I1
+sS'attach'
+p136
+I2
+sS'defect'
+p137
+I2
+sS'relative rotational mot'
+p138
+I1
+sS'internal structure of th'
+p139
+I1
+sS'longitudinal direction of the cathet'
+p140
+I1
+sS'catheter distal portion of the cathet'
+p141
+I1
+sS'start'
+p142
+I2
+sS'suture cutting cathet'
+p143
+I8
+sS'lumen'
+p144
+I2
+sS'suture therethrough'
+p145
+I1
+sS'fluoroscopi'
+p146
+I1
+sS'deliveri'
+p147
+I2
+sS'head'
+p148
+I2
+sS'gear'
+p149
+I8
+sS'hub'
+p150
+I3
+sS'circumference of th'
+p151
+I1
+sS'face'
+p152
+I3
+sS'pfo'
+p153
+I3
+sS'site'
+p154
+I1
+sS'distal portion of the suture cutting cathet'
+p155
+I3
+sS'tissu'
+p156
+I3
+sS'pre-clip-deployment configuration of'
+p157
+I1
+sS'hold'
+p158
+I5
+sS'distal spindl'
+p159
+I2
+sS'radiopaque dy'
+p160
+I1
+sS'proximal displac'
+p161
+I2
+sS'clip deploy'
+p162
+I3
+sS'irvin'
+p163
+I2
+sS'longitudin'
+p164
+I1
+sS'displac'
+p165
+I2
+sS'of a catheter dist'
+p166
+I1
+sS'cap'
+p167
+I4
+sS'catheter inner body dist'
+p168
+I3
+sS'project'
+p169
+I2
+sS'tubular member dist'
+p170
+I2
+sS'suture deploy'
+p171
+I1
+sS'knob'
+p172
+I1
+sS'b h'
+p173
+I1
+sS'distal portion of th'
+p174
+I1
+sS'anchor'
+p175
+I1
+sS'front view of'
+p176
+I2
+sS'butterfly gear'
+p177
+I8
+sS'clip hold'
+p178
+I11
+sS'engag'
+p179
+I1
+sS'clip'
+p180
+I3
+sS'pusher'
+p181
+I3
+sS'sequential heart'
+p182
+I1
+sS'sequential heart valv'
+p183
+I1
+sS'titanium'
+p184
+I1
+sS'the cathet'
+p185
+I5
+sS'single catheter mitral valve repair'
+p186
+I1
+sS'of a distal portion of the suture cutting cathet'
+p187
+I3
+sS'iii'
+p188
+I1
+sS'sheath'
+p189
+I4
+sS'suture knot'
+p190
+I2
+sS'relative linear mot'
+p191
+I1
+sS'cutting recess'
+p192
+I1
+sS'concept'
+p193
+I2
+sS'single catheter mitral valv'
+p194
+I1
+sS'vasculatur'
+p195
+I1
+sS'mitral valv'
+p196
+I2
+sS'hub connector'
+p197
+I2
+sS'of the cathet'
+p198
+I13
+sS'of th'
+p199
+I6
+sS'sequenti'
+p200
+I1
+sS'loctit'
+p201
+I1
+sS'repairing sept'
+p202
+I2
+sS'distal end of'
+p203
+I2
+sS'stationary portion longitudin'
+p204
+I1
+sS'stationary handle proxim'
+p205
+I1
+sS'clip proxim'
+p206
+I2
+sS'suture recess dist'
+p207
+I4
+sS'distal cap'
+p208
+I4
+sS'singl'
+p209
+I1
+sS'clip deliveri'
+p210
+I1
+sS'deploy'
+p211
+I4
+sS'compress'
+p212
+I2
+sS'distal end of th'
+p213
+I2
+sS'proximal movement of th'
+p214
+I1
+sS'blood'
+p215
+I1
+sS'fasten'
+p216
+I1
+sS'septal defect'
+p217
+I2
+sS'parallel'
+p218
+I1
+sS'irvine ca'
+p219
+I2
+sS'of a cathet'
+p220
+I6
+sS'tissue piec'
+p221
+I4
+sS'connector'
+p222
+I1
+sS'percutan'
+p223
+I3
+sS'longitudinal direction of'
+p224
+I1
+sS'distal portion of the sutur'
+p225
+I1
+sS'recoveri'
+p226
+I1
+sS'alloy'
+p227
+I2
+sS'linear mot'
+p228
+I1
+sS'suture lumen'
+p229
+I1
+sS'handle proxim'
+p230
+I1
+stp231
+Rp232
+tp233
+.

@@ -1,0 +1,575 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'explan'
+p7
+I2
+sS'lace'
+p8
+I3
+sS'fonc'
+p9
+I2
+sS'whilst'
+p10
+I1
+sS'jaun'
+p11
+I2
+sS'paper'
+p12
+I6
+sS'nbsp'
+p13
+I50
+sS'pane'
+p14
+I1
+sS'cendr'
+p15
+I1
+sS'corner'
+p16
+I1
+sS'parchment pap'
+p17
+I1
+sS'ground'
+p18
+I1
+sS'original height'
+p19
+I1
+sS'window pan'
+p20
+I1
+sS'noir'
+p21
+I1
+sS'fine linen'
+p22
+I1
+sS'run parallel'
+p23
+I2
+sS'paper bag'
+p24
+I1
+sS'fine ones for'
+p25
+I1
+sS'choicest lac'
+p26
+I1
+sS'window'
+p27
+I3
+sS'valencienn'
+p28
+I2
+sS'ought'
+p29
+I2
+sS'violet-ev'
+p30
+I1
+sS'string'
+p31
+I1
+sS'fine wheaten starch'
+p32
+I1
+sS'starch'
+p33
+I9
+sS'doubtful colour'
+p34
+I1
+sS'gum arab'
+p35
+I2
+sS'appliqu'
+p36
+I4
+sS'arab'
+p37
+I1
+sS'crossway'
+p38
+I1
+sS'knot'
+p39
+I2
+sS'interrupt'
+p40
+I1
+sS'dye'
+p41
+I1
+sS'height'
+p42
+I1
+sS'gris-poussi'
+p43
+I1
+sS'silver'
+p44
+I1
+sS'flannel'
+p45
+I1
+sS'drawing-wax'
+p46
+I1
+sS'arabic ought'
+p47
+I1
+sS'fine pen'
+p48
+I1
+sS'rose tendr'
+p49
+I1
+sS'stiff'
+p50
+I1
+sS'list'
+p51
+I1
+sS'gum'
+p52
+I2
+sS'mark cloth'
+p53
+I1
+sS'drum-stick'
+p54
+I1
+sS'fine brush'
+p55
+I1
+sS'wheaten starch'
+p56
+I1
+sS'gris-fum'
+p57
+I1
+sS'transparent stuff'
+p58
+I1
+sS'soft'
+p59
+I1
+sS'silver coin'
+p60
+I1
+sS'bleu cendr'
+p61
+I1
+sS'needle-work'
+p62
+I2
+sS'bon-teint'
+p63
+I1
+sS'rose vif'
+p64
+I1
+sS'repeat'
+p65
+I1
+sS'powder'
+p66
+I2
+sS'year'
+p67
+I1
+sS'close'
+p68
+I1
+sS'acid'
+p69
+I1
+sS'jaune d'
+p70
+I2
+sS'subject'
+p71
+I2
+sS'frac14'
+p72
+I1
+sS'fine ones for valencienn'
+p73
+I1
+sS'verd'
+p74
+I1
+sS'velvet'
+p75
+I1
+sS'network'
+p76
+I1
+sS'embroideri'
+p77
+I1
+sS'superfluous liquid'
+p78
+I1
+sS'embroidered network'
+p79
+I1
+sS'egrav'
+p80
+I5
+sS'soutach'
+p81
+I2
+sS'pen'
+p82
+I1
+sS'stuff'
+p83
+I1
+sS'run'
+p84
+I1
+sS'adapt'
+p85
+I1
+sS'tendr'
+p86
+I1
+sS'superfluous powd'
+p87
+I1
+sS'chemic'
+p88
+I1
+sS'eacut'
+p89
+I20
+sS'gris-'
+p90
+I1
+sS'agreable soft'
+p91
+I1
+sS'further information respect'
+p92
+I1
+sS'gris- & eacut'
+p93
+I1
+sS'exceptional th'
+p94
+I1
+sS'circumfer'
+p95
+I1
+sS'picot'
+p96
+I5
+sS'ecirc'
+p97
+I2
+sS'window fram'
+p98
+I1
+sS'transposit'
+p99
+I1
+sS'thread'
+p100
+I3
+sS'spirits-of-win'
+p101
+I1
+sS'lace awl'
+p102
+I1
+sS'mdash'
+p103
+I35
+sS'round'
+p104
+I3
+sS'rouge-g'
+p105
+I1
+sS'embroidery cotton'
+p106
+I1
+sS'rose'
+p107
+I2
+sS'implement'
+p108
+I1
+sS'iuml'
+p109
+I1
+sS'olive oil'
+p110
+I1
+sS'vif'
+p111
+I1
+sS'tr'
+p112
+I2
+sS'knot round'
+p113
+I2
+sS'necess'
+p114
+I1
+sS'professional lace-clean'
+p115
+I1
+sS'brush'
+p116
+I3
+sS'rule squar'
+p117
+I1
+sS'autographic pap'
+p118
+I1
+sS's-fonc'
+p119
+I2
+sS'original fresh'
+p120
+I1
+sS'pin-hol'
+p121
+I1
+sS'fabric'
+p122
+I1
+sS'dornach'
+p123
+I1
+sS'mark'
+p124
+I1
+sS'paint'
+p125
+I2
+sS'violet-pen'
+p126
+I1
+sS'recommend'
+p127
+I1
+sS'sable-hair brush'
+p128
+I1
+sS'frame'
+p129
+I1
+sS'pouncing impl'
+p130
+I1
+sS'embroidery thread'
+p131
+I1
+sS'cloth'
+p132
+I1
+sS'thing'
+p133
+I1
+sS'bleu violac'
+p134
+I1
+sS'brush ought'
+p135
+I1
+sS'reproduct'
+p136
+I1
+sS'aptitud'
+p137
+I1
+sS'bag'
+p138
+I1
+sS'prepar'
+p139
+I1
+sS'quadrille pap'
+p140
+I1
+sS'artificial stiff'
+p141
+I1
+sS'gris d'
+p142
+I1
+sS'bleu p'
+p143
+I1
+sS'graphit'
+p144
+I2
+sS'iron'
+p145
+I7
+sS'preliminary tri'
+p146
+I1
+sS'grand-teint'
+p147
+I1
+sS'pounc'
+p148
+I2
+sS'pin'
+p149
+I1
+sS'bronze dor'
+p150
+I1
+sS'alsac'
+p151
+I1
+sS'border'
+p152
+I1
+sS'cotton'
+p153
+I1
+sS'expeditious mode of transf'
+p154
+I1
+sS'vert-pr'
+p155
+I1
+sS'squar'
+p156
+I1
+sS'expensive accessori'
+p157
+I1
+sS'trial'
+p158
+I1
+sS'expeditious mode of'
+p159
+I1
+sS'open-work bord'
+p160
+I1
+sS'disagreable necess'
+p161
+I1
+sS'long year'
+p162
+I1
+sS'jaune-cr'
+p163
+I1
+sS'violac'
+p164
+I1
+sS'acirc'
+p165
+I2
+sS'gri'
+p166
+I1
+sS'oil'
+p167
+I1
+sS'guipur'
+p168
+I1
+sS'vert dor'
+p169
+I1
+sS'white flannel'
+p170
+I1
+sS'awl'
+p171
+I1
+sS'close fabr'
+p172
+I1
+sS'string round'
+p173
+I1
+sS'coin'
+p174
+I1
+sS'jaune-ma'
+p175
+I1
+sS'parallel'
+p176
+I1
+sS'accessori'
+p177
+I1
+sS'for valencienn'
+p178
+I2
+sS'resinous powd'
+p179
+I1
+sS'liquid'
+p180
+I1
+sS'fine white flannel'
+p181
+I1
+sS'colour'
+p182
+I1
+sS'lace-clean'
+p183
+I1
+sS'rule'
+p184
+I1
+sS'alphabetical list'
+p185
+I1
+sS'gum arabic ought'
+p186
+I1
+sS'linen'
+p187
+I1
+sS'water-colour paint'
+p188
+I2
+sS'dor'
+p189
+I2
+sS'fresh'
+p190
+I1
+sS'salt'
+p191
+I1
+sS'gris verd'
+p192
+I1
+stp193
+Rp194
+tp195
+.

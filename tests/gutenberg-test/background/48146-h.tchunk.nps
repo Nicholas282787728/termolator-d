@@ -1,0 +1,143 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'replac'
+p7
+I1
+sS'tax'
+p8
+I1
+sS'tax return'
+p9
+I2
+sS'restrict'
+p10
+I1
+sS'replacement copi'
+p11
+I1
+sS'island author'
+p12
+I1
+sS'bess'
+p13
+I1
+sS'company chicago'
+p14
+I1
+sS'adventure island'
+p15
+I3
+sS'bess moyer release d'
+p16
+I1
+sS'flying fo'
+p17
+I1
+sS'project'
+p18
+I2
+sS'adventure island author'
+p19
+I1
+sS'project gutenberg'
+p20
+I2
+sS'author'
+p21
+I1
+sS'project gutenberg licens'
+p22
+I1
+sS'licens'
+p23
+I1
+sS'publish'
+p24
+I1
+sS'foe'
+p25
+I1
+sS'e-mail'
+p26
+I1
+sS'gutenberg licens'
+p27
+I1
+sS'gutenberg ebook'
+p28
+I1
+sS'royalti'
+p29
+I3
+sS'return'
+p30
+I1
+sS'distribut'
+p31
+I1
+sS'copi'
+p32
+I1
+sS're-us'
+p33
+I1
+sS'project gutenberg ebook'
+p34
+I1
+sS'bess moy'
+p35
+I1
+sS'electronic work'
+p36
+I1
+sS'date'
+p37
+I1
+sS'adventur'
+p38
+I3
+sS'moyer release d'
+p39
+I1
+sS'chicago'
+p40
+I1
+sS'publishing company chicago'
+p41
+I1
+sS'island'
+p42
+I2
+sS'work'
+p43
+I1
+sS'ebook'
+p44
+I4
+sS'fli'
+p45
+I1
+sS'publishing compani'
+p46
+I1
+sS'bess moyer releas'
+p47
+I1
+sS'release d'
+p48
+I1
+stp49
+Rp50
+tp51
+.

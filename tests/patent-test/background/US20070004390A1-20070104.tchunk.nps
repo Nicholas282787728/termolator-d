@@ -1,0 +1,398 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'post road fairfield ct'
+p7
+I1
+sS'code'
+p8
+I4
+sS'intuitive contact manag'
+p9
+I1
+sS'family tre'
+p10
+I1
+sS'executive vic'
+p11
+I1
+sS'legal council'
+p12
+I1
+sS'home location regist'
+p13
+I1
+sS'program cod'
+p14
+I4
+sS'gprs support nod'
+p15
+I1
+sS'telephon'
+p16
+I27
+sS'radio'
+p17
+I1
+sS'famili'
+p18
+I3
+sS'further contact person'
+p19
+I1
+sS'gateway'
+p20
+I6
+sS'office item'
+p21
+I1
+sS'tree structure of'
+p22
+I1
+sS'node b'
+p23
+I3
+sS'johnson famili'
+p24
+I1
+sS'scrolling function of'
+p25
+I1
+sS'regist'
+p26
+I2
+sS'sub-item'
+p27
+I2
+sS'her family tre'
+p28
+I1
+sS'home address'
+p29
+I6
+sS'sgsn'
+p30
+I1
+sS'offic'
+p31
+I1
+sS'program'
+p32
+I15
+sS'logical level item'
+p33
+I4
+sS'subscrib'
+p34
+I1
+sS'role'
+p35
+I1
+sS'work telephon'
+p36
+I7
+sS'msc'
+p37
+I1
+sS'logical levels of a tre'
+p38
+I2
+sS'serv'
+p39
+I1
+sS'fax'
+p40
+I1
+sS'web address'
+p41
+I8
+sS'ceo'
+p42
+I1
+sS'site'
+p43
+I5
+sS'phone'
+p44
+I6
+sS'scrolling function of th'
+p45
+I1
+sS'link'
+p46
+I2
+sS'logical levels of'
+p47
+I2
+sS'compani'
+p48
+I2
+sS'vice presid'
+p49
+I1
+sS'day'
+p50
+I6
+sS'road fairfield ct'
+p51
+I1
+sS'red-letter day'
+p52
+I6
+sS'name'
+p53
+I1
+sS'organ'
+p54
+I1
+sS'company rol'
+p55
+I1
+sS'servic'
+p56
+I1
+sS'whithin i'
+p57
+I1
+sS'tree'
+p58
+I39
+sS'server'
+p59
+I12
+sS'item'
+p60
+I42
+sS'phone book'
+p61
+I1
+sS'architectur'
+p62
+I2
+sS'friendship'
+p63
+I1
+sS'manag'
+p64
+I2
+sS'cfo'
+p65
+I1
+sS'work'
+p66
+I13
+sS'supervisor'
+p67
+I1
+sS'keypad'
+p68
+I1
+sS'fairfield ct'
+p69
+I1
+sS'station'
+p70
+I2
+sS'hlr'
+p71
+I1
+sS'roll'
+p72
+I1
+sS'scroll'
+p73
+I4
+sS'council'
+p74
+I1
+sS'executive vice presid'
+p75
+I1
+sS'home'
+p76
+I14
+sS'program product kraft'
+p77
+I1
+sS'logical link'
+p78
+I2
+sS'telecommunication servic'
+p79
+I1
+sS'post road'
+p80
+I1
+sS'serving gprs support nod'
+p81
+I1
+sS'album'
+p82
+I1
+sS'improvements of'
+p83
+I1
+sS'phone item'
+p84
+I2
+sS'network'
+p85
+I9
+sS'apparatus'
+p86
+I12
+sS'display'
+p87
+I13
+sS'parti'
+p88
+I2
+sS'non-limit'
+p89
+I1
+sS'cinc'
+p90
+I2
+sS'radio network'
+p91
+I1
+sS'rnc'
+p92
+I2
+sS'supervisor whithin'
+p93
+I1
+sS'supervisor whithin i'
+p94
+I1
+sS'work address'
+p95
+I5
+sS'ct'
+p96
+I1
+sS'party compani'
+p97
+I1
+sS'program product kraft christian'
+p98
+I2
+sS'b h'
+p99
+I1
+sS'node'
+p100
+I5
+sS'post road fairfield'
+p101
+I1
+sS'ccitt'
+p102
+I1
+sS'christian'
+p103
+I1
+sS'sm'
+p104
+I2
+sS'book'
+p105
+I1
+sS'numer'
+p106
+I2
+sS'family album'
+p107
+I1
+sS'symbol'
+p108
+I4
+sS'bt'
+p109
+I3
+sS'transceiver st'
+p110
+I2
+sS'kraft christian'
+p111
+I2
+sS'site b'
+p112
+I2
+sS'transceiv'
+p113
+I1
+sS'address'
+p114
+I31
+sS'post'
+p115
+I1
+sS'switchboard telephon'
+p116
+I1
+sS'bsc'
+p117
+I2
+sS'e-mail address'
+p118
+I12
+sS'scrolling function of the display'
+p119
+I1
+sS'microphon'
+p120
+I1
+sS'johnson'
+p121
+I1
+sS'improvements of handl'
+p122
+I1
+sS'request'
+p123
+I3
+sS'work contact information item'
+p124
+I1
+sS'person'
+p125
+I6
+sS'serving gpr'
+p126
+I1
+sS'home telephon'
+p127
+I7
+sS'logical level of a tre'
+p128
+I2
+sS'presid'
+p129
+I1
+sS'improv'
+p130
+I1
+sS'joystick'
+p131
+I1
+sS'cto'
+p132
+I1
+sS'logical level of'
+p133
+I2
+stp134
+Rp135
+tp136
+.

@@ -1,0 +1,452 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'entropi'
+p7
+I9
+sS'androgen receptor'
+p8
+I1
+sS'conserv'
+p9
+I9
+sS'cancer genome anatomy project genetic annotation in'
+p10
+I1
+sS'statistical significance of'
+p11
+I1
+sS'ovarian cancer suscept'
+p12
+I1
+sS'krt12'
+p13
+I1
+sS'human'
+p14
+I2
+sS'paramet'
+p15
+I3
+sS'meesmann corneal epithelial dystrophi'
+p16
+I1
+sS'mutat'
+p17
+I12
+sS'character'
+p18
+I1
+sS'cancer genome anatomy project genetic annot'
+p19
+I1
+sS'unannotated polymorph'
+p20
+I1
+sS'evolutionary paramet'
+p21
+I1
+sS'expressed sequence tag'
+p22
+I1
+sS'swissprot homolog'
+p23
+I1
+sS'meesmann corn'
+p24
+I1
+sS'fasta formatted fil'
+p25
+I1
+sS'express'
+p26
+I1
+sS'fasta format fil'
+p27
+I1
+sS'initi'
+p28
+I1
+sS'10e-15'
+p29
+I1
+sS'ident'
+p30
+I1
+sS'import'
+p31
+I4
+sS'blast'
+p32
+I3
+sS'e-value threshold of 10e-15'
+p33
+I1
+sS'introduct'
+p34
+I1
+sS'corneal epithelial dystrophi'
+p35
+I1
+sS'uncharacterized mut'
+p36
+I1
+sS'collect'
+p37
+I1
+sS'cancer genome anatomi'
+p38
+I1
+sS'genom'
+p39
+I3
+sS'genetic switch'
+p40
+I1
+sS'human genome mut'
+p41
+I2
+sS'conservation entropi'
+p42
+I1
+sS'ovarian cancer susceptibility gen'
+p43
+I1
+sS'consequ'
+p44
+I2
+sS'blast search'
+p45
+I2
+sS'molecular basi'
+p46
+I1
+sS'homologous gen'
+p47
+I2
+sS'acid'
+p48
+I3
+sS'cancer genom'
+p49
+I1
+sS'polymorph'
+p50
+I2
+sS'est'
+p51
+I1
+sS'databas'
+p52
+I4
+sS'non-synonymous snp'
+p53
+I1
+sS'threshold of 10e-15'
+p54
+I1
+sS'substitut'
+p55
+I2
+sS'score'
+p56
+I1
+sS'model gen'
+p57
+I1
+sS'statistical signific'
+p58
+I1
+sS'cancer genome anatomy project'
+p59
+I1
+sS'susceptibility gen'
+p60
+I1
+sS'phenylketonuria'
+p61
+I1
+sS'annotated polymorph'
+p62
+I1
+sS'statistical significance of th'
+p63
+I1
+sS'cancer susceptibility gen'
+p64
+I1
+sS'keratin'
+p65
+I1
+sS'acid substitut'
+p66
+I2
+sS'basi'
+p67
+I1
+sS'search'
+p68
+I2
+sS'annotation in'
+p69
+I1
+sS'gene'
+p70
+I8
+sS'ovarian canc'
+p71
+I1
+sS'public databas'
+p72
+I1
+sS'cancer'
+p73
+I1
+sS'codon'
+p74
+I1
+sS'ce'
+p75
+I1
+sS'analyzable mut'
+p76
+I1
+sS'receptor'
+p77
+I1
+sS'e-value threshold of'
+p78
+I1
+sS'draft genom'
+p79
+I1
+sS'disease-associ'
+p80
+I1
+sS'genotyp'
+p81
+I1
+sS'acid ident'
+p82
+I1
+sS'evolutionary conserv'
+p83
+I2
+sS'websit'
+p84
+I1
+sS'draft'
+p85
+I1
+sS'termin'
+p86
+I1
+sS'e-value scor'
+p87
+I1
+sS'popul'
+p88
+I1
+sS'brca1'
+p89
+I1
+sS'molecular caus'
+p90
+I1
+sS'phenotypically annotated polymorph'
+p91
+I1
+sS'tool'
+p92
+I2
+sS'cancer genome anatomy project genet'
+p93
+I1
+sS'alpha-helix-initiation motif'
+p94
+I1
+sS'amino acid'
+p95
+I6
+sS'non-synonymous mut'
+p96
+I2
+sS'effort'
+p97
+I2
+sS'unannotated snp'
+p98
+I1
+sS'clustalw'
+p99
+I1
+sS'align'
+p100
+I4
+sS'project'
+p101
+I1
+sS'genome mutation databas'
+p102
+I2
+sS'project genetic annotation in'
+p103
+I1
+sS'anatomy project genetic annotation in'
+p104
+I1
+sS'negative entropy of'
+p105
+I1
+sS'phylogenet'
+p106
+I1
+sS'human genom'
+p107
+I2
+sS'motif'
+p108
+I2
+sS'of 10e-15'
+p109
+I1
+sS'genomics tool'
+p110
+I2
+sS'tag'
+p111
+I2
+sS'meesmann corneal epitheli'
+p112
+I1
+sS'file'
+p113
+I3
+sS'henikoff'
+p114
+I1
+sS'protein'
+p115
+I7
+sS'fasta'
+p116
+I2
+sS'osteogenesi'
+p117
+I1
+sS'cgap-gai'
+p118
+I1
+sS'1e-15'
+p119
+I1
+sS'human genome mutation databas'
+p120
+I2
+sS'chasman'
+p121
+I1
+sS'meesmann'
+p122
+I1
+sS'genome anatomy project genetic annotation in'
+p123
+I1
+sS'swissprot'
+p124
+I3
+sS'phenotyp'
+p125
+I3
+sS'statistical significance of the conserv'
+p126
+I1
+sS'mutation databas'
+p127
+I2
+sS'amino acid ident'
+p128
+I1
+sS'fibrosi'
+p129
+I1
+sS'cystic fibrosi'
+p130
+I1
+sS'public project'
+p131
+I1
+sS'genetic annotation in'
+p132
+I1
+sS'termination codon'
+p133
+I1
+sS'snp'
+p134
+I7
+sS'amino acid substitut'
+p135
+I2
+sS'homolog'
+p136
+I3
+sS'negative entropi'
+p137
+I8
+sS'early tool'
+p138
+I1
+sS'chromatogram'
+p139
+I1
+sS'genome sequencing effort'
+p140
+I1
+sS'epithelial dystrophi'
+p141
+I1
+sS'algorithm'
+p142
+I1
+sS'e-value threshold'
+p143
+I1
+sS'alpha-helix-termination motif'
+p144
+I1
+sS'formatted fil'
+p145
+I1
+sS'caus'
+p146
+I1
+sS'switch'
+p147
+I1
+sS'conservation ratio paramet'
+p148
+I1
+sS'swissprot databas'
+p149
+I1
+sS'model'
+p150
+I1
+sS'dystrophi'
+p151
+I1
+stp152
+Rp153
+tp154
+.

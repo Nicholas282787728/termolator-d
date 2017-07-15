@@ -1,0 +1,398 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'skin abras'
+p7
+I1
+sS'for microdermabrad'
+p8
+I2
+sS'vacuum induc'
+p9
+I3
+sS'recess'
+p10
+I3
+sS'effici'
+p11
+I1
+sS'collection contain'
+p12
+I1
+sS'head interior entrain'
+p13
+I2
+sS'rocklin'
+p14
+I1
+sS'vacuum s'
+p15
+I1
+sS'abrasive tip'
+p16
+I2
+sS'disc'
+p17
+I1
+sS'exfoli'
+p18
+I1
+sS'serpentine air-flow paths for the vacuum induc'
+p19
+I1
+sS'skin'
+p20
+I5
+sS'head defin'
+p21
+I1
+sS'tone'
+p22
+I1
+sS'substanc'
+p23
+I2
+sS'dermabrasion approach'
+p24
+I1
+sS'unique combination of'
+p25
+I1
+sS'creek ca'
+p26
+I1
+sS'concord ca'
+p27
+I1
+sS'associ'
+p28
+I2
+sS'pneumatic grinding machin'
+p29
+I1
+sS'walnut'
+p30
+I1
+sS'aluminum oxid'
+p31
+I3
+sS'treatment'
+p32
+I5
+sS'pad'
+p33
+I1
+sS'serpentine air-flow paths for'
+p34
+I1
+sS'chamfered outer skin'
+p35
+I1
+sS'abrasion particl'
+p36
+I1
+sS'ca'
+p37
+I3
+sS'vacuum aid'
+p38
+I1
+sS'deterg'
+p39
+I1
+sS'head'
+p40
+I53
+sS'coated tip'
+p41
+I1
+sS'carbid'
+p42
+I1
+sS'tool'
+p43
+I4
+sS'silicon oxid'
+p44
+I1
+sS'fluid'
+p45
+I1
+sS'util'
+p46
+I1
+sS'said-skin'
+p47
+I1
+sS'abrasive pad'
+p48
+I1
+sS'vacuum'
+p49
+I24
+sS'walnut creek'
+p50
+I1
+sS'crystal'
+p51
+I2
+sS'abras'
+p52
+I2
+sS'microdermabras'
+p53
+I1
+sS'abrasion brush'
+p54
+I2
+sS'organ'
+p55
+I1
+sS'aluminum'
+p56
+I3
+sS'air-flow recess'
+p57
+I3
+sS'microabras'
+p58
+I1
+sS'abrasive tipped tool'
+p59
+I1
+sS'project'
+p60
+I1
+sS'chamber'
+p61
+I1
+sS'microdermabrad'
+p62
+I1
+sS'contain'
+p63
+I1
+sS'rocklin ca'
+p64
+I1
+sS'b h'
+p65
+I1
+sS'brush engag'
+p66
+I1
+sS'vacuum effici'
+p67
+I1
+sS'brush'
+p68
+I14
+sS'air-flow passageway for'
+p69
+I2
+sS'oxid'
+p70
+I4
+sS'collection tub'
+p71
+I1
+sS'distal brush seg'
+p72
+I3
+sS'engag'
+p73
+I3
+sS'atmospher'
+p74
+I3
+sS'concord'
+p75
+I1
+sS'silicon carbid'
+p76
+I1
+sS'abrasive particl'
+p77
+I1
+sS'alabast'
+p78
+I1
+sS'surgical tool'
+p79
+I1
+sS'rim'
+p80
+I1
+sS'abrasive coated tip'
+p81
+I1
+sS'seal'
+p82
+I1
+sS'medicinal compound'
+p83
+I1
+sS'particl'
+p84
+I2
+sS'liquid top'
+p85
+I1
+sS'passageway'
+p86
+I16
+sS'for'
+p87
+I1
+sS'defin'
+p88
+I1
+sS'serpentine air-flow paths for th'
+p89
+I1
+sS'tube'
+p90
+I1
+sS'pumic'
+p91
+I1
+sS'tip'
+p92
+I4
+sS'treatment tip'
+p93
+I1
+sS'blotchi'
+p94
+I1
+sS'head interior entraining skin'
+p95
+I2
+sS'distal end of'
+p96
+I1
+sS'liquid deterg'
+p97
+I1
+sS'outer head'
+p98
+I2
+sS'interior'
+p99
+I26
+sS'ultrasonic surgical tool'
+p100
+I1
+sS'distal brush'
+p101
+I3
+sS'approach'
+p102
+I1
+sS'abrasive disc'
+p103
+I1
+sS'machin'
+p104
+I1
+sS'walnut creek ca'
+p105
+I1
+sS'abrasive brush'
+p106
+I1
+sS'chamfered outer skin engag'
+p107
+I1
+sS'visera'
+p108
+I1
+sS'head interior caus'
+p109
+I2
+sS'compound'
+p110
+I1
+sS'air-flow passageway'
+p111
+I18
+sS'grinding machin'
+p112
+I1
+sS'hand-held member of th'
+p113
+I1
+sS'hand-held member of'
+p114
+I1
+sS'stripe'
+p115
+I1
+sS'aid'
+p116
+I1
+sS'engagement util'
+p117
+I1
+sS'segment'
+p118
+I19
+sS'collection chamb'
+p119
+I1
+sS'skin ton'
+p120
+I1
+sS'serpentine air-flow paths for the vacuum'
+p121
+I1
+sS'abrade skin'
+p122
+I1
+sS'liquid'
+p123
+I1
+sS'heal'
+p124
+I1
+sS'head interior'
+p125
+I30
+sS'dermabras'
+p126
+I1
+sS'elev'
+p127
+I1
+sS'collect'
+p128
+I3
+sS'internal organ'
+p129
+I1
+sS'circular rim'
+p130
+I1
+sS'treatment tool'
+p131
+I2
+sS'brush seg'
+p132
+I19
+sS'tipped tool'
+p133
+I1
+stp134
+Rp135
+tp136
+.

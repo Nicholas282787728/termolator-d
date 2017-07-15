@@ -1,0 +1,539 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'varu'
+p7
+I4
+sS'slope'
+p8
+I1
+sS'medial approach'
+p9
+I1
+sS'of the knob'
+p10
+I2
+sS'wayne street'
+p11
+I1
+sS'rod'
+p12
+I1
+sS'femur'
+p13
+I20
+sS'lateral aspect of'
+p14
+I6
+sS'flexibl'
+p15
+I4
+sS'd2'
+p16
+I4
+sS'cross-sect'
+p17
+I1
+sS'd1'
+p18
+I4
+sS'slot'
+p19
+I26
+sS'of the distal end of a femur'
+p20
+I7
+sS'slope of cut plane p'
+p21
+I2
+sS'cut'
+p22
+I77
+sS'guide slot'
+p23
+I25
+sS'worm gear'
+p24
+I2
+sS'valgu'
+p25
+I4
+sS'proximal-distal slope of'
+p26
+I1
+sS'lateral aspect of the femur'
+p27
+I4
+sS'the cut guid'
+p28
+I1
+sS'distal end of a femur'
+p29
+I4
+sS'distal end fd of'
+p30
+I2
+sS'prosthes'
+p31
+I1
+sS'distal-proximal slope of cut plane p'
+p32
+I2
+sS'the femur'
+p33
+I11
+sS'cut depth'
+p34
+I1
+sS'lateral-distal perspective view of'
+p35
+I1
+sS'knob'
+p36
+I2
+sS'the distal end of a femur'
+p37
+I3
+sS'flexion'
+p38
+I4
+sS'slideable rel'
+p39
+I6
+sS'proximal-distal slope of cut guid'
+p40
+I1
+sS'surgical grad'
+p41
+I1
+sS'guide housing adjust'
+p42
+I8
+sS'medial side of th'
+p43
+I1
+sS'medial side of the femur'
+p44
+I1
+sS'total knee replac'
+p45
+I1
+sS'adjust'
+p46
+I8
+sS'distal-proximal slop'
+p47
+I2
+sS'proximal-distal slope of cut'
+p48
+I1
+sS'lateral aspect of the distal end of'
+p49
+I2
+sS'bone'
+p50
+I2
+sS'lateral aspect of the distal end of a femur'
+p51
+I2
+sS'dimens'
+p52
+I6
+sS'lateral side fl of'
+p53
+I1
+sS'of the cut'
+p54
+I1
+sS'dimension d1'
+p55
+I4
+sS'dimension d2'
+p56
+I4
+sS'street'
+p57
+I1
+sS'distal cut'
+p58
+I2
+sS'instal'
+p59
+I1
+sS'exemplif'
+p60
+I1
+sS'conventional cut guid'
+p61
+I1
+sS'im rod'
+p62
+I1
+sS'worm gear-type mechanism includ'
+p63
+I1
+sS'for varu'
+p64
+I2
+sS'resect'
+p65
+I1
+sS'lateral-distal perspective view of the distal end of'
+p66
+I1
+sS'guide plan'
+p67
+I10
+sS'wayn'
+p68
+I2
+sS'rel'
+p69
+I7
+sS'guide h'
+p70
+I32
+sS'of the cut guid'
+p71
+I3
+sS'approach'
+p72
+I2
+sS'midsagittal plan'
+p73
+I2
+sS'adjacent distal end fd'
+p74
+I1
+sS'pivotable rel'
+p75
+I1
+sS'worm gear-type mechanism including actu'
+p76
+I1
+sS'rectangular paddl'
+p77
+I1
+sS'perpendicular'
+p78
+I3
+sS'total kne'
+p79
+I1
+sS'adjacent distal end fd of femur f'
+p80
+I1
+sS'gear-type mechanism including actu'
+p81
+I1
+sS'medial side of'
+p82
+I1
+sS'of guid'
+p83
+I2
+sS'distal end of th'
+p84
+I6
+sS'of femur f'
+p85
+I8
+sS'of'
+p86
+I7
+sS'complementary tongu'
+p87
+I1
+sS'adjustments for varu'
+p88
+I2
+sS'lateral aspect of th'
+p89
+I6
+sS'condyl'
+p90
+I1
+sS'cut guide plan'
+p91
+I9
+sS'femoral head'
+p92
+I1
+sS'actuat'
+p93
+I1
+sS'guide axis b'
+p94
+I1
+sS'lateral side of'
+p95
+I1
+sS'adjacent anterior side fa'
+p96
+I1
+sS'grade'
+p97
+I1
+sS'distal'
+p98
+I6
+sS'bone attach'
+p99
+I1
+sS'fp of femur f'
+p100
+I2
+sS'lateral-distal perspective view of the distal end of a femur'
+p101
+I1
+sS'the knob'
+p102
+I1
+sS'proximal-distal slop'
+p103
+I1
+sS'cut plan'
+p104
+I2
+sS'guid'
+p105
+I174
+sS'housing adjust'
+p106
+I1
+sS'lateral side fl'
+p107
+I2
+sS'distal-proximal slope of cut'
+p108
+I2
+sS'fp of'
+p109
+I1
+sS'adjacent anterior side fa of'
+p110
+I1
+sS'adjacent posterior side fp of'
+p111
+I1
+sS'head'
+p112
+I1
+sS'adjustments for'
+p113
+I2
+sS'chamfer cut'
+p114
+I15
+sS'adjacent distal end fd of'
+p115
+I1
+sS'including actu'
+p116
+I2
+sS'fa of femur f'
+p117
+I4
+sS'cut plane p'
+p118
+I4
+sS'present'
+p119
+I1
+sS'fort'
+p120
+I1
+sS'fl of'
+p121
+I1
+sS'guide plane p'
+p122
+I4
+sS'hous'
+p123
+I33
+sS'distal end of the femur'
+p124
+I6
+sS'worm'
+p125
+I3
+sS'distal-proximal slope of cut plan'
+p126
+I2
+sS'charact'
+p127
+I2
+sS'b h'
+p128
+I1
+sS'cut guide plane p'
+p129
+I4
+sS'of the guid'
+p130
+I1
+sS'corresponding reference charact'
+p131
+I1
+sS'being perpendicular'
+p132
+I2
+sS'lateral approach'
+p133
+I1
+sS'plane p'
+p134
+I12
+sS'im'
+p135
+I1
+sS'cut accessori'
+p136
+I1
+sS'of cut plane p'
+p137
+I2
+sS'screw'
+p138
+I1
+sS'lateral side fl of femur f'
+p139
+I1
+sS'of th'
+p140
+I4
+sS'guide axis being perpendicular'
+p141
+I1
+sS'paddl'
+p142
+I1
+sS'cross'
+p143
+I1
+sS'of a cut'
+p144
+I1
+sS'distal end of'
+p145
+I8
+sS'fd of femur f'
+p146
+I4
+sS'fl of femur f'
+p147
+I2
+sS'femur f'
+p148
+I13
+sS'distal-proximal slope of'
+p149
+I2
+sS'lateral-distal perspective view of th'
+p150
+I1
+sS'circular'
+p151
+I1
+sS'fp'
+p152
+I3
+sS'conventional cut'
+p153
+I1
+sS'distal end fd'
+p154
+I3
+sS'of the femur'
+p155
+I22
+sS'proximal-distal slope of cut guide plan'
+p156
+I1
+sS'fa of'
+p157
+I2
+sS'fa'
+p158
+I4
+sS'plane'
+p159
+I16
+sS'fd'
+p160
+I2
+sS'customary practic'
+p161
+I1
+sS'cut guid'
+p162
+I66
+sS'of a cut guid'
+p163
+I3
+sS'fl'
+p164
+I3
+sS'adjacent posterior side fp'
+p165
+I1
+sS'accessori'
+p166
+I1
+sS'lateral side of femur f'
+p167
+I1
+sS'guide member adjust'
+p168
+I10
+sS'practic'
+p169
+I1
+sS'distal end fd of femur f'
+p170
+I3
+sS'multi-positionable cut'
+p171
+I6
+sS'of a femur'
+p172
+I8
+sS'slideabl'
+p173
+I4
+sS'fort wayn'
+p174
+I1
+sS'groov'
+p175
+I1
+sS'depth'
+p176
+I1
+sS'tongu'
+p177
+I1
+sS'fasten'
+p178
+I1
+sS'medial-lateral slop'
+p179
+I1
+sS'multi-positionable cut guid'
+p180
+I6
+stp181
+Rp182
+tp183
+.

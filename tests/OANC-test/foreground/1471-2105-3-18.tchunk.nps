@@ -1,0 +1,893 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'lack'
+p7
+I1
+sS'for hmm'
+p8
+I1
+sS'signific'
+p9
+I1
+sS'correl'
+p10
+I1
+sS'gb'
+p11
+I1
+sS'ga'
+p12
+I1
+sS'miller'
+p13
+I1
+sS'dynamic programming alignment algorithm for scfg'
+p14
+I1
+sS'dynamic programming recognition algorithm for nonstochastic cfg'
+p15
+I1
+sS'scfg insid'
+p16
+I1
+sS'dynamic programming methods for'
+p17
+I1
+sS'dynamic programming algorithm for'
+p18
+I1
+sS'intron'
+p19
+I1
+sS'homologu'
+p20
+I1
+sS'program'
+p21
+I2
+sS'nucleolar rna'
+p22
+I1
+sS'algorithms for'
+p23
+I1
+sS'analys'
+p24
+I1
+sS'dynamic programming sequence alignment algorithm'
+p25
+I2
+sS'alignment algorithm for scfg'
+p26
+I1
+sS'ribosomal rna'
+p27
+I1
+sS'stochastic context'
+p28
+I2
+sS'ssu'
+p29
+I2
+sS'dp matrix'
+p30
+I2
+sS'rna structure equival'
+p31
+I1
+sS'scfg algorithm'
+p32
+I3
+sS'candid'
+p33
+I2
+sS'start node of'
+p34
+I1
+sS'dynamic program'
+p35
+I8
+sS'cyk dp calcul'
+p36
+I1
+sS'dp'
+p37
+I3
+sS'probability distribut'
+p38
+I1
+sS'rna gene famili'
+p39
+I1
+sS'repetitive hmm'
+p40
+I1
+sS'consensus nod'
+p41
+I1
+sS'michot'
+p42
+I1
+sS'programming alignment algorithm for scfg'
+p43
+I1
+sS'programming matrix'
+p44
+I1
+sS'cocke-younger-kasami'
+p45
+I1
+sS'dp matrix for cyk'
+p46
+I1
+sS'dynamic programming algorithm for rna'
+p47
+I1
+sS'pairwise residue correl'
+p48
+I1
+sS'scfg-based rna align'
+p49
+I1
+sS'cfg'
+p50
+I1
+sS'scfg-base'
+p51
+I1
+sS'for optimal sequence align'
+p52
+I2
+sS'biolog'
+p53
+I1
+sS'n'
+p54
+I1
+sS'pairwise rna'
+p55
+I1
+sS'transfer rna gen'
+p56
+I2
+sS'covariance model'
+p57
+I1
+sS'free grammar'
+p58
+I2
+sS'ribosomal rna align'
+p59
+I1
+sS'score'
+p60
+I1
+sS'complexity of a dynamic program'
+p61
+I1
+sS'scfg alignment algorithm'
+p62
+I1
+sS'model formul'
+p63
+I1
+sS'statistical signific'
+p64
+I1
+sS'clustalw'
+p65
+I1
+sS'approach'
+p66
+I2
+sS'topolog'
+p67
+I1
+sS'linear sequence align'
+p68
+I2
+sS'of scfg align'
+p69
+I3
+sS'rnas poss'
+p70
+I1
+sS'root nod'
+p71
+I2
+sS'for cyk'
+p72
+I1
+sS'parsing algorithm'
+p73
+I1
+sS'begr head'
+p74
+I1
+sS'search'
+p75
+I5
+sS'scfg-based align'
+p76
+I1
+sS'scfg-based structural align'
+p77
+I1
+sS'myer'
+p78
+I2
+sS'prior'
+p79
+I1
+sS'rnas conserv'
+p80
+I1
+sS'memory-efficient approach'
+p81
+I1
+sS'gene'
+p82
+I2
+sS'profile hmm'
+p83
+I8
+sS'markov model'
+p84
+I3
+sS'expensive dynamic programming approach'
+p85
+I1
+sS'consensus column'
+p86
+I1
+sS'transit'
+p87
+I4
+sS'gene famili'
+p88
+I1
+sS'dynamic programming parsing algorithm'
+p89
+I1
+sS'blosum'
+p90
+I1
+sS'famili'
+p91
+I6
+sS'guid'
+p92
+I6
+sS'optimal structural align'
+p93
+I1
+sS'dynamic programming align'
+p94
+I1
+sS'dynamic programming recognition algorithm'
+p95
+I1
+sS'secondary structure interact'
+p96
+I1
+sS'formul'
+p97
+I1
+sS'recognition algorithm for nonstochastic cfg'
+p98
+I1
+sS'guarante'
+p99
+I1
+sS'viterbi hmm align'
+p100
+I1
+sS'small subunit'
+p101
+I1
+sS'hmm'
+p102
+I10
+sS'dp calcul'
+p103
+I1
+sS'exact-'
+p104
+I1
+sS'multifurcation loop'
+p105
+I1
+sS'scfg dynamic program'
+p106
+I1
+sS'begr start'
+p107
+I1
+sS'mb'
+p108
+I1
+sS'align'
+p109
+I29
+sS'constraint'
+p110
+I3
+sS'annot'
+p111
+I2
+sS'matp nod'
+p112
+I2
+sS'non-consensu'
+p113
+I1
+sS'calcul'
+p114
+I1
+sS'tree deal'
+p115
+I1
+sS'root'
+p116
+I1
+sS'loop'
+p117
+I1
+sS'guide tree correspond'
+p118
+I1
+sS'motif'
+p119
+I1
+sS'dynamic programming methods for optimal sequence align'
+p120
+I1
+sS'for scfg'
+p121
+I1
+sS'ir'
+p122
+I1
+sS'emiss'
+p123
+I2
+sS'guide tre'
+p124
+I6
+sS'complexity of a dynamic programming sequence alignment algorithm'
+p125
+I2
+sS'il'
+p126
+I1
+sS'alignment algorithm'
+p127
+I11
+sS'hit'
+p128
+I1
+sS'protein'
+p129
+I2
+sS'context free grammar'
+p130
+I2
+sS'begl'
+p131
+I2
+sS'programming methods for optimal sequence align'
+p132
+I1
+sS'of a profile hmm'
+p133
+I1
+sS'alignment column'
+p134
+I2
+sS'complex'
+p135
+I3
+sS'split'
+p136
+I1
+sS'dynamic programming pars'
+p137
+I1
+sS'for nonstochastic cfg'
+p138
+I1
+sS'fill'
+p139
+I1
+sS'begr'
+p140
+I2
+sS'pam'
+p141
+I1
+sS'stochastic context free grammar'
+p142
+I2
+sS'precalcul'
+p143
+I1
+sS'hmm align'
+p144
+I1
+sS'hidden markov model'
+p145
+I1
+sS'rna structure align'
+p146
+I1
+sS'dynamic programming approach'
+p147
+I1
+sS'mathematical framework'
+p148
+I1
+sS'of a dynamic programming sequence alignment algorithm'
+p149
+I1
+sS'non-pseudoknotted rna'
+p150
+I1
+sS'mb of'
+p151
+I1
+sS'scfg-based rna'
+p152
+I1
+sS'score matric'
+p153
+I1
+sS'topology of the rna'
+p154
+I1
+sS'viterbi'
+p155
+I2
+sS'correspond'
+p156
+I1
+sS'model'
+p157
+I4
+sS'applying scfg'
+p158
+I1
+sS'viterbi hmm'
+p159
+I1
+sS'expensive dynamic program'
+p160
+I1
+sS'posteriori paramet'
+p161
+I1
+sS'rna align'
+p162
+I7
+sS'paramet'
+p163
+I1
+sS'model nod'
+p164
+I1
+sS'transition prob'
+p165
+I2
+sS'consensu'
+p166
+I11
+sS'start node of a profil'
+p167
+I1
+sS'appli'
+p168
+I1
+sS'scfg dynamic programming matrix'
+p169
+I1
+sS'programming algorithm'
+p170
+I1
+sS'bif'
+p171
+I2
+sS'rna'
+p172
+I27
+sS'cyk dp'
+p173
+I1
+sS'catalytic intron'
+p174
+I1
+sS'subunit'
+p175
+I1
+sS'grammar'
+p176
+I2
+sS'topology of'
+p177
+I1
+sS'transfer rna'
+p178
+I2
+sS'guide tree d'
+p179
+I1
+sS'rna secondary structure consensu'
+p180
+I1
+sS'scfg'
+p181
+I14
+sS'rna sequences of'
+p182
+I1
+sS'tree correspond'
+p183
+I1
+sS'prosit'
+p184
+I1
+sS'domain'
+p185
+I2
+sS'optimal scfg-based structural align'
+p186
+I1
+sS'deal'
+p187
+I1
+sS'programming parsing algorithm'
+p188
+I1
+sS'trnascan-s'
+p189
+I1
+sS'rna famili'
+p190
+I1
+sS'programming sequence alignment algorithm'
+p191
+I1
+sS'rna sequence famili'
+p192
+I2
+sS'algorithm for nonstochastic cfg'
+p193
+I1
+sS'rna motif'
+p194
+I1
+sS'alignment algorithms for'
+p195
+I1
+sS'algorithm for scfg'
+p196
+I1
+sS'matr'
+p197
+I2
+sS'matrix'
+p198
+I2
+sS'matp'
+p199
+I3
+sS'scfg align'
+p200
+I2
+sS'profil'
+p201
+I6
+sS'subproblem'
+p202
+I1
+sS'rna secondary structure interact'
+p203
+I1
+sS'pairwise rna align'
+p204
+I1
+sS'matl'
+p205
+I3
+sS'algorithm for rna align'
+p206
+I1
+sS'matric'
+p207
+I1
+sS'mathematical framework for rna'
+p208
+I1
+sS'insid'
+p209
+I4
+sS'begr start nod'
+p210
+I1
+sS'dynamic programming alignment algorithm for'
+p211
+I1
+sS'of rna sequence famili'
+p212
+I1
+sS'repetitive hmm architectur'
+p213
+I1
+sS'rna gen'
+p214
+I3
+sS'cyk algorithm'
+p215
+I1
+sS'pfam'
+p216
+I1
+sS'non-pseudoknot'
+p217
+I1
+sS'programming recognition algorithm for nonstochastic cfg'
+p218
+I1
+sS'column'
+p219
+I3
+sS'of'
+p220
+I1
+sS'analyses of'
+p221
+I1
+sS'viterbi dp'
+p222
+I1
+sS'start node of a profile hmm'
+p223
+I1
+sS'outsid'
+p224
+I2
+sS'chomski'
+p225
+I1
+sS'head nod'
+p226
+I1
+sS'candidate hit'
+p227
+I1
+sS'dp fill'
+p228
+I1
+sS'matr nod'
+p229
+I1
+sS'notredam'
+p230
+I1
+sS'matl nod'
+p231
+I2
+sS'corpet'
+p232
+I1
+sS'complexity of'
+p233
+I1
+sS'hmm architectur'
+p234
+I1
+sS'dynamic programming alignment algorithm'
+p235
+I1
+sS'transitions guarante'
+p236
+I1
+sS'mathematical framework for'
+p237
+I1
+sS'topology of th'
+p238
+I1
+sS'optimal sequence align'
+p239
+I1
+sS'transfer'
+p240
+I2
+sS'interact'
+p241
+I2
+sS'start'
+p242
+I1
+sS'ssu rrna consensu'
+p243
+I1
+sS'alignment algorithms for rna'
+p244
+I1
+sS'matrix for cyk'
+p245
+I1
+sS'mathematical framework for rna secondary structure align'
+p246
+I1
+sS'outside algorithm'
+p247
+I2
+sS'transition probability distribut'
+p248
+I1
+sS'analyses of rna sequence famili'
+p249
+I2
+sS'primary sequence align'
+p250
+I2
+sS'start nod'
+p251
+I2
+sS'conserv'
+p252
+I1
+sS'cyk'
+p253
+I12
+sS'for rna align'
+p254
+I1
+sS'residue correl'
+p255
+I1
+sS'notat'
+p256
+I2
+sS'dynamic programming algorithm'
+p257
+I2
+sS'raga'
+p258
+I2
+sS'target'
+p259
+I1
+sS'possibl'
+p260
+I1
+sS'dynamic programming matrix'
+p261
+I1
+sS'tree'
+p262
+I4
+sS'of scfg'
+p263
+I1
+sS'dynamic programming algorithm for rna align'
+p264
+I1
+sS'emission prob'
+p265
+I1
+sS'node of a profile hmm'
+p266
+I1
+sS'complexity of a dynamic programming sequence align'
+p267
+I1
+sS'file'
+p268
+I2
+sS'secondary structure consensu'
+p269
+I1
+sS'programming algorithm for rna align'
+p270
+I1
+sS'fasta'
+p271
+I1
+sS'markov model formul'
+p272
+I1
+sS'search program'
+p273
+I1
+sS'probabl'
+p274
+I2
+sS'dynamic programming recognition algorithm for'
+p275
+I1
+sS'memory-sav'
+p276
+I1
+sS'dirichlet prior'
+p277
+I1
+sS'equival'
+p278
+I2
+sS'target sequence of'
+p279
+I1
+sS'nonstochastic cfg'
+p280
+I1
+sS'analyses of rna'
+p281
+I1
+sS'algorithms for hmm'
+p282
+I1
+sS'analogu'
+p283
+I3
+sS'miller algorithm'
+p284
+I1
+sS'architectur'
+p285
+I1
+sS'node'
+p286
+I12
+sS'distribut'
+p287
+I1
+sS'genetic algorithm'
+p288
+I1
+sS'primary sequence alignment algorithm'
+p289
+I1
+sS'approximate-match pattern search'
+p290
+I1
+sS'begr head nod'
+p291
+I1
+sS'homolog'
+p292
+I1
+sS'programming approach'
+p293
+I1
+sS'algorithm'
+p294
+I25
+sS'dp matrix for'
+p295
+I1
+sS'dynamic programming recognit'
+p296
+I1
+sS'cpu'
+p297
+I2
+sS'protein domain'
+p298
+I2
+stp299
+Rp300
+tp301
+.

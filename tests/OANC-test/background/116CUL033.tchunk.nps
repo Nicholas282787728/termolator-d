@@ -1,0 +1,98 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'out-front rol'
+p7
+I1
+sS'neighborhood'
+p8
+I1
+sS'overview'
+p9
+I1
+sS'govern'
+p10
+I1
+sS'county-wide youth'
+p11
+I1
+sS'collabor'
+p12
+I1
+sS'youth council'
+p13
+I1
+sS'meridian insur'
+p14
+I1
+sS'growth'
+p15
+I1
+sS'council'
+p16
+I1
+sS'youth servic'
+p17
+I1
+sS'agenc'
+p18
+I2
+sS'insur'
+p19
+I1
+sS'adulthood'
+p20
+I2
+sS'develop'
+p21
+I1
+sS'not-for-profit'
+p22
+I1
+sS'behind-the-scenes rol'
+p23
+I1
+sS'servic'
+p24
+I1
+sS'youth develop'
+p25
+I2
+sS'neighborhood youth council'
+p26
+I1
+sS'youth'
+p27
+I6
+sS'county-wide youth servic'
+p28
+I1
+sS'role'
+p29
+I2
+sS'government ag'
+p30
+I1
+sS'mccoy'
+p31
+I5
+sS'meridian'
+p32
+I1
+sS'neighborhood youth'
+p33
+I1
+stp34
+Rp35
+tp36
+.

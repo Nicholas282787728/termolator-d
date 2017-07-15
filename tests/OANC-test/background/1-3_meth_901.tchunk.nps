@@ -1,0 +1,980 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'relative sensitivity of growth'
+p7
+I1
+sS'disadvantages of'
+p8
+I1
+sS'adsorb'
+p9
+I1
+sS'aid kit'
+p10
+I1
+sS'atlant'
+p11
+I1
+sS'cyprinodon variegatu'
+p12
+I1
+sS'zinc'
+p13
+I1
+sS'lethal'
+p14
+I1
+sS'staff'
+p15
+I1
+sS'stage exposur'
+p16
+I1
+sS'macroalga'
+p17
+I1
+sS'health hazard'
+p18
+I1
+sS'depend'
+p19
+I2
+sS'activ'
+p20
+I4
+sS'environment'
+p21
+I1
+sS'program'
+p22
+I1
+sS'plastic net'
+p23
+I1
+sS'pimphal'
+p24
+I1
+sS'organic compound'
+p25
+I2
+sS'chemical oxygen demand'
+p26
+I1
+sS'potential health'
+p27
+I1
+sS'do'
+p28
+I1
+sS'locomotor act'
+p29
+I1
+sS'aquatic toxicologist'
+p30
+I1
+sS'life-cycle fish tox'
+p31
+I1
+sS'report'
+p32
+I1
+sS'dye'
+p33
+I1
+sS'laboratory manag'
+p34
+I1
+sS'usepa'
+p35
+I19
+sS'parvula'
+p36
+I1
+sS'organ'
+p37
+I13
+sS'enzyme act'
+p38
+I1
+sS'acut'
+p39
+I1
+sS'chemical hazard assess'
+p40
+I1
+sS'champia parvula'
+p41
+I1
+sS'ohio'
+p42
+I1
+sS'disease prevent'
+p43
+I1
+sS'bahia'
+p44
+I1
+sS'pesticid'
+p45
+I1
+sS'prevent'
+p46
+I1
+sS'spill clean-up kit'
+p47
+I1
+sS'energy reserv'
+p48
+I1
+sS'speci'
+p49
+I1
+sS'metabolic wast'
+p50
+I1
+sS'diseas'
+p51
+I1
+sS'sea'
+p52
+I1
+sS'pass'
+p53
+I1
+sS'fume hood'
+p54
+I1
+sS'reserv'
+p55
+I1
+sS'two-week exposur'
+p56
+I1
+sS'chemical hazard'
+p57
+I1
+sS'shower'
+p58
+I1
+sS'volatil'
+p59
+I2
+sS'larval growth'
+p60
+I4
+sS'chemic'
+p61
+I3
+sS'net'
+p62
+I1
+sS'multi-concentr'
+p63
+I1
+sS'early life stag'
+p64
+I1
+sS'hazard assess'
+p65
+I1
+sS'of aquatic tox'
+p66
+I1
+sS'clean-up kit'
+p67
+I1
+sS'promela'
+p68
+I4
+sS'routine application of th'
+p69
+I1
+sS'cycl'
+p70
+I3
+sS'magna'
+p71
+I1
+sS'els tox'
+p72
+I1
+sS'effluent'
+p73
+I5
+sS'jackim'
+p74
+I1
+sS'sensitive endpoint'
+p75
+I1
+sS'shift'
+p76
+I1
+sS'cod'
+p77
+I1
+sS'life cycle tox'
+p78
+I2
+sS'bod'
+p79
+I2
+sS'laboratory safeti'
+p80
+I1
+sS'propag'
+p81
+I1
+sS'biological oxygen'
+p82
+I1
+sS'schedul'
+p83
+I2
+sS'relative sensitivity of'
+p84
+I1
+sS'organic chem'
+p85
+I1
+sS'chemical spil'
+p86
+I1
+sS'normal propag'
+p87
+I1
+sS'aquatic vertebr'
+p88
+I1
+sS'sensitive ind'
+p89
+I1
+sS'asphyxi'
+p90
+I1
+sS'species depend'
+p91
+I1
+sS'eye'
+p92
+I1
+sS'rubber apron'
+p93
+I1
+sS'injuri'
+p94
+I1
+sS'inorgan'
+p95
+I1
+sS'sexual reproduct'
+p96
+I1
+sS'criteria'
+p97
+I1
+sS'waste dispos'
+p98
+I2
+sS'basi'
+p99
+I1
+sS'observable effect concentr'
+p100
+I1
+sS'life'
+p101
+I9
+sS'non-renew'
+p102
+I2
+sS'chemical oxygen'
+p103
+I1
+sS'fire'
+p104
+I2
+sS'possible loss of'
+p105
+I1
+sS'train'
+p106
+I1
+sS'sensitivity of growth'
+p107
+I1
+sS'laboratory coat'
+p108
+I1
+sS'reproduct'
+p109
+I5
+sS'endpoint'
+p110
+I3
+sS'prepar'
+p111
+I1
+sS'work'
+p112
+I2
+sS'npdes permit'
+p113
+I2
+sS'sensitive lif'
+p114
+I2
+sS'sea urchin'
+p115
+I1
+sS'aid'
+p116
+I1
+sS'possible loss'
+p117
+I1
+sS'observ'
+p118
+I1
+sS'heart'
+p119
+I1
+sS'lethal threshold'
+p120
+I1
+sS'static non-renew'
+p121
+I2
+sS'pimephal'
+p122
+I3
+sS'indic'
+p123
+I1
+sS'typhoid fev'
+p124
+I1
+sS'histopatholog'
+p125
+I1
+sS'effluent concentr'
+p126
+I6
+sS'agenc'
+p127
+I1
+sS'pesticide concentr'
+p128
+I1
+sS'effluent sampl'
+p129
+I2
+sS'eight-day'
+p130
+I1
+sS'dilut'
+p131
+I1
+sS'toxicolog'
+p132
+I1
+sS'of th'
+p133
+I1
+sS'embryo-larv'
+p134
+I1
+sS'blanket'
+p135
+I1
+sS'concentration of'
+p136
+I2
+sS'toxic'
+p137
+I14
+sS'the toxic'
+p138
+I1
+sS'personnel handling sampl'
+p139
+I1
+sS'confid'
+p140
+I1
+sS'menidia'
+p141
+I2
+sS'fever'
+p142
+I1
+sS'resourc'
+p143
+I2
+sS'inhal'
+p144
+I1
+sS'effluent toxicity limit for'
+p145
+I1
+sS'one-to-fourteen day'
+p146
+I1
+sS'permit'
+p147
+I2
+sS'substanc'
+p148
+I3
+sS'hazard'
+p149
+I1
+sS'kit'
+p150
+I2
+sS'safety gear'
+p151
+I1
+sS'of toxic'
+p152
+I2
+sS'laboratory safety equip'
+p153
+I1
+sS'laboratory staff'
+p154
+I1
+sS'personal safety gear'
+p155
+I1
+sS'concentration of toxic'
+p156
+I1
+sS'of growth'
+p157
+I1
+sS'coat'
+p158
+I1
+sS'menidia menidia'
+p159
+I1
+sS'person'
+p160
+I1
+sS'fire blanket'
+p161
+I1
+sS'dursban\xc2\xae'
+p162
+I1
+sS'personnel'
+p163
+I1
+sS'disadvantages of tox'
+p164
+I1
+sS'concentration of th'
+p165
+I1
+sS'early lif'
+p166
+I1
+sS'lethal threshold concentr'
+p167
+I1
+sS'copper'
+p168
+I2
+sS'demand'
+p169
+I2
+sS'minnow'
+p170
+I3
+sS'personnel handl'
+p171
+I1
+sS'maximum acceptable toxicant concentr'
+p172
+I1
+sS'equip'
+p173
+I8
+sS'handling sampl'
+p174
+I1
+sS'concentr'
+p175
+I32
+sS'consensu'
+p176
+I1
+sS'rapid shift'
+p177
+I1
+sS'toxicity limit for acute tox'
+p178
+I1
+sS'environmental toxicolog'
+p179
+I1
+sS'cyprinodon'
+p180
+I1
+sS'lc50'
+p181
+I2
+sS'two-day exposur'
+p182
+I1
+sS'tetanu'
+p183
+I1
+sS'mysid'
+p184
+I2
+sS'apron'
+p185
+I1
+sS'rwc'
+p186
+I14
+sS'toxicologist'
+p187
+I1
+sS'mysidopsi'
+p188
+I2
+sS'fry growth'
+p189
+I1
+sS'laboratory life cycl'
+p190
+I1
+sS'life stage exposur'
+p191
+I1
+sS'compound'
+p192
+I2
+sS'interrupt'
+p193
+I1
+sS'federal rul'
+p194
+I1
+sS'exposure periods of'
+p195
+I1
+sS'oxygen demand'
+p196
+I2
+sS'day'
+p197
+I2
+sS'for acute tox'
+p198
+I2
+sS'oxygen'
+p199
+I2
+sS'life-cycle fish'
+p200
+I1
+sS'toxicant depend'
+p201
+I1
+sS'chamber'
+p202
+I2
+sS'toxic wast'
+p203
+I1
+sS'manag'
+p204
+I1
+sS'life stag'
+p205
+I5
+sS'confidence interv'
+p206
+I1
+sS'silversid'
+p207
+I1
+sS'el'
+p208
+I12
+sS'laboratori'
+p209
+I9
+sS'fish'
+p210
+I1
+sS'potential health hazard'
+p211
+I1
+sS'critical life stag'
+p212
+I2
+sS'growth'
+p213
+I25
+sS'static'
+p214
+I4
+sS'fluctuat'
+p215
+I1
+sS'variegatu'
+p216
+I1
+sS'energi'
+p217
+I1
+sS'mckim'
+p218
+I1
+sS'embryo-larval surviv'
+p219
+I2
+sS'variabl'
+p220
+I1
+sS'safeti'
+p221
+I5
+sS'feder'
+p222
+I1
+sS'routine basi'
+p223
+I1
+sS'acute leth'
+p224
+I1
+sS'routine application of'
+p225
+I1
+sS'possible loss of toxic'
+p226
+I1
+sS'matc'
+p227
+I1
+sS'relative sensit'
+p228
+I1
+sS'of the toxic'
+p229
+I1
+sS'solvent'
+p230
+I1
+sS'toxicant concentr'
+p231
+I1
+sS'precaut'
+p232
+I2
+sS'midpoint'
+p233
+I1
+sS'posthatch'
+p234
+I1
+sS'acceptable toxicant concentr'
+p235
+I1
+sS'aquatic lif'
+p236
+I1
+sS'stage'
+p237
+I6
+sS'manual'
+p238
+I2
+sS'mysidopsis bahia'
+p239
+I1
+sS'potential temporal vari'
+p240
+I1
+sS'of'
+p241
+I2
+sS'acute tox'
+p242
+I3
+sS'ingest'
+p243
+I1
+sS'no observ'
+p244
+I1
+sS'renew'
+p245
+I3
+sS'corros'
+p246
+I1
+sS'seven-day'
+p247
+I1
+sS'wolter'
+p248
+I1
+sS'dissolved oxygen'
+p249
+I1
+sS'effluent toxicity limit for acute tox'
+p250
+I1
+sS'telephon'
+p251
+I1
+sS'vertebr'
+p252
+I1
+sS'municipal efflu'
+p253
+I1
+sS'two-day'
+p254
+I1
+sS'qualiti'
+p255
+I1
+sS'wast'
+p256
+I6
+sS'surviv'
+p257
+I8
+sS'assess'
+p258
+I1
+sS'hood'
+p259
+I1
+sS'of the test organ'
+p260
+I2
+sS'daphnia magna'
+p261
+I1
+sS'complianc'
+p262
+I1
+sS'toxic subst'
+p263
+I3
+sS'wastewat'
+p264
+I1
+sS'quality criteria'
+p265
+I2
+sS'fire extinguish'
+p266
+I1
+sS'interv'
+p267
+I1
+sS'organic solv'
+p268
+I1
+sS'gear'
+p269
+I1
+sS'one-to-four day'
+p270
+I1
+sS'hepat'
+p271
+I1
+sS'post-hatch'
+p272
+I2
+sS'sheepshead minnow'
+p273
+I3
+sS'critical life stage exposur'
+p274
+I1
+sS'noec'
+p275
+I2
+sS'industrial efflu'
+p276
+I2
+sS'routine application of the el'
+p277
+I1
+sS'ground-fault interrupt'
+p278
+I1
+sS'exposur'
+p279
+I7
+sS'personal safeti'
+p280
+I2
+sS'loss of toxic'
+p281
+I1
+sS'hatchabl'
+p282
+I1
+sS'electrical equip'
+p283
+I2
+sS'toxicity testing act'
+p284
+I1
+sS'sampl'
+p285
+I3
+sS'extinguish'
+p286
+I1
+sS'laboratory lif'
+p287
+I1
+sS'emergency show'
+p288
+I1
+sS'threshold concentr'
+p289
+I1
+sS'larval surviv'
+p290
+I2
+sS'regulatory ag'
+p291
+I1
+sS'no observable effect concentr'
+p292
+I1
+sS'embryogen'
+p293
+I1
+sS'laboratory work'
+p294
+I1
+sS'daphnia'
+p295
+I1
+sS'life cycl'
+p296
+I7
+sS'disadvantag'
+p297
+I3
+sS'permitte'
+p298
+I1
+sS'temporal vari'
+p299
+I1
+sS'safety equip'
+p300
+I5
+sS'pimphales promela'
+p301
+I1
+sS'seven-day larval surviv'
+p302
+I1
+sS'fertil'
+p303
+I1
+sS'no'
+p304
+I1
+sS'champia'
+p305
+I1
+sS'dispos'
+p306
+I1
+sS'domestic wastewat'
+p307
+I1
+sS'biological oxygen demand'
+p308
+I1
+sS'rubber'
+p309
+I1
+sS'static renew'
+p310
+I3
+sS'terata'
+p311
+I1
+sS'pimephales promela'
+p312
+I3
+sS'training program'
+p313
+I1
+sS'npde'
+p314
+I4
+sS'critical lif'
+p315
+I2
+sS'atlantic silversid'
+p316
+I1
+sS'concentration of the toxic'
+p317
+I1
+sS'sensitive stag'
+p318
+I1
+sS'lifecycle tox'
+p319
+I1
+sS'sensitive life stag'
+p320
+I2
+sS'chemical spill clean-up kit'
+p321
+I1
+sS'egg hatch'
+p322
+I1
+sS'egg'
+p323
+I1
+sS'rule'
+p324
+I1
+sS'the test organ'
+p325
+I1
+sS'emerg'
+p326
+I1
+sS'life-cycl'
+p327
+I2
+stp328
+Rp329
+tp330
+.

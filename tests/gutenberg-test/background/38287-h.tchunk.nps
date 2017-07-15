@@ -1,0 +1,761 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'affair'
+p7
+I2
+sS'official vers'
+p8
+I1
+sS'scientific train'
+p9
+I1
+sS'repulsive naked'
+p10
+I1
+sS'van drogen'
+p11
+I1
+sS'symbiosi'
+p12
+I1
+sS'drogen'
+p13
+I1
+sS'kill'
+p14
+I1
+sS'equip'
+p15
+I1
+sS'captain'
+p16
+I1
+sS'children'
+p17
+I1
+sS'tree nest'
+p18
+I1
+sS'web'
+p19
+I1
+sS'footbal'
+p20
+I1
+sS'slitted nostril'
+p21
+I2
+sS'impassive fac'
+p22
+I1
+sS'pioneer'
+p23
+I1
+sS'replacement copi'
+p24
+I1
+sS'sky'
+p25
+I1
+sS'humanoid'
+p26
+I2
+sS'servo-mechan'
+p27
+I1
+sS'momentary irrit'
+p28
+I1
+sS'gray-green stretch'
+p29
+I1
+sS'royalti'
+p30
+I3
+sS'junction'
+p31
+I1
+sS'alex apostolid'
+p32
+I1
+sS'food'
+p33
+I1
+sS'sentenc'
+p34
+I2
+sS'lieutenant atkinson'
+p35
+I1
+sS'apostolid'
+p36
+I1
+sS'voic'
+p37
+I1
+sS'possession ceremoni'
+p38
+I1
+sS'marbl'
+p39
+I1
+sS'game'
+p40
+I1
+sS'quarter-mile-high ti'
+p41
+I1
+sS'canal junct'
+p42
+I1
+sS'video camera'
+p43
+I1
+sS'battery of video camera'
+p44
+I1
+sS'vanilla ascii\xe2\x80\x9d'
+p45
+I2
+sS'school'
+p46
+I1
+sS'alex'
+p47
+I1
+sS'edit'
+p48
+I1
+sS'histori'
+p49
+I1
+sS'iron or'
+p50
+I2
+sS'factori'
+p51
+I2
+sS'naked'
+p52
+I1
+sS'sand'
+p53
+I2
+sS'highway'
+p54
+I3
+sS'nostril'
+p55
+I2
+sS'clay'
+p56
+I1
+sS'super-bright'
+p57
+I1
+sS'leader guard'
+p58
+I1
+sS'food suppli'
+p59
+I1
+sS'obstruct'
+p60
+I1
+sS'precious iron'
+p61
+I1
+sS'oxid'
+p62
+I1
+sS'cap'
+p63
+I1
+sS'symbiotic interdependence seep'
+p64
+I1
+sS'intellig'
+p65
+I2
+sS'replac'
+p66
+I1
+sS'proofread'
+p67
+I1
+sS'tax return'
+p68
+I2
+sS'fold'
+p69
+I1
+sS'redistribut'
+p70
+I2
+sS'growth'
+p71
+I1
+sS'ferrous oxid'
+p72
+I1
+sS'download'
+p73
+I1
+sS'reserv'
+p74
+I1
+sS'thing'
+p75
+I2
+sS'proofreading team'
+p76
+I1
+sS'transport'
+p77
+I1
+sS'empty stomachs\xe2\x80\x94if'
+p78
+I1
+sS'factory smok'
+p79
+I2
+sS'glassite oxygen'
+p80
+I1
+sS'represent'
+p81
+I1
+sS'eternal star'
+p82
+I1
+sS'expert'
+p83
+I1
+sS'project gutenberg licens'
+p84
+I2
+sS'oxygen helmet'
+p85
+I1
+sS'mayan'
+p86
+I1
+sS'captain griswold'
+p87
+I1
+sS'access'
+p88
+I2
+sS'e-mail'
+p89
+I1
+sS'nonproprietari'
+p90
+I1
+sS'version'
+p91
+I1
+sS'joy'
+p92
+I2
+sS'floor churn'
+p93
+I1
+sS'of video camera'
+p94
+I1
+sS'leader'
+p95
+I1
+sS'compliment'
+p96
+I1
+sS'public domain'
+p97
+I5
+sS'ebook'
+p98
+I5
+sS'apeman'
+p99
+I1
+sS'barrier'
+p100
+I1
+sS'total joy'
+p101
+I1
+sS'space-dark'
+p102
+I1
+sS'complement'
+p103
+I2
+sS'team'
+p104
+I1
+sS'project gutenberg ebook'
+p105
+I2
+sS'electronic work'
+p106
+I17
+sS'preoccup'
+p107
+I1
+sS'captain griswold compli'
+p108
+I1
+sS'ore'
+p109
+I2
+sS'public domain print'
+p110
+I1
+sS'tragic th'
+p111
+I1
+sS'forelimbs\xe2\x80\x94they'
+p112
+I1
+sS'domain ebook'
+p113
+I1
+sS'face'
+p114
+I1
+sS'balbali'
+p115
+I1
+sS'of'
+p116
+I1
+sS'on-off-on-off'
+p117
+I1
+sS'stretch'
+p118
+I1
+sS'nest'
+p119
+I1
+sS'equat'
+p120
+I2
+sS'smoke'
+p121
+I2
+sS'of electronic work'
+p122
+I1
+sS'precious water seep'
+p123
+I1
+sS'allianc'
+p124
+I3
+sS'photographic equip'
+p125
+I1
+sS'bell'
+p126
+I2
+sS'civil'
+p127
+I8
+sS'precious iron or'
+p128
+I1
+sS'domain'
+p129
+I3
+sS'web sit'
+p130
+I1
+sS'restrict'
+p131
+I2
+sS'rock-hard clay'
+p132
+I1
+sS'guard'
+p133
+I1
+sS'greg'
+p134
+I1
+sS'suppli'
+p135
+I1
+sS'batteri'
+p136
+I1
+sS'transportation facil'
+p137
+I1
+sS'facil'
+p138
+I1
+sS'distribution of electronic work'
+p139
+I1
+sS'canal'
+p140
+I2
+sS'van'
+p141
+I1
+sS'atmospher'
+p142
+I1
+sS'anticlimactic mo'
+p143
+I1
+sS'cap visor'
+p144
+I1
+sS'licens'
+p145
+I4
+sS'trademark'
+p146
+I1
+sS'fight'
+p147
+I1
+sS'total food'
+p148
+I1
+sS'atkinson'
+p149
+I1
+sS'camera'
+p150
+I1
+sS'battery of'
+p151
+I1
+sS'glassite oxygen helmet'
+p152
+I1
+sS'whisper'
+p153
+I1
+sS'gutenberg licens'
+p154
+I2
+sS'landing parti'
+p155
+I4
+sS'cabin'
+p156
+I2
+sS'more'
+p157
+I1
+sS'firm'
+p158
+I1
+sS'head'
+p159
+I1
+sS'eastern'
+p160
+I3
+sS'mind'
+p161
+I1
+sS'total food suppli'
+p162
+I1
+sS'trademark licens'
+p163
+I1
+sS'public domain print edit'
+p164
+I1
+sS're-us'
+p165
+I2
+sS'barrier seep'
+p166
+I1
+sS'distribution of'
+p167
+I1
+sS'train'
+p168
+I1
+sS'ferrous oxide\xe2\x80\x94iron\xe2\x80\x94steel'
+p169
+I1
+sS'tragic unwilling'
+p170
+I1
+sS'individual work'
+p171
+I2
+sS'military fil'
+p172
+I1
+sS'land'
+p173
+I6
+sS'killing obstruct'
+p174
+I1
+sS'interdependence seep'
+p175
+I1
+sS'photograph'
+p176
+I1
+sS'voice firm'
+p177
+I1
+sS'room'
+p178
+I6
+sS'scientific author'
+p179
+I1
+sS'vanilla'
+p180
+I2
+sS'work'
+p181
+I22
+sS'tree'
+p182
+I1
+sS'derivative work'
+p183
+I3
+sS'racial mind'
+p184
+I1
+sS'lieuten'
+p185
+I1
+sS'project'
+p186
+I4
+sS'blue-black ski'
+p187
+I1
+sS'flame'
+p188
+I1
+sS'iron'
+p189
+I1
+sS'anxieti'
+p190
+I1
+sS'ovoid head'
+p191
+I1
+sS'semi-circl'
+p192
+I1
+sS'oxide\xe2\x80\x94iron\xe2\x80\x94steel'
+p193
+I1
+sS'football gam'
+p194
+I1
+sS'glanc'
+p195
+I2
+sS'eastern alli'
+p196
+I3
+sS'seep'
+p197
+I4
+sS'lock'
+p198
+I2
+sS'lichen growth'
+p199
+I1
+sS'tax'
+p200
+I1
+sS'site'
+p201
+I1
+sS'repres'
+p202
+I1
+sS'irrit'
+p203
+I1
+sS'print edit'
+p204
+I1
+sS'school children'
+p205
+I1
+sS'file'
+p206
+I1
+sS'wind whisp'
+p207
+I1
+sS'unseeabl'
+p208
+I1
+sS'churn'
+p209
+I1
+sS'mole'
+p210
+I1
+sS'helmet'
+p211
+I1
+sS'history book'
+p212
+I1
+sS'ascii\xe2\x80\x9d'
+p213
+I2
+sS'project gutenberg'
+p214
+I4
+sS'advic'
+p215
+I1
+sS'floor'
+p216
+I1
+sS'stomachs\xe2\x80\x94if'
+p217
+I1
+sS'commercial redistribut'
+p218
+I1
+sS'ceremoni'
+p219
+I1
+sS'binari'
+p220
+I1
+sS'book'
+p221
+I1
+sS'unwilling'
+p222
+I1
+sS'adequate food'
+p223
+I1
+sS'visor'
+p224
+I1
+sS'week'
+p225
+I1
+sS'marble statuari'
+p226
+I1
+sS'gutenberg ebook'
+p227
+I2
+sS'copi'
+p228
+I1
+sS'star'
+p229
+I1
+sS'distribut'
+p230
+I3
+sS'charact'
+p231
+I1
+sS'symbol'
+p232
+I1
+sS'statuari'
+p233
+I1
+sS'return'
+p234
+I1
+sS'pglaf'
+p235
+I1
+sS'moment'
+p236
+I1
+sS'blood'
+p237
+I1
+sS'tier'
+p238
+I1
+sS'greg week'
+p239
+I1
+sS'airlock'
+p240
+I3
+sS'glorious pion'
+p241
+I1
+sS'special rul'
+p242
+I1
+sS'destructive th'
+p243
+I1
+sS'author'
+p244
+I1
+sS'tentacl'
+p245
+I2
+sS'rule'
+p246
+I1
+sS'self-employ'
+p247
+I1
+sS'griswold compli'
+p248
+I1
+sS'civilian expert'
+p249
+I1
+sS'canal sand'
+p250
+I1
+sS'public domain ebook'
+p251
+I1
+sS'domain print edit'
+p252
+I1
+sS'parti'
+p253
+I4
+sS'wind'
+p254
+I1
+stp255
+Rp256
+tp257
+.

@@ -1,0 +1,1364 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'subsets of lysosom'
+p7
+I2
+sS'cellular functions including protein'
+p8
+I1
+sS'ml of'
+p9
+I1
+sS'distribution of lysosom'
+p10
+I1
+sS'of lysosomal membran'
+p11
+I1
+sS'lysosomal ph'
+p12
+I15
+sS'bovine serum'
+p13
+I1
+sS'peroxidas'
+p14
+I1
+sS'of the oxidized oxyburst green h'
+p15
+I1
+sS'manassa'
+p16
+I1
+sS'radic'
+p17
+I1
+sS'internalization of'
+p18
+I1
+sS'relative oxidative act'
+p19
+I1
+sS'metamorph'
+p20
+I1
+sS'heterogeneous distribution of fluorescence intensity of'
+p21
+I1
+sS'stock solutions of oxyburst'
+p22
+I1
+sS'mutual regul'
+p23
+I1
+sS'fluorescence intensity of the oxidized oxyburst green h'
+p24
+I1
+sS'activ'
+p25
+I37
+sS'hrp'
+p26
+I1
+sS'\xce\xbcm nigericin'
+p27
+I1
+sS'cellular dysfunct'
+p28
+I1
+sS'pma treat'
+p29
+I6
+sS'subsets of'
+p30
+I2
+sS'oxidized dy'
+p31
+I4
+sS'activation of the nadph oxidas'
+p32
+I1
+sS'lysine fix'
+p33
+I1
+sS'stain'
+p34
+I1
+sS'internalization of oxidized dy'
+p35
+I1
+sS'analys'
+p36
+I1
+sS'perfusion chamb'
+p37
+I1
+sS'probe'
+p38
+I2
+sS'blue fluorophor'
+p39
+I1
+sS'lysosom'
+p40
+I50
+sS'membrane integr'
+p41
+I1
+sS'quantix'
+p42
+I1
+sS'life span'
+p43
+I1
+sS'stability of lysosomal membran'
+p44
+I1
+sS'pivotal organelle responsible for a diverse spectrum of cellular functions includ'
+p45
+I1
+sS'cultur'
+p46
+I1
+sS'treatment strategi'
+p47
+I1
+sS'heterogeneous fluorescence of th'
+p48
+I1
+sS'of oxyburst green h'
+p49
+I2
+sS'the oxyburst fluorophor'
+p50
+I1
+sS'of lipid'
+p51
+I1
+sS'-hexafluorofluorescein'
+p52
+I1
+sS'oxyburst\xe2\x84\xa2'
+p53
+I1
+sS'chemical st'
+p54
+I1
+sS'membrane lipid'
+p55
+I1
+sS'ph elev'
+p56
+I1
+sS'lysotracker\xe2\x84\xa2'
+p57
+I1
+sS'emission maximum'
+p58
+I1
+sS'integr'
+p59
+I1
+sS'normal lysosomal ph'
+p60
+I1
+sS'radical o'
+p61
+I1
+sS'for a diverse spectrum of cellular functions including protein'
+p62
+I2
+sS'heterogeneous fluorescence of the oxidized dy'
+p63
+I1
+sS'microscopi'
+p64
+I1
+sS'proteas'
+p65
+I1
+sS'fluoresc'
+p66
+I5
+sS'nitrogen'
+p67
+I1
+sS'speci'
+p68
+I2
+sS'of the nadph oxidas'
+p69
+I1
+sS'lysosomal physiolog'
+p70
+I1
+sS'pivotal organelle responsible for a diverse spectrum'
+p71
+I1
+sS'maximum'
+p72
+I1
+sS'enzyme-catalyzed oxid'
+p73
+I1
+sS'pma'
+p74
+I19
+sS'pivotal organelle responsible for a diverse spectrum of cellular functions including protein'
+p75
+I1
+sS'nm'
+p76
+I2
+sS'hydrogen peroxid'
+p77
+I2
+sS'hydrophobic membran'
+p78
+I1
+sS'excit'
+p79
+I1
+sS'index'
+p80
+I1
+sS'fluorescence decreas'
+p81
+I1
+sS'dextran conjug'
+p82
+I1
+sS'lysosomes of'
+p83
+I1
+sS'bsa conjug'
+p84
+I1
+sS'loaded cel'
+p85
+I1
+sS'label'
+p86
+I1
+sS'cell'
+p87
+I11
+sS'distribution of lysosomal oxidative burst act'
+p88
+I1
+sS'physiolog'
+p89
+I1
+sS'sigma'
+p90
+I1
+sS'lysosomes of ionophore-clamped cel'
+p91
+I1
+sS'chemic'
+p92
+I1
+sS'lysosomal traffick'
+p93
+I1
+sS'lysosomal membrane integr'
+p94
+I1
+sS'activation of the nadph oxidase complex'
+p95
+I1
+sS'vacuol'
+p96
+I1
+sS'dextran'
+p97
+I9
+sS'absenc'
+p98
+I2
+sS'low-light level fluorescence microscopi'
+p99
+I1
+sS'fluorescence intensity of the oxidized oxyburst green'
+p100
+I1
+sS'lysosomal lumen ph'
+p101
+I1
+sS'low-light level fluoresc'
+p102
+I1
+sS'mm kcl'
+p103
+I1
+sS'of phagolysosomal ph'
+p104
+I1
+sS'decreas'
+p105
+I1
+sS'of cellular functions including protein'
+p106
+I1
+sS'stock solutions of oxyburst green h'
+p107
+I1
+sS'popul'
+p108
+I8
+sS'fluorescence of the oxidized dy'
+p109
+I1
+sS'alkalization of phagolysosomal ph'
+p110
+I1
+sS'genetic lysosomal disord'
+p111
+I1
+sS'cell activ'
+p112
+I1
+sS'oxyburst'
+p113
+I8
+sS'biochemical analys'
+p114
+I1
+sS'ph-dependency of'
+p115
+I1
+sS'ml oxyburst green'
+p116
+I2
+sS'glass coverslip'
+p117
+I1
+sS'endosome loaded cel'
+p118
+I1
+sS'of ionophore-clamped cel'
+p119
+I1
+sS'mm me'
+p120
+I1
+sS'intensity of the oxidized oxyburst green h'
+p121
+I1
+sS'culture collect'
+p122
+I2
+sS'oxidation act'
+p123
+I1
+sS'lysosomal enzym'
+p124
+I2
+sS'fluorescein'
+p125
+I2
+sS'phosphate-buffered salin'
+p126
+I1
+sS'oxygen speci'
+p127
+I2
+sS'spatial distribut'
+p128
+I1
+sS'stock solutions of oxyburst green'
+p129
+I1
+sS'fluorescein-dextran'
+p130
+I5
+sS'murine macrophage-like cel'
+p131
+I1
+sS'marker'
+p132
+I1
+sS'inactivation of lysosomal enzym'
+p133
+I1
+sS'oxyburst fluorophor'
+p134
+I1
+sS'anion rad'
+p135
+I1
+sS'including protein'
+p136
+I2
+sS'lumen ph'
+p137
+I1
+sS'dihydro-2'
+p138
+I1
+sS'univers'
+p139
+I1
+sS'heterogeneous fluoresc'
+p140
+I1
+sS'pb'
+p141
+I5
+sS'non-fluorescent bsa'
+p142
+I1
+sS'rhodamine filt'
+p143
+I1
+sS'catabol'
+p144
+I1
+sS'of oxidized oxyburst green h'
+p145
+I2
+sS'non-fluorescent bsa conjug'
+p146
+I1
+sS'lysosomal membrane lipid'
+p147
+I1
+sS'ph'
+p148
+I22
+sS'preferential accumul'
+p149
+I1
+sS'burst'
+p150
+I3
+sS'organic synthesi'
+p151
+I1
+sS'strategi'
+p152
+I1
+sS'ph-dependency of the oxidized dy'
+p153
+I1
+sS'life'
+p154
+I1
+sS'regul'
+p155
+I1
+sS'validation of'
+p156
+I1
+sS'molecular weight redox-active iron'
+p157
+I1
+sS'nikon'
+p158
+I1
+sS'photometr'
+p159
+I1
+sS'ph gradient'
+p160
+I2
+sS'hepe'
+p161
+I1
+sS'cell monolay'
+p162
+I5
+sS'oxidative metabol'
+p163
+I1
+sS'mutual regulation of'
+p164
+I1
+sS'membrane traffick'
+p165
+I1
+sS'me'
+p166
+I4
+sS'activation of nadph oxidas'
+p167
+I2
+sS'oxidized oxyburst green'
+p168
+I8
+sS'abnormal lysosomal physiolog'
+p169
+I1
+sS'ml'
+p170
+I1
+sS'imperm'
+p171
+I1
+sS'hff bovine serum'
+p172
+I1
+sS'chloroquin'
+p173
+I1
+sS'staining of'
+p174
+I1
+sS'co-localization experi'
+p175
+I1
+sS'fluorescence distribution of oxidized oxyburst green h'
+p176
+I1
+sS'conventional biochemical analys'
+p177
+I1
+sS'oxyburst green h'
+p178
+I25
+sS'respiratory burst'
+p179
+I1
+sS'observ'
+p180
+I1
+sS'cascade blu'
+p181
+I1
+sS'va'
+p182
+I1
+sS'of lysosomal oxidative burst act'
+p183
+I1
+sS'lysotracker r'
+p184
+I13
+sS'mm nacl'
+p185
+I1
+sS'red dnd-99'
+p186
+I7
+sS'chloroquine analogu'
+p187
+I1
+sS'iv'
+p188
+I2
+sS'of nadph oxidas'
+p189
+I2
+sS'4-morpholineethanesulfon'
+p190
+I2
+sS'fluorescence intensity of'
+p191
+I2
+sS'protein'
+p192
+I1
+sS'hydrogen'
+p193
+I2
+sS'serum'
+p194
+I1
+sS'of the oxyburst fluorophor'
+p195
+I1
+sS'alkal'
+p196
+I1
+sS'intensity of oxidized oxyburst green h'
+p197
+I1
+sS'epifluorescence opt'
+p198
+I1
+sS'activation of th'
+p199
+I3
+sS'circular glass coverslip'
+p200
+I1
+sS'burst act'
+p201
+I1
+sS'of the oxidas'
+p202
+I1
+sS'ph-dependence of fluorescein-dextran'
+p203
+I4
+sS'ester'
+p204
+I1
+sS'chase label'
+p205
+I1
+sS'pathway'
+p206
+I1
+sS'stock'
+p207
+I1
+sS'heterogeneous fluorescence distribution of oxidized oxyburst green h'
+p208
+I1
+sS'subset of'
+p209
+I8
+sS'of oxidative act'
+p210
+I3
+sS'optic'
+p211
+I1
+sS'gradient'
+p212
+I2
+sS'ph distribut'
+p213
+I1
+sS'organel'
+p214
+I5
+sS'heterogeneous fluorescence distribut'
+p215
+I1
+sS'normal transmembrane-dependent ph gradi'
+p216
+I1
+sS'dye'
+p217
+I4
+sS'alkalization of'
+p218
+I1
+sS'traffick'
+p219
+I2
+sS'phagocytosi'
+p220
+I3
+sS'stability of'
+p221
+I1
+sS'stabil'
+p222
+I2
+sS'intralysosomal o'
+p223
+I1
+sS'fluorescence intens'
+p224
+I4
+sS'redox-active iron'
+p225
+I2
+sS'heterogeneous fluorescence distribution of oxidized oxyburst green'
+p226
+I1
+sS'macrophag'
+p227
+I1
+sS'min'
+p228
+I6
+sS'fluorescent intens'
+p229
+I1
+sS'of the oxidized dy'
+p230
+I3
+sS'elev'
+p231
+I1
+sS'nm concentr'
+p232
+I1
+sS'hff'
+p233
+I27
+sS'activation of the oxidas'
+p234
+I1
+sS'intensity of the oxyburst fluorophor'
+p235
+I1
+sS'valid'
+p236
+I1
+sS'fluorescence intensity of th'
+p237
+I2
+sS'fluorescein-conjugated dextran'
+p238
+I3
+sS'oxyburst green'
+p239
+I11
+sS'mucolipidosi'
+p240
+I1
+sS'excitation wavelength'
+p241
+I1
+sS'ionophore-clamped cel'
+p242
+I2
+sS'microscop'
+p243
+I1
+sS'fluorescence video'
+p244
+I1
+sS'peroxid'
+p245
+I2
+sS'situ index'
+p246
+I1
+sS'vesicular transport'
+p247
+I1
+sS'membrane imperm'
+p248
+I1
+sS'concentr'
+p249
+I1
+sS'fluorescein fluorophor'
+p250
+I1
+sS'coverslip'
+p251
+I1
+sS'ny'
+p252
+I1
+sS'analytical grad'
+p253
+I1
+sS'stimul'
+p254
+I3
+sS'calibration buff'
+p255
+I1
+sS'conjug'
+p256
+I2
+sS'complex'
+p257
+I2
+sS'dysfunct'
+p258
+I1
+sS'nm lysotracker r'
+p259
+I2
+sS'ph-dependency of th'
+p260
+I1
+sS'gaucher diseas'
+p261
+I1
+sS'of fluorescein-dextran'
+p262
+I4
+sS'fluid phase endocytosi'
+p263
+I1
+sS'treatment'
+p264
+I7
+sS'reactive oh'
+p265
+I1
+sS'activation of the nadph'
+p266
+I2
+sS'of fluorescence intensity of oxidized oxyburst green h'
+p267
+I1
+sS'bovine serum albumin'
+p268
+I1
+sS'oxyburst fluoresc'
+p269
+I2
+sS'activation of'
+p270
+I5
+sS'cascade blue fluorophor'
+p271
+I1
+sS'hff bovine serum albumin'
+p272
+I1
+sS'monensin'
+p273
+I2
+sS'pma-induced oxid'
+p274
+I1
+sS'distribution of oxidative act'
+p275
+I2
+sS'kcl'
+p276
+I1
+sS'compound'
+p277
+I2
+sS'anion'
+p278
+I1
+sS'nigericin'
+p279
+I2
+sS'hff bsa'
+p280
+I24
+sS'of acidic lysosom'
+p281
+I1
+sS'spatial distribution of lysosomal ph'
+p282
+I1
+sS'oxygen'
+p283
+I1
+sS'lysosomal membran'
+p284
+I3
+sS'gentamicin'
+p285
+I1
+sS'chamber'
+p286
+I1
+sS'fluorescence intensity of the oxyburst fluorophor'
+p287
+I1
+sS'gibco'
+p288
+I1
+sS'lysotrack'
+p289
+I7
+sS'phagolysosomal ph'
+p290
+I2
+sS'dnd-99'
+p291
+I7
+sS'subset'
+p292
+I11
+sS'oxid'
+p293
+I5
+sS'salin'
+p294
+I1
+sS'non-fluoresc'
+p295
+I1
+sS'disord'
+p296
+I1
+sS'distribution of lysosomal oxidative burst'
+p297
+I1
+sS'activation of nadph'
+p298
+I2
+sS'accumulation of lipid'
+p299
+I1
+sS'heterogeneous distribution of oxidative act'
+p300
+I1
+sS'sphingolipid'
+p301
+I1
+sS'endocytosi'
+p302
+I2
+sS'including fluorescein'
+p303
+I1
+sS'ph-depend'
+p304
+I3
+sS'superoxide anion'
+p305
+I1
+sS'transport'
+p306
+I1
+sS'lysosomal oxidative burst act'
+p307
+I1
+sS'the oxidized oxyburst green h'
+p308
+I1
+sS'collect'
+p309
+I1
+sS'oxidized oxyburst green h'
+p310
+I11
+sS'inactiv'
+p311
+I1
+sS'calibration curv'
+p312
+I2
+sS'oxidative burst act'
+p313
+I1
+sS'mutual regulation of oxidative act'
+p314
+I1
+sS'circular glass'
+p315
+I1
+sS'ro'
+p316
+I3
+sS'red'
+p317
+I8
+sS'phagocytosis ev'
+p318
+I1
+sS'diseas'
+p319
+I5
+sS'lipid'
+p320
+I3
+sS'heterogeneous distribution of fluorescence intensity of oxidized oxyburst green'
+p321
+I1
+sS'accumulation of'
+p322
+I1
+sS'lysosomal popul'
+p323
+I7
+sS'pivotal organelle responsible for a diverse spectrum of'
+p324
+I1
+sS'intralysosomal ph elev'
+p325
+I1
+sS'total lysosomal popul'
+p326
+I3
+sS'emission fluoresc'
+p327
+I1
+sS'fluorophor'
+p328
+I4
+sS'distribution of fluorescence intensity of oxidized oxyburst green h'
+p329
+I1
+sS'confluenc'
+p330
+I1
+sS'pivotal organelle responsible for'
+p331
+I1
+sS'lysosomal storage diseas'
+p332
+I2
+sS'oh'
+p333
+I4
+sS'of'
+p334
+I1
+sS'phagolysosom'
+p335
+I3
+sS'accumul'
+p336
+I5
+sS'acidic lysosom'
+p337
+I6
+sS'filter'
+p338
+I1
+sS'ml of th'
+p339
+I1
+sS'ph i'
+p340
+I1
+sS'endosome popul'
+p341
+I1
+sS'span'
+p342
+I1
+sS'ph activ'
+p343
+I1
+sS'organelle responsible for a diverse spectrum of cellular functions including protein'
+p344
+I1
+sS'the oxidized dy'
+p345
+I3
+sS'diaphot-tmd'
+p346
+I1
+sS'heterogeneous distribution of lysosom'
+p347
+I1
+sS'grade'
+p348
+I1
+sS'fluorescence distribut'
+p349
+I1
+sS'vitro'
+p350
+I3
+sS'nacl'
+p351
+I1
+sS'reactive oxygen'
+p352
+I1
+sS'acquisit'
+p353
+I2
+sS'the nadph oxidas'
+p354
+I1
+sS'degranul'
+p355
+I1
+sS'fixabl'
+p356
+I1
+sS'spectrofluorimetr'
+p357
+I1
+sS'nadph oxidase act'
+p358
+I1
+sS'membran'
+p359
+I4
+sS'spatial distribution of'
+p360
+I1
+sS'oxyburst fluorescent intens'
+p361
+I1
+sS'regulation of oxidative act'
+p362
+I1
+sS'of the nadph oxidase complex'
+p363
+I1
+sS'mucolipidosis type iv'
+p364
+I1
+sS'ml of the oxidized dy'
+p365
+I1
+sS'lysosomal oxidative act'
+p366
+I2
+sS'bsa'
+p367
+I24
+sS'heterogeneous distribution of fluorescence intensity of oxidized oxyburst green h'
+p368
+I1
+sS'enzym'
+p369
+I2
+sS'fluorophores including fluorescein'
+p370
+I1
+sS'oxidative act'
+p371
+I27
+sS'lysosomal disord'
+p372
+I1
+sS'molecular'
+p373
+I1
+sS'diverse spectrum of cellular functions including protein'
+p374
+I2
+sS'alkalin'
+p375
+I2
+sS'green h'
+p376
+I25
+sS'wavelength'
+p377
+I1
+sS'\xce\xbcm monensin'
+p378
+I1
+sS'nadph oxidas'
+p379
+I3
+sS'cellular oxidative metabol'
+p380
+I1
+sS'distribution of'
+p381
+I2
+sS'stock solutions of'
+p382
+I1
+sS'niemann-pick'
+p383
+I1
+sS'heterogeneous fluorescence distribution of'
+p384
+I1
+sS'cytotox'
+p385
+I1
+sS'heterogeneous distribution of'
+p386
+I3
+sS'lysotracker red dnd-99'
+p387
+I7
+sS'normal transmembrane ph gradi'
+p388
+I1
+sS'monolay'
+p389
+I6
+sS'albumin'
+p390
+I1
+sS'fluorescence microscopi'
+p391
+I2
+sS'nm pma'
+p392
+I4
+sS'transmembrane ph gradi'
+p393
+I1
+sS'heterogeneous distribut'
+p394
+I4
+sS'cascad'
+p395
+I1
+sS'oxidas'
+p396
+I5
+sS'intern'
+p397
+I1
+sS'inactivation of'
+p398
+I1
+sS'oxidized oxyburst'
+p399
+I1
+sS'iron'
+p400
+I1
+sS'lysosomal ph i'
+p401
+I1
+sS'the oxidas'
+p402
+I1
+sS'the nadph oxidase complex'
+p403
+I1
+sS'subset of lysosom'
+p404
+I8
+sS'staining of acidic lysosom'
+p405
+I2
+sS'oxidative burst'
+p406
+I3
+sS'gaucher'
+p407
+I1
+sS'lysosomal prob'
+p408
+I2
+sS'molecular prob'
+p409
+I1
+sS'experi'
+p410
+I1
+sS'hff bovin'
+p411
+I1
+sS'ar'
+p412
+I1
+sS'oxidase complex'
+p413
+I2
+sS'heterogeneous fluorescence of'
+p414
+I1
+sS'lipid catabol'
+p415
+I1
+sS'pma stimul'
+p416
+I3
+sS'fluorophores includ'
+p417
+I1
+sS'lipid accumul'
+p418
+I2
+sS'nm lysotracker red dnd-99'
+p419
+I2
+sS'metabol'
+p420
+I1
+sS'nadph oxidase complex'
+p421
+I2
+sS'of oxidized dy'
+p422
+I1
+sS'heterogeneous distribution of fluorescence intens'
+p423
+I1
+sS'distribution of lysosomal ph'
+p424
+I1
+sS'spectrum of cellular functions including protein'
+p425
+I1
+sS'ml oxyburst green h'
+p426
+I2
+sS'of lysosom'
+p427
+I11
+sS'analogu'
+p428
+I1
+sS'of lysosomal enzym'
+p429
+I1
+sS'oxidase act'
+p430
+I1
+sS'curv'
+p431
+I2
+sS'neutrophil'
+p432
+I3
+sS'distribut'
+p433
+I5
+sS'ph-dependence of'
+p434
+I4
+sS'buffer'
+p435
+I2
+sS'nadph'
+p436
+I3
+sS'reactive oxygen speci'
+p437
+I1
+sS'of lysosomal ph'
+p438
+I1
+sS'carboxyfluorescein'
+p439
+I1
+sS'mgso'
+p440
+I1
+sS'intens'
+p441
+I3
+sS'hrp-catalyzed oxid'
+p442
+I2
+sS'endocytic pathway'
+p443
+I1
+sS'dmem'
+p444
+I1
+sS'of lysosomal oxidative act'
+p445
+I2
+sS'lysosomal mark'
+p446
+I1
+sS'synthesi'
+p447
+I1
+sS'distribution of oxidized oxyburst green h'
+p448
+I1
+sS'transmembrane-dependent ph gradi'
+p449
+I1
+sS'ko'
+p450
+I1
+sS'phorbol est'
+p451
+I1
+sS'heterogen'
+p452
+I1
+sS'fluorescence intensity of oxidized oxyburst green h'
+p453
+I1
+sS'serum albumin'
+p454
+I1
+sS'rhodamin'
+p455
+I1
+stp456
+Rp457
+tp458
+.

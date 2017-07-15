@@ -1,0 +1,1331 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'putative cadherin-like receptor'
+p7
+I1
+sS'the cadherin'
+p8
+I1
+sS'polypeptid'
+p9
+I2
+sS'secondary purif'
+p10
+I1
+sS'cadherin-like receptor purif'
+p11
+I1
+sS'sds-page gel'
+p12
+I1
+sS'ge'
+p13
+I1
+sS'saccharomyc'
+p14
+I1
+sS'cadherin-like receptor fract'
+p15
+I2
+sS'potential bombyx mori'
+p16
+I1
+sS'affin'
+p17
+I11
+sS'amersham pharmacia'
+p18
+I1
+sS'randomized toxin'
+p19
+I1
+sS'slot'
+p20
+I1
+sS'antiserum'
+p21
+I1
+sS'toxin affin'
+p22
+I1
+sS'\xce\xbcg of'
+p23
+I1
+sS'mori midgut receptor'
+p24
+I2
+sS'activ'
+p25
+I11
+sS'candidate receptor fractions for apn'
+p26
+I1
+sS'tween'
+p27
+I1
+sS'biopesticide worldwid'
+p28
+I1
+sS'enzymatic act'
+p29
+I6
+sS'apn enzymatic act'
+p30
+I6
+sS'gpi anchor'
+p31
+I2
+sS'n activ'
+p32
+I1
+sS'slot blot assay'
+p33
+I1
+sS'baculovirus vector'
+p34
+I1
+sS'binding assay'
+p35
+I1
+sS'low salt'
+p36
+I1
+sS'urea'
+p37
+I1
+sS'assay'
+p38
+I7
+sS'apn frag'
+p39
+I2
+sS'ihara'
+p40
+I1
+sS'border membrane vesicl'
+p41
+I2
+sS'phospholipas'
+p42
+I1
+sS'apn isozym'
+p43
+I1
+sS'alignments of'
+p44
+I1
+sS'candid'
+p45
+I3
+sS'affinity of'
+p46
+I1
+sS'mw of apn'
+p47
+I1
+sS'streptavidin-conjugated horseradish peroxidas'
+p48
+I1
+sS'epitheli'
+p49
+I1
+sS'blast'
+p50
+I1
+sS'mori bbmv protein'
+p51
+I1
+sS'gel'
+p52
+I1
+sS'tri'
+p53
+I1
+sS'nm affin'
+p54
+I2
+sS'unaligned gap'
+p55
+I1
+sS'n receptor'
+p56
+I1
+sS'similar antibodi'
+p57
+I1
+sS'mori cadherin-like receptor'
+p58
+I2
+sS'leucine-phenylalanine dipeptid'
+p59
+I1
+sS'\xce\xbcl puls'
+p60
+I1
+sS'for the cadherin-like receptor'
+p61
+I2
+sS'q sepharos'
+p62
+I2
+sS'affinity precipit'
+p63
+I1
+sS'containing ethanolamin'
+p64
+I1
+sS'vector'
+p65
+I1
+sS'ban'
+p66
+I1
+sS'cri'
+p67
+I4
+sS'toxin blot'
+p68
+I1
+sS'neutral amino acid'
+p69
+I1
+sS'phospholipase c'
+p70
+I1
+sS'manduca'
+p71
+I1
+sS'tris-hcl'
+p72
+I1
+sS'protease-digest'
+p73
+I1
+sS'domain ii'
+p74
+I1
+sS'superdex'
+p75
+I1
+sS'salt buff'
+p76
+I2
+sS'biological rol'
+p77
+I1
+sS'ethanolamin'
+p78
+I1
+sS'receptor fract'
+p79
+I4
+sS'\xce\xbcl of candid'
+p80
+I1
+sS'dissociation rate for th'
+p81
+I1
+sS'blot assay'
+p82
+I2
+sS'nm'
+p83
+I8
+sS'acid'
+p84
+I1
+sS'elisa'
+p85
+I2
+sS'precipit'
+p86
+I1
+sS'concern'
+p87
+I1
+sS'blot studi'
+p88
+I1
+sS'btr175 gene'
+p89
+I1
+sS'phosphatidylinositol-specific phospholipas'
+p90
+I1
+sS'silkworm receptors for bt toxin'
+p91
+I1
+sS'apn affin'
+p92
+I1
+sS'anion-exchange column'
+p93
+I2
+sS'elisa binding assay'
+p94
+I1
+sS'cell'
+p95
+I2
+sS'salin'
+p96
+I2
+sS'column chromatographi'
+p97
+I1
+sS'bt toxin'
+p98
+I2
+sS'blot overlay'
+p99
+I1
+sS'governmental ban'
+p100
+I1
+sS'\xce\xbcl of candidate receptor'
+p101
+I1
+sS'amersham pharmacia biotech'
+p102
+I1
+sS'concentr'
+p103
+I2
+sS'receptor'
+p104
+I29
+sS'mg of apn'
+p105
+I1
+sS'dissociation rate for the cadherin-like receptor'
+p106
+I1
+sS'lpna assay'
+p107
+I1
+sS'plutella xylostella apn receptor'
+p108
+I1
+sS'affinity of the cadherin'
+p109
+I1
+sS'glycosyl'
+p110
+I3
+sS'purif'
+p111
+I6
+sS'ac'
+p112
+I1
+sS'alleles of'
+p113
+I1
+sS'bt'
+p114
+I4
+sS'scfv molecul'
+p115
+I1
+sS'x-ray crystal structures of'
+p116
+I1
+sS'pro198'
+p117
+I1
+sS'worldwid'
+p118
+I1
+sS'ammonium acet'
+p119
+I1
+sS'bbmv protein'
+p120
+I4
+sS'oc'
+p121
+I1
+sS'receptors for bt toxin'
+p122
+I1
+sS'mori apn frag'
+p123
+I1
+sS'phosphatidylinositol-specific phospholipase c'
+p124
+I1
+sS'gene'
+p125
+I1
+sS'mutant toxin'
+p126
+I2
+sS'gradient of'
+p127
+I1
+sS'aa'
+p128
+I1
+sS'toxin receptor'
+p129
+I1
+sS'isozym'
+p130
+I3
+sS'heliothis virescen'
+p131
+I1
+sS'cry toxins for'
+p132
+I1
+sS'plasmon reson'
+p133
+I1
+sS'apn receptor'
+p134
+I2
+sS'ab'
+p135
+I2
+sS'apn'
+p136
+I38
+sS'for apn'
+p137
+I1
+sS'ultrafiltr'
+p138
+I1
+sS'fractions for apn'
+p139
+I1
+sS'mw of'
+p140
+I2
+sS'cadherin-like receptor'
+p141
+I12
+sS'domain-switched toxin'
+p142
+I1
+sS'protease inhibitor'
+p143
+I1
+sS'isoform'
+p144
+I3
+sS'ym30 ultrafiltr'
+p145
+I1
+sS'binding model'
+p146
+I1
+sS'aminopeptidase n'
+p147
+I2
+sS'size-exclusion purif'
+p148
+I2
+sS'mori'
+p149
+I11
+sS'toxin-binding receptor purifi'
+p150
+I1
+sS'cadherin'
+p151
+I4
+sS'ph'
+p152
+I1
+sS'spr'
+p153
+I4
+sS'genetic isoform'
+p154
+I1
+sS'thuringiensi'
+p155
+I2
+sS'toxin vari'
+p156
+I1
+sS'brush bord'
+p157
+I2
+sS'gap'
+p158
+I1
+sS'ml bed'
+p159
+I1
+sS'piplc'
+p160
+I3
+sS'mm leucine-p-nitroanilid'
+p161
+I1
+sS'gpi-anchor'
+p162
+I1
+sS'cadherin-like receptor isoform'
+p163
+I1
+sS'cells expressing btr175'
+p164
+I1
+sS'mg'
+p165
+I3
+sS'naoh'
+p166
+I1
+sS'mm naoh'
+p167
+I1
+sS'prepar'
+p168
+I2
+sS'work'
+p169
+I1
+sS'final concentr'
+p170
+I1
+sS'amersham'
+p171
+I1
+sS'midgut epitheli'
+p172
+I1
+sS'mw'
+p173
+I2
+sS'ile135'
+p174
+I2
+sS'protease-digested apn'
+p175
+I1
+sS'toxin receptor class'
+p176
+I1
+sS'inhibitor'
+p177
+I1
+sS'protease-digested apn frag'
+p178
+I1
+sS'anchor'
+p179
+I2
+sS'biotech'
+p180
+I1
+sS'slot blot'
+p181
+I1
+sS'\xc3\x84kta explor'
+p182
+I1
+sS'puriti'
+p183
+I2
+sS'apn enzyme act'
+p184
+I2
+sS'bbmv prepar'
+p185
+I1
+sS'plutella xylostella'
+p186
+I1
+sS'chip'
+p187
+I1
+sS'apns coelut'
+p188
+I1
+sS'receptor purifi'
+p189
+I1
+sS'q sepharose anion-exchange chromatographi'
+p190
+I1
+sS'ii'
+p191
+I1
+sS'cry toxin'
+p192
+I5
+sS'explor'
+p193
+I1
+sS'public concern'
+p194
+I1
+sS'protein'
+p195
+I9
+sS'dipeptid'
+p196
+I1
+sS'serum'
+p197
+I1
+sS'real-tim'
+p198
+I1
+sS'toxin-binding receptor'
+p199
+I1
+sS'\xce\xbcm ethylen'
+p200
+I1
+sS'candidate cadherin-like receptor'
+p201
+I1
+sS'non-target insect'
+p202
+I1
+sS'candidate receptor'
+p203
+I2
+sS'preparation buff'
+p204
+I1
+sS'ligand blot studi'
+p205
+I1
+sS'mm tris-hcl'
+p206
+I1
+sS'cry receptor'
+p207
+I1
+sS'amicon ym30'
+p208
+I1
+sS'toxin'
+p209
+I21
+sS'bioassay'
+p210
+I1
+sS'outbreak'
+p211
+I1
+sS'apn fract'
+p212
+I1
+sS'gpi-anchor isozym'
+p213
+I1
+sS'of apn'
+p214
+I5
+sS'yaoi'
+p215
+I2
+sS'amicon ym30 ultrafiltr'
+p216
+I1
+sS'elut'
+p217
+I2
+sS'insecticidal protein'
+p218
+I1
+sS'cadherin-like receptor bt-r'
+p219
+I1
+sS'absorb'
+p220
+I1
+sS'size-purif'
+p221
+I1
+sS'spodptera'
+p222
+I1
+sS'variant'
+p223
+I2
+sS'bombyx mori'
+p224
+I1
+sS'bbmv'
+p225
+I13
+sS'pharmacia biotech'
+p226
+I1
+sS'x-ray cryst'
+p227
+I1
+sS'randomized toxin concentr'
+p228
+I1
+sS'blast sequence align'
+p229
+I1
+sS'studi'
+p230
+I4
+sS'conclusions domain ii'
+p231
+I1
+sS'chromatogram'
+p232
+I1
+sS'cm5 sensor chip'
+p233
+I1
+sS'hybrid toxin'
+p234
+I3
+sS'cdna vari'
+p235
+I1
+sS'\xce\xbcl of candidate receptor fract'
+p236
+I1
+sS'of salt'
+p237
+I1
+sS'affinity of th'
+p238
+I1
+sS'abbreviations bt'
+p239
+I1
+sS'x-ray'
+p240
+I1
+sS'model'
+p241
+I1
+sS'elisa bind'
+p242
+I1
+sS'follow-up studi'
+p243
+I1
+sS'mm tri'
+p244
+I1
+sS'hepes-buffered salin'
+p245
+I2
+sS'mori brush border membrane vesicl'
+p246
+I1
+sS'cadherin-lik'
+p247
+I1
+sS'preliminary analysis hybrid'
+p248
+I1
+sS'sexta'
+p249
+I2
+sS'coli'
+p250
+I1
+sS'ttb'
+p251
+I1
+sS'sds-page'
+p252
+I3
+sS'blot'
+p253
+I2
+sS'flowcell contain'
+p254
+I1
+sS'low salt buff'
+p255
+I1
+sS'mori receptor'
+p256
+I3
+sS'kda apn fract'
+p257
+I1
+sS'flowcell containing ethanolamin'
+p258
+I1
+sS'coelut'
+p259
+I1
+sS'cdna variants of'
+p260
+I1
+sS'vesicl'
+p261
+I2
+sS'xylostella apn receptor'
+p262
+I1
+sS'alleles of th'
+p263
+I1
+sS'biacore ab'
+p264
+I1
+sS'dab'
+p265
+I1
+sS'fragment'
+p266
+I2
+sS'silkworm receptors for'
+p267
+I1
+sS'lysi'
+p268
+I1
+sS'molecul'
+p269
+I1
+sS'elisa assay'
+p270
+I1
+sS'of the cadherin'
+p271
+I1
+sS'band'
+p272
+I2
+sS'dissociation const'
+p273
+I1
+sS'biorad'
+p274
+I1
+sS'chromatographi'
+p275
+I2
+sS'align'
+p276
+I7
+sS'midgut receptor'
+p277
+I2
+sS'amino acid'
+p278
+I1
+sS'aminopeptidase n act'
+p279
+I1
+sS'tobacco'
+p280
+I1
+sS'crystal structures of apn'
+p281
+I1
+sS'of a polypeptid'
+p282
+I1
+sS'apn-sized band'
+p283
+I1
+sS'sepharose hr'
+p284
+I1
+sS'preliminary analysis hybrid toxin'
+p285
+I1
+sS'mori bbmv'
+p286
+I4
+sS'conclusions domain'
+p287
+I1
+sS'lysylendopeptidase-digest'
+p288
+I1
+sS'enzyme act'
+p289
+I1
+sS'leucine-p-nitroanilid'
+p290
+I2
+sS'domain'
+p291
+I1
+sS'mm mgcl'
+p292
+I1
+sS'mori apn research'
+p293
+I1
+sS'kda'
+p294
+I5
+sS'receptor pur'
+p295
+I1
+sS'virescen'
+p296
+I1
+sS'sampl'
+p297
+I1
+sS'pathogen outbreak'
+p298
+I1
+sS'cytoplasmic domain'
+p299
+I1
+sS'of the cadherin-like receptor'
+p300
+I1
+sS'overlay'
+p301
+I1
+sS'gradient'
+p302
+I1
+sS'scatchard'
+p303
+I1
+sS'research'
+p304
+I1
+sS'mori apn'
+p305
+I4
+sS'substitut'
+p306
+I1
+sS'inject'
+p307
+I1
+sS'receptor isoform'
+p308
+I1
+sS'gradient of salt'
+p309
+I2
+sS'pvdf membran'
+p310
+I2
+sS'silkworm receptor'
+p311
+I1
+sS'alleles of the cadherin-like receptor'
+p312
+I1
+sS'glycosylated isoform'
+p313
+I1
+sS'dissoci'
+p314
+I1
+sS'biological act'
+p315
+I1
+sS'kda apn'
+p316
+I2
+sS'q sepharose hr'
+p317
+I1
+sS'for bt toxin'
+p318
+I1
+sS'n-terminus of a polypeptid'
+p319
+I1
+sS'brush border membran'
+p320
+I2
+sS'horseradish peroxidas'
+p321
+I1
+sS'glycol'
+p322
+I1
+sS'similar antibody assay'
+p323
+I1
+sS'\xce\xbcg'
+p324
+I1
+sS'column'
+p325
+I5
+sS'binding studi'
+p326
+I1
+sS'receptor bt-r'
+p327
+I1
+sS'cdna variants of btr175'
+p328
+I1
+sS'antibodi'
+p329
+I2
+sS'\xce\xbcl'
+p330
+I3
+sS'of candidate receptor fract'
+p331
+I1
+sS'\xce\xbcl of'
+p332
+I1
+sS'variants of btr175'
+p333
+I1
+sS'eluted fract'
+p334
+I1
+sS'aminopeptidase n receptor'
+p335
+I1
+sS'toxin-binding band'
+p336
+I1
+sS'receptor sampl'
+p337
+I1
+sS'glycoprotein'
+p338
+I1
+sS'nacl'
+p339
+I2
+sS'apn-containing fract'
+p340
+I1
+sS'brush border membrane vesicl'
+p341
+I2
+sS'toxin dissoci'
+p342
+I1
+sS'membrane vesicl'
+p343
+I2
+sS'supernat'
+p344
+I1
+sS'silkworm receptors for bt'
+p345
+I1
+sS'glycosyl-phosphatidylinositol'
+p346
+I2
+sS'membran'
+p347
+I2
+sS'anion-exchange chromatographi'
+p348
+I1
+sS'antibody assay'
+p349
+I1
+sS'candidate receptor fract'
+p350
+I3
+sS'pvdf'
+p351
+I3
+sS'lpna'
+p352
+I1
+sS'gpi'
+p353
+I3
+sS'alanine substitut'
+p354
+I1
+sS'bt-r'
+p355
+I1
+sS'plutella xylostella apn'
+p356
+I1
+sS'sensor chip'
+p357
+I1
+sS'midgut protein'
+p358
+I1
+sS'cells express'
+p359
+I1
+sS'toxin-binding region of'
+p360
+I1
+sS'candidate cadherin-like receptor fract'
+p361
+I1
+sS'fraction'
+p362
+I9
+sS'coomassi'
+p363
+I1
+sS'sepharose anion-exchange chromatographi'
+p364
+I1
+sS'non-labeled toxin'
+p365
+I1
+sS'unalign'
+p366
+I1
+sS'phage display'
+p367
+I1
+sS'mori act'
+p368
+I1
+sS'hr'
+p369
+I1
+sS'bacillus thuringiensi'
+p370
+I2
+sS'alignments of apn'
+p371
+I2
+sS'candidate receptor fractions for'
+p372
+I1
+sS'ligand blot'
+p373
+I1
+sS'langmuir binding model'
+p374
+I1
+sS'apn research'
+p375
+I1
+sS'hb'
+p376
+I3
+sS'biacor'
+p377
+I1
+sS'amicon'
+p378
+I1
+sS'conclus'
+p379
+I1
+sS'heliothi'
+p380
+I1
+sS'arabidopsi'
+p381
+I1
+sS'mw of btr175'
+p382
+I1
+sS'protein engin'
+p383
+I1
+sS'protein pur'
+p384
+I1
+sS'mg of'
+p385
+I1
+sS'aforementioned studi'
+p386
+I1
+sS'receptor vari'
+p387
+I1
+sS'puls'
+p388
+I1
+sS'curv'
+p389
+I2
+sS'dissociation rate for'
+p390
+I1
+sS'ligand blot assay'
+p391
+I1
+sS'size-exclusion column'
+p392
+I2
+sS'constant'
+p393
+I3
+sS'thuringiensis insecticidal protein'
+p394
+I1
+sS'x-ray crystal structures of apn'
+p395
+I1
+sS'apn glycosyl'
+p396
+I1
+sS'n-terminus of'
+p397
+I1
+sS'expressing btr175'
+p398
+I1
+sS'the cadherin-like receptor'
+p399
+I2
+sS'chap'
+p400
+I1
+sS'bacillu'
+p401
+I2
+sS'\xc3\x84kta'
+p402
+I1
+sS'toxin concentr'
+p403
+I1
+sS'mm nacl'
+p404
+I1
+sS'allel'
+p405
+I1
+sS'microbial pathogen outbreak'
+p406
+I1
+sS'cry toxin vari'
+p407
+I1
+sS'acet'
+p408
+I1
+sS'ethylene glycol'
+p409
+I1
+sS'engin'
+p410
+I1
+sS'receptor fractions for apn'
+p411
+I1
+sS'min'
+p412
+I3
+sS'mori midgut protein'
+p413
+I1
+sS'anion-exchange fract'
+p414
+I1
+sS'cadherin-like glycoprotein'
+p415
+I1
+sS'role'
+p416
+I1
+sS'toxin blot overlay'
+p417
+I1
+sS'of btr175'
+p418
+I2
+sS'repeat'
+p419
+I1
+sS'buffer'
+p420
+I5
+sS'peroxidas'
+p421
+I1
+sS'budworm'
+p422
+I1
+sS'tobacco budworm'
+p423
+I1
+sS'plutella'
+p424
+I1
+sS'insect'
+p425
+I1
+sS'epizoot'
+p426
+I1
+sS'mori cry receptor'
+p427
+I1
+sS'antibody serum'
+p428
+I1
+sS'receptor-bound toxin'
+p429
+I1
+sS'homolog'
+p430
+I2
+sS'class'
+p431
+I2
+sS'\xce\xbcm ethylene glycol'
+p432
+I1
+sS'mgcl'
+p433
+I1
+sS'early work'
+p434
+I1
+sS'purifi'
+p435
+I1
+sS'lactobacillu'
+p436
+I1
+sS'ml chap'
+p437
+I1
+sS'receptor class'
+p438
+I2
+sS'btr175'
+p439
+I4
+sS'plasmon'
+p440
+I1
+sS'receptor purif'
+p441
+I1
+sS'flowcel'
+p442
+I1
+sS'anti-bt-r'
+p443
+I1
+sS'salt'
+p444
+I2
+stp445
+Rp446
+tp447
+.

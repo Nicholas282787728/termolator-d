@@ -1,0 +1,1523 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'dynamic simulator of'
+p7
+I1
+sS'represent'
+p8
+I2
+sS'optimal utilization of'
+p9
+I3
+sS'silico representation of'
+p10
+I1
+sS'metabolic gen'
+p11
+I1
+sS'utilization of isogenic strain'
+p12
+I1
+sS'metabolic phenotypes- one glucos'
+p13
+I1
+sS'pta'
+p14
+I5
+sS'electro neutr'
+p15
+I1
+sS'biochemical databas'
+p16
+I1
+sS'cellular network'
+p17
+I1
+sS'optimal metabolic pathway utilization of'
+p18
+I1
+sS'primer'
+p19
+I1
+sS'optimal util'
+p20
+I4
+sS'understanding of'
+p21
+I1
+sS'depend'
+p22
+I3
+sS'dehydrogenas'
+p23
+I1
+sS'non-essential gen'
+p24
+I3
+sS'the glyoxylate bypass'
+p25
+I1
+sS'transport flux constraint'
+p26
+I3
+sS'gpmab'
+p27
+I3
+sS'program'
+p28
+I5
+sS'matrix equ'
+p29
+I1
+sS'sub-sect'
+p30
+I1
+sS'optimal growth'
+p31
+I2
+sS'the biosynthetic precursor'
+p32
+I1
+sS'metabolism gene deletion strain'
+p33
+I2
+sS'carbon flux'
+p34
+I1
+sS'of optim'
+p35
+I4
+sS'rapid development of bioinformatic databas'
+p36
+I1
+sS'genome scal'
+p37
+I2
+sS'optimal metabolic phenotypes- one glucos'
+p38
+I1
+sS'silico nuo'
+p39
+I1
+sS'of the metabolic pathway'
+p40
+I2
+sS'util'
+p41
+I4
+sS'pn'
+p42
+I1
+sS'fba prim'
+p43
+I1
+sS'cellular constraint'
+p44
+I1
+sS'capabilities of high-energy phosphate bond'
+p45
+I2
+sS'pathway utilization of isogenic strain'
+p46
+I1
+sS'p genen'
+p47
+I1
+sS'growth yield'
+p48
+I1
+sS'of high-energy phosphate bond'
+p49
+I2
+sS'of isogenic strain'
+p50
+I1
+sS'experimental observ'
+p51
+I1
+sS'metabolic pathway gen'
+p52
+I1
+sS'approach'
+p53
+I6
+sS'mutant behavior'
+p54
+I1
+sS'phosphoenolpyruvate carboxykinas'
+p55
+I1
+sS'yield'
+p56
+I4
+sS'pt'
+p57
+I1
+sS'optimal growth phenotyp'
+p58
+I1
+sS'acetate excret'
+p59
+I1
+sS'silico strain'
+p60
+I2
+sS'dependent optimal metabolic pathway'
+p61
+I1
+sS'succin'
+p62
+I2
+sS'regulatory structure of metabolic network'
+p63
+I1
+sS'pgi deletion strain'
+p64
+I1
+sS'silico gen'
+p65
+I4
+sS'growth potenti'
+p66
+I1
+sS'cyoabcd'
+p67
+I1
+sS'expression of the glyoxylate bypass'
+p68
+I1
+sS'linear program'
+p69
+I1
+sS'silico metabolic genotyp'
+p70
+I1
+sS'the mutant metabolic network'
+p71
+I1
+sS'anaerobic conditions high-energi'
+p72
+I1
+sS'biomass'
+p73
+I1
+sS'fundamental physicochemical law'
+p74
+I1
+sS'biolog'
+p75
+I1
+sS'cellular organ'
+p76
+I1
+sS'silico pgi deletion strain'
+p77
+I1
+sS'of the nad cofactor'
+p78
+I1
+sS'interrelatedness of'
+p79
+I1
+sS'acid'
+p80
+I1
+sS'cofactor'
+p81
+I2
+sS'of mutant behavior'
+p82
+I1
+sS'capability of'
+p83
+I1
+sS'growth of the tpi'
+p84
+I1
+sS'chemical constraint'
+p85
+I1
+sS'chicago'
+p86
+I1
+sS'potential of the eno'
+p87
+I1
+sS'the metabolic behavior'
+p88
+I2
+sS'p genen x'
+p89
+I1
+sS'metabolic cofactor'
+p90
+I1
+sS'metabolic stoichiometri'
+p91
+I1
+sS'nadph'
+p92
+I2
+sS'delet'
+p93
+I9
+sS'biosynthetic precursor'
+p94
+I12
+sS'intersect'
+p95
+I1
+sS'for metabolites cap'
+p96
+I1
+sS'of the ppp'
+p97
+I2
+sS'tca'
+p98
+I2
+sS'intersection of th'
+p99
+I1
+sS'transport flux for metabolites cap'
+p100
+I1
+sS'genome sequencing project'
+p101
+I1
+sS'anaerobic synthesis of th'
+p102
+I1
+sS'his- not'
+p103
+I1
+sS'subject'
+p104
+I1
+sS'utilization of the metabolic network'
+p105
+I1
+sS'silico gene delet'
+p106
+I4
+sS'oxidative branch of the ppp'
+p107
+I2
+sS'dependent optimal metabolic pathway util'
+p108
+I2
+sS'metabolic react'
+p109
+I3
+sS'two-dimensional project'
+p110
+I1
+sS'ethanol'
+p111
+I2
+sS'glta'
+p112
+I1
+sS'optimal metabolic behavior'
+p113
+I1
+sS'metabolic constraining approach'
+p114
+I1
+sS'wildtyp'
+p115
+I1
+sS'the zwf strain'
+p116
+I1
+sS'tca cycle flux'
+p117
+I1
+sS'gli'
+p118
+I1
+sS'exchange flux constraint'
+p119
+I1
+sS'cycl'
+p120
+I1
+sS'precursor'
+p121
+I13
+sS'shift'
+p122
+I1
+sS'anaerobic synthesis of'
+p123
+I2
+sS'redox potenti'
+p124
+I1
+sS'knockout strains of'
+p125
+I1
+sS'of metabolic network'
+p126
+I3
+sS'lo tpi'
+p127
+I1
+sS'capabl'
+p128
+I16
+sS'equat'
+p129
+I1
+sS'acetyl-coa'
+p130
+I1
+sS'optimal metabol'
+p131
+I1
+sS'carboxykinas'
+p132
+I1
+sS'bioinformatic databas'
+p133
+I1
+sS'studi'
+p134
+I5
+sS'gene'
+p135
+I16
+sS'genotype fba'
+p136
+I1
+sS'phenotypes- one glucos'
+p137
+I1
+sS'of bioinformatic databas'
+p138
+I1
+sS'synthesis of oxaloacet'
+p139
+I1
+sS'mutant genotyp'
+p140
+I1
+sS'precursor production cap'
+p141
+I1
+sS'mathematical modeling of metabolic network'
+p142
+I1
+sS'optimal metabolic by-product'
+p143
+I1
+sS'growth potential of the eno'
+p144
+I1
+sS'metabolic network subject'
+p145
+I1
+sS'fba'
+p146
+I16
+sS'silico delet'
+p147
+I9
+sS'dynamic simul'
+p148
+I1
+sS'post-genome era'
+p149
+I1
+sS'stoichiometric matrix'
+p150
+I1
+sS'carbon'
+p151
+I2
+sS'iterative model build'
+p152
+I1
+sS'qualitative shift'
+p153
+I1
+sS'synthesis of the nad cofactor'
+p154
+I1
+sS'optimal utilization of th'
+p155
+I3
+sS'pathway gen'
+p156
+I1
+sS'dna'
+p157
+I2
+sS'metabolic flux distribut'
+p158
+I2
+sS'acnab'
+p159
+I3
+sS'condition-dependent effect of gen'
+p160
+I1
+sS'serine degradation pathway'
+p161
+I2
+sS'branch of the ppp'
+p162
+I2
+sS'behavior of wildtyp'
+p163
+I1
+sS'zwf phpp'
+p164
+I1
+sS'network subject'
+p165
+I1
+sS'zwf codes for glucose-6-phosph'
+p166
+I1
+sS'regulatory constraint'
+p167
+I2
+sS'gene for growth'
+p168
+I1
+sS'life'
+p169
+I1
+sS'metabolic function of zwf'
+p170
+I2
+sS'regul'
+p171
+I1
+sS'mutant metabolic network'
+p172
+I1
+sS'reaction'
+p173
+I4
+sS'metabolism gen'
+p174
+I2
+sS'of the metabolic network'
+p175
+I1
+sS'of the nullspac'
+p176
+I1
+sS'synthas'
+p177
+I1
+sS'understand'
+p178
+I1
+sS'linear inequ'
+p179
+I1
+sS'glyoxylate bypass'
+p180
+I2
+sS'optimal production of th'
+p181
+I1
+sS'silico acnab'
+p182
+I1
+sS'tpia'
+p183
+I1
+sS'pe'
+p184
+I1
+sS'glucose-oxygen phpp'
+p185
+I4
+sS'phenotype phase plane analysis of the zwf strain'
+p186
+I1
+sS'metabolic phenotyp'
+p187
+I3
+sS'regulatory structure of'
+p188
+I1
+sS'pyrimidine biosynthesi'
+p189
+I1
+sS'of the glyoxylate bypass'
+p190
+I1
+sS'constraint'
+p191
+I14
+sS'of gene delet'
+p192
+I2
+sS'strain'
+p193
+I29
+sS'metabolic by-products included lact'
+p194
+I1
+sS'lp packag'
+p195
+I1
+sS'wild-typ'
+p196
+I6
+sS'era'
+p197
+I1
+sS'behavior'
+p198
+I6
+sS'ackab gen'
+p199
+I1
+sS'condition-dependent effect of gene delet'
+p200
+I1
+sS'of the biosynthetic precursor'
+p201
+I2
+sS'observ'
+p202
+I1
+sS'coli strain'
+p203
+I2
+sS'glutamin'
+p204
+I1
+sS'mutant'
+p205
+I1
+sS'silico biolog'
+p206
+I1
+sS'metabolic modeling approach'
+p207
+I1
+sS'silico represent'
+p208
+I3
+sS'engineering approach'
+p209
+I1
+sS'\xce\xb1-ketoglutar'
+p210
+I5
+sS'vivo utilization of'
+p211
+I1
+sS'glactose transport'
+p212
+I1
+sS'optimal utilization of the metabolic pathway'
+p213
+I2
+sS'metabolic behavior'
+p214
+I6
+sS'mutant phenotyp'
+p215
+I2
+sS'optimal metabolic flux distribut'
+p216
+I1
+sS'scienc'
+p217
+I1
+sS'the nullspac'
+p218
+I1
+sS'of environmental paramet'
+p219
+I2
+sS'vivo utilization of the metabolic network'
+p220
+I1
+sS'representation of mutant behavior'
+p221
+I1
+sS'cellular lif'
+p222
+I1
+sS'of th'
+p223
+I2
+sS'vivo utilization of th'
+p224
+I1
+sS'eno'
+p225
+I4
+sS'individual metabol'
+p226
+I1
+sS'phenotype phase plan'
+p227
+I4
+sS'knockout strain'
+p228
+I1
+sS'acet'
+p229
+I4
+sS'pyruvate , phosphoenolpyruv'
+p230
+I1
+sS'pathway'
+p231
+I9
+sS'optimal production of the biosynthetic precursor'
+p232
+I1
+sS'utilization of the mutant metabolic network'
+p233
+I1
+sS'regener'
+p234
+I1
+sS'coli mutant phenotyp'
+p235
+I1
+sS'nullspac'
+p236
+I1
+sS'ackab'
+p237
+I1
+sS'optim'
+p238
+I4
+sS'coli mutant strain'
+p239
+I1
+sS'included lact'
+p240
+I1
+sS'mathematical model'
+p241
+I1
+sS'plane'
+p242
+I4
+sS'of zwf'
+p243
+I2
+sS'by-products included lact'
+p244
+I1
+sS'glucos'
+p245
+I6
+sS'law'
+p246
+I1
+sS'exchange flux'
+p247
+I1
+sS'high-energi'
+p248
+I2
+sS'by-product'
+p249
+I1
+sS'dependent optimal metabol'
+p250
+I1
+sS'essential glycolytic gen'
+p251
+I1
+sS'aerobic growth'
+p252
+I1
+sS'anaerobic synthesi'
+p253
+I2
+sS'zwf codes for glucose-6-phosphate dehydrogenas'
+p254
+I1
+sS'mutant strain'
+p255
+I3
+sS'anaerobic growth'
+p256
+I1
+sS'plane analysis of the zwf strain'
+p257
+I2
+sS'silico model'
+p258
+I1
+sS'model'
+p259
+I6
+sS'frdabcd gen'
+p260
+I2
+sS'anaerobic synthesis of the nad'
+p261
+I1
+sS'of the eno'
+p262
+I1
+sS'metabolic behavior of wildtyp'
+p263
+I1
+sS'engineering strain'
+p264
+I1
+sS'growth of th'
+p265
+I1
+sS'oxaloacet'
+p266
+I3
+sS'dynamic model'
+p267
+I1
+sS'the tpi'
+p268
+I1
+sS'coli'
+p269
+I13
+sS'capability of high-energy phosphate bond'
+p270
+I2
+sS'capabilities of'
+p271
+I1
+sS'paramet'
+p272
+I3
+sS'biochemical literatur'
+p273
+I2
+sS'optimal metabolic by-products included lact'
+p274
+I1
+sS'lo'
+p275
+I10
+sS'mutat'
+p276
+I1
+sS'reductionist approach'
+p277
+I1
+sS'transport flux for'
+p278
+I1
+sS'development of bioinformatic databas'
+p279
+I1
+sS'lp'
+p280
+I5
+sS'lo non-essential gen'
+p281
+I1
+sS'vivo metabolic network'
+p282
+I1
+sS'environmental paramet'
+p283
+I2
+sS'phosphoenolpyruv'
+p284
+I3
+sS'degradation pathway'
+p285
+I2
+sS'silico gene deletion strain'
+p286
+I1
+sS'experimental program'
+p287
+I4
+sS'modeling approach'
+p288
+I1
+sS'read'
+p289
+I1
+sS'of wildtyp'
+p290
+I1
+sS'growth simul'
+p291
+I1
+sS'metabolic pathway util'
+p292
+I3
+sS'fba simul'
+p293
+I1
+sS'inequ'
+p294
+I1
+sS'oxidative branch of'
+p295
+I2
+sS'zwf codes for'
+p296
+I1
+sS'optimal phenotyp'
+p297
+I1
+sS'constraining approach'
+p298
+I1
+sS'not'
+p299
+I1
+sS'oxidative branch'
+p300
+I3
+sS'excret'
+p301
+I1
+sS'condition-dependent effect of'
+p302
+I1
+sS'introduct'
+p303
+I1
+sS'silico studi'
+p304
+I1
+sS'constitutive expression of'
+p305
+I1
+sS'mutation studi'
+p306
+I1
+sS'organ'
+p307
+I1
+sS'oxygen'
+p308
+I6
+sS'metabolism gene delet'
+p309
+I2
+sS'optimal flux distribut'
+p310
+I1
+sS'metabolic research'
+p311
+I2
+sS'glucose ratio for'
+p312
+I1
+sS'zwf'
+p313
+I2
+sS'flux'
+p314
+I6
+sS'flux distribut'
+p315
+I3
+sS'byproduct'
+p316
+I2
+sS'optimal biomass yield'
+p317
+I2
+sS'genom'
+p318
+I2
+sS'optimal metabolic pathway utilization of isogenic strain'
+p319
+I1
+sS'phase-depend'
+p320
+I1
+sS'bond'
+p321
+I4
+sS'non-essential for'
+p322
+I1
+sS'modeling of metabolic network'
+p323
+I1
+sS'transport flux'
+p324
+I6
+sS'thermodynam'
+p325
+I1
+sS'cellular metabol'
+p326
+I4
+sS'wild-type yield'
+p327
+I1
+sS'fumabc'
+p328
+I1
+sS'metabolit'
+p329
+I2
+sS'internal flux'
+p330
+I1
+sS'growth'
+p331
+I23
+sS'coli stoichiometric matrix'
+p332
+I1
+sS'metabolic pathway utilization of isogenic strain'
+p333
+I1
+sS'ppc gene'
+p334
+I1
+sS'reading fram'
+p335
+I2
+sS'intersection of the nullspac'
+p336
+I1
+sS'scale'
+p337
+I1
+sS'network'
+p338
+I14
+sS'constitutive expression of th'
+p339
+I1
+sS'gapac'
+p340
+I2
+sS'pathway util'
+p341
+I3
+sS'phosphoryl'
+p342
+I3
+sS'metabolic pathway'
+p343
+I7
+sS'research'
+p344
+I2
+sS'physicochemical law'
+p345
+I1
+sS'of metabolic react'
+p346
+I2
+sS'optimal metabolic by-products includ'
+p347
+I1
+sS'essential gen'
+p348
+I2
+sS'gene delet'
+p349
+I8
+sS'his-'
+p350
+I1
+sS'non-essential for growth'
+p351
+I1
+sS'maximal growth'
+p352
+I1
+sS'dependent optim'
+p353
+I1
+sS'g6pdh'
+p354
+I1
+sS'isogen'
+p355
+I1
+sS'icda'
+p356
+I1
+sS'metabolites cap'
+p357
+I1
+sS'silico deletion studi'
+p358
+I1
+sS'tktab'
+p359
+I1
+sS'phenotype of'
+p360
+I2
+sS'orf'
+p361
+I1
+sS'silico deletion strain'
+p362
+I15
+sS'glyoxylate by-pass'
+p363
+I1
+sS'glucokinase react'
+p364
+I1
+sS'interrelatedness of gen'
+p365
+I1
+sS'pyruvate ,'
+p366
+I1
+sS'pep'
+p367
+I1
+sS'of the tpi'
+p368
+I1
+sS'metabolic behavior of'
+p369
+I1
+sS'the nad cofactor'
+p370
+I1
+sS'deletion studi'
+p371
+I1
+sS'of'
+p372
+I9
+sS'bypass'
+p373
+I2
+sS'literatur'
+p374
+I2
+sS'simul'
+p375
+I2
+sS'of the zwf strain'
+p376
+I2
+sS'non-essential gene for growth'
+p377
+I1
+sS'atp'
+p378
+I1
+sS'metabolic by-product'
+p379
+I1
+sS'iterative model'
+p380
+I1
+sS'zwf strain'
+p381
+I1
+sS'gene regul'
+p382
+I1
+sS'deletion strain'
+p383
+I19
+sS'anaerobic synthesis of the nad cofactor'
+p384
+I1
+sS'biomass yield'
+p385
+I2
+sS'growth potential of th'
+p386
+I1
+sS'amino acid'
+p387
+I1
+sS'silico representation of mutant behavior'
+p388
+I1
+sS'glucose-6-phosphate dehydrogenas'
+p389
+I1
+sS'biosynthetic precursor production cap'
+p390
+I1
+sS'exchang'
+p391
+I1
+sS'encod'
+p392
+I2
+sS'pgk'
+p393
+I1
+sS'mathematical modeling of'
+p394
+I1
+sS'ppp'
+p395
+I5
+sS'of phenotype phase plan'
+p396
+I2
+sS'cycle flux'
+p397
+I1
+sS'non-essential gene for'
+p398
+I1
+sS'flux constraint'
+p399
+I4
+sS'vivo properties of'
+p400
+I1
+sS'for glucose-6-phosphate dehydrogenas'
+p401
+I1
+sS'genotyp'
+p402
+I5
+sS'the metabolic network'
+p403
+I1
+sS'for optimal growth'
+p404
+I2
+sS'coli mut'
+p405
+I1
+sS'metabolic function of'
+p406
+I1
+sS'interact'
+p407
+I1
+sS'biosynthesi'
+p408
+I1
+sS'knockout'
+p409
+I1
+sS'fraction'
+p410
+I1
+sS'anaerobic synthesis of oxaloacet'
+p411
+I1
+sS'pyruv'
+p412
+I3
+sS'numerical value of th'
+p413
+I1
+sS'glucose ratio for optimal growth'
+p414
+I1
+sS'frame'
+p415
+I1
+sS'the ppp'
+p416
+I2
+sS'flux for metabolites cap'
+p417
+I1
+sS'lactat'
+p418
+I2
+sS'anaerobic pyrimidine biosynthesi'
+p419
+I1
+sS'optimal metabolic pathway util'
+p420
+I3
+sS'high-energy phosphate bond'
+p421
+I4
+sS'rpiab'
+p422
+I1
+sS'the metabolic pathway'
+p423
+I2
+sS'dna array'
+p424
+I1
+sS'the eno'
+p425
+I1
+sS'neutral'
+p426
+I1
+sS'theoretical cap'
+p427
+I1
+sS'cellular growth'
+p428
+I1
+sS'serin'
+p429
+I1
+sS'nad cofactor'
+p430
+I1
+sS'growth potential of'
+p431
+I1
+sS'mass balance constraint'
+p432
+I5
+sS'external paramet'
+p433
+I1
+sS'vivo util'
+p434
+I1
+sS'rapid develop'
+p435
+I1
+sS'nuo'
+p436
+I1
+sS'tca cycl'
+p437
+I2
+sS'phenotype phase plane analysis of th'
+p438
+I1
+sS'project'
+p439
+I3
+sS'metabolic byproduct'
+p440
+I2
+sS'interrelated'
+p441
+I1
+sS'balanc'
+p442
+I1
+sS'absenc'
+p443
+I1
+sS'electron transport'
+p444
+I1
+sS'growth of'
+p445
+I1
+sS'non-essenti'
+p446
+I1
+sS'classical reductionist approach'
+p447
+I1
+sS'matrix'
+p448
+I1
+sS'predictive cap'
+p449
+I1
+sS'optimal utilization of the mutant metabolic network'
+p450
+I1
+sS'fashion'
+p451
+I1
+sS'numerical value of'
+p452
+I1
+sS'wild-type phpp'
+p453
+I1
+sS'pfkab'
+p454
+I1
+sS'fraction of th'
+p455
+I1
+sS'flux bal'
+p456
+I3
+sS'packag'
+p457
+I1
+sS'codes for glucose-6-phosphate dehydrogenas'
+p458
+I1
+sS'constitutive express'
+p459
+I1
+sS'utilization of the metabolic pathway'
+p460
+I2
+sS'of the mutant metabolic network'
+p461
+I1
+sS'absence of'
+p462
+I1
+sS'growth phenotyp'
+p463
+I1
+sS'metabolic network'
+p464
+I14
+sS'engin'
+p465
+I2
+sS'metabol'
+p466
+I5
+sS'biological sci'
+p467
+I1
+sS'of oxaloacet'
+p468
+I1
+sS'metabolic genotyp'
+p469
+I4
+sS'stoichiometri'
+p470
+I2
+sS'constitutive expression of the glyoxylate bypass'
+p471
+I1
+sS'zwf code'
+p472
+I1
+sS'pn x'
+p473
+I1
+sS'transport'
+p474
+I8
+sS'branch'
+p475
+I1
+sS'lindo'
+p476
+I1
+sS'phosphoenolpyruvate synthas'
+p477
+I1
+sS'genen x'
+p478
+I1
+sS'phenotyp'
+p479
+I10
+sS'gene deletion strain'
+p480
+I3
+sS'mass bal'
+p481
+I6
+sS'phosphate bond'
+p482
+I4
+sS'distribut'
+p483
+I3
+sS'metabolic model'
+p484
+I1
+sS'balance constraint'
+p485
+I5
+sS'optimal production of'
+p486
+I1
+sS'phenotype phase plane analysis of'
+p487
+I1
+sS'aglt'
+p488
+I1
+sS'oxidative branch of th'
+p489
+I2
+sS'succinyl-coa'
+p490
+I2
+sS'fraction of'
+p491
+I1
+sS'optimal fashion'
+p492
+I1
+sS'enzym'
+p493
+I2
+sS'isogenic strain'
+p494
+I1
+sS'for growth'
+p495
+I2
+sS'metabolic capabilities of'
+p496
+I1
+sS'of the metabolic behavior'
+p497
+I6
+sS'by-pass'
+p498
+I1
+sS'tpi'
+p499
+I5
+sS'intersection of'
+p500
+I1
+sS', phosphoenolpyruv'
+p501
+I1
+sS'rapid development of'
+p502
+I1
+sS'silico'
+p503
+I9
+sS'potenti'
+p504
+I1
+sS'databas'
+p505
+I2
+sS'coli metabol'
+p506
+I1
+sS'metabolic cap'
+p507
+I4
+sS'phpp'
+p508
+I12
+stp509
+Rp510
+tp511
+.

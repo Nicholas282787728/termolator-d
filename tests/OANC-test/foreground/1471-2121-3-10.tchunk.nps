@@ -1,0 +1,1634 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'expression levels of'
+p7
+I1
+sS'immunoreact'
+p8
+I1
+sS'bovine serum'
+p9
+I1
+sS'inactiv'
+p10
+I1
+sS'retroviral vector'
+p11
+I1
+sS'expression studi'
+p12
+I1
+sS'growth rate of'
+p13
+I1
+sS'negative control of the cell cycl'
+p14
+I1
+sS'inactivation of th'
+p15
+I1
+sS'quantitative standards for gene express'
+p16
+I1
+sS'family protein'
+p17
+I2
+sS'mineola'
+p18
+I1
+sS'sens'
+p19
+I1
+sS'cell cycle regulatory gen'
+p20
+I1
+sS'gene expression research'
+p21
+I1
+sS'cycle fract'
+p22
+I1
+sS'exponential portion of a growth'
+p23
+I1
+sS'rb'
+p24
+I1
+sS'gene expression studi'
+p25
+I1
+sS'quantif'
+p26
+I1
+sS'mous'
+p27
+I2
+sS'igf-ii p3'
+p28
+I1
+sS'clonal popul'
+p29
+I1
+sS'analytical methods for describ'
+p30
+I1
+sS'tumorigenic phenotyp'
+p31
+I1
+sS'tri'
+p32
+I1
+sS'quantitative assays of gen'
+p33
+I1
+sS'cortical astrocyt'
+p34
+I2
+sS'htk-tag vector'
+p35
+I1
+sS'vector'
+p36
+I4
+sS'cancer gen'
+p37
+I1
+sS'matric'
+p38
+I1
+sS'transduct'
+p39
+I4
+sS'topsham'
+p40
+I1
+sS'oncogen'
+p41
+I5
+sS'antigen'
+p42
+I4
+sS'hialeah'
+p43
+I1
+sS'consequ'
+p44
+I1
+sS'alkaline phosphatas'
+p45
+I1
+sS'moloney sarcoma virus vector'
+p46
+I1
+sS'transcription strength'
+p47
+I1
+sS'kodak'
+p48
+I1
+sS'kinas'
+p49
+I1
+sS'topoisomerase ii-\xce\xb1'
+p50
+I1
+sS'fraction distribut'
+p51
+I2
+sS'transcrib'
+p52
+I2
+sS'sarcoma virus vectors expressing tag'
+p53
+I1
+sS'cell'
+p54
+I38
+sS'version'
+p55
+I1
+sS'mutant tag transcrib'
+p56
+I1
+sS'x-omat'
+p57
+I1
+sS'ltr promot'
+p58
+I2
+sS'retinoblastoma family protein'
+p59
+I1
+sS'tumorigenic transform'
+p60
+I1
+sS'negative control of'
+p61
+I1
+sS'of the cell cycl'
+p62
+I2
+sS'fixed sampl'
+p63
+I1
+sS'cell doubl'
+p64
+I1
+sS'topoisomeras'
+p65
+I1
+sS'x-ray film'
+p66
+I1
+sS'ab2'
+p67
+I1
+sS'normal growth'
+p68
+I1
+sS'cytometry fix'
+p69
+I1
+sS'studi'
+p70
+I4
+sS'gene'
+p71
+I13
+sS'promot'
+p72
+I17
+sS'density-dependent reduction intag express'
+p73
+I1
+sS'astrocyte cel'
+p74
+I1
+sS'egfr'
+p75
+I1
+sS'htk related express'
+p76
+I1
+sS'cell cycle phase fract'
+p77
+I2
+sS'famili'
+p78
+I1
+sS'exponential portion of a growth curv'
+p79
+I1
+sS'tag expression potenti'
+p80
+I2
+sS'density-dependent down-regulation of'
+p81
+I1
+sS'sodium deoxychol'
+p82
+I1
+sS'confluenc'
+p83
+I6
+sS'implic'
+p84
+I1
+sS'of htk-tag vector'
+p85
+I1
+sS'gfap express'
+p86
+I1
+sS'non-specific fluoresc'
+p87
+I1
+sS'calf'
+p88
+I2
+sS'diego california usa'
+p89
+I1
+sS'fitc-conjugated secondary antibodi'
+p90
+I1
+sS'experimental sampl'
+p91
+I1
+sS'intermediate filament extract'
+p92
+I1
+sS'esp elite cytomet'
+p93
+I1
+sS'replication-defective retrovirus encoding tag'
+p94
+I1
+sS'ml'
+p95
+I1
+sS'practical impl'
+p96
+I1
+sS'wild-typ'
+p97
+I1
+sS'scatter'
+p98
+I3
+sS'phosphatas'
+p99
+I1
+sS'astrocyte lineage of the ltr'
+p100
+I1
+sS'herpes thymidine kinas'
+p101
+I1
+sS'astrocyte lineag'
+p102
+I3
+sS'dako'
+p103
+I1
+sS'graphpad prism vers'
+p104
+I1
+sS'tag'
+p105
+I33
+sS'for tag express'
+p106
+I1
+sS'tag-dos'
+p107
+I1
+sS'down-regulation of bfgf'
+p108
+I1
+sS'serum'
+p109
+I7
+sS'transduction of'
+p110
+I2
+sS'inhibition of'
+p111
+I1
+sS'differenti'
+p112
+I2
+sS'critical rol'
+p113
+I1
+sS'exponential portion of'
+p114
+I1
+sS'growth rate of primary mouse astrocyt'
+p115
+I1
+sS'oncogene sci'
+p116
+I1
+sS'tag concentr'
+p117
+I1
+sS'analytical methods for describing express'
+p118
+I1
+sS'parameter dna'
+p119
+I1
+sS'fitc'
+p120
+I3
+sS'sp1'
+p121
+I1
+sS'clone'
+p122
+I2
+sS'secondary guid'
+p123
+I1
+sS'concentrations of'
+p124
+I1
+sS'fb'
+p125
+I2
+sS'fl'
+p126
+I2
+sS'polyclonal cel'
+p127
+I1
+sS'stabil'
+p128
+I3
+sS'ltr-tag cel'
+p129
+I1
+sS'of growth'
+p130
+I3
+sS'primary cel'
+p131
+I1
+sS'of introduced tag'
+p132
+I1
+sS'expression profil'
+p133
+I1
+sS'incorpor'
+p134
+I1
+sS'for describing express'
+p135
+I2
+sS'fluorescein isothiocyan'
+p136
+I1
+sS'plateau growth'
+p137
+I1
+sS'se'
+p138
+I2
+sS'sd'
+p139
+I1
+sS'fgf-2'
+p140
+I2
+sS'mm tri'
+p141
+I1
+sS'bio-rad'
+p142
+I2
+sS'secondary antibodi'
+p143
+I3
+sS'fetal bovine serum'
+p144
+I1
+sS'introduced tag'
+p145
+I1
+sS'quantitative standards for gene expression studi'
+p146
+I1
+sS'entiti'
+p147
+I1
+sS'cancer gene express'
+p148
+I1
+sS'sodium'
+p149
+I1
+sS'passag'
+p150
+I1
+sS'biological standard'
+p151
+I1
+sS'prism vers'
+p152
+I1
+sS'quantitative assays of gene express'
+p153
+I1
+sS'suppressor'
+p154
+I1
+sS'rnase treat'
+p155
+I1
+sS'cell cycle regul'
+p156
+I1
+sS'reagent'
+p157
+I1
+sS'retroviru'
+p158
+I1
+sS'astrocyte lineage of'
+p159
+I2
+sS'cancer gene expression research'
+p160
+I1
+sS'cell cycle dur'
+p161
+I1
+sS'introduct'
+p162
+I1
+sS'qualitative experi'
+p163
+I1
+sS'quantitative standards for gen'
+p164
+I1
+sS'transcriptional promot'
+p165
+I1
+sS'clonal cel'
+p166
+I1
+sS'genom'
+p167
+I1
+sS'of bfgf'
+p168
+I1
+sS'pab416'
+p169
+I2
+sS'2i'
+p170
+I1
+sS'of c-myc'
+p171
+I1
+sS'density-dependent down-regul'
+p172
+I1
+sS'exponential population growth'
+p173
+I1
+sS'extract'
+p174
+I1
+sS'event'
+p175
+I1
+sS'tag expression-cell dens'
+p176
+I1
+sS'intag express'
+p177
+I2
+sS'kinase promot'
+p178
+I1
+sS'replication-defective retroviru'
+p179
+I1
+sS'research'
+p180
+I1
+sS'profil'
+p181
+I2
+sS'post infect'
+p182
+I2
+sS'cycle regulatory gen'
+p183
+I1
+sS'pvdf membran'
+p184
+I1
+sS'p130'
+p185
+I1
+sS'linear'
+p186
+I1
+sS'neonatal astrocyt'
+p187
+I1
+sS'immort'
+p188
+I1
+sS'standard'
+p189
+I1
+sS'lineag'
+p190
+I1
+sS'non-dens'
+p191
+I1
+sS'negative slop'
+p192
+I1
+sS'ltr'
+p193
+I16
+sS'iso-forms of'
+p194
+I1
+sS'g'
+p195
+I1
+sS'coulter esp elit'
+p196
+I1
+sS'pmsf'
+p197
+I1
+sS'filter'
+p198
+I1
+sS'retinoblastoma protein'
+p199
+I1
+sS'cytokeratin immunoreact'
+p200
+I1
+sS'tk promot'
+p201
+I1
+sS'regress'
+p202
+I1
+sS'astrocyte-specif'
+p203
+I1
+sS'jacobberg'
+p204
+I3
+sS'coulter'
+p205
+I1
+sS'lymphocyt'
+p206
+I1
+sS'softwar'
+p207
+I1
+sS'densitometri'
+p208
+I3
+sS'mammalian cel'
+p209
+I2
+sS'hte'
+p210
+I1
+sS'nacl'
+p211
+I1
+sS'membran'
+p212
+I1
+sS'graphpad'
+p213
+I1
+sS'tumorigenic phenotype of mammalian cel'
+p214
+I1
+sS'polyclonal transduct'
+p215
+I1
+sS'moloney sarcoma virus vectors expressing tag'
+p216
+I1
+sS'evolut'
+p217
+I1
+sS'quantitative assay'
+p218
+I1
+sS'igf-1r'
+p219
+I1
+sS'incorporation of retroviral vector'
+p220
+I1
+sS'intrinsic expression potenti'
+p221
+I1
+sS'termin'
+p222
+I1
+sS'coomassi'
+p223
+I1
+sS'viral ltr'
+p224
+I1
+sS'moloney sarcoma'
+p225
+I1
+sS'mutant t antigen'
+p226
+I1
+sS'internal herp'
+p227
+I1
+sS'transduction of htk-tag vector'
+p228
+I1
+sS'of serum'
+p229
+I1
+sS'of final cel'
+p230
+I2
+sS'chemiluminescent detect'
+p231
+I1
+sS'biochem'
+p232
+I1
+sS'monolay'
+p233
+I2
+sS'p53'
+p234
+I1
+sS'encoding tag'
+p235
+I1
+sS'longitudinal experi'
+p236
+I1
+sS'kip1'
+p237
+I1
+sS'inactivation of'
+p238
+I1
+sS'calf serum'
+p239
+I2
+sS'nonidet'
+p240
+I1
+sS'herpes simplex'
+p241
+I1
+sS'tumorigenic phenotype of'
+p242
+I1
+sS'p-40'
+p243
+I1
+sS'san'
+p244
+I1
+sS'cycle dur'
+p245
+I1
+sS'sv'
+p246
+I1
+sS'the cell cycl'
+p247
+I1
+sS'immortal cel'
+p248
+I1
+sS'inactivation of the retinoblastoma famili'
+p249
+I1
+sS'primary neonatal astrocyt'
+p250
+I1
+sS'density-dependent down-regulation of bfgf'
+p251
+I1
+sS'strength'
+p252
+I2
+sS'min'
+p253
+I1
+sS'plateau phase of'
+p254
+I1
+sS'san diego'
+p255
+I1
+sS'accuraci'
+p256
+I1
+sS'standards for gene expression studi'
+p257
+I1
+sS'k1'
+p258
+I1
+sS'cycle machineri'
+p259
+I1
+sS'retinoblastoma'
+p260
+I1
+sS'distribut'
+p261
+I2
+sS'gene express'
+p262
+I11
+sS'p27 kip1'
+p263
+I1
+sS'cycle phase popul'
+p264
+I1
+sS'carpenteria'
+p265
+I1
+sS'cytomet'
+p266
+I1
+sS'electrophoresi'
+p267
+I1
+sS'quantitative analysis of gene express'
+p268
+I1
+sS'viral promot'
+p269
+I1
+sS'tag express'
+p270
+I22
+sS'dmem'
+p271
+I1
+sS'transcript'
+p272
+I6
+sS'half-lif'
+p273
+I4
+sS'momulv ltr'
+p274
+I3
+sS'camp'
+p275
+I2
+sS'exponential growth'
+p276
+I14
+sS'growth factor concentr'
+p277
+I1
+sS't antigen'
+p278
+I4
+sS'astrocyt'
+p279
+I4
+sS'sigma'
+p280
+I2
+sS'slope'
+p281
+I1
+sS'linker-tkt'
+p282
+I1
+sS'serum sampl'
+p283
+I1
+sS'upregul'
+p284
+I1
+sS'cycle phase fraction distribut'
+p285
+I1
+sS'cyclin protein'
+p286
+I1
+sS'california usa'
+p287
+I1
+sS'relative levels of'
+p288
+I1
+sS'correlation plot for th'
+p289
+I1
+sS'tkt'
+p290
+I1
+sS'final cel'
+p291
+I5
+sS'nuclear matric'
+p292
+I1
+sS'growth curv'
+p293
+I2
+sS'tropix'
+p294
+I1
+sS'of the retinoblastoma family protein'
+p295
+I1
+sS'dibutyryl camp'
+p296
+I2
+sS'activ'
+p297
+I1
+sS'potential of introduced tag'
+p298
+I1
+sS'deoxychol'
+p299
+I1
+sS'stain'
+p300
+I1
+sS'inhibition of growth'
+p301
+I2
+sS'express'
+p302
+I50
+sS'bfgf'
+p303
+I1
+sS'gel'
+p304
+I2
+sS'polyclonal popul'
+p305
+I2
+sS'coulter esp elite cytomet'
+p306
+I1
+sS'formaldehyd'
+p307
+I1
+sS'integr'
+p308
+I2
+sS'expression potential of introduced tag'
+p309
+I1
+sS'saturation dens'
+p310
+I4
+sS'cell cycle phase popul'
+p311
+I1
+sS'final filt'
+p312
+I1
+sS'fluoresc'
+p313
+I2
+sS'primary mouse astrocyt'
+p314
+I1
+sS'clonal mouse astrocyte cel'
+p315
+I1
+sS'moloney sarcoma virus vectors express'
+p316
+I1
+sS'modfit'
+p317
+I1
+sS'p27'
+p318
+I1
+sS'astrocyte clon'
+p319
+I1
+sS'htk-tag astrocyte clon'
+p320
+I1
+sS'cell cycle fract'
+p321
+I1
+sS'p-value for tag express'
+p322
+I1
+sS'detect'
+p323
+I1
+sS'isotyp'
+p324
+I1
+sS'of a growth curv'
+p325
+I2
+sS'astrocyte lineage of th'
+p326
+I2
+sS'tumor suppressor'
+p327
+I1
+sS'expression potenti'
+p328
+I6
+sS'wild-type tag'
+p329
+I1
+sS'tag-specific fluoresc'
+p330
+I1
+sS'mouse astrocyt'
+p331
+I3
+sS'experi'
+p332
+I2
+sS'incorporation of'
+p333
+I1
+sS'r 2i'
+p334
+I1
+sS'phenotyp'
+p335
+I3
+sS'cycl'
+p336
+I8
+sS'cell cycle machineri'
+p337
+I1
+sS'of primary mouse astrocyt'
+p338
+I2
+sS'intrinsic express'
+p339
+I1
+sS'popul'
+p340
+I6
+sS'bfgf promot'
+p341
+I1
+sS'drug'
+p342
+I1
+sS'hela cel'
+p343
+I1
+sS'bandpass'
+p344
+I1
+sS'nonidet p-40'
+p345
+I1
+sS'cancer'
+p346
+I1
+sS'cell dens'
+p347
+I5
+sS'ca'
+p348
+I2
+sS'guid'
+p349
+I1
+sS'terminal cel'
+p350
+I1
+sS'cell cycl'
+p351
+I25
+sS'ph'
+p352
+I1
+sS'frisa'
+p353
+I2
+sS'plateau'
+p354
+I3
+sS'the retinoblastoma family protein'
+p355
+I1
+sS'cyclin molecular concentr'
+p356
+I1
+sS'regul'
+p357
+I1
+sS'of retroviral vector'
+p358
+I1
+sS'infect'
+p359
+I4
+sS'passage cel'
+p360
+I1
+sS'inactivation of the retinoblastoma family protein'
+p361
+I1
+sS'fibroblast'
+p362
+I1
+sS'igfbp-2'
+p363
+I1
+sS'relative levels of tag express'
+p364
+I1
+sS'drp'
+p365
+I1
+sS'virus vectors expressing tag'
+p366
+I1
+sS'replic'
+p367
+I1
+sS'inhibit'
+p368
+I3
+sS'metabolic act'
+p369
+I1
+sS'filament protein'
+p370
+I1
+sS'cell cycle phase fraction distribut'
+p371
+I1
+sS'durat'
+p372
+I1
+sS'agar'
+p373
+I1
+sS'immunostain'
+p374
+I1
+sS'lysat'
+p375
+I3
+sS'error'
+p376
+I1
+sS'observ'
+p377
+I3
+sS'internal herpes thymidin'
+p378
+I1
+sS'replication-defective retrovirus encod'
+p379
+I1
+sS'retroviral ltr'
+p380
+I4
+sS'anchorage dependent cel'
+p381
+I1
+sS'multi-factori'
+p382
+I1
+sS'internal herpes thymidine kinas'
+p383
+I1
+sS'protein'
+p384
+I20
+sS'quantitative assays of'
+p385
+I1
+sS'scienc'
+p386
+I1
+sS'p-value for tag'
+p387
+I1
+sS'baculovirus lys'
+p388
+I1
+sS'propidium stain'
+p389
+I1
+sS'immunofluorescence flow cytometri'
+p390
+I2
+sS'quantitative standard'
+p391
+I1
+sS'elite cytomet'
+p392
+I1
+sS'gfap'
+p393
+I2
+sS'cytometri'
+p394
+I8
+sS'rb family protein'
+p395
+I1
+sS'nih'
+p396
+I7
+sS'sv40 tag'
+p397
+I1
+sS'paradox'
+p398
+I1
+sS'machineri'
+p399
+I1
+sS'transformation phenotyp'
+p400
+I3
+sS'correlation plot for'
+p401
+I1
+sS'mutant t'
+p402
+I1
+sS'density profil'
+p403
+I1
+sS'growth rate of primary mous'
+p404
+I1
+sS'astrocyte cell lines cortical astrocyt'
+p405
+I1
+sS'expressing tag'
+p406
+I1
+sS'k1 protein'
+p407
+I1
+sS'dependent cel'
+p408
+I1
+sS'of mammalian cel'
+p409
+I1
+sS'concentr'
+p410
+I7
+sS'blot'
+p411
+I1
+sS'tag expression potential of introduced tag'
+p412
+I1
+sS'electrophoretically blot'
+p413
+I1
+sS'ny'
+p414
+I2
+sS't k1'
+p415
+I1
+sS'standard error'
+p416
+I1
+sS'character'
+p417
+I1
+sS'quantitative analysis of gen'
+p418
+I1
+sS'thymidine kinas'
+p419
+I1
+sS'exponential popul'
+p420
+I1
+sS'characterization of'
+p421
+I1
+sS'densiti'
+p422
+I10
+sS'expression-cell density profil'
+p423
+I1
+sS'fixed cel'
+p424
+I1
+sS'retinoblastoma protein famili'
+p425
+I1
+sS'clonal'
+p426
+I1
+sS'describing express'
+p427
+I1
+sS'cycle phase fract'
+p428
+I1
+sS'moloney'
+p429
+I1
+sS'electrophoresis gel'
+p430
+I1
+sS'transcription promot'
+p431
+I1
+sS'assays of gene express'
+p432
+I1
+sS'longitudinal studi'
+p433
+I1
+sS'analytical methods for'
+p434
+I1
+sS'miami'
+p435
+I1
+sS'mutational ev'
+p436
+I1
+sS'retrovirus'
+p437
+I1
+sS'tag expression potential of'
+p438
+I1
+sS'm-mulv ltr'
+p439
+I2
+sS'phenotype of mammalian cel'
+p440
+I1
+sS'of differenti'
+p441
+I1
+sS'inactivation of the retinoblastoma'
+p442
+I1
+sS'maxim'
+p443
+I1
+sS'protein famili'
+p444
+I1
+sS'tag expression-cell density profil'
+p445
+I1
+sS'growth'
+p446
+I21
+sS'sampl'
+p447
+I3
+sS'secondary reag'
+p448
+I1
+sS'htk promot'
+p449
+I8
+sS'igf-1'
+p450
+I1
+sS'regulatory protein'
+p451
+I2
+sS'final cell dens'
+p452
+I4
+sS'cell lines cortical astrocyt'
+p453
+I1
+sS'relative levels of tag'
+p454
+I1
+sS'hdac1'
+p455
+I1
+sS'investig'
+p456
+I1
+sS'coulter esp'
+p457
+I1
+sS'cell protein'
+p458
+I1
+sS'expression research'
+p459
+I1
+sS'simplex'
+p460
+I1
+sS'post'
+p461
+I2
+sS'subtract'
+p462
+I1
+sS'usa'
+p463
+I1
+sS'oh'
+p464
+I1
+sS'of'
+p465
+I2
+sS'antibodi'
+p466
+I3
+sS'tumor'
+p467
+I1
+sS'mm pmsf'
+p468
+I1
+sS'cycle regul'
+p469
+I1
+sS'trypsin'
+p470
+I1
+sS'igf-ii p3 promot'
+p471
+I1
+sS'anti-tag isotyp'
+p472
+I1
+sS'regulatory gen'
+p473
+I3
+sS'for gene expression studi'
+p474
+I1
+sS'p-value for'
+p475
+I1
+sS'upregulation of'
+p476
+I1
+sS'pervasive ent'
+p477
+I1
+sS'tag transcrib'
+p478
+I2
+sS'concentrations of serum'
+p479
+I1
+sS'pvdf'
+p480
+I1
+sS'filament extract'
+p481
+I1
+sS'sense of'
+p482
+I1
+sS'transform'
+p483
+I4
+sS'fraction'
+p484
+I9
+sS'iso-forms of c-myc'
+p485
+I1
+sS'rb famili'
+p486
+I2
+sS'defective mutant tag transcrib'
+p487
+I1
+sS'hr'
+p488
+I1
+sS'transduction of sv40'
+p489
+I1
+sS'clonal mouse astrocyt'
+p490
+I1
+sS'of gene express'
+p491
+I3
+sS'translat'
+p492
+I1
+sS'endosialin'
+p493
+I1
+sS'sv40'
+p494
+I3
+sS'molecular concentr'
+p495
+I2
+sS'absenc'
+p496
+I1
+sS'anti-tag'
+p497
+I1
+sS'down-regul'
+p498
+I1
+sS'p3 promot'
+p499
+I1
+sS'x-ray'
+p500
+I1
+sS'curv'
+p501
+I1
+sS'correlation plot'
+p502
+I1
+sS'classif'
+p503
+I1
+sS'ltr vector'
+p504
+I1
+sS'tag expression potential of introduc'
+p505
+I1
+sS'large t'
+p506
+I1
+sS'quantitative standards for'
+p507
+I1
+sS'cytometry fixed sampl'
+p508
+I1
+sS'fitc-fluoresc'
+p509
+I3
+sS'cultur'
+p510
+I1
+sS'film'
+p511
+I1
+sS'upregulation of differenti'
+p512
+I1
+sS'nm'
+p513
+I1
+sS'negative control of th'
+p514
+I1
+sS'san diego california'
+p515
+I1
+sS'treatment'
+p516
+I1
+sS'cell cycle transit'
+p517
+I3
+sS'graphpad softwar'
+p518
+I1
+sS'role'
+p519
+I1
+sS'isothiocyan'
+p520
+I1
+sS'terminal cell dens'
+p521
+I1
+sS'protein st'
+p522
+I3
+sS'of tag express'
+p523
+I2
+sS'promoter strength'
+p524
+I1
+sS'of sv40'
+p525
+I3
+sS'vectors expressing tag'
+p526
+I1
+sS'population growth'
+p527
+I2
+sS'proto-oncogen'
+p528
+I1
+sS'moloney sarcoma viru'
+p529
+I1
+sS'clonal mous'
+p530
+I1
+sS'ltr tag'
+p531
+I1
+sS'ii-\xce\xb1'
+p532
+I1
+sS'plateau phase of growth'
+p533
+I1
+sS'recessive oncogen'
+p534
+I1
+sS'san diego california usa'
+p535
+I1
+sS'igfr'
+p536
+I1
+sS'rb-binding defective mutant tag transcrib'
+p537
+I1
+sS'quantitative analysis of'
+p538
+I1
+sS'c-myc'
+p539
+I1
+sS'negative control of the cel'
+p540
+I1
+sS'm-mulv ltr promot'
+p541
+I2
+sS'recombinant tag'
+p542
+I2
+sS'retrovirus encoding tag'
+p543
+I1
+sS'potenti'
+p544
+I6
+sS'linear regress'
+p545
+I1
+stp546
+Rp547
+tp548
+.

@@ -1,0 +1,659 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'depth c'
+p7
+I11
+sS'manifold'
+p8
+I21
+sS'immunoreact'
+p9
+I2
+sS'polyacetal resin'
+p10
+I1
+sS'hironori'
+p11
+I1
+sS'circumfer'
+p12
+I1
+sS'cylindrical monolithic silica'
+p13
+I1
+sS'parallel slide shaft'
+p14
+I1
+sS'fixed depth c'
+p15
+I11
+sS'pre-buffer solution deliveri'
+p16
+I2
+sS'liquid sample introduc'
+p17
+I1
+sS'target enzym'
+p18
+I5
+sS'cut'
+p19
+I1
+sS'detection contain'
+p20
+I1
+sS'passag'
+p21
+I1
+sS'activ'
+p22
+I5
+sS'three-dimensional network framework'
+p23
+I1
+sS'program'
+p24
+I10
+sS'reagent'
+p25
+I8
+sS'precision cut'
+p26
+I1
+sS'analyt'
+p27
+I4
+sS'of air bubbl'
+p28
+I1
+sS'auto'
+p29
+I1
+sS'electromagnetic valves for'
+p30
+I3
+sS'fluid'
+p31
+I12
+sS'enzyme reaction pre-buff'
+p32
+I14
+sS'framework'
+p33
+I1
+sS'2me'
+p34
+I1
+sS'bead'
+p35
+I1
+sS'delivery tub'
+p36
+I1
+sS'gel'
+p37
+I2
+sS'pre-buff'
+p38
+I23
+sS'histone h1'
+p39
+I1
+sS'intem'
+p40
+I1
+sS'protein absorpt'
+p41
+I1
+sS'nozzl'
+p42
+I8
+sS'chart'
+p43
+I8
+sS'enzyme act'
+p44
+I4
+sS'resin'
+p45
+I6
+sS'bilateral width of'
+p46
+I1
+sS'slide'
+p47
+I2
+sS'enzyme react'
+p48
+I22
+sS'contain'
+p49
+I7
+sS'electromagnetic valves of th'
+p50
+I1
+sS'cyclin-dependent protein kinas'
+p51
+I1
+sS'labeling react'
+p52
+I4
+sS'fluoresc'
+p53
+I1
+sS'stock solution chamb'
+p54
+I3
+sS'arrow i'
+p55
+I1
+sS'specimen bind'
+p56
+I2
+sS'cross'
+p57
+I1
+sS'electromagnetic valv'
+p58
+I47
+sS'specimen contain'
+p59
+I1
+sS'perimet'
+p60
+I1
+sS'sampl'
+p61
+I28
+sS'for temperature adjust'
+p62
+I1
+sS'arrow z'
+p63
+I1
+sS'polyprene resin'
+p64
+I1
+sS'silica gel'
+p65
+I2
+sS'arm'
+p66
+I4
+sS'particl'
+p67
+I1
+sS'valves for controlling fluid'
+p68
+I3
+sS'kobayashi hironori'
+p69
+I1
+sS'detect'
+p70
+I2
+sS'absorpt'
+p71
+I1
+sS'for'
+p72
+I1
+sS'chamber'
+p73
+I11
+sS'inlet nozzl'
+p74
+I5
+sS'for temperature adjustment of th'
+p75
+I1
+sS'tube'
+p76
+I1
+sS'label'
+p77
+I2
+sS'bubbl'
+p78
+I2
+sS'electromagnetic valves for controlling fluid'
+p79
+I3
+sS'hardwar'
+p80
+I1
+sS'for controlling fluid'
+p81
+I3
+sS'liquid sampl'
+p82
+I14
+sS's19'
+p83
+I2
+sS's18'
+p84
+I2
+sS'numer'
+p85
+I2
+sS's12'
+p86
+I2
+sS's11'
+p87
+I2
+sS'storing chamb'
+p88
+I1
+sS's16'
+p89
+I2
+sS's15'
+p90
+I2
+sS's14'
+p91
+I2
+sS'liquid hold'
+p92
+I4
+sS'liquid storing chamb'
+p93
+I1
+sS'key'
+p94
+I2
+sS'reaction termin'
+p95
+I4
+sS'liquid sample receiv'
+p96
+I2
+sS'overflow storage concav'
+p97
+I1
+sS'immunoprecipitation pre-buffer solution deliveri'
+p98
+I2
+sS'outlet nozzl'
+p99
+I3
+sS'valv'
+p100
+I48
+sS'biological tissu'
+p101
+I1
+sS'reaction'
+p102
+I15
+sS'detecting apparatus contain'
+p103
+I2
+sS'column'
+p104
+I4
+sS's17'
+p105
+I2
+sS'liquid tank'
+p106
+I2
+sS'antibodi'
+p107
+I6
+sS'introduct'
+p108
+I1
+sS'display'
+p109
+I3
+sS'precis'
+p110
+I1
+sS'atp'
+p111
+I1
+sS'parallel slid'
+p112
+I1
+sS'slide shaft'
+p113
+I3
+sS'triton'
+p114
+I1
+sS'liquid manifold'
+p115
+I1
+sS'introduction of'
+p116
+I1
+sS'fluorescein'
+p117
+I1
+sS'h1'
+p118
+I1
+sS'wast'
+p119
+I19
+sS'nacl'
+p120
+I3
+sS'wash'
+p121
+I1
+sS'motor'
+p122
+I1
+sS'auto analyz'
+p123
+I1
+sS'fluorescent label'
+p124
+I1
+sS'fluid manifold'
+p125
+I20
+sS'horizontal notch'
+p126
+I1
+sS'cyclin-dependent protein'
+p127
+I1
+sS'immunoprecipitation pre-buff'
+p128
+I7
+sS'tris-hcl'
+p129
+I6
+sS'fixed depth'
+p130
+I12
+sS'chicago il'
+p131
+I1
+sS'start'
+p132
+I2
+sS'holding chamb'
+p133
+I4
+sS'waste liquid'
+p134
+I1
+sS'overflow liquid'
+p135
+I1
+sS'waste fluid'
+p136
+I2
+sS'for temperature adjustment of'
+p137
+I1
+sS'sample liquid'
+p138
+I7
+sS'deliveri'
+p139
+I15
+sS'hyogo'
+p140
+I2
+sS'electromagnetic valves of'
+p141
+I1
+sS'triton x-100'
+p142
+I1
+sS'reaction terminating reag'
+p143
+I4
+sS'sample liquid receiv'
+p144
+I7
+sS'gap'
+p145
+I2
+sS'tissu'
+p146
+I1
+sS'labeling reaction termin'
+p147
+I1
+sS'start key'
+p148
+I2
+sS'fluorescent labeling react'
+p149
+I2
+sS'shaft'
+p150
+I5
+sS'liquid sample prepar'
+p151
+I1
+sS'dmso'
+p152
+I1
+sS'tank'
+p153
+I5
+sS'target'
+p154
+I10
+sS'reagent contain'
+p155
+I1
+sS'prepar'
+p156
+I17
+sS's4'
+p157
+I2
+sS'cdk-1'
+p158
+I2
+sS'histon'
+p159
+I1
+sS's13'
+p160
+I2
+sS'b h'
+p161
+I2
+sS'sample prepar'
+p162
+I7
+sS'pre immunoprecipitation pre-buff'
+p163
+I1
+sS'edta-2na'
+p164
+I1
+sS'disk-like flang'
+p165
+I1
+sS'analyzer kobayashi hironori'
+p166
+I1
+sS'vinyl chloride resin'
+p167
+I4
+sS'target subst'
+p168
+I3
+sS'sepharose bead'
+p169
+I1
+sS'repres'
+p170
+I1
+sS'o-r'
+p171
+I4
+sS'il'
+p172
+I1
+sS'of the disk-like flang'
+p173
+I2
+sS'protein'
+p174
+I6
+sS'anchor pip'
+p175
+I2
+sS'pipe'
+p176
+I2
+sS's9'
+p177
+I4
+sS's8'
+p178
+I2
+sS'monolithic silica gel'
+p179
+I2
+sS'dilut'
+p180
+I1
+sS'vinyl chlorid'
+p181
+I4
+sS'min'
+p182
+I21
+sS's3'
+p183
+I4
+sS's2'
+p184
+I2
+sS'liquid holding chamb'
+p185
+I4
+sS'x-100'
+p186
+I1
+sS's7'
+p187
+I2
+sS's6'
+p188
+I2
+sS's5'
+p189
+I2
+sS'the disk-like flang'
+p190
+I1
+sS'mgc12'
+p191
+I1
+sS'auto analyzer kobayashi'
+p192
+I1
+sS'flang'
+p193
+I1
+sS'auto analyzer kobayashi hironori'
+p194
+I1
+sS'stock'
+p195
+I21
+sS'immunoprecipit'
+p196
+I4
+sS'chloride resin'
+p197
+I4
+sS'three-dimensional network'
+p198
+I1
+sS'substanc'
+p199
+I3
+sS'waste tank'
+p200
+I1
+sS'reaction pre-buff'
+p201
+I14
+sS'network framework'
+p202
+I1
+sS'concav'
+p203
+I2
+sS'parallel'
+p204
+I1
+sS'enzym'
+p205
+I14
+sS'monolithic silica'
+p206
+I1
+sS'notch'
+p207
+I1
+sS'liquid'
+p208
+I31
+sS'terminating reag'
+p209
+I4
+sS'bind'
+p210
+I2
+sS'chicago'
+p211
+I1
+sS'reagent plac'
+p212
+I1
+sS'bilateral width of the disk-like flang'
+p213
+I1
+sS'bilateral width of th'
+p214
+I1
+sS'depth'
+p215
+I1
+sS'introduction of air bubbl'
+p216
+I1
+sS'target protein'
+p217
+I2
+sS'nonidet-p40'
+p218
+I2
+sS'silica'
+p219
+I1
+sS'cpu'
+p220
+I1
+stp221
+Rp222
+tp223
+.

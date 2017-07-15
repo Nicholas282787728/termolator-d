@@ -1,0 +1,6560 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'profici'
+p7
+I1
+sS'mcintyr'
+p8
+I14
+sS'grocery-men'
+p9
+I1
+sS'little brunett'
+p10
+I1
+sS'captain'
+p11
+I1
+sS'tortoise-shell comb'
+p12
+I1
+sS'awful lot'
+p13
+I1
+sS'psychological examin'
+p14
+I2
+sS'glorious mo'
+p15
+I1
+sS'conscious masculin'
+p16
+I1
+sS'swap'
+p17
+I1
+sS'sound-proof'
+p18
+I1
+sS'steam-yacht'
+p19
+I1
+sS'merchant'
+p20
+I1
+sS'fan-far'
+p21
+I1
+sS'rish'
+p22
+I1
+sS'elevator man'
+p23
+I2
+sS'driss'
+p24
+I1
+sS'voic'
+p25
+I5
+sS'pigment'
+p26
+I2
+sS'tax exempt statu'
+p27
+I2
+sS'federal tax identif'
+p28
+I1
+sS'class-r'
+p29
+I1
+sS'strawberry jam'
+p30
+I1
+sS"harold must n't"
+p31
+I1
+sS'school'
+p32
+I1
+sS'hammer-blow'
+p33
+I1
+sS'wind blow cold'
+p34
+I1
+sS'project gutenberg web pag'
+p35
+I1
+sS'wooden'
+p36
+I1
+sS'personal appear'
+p37
+I1
+sS'mackinaw'
+p38
+I1
+sS'piper hous'
+p39
+I1
+sS'bryan dalyrimpl'
+p40
+I2
+sS'arrival hom'
+p41
+I1
+sS'palais roy'
+p42
+I1
+sS'p\xc3\xa6an of a viking trib'
+p43
+I1
+sS'slipper'
+p44
+I1
+sS'enjoy'
+p45
+I2
+sS'speck'
+p46
+I1
+sS'round head-ston'
+p47
+I1
+sS'project gutenberg-tm ebook'
+p48
+I2
+sS'harold'
+p49
+I4
+sS'consequ'
+p50
+I1
+sS'street'
+p51
+I1
+sS'york water-front'
+p52
+I1
+sS'even'
+p53
+I1
+sS'ee ey'
+p54
+I1
+sS'project gutenberg-tm concept of a library of electronic work'
+p55
+I1
+sS'amus'
+p56
+I2
+sS'introspect'
+p57
+I1
+sS'orchestra'
+p58
+I2
+sS'poison'
+p59
+I2
+sS'energy evylyn'
+p60
+I1
+sS'new'
+p61
+I7
+sS'window-pan'
+p62
+I1
+sS'tombing heap'
+p63
+I1
+sS'specialist'
+p64
+I1
+sS'obsolete scholast'
+p65
+I1
+sS'cryptic amus'
+p66
+I1
+sS'white-haired priest'
+p67
+I1
+sS'men'
+p68
+I5
+sS'importance of football gam'
+p69
+I1
+sS'fun'
+p70
+I1
+sS'china'
+p71
+I1
+sS'impercept'
+p72
+I1
+sS'mer'
+p73
+I1
+sS'spic armi'
+p74
+I1
+sS'prodigy swap'
+p75
+I1
+sS'harol'
+p76
+I1
+sS'clumsy pencil lett'
+p77
+I1
+sS'precis'
+p78
+I1
+sS'credit'
+p79
+I1
+sS'omar'
+p80
+I1
+sS'smoke'
+p81
+I2
+sS'star-bound'
+p82
+I1
+sS'front row'
+p83
+I2
+sS'badinag'
+p84
+I1
+sS'volunt'
+p85
+I2
+sS'dream boat'
+p86
+I1
+sS'emancip'
+p87
+I1
+sS'newspap'
+p88
+I2
+sS'fancy-dress parti'
+p89
+I1
+sS'sneer'
+p90
+I1
+sS'symphoni'
+p91
+I1
+sS'dream boat star-bound'
+p92
+I1
+sS'feminine qu'
+p93
+I2
+sS'insult'
+p94
+I1
+sS'call'
+p95
+I1
+sS'fine intellig'
+p96
+I1
+sS'armi'
+p97
+I2
+sS'ardita disdain'
+p98
+I1
+sS'regular pianist'
+p99
+I1
+sS'surplus energi'
+p100
+I1
+sS'phone'
+p101
+I2
+sS'connecticut'
+p102
+I2
+sS'whut sound'
+p103
+I1
+sS'wind-shield'
+p104
+I1
+sS'accid'
+p105
+I1
+sS'enjoyment round'
+p106
+I1
+sS'room'
+p107
+I2
+sS'samuel pepi'
+p108
+I1
+sS'work'
+p109
+I44
+sS'roof'
+p110
+I1
+sS'to-morrow'
+p111
+I11
+sS'vergil'
+p112
+I1
+sS'elbow'
+p113
+I3
+sS'eri'
+p114
+I1
+sS'quarrel'
+p115
+I1
+sS'abstract idea'
+p116
+I1
+sS'maternal appreci'
+p117
+I1
+sS'climat'
+p118
+I1
+sS'climax'
+p119
+I1
+sS'coupla hour'
+p120
+I1
+sS'golf sho'
+p121
+I1
+sS'harvard law diploma'
+p122
+I1
+sS'dance unfortun'
+p123
+I1
+sS'copies of project gutenberg-tm electronic work'
+p124
+I1
+sS'motion'
+p125
+I2
+sS'empire gown'
+p126
+I1
+sS'arctic sea'
+p127
+I1
+sS'quot'
+p128
+I1
+sS'flower-strewn'
+p129
+I1
+sS'sonorous snor'
+p130
+I1
+sS'down-town'
+p131
+I2
+sS'prosperous musician'
+p132
+I1
+sS'thrust pudgi'
+p133
+I1
+sS'gutenberg-tm concept of a library of electronic work'
+p134
+I1
+sS'disappoint'
+p135
+I1
+sS'bell-boy'
+p136
+I2
+sS'riotous uncl'
+p137
+I1
+sS'physical inferior'
+p138
+I1
+sS'port-hol'
+p139
+I1
+sS'swing'
+p140
+I2
+sS'lump'
+p141
+I3
+sS'wrong'
+p142
+I1
+sS'beauti'
+p143
+I1
+sS'law'
+p144
+I3
+sS'negroes writh'
+p145
+I1
+sS'attempt'
+p146
+I1
+sS'opaqu'
+p147
+I1
+sS'warfar'
+p148
+I1
+sS'warning nod'
+p149
+I1
+sS'town engagin'
+p150
+I1
+sS'funniest'
+p151
+I1
+sS'family possess'
+p152
+I1
+sS'social success'
+p153
+I1
+sS'all-winter engag'
+p154
+I1
+sS'wind'
+p155
+I2
+sS'sympathetic contemporari'
+p156
+I1
+sS'half-phras'
+p157
+I1
+sS'milton pip'
+p158
+I4
+sS'bergsonian'
+p159
+I1
+sS'wrought'
+p160
+I1
+sS'sewing-basket'
+p161
+I1
+sS'down-stair'
+p162
+I8
+sS'fit'
+p163
+I1
+sS'punctuation danc'
+p164
+I1
+sS'crew'
+p165
+I1
+sS'offic'
+p166
+I2
+sS'final chord'
+p167
+I1
+sS'fade'
+p168
+I1
+sS'persist'
+p169
+I1
+sS'conscientious introspect'
+p170
+I1
+sS'monastery tre'
+p171
+I1
+sS'proce'
+p172
+I1
+sS'clumsy pencil'
+p173
+I1
+sS'band'
+p174
+I3
+sS'pulpless'
+p175
+I1
+sS'frenchman lauri'
+p176
+I1
+sS'interrupt'
+p177
+I2
+sS'total proce'
+p178
+I1
+sS'silver'
+p179
+I9
+sS'tendenc'
+p180
+I1
+sS'dumpi'
+p181
+I1
+sS'dalyrimpl'
+p182
+I37
+sS'furious energi'
+p183
+I1
+sS'new mexico summ'
+p184
+I1
+sS'brigadier-gener'
+p185
+I1
+sS'arrot'
+p186
+I1
+sS'righteous blow'
+p187
+I1
+sS'costello'
+p188
+I1
+sS'whim'
+p189
+I1
+sS'snow-sho'
+p190
+I2
+sS'laboratori'
+p191
+I1
+sS'gymnasium'
+p192
+I4
+sS'smoke down-stair'
+p193
+I1
+sS'concentric circl'
+p194
+I1
+sS'public half'
+p195
+I1
+sS'infinite disparag'
+p196
+I1
+sS'whip'
+p197
+I1
+sS'millennium'
+p198
+I1
+sS'reader'
+p199
+I1
+sS'palai'
+p200
+I1
+sS'arizona'
+p201
+I1
+sS'perilous corn'
+p202
+I1
+sS'conventional success'
+p203
+I1
+sS'standard'
+p204
+I1
+sS'concept of a library of electronic work'
+p205
+I1
+sS'country club'
+p206
+I3
+sS'chorus girl'
+p207
+I2
+sS'home-town social success'
+p208
+I1
+sS'kebbl'
+p209
+I2
+sS'screen-door'
+p210
+I2
+sS'supercritical quarrel'
+p211
+I1
+sS'divinerri'
+p212
+I2
+sS'release d'
+p213
+I1
+sS'licens'
+p214
+I10
+sS'gutenberg-tm concept'
+p215
+I1
+sS'mingl'
+p216
+I2
+sS'dumb-bel'
+p217
+I1
+sS'feminine intercours'
+p218
+I1
+sS'restrict'
+p219
+I2
+sS'langour of a tropical even'
+p220
+I1
+sS'momentary illus'
+p221
+I1
+sS'comin'
+p222
+I1
+sS'corn-flak'
+p223
+I1
+sS'musical gift'
+p224
+I1
+sS'kissable clim'
+p225
+I1
+sS'eventual remors'
+p226
+I1
+sS'evylyn'
+p227
+I46
+sS'man awok'
+p228
+I1
+sS'tol'
+p229
+I1
+sS'critter'
+p230
+I1
+sS'stray sent'
+p231
+I1
+sS'gym'
+p232
+I1
+sS'qualif'
+p233
+I1
+sS'home town'
+p234
+I2
+sS'awful hung'
+p235
+I1
+sS'past'
+p236
+I1
+sS'outlay'
+p237
+I1
+sS'princeton'
+p238
+I8
+sS'tree'
+p239
+I1
+sS'car-top'
+p240
+I1
+sS'project'
+p241
+I57
+sS'matter'
+p242
+I2
+sS'anxieti'
+p243
+I2
+sS'flame'
+p244
+I1
+sS'bromides of the conventional review'
+p245
+I1
+sS'iron'
+p246
+I1
+sS'physical accid'
+p247
+I1
+sS'finger-nail enamel'
+p248
+I1
+sS'ridiculous nicknam'
+p249
+I1
+sS'settee ardita'
+p250
+I1
+sS'mind'
+p251
+I4
+sS'sportsmen'
+p252
+I1
+sS'disparag'
+p253
+I1
+sS'rap'
+p254
+I1
+sS'of astonish'
+p255
+I2
+sS'infring'
+p256
+I2
+sS'ring-box'
+p257
+I1
+sS'dozen'
+p258
+I1
+sS'life hitable qu'
+p259
+I1
+sS'street-corn'
+p260
+I1
+sS'luxuri'
+p261
+I2
+sS'alibi'
+p262
+I1
+sS'shadow seam'
+p263
+I1
+sS'sevier barber-shop'
+p264
+I1
+sS'thoma'
+p265
+I1
+sS'eulog'
+p266
+I1
+sS'moanin'
+p267
+I1
+sS'barrer-bar-barr'
+p268
+I1
+sS'yellow-haired girl'
+p269
+I1
+sS'blue'
+p270
+I1
+sS'foundation project gutenberg-tm'
+p271
+I1
+sS'gutenberg-tm web sit'
+p272
+I1
+sS'doin'
+p273
+I5
+sS'ebook'
+p274
+I8
+sS'phonograph'
+p275
+I1
+sS'mouth'
+p276
+I3
+sS'letter'
+p277
+I6
+sS'glow'
+p278
+I1
+sS'tradit'
+p279
+I1
+sS'florodora'
+p280
+I1
+sS'simplic'
+p281
+I1
+sS'excus'
+p282
+I1
+sS'unpleas'
+p283
+I1
+sS'orchestra-circl'
+p284
+I1
+sS'tallyho'
+p285
+I2
+sS'spend'
+p286
+I1
+sS'official project gutenberg-tm web sit'
+p287
+I1
+sS'meditative fat man'
+p288
+I2
+sS'tech'
+p289
+I1
+sS'station whistl'
+p290
+I1
+sS'ludicrous momentary illus'
+p291
+I1
+sS'half cloth'
+p292
+I1
+sS'hunger'
+p293
+I1
+sS'lightn'
+p294
+I1
+sS'sureti'
+p295
+I1
+sS'rector'
+p296
+I1
+sS'nephew'
+p297
+I1
+sS'email newslett'
+p298
+I1
+sS'non profit 501'
+p299
+I1
+sS'ahearns should'
+p300
+I1
+sS'educational geniu'
+p301
+I1
+sS'instantaneous vis'
+p302
+I1
+sS'pearl-gray'
+p303
+I1
+sS'busi'
+p304
+I5
+sS'sandra pepi'
+p305
+I1
+sS'awful deep'
+p306
+I1
+sS'notorious affair'
+p307
+I1
+sS'of bright-green coppic'
+p308
+I1
+sS'copies of'
+p309
+I1
+sS'stop'
+p310
+I1
+sS'coast'
+p311
+I1
+sS'pocket'
+p312
+I3
+sS'marginal not'
+p313
+I1
+sS'report'
+p314
+I1
+sS'dressing-room'
+p315
+I3
+sS'dinner-dance to-night'
+p316
+I1
+sS'ominous t'
+p317
+I1
+sS'hammerstein'
+p318
+I1
+sS'pg search facil'
+p319
+I1
+sS'wicked clubman mak'
+p320
+I1
+sS'tooth-brush hold'
+p321
+I1
+sS'demonstrandum'
+p322
+I1
+sS'window-seat'
+p323
+I1
+sS'sugar-dish'
+p324
+I1
+sS'steam'
+p325
+I1
+sS'house dress'
+p326
+I1
+sS'breakfast-t'
+p327
+I1
+sS'rivulet'
+p328
+I1
+sS'tax return'
+p329
+I2
+sS'wholesom'
+p330
+I1
+sS'negroes loung'
+p331
+I1
+sS'unworthi'
+p332
+I1
+sS'marborough hotel'
+p333
+I1
+sS'nouveau rish'
+p334
+I1
+sS'subject'
+p335
+I11
+sS'cabaret'
+p336
+I1
+sS'half-wit'
+p337
+I1
+sS'internal revenue servic'
+p338
+I1
+sS'ye wind'
+p339
+I1
+sS'ben arrot'
+p340
+I1
+sS'half-lemon'
+p341
+I3
+sS'cut-glass ag'
+p342
+I3
+sS'finger'
+p343
+I1
+sS'hypercritical warren mcintyr'
+p344
+I1
+sS'inabl'
+p345
+I1
+sS'd\xc3\xa9class\xc3\xa9 woman sail'
+p346
+I1
+sS'ancho'
+p347
+I1
+sS'harvard'
+p348
+I2
+sS'aquarium'
+p349
+I1
+sS'bed-rail'
+p350
+I1
+sS'hume right'
+p351
+I1
+sS'advertis'
+p352
+I2
+sS'heroic pos'
+p353
+I1
+sS'eternal monkey'
+p354
+I1
+sS'acoust'
+p355
+I1
+sS'scale of'
+p356
+I1
+sS'disdain'
+p357
+I1
+sS'vulgar display'
+p358
+I1
+sS'adolesc'
+p359
+I2
+sS'lookit'
+p360
+I1
+sS'blimp'
+p361
+I2
+sS'russia'
+p362
+I3
+sS'piti'
+p363
+I1
+sS'stearne hous'
+p364
+I1
+sS'academic circl'
+p365
+I1
+sS'countri'
+p366
+I3
+sS'stub-pencil'
+p367
+I1
+sS'black-and-white check'
+p368
+I1
+sS'tone'
+p369
+I3
+sS'solitary farmhous'
+p370
+I1
+sS'royal'
+p371
+I1
+sS'height'
+p372
+I1
+sS'wall-pap'
+p373
+I1
+sS'paradis'
+p374
+I1
+sS'guid'
+p375
+I2
+sS'ether'
+p376
+I1
+sS'sympathetic colleagu'
+p377
+I1
+sS'sensat'
+p378
+I2
+sS'kettle-drum'
+p379
+I1
+sS'bewilder'
+p380
+I2
+sS'havin'
+p381
+I1
+sS'placid bromid'
+p382
+I1
+sS'revenu'
+p383
+I4
+sS'red-haired woman'
+p384
+I3
+sS'plattsburg'
+p385
+I1
+sS'business experi'
+p386
+I1
+sS'too-often-ment'
+p387
+I1
+sS'yale hockey'
+p388
+I1
+sS'bootblack'
+p389
+I1
+sS'life'
+p390
+I5
+sS'negro comedian'
+p391
+I1
+sS'placid wond'
+p392
+I1
+sS'craft'
+p393
+I1
+sS'marborough'
+p394
+I1
+sS'child'
+p395
+I3
+sS'deepen'
+p396
+I1
+sS'individual work'
+p397
+I2
+sS'half-smil'
+p398
+I1
+sS'physician'
+p399
+I1
+sS'servic'
+p400
+I2
+sS'salary list'
+p401
+I1
+sS'ear troubl'
+p402
+I1
+sS'vagu'
+p403
+I1
+sS'kentucki'
+p404
+I1
+sS'mexico'
+p405
+I1
+sS'disillusions comin'
+p406
+I1
+sS'ir'
+p407
+I1
+sS'wilsonian'
+p408
+I1
+sS'foundation web pag'
+p409
+I1
+sS'dress ardita'
+p410
+I1
+sS'dangerous dan'
+p411
+I3
+sS'religious exert'
+p412
+I1
+sS'disappear'
+p413
+I2
+sS'harmoni'
+p414
+I1
+sS'omar khayyam'
+p415
+I1
+sS'philosophical rebel'
+p416
+I1
+sS'marjori'
+p417
+I1
+sS'honk'
+p418
+I1
+sS'descend'
+p419
+I1
+sS'freddy gedney'
+p420
+I1
+sS'comedian stand'
+p421
+I1
+sS'fuss'
+p422
+I1
+sS'evid'
+p423
+I1
+sS'rain'
+p424
+I1
+sS'riotous honk'
+p425
+I1
+sS'high-power idea'
+p426
+I1
+sS'ice-like beam'
+p427
+I1
+sS'romp'
+p428
+I2
+sS'standing ladi'
+p429
+I1
+sS'ocean'
+p430
+I1
+sS'sam pepi'
+p431
+I1
+sS'trent hous'
+p432
+I1
+sS'conscious cool'
+p433
+I1
+sS'programm'
+p434
+I1
+sS'mammi'
+p435
+I1
+sS'sentimental bant'
+p436
+I1
+sS'counti'
+p437
+I1
+sS'sall right'
+p438
+I1
+sS'distribution of project gutenberg-tm'
+p439
+I1
+sS'insidious contest'
+p440
+I1
+sS'sing-s'
+p441
+I1
+sS'pasturag'
+p442
+I1
+sS'greenwich'
+p443
+I1
+sS'under-ton'
+p444
+I1
+sS'numerous passag'
+p445
+I1
+sS'gradual insist'
+p446
+I1
+sS'note-book'
+p447
+I2
+sS'board'
+p448
+I1
+sS'gradual mingl'
+p449
+I1
+sS'swimmin'
+p450
+I3
+sS'stock-room'
+p451
+I3
+sS'tax treat'
+p452
+I1
+sS'audible appreci'
+p453
+I1
+sS'hat'
+p454
+I2
+sS'time-clock'
+p455
+I2
+sS'skirmish-lin'
+p456
+I1
+sS'donat'
+p457
+I2
+sS'social shrewd'
+p458
+I1
+sS'red-haired woman name mimi someth'
+p459
+I1
+sS'birth'
+p460
+I1
+sS'iron-gray hair'
+p461
+I1
+sS'shadow'
+p462
+I3
+sS'leg fractur'
+p463
+I1
+sS'shoulder'
+p464
+I1
+sS'gift'
+p465
+I1
+sS'archive foundation project gutenberg-tm'
+p466
+I1
+sS'digniti'
+p467
+I1
+sS'ardita'
+p468
+I52
+sS'academic knowledg'
+p469
+I1
+sS'right'
+p470
+I3
+sS'crowd'
+p471
+I2
+sS'em criticis'
+p472
+I1
+sS'rap sound'
+p473
+I1
+sS'intern'
+p474
+I1
+sS'hitable qu'
+p475
+I2
+sS'placid walk'
+p476
+I1
+sS'new haven'
+p477
+I3
+sS'ch\xc3\xa2teau-thierri'
+p478
+I1
+sS'physical th'
+p479
+I1
+sS'redistributing project gutenberg-tm electronic work'
+p480
+I1
+sS'convict'
+p481
+I1
+sS'toboggan-rid'
+p482
+I1
+sS'annal'
+p483
+I1
+sS'groanin'
+p484
+I1
+sS'night'
+p485
+I3
+sS'gutenberg-tm miss'
+p486
+I2
+sS'woodrow'
+p487
+I1
+sS'post'
+p488
+I1
+sS'call fun'
+p489
+I1
+sS'twenty-thousand-dollar reward'
+p490
+I1
+sS'vacuous hour'
+p491
+I1
+sS'unsal'
+p492
+I1
+sS'vacil'
+p493
+I1
+sS'literatur'
+p494
+I1
+sS'unfortun'
+p495
+I1
+sS'connecticut air outsid'
+p496
+I1
+sS'spacious music-room'
+p497
+I1
+sS'marshal'
+p498
+I1
+sS'telephon'
+p499
+I1
+sS'civil'
+p500
+I1
+sS'profession'
+p501
+I1
+sS'clock to-night'
+p502
+I1
+sS'country club matt'
+p503
+I1
+sS'resili'
+p504
+I1
+sS'sprawly writ'
+p505
+I1
+sS'icy-cold fac'
+p506
+I1
+sS'animos'
+p507
+I1
+sS'literary arch'
+p508
+I1
+sS'big-timber guid'
+p509
+I2
+sS'aureliu'
+p510
+I1
+sS'unworldly abstract'
+p511
+I1
+sS'floppidy hat'
+p512
+I1
+sS'front door'
+p513
+I7
+sS'northern rac'
+p514
+I1
+sS'head'
+p515
+I1
+sS'offer'
+p516
+I3
+sS'up-stair'
+p517
+I8
+sS'baltimore st'
+p518
+I2
+sS'nerve specialist'
+p519
+I1
+sS'hear'
+p520
+I1
+sS'lustreless blu'
+p521
+I1
+sS'heap'
+p522
+I1
+sS'bellamy famili'
+p523
+I1
+sS'biddeford pool'
+p524
+I1
+sS'country-club hil'
+p525
+I1
+sS'elusive lett'
+p526
+I1
+sS'empty ring-box'
+p527
+I1
+sS'taxi outsid'
+p528
+I1
+sS'ten-twenty-thirti'
+p529
+I1
+sS'trim'
+p530
+I1
+sS'catullu'
+p531
+I1
+sS'tender p'
+p532
+I1
+sS'veiny voic'
+p533
+I1
+sS'half-daz'
+p534
+I1
+sS'abstract'
+p535
+I3
+sS'darki'
+p536
+I3
+sS'sheerest mockeri'
+p537
+I1
+sS'glanc'
+p538
+I5
+sS'check'
+p539
+I1
+sS'jazz-bound blundering blimp'
+p540
+I1
+sS'floor'
+p541
+I1
+sS'glacier'
+p542
+I1
+sS'tip'
+p543
+I2
+sS'character read'
+p544
+I1
+sS'appetit'
+p545
+I1
+sS"'s"
+p546
+I1
+sS'empty tomb'
+p547
+I1
+sS'devot'
+p548
+I1
+sS'intens'
+p549
+I1
+sS'intent'
+p550
+I2
+sS'schopenhau'
+p551
+I1
+sS'warn'
+p552
+I1
+sS'younger'
+p553
+I1
+sS'to-day'
+p554
+I8
+sS'home'
+p555
+I7
+sS'westchester counti'
+p556
+I1
+sS'yacht'
+p557
+I15
+sS'high-bal'
+p558
+I1
+sS'teeth'
+p559
+I2
+sS'gown'
+p560
+I1
+sS'shimmi'
+p561
+I2
+sS'v-v-visit'
+p562
+I1
+sS'reverber'
+p563
+I1
+sS'signific'
+p564
+I1
+sS'mile'
+p565
+I1
+sS'project gutenberg-tm project gutenberg-tm'
+p566
+I1
+sS'chair'
+p567
+I2
+sS'federal tax'
+p568
+I1
+sS'compani'
+p569
+I2
+sS'ebook flapp'
+p570
+I2
+sS'row'
+p571
+I3
+sS'side-track'
+p572
+I1
+sS'pitch black'
+p573
+I1
+sS'four-and-a-half-day wond'
+p574
+I1
+sS'kettla steam'
+p575
+I1
+sS'masculine handwrit'
+p576
+I1
+sS'young dalyrimpl'
+p577
+I1
+sS'decis'
+p578
+I2
+sS'rhythm'
+p579
+I4
+sS'lantern-hung night'
+p580
+I1
+sS'highbrow programm'
+p581
+I1
+sS'languid paradis'
+p582
+I1
+sS'tunayulef'
+p583
+I1
+sS'tooth-brush'
+p584
+I1
+sS'voice cal'
+p585
+I1
+sS'mental work'
+p586
+I1
+sS'laboratory experi'
+p587
+I1
+sS'cool'
+p588
+I1
+sS'hour'
+p589
+I3
+sS'newspaper account'
+p590
+I1
+sS'gun'
+p591
+I1
+sS'yale'
+p592
+I1
+sS'introduct'
+p593
+I1
+sS'dip'
+p594
+I1
+sS'round'
+p595
+I13
+sS'wastin'
+p596
+I1
+sS'mexico weath'
+p597
+I1
+sS'regret'
+p598
+I1
+sS'eye-hol'
+p599
+I1
+sS'sigh'
+p600
+I2
+sS'bedcloth'
+p601
+I2
+sS'gedney matt'
+p602
+I1
+sS'deyo d'
+p603
+I1
+sS'corner'
+p604
+I4
+sS'trent'
+p605
+I1
+sS'hymn'
+p606
+I1
+sS'afghanistan'
+p607
+I1
+sS'appear'
+p608
+I2
+sS'lunch-room'
+p609
+I1
+sS'literary fashion i'
+p610
+I1
+sS'texa'
+p611
+I1
+sS'pose'
+p612
+I1
+sS'passaic'
+p613
+I2
+sS'lemon-juic'
+p614
+I1
+sS'nose-r'
+p615
+I1
+sS'disclaim'
+p616
+I1
+sS'gutenberg-tm project gutenberg-tm'
+p617
+I1
+sS'baltimore station whistl'
+p618
+I1
+sS'country-club window'
+p619
+I1
+sS'name hula hula'
+p620
+I1
+sS'alto'
+p621
+I1
+sS'boy'
+p622
+I2
+sS'gulf'
+p623
+I1
+sS'money-swin'
+p624
+I1
+sS'gradual rumbl'
+p625
+I1
+sS'vanilla ascii'
+p626
+I2
+sS'bow'
+p627
+I1
+sS'prometheu'
+p628
+I1
+sS'fifty-two-year-old sil'
+p629
+I1
+sS'riot act'
+p630
+I1
+sS'pollyanna'
+p631
+I1
+sS'coupla month'
+p632
+I1
+sS'revenue servic'
+p633
+I1
+sS'project gutenberg-tm trademark'
+p634
+I4
+sS'love'
+p635
+I1
+sS'growths of'
+p636
+I1
+sS'beauty evylyn'
+p637
+I1
+sS'stuff to-morrow'
+p638
+I1
+sS'canin'
+p639
+I3
+sS'stiletto'
+p640
+I1
+sS'exasper'
+p641
+I1
+sS'atlantic coast'
+p642
+I1
+sS'cool water waitin'
+p643
+I1
+sS'islet'
+p644
+I1
+sS'gratifications of the normal appetit'
+p645
+I1
+sS'distribution of electronic work'
+p646
+I2
+sS'new mexico weath'
+p647
+I1
+sS'newslett'
+p648
+I1
+sS'univers'
+p649
+I1
+sS'visit'
+p650
+I1
+sS'live'
+p651
+I1
+sS'loung'
+p652
+I1
+sS'conductor'
+p653
+I1
+sS'club'
+p654
+I7
+sS'peopl'
+p655
+I3
+sS'public domain print edit'
+p656
+I1
+sS'examin'
+p657
+I3
+sS'speculative mind'
+p658
+I1
+sS'infinite languor'
+p659
+I1
+sS'markham'
+p660
+I1
+sS'evylyn flush'
+p661
+I1
+sS'prepar'
+p662
+I1
+sS'cap'
+p663
+I1
+sS'soun'
+p664
+I1
+sS'footlight'
+p665
+I1
+sS'laughter'
+p666
+I2
+sS'individual project gutenberg-tm electronic work'
+p667
+I2
+sS'plane geometri'
+p668
+I1
+sS'heart'
+p669
+I2
+sS'transcription error'
+p670
+I1
+sS'stream'
+p671
+I1
+sS'professional pictur'
+p672
+I1
+sS'chin'
+p673
+I1
+sS'week-end'
+p674
+I2
+sS'mysterious past'
+p675
+I1
+sS'lowri'
+p676
+I1
+sS'pause ensu'
+p677
+I1
+sS'band lead'
+p678
+I1
+sS'gray-haired man'
+p679
+I3
+sS'write'
+p680
+I1
+sS'mexico summ'
+p681
+I1
+sS'writh'
+p682
+I1
+sS'satisfactory deduct'
+p683
+I1
+sS'jazz'
+p684
+I1
+sS'dive'
+p685
+I1
+sS'southern'
+p686
+I1
+sS'birthday'
+p687
+I3
+sS'date'
+p688
+I5
+sS'man'
+p689
+I12
+sS'neck'
+p690
+I1
+sS'liquid'
+p691
+I1
+sS'pantry-door sw'
+p692
+I1
+sS'tale'
+p693
+I1
+sS'switch'
+p694
+I1
+sS'nineteen-year-old chin'
+p695
+I1
+sS'corpore sano'
+p696
+I1
+sS'infinite langour of a tropical even'
+p697
+I1
+sS'cut-glass bowl'
+p698
+I3
+sS'iron g'
+p699
+I1
+sS'nine-day romp'
+p700
+I2
+sS'feminine voic'
+p701
+I2
+sS'numb fing'
+p702
+I1
+sS'perpetual mot'
+p703
+I1
+sS'to-morra-a-a-ah'
+p704
+I1
+sS'genteel'
+p705
+I1
+sS'ten-year-old child'
+p706
+I1
+sS'ambitious little ladi'
+p707
+I1
+sS'pitch'
+p708
+I1
+sS'equip'
+p709
+I2
+sS'cold'
+p710
+I1
+sS'still'
+p711
+I1
+sS'worship'
+p712
+I1
+sS'thumb'
+p713
+I2
+sS'passag'
+p714
+I1
+sS'jim'
+p715
+I2
+sS'hair slick'
+p716
+I1
+sS'tort'
+p717
+I1
+sS'window'
+p718
+I4
+sS'suspicion'
+p719
+I1
+sS'comic magazin'
+p720
+I1
+sS'marvellous china'
+p721
+I1
+sS'nod'
+p722
+I4
+sS'front porch'
+p723
+I1
+sS'to-night'
+p724
+I7
+sS'loneli'
+p725
+I1
+sS'gate'
+p726
+I1
+sS'twilight'
+p727
+I1
+sS'perennial beau'
+p728
+I1
+sS'gutenberg-tm work'
+p729
+I5
+sS'name'
+p730
+I3
+sS'plunk'
+p731
+I1
+sS'project gutenberg-tm concept of a librari'
+p732
+I1
+sS'wavy ocean'
+p733
+I1
+sS'magazin'
+p734
+I1
+sS'evylyn nod'
+p735
+I1
+sS'personal friend'
+p736
+I1
+sS'updat'
+p737
+I1
+sS'courag'
+p738
+I1
+sS'em'
+p739
+I10
+sS'domain'
+p740
+I4
+sS'sieur'
+p741
+I1
+sS'torch'
+p742
+I1
+sS'co-work'
+p743
+I1
+sS'redistribut'
+p744
+I2
+sS'orchestra lead'
+p745
+I1
+sS'year'
+p746
+I3
+sS'aloof'
+p747
+I1
+sS'girl'
+p748
+I4
+sS'look round'
+p749
+I1
+sS'credulous year'
+p750
+I1
+sS'bout hurryin'
+p751
+I1
+sS'wharf nigger round'
+p752
+I1
+sS'priest'
+p753
+I1
+sS'uncl'
+p754
+I1
+sS'half-dark'
+p755
+I1
+sS'grecian'
+p756
+I1
+sS'gutenberg ebook flapp'
+p757
+I2
+sS'hula'
+p758
+I1
+sS'land mcintyr'
+p759
+I1
+sS'telepathi'
+p760
+I1
+sS'domest'
+p761
+I1
+sS'rebel'
+p762
+I3
+sS'cough'
+p763
+I1
+sS'nine-o'
+p764
+I1
+sS'of adolesc'
+p765
+I2
+sS'thing'
+p766
+I10
+sS'round adolescent band'
+p767
+I1
+sS'husband'
+p768
+I1
+sS'professional appear'
+p769
+I1
+sS'turf'
+p770
+I1
+sS'nicknam'
+p771
+I1
+sS'childhood'
+p772
+I1
+sS'sugar-market'
+p773
+I1
+sS'name narcissu'
+p774
+I1
+sS'mid-air'
+p775
+I1
+sS'mental states of'
+p776
+I1
+sS'jack-knife d'
+p777
+I1
+sS'jealous whim'
+p778
+I1
+sS'monkeri'
+p779
+I1
+sS'ring'
+p780
+I5
+sS'plaintive hum'
+p781
+I1
+sS'convent'
+p782
+I1
+sS'checker-board'
+p783
+I1
+sS'blow cold'
+p784
+I1
+sS'unsymmetr'
+p785
+I1
+sS'citi'
+p786
+I1
+sS'gutenberg-tm trademark'
+p787
+I4
+sS'plate-glass window'
+p788
+I1
+sS'bookcases-her husband'
+p789
+I1
+sS'circl'
+p790
+I3
+sS'friend'
+p791
+I1
+sS'stair creak'
+p792
+I1
+sS'ticket year'
+p793
+I1
+sS'pragmatic bia'
+p794
+I1
+sS'pittsburgh'
+p795
+I1
+sS'hum'
+p796
+I1
+sS'copi'
+p797
+I3
+sS'taft gril'
+p798
+I1
+sS'guerilla warfar'
+p799
+I1
+sS'pale-lilac four-in-hand'
+p800
+I1
+sS'holder'
+p801
+I1
+sS'milton'
+p802
+I4
+sS'solid geometri'
+p803
+I1
+sS'defied convent'
+p804
+I1
+sS'remors'
+p805
+I1
+sS'balanc'
+p806
+I1
+sS'stained-glass window'
+p807
+I1
+sS'infinite speck'
+p808
+I1
+sS'telegraph pol'
+p809
+I1
+sS'convuls'
+p810
+I1
+sS'sam'
+p811
+I1
+sS'craig'
+p812
+I1
+sS'alley'
+p813
+I1
+sS'theatrical manag'
+p814
+I1
+sS'anger'
+p815
+I1
+sS'euclid'
+p816
+I1
+sS'heart clatt'
+p817
+I1
+sS'engin'
+p818
+I2
+sS'advic'
+p819
+I3
+sS'note'
+p820
+I3
+sS'paper edit'
+p821
+I1
+sS'concern'
+p822
+I1
+sS'bridge gam'
+p823
+I1
+sS'noth'
+p824
+I3
+sS'surf'
+p825
+I1
+sS'misty wav'
+p826
+I1
+sS'of energi'
+p827
+I1
+sS'last-a-century roof'
+p828
+I1
+sS'clatter'
+p829
+I1
+sS'energetic dign'
+p830
+I1
+sS'perverse glitt'
+p831
+I1
+sS'mental qu'
+p832
+I1
+sS'enamel'
+p833
+I1
+sS'dream'
+p834
+I1
+sS'erat demonstrandum'
+p835
+I1
+sS'public half cloth'
+p836
+I1
+sS'shirt-sleev'
+p837
+I1
+sS'sunset'
+p838
+I1
+sS'hoboken'
+p839
+I1
+sS'tributary flow'
+p840
+I1
+sS'door-bel'
+p841
+I3
+sS'shop'
+p842
+I1
+sS'official vers'
+p843
+I1
+sS'jewelry-stor'
+p844
+I1
+sS'battalion parad'
+p845
+I1
+sS'shoulder sw'
+p846
+I1
+sS'veranda'
+p847
+I1
+sS'shoe'
+p848
+I1
+sS'handwrit'
+p849
+I1
+sS'family physician'
+p850
+I1
+sS'full-throated remnant ch'
+p851
+I1
+sS'family bridg'
+p852
+I1
+sS'telephone messag'
+p853
+I1
+sS'contemporari'
+p854
+I1
+sS'tonsorial intent'
+p855
+I1
+sS'flower-faced hat'
+p856
+I1
+sS'stair'
+p857
+I1
+sS'freddy kebbl'
+p858
+I1
+sS'moon call fun'
+p859
+I1
+sS'jolt'
+p860
+I2
+sS'red-haired fellow'
+p861
+I1
+sS'sardonic express'
+p862
+I1
+sS'black'
+p863
+I1
+sS'unresigned sigh'
+p864
+I1
+sS'life hit'
+p865
+I1
+sS'samuel'
+p866
+I1
+sS'factotum'
+p867
+I1
+sS'gee'
+p868
+I1
+sS'mind cri'
+p869
+I1
+sS'private d'
+p870
+I1
+sS'silver watch'
+p871
+I1
+sS'dinner-t'
+p872
+I1
+sS'wrist-watch'
+p873
+I2
+sS'anton lauri'
+p874
+I4
+sS'boarding-house convers'
+p875
+I1
+sS'marcia signal'
+p876
+I2
+sS'barb-wire sky-scrap'
+p877
+I1
+sS'literary archive found'
+p878
+I1
+sS'rice-plant'
+p879
+I1
+sS'vision'
+p880
+I1
+sS'dinner-d'
+p881
+I1
+sS'placid bromides of the conventional review'
+p882
+I1
+sS'pirate craft'
+p883
+I1
+sS'of gratifications of the normal appetit'
+p884
+I1
+sS'brazillian pirate craft'
+p885
+I1
+sS'unfit'
+p886
+I1
+sS'jot'
+p887
+I1
+sS'trent house cabaret'
+p888
+I1
+sS'wonder'
+p889
+I3
+sS'detect'
+p890
+I1
+sS'project gutenberg licens'
+p891
+I3
+sS'harvey'
+p892
+I2
+sS'review'
+p893
+I1
+sS'regular breath'
+p894
+I1
+sS'dancing practic'
+p895
+I1
+sS'taft grill opposit'
+p896
+I1
+sS'enough'
+p897
+I1
+sS'import'
+p898
+I1
+sS'headache persist'
+p899
+I1
+sS'womanly qu'
+p900
+I1
+sS'ju'
+p901
+I1
+sS"must n't"
+p902
+I1
+sS'rebellious thought'
+p903
+I1
+sS'neck doin'
+p904
+I1
+sS'psychological rebel'
+p905
+I1
+sS'comb'
+p906
+I1
+sS'abomin'
+p907
+I1
+sS'thank-you not'
+p908
+I1
+sS'cart-wheel'
+p909
+I1
+sS'down-town to-morrow'
+p910
+I1
+sS'madcap'
+p911
+I1
+sS'jordon hous'
+p912
+I1
+sS'audienc'
+p913
+I1
+sS'jessie pip'
+p914
+I1
+sS'catholic peopl'
+p915
+I1
+sS'credit card'
+p916
+I1
+sS'mirror lak'
+p917
+I1
+sS'feminine th'
+p918
+I1
+sS'water-front'
+p919
+I1
+sS'involuntary look'
+p920
+I1
+sS'kazoo'
+p921
+I1
+sS'farewell round'
+p922
+I1
+sS'baltimor'
+p923
+I2
+sS'duti'
+p924
+I1
+sS'professor michael'
+p925
+I1
+sS'pole'
+p926
+I1
+sS'coloni'
+p927
+I1
+sS'boat'
+p928
+I4
+sS'damag'
+p929
+I1
+sS'drawerful'
+p930
+I1
+sS'suicid'
+p931
+I1
+sS'breath'
+p932
+I1
+sS'ash man'
+p933
+I1
+sS'spending money right'
+p934
+I1
+sS'marx'
+p935
+I1
+sS'surplu'
+p936
+I1
+sS'bric-\xc3\xa0-brac'
+p937
+I1
+sS'matine\xc3\xa9'
+p938
+I1
+sS'masculine sympathi'
+p939
+I1
+sS'rhythm of'
+p940
+I1
+sS'gate-post'
+p941
+I1
+sS'sound'
+p942
+I2
+sS'gray-green'
+p943
+I1
+sS'platonic l'
+p944
+I1
+sS'deck-hous'
+p945
+I1
+sS"n't"
+p946
+I2
+sS'dark-red reput'
+p947
+I1
+sS'house cabaret'
+p948
+I1
+sS'ein'
+p949
+I1
+sS'small-town southern'
+p950
+I1
+sS'melan'
+p951
+I1
+sS'piper broth'
+p952
+I1
+sS'strait'
+p953
+I2
+sS'the normal appetit'
+p954
+I1
+sS'n appl'
+p955
+I1
+sS'strain'
+p956
+I3
+sS'sudden'
+p957
+I2
+sS'practical factotum'
+p958
+I1
+sS'ascii'
+p959
+I2
+sS'pepi'
+p960
+I4
+sS'placid bromides of'
+p961
+I1
+sS'doctor'
+p962
+I2
+sS'thinkin'
+p963
+I1
+sS'bowl'
+p964
+I3
+sS'econom'
+p965
+I1
+sS'gentlemen'
+p966
+I1
+sS'binari'
+p967
+I1
+sS'shavin'
+p968
+I1
+sS'lith'
+p969
+I1
+sS'critical circl'
+p970
+I1
+sS'demi-mond'
+p971
+I1
+sS'masculine presence outsid'
+p972
+I1
+sS'week'
+p973
+I28
+sS'larkin hous'
+p974
+I1
+sS'breakfast-food jag'
+p975
+I1
+sS'arctic'
+p976
+I1
+sS'woman name mimi someth'
+p977
+I1
+sS'director'
+p978
+I1
+sS'easychair'
+p979
+I1
+sS'yellow-haired girl reclin'
+p980
+I1
+sS'mockeri'
+p981
+I1
+sS'project gutenberg ebook flapp'
+p982
+I2
+sS'carhart'
+p983
+I1
+sS'driftwood'
+p984
+I1
+sS'pennsylvania'
+p985
+I1
+sS'geniu'
+p986
+I1
+sS'club matt'
+p987
+I1
+sS'public domain ebook'
+p988
+I1
+sS'moccasined feet'
+p989
+I1
+sS'model'
+p990
+I1
+sS'reward'
+p991
+I1
+sS'narcissu'
+p992
+I2
+sS'taxi'
+p993
+I1
+sS'summer'
+p994
+I1
+sS'money'
+p995
+I1
+sS'tea-room'
+p996
+I2
+sS'spiritual rebel'
+p997
+I1
+sS'ardita defi'
+p998
+I1
+sS'blow'
+p999
+I3
+sS'laurier'
+p1000
+I6
+sS'parad'
+p1001
+I2
+sS'identif'
+p1002
+I1
+sS'happer hous'
+p1003
+I1
+sS'project gutenberg web'
+p1004
+I1
+sS'treatment'
+p1005
+I1
+sS'stray corn-flak'
+p1006
+I1
+sS'harvey hous'
+p1007
+I1
+sS'frown'
+p1008
+I1
+sS'read'
+p1009
+I1
+sS'card don'
+p1010
+I1
+sS'ladi'
+p1011
+I3
+sS'acrobatic stunt'
+p1012
+I1
+sS'arriv'
+p1013
+I1
+sS'snarl'
+p1014
+I1
+sS'insist'
+p1015
+I1
+sS'awok'
+p1016
+I1
+sS'stunt'
+p1017
+I1
+sS'railroad'
+p1018
+I2
+sS'dith'
+p1019
+I1
+sS'snore'
+p1020
+I1
+sS'credit card don'
+p1021
+I1
+sS'juxtaposit'
+p1022
+I1
+sS'gathering autumn'
+p1023
+I1
+sS'ardita nod'
+p1024
+I1
+sS'chamber'
+p1025
+I1
+sS'social importance of footbal'
+p1026
+I1
+sS'four-in-hand'
+p1027
+I1
+sS'dance orchestra'
+p1028
+I1
+sS'ardita yawn'
+p1029
+I1
+sS'callao'
+p1030
+I4
+sS'manag'
+p1031
+I1
+sS'pleasure-dom'
+p1032
+I1
+sS'deduct'
+p1033
+I1
+sS'pink-jerseyed prometheu'
+p1034
+I1
+sS'doll'
+p1035
+I1
+sS'defective work'
+p1036
+I1
+sS'muscl'
+p1037
+I1
+sS'bellami'
+p1038
+I1
+sS'platinum r'
+p1039
+I1
+sS'literary ton'
+p1040
+I1
+sS'confirm'
+p1041
+I1
+sS'full project'
+p1042
+I1
+sS'self-sent'
+p1043
+I1
+sS'slick'
+p1044
+I1
+sS'nook'
+p1045
+I1
+sS'georgia tech'
+p1046
+I1
+sS'exit'
+p1047
+I1
+sS'uneasi'
+p1048
+I1
+sS'of the conventional review'
+p1049
+I1
+sS'throb'
+p1050
+I1
+sS'fraser hous'
+p1051
+I1
+sS'kissable qu'
+p1052
+I1
+sS'new mexico'
+p1053
+I3
+sS'new-found stil'
+p1054
+I1
+sS'frenchman'
+p1055
+I3
+sS'posting d'
+p1056
+I1
+sS'unconquerable revuls'
+p1057
+I1
+sS'roar'
+p1058
+I1
+sS'of'
+p1059
+I1
+sS'lamp-post'
+p1060
+I3
+sS'newsboy'
+p1061
+I1
+sS'engineering expedit'
+p1062
+I1
+sS'stand'
+p1063
+I4
+sS'act'
+p1064
+I1
+sS'mean'
+p1065
+I1
+sS'tribe'
+p1066
+I1
+sS'painting paper dol'
+p1067
+I1
+sS'ee alley'
+p1068
+I1
+sS'half-gasp'
+p1069
+I1
+sS'strip'
+p1070
+I1
+sS'uptown'
+p1071
+I1
+sS'nurs'
+p1072
+I1
+sS'charli'
+p1073
+I1
+sS'stare'
+p1074
+I1
+sS'street-car'
+p1075
+I4
+sS'complianc'
+p1076
+I1
+sS'wind blow'
+p1077
+I1
+sS'whaler'
+p1078
+I1
+sS'precious ey'
+p1079
+I1
+sS'philadelphia'
+p1080
+I2
+sS'frantic energi'
+p1081
+I1
+sS'lot'
+p1082
+I1
+sS'valley'
+p1083
+I1
+sS'foundation web'
+p1084
+I1
+sS'passion evylyn'
+p1085
+I1
+sS'sleigh-rid'
+p1086
+I1
+sS'next morn'
+p1087
+I3
+sS'kissable mouth'
+p1088
+I2
+sS'maury kebbl'
+p1089
+I1
+sS'illus'
+p1090
+I1
+sS'freddi'
+p1091
+I2
+sS'jim strain'
+p1092
+I2
+sS'possibl'
+p1093
+I1
+sS'bergsonian trim'
+p1094
+I1
+sS'brown-and-green glow'
+p1095
+I1
+sS'dopeless'
+p1096
+I1
+sS'oxen'
+p1097
+I1
+sS'eisenhaur'
+p1098
+I1
+sS'ak'
+p1099
+I1
+sS'blood-shot'
+p1100
+I1
+sS'deep'
+p1101
+I1
+sS'fellow'
+p1102
+I1
+sS'ar'
+p1103
+I1
+sS'at'
+p1104
+I1
+sS'heroic mo'
+p1105
+I1
+sS'felin'
+p1106
+I2
+sS'blow year'
+p1107
+I1
+sS'reclin'
+p1108
+I1
+sS'good morn'
+p1109
+I1
+sS'you'
+p1110
+I2
+sS'dalyrimple nod'
+p1111
+I1
+sS'architectur'
+p1112
+I1
+sS'mysterious womanly qu'
+p1113
+I1
+sS'symbol'
+p1114
+I1
+sS'keepin'
+p1115
+I1
+sS'gutenberg'
+p1116
+I2
+sS'releas'
+p1117
+I1
+sS'what-ch-call-em'
+p1118
+I1
+sS'continual source of'
+p1119
+I1
+sS'paper dol'
+p1120
+I1
+sS'philosoph'
+p1121
+I1
+sS'booker'
+p1122
+I1
+sS'bluejacket'
+p1123
+I1
+sS'represent'
+p1124
+I1
+sS'hoop-skirt'
+p1125
+I2
+sS'alm'
+p1126
+I1
+sS'c\xc3\xa6sar'
+p1127
+I1
+sS'consider'
+p1128
+I2
+sS'stained-glass'
+p1129
+I1
+sS'month'
+p1130
+I1
+sS'atlant'
+p1131
+I1
+sS'concept'
+p1132
+I1
+sS'limestone prey'
+p1133
+I1
+sS'diaphanous form sink'
+p1134
+I1
+sS'probationers pass'
+p1135
+I1
+sS'taxicab'
+p1136
+I1
+sS'project gutenberg-tm collect'
+p1137
+I2
+sS'freddy gedney affair'
+p1138
+I1
+sS'making ey'
+p1139
+I1
+sS'farmington'
+p1140
+I1
+sS'social import'
+p1141
+I1
+sS'present'
+p1142
+I2
+sS'solicit'
+p1143
+I1
+sS'ti'
+p1144
+I1
+sS'smile'
+p1145
+I3
+sS'holda miss marjori'
+p1146
+I1
+sS'pencil lett'
+p1147
+I1
+sS'woman'
+p1148
+I3
+sS'viking trib'
+p1149
+I2
+sS'ticket'
+p1150
+I1
+sS'tear-wet fac'
+p1151
+I1
+sS'harold pip'
+p1152
+I3
+sS'list'
+p1153
+I1
+sS'sana'
+p1154
+I1
+sS'sano'
+p1155
+I1
+sS'andov'
+p1156
+I3
+sS'shock-absorb'
+p1157
+I2
+sS'clinch'
+p1158
+I1
+sS'placid street-car'
+p1159
+I1
+sS'pass'
+p1160
+I1
+sS'sinking sens'
+p1161
+I1
+sS'grill down-stair'
+p1162
+I1
+sS'trick'
+p1163
+I1
+sS'clock'
+p1164
+I1
+sS'sun'
+p1165
+I1
+sS'life ambit'
+p1166
+I1
+sS'suh'
+p1167
+I3
+sS'meet-my-friend lett'
+p1168
+I1
+sS'version'
+p1169
+I1
+sS'pickaninni'
+p1170
+I1
+sS'non profit'
+p1171
+I1
+sS'fine ch'
+p1172
+I1
+sS'full'
+p1173
+I1
+sS'christian'
+p1174
+I1
+sS'circumfer'
+p1175
+I1
+sS'trunk'
+p1176
+I1
+sS'goodby'
+p1177
+I1
+sS'sorta dopeless'
+p1178
+I1
+sS'ferry-boat'
+p1179
+I1
+sS'gutenberg-tm nam'
+p1180
+I1
+sS'pin-tray'
+p1181
+I1
+sS'restive snak'
+p1182
+I1
+sS'one-piec'
+p1183
+I1
+sS'domain print edit'
+p1184
+I1
+sS'family disapprov'
+p1185
+I1
+sS'charlie moon call fun'
+p1186
+I1
+sS'heredity-and-environ'
+p1187
+I1
+sS'famili'
+p1188
+I6
+sS'gosh'
+p1189
+I2
+sS'adiron'
+p1190
+I1
+sS'eye'
+p1191
+I7
+sS'night thinkin'
+p1192
+I1
+sS'injuri'
+p1193
+I1
+sS'quod erat demonstrandum'
+p1194
+I1
+sS'expressive vernacular'
+p1195
+I1
+sS'morn'
+p1196
+I3
+sS'flash-light photograph'
+p1197
+I1
+sS'offshor'
+p1198
+I1
+sS'swoop'
+p1199
+I1
+sS'door'
+p1200
+I7
+sS'tax identif'
+p1201
+I1
+sS'dismal town'
+p1202
+I1
+sS'expedit'
+p1203
+I1
+sS'mellow'
+p1204
+I1
+sS'glad'
+p1205
+I1
+sS'town'
+p1206
+I6
+sS'ensu'
+p1207
+I1
+sS'charlie moon'
+p1208
+I1
+sS'project gutenberg-tm concept of a library of'
+p1209
+I1
+sS'hous'
+p1210
+I12
+sS'social importance of'
+p1211
+I1
+sS'phillip'
+p1212
+I1
+sS'mall'
+p1213
+I1
+sS'awful glad'
+p1214
+I1
+sS'barber-shop'
+p1215
+I3
+sS'ibsenesque tend'
+p1216
+I1
+sS'disapprov'
+p1217
+I1
+sS'store detect'
+p1218
+I1
+sS'tropical veget'
+p1219
+I1
+sS'wicked clubman'
+p1220
+I1
+sS'blue-silk stock'
+p1221
+I1
+sS'print edit'
+p1222
+I1
+sS'intercours'
+p1223
+I1
+sS'high-cast'
+p1224
+I1
+sS'masculin'
+p1225
+I1
+sS'thrust pudgy arm'
+p1226
+I1
+sS'phrase'
+p1227
+I1
+sS'dress'
+p1228
+I4
+sS'blessedly feminin'
+p1229
+I1
+sS'heart dip'
+p1230
+I1
+sS'neglig\xc3\xa9'
+p1231
+I1
+sS'golli'
+p1232
+I1
+sS'personal unpleas'
+p1233
+I1
+sS'sure-fire hiding-plac'
+p1234
+I1
+sS'ibsenesqu'
+p1235
+I1
+sS'unsounded chord'
+p1236
+I1
+sS'to-morrow night'
+p1237
+I1
+sS'project gutenberg ebook'
+p1238
+I3
+sS'flabby man'
+p1239
+I1
+sS'little ladi'
+p1240
+I1
+sS'university educ'
+p1241
+I1
+sS'tropical even'
+p1242
+I2
+sS'plane'
+p1243
+I1
+sS'remnant ch'
+p1244
+I1
+sS'bleak'
+p1245
+I1
+sS'conversational practic'
+p1246
+I1
+sS'author'
+p1247
+I1
+sS'blunder'
+p1248
+I1
+sS'curling-iron'
+p1249
+I2
+sS'ultrasensit'
+p1250
+I1
+sS'wrench'
+p1251
+I1
+sS'cigarett'
+p1252
+I2
+sS'placid bromides of th'
+p1253
+I1
+sS'half-dozen'
+p1254
+I2
+sS'wacouta'
+p1255
+I1
+sS'hels'
+p1256
+I1
+sS'fraser'
+p1257
+I2
+sS'mission'
+p1258
+I2
+sS'red-haired woman name mimi'
+p1259
+I1
+sS'tolstoi'
+p1260
+I1
+sS'personal quest'
+p1261
+I1
+sS'gerald'
+p1262
+I1
+sS'circuitous rout'
+p1263
+I1
+sS'ironic smil'
+p1264
+I1
+sS'bermuda'
+p1265
+I1
+sS'astonish'
+p1266
+I3
+sS'bout'
+p1267
+I1
+sS'imperceiv'
+p1268
+I1
+sS'senat'
+p1269
+I11
+sS'gutenberg web pag'
+p1270
+I1
+sS'return'
+p1271
+I1
+sS'sentenc'
+p1272
+I4
+sS'pglaf'
+p1273
+I1
+sS'ardita defied convent'
+p1274
+I1
+sS'sieur lauri'
+p1275
+I1
+sS'project gutenberg-tm concept'
+p1276
+I2
+sS'bryan'
+p1277
+I2
+sS'doctor cran'
+p1278
+I1
+sS'instruct'
+p1279
+I1
+sS'mysteri'
+p1280
+I1
+sS'pall mal'
+p1281
+I1
+sS'reddish-brown mustach'
+p1282
+I1
+sS'medical book'
+p1283
+I1
+sS'bathtub stori'
+p1284
+I1
+sS'of football gam'
+p1285
+I1
+sS'breakdown'
+p1286
+I1
+sS'taft'
+p1287
+I1
+sS'dinner-coat pocket'
+p1288
+I1
+sS'colonial day'
+p1289
+I1
+sS'telegraph booth'
+p1290
+I1
+sS'idea'
+p1291
+I2
+sS'ringing not'
+p1292
+I1
+sS'brother'
+p1293
+I1
+sS'miniature head'
+p1294
+I1
+sS'smile deepen'
+p1295
+I1
+sS'energi'
+p1296
+I11
+sS'hart'
+p1297
+I1
+sS'great-uncl'
+p1298
+I1
+sS'white-haired inhabit'
+p1299
+I1
+sS'flower'
+p1300
+I2
+sS'admiss'
+p1301
+I2
+sS'histrionically profici'
+p1302
+I1
+sS'marcia'
+p1303
+I2
+sS'robert'
+p1304
+I1
+sS'dusk'
+p1305
+I2
+sS'unknown'
+p1306
+I1
+sS'livlihood'
+p1307
+I1
+sS'half-way'
+p1308
+I2
+sS'hill'
+p1309
+I1
+sS'pudgy arm'
+p1310
+I1
+sS'eternal resili'
+p1311
+I1
+sS'puf'
+p1312
+I1
+sS'stained-glass window of'
+p1313
+I1
+sS'indeterminate gray collar'
+p1314
+I1
+sS'eventual barren'
+p1315
+I1
+sS'krupstadt'
+p1316
+I1
+sS'headquart'
+p1317
+I1
+sS'p\xc3\xa6an'
+p1318
+I1
+sS'business offic'
+p1319
+I1
+sS'momentary suspicion'
+p1320
+I1
+sS'struggl'
+p1321
+I2
+sS'benedict'
+p1322
+I4
+sS'hypercritical warren'
+p1323
+I1
+sS'outrageous trap'
+p1324
+I1
+sS'semi-cruel world of'
+p1325
+I1
+sS'sweepin'
+p1326
+I2
+sS'ahearn hous'
+p1327
+I1
+sS'growths of bright-green coppic'
+p1328
+I1
+sS'resuscit'
+p1329
+I1
+sS'trombones stop'
+p1330
+I1
+sS'sympathi'
+p1331
+I2
+sS'exchang'
+p1332
+I1
+sS'feet'
+p1333
+I1
+sS'egotist ardita'
+p1334
+I1
+sS'dark-brown glori'
+p1335
+I1
+sS'mist'
+p1336
+I1
+sS'glitter'
+p1337
+I1
+sS'passer'
+p1338
+I1
+sS'guest'
+p1339
+I1
+sS'aristocratic inclin'
+p1340
+I1
+sS'wacouta club'
+p1341
+I1
+sS'clumsy boy'
+p1342
+I1
+sS'half-cri'
+p1343
+I2
+sS'stori'
+p1344
+I1
+sS'paint'
+p1345
+I2
+sS'meeting peopl'
+p1346
+I1
+sS'station'
+p1347
+I1
+sS'expensive th'
+p1348
+I1
+sS'revenue boat'
+p1349
+I4
+sS'snowy street'
+p1350
+I1
+sS'fractur'
+p1351
+I1
+sS'larkin'
+p1352
+I1
+sS'grill opposit'
+p1353
+I1
+sS'hotel'
+p1354
+I1
+sS'torchlight parad'
+p1355
+I1
+sS'boredom'
+p1356
+I1
+sS'consult'
+p1357
+I1
+sS'warren mcintyr'
+p1358
+I1
+sS'hippodrome crowd'
+p1359
+I1
+sS'faux pa'
+p1360
+I1
+sS'exchange gl'
+p1361
+I1
+sS'derivative work'
+p1362
+I3
+sS'round nashvil'
+p1363
+I1
+sS'scandinavian'
+p1364
+I1
+sS'youth'
+p1365
+I12
+sS'bridg'
+p1366
+I3
+sS'store'
+p1367
+I1
+sS'tabula rasa'
+p1368
+I1
+sS'mcintyre interrupt'
+p1369
+I1
+sS'football gam'
+p1370
+I2
+sS'frightful lot of'
+p1371
+I1
+sS'literary archive foundation project'
+p1372
+I1
+sS'machine-gun episod'
+p1373
+I1
+sS'atmospher'
+p1374
+I1
+sS'exert'
+p1375
+I1
+sS'shrewd'
+p1376
+I1
+sS'sextett'
+p1377
+I1
+sS'tragic rac'
+p1378
+I1
+sS'side-board'
+p1379
+I1
+sS'project gutenberg'
+p1380
+I10
+sS'physiqu'
+p1381
+I1
+sS'pianist'
+p1382
+I1
+sS'business car'
+p1383
+I2
+sS'waitin'
+p1384
+I2
+sS'frantic energy evylyn'
+p1385
+I1
+sS'distribut'
+p1386
+I6
+sS'saturday-night d'
+p1387
+I1
+sS'gutenberg-tm licens'
+p1388
+I6
+sS'yawn'
+p1389
+I1
+sS'madonna-like simpl'
+p1390
+I1
+sS'sandra'
+p1391
+I1
+sS'supper-room'
+p1392
+I1
+sS'monasteri'
+p1393
+I1
+sS'maci'
+p1394
+I1
+sS'duty d'
+p1395
+I1
+sS'money right'
+p1396
+I1
+sS'post-card'
+p1397
+I2
+sS'salari'
+p1398
+I1
+sS'tongu'
+p1399
+I1
+sS'momentary struggl'
+p1400
+I1
+sS'barren'
+p1401
+I1
+sS'barrel'
+p1402
+I1
+sS'infinite poss'
+p1403
+I1
+sS'ashevil'
+p1404
+I3
+sS'law diploma'
+p1405
+I1
+sS'final wrench'
+p1406
+I1
+sS'distribution of project'
+p1407
+I2
+sS'reput'
+p1408
+I1
+sS'fine'
+p1409
+I3
+sS'side-lin'
+p1410
+I1
+sS'gilli'
+p1411
+I1
+sS'jazz-bound blund'
+p1412
+I1
+sS'ambit'
+p1413
+I1
+sS'sayin'
+p1414
+I1
+sS'puppylike devot'
+p1415
+I1
+sS'pg search'
+p1416
+I1
+sS'newspaper report'
+p1417
+I1
+sS'gray collar'
+p1418
+I1
+sS'lame-duck visitor'
+p1419
+I1
+sS'midfloor'
+p1420
+I1
+sS'gutenberg-tm electronic work'
+p1421
+I18
+sS'express'
+p1422
+I4
+sS'water-tap'
+p1423
+I1
+sS'name hula'
+p1424
+I1
+sS'punch-bowl'
+p1425
+I3
+sS'sill'
+p1426
+I1
+sS'canuck'
+p1427
+I1
+sS'nigger round'
+p1428
+I1
+sS'principal offic'
+p1429
+I1
+sS'white-flannel suit'
+p1430
+I1
+sS'xenophon'
+p1431
+I1
+sS'ardita frown'
+p1432
+I1
+sS'cri'
+p1433
+I1
+sS'lightning impress'
+p1434
+I1
+sS'exclusive private d'
+p1435
+I1
+sS'sex impuls'
+p1436
+I1
+sS'blundering blimp'
+p1437
+I2
+sS'byron'
+p1438
+I1
+sS'sex'
+p1439
+I1
+sS'sea'
+p1440
+I1
+sS'tender'
+p1441
+I1
+sS'close'
+p1442
+I1
+sS'arm'
+p1443
+I1
+sS'philosophers author'
+p1444
+I1
+sS'eman'
+p1445
+I2
+sS'movin'
+p1446
+I1
+sS'inconveni'
+p1447
+I1
+sS'someth'
+p1448
+I5
+sS'experi'
+p1449
+I2
+sS'willoughbi'
+p1450
+I1
+sS'appreci'
+p1451
+I4
+sS'frightful lot of energi'
+p1452
+I1
+sS'chicago to-morrow'
+p1453
+I1
+sS'soup-plat'
+p1454
+I1
+sS'pirat'
+p1455
+I2
+sS'effec'
+p1456
+I1
+sS'incident'
+p1457
+I1
+sS'inertia'
+p1458
+I1
+sS'expensive aloof'
+p1459
+I1
+sS'numerous mistak'
+p1460
+I1
+sS'buddhist contempl'
+p1461
+I1
+sS'danc'
+p1462
+I12
+sS'episod'
+p1463
+I1
+sS'farmhous'
+p1464
+I1
+sS'goldfish'
+p1465
+I1
+sS'dancer'
+p1466
+I1
+sS'mistak'
+p1467
+I1
+sS'platinum'
+p1468
+I1
+sS'exempt statu'
+p1469
+I2
+sS'go swimmin'
+p1470
+I1
+sS'infinite langour'
+p1471
+I1
+sS'instrument'
+p1472
+I2
+sS'conscious precis'
+p1473
+I1
+sS'business lett'
+p1474
+I1
+sS'pa'
+p1475
+I1
+sS'pg'
+p1476
+I1
+sS'illiterate literatur'
+p1477
+I1
+sS'silenc'
+p1478
+I1
+sS'public domain work'
+p1479
+I1
+sS'anythin'
+p1480
+I1
+sS'nabisco'
+p1481
+I1
+sS'hip pocket'
+p1482
+I1
+sS'fantastic symphoni'
+p1483
+I1
+sS'immortally illiterate literatur'
+p1484
+I1
+sS'educ'
+p1485
+I1
+sS'muscle tens'
+p1486
+I1
+sS'two-by-four'
+p1487
+I3
+sS'georgia'
+p1488
+I1
+sS'mid-januari'
+p1489
+I1
+sS'look'
+p1490
+I3
+sS'solid'
+p1491
+I1
+sS'bill'
+p1492
+I1
+sS'musical comedi'
+p1493
+I2
+sS'error'
+p1494
+I1
+sS'of a tropical even'
+p1495
+I1
+sS'involuntary clinch'
+p1496
+I1
+sS'brunett'
+p1497
+I1
+sS'pragmat'
+p1498
+I1
+sS'moth'
+p1499
+I1
+sS'maximum disclaim'
+p1500
+I1
+sS'full project gutenberg-tm licens'
+p1501
+I1
+sS'chase'
+p1502
+I1
+sS'unenforc'
+p1503
+I1
+sS'obsolet'
+p1504
+I1
+sS'precocious child'
+p1505
+I1
+sS'hallway'
+p1506
+I1
+sS'gutenberg ebook'
+p1507
+I1
+sS'sevier'
+p1508
+I3
+sS'banter'
+p1509
+I1
+sS'scale of gratifications of the normal appetit'
+p1510
+I1
+sS'luke-warm'
+p1511
+I1
+sS'moment'
+p1512
+I2
+sS'essential import'
+p1513
+I1
+sS'julie down-stair'
+p1514
+I1
+sS'age men'
+p1515
+I1
+sS'climb'
+p1516
+I3
+sS'contemptuous amus'
+p1517
+I1
+sS'somep'
+p1518
+I2
+sS'cheer'
+p1519
+I1
+sS'howa'
+p1520
+I1
+sS'elev'
+p1521
+I2
+sS'original should'
+p1522
+I1
+sS'economics professor'
+p1523
+I1
+sS'of a library of electronic work'
+p1524
+I1
+sS'everythin'
+p1525
+I1
+sS'darn'
+p1526
+I1
+sS'lot of energi'
+p1527
+I1
+sS'chord'
+p1528
+I2
+sS'hoof-beat'
+p1529
+I1
+sS'high-seas pir'
+p1530
+I1
+sS'choru'
+p1531
+I3
+sS'public domain print'
+p1532
+I1
+sS'ice-bound whal'
+p1533
+I1
+sS'cup'
+p1534
+I1
+sS'danger'
+p1535
+I3
+sS'coal-black'
+p1536
+I1
+sS'perspir'
+p1537
+I1
+sS'varsity crew'
+p1538
+I1
+sS'six-inch gun'
+p1539
+I1
+sS'march'
+p1540
+I2
+sS'internal revenu'
+p1541
+I1
+sS'fire'
+p1542
+I1
+sS'transpar'
+p1543
+I2
+sS'coupla'
+p1544
+I1
+sS'bia'
+p1545
+I1
+sS'snob'
+p1546
+I2
+sS'roommat'
+p1547
+I2
+sS'marcu'
+p1548
+I1
+sS'bit'
+p1549
+I1
+sS'boxing-lesson'
+p1550
+I1
+sS'project gutenberg-tm nam'
+p1551
+I1
+sS'dinner-glass'
+p1552
+I2
+sS'copies of project'
+p1553
+I1
+sS'search facil'
+p1554
+I1
+sS'standing d'
+p1555
+I1
+sS'signal'
+p1556
+I1
+sS'project gutenberg-tm licens'
+p1557
+I7
+sS'manifest'
+p1558
+I1
+sS'trademark own'
+p1559
+I2
+sS'collect'
+p1560
+I2
+sS'fat man'
+p1561
+I2
+sS'marcus aureliu'
+p1562
+I1
+sS'hotel barber-shop'
+p1563
+I2
+sS'army trunk'
+p1564
+I1
+sS'engagin'
+p1565
+I1
+sS'palm'
+p1566
+I1
+sS'pall'
+p1567
+I1
+sS'sight'
+p1568
+I1
+sS'mirror'
+p1569
+I1
+sS'surpris'
+p1570
+I1
+sS'exquisite tabula rasa'
+p1571
+I1
+sS'attar'
+p1572
+I1
+sS'scale'
+p1573
+I1
+sS'email contact link'
+p1574
+I1
+sS'pet'
+p1575
+I1
+sS'nonproprietari'
+p1576
+I1
+sS'gray-whit'
+p1577
+I1
+sS'sensation evylyn'
+p1578
+I1
+sS'mummi'
+p1579
+I1
+sS'formal good morn'
+p1580
+I1
+sS'ill-fitting probation'
+p1581
+I1
+sS'public domain'
+p1582
+I7
+sS'project gutenberg-tm miss'
+p1583
+I2
+sS'parlor-maid'
+p1584
+I1
+sS'project gutenberg-tm'
+p1585
+I17
+sS'agreement'
+p1586
+I1
+sS'domain work'
+p1587
+I1
+sS'squeez'
+p1588
+I1
+sS'washington look'
+p1589
+I1
+sS'sterner resid'
+p1590
+I1
+sS'morri'
+p1591
+I2
+sS'gutenberg-tm collect'
+p1592
+I2
+sS'professional shock-absorb'
+p1593
+I1
+sS'yacht narcissu'
+p1594
+I1
+sS'of electronic work'
+p1595
+I3
+sS'wanna'
+p1596
+I2
+sS'world of adolesc'
+p1597
+I1
+sS'p\xc3\xa6an of'
+p1598
+I1
+sS'golden-green'
+p1599
+I1
+sS'mental states of buddhist'
+p1600
+I1
+sS'half-feminine mean'
+p1601
+I1
+sS'dime-novel sn'
+p1602
+I1
+sS'social model'
+p1603
+I1
+sS'swan-lik'
+p1604
+I1
+sS'semi-cruel world of adolesc'
+p1605
+I1
+sS'autumn dusk'
+p1606
+I1
+sS'question'
+p1607
+I1
+sS'jaw descend'
+p1608
+I1
+sS'dreary loneli'
+p1609
+I1
+sS'suit'
+p1610
+I1
+sS'prey'
+p1611
+I1
+sS'baggi'
+p1612
+I1
+sS'good-looking young men'
+p1613
+I1
+sS'ominous sil'
+p1614
+I1
+sS'cloth'
+p1615
+I1
+sS'game'
+p1616
+I3
+sS'crane'
+p1617
+I1
+sS'florodora sextett'
+p1618
+I1
+sS'grandsir'
+p1619
+I1
+sS'ut'
+p1620
+I1
+sS'mammy wanna'
+p1621
+I1
+sS'prelud'
+p1622
+I2
+sS'formal bow'
+p1623
+I1
+sS'silver lak'
+p1624
+I2
+sS'hockey captain'
+p1625
+I1
+sS'shuttin'
+p1626
+I1
+sS'thomas aquina'
+p1627
+I1
+sS'flush'
+p1628
+I1
+sS'repres'
+p1629
+I1
+sS'cut-glass pres'
+p1630
+I1
+sS'thank-you lett'
+p1631
+I1
+sS'curl'
+p1632
+I1
+sS'clubroom'
+p1633
+I2
+sS'riot'
+p1634
+I1
+sS'buck'
+p1635
+I1
+sS'official project'
+p1636
+I1
+sS'packing-room'
+p1637
+I1
+sS'supernatur'
+p1638
+I1
+sS'manhattan'
+p1639
+I1
+sS'philadelphian'
+p1640
+I1
+sS'blue-and-white awn'
+p1641
+I1
+sS'momentous decis'
+p1642
+I1
+sS'project gutenberg-tm electronic work'
+p1643
+I18
+sS'three-generation town'
+p1644
+I1
+sS'full project gutenberg-tm'
+p1645
+I1
+sS'land'
+p1646
+I1
+sS'age'
+p1647
+I4
+sS'manhatten'
+p1648
+I1
+sS'young men'
+p1649
+I1
+sS'road-street'
+p1650
+I1
+sS'code'
+p1651
+I2
+sS'trifl'
+p1652
+I1
+sS'physical an\xc3\xa6mia'
+p1653
+I1
+sS'collective mind'
+p1654
+I1
+sS'jovial mysteri'
+p1655
+I1
+sS'dan mcgrew'
+p1656
+I3
+sS'absolute jewel'
+p1657
+I1
+sS'golf'
+p1658
+I3
+sS'offshore pir'
+p1659
+I1
+sS'literari'
+p1660
+I1
+sS'e-mail'
+p1661
+I1
+sS'sensit'
+p1662
+I1
+sS'young'
+p1663
+I1
+sS'opposit'
+p1664
+I1
+sS'feminine compani'
+p1665
+I1
+sS'sens'
+p1666
+I2
+sS'indemn'
+p1667
+I1
+sS'gray-hair'
+p1668
+I1
+sS'name mimi someth'
+p1669
+I1
+sS'tropical twilight'
+p1670
+I1
+sS'wave'
+p1671
+I5
+sS'sensitiveness of'
+p1672
+I1
+sS'mutton-chop'
+p1673
+I1
+sS'demoniacal snarl'
+p1674
+I1
+sS'overrouged woman'
+p1675
+I1
+sS'inclin'
+p1676
+I1
+sS'race'
+p1677
+I2
+sS'an\xc3\xa6mia'
+p1678
+I1
+sS'marri'
+p1679
+I1
+sS'fortun'
+p1680
+I1
+sS'carter'
+p1681
+I1
+sS'march mellow'
+p1682
+I1
+sS'round adolesc'
+p1683
+I1
+sS'milk-toast'
+p1684
+I1
+sS'booth'
+p1685
+I1
+sS'download'
+p1686
+I1
+sS'languor'
+p1687
+I1
+sS'chicago'
+p1688
+I2
+sS'anton'
+p1689
+I4
+sS'piper'
+p1690
+I10
+sS'project gutenberg-tm work'
+p1691
+I5
+sS'access'
+p1692
+I4
+sS'supernatural christian'
+p1693
+I1
+sS'sentimental little brunett'
+p1694
+I1
+sS'furious brown rivulet'
+p1695
+I1
+sS'manhattan audi'
+p1696
+I1
+sS'impuls'
+p1697
+I1
+sS'eight-inch stiletto'
+p1698
+I1
+sS'virtuous flapp'
+p1699
+I1
+sS'leg'
+p1700
+I1
+sS'buck teeth'
+p1701
+I1
+sS'andover academi'
+p1702
+I1
+sS'punch'
+p1703
+I1
+sS'sink'
+p1704
+I3
+sS'temporary in'
+p1705
+I1
+sS'remark'
+p1706
+I2
+sS'doctor martin'
+p1707
+I1
+sS'convers'
+p1708
+I21
+sS'chant'
+p1709
+I1
+sS'popular girl'
+p1710
+I1
+sS'fairylike fac'
+p1711
+I1
+sS'eternal cigarett'
+p1712
+I1
+sS'scale of gratifications of th'
+p1713
+I1
+sS'golf profession'
+p1714
+I1
+sS'opinion'
+p1715
+I1
+sS'room read'
+p1716
+I1
+sS'mental states of buddhist contempl'
+p1717
+I1
+sS'chanc'
+p1718
+I1
+sS'party ticket'
+p1719
+I1
+sS'nearest'
+p1720
+I4
+sS'foundat'
+p1721
+I1
+sS'web sit'
+p1722
+I4
+sS'tentative outlay'
+p1723
+I1
+sS'bent'
+p1724
+I2
+sS'empty room'
+p1725
+I1
+sS'se\xc3\xb1orita'
+p1726
+I1
+sS'one--th'
+p1727
+I1
+sS'hanything hels'
+p1728
+I1
+sS'fibr'
+p1729
+I2
+sS'you-al'
+p1730
+I2
+sS'butler'
+p1731
+I1
+sS'checker'
+p1732
+I1
+sS'porch'
+p1733
+I1
+sS'literary fashion'
+p1734
+I1
+sS'musician'
+p1735
+I1
+sS'impress'
+p1736
+I1
+sS'export compani'
+p1737
+I1
+sS'chariti'
+p1738
+I1
+sS'gettin'
+p1739
+I1
+sS'how-things-turn-out'
+p1740
+I1
+sS'account'
+p1741
+I1
+sS'irishwoman'
+p1742
+I1
+sS'snap-shot'
+p1743
+I2
+sS'meet'
+p1744
+I1
+sS'musical instru'
+p1745
+I2
+sS'chorus man'
+p1746
+I1
+sS'gulf stream'
+p1747
+I1
+sS'contempl'
+p1748
+I1
+sS'tax'
+p1749
+I5
+sS'inscript'
+p1750
+I1
+sS'professor'
+p1751
+I2
+sS'gutenberg-tm ebook'
+p1752
+I2
+sS'glow fad'
+p1753
+I1
+sS'public ash man'
+p1754
+I1
+sS'stock remark'
+p1755
+I1
+sS'comedi'
+p1756
+I2
+sS'muddy riv'
+p1757
+I1
+sS'panic'
+p1758
+I1
+sS'sensitive fac'
+p1759
+I1
+sS'mimi someth'
+p1760
+I1
+sS'greenroom'
+p1761
+I1
+sS'razor bit'
+p1762
+I1
+sS'dozen pickaninni'
+p1763
+I1
+sS'cotton-field'
+p1764
+I1
+sS'bluff'
+p1765
+I4
+sS'charlie moon cal'
+p1766
+I1
+sS'philosophi'
+p1767
+I2
+sS'wave tip'
+p1768
+I2
+sS'fine-particled mist'
+p1769
+I1
+sS'somethin'
+p1770
+I2
+sS'normal appetit'
+p1771
+I1
+sS'sophomore class'
+p1772
+I1
+sS'american'
+p1773
+I1
+sS'lobbi'
+p1774
+I1
+sS'deep-set ey'
+p1775
+I1
+sS'of a viking trib'
+p1776
+I1
+sS'flapper'
+p1777
+I3
+sS'sky-scrap'
+p1778
+I1
+sS'red-brick sterner resid'
+p1779
+I1
+sS'wavy valley'
+p1780
+I1
+sS'denunci'
+p1781
+I1
+sS'continual source of astonish'
+p1782
+I1
+sS'negro comedian stand'
+p1783
+I1
+sS'clubman making ey'
+p1784
+I1
+sS'warren'
+p1785
+I1
+sS'harvard law'
+p1786
+I1
+sS'rational strain'
+p1787
+I1
+sS'week i'
+p1788
+I2
+sS'head-ston'
+p1789
+I1
+sS'telegraph desk'
+p1790
+I1
+sS'biddeford'
+p1791
+I1
+sS'negro cabin'
+p1792
+I1
+sS'gauzy dress'
+p1793
+I1
+sS'gutenberg-tm'
+p1794
+I7
+sS'ole butl'
+p1795
+I1
+sS'nashvil'
+p1796
+I1
+sS'wine-glass'
+p1797
+I2
+sS'semi-cruel world'
+p1798
+I1
+sS'snake'
+p1799
+I1
+sS'front'
+p1800
+I5
+sS'day'
+p1801
+I3
+sS'grass-widow'
+p1802
+I3
+sS'prize-fight'
+p1803
+I1
+sS'anyth'
+p1804
+I2
+sS'edit'
+p1805
+I3
+sS'eternal tal'
+p1806
+I1
+sS'trap'
+p1807
+I1
+sS'ahearn'
+p1808
+I2
+sS'stock'
+p1809
+I2
+sS'fairy-land'
+p1810
+I1
+sS'phonograph record'
+p1811
+I1
+sS'ecstatic sureti'
+p1812
+I1
+sS'intellig'
+p1813
+I4
+sS'party ticket year'
+p1814
+I1
+sS'exquisite ey'
+p1815
+I1
+sS'individual project'
+p1816
+I2
+sS'electric-light switch'
+p1817
+I1
+sS'replacement copi'
+p1818
+I2
+sS'of buddhist contempl'
+p1819
+I2
+sS'front stair'
+p1820
+I1
+sS'byplay'
+p1821
+I2
+sS'ole b'
+p1822
+I1
+sS'influenc'
+p1823
+I1
+sS'serious obstacl'
+p1824
+I1
+sS'hardwar'
+p1825
+I1
+sS'revuls'
+p1826
+I1
+sS'headquarters band'
+p1827
+I1
+sS'moving-picture sunset'
+p1828
+I1
+sS'spending money'
+p1829
+I1
+sS'numerous good-looking young men'
+p1830
+I1
+sS'insid'
+p1831
+I1
+sS'splush'
+p1832
+I1
+sS'place-card'
+p1833
+I1
+sS'popular boy'
+p1834
+I1
+sS'miss marjori'
+p1835
+I1
+sS'thrust'
+p1836
+I1
+sS'appreciative laught'
+p1837
+I1
+sS'the conventional review'
+p1838
+I1
+sS'river'
+p1839
+I1
+sS'empty chamb'
+p1840
+I1
+sS'florida'
+p1841
+I1
+sS'hurryin'
+p1842
+I1
+sS'conversation'
+p1843
+I1
+sS'hiding-plac'
+p1844
+I1
+sS'outsid'
+p1845
+I6
+sS'geometri'
+p1846
+I2
+sS'political influ'
+p1847
+I1
+sS'week th'
+p1848
+I1
+sS'attent'
+p1849
+I3
+sS'qualiti'
+p1850
+I7
+sS'project gutenberg-tm project'
+p1851
+I1
+sS'owner'
+p1852
+I2
+sS'probation'
+p1853
+I1
+sS'facil'
+p1854
+I1
+sS'regret mingl'
+p1855
+I1
+sS'fella'
+p1856
+I2
+sS'righ'
+p1857
+I1
+sS'monkey'
+p1858
+I1
+sS'hula hula'
+p1859
+I1
+sS'penurious attempt'
+p1860
+I1
+sS'vulgar'
+p1861
+I1
+sS'accent'
+p1862
+I1
+sS'messag'
+p1863
+I1
+sS'attack'
+p1864
+I1
+sS'new york'
+p1865
+I1
+sS'battlement'
+p1866
+I1
+sS'unacquaint'
+p1867
+I1
+sS'tentative cough'
+p1868
+I1
+sS'music-room'
+p1869
+I3
+sS'chaser'
+p1870
+I1
+sS'literary archive foundation project gutenberg-tm'
+p1871
+I1
+sS'cabin'
+p1872
+I1
+sS'fainting attack'
+p1873
+I1
+sS'saxaphon'
+p1874
+I2
+sS'electric torch'
+p1875
+I1
+sS'villag'
+p1876
+I1
+sS'juli'
+p1877
+I2
+sS'negro'
+p1878
+I11
+sS'parabola plunk'
+p1879
+I1
+sS'academi'
+p1880
+I1
+sS'haven'
+p1881
+I3
+sS'westchest'
+p1882
+I1
+sS'photograph'
+p1883
+I2
+sS'ben'
+p1884
+I1
+sS'next day'
+p1885
+I2
+sS'bed'
+p1886
+I1
+sS'charact'
+p1887
+I1
+sS'involuntary gl'
+p1888
+I1
+sS'psycholog'
+p1889
+I1
+sS'misunderstand'
+p1890
+I1
+sS'exhibit'
+p1891
+I1
+sS'pet abomin'
+p1892
+I1
+sS'intent ey'
+p1893
+I1
+sS'of project gutenberg-tm electronic work'
+p1894
+I2
+sS'monastic standard'
+p1895
+I1
+sS'aquina'
+p1896
+I1
+sS'infinite langour of'
+p1897
+I1
+sS'goldberg'
+p1898
+I1
+sS'reserv'
+p1899
+I2
+sS'moonlight affair'
+p1900
+I1
+sS'min'
+p1901
+I1
+sS'rout'
+p1902
+I1
+sS'self-reproach'
+p1903
+I1
+sS'morris chair'
+p1904
+I2
+sS'roun'
+p1905
+I1
+sS'divine vagu'
+p1906
+I1
+sS'khayyam'
+p1907
+I1
+sS'scale of gratif'
+p1908
+I1
+sS'gerald cart'
+p1909
+I1
+sS'incidental damag'
+p1910
+I1
+sS'preliminari'
+p1911
+I3
+sS'gas-jet'
+p1912
+I1
+sS'awn'
+p1913
+I1
+sS'victorian architectur'
+p1914
+I1
+sS'class'
+p1915
+I1
+sS"tis n't"
+p1916
+I1
+sS'snow-drift'
+p1917
+I1
+sS'gather'
+p1918
+I1
+sS'face'
+p1919
+I4
+sS'urt'
+p1920
+I1
+sS'sensitiveness of adolesc'
+p1921
+I1
+sS'half-run'
+p1922
+I1
+sS'library of electronic work'
+p1923
+I2
+sS'affair'
+p1924
+I3
+sS'sail'
+p1925
+I1
+sS'link'
+p1926
+I2
+sS'dangerous dan mcgrew'
+p1927
+I3
+sS'brown rivulet'
+p1928
+I1
+sS'watch'
+p1929
+I1
+sS'empir'
+p1930
+I1
+sS'hammerstein tradit'
+p1931
+I1
+sS'gymnastic exhibit'
+p1932
+I1
+sS'horse-car'
+p1933
+I1
+sS'floppity flower-faced hat'
+p1934
+I1
+sS'front teeth'
+p1935
+I1
+sS'footbal'
+p1936
+I1
+sS'rasa'
+p1937
+I1
+sS'jaw'
+p1938
+I4
+sS'redistributing project'
+p1939
+I1
+sS'practic'
+p1940
+I2
+sS'jar'
+p1941
+I3
+sS'envi'
+p1942
+I1
+sS'jam'
+p1943
+I1
+sS'shopping-bag'
+p1944
+I1
+sS'house guest'
+p1945
+I1
+sS'death-danc'
+p1946
+I1
+sS'inhabit'
+p1947
+I1
+sS'inferior'
+p1948
+I1
+sS'contribut'
+p1949
+I3
+sS'beau'
+p1950
+I1
+sS'beam'
+p1951
+I1
+sS'wicked clubman making ey'
+p1952
+I1
+sS'marvellous danc'
+p1953
+I1
+sS'yuli'
+p1954
+I1
+sS'federal law'
+p1955
+I1
+sS'railroad ticket'
+p1956
+I1
+sS'family fortun'
+p1957
+I1
+sS'organ'
+p1958
+I1
+sS'bridge parti'
+p1959
+I1
+sS'gotta holda miss marjori'
+p1960
+I1
+sS'wilmington'
+p1961
+I2
+sS'stuff'
+p1962
+I2
+sS'date insid'
+p1963
+I1
+sS'hint anyth'
+p1964
+I1
+sS'half-affectionate badinag'
+p1965
+I1
+sS'knowledg'
+p1966
+I1
+sS'abrupt decis'
+p1967
+I1
+sS'original nurs'
+p1968
+I1
+sS'second-line stuff'
+p1969
+I1
+sS'scale of gratifications of'
+p1970
+I1
+sS'statu'
+p1971
+I5
+sS'pocket-flash'
+p1972
+I1
+sS'woman sail'
+p1973
+I1
+sS'grayish-whit'
+p1974
+I1
+sS'tens'
+p1975
+I1
+sS'thu-umb'
+p1976
+I1
+sS'tent'
+p1977
+I1
+sS'criticis'
+p1978
+I1
+sS'erie railroad'
+p1979
+I1
+sS'partment'
+p1980
+I2
+sS'distribution of project gutenberg-tm electronic work'
+p1981
+I1
+sS'yale hockey captain'
+p1982
+I1
+sS'exclam'
+p1983
+I1
+sS'frightful lot'
+p1984
+I1
+sS'painting pap'
+p1985
+I1
+sS'coppic'
+p1986
+I1
+sS'career'
+p1987
+I2
+sS'glow settl'
+p1988
+I1
+sS'co-old'
+p1989
+I1
+sS'front window'
+p1990
+I1
+sS'd\xc3\xa9class\xc3\xa9 woman'
+p1991
+I1
+sS'electronic work'
+p1992
+I27
+sS'makin'
+p1993
+I1
+sS'bronson'
+p1994
+I1
+sS'walk'
+p1995
+I2
+sS'dalyrimple star'
+p1996
+I1
+sS'gotta holda miss'
+p1997
+I1
+sS'toboggan cap'
+p1998
+I1
+sS'trademark'
+p1999
+I7
+sS'obstacl'
+p2000
+I1
+sS'resting-plac'
+p2001
+I1
+sS'colleagu'
+p2002
+I1
+sS'window-sil'
+p2003
+I1
+sS'stockingless'
+p2004
+I1
+sS'trademark licens'
+p2005
+I1
+sS're-us'
+p2006
+I2
+sS'absolute p'
+p2007
+I1
+sS'furnitur'
+p2008
+I1
+sS'nerv'
+p2009
+I5
+sS'weak-chinned nephew'
+p2010
+I1
+sS'woodrow wilsonian'
+p2011
+I1
+sS'domain ebook'
+p2012
+I1
+sS'vanilla'
+p2013
+I2
+sS'philosophic work'
+p2014
+I1
+sS'gutenberg volunt'
+p2015
+I1
+sS'clear-cut rap'
+p2016
+I1
+sS'bathtub'
+p2017
+I1
+sS'boat star-bound'
+p2018
+I1
+sS'frightful jar'
+p2019
+I1
+sS'engag'
+p2020
+I1
+sS'viru'
+p2021
+I2
+sS'greenwich villag'
+p2022
+I1
+sS'site'
+p2023
+I4
+sS'creak'
+p2024
+I1
+sS'gathering autumn dusk'
+p2025
+I1
+sS'whirl'
+p2026
+I1
+sS'fine town'
+p2027
+I1
+sS'parti'
+p2028
+I3
+sS'mid-victorian furnitur'
+p2029
+I1
+sS'defianc'
+p2030
+I1
+sS'bargain-count'
+p2031
+I1
+sS'vaudeville off'
+p2032
+I2
+sS'original shoulder sw'
+p2033
+I1
+sS'official pag'
+p2034
+I1
+sS'diploma'
+p2035
+I1
+sS'new york water-front'
+p2036
+I1
+sS'judgment'
+p2037
+I1
+sS'collar'
+p2038
+I1
+sS'special rul'
+p2039
+I1
+sS'ridgeway'
+p2040
+I1
+sS'pale-yellow sun'
+p2041
+I1
+sS'thought'
+p2042
+I1
+sS'coat pocket'
+p2043
+I1
+sS'ardita roar'
+p2044
+I1
+sS'fine man'
+p2045
+I1
+sS'diaphanous shadow'
+p2046
+I1
+sS'project gutenberg-tm concept of'
+p2047
+I1
+sS'summer-tim'
+p2048
+I1
+sS'feminin'
+p2049
+I1
+sS'ping-pong'
+p2050
+I1
+sS'heighho'
+p2051
+I1
+sS'sevier hotel'
+p2052
+I2
+sS'fluffy curl'
+p2053
+I1
+sS'lake'
+p2054
+I3
+sS'bench'
+p2055
+I1
+sS'conventional review'
+p2056
+I1
+sS'wonder marcia'
+p2057
+I1
+sS'something trick'
+p2058
+I1
+sS'frightful sens'
+p2059
+I1
+sS'possess'
+p2060
+I1
+sS'tropical flow'
+p2061
+I1
+sS'half-invalid moth'
+p2062
+I1
+sS'royalti'
+p2063
+I3
+sS'adolescent band'
+p2064
+I1
+sS'abominable book'
+p2065
+I1
+sS'dead-whit'
+p2066
+I1
+sS'luxurious fit'
+p2067
+I1
+sS'desk'
+p2068
+I1
+sS'icicled window'
+p2069
+I1
+sS'resid'
+p2070
+I1
+sS'success'
+p2071
+I4
+sS'robert servic'
+p2072
+I1
+sS'girl reclin'
+p2073
+I1
+sS'harold must'
+p2074
+I1
+sS'mustach'
+p2075
+I2
+sS'martin'
+p2076
+I1
+sS'page'
+p2077
+I3
+sS'italian'
+p2078
+I2
+sS'incens'
+p2079
+I3
+sS'mile suh'
+p2080
+I1
+sS'chaotic sympathi'
+p2081
+I1
+sS'unhumorous smil'
+p2082
+I2
+sS'glorious lov'
+p2083
+I1
+sS'of the normal appetit'
+p2084
+I1
+sS'blue-satin slipp'
+p2085
+I1
+sS'hair'
+p2086
+I2
+sS'growth'
+p2087
+I2
+sS'export'
+p2088
+I1
+sS'cabin-boy'
+p2089
+I1
+sS'faint'
+p2090
+I1
+sS'mother'
+p2091
+I3
+sS'librari'
+p2092
+I11
+sS'pump-and-slipper d'
+p2093
+I1
+sS'leap'
+p2094
+I1
+sS'passion'
+p2095
+I1
+sS'settl'
+p2096
+I1
+sS'leader'
+p2097
+I2
+sS'school pet'
+p2098
+I1
+sS'furious ang'
+p2099
+I1
+sS"project gutenberg-tm '"
+p2100
+I1
+sS'project gutenberg-tm web sit'
+p2101
+I1
+sS'red-haired woman nam'
+p2102
+I1
+sS'paper'
+p2103
+I1
+sS'gymnasium work'
+p2104
+I1
+sS'serpentlike intens'
+p2105
+I1
+sS'jovial ton'
+p2106
+I1
+sS'irreligious mot'
+p2107
+I1
+sS'bright-green coppic'
+p2108
+I1
+sS'mdash'
+p2109
+I896
+sS'peal'
+p2110
+I1
+sS'quartet'
+p2111
+I1
+sS'gutenberg licens'
+p2112
+I3
+sS'vegetable-garden'
+p2113
+I1
+sS'saturday-afternoon bargain-count'
+p2114
+I1
+sS'tomb'
+p2115
+I1
+sS'green-and-gray islet'
+p2116
+I1
+sS'hearing voic'
+p2117
+I1
+sS'malignant th'
+p2118
+I1
+sS'warranti'
+p2119
+I2
+sS'weather'
+p2120
+I1
+sS'wondrous hour'
+p2121
+I1
+sS'semidark veranda'
+p2122
+I1
+sS'walk outsid'
+p2123
+I1
+sS'mississippi'
+p2124
+I1
+sS'romantic chas'
+p2125
+I1
+sS'pictur'
+p2126
+I1
+sS'ridgeway hous'
+p2127
+I1
+sS'appl'
+p2128
+I1
+sS'visitor'
+p2129
+I1
+sS'pool'
+p2130
+I1
+sS'replac'
+p2131
+I2
+sS'piker organ'
+p2132
+I1
+sS'death-rattl'
+p2133
+I1
+sS'half-angri'
+p2134
+I1
+sS'rajah'
+p2135
+I1
+sS'mutter'
+p2136
+I1
+sS'but'
+p2137
+I2
+sS'distribution of'
+p2138
+I4
+sS'whistl'
+p2139
+I1
+sS'updated edit'
+p2140
+I1
+sS'riotous row'
+p2141
+I1
+sS'rumbl'
+p2142
+I1
+sS'mcgrew'
+p2143
+I3
+sS'coaler'
+p2144
+I1
+sS'veget'
+p2145
+I1
+sS'indors'
+p2146
+I1
+sS'troubl'
+p2147
+I1
+sS'record'
+p2148
+I1
+sS'glori'
+p2149
+I1
+sS'non-committ'
+p2150
+I1
+sS'baptism'
+p2151
+I1
+sS'display'
+p2152
+I1
+sS'int'
+p2153
+I1
+sS'board bil'
+p2154
+I1
+sS'jessi'
+p2155
+I1
+sS'jag'
+p2156
+I1
+sS'project gutenberg volunt'
+p2157
+I1
+sS'conscientious express'
+p2158
+I1
+sS'field-glass'
+p2159
+I3
+sS'mauri'
+p2160
+I1
+sS"gutenberg-tm '"
+p2161
+I1
+sS'languid ladi'
+p2162
+I1
+sS'hardware hous'
+p2163
+I1
+sS'contest'
+p2164
+I1
+sS'dusty-gray'
+p2165
+I1
+sS'fashion i'
+p2166
+I1
+sS'book'
+p2167
+I2
+sS'away--y'
+p2168
+I1
+sS'professional jaw'
+p2169
+I1
+sS'half-plan'
+p2170
+I1
+sS'instinctive defi'
+p2171
+I1
+sS'web pag'
+p2172
+I2
+sS'high-power engin'
+p2173
+I1
+sS'vein'
+p2174
+I1
+sS'goin'
+p2175
+I2
+sS'sevier hotel barber-shop'
+p2176
+I2
+sS'sphinx'
+p2177
+I1
+sS'acquiesc'
+p2178
+I2
+sS'gedney affair'
+p2179
+I1
+sS'social importance of football gam'
+p2180
+I1
+sS'jewel'
+p2181
+I1
+sS'rule'
+p2182
+I1
+sS'half-second'
+p2183
+I1
+sS'standing girl'
+p2184
+I1
+sS'sensitive enough'
+p2185
+I1
+sS'gray-haired men'
+p2186
+I2
+sS'senate i'
+p2187
+I2
+stp2188
+Rp2189
+tp2190
+.

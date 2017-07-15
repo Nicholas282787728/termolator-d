@@ -1,0 +1,587 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'external sleev'
+p7
+I1
+sS'incis'
+p8
+I4
+sS'mcdermott road'
+p9
+I1
+sS'peritioned cav'
+p10
+I1
+sS'undesired removal of'
+p11
+I1
+sS'transluc'
+p12
+I1
+sS'compound curve surface incorpor'
+p13
+I1
+sS'sleev'
+p14
+I16
+sS'circumfer'
+p15
+I1
+sS'surgical access'
+p16
+I25
+sS'cross-sect'
+p17
+I2
+sS'video monitor'
+p18
+I1
+sS'of a cannula'
+p19
+I2
+sS'cross-sectional view of'
+p20
+I1
+sS'monitor'
+p21
+I1
+sS'fit'
+p22
+I1
+sS'introduction of cannula'
+p23
+I1
+sS'passag'
+p24
+I3
+sS'the cannula'
+p25
+I3
+sS'proxim'
+p26
+I1
+sS'smith'
+p27
+I1
+sS'cross-sectional view of th'
+p28
+I1
+sS'internal longitudinal passag'
+p29
+I1
+sS'instrument'
+p30
+I15
+sS'plan view of th'
+p31
+I1
+sS'surgical access devices includ'
+p32
+I1
+sS'retractor'
+p33
+I1
+sS'inject'
+p34
+I1
+sS'including cannula'
+p35
+I2
+sS'instruments for performing laparoscop'
+p36
+I1
+sS'fluid'
+p37
+I1
+sS'seal hous'
+p38
+I1
+sS'util'
+p39
+I1
+sS'withdrawal of'
+p40
+I1
+sS'vacuum'
+p41
+I1
+sS'releasably connected s'
+p42
+I1
+sS'withdrawal of th'
+p43
+I1
+sS'planar blad'
+p44
+I1
+sS'introduct'
+p45
+I3
+sS'opaqu'
+p46
+I1
+sS'surgical trocar'
+p47
+I1
+sS'tear'
+p48
+I1
+sS'access instru'
+p49
+I12
+sS'peritoneal membran'
+p50
+I1
+sS'withdrawal of the obtur'
+p51
+I1
+sS'insufflated state of'
+p52
+I1
+sS'longitudinal axis of the access'
+p53
+I3
+sS'peritoneal cav'
+p54
+I1
+sS'introduction of th'
+p55
+I1
+sS'surgical sit'
+p56
+I4
+sS'dimens'
+p57
+I1
+sS'endoscop'
+p58
+I1
+sS'obturator h'
+p59
+I2
+sS'median'
+p60
+I4
+sS'including c'
+p61
+I2
+sS'surgical access instru'
+p62
+I12
+sS'for the introduct'
+p63
+I1
+sS'seal'
+p64
+I5
+sS'undesired removal of th'
+p65
+I1
+sS'port'
+p66
+I1
+sS'locking project'
+p67
+I2
+sS'median plan'
+p68
+I1
+sS'undesired tissue tear'
+p69
+I1
+sS'insufflation gas'
+p70
+I2
+sS'tube'
+p71
+I1
+sS'pyramidal blad'
+p72
+I1
+sS'access'
+p73
+I36
+sS'tight seal'
+p74
+I1
+sS'intersect'
+p75
+I1
+sS'caviti'
+p76
+I7
+sS'intersection of th'
+p77
+I1
+sS'smith robert'
+p78
+I1
+sS'retropuls'
+p79
+I1
+sS'surgical access devices including cannula'
+p80
+I1
+sS'numer'
+p81
+I2
+sS'beveled access'
+p82
+I1
+sS'westbrook'
+p83
+I1
+sS'closur'
+p84
+I3
+sS'b h'
+p85
+I1
+sS'conventional means including c'
+p86
+I1
+sS'septum'
+p87
+I1
+sS'cannula h'
+p88
+I4
+sS'of the body cav'
+p89
+I2
+sS'numerous access port'
+p90
+I1
+sS'removal of the cannula'
+p91
+I1
+sS'withdrawing fluid'
+p92
+I1
+sS'intersection of'
+p93
+I1
+sS'insufflated state of th'
+p94
+I1
+sS'duckbill s'
+p95
+I1
+sS'distal end of cannula sleev'
+p96
+I1
+sS'of cannula sleev'
+p97
+I7
+sS'road'
+p98
+I1
+sS'westbrook ct'
+p99
+I1
+sS'plan view of'
+p100
+I1
+sS'undesired tissu'
+p101
+I1
+sS'introduction of'
+p102
+I2
+sS'distal'
+p103
+I2
+sS'of the pyramidal blad'
+p104
+I1
+sS'friction fit'
+p105
+I1
+sS'membran'
+p106
+I1
+sS'surgical instru'
+p107
+I2
+sS'the surgical instrumentation util'
+p108
+I1
+sS'longitudinal axis of'
+p109
+I3
+sS'ct'
+p110
+I2
+sS'numerous access'
+p111
+I1
+sS'for performing laparoscop'
+p112
+I1
+sS'valv'
+p113
+I4
+sS'cross-sectional view of the cannula'
+p114
+I2
+sS'the introduct'
+p115
+I1
+sS'snap-fit'
+p116
+I1
+sS'of the surgical instrumentation util'
+p117
+I1
+sS'cannula'
+p118
+I21
+sS'hereinabov'
+p119
+I1
+sS'cannula sleev'
+p120
+I15
+sS'smith robert c'
+p121
+I1
+sS'tissue tear'
+p122
+I1
+sS'the pyramidal blad'
+p123
+I1
+sS'introduction of the surgical instrument'
+p124
+I1
+sS'surgical instrumentation util'
+p125
+I1
+sS'distal end of cannula'
+p126
+I1
+sS'of the cannula'
+p127
+I5
+sS'instrumentation util'
+p128
+I1
+sS'transparent access'
+p129
+I1
+sS'room'
+p130
+I2
+sS'endoscopic tub'
+p131
+I1
+sS'hous'
+p132
+I7
+sS'cathet'
+p133
+I1
+sS'surgical procedure for'
+p134
+I1
+sS'blade'
+p135
+I2
+sS'haven ct'
+p136
+I1
+sS'project'
+p137
+I4
+sS'adjacent locking project'
+p138
+I2
+sS'absenc'
+p139
+I1
+sS'of'
+p140
+I2
+sS'longitudinal length of cannula'
+p141
+I2
+sS'trocar'
+p142
+I1
+sS'cavity for the introduct'
+p143
+I1
+sS'access port'
+p144
+I1
+sS'compound curv'
+p145
+I1
+sS'fluid tight s'
+p146
+I1
+sS'the body cav'
+p147
+I1
+sS'site'
+p148
+I4
+sS'obtur'
+p149
+I8
+sS'longitudinal axis of th'
+p150
+I3
+sS'injection mold'
+p151
+I1
+sS'rib'
+p152
+I1
+sS'surgical instrument'
+p153
+I2
+sS'introduction of the surgical instrumentation util'
+p154
+I1
+sS'longitudinal length of cannula sleev'
+p155
+I2
+sS'surgical instruments for performing laparoscop'
+p156
+I1
+sS'plan view of the cannula'
+p157
+I2
+sS'transpar'
+p158
+I1
+sS'tip'
+p159
+I5
+sS'access devices including cannula'
+p160
+I1
+sS'mcdermott'
+p161
+I1
+sS'distal end of'
+p162
+I1
+sS'recoveri'
+p163
+I1
+sS'peritioned cavity for th'
+p164
+I1
+sS'undesired remov'
+p165
+I1
+sS'insufflated state of the body cav'
+p166
+I1
+sS'undesired removal of the cannula'
+p167
+I1
+sS'of the obtur'
+p168
+I1
+sS'dissector'
+p169
+I1
+sS'withdraw'
+p170
+I2
+sS'haven'
+p171
+I1
+sS'longitudinal length of'
+p172
+I2
+sS'internal s'
+p173
+I1
+sS'gase'
+p174
+I2
+sS'cement'
+p175
+I1
+sS'intersection of the pyramidal blad'
+p176
+I1
+sS'abdominal cav'
+p177
+I2
+sS'plane'
+p178
+I1
+sS'plan'
+p179
+I2
+sS'obturator tip'
+p180
+I5
+sS'laparoscop'
+p181
+I4
+sS'surgical procedure for introduc'
+p182
+I1
+sS'curve surface incorpor'
+p183
+I1
+sS'the obtur'
+p184
+I1
+sS'closure valv'
+p185
+I3
+sS'conventional means includ'
+p186
+I1
+sS'linear'
+p187
+I1
+sS'peritioned cavity for the introduct'
+p188
+I1
+sS'medical grad'
+p189
+I1
+sS'scissor'
+p190
+I1
+sS'peritioned cavity for'
+p191
+I1
+sS'longitudinal passag'
+p192
+I3
+sS'introduction of cannula sleev'
+p193
+I1
+sS'incorpor'
+p194
+I2
+sS'flapper valv'
+p195
+I1
+sS'surgical instruments for'
+p196
+I1
+stp197
+Rp198
+tp199
+.

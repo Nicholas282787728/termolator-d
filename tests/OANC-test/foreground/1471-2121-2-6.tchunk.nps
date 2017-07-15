@@ -1,0 +1,1763 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'cellular roles of pp5'
+p7
+I2
+sS'cytoplasmic gr-complex'
+p8
+I1
+sS'code'
+p9
+I1
+sS'gr'
+p10
+I33
+sS'steroid hormon'
+p11
+I1
+sS'reutilization of'
+p12
+I1
+sS'supercoiled plasmid'
+p13
+I1
+sS'signific'
+p14
+I1
+sS'-gfp'
+p15
+I3
+sS'gaithersburg'
+p16
+I1
+sS'wash'
+p17
+I3
+sS'nucleo-cytoplasmic partitioning of gr'
+p18
+I1
+sS'tx'
+p19
+I1
+sS'vitro transcription kit'
+p20
+I1
+sS'gr-induced transcriptional act'
+p21
+I2
+sS'pnpp'
+p22
+I1
+sS'of gr-responsive gen'
+p23
+I2
+sS'preparation of'
+p24
+I1
+sS'nucleus of a549'
+p25
+I1
+sS'nuclear retention of agonist-bound gr'
+p26
+I1
+sS'labeling kit'
+p27
+I1
+sS'phosphohydrolase act'
+p28
+I1
+sS'accumulation of gr'
+p29
+I5
+sS'spectrum of'
+p30
+I1
+sS'quantif'
+p31
+I3
+sS'endpoint'
+p32
+I2
+sS'repressor of primary response gen'
+p33
+I1
+sS'nucleo-cytoplasmic shuttl'
+p34
+I1
+sS'calcineurin'
+p35
+I1
+sS'gr-reporter plasmid'
+p36
+I1
+sS'of primary response gen'
+p37
+I1
+sS'localization of gr-gfp'
+p38
+I2
+sS'titration endpoint'
+p39
+I2
+sS'dexamethason'
+p40
+I6
+sS'vector'
+p41
+I1
+sS'hcl'
+p42
+I1
+sS'catalytic subunit'
+p43
+I1
+sS'dexamethasone treat'
+p44
+I1
+sS'hepes ph'
+p45
+I2
+sS'oncogen'
+p46
+I1
+sS'pp1\xce\xb1'
+p47
+I1
+sS'pp1\xce\xb4'
+p48
+I1
+sS'nuclear retention of liganded receptor'
+p49
+I1
+sS'n hcl'
+p50
+I1
+sS'rnaas'
+p51
+I1
+sS'acid'
+p52
+I18
+sS'precipit'
+p53
+I1
+sS'kinas'
+p54
+I2
+sS'nen'
+p55
+I1
+sS'durlon-uv'
+p56
+I1
+sS'induced nuclear import'
+p57
+I1
+sS'gr nucleocytoplasmic shuttl'
+p58
+I1
+sS'cell'
+p59
+I16
+sS'molecular machineri'
+p60
+I1
+sS'titration studi'
+p61
+I1
+sS'nuclear accumulation of gr'
+p62
+I5
+sS'statistical signific'
+p63
+I1
+sS'camp-dependent protein kinas'
+p64
+I1
+sS'eukaryotic cel'
+p65
+I1
+sS'gr transloc'
+p66
+I2
+sS'the gr-hsp90-hsp70-complex'
+p67
+I1
+sS'dapi stain'
+p68
+I1
+sS'ethanol'
+p69
+I2
+sS'purif'
+p70
+I1
+sS'cytoplasmic distribut'
+p71
+I1
+sS'ligand binding complex'
+p72
+I1
+sS'agonist bind'
+p73
+I1
+sS'promoter regions of steroid-responsive gen'
+p74
+I1
+sS'recent studi'
+p75
+I3
+sS'studi'
+p76
+I8
+sS'gene'
+p77
+I4
+sS'glass coverslip'
+p78
+I1
+sS'tissue collect'
+p79
+I2
+sS'repressor'
+p80
+I1
+sS'nuclear import'
+p81
+I2
+sS'instat'
+p82
+I1
+sS'translocation cel'
+p83
+I1
+sS'phosphate-buffered salin'
+p84
+I1
+sS'half-life of the preexisting protein'
+p85
+I1
+sS'calcium ionophore ionomycin'
+p86
+I1
+sS'nylon membran'
+p87
+I1
+sS'dna'
+p88
+I7
+sS'gr-gfp fusion protein'
+p89
+I3
+sS'nuclear accumulation of gr-gfp'
+p90
+I2
+sS'isoform'
+p91
+I2
+sS'sensitive phosphatas'
+p92
+I1
+sS'translocation of th'
+p93
+I1
+sS'concentration of enzym'
+p94
+I2
+sS'solubility constraint'
+p95
+I1
+sS'ligand-activated gr transloc'
+p96
+I1
+sS'gfp-nfat'
+p97
+I5
+sS'enhanc'
+p98
+I1
+sS'glass'
+p99
+I1
+sS'of the preexisting protein'
+p100
+I1
+sS'mg'
+p101
+I2
+sS'protein-free pgr'
+p102
+I1
+sS'gr protein'
+p103
+I1
+sS'room'
+p104
+I1
+sS'the gr'
+p105
+I1
+sS'prepar'
+p106
+I1
+sS'okadaic acid sensitive phosphatas'
+p107
+I1
+sS'phosphatase act'
+p108
+I2
+sS'subcellular distribution of'
+p109
+I2
+sS'bind dna'
+p110
+I1
+sS'of'
+p111
+I6
+sS'cellular distribution of nfat-gfp'
+p112
+I1
+sS'compound targeting pp5'
+p113
+I1
+sS'phosphatas'
+p114
+I2
+sS'hitrap heparin column'
+p115
+I1
+sS'sephadex column'
+p116
+I1
+sS'phosphomolybdate complex'
+p117
+I1
+sS'ligand-activ'
+p118
+I1
+sS'fusion protein'
+p119
+I4
+sS'transcriptional complex'
+p120
+I2
+sS'serum'
+p121
+I6
+sS'co-immunoprecipitation studi'
+p122
+I1
+sS'nuclear loc'
+p123
+I1
+sS'acid sensitive phosphatas'
+p124
+I1
+sS'of glucocorticoid'
+p125
+I3
+sS'lead compound target'
+p126
+I1
+sS'v-mo'
+p127
+I1
+sS'of nfat-gfp'
+p128
+I1
+sS'preparation of phosphoprotein substrates histon'
+p129
+I1
+sS'translocation of'
+p130
+I3
+sS'pathway'
+p131
+I3
+sS'of a549 cel'
+p132
+I1
+sS'okadaic acid okadaic acid'
+p133
+I1
+sS'act'
+p134
+I3
+sS'gr-hsp90 complex'
+p135
+I2
+sS'fc'
+p136
+I2
+sS'associ'
+p137
+I2
+sS'nucleo-cytoplasmic partit'
+p138
+I1
+sS'bind'
+p139
+I3
+sS'sp'
+p140
+I1
+sS'mismatched control oligonucleotid'
+p141
+I1
+sS'ppase'
+p142
+I2
+sS'one-way anova'
+p143
+I1
+sS'nuclear transport'
+p144
+I4
+sS'nuclear localization of gr'
+p145
+I1
+sS'absence of dexamethason'
+p146
+I1
+sS'purifi'
+p147
+I1
+sS'sd'
+p148
+I1
+sS'photoshop'
+p149
+I2
+sS'rnaase h'
+p150
+I1
+sS'nucleo-cytoplasmic partitioning of'
+p151
+I1
+sS'brain'
+p152
+I4
+sS'hela'
+p153
+I4
+sS'nfat'
+p154
+I1
+sS'precipitation-resuspension wash'
+p155
+I1
+sS'ligand'
+p156
+I1
+sS'promoter regions of'
+p157
+I2
+sS'pp6'
+p158
+I2
+sS'dabco'
+p159
+I1
+sS'ligand activated gr'
+p160
+I1
+sS'of liganded receptor'
+p161
+I1
+sS'tris-cl buff'
+p162
+I1
+sS'absence of physiological concentrations of pp5'
+p163
+I1
+sS'affinity bind'
+p164
+I1
+sS'reagent'
+p165
+I1
+sS'cell culture a549 lung carcinoma'
+p166
+I1
+sS'biorad'
+p167
+I1
+sS'chromatographi'
+p168
+I1
+sS'hormone receptor'
+p169
+I1
+sS'mm tris-cl'
+p170
+I1
+sS'mm tris-cl buff'
+p171
+I1
+sS'bioscale q'
+p172
+I1
+sS'dna label'
+p173
+I1
+sS'2a'
+p174
+I4
+sS'compris'
+p175
+I1
+sS'of histon'
+p176
+I1
+sS'steroid hormone receptor'
+p177
+I1
+sS'cdna prob'
+p178
+I2
+sS'accumulation of gr-gfp'
+p179
+I2
+sS'cytoplasmic localization of gr-gfp'
+p180
+I2
+sS'coding region of pp5'
+p181
+I2
+sS'reutilization of gr protein'
+p182
+I1
+sS'gfp'
+p183
+I1
+sS'ec'
+p184
+I1
+sS'redistribut'
+p185
+I1
+sS'of phosphoprotein substrates histon'
+p186
+I1
+sS'yield'
+p187
+I2
+sS'high-affinity ligand binding complex'
+p188
+I1
+sS'event'
+p189
+I1
+sS'plasmid dna'
+p190
+I1
+sS'transportin'
+p191
+I1
+sS'of pp5'
+p192
+I9
+sS'of pp1'
+p193
+I1
+sS'of phosphohiston'
+p194
+I1
+sS'of gr'
+p195
+I12
+sS'heteromeric complex compris'
+p196
+I1
+sS'ammonium sulfate fractionation of'
+p197
+I1
+sS'ammonium sulfate fractionation of the supernat'
+p198
+I1
+sS'ligand-activated gr'
+p199
+I1
+sS'fractionation of the supernat'
+p200
+I1
+sS'manipul'
+p201
+I1
+sS'subcellular distribution of gr'
+p202
+I2
+sS'cellular rol'
+p203
+I2
+sS'of dexamethason'
+p204
+I1
+sS'nuclear gr-gfp'
+p205
+I1
+sS'bovine brain'
+p206
+I4
+sS'mismatch oligonucleotid'
+p207
+I1
+sS'of okadaic acid'
+p208
+I2
+sS'gr-induced gene express'
+p209
+I2
+sS'fb'
+p210
+I3
+sS'pmsf'
+p211
+I1
+sS'isi'
+p212
+I28
+sS'activity phosphatase act'
+p213
+I1
+sS'atp'
+p214
+I2
+sS'undergo'
+p215
+I1
+sS'lead compound targeting pp5'
+p216
+I1
+sS'affinity for agonist'
+p217
+I1
+sS'softwar'
+p218
+I1
+sS'intracellular partit'
+p219
+I2
+sS'transcriptional stimul'
+p220
+I1
+sS'vehicl'
+p221
+I1
+sS'vitro'
+p222
+I1
+sS'nuclear translocation act'
+p223
+I1
+sS'transactiv'
+p224
+I1
+sS'serum-free media'
+p225
+I1
+sS'pgr'
+p226
+I1
+sS'culture a549 lung carcinoma cel'
+p227
+I1
+sS'supernat'
+p228
+I2
+sS'cellular distribution of'
+p229
+I1
+sS'membran'
+p230
+I1
+sS'anion-exchange chromatographi'
+p231
+I1
+sS'graphpad'
+p232
+I1
+sS'of enzym'
+p233
+I2
+sS'affinity for'
+p234
+I1
+sS'of gr protein'
+p235
+I1
+sS'distribution of gr'
+p236
+I2
+sS'hormone insensit'
+p237
+I1
+sS'ionomycin'
+p238
+I3
+sS'gr-function'
+p239
+I1
+sS'dephosphorylation of phosphohiston'
+p240
+I1
+sS'translocation of the gr'
+p241
+I1
+sS'retention of liganded receptor'
+p242
+I1
+sS'cytoplasmic distribution of gr-gfp'
+p243
+I1
+sS'affinity binding of'
+p244
+I1
+sS'glucocorticoid'
+p245
+I5
+sS'cell culture a549 lung'
+p246
+I1
+sS'nuclear transport medi'
+p247
+I1
+sS'isoforms of'
+p248
+I1
+sS'quantification of'
+p249
+I1
+sS'of serum'
+p250
+I2
+sS'tissu'
+p251
+I1
+sS'p-nitrophenyl phosph'
+p252
+I1
+sS'machineri'
+p253
+I1
+sS'microinject'
+p254
+I1
+sS'\xce\xbcm atp'
+p255
+I1
+sS'phosphoryl'
+p256
+I3
+sS'recombinant pp5'
+p257
+I1
+sS'nuclear export'
+p258
+I2
+sS'plasmid'
+p259
+I3
+sS'gr-complex'
+p260
+I1
+sS'dtt'
+p261
+I2
+sS'cytoplasm'
+p262
+I10
+sS'repressor of'
+p263
+I1
+sS'spectrum'
+p264
+I1
+sS'affinity binding of gr'
+p265
+I1
+sS'gr-induced transcript'
+p266
+I1
+sS'agaros'
+p267
+I1
+sS'physiological substrates for pp5'
+p268
+I1
+sS'gr-gfp express'
+p269
+I3
+sS'centrifug'
+p270
+I1
+sS'for agonist'
+p271
+I1
+sS'nuclear accumulation of'
+p272
+I7
+sS'of gr-gfp'
+p273
+I8
+sS'gene express'
+p274
+I2
+sS'activated gr'
+p275
+I1
+sS'redistribution of'
+p276
+I1
+sS'distribut'
+p277
+I1
+sS'of phosphatase activity phosphatas'
+p278
+I1
+sS'buffer'
+p279
+I1
+sS'oleic acid'
+p280
+I1
+sS'phosphoprotein'
+p281
+I1
+sS'promoter regions of gr-responsive gen'
+p282
+I1
+sS'oligonucleotid'
+p283
+I5
+sS'transcript'
+p284
+I3
+sS'gr-transactiv'
+p285
+I1
+sS'mgcl'
+p286
+I1
+sS'half-lif'
+p287
+I1
+sS'transcription kit'
+p288
+I1
+sS'camp'
+p289
+I1
+sS'pp1'
+p290
+I6
+sS'sulfate fractionation of the supernat'
+p291
+I1
+sS'\xce\xbcm ionomycin'
+p292
+I1
+sS'32p'
+p293
+I2
+sS'gfp-gr transloc'
+p294
+I1
+sS'mm pmsf'
+p295
+I1
+sS'sigma'
+p296
+I1
+sS'of the supernat'
+p297
+I1
+sS'mm hepes ph'
+p298
+I2
+sS'pp5'
+p299
+I37
+sS'deceprime\xe2\x84\xa2'
+p300
+I1
+sS'probe'
+p301
+I2
+sS'g-25 sephadex column'
+p302
+I1
+sS'lung carcinoma cel'
+p303
+I1
+sS'pp5 activ'
+p304
+I1
+sS'affin'
+p305
+I1
+sS'stabilization of the gr-hsp90-hsp70-complex'
+p306
+I1
+sS'binding of gr'
+p307
+I1
+sS'mutant rat glucocorticoid'
+p308
+I1
+sS'gr-dependent transcript'
+p309
+I1
+sS'of the gr'
+p310
+I1
+sS'northern'
+p311
+I1
+sS'lipofectin'
+p312
+I2
+sS'q column'
+p313
+I2
+sS'activ'
+p314
+I13
+sS'gr-mediated ev'
+p315
+I1
+sS'redistribution of gr-gfp'
+p316
+I1
+sS'stain'
+p317
+I1
+sS'local'
+p318
+I4
+sS'gr-gfp fusion'
+p319
+I3
+sS'express'
+p320
+I16
+sS'transport pathway'
+p321
+I3
+sS'gibco-brl'
+p322
+I2
+sS'pharmacia'
+p323
+I3
+sS'absence of serum'
+p324
+I2
+sS'the preexisting protein'
+p325
+I1
+sS'gre-containing dna'
+p326
+I1
+sS'qiagen maxiprep column'
+p327
+I1
+sS'report'
+p328
+I1
+sS'gr-induced gen'
+p329
+I2
+sS'nanomolar concentr'
+p330
+I1
+sS'ssc'
+p331
+I1
+sS'cell cultur'
+p332
+I1
+sS'nuclear localization of'
+p333
+I1
+sS'expression vector'
+p334
+I1
+sS'mismatched oligonucleotide control for isi'
+p335
+I1
+sS'optron'
+p336
+I2
+sS'formaldehyd'
+p337
+I1
+sS'mediat'
+p338
+I1
+sS'qi'
+p339
+I1
+sS'translocation of gr-gfp'
+p340
+I2
+sS'accurate quantif'
+p341
+I1
+sS'carcinoma cel'
+p342
+I1
+sS'ammonium sulfate fractionation of th'
+p343
+I1
+sS'tca precipit'
+p344
+I1
+sS'absence of'
+p345
+I5
+sS'ppase act'
+p346
+I2
+sS'cytoplasmic loc'
+p347
+I2
+sS'p23'
+p348
+I1
+sS'cell homogen'
+p349
+I1
+sS'trizol'
+p350
+I2
+sS'label'
+p351
+I2
+sS'cytoplasmic localization of'
+p352
+I2
+sS'nuclear accumul'
+p353
+I9
+sS'of the gr-hsp90-hsp70-complex'
+p354
+I1
+sS'cell culture a549'
+p355
+I1
+sS'import'
+p356
+I3
+sS'cell culture a549 lung carcinoma cel'
+p357
+I1
+sS'steroid-responsive gen'
+p358
+I1
+sS'autoradiogram'
+p359
+I1
+sS'absenc'
+p360
+I8
+sS'cellular distribut'
+p361
+I1
+sS'eluat'
+p362
+I1
+sS'for isi'
+p363
+I2
+sS'agonist-bound gr'
+p364
+I1
+sS'ligand-activated transcriptional stimul'
+p365
+I1
+sS'glucocorticoid receptor'
+p366
+I1
+sS'agonist'
+p367
+I2
+sS'transcriptional act'
+p368
+I2
+sS'dexamethasone bind'
+p369
+I1
+sS'\xce\xb1- 32p'
+p370
+I2
+sS'nm dexamethason'
+p371
+I1
+sS'hela cel'
+p372
+I1
+sS'decaprim'
+p373
+I1
+sS'a549 cel'
+p374
+I2
+sS'hitrap q'
+p375
+I1
+sS'the supernat'
+p376
+I1
+sS'ca'
+p377
+I3
+sS'absence of physiological concentrations of'
+p378
+I1
+sS'preexisting protein'
+p379
+I1
+sS'nmole incorporated phosph'
+p380
+I1
+sS'okadaic acid'
+p381
+I17
+sS'tris-hcl'
+p382
+I1
+sS'bioscale q column'
+p383
+I1
+sS'serum-starv'
+p384
+I1
+sS'pb'
+p385
+I4
+sS'accumul'
+p386
+I2
+sS'dephosphorylation of'
+p387
+I1
+sS'ph'
+p388
+I6
+sS'nuclear retention of'
+p389
+I2
+sS'distribution of gfp-nfat'
+p390
+I1
+sS'dephosphoryl'
+p391
+I2
+sS'sp column'
+p392
+I2
+sS'roles of pp5'
+p393
+I2
+sS'targeting pp5'
+p394
+I1
+sS'reaction'
+p395
+I2
+sS'adob'
+p396
+I2
+sS'suppress'
+p397
+I1
+sS'gfp-nfat protein'
+p398
+I1
+sS'primary response gen'
+p399
+I1
+sS'liber'
+p400
+I1
+sS'physiological concentrations of pp5'
+p401
+I1
+sS'of physiological concentrations of pp5'
+p402
+I1
+sS'oligonucleotide control for isi'
+p403
+I1
+sS'import receptor'
+p404
+I1
+sS'sulfate fraction'
+p405
+I1
+sS'histon'
+p406
+I6
+sS'imagepc'
+p407
+I1
+sS'mutant'
+p408
+I1
+sS'mutant forms of'
+p409
+I1
+sS'adobe photoshop'
+p410
+I2
+sS'protein'
+p411
+I13
+sS'mm tris-hcl'
+p412
+I1
+sS'nfat-gfp'
+p413
+I2
+sS'of isi'
+p414
+I4
+sS'media'
+p415
+I1
+sS'transloc'
+p416
+I7
+sS'complex'
+p417
+I6
+sS'concentration of'
+p418
+I2
+sS'subunit'
+p419
+I1
+sS'dexamethasone-induced transcript'
+p420
+I1
+sS'nucleus of'
+p421
+I1
+sS'tris ph'
+p422
+I1
+sS'nih'
+p423
+I1
+sS'kit'
+p424
+I2
+sS'gr-gfp expression vector'
+p425
+I1
+sS'of protein'
+p426
+I1
+sS'intracellular partitioning of gr'
+p427
+I2
+sS'transfection studi'
+p428
+I2
+sS'phosphatase activity phosphatase act'
+p429
+I1
+sS'okadaic acid act'
+p430
+I1
+sS'\xce\xbcm camp'
+p431
+I1
+sS'min'
+p432
+I2
+sS'incorporated phosph'
+p433
+I1
+sS'absence of glucocorticoid'
+p434
+I1
+sS'camp-dependent protein'
+p435
+I1
+sS'paraformaldehyd'
+p436
+I1
+sS'transactivation act'
+p437
+I1
+sS'half-life of th'
+p438
+I1
+sS'heparin column'
+p439
+I1
+sS'gr-responsive report'
+p440
+I1
+sS'distribution of gr-gfp'
+p441
+I1
+sS'dupont'
+p442
+I1
+sS'formamid'
+p443
+I1
+sS'reutilization of gr'
+p444
+I1
+sS'protein-free plasmid dna'
+p445
+I1
+sS'shuttl'
+p446
+I2
+sS'isoforms of pp1'
+p447
+I1
+sS'microcystin-lr'
+p448
+I1
+sS'tca'
+p449
+I3
+sS'concentr'
+p450
+I8
+sS'coverslip'
+p451
+I2
+sS'gr-gfp local'
+p452
+I2
+sS'stimul'
+p453
+I1
+sS'hsp90'
+p454
+I1
+sS'anova'
+p455
+I1
+sS'treatment'
+p456
+I2
+sS'ic'
+p457
+I5
+sS'transport medi'
+p458
+I1
+sS'trypsin-stimulated phosphohydrolase act'
+p459
+I1
+sS'coding region of'
+p460
+I1
+sS'rna'
+p461
+I3
+sS'gfp-nfat loc'
+p462
+I1
+sS'cellular transform'
+p463
+I1
+sS'fusion'
+p464
+I1
+sS'mg of protein'
+p465
+I1
+sS'mismatched oligonucleotide control for'
+p466
+I1
+sS'dephosphorylation react'
+p467
+I1
+sS'collect'
+p468
+I1
+sS'tris-cl'
+p469
+I2
+sS'intracellular partitioning of'
+p470
+I2
+sS'localization of gr'
+p471
+I1
+sS'nuclear shuttling protein'
+p472
+I1
+sS'salin'
+p473
+I1
+sS'fkbp52'
+p474
+I1
+sS'shuttling protein'
+p475
+I1
+sS'export'
+p476
+I2
+sS'gr-gfp'
+p477
+I16
+sS'nucleus of a549 cel'
+p478
+I1
+sS'of phosphatase activity phosphatase act'
+p479
+I2
+sS'distribution of nfat-gfp'
+p480
+I1
+sS'insensit'
+p481
+I1
+sS'molecular weight contamin'
+p482
+I1
+sS'buffer b'
+p483
+I2
+sS'subcellular distribut'
+p484
+I2
+sS'protein kinas'
+p485
+I1
+sS'calcium induced nuclear import'
+p486
+I1
+sS'trizol reag'
+p487
+I1
+sS'hormon'
+p488
+I1
+sS'promot'
+p489
+I2
+sS'ammonium sulf'
+p490
+I1
+sS'confluenc'
+p491
+I1
+sS'of phosphatase act'
+p492
+I1
+sS'gfp-nfat transloc'
+p493
+I1
+sS'constraint'
+p494
+I1
+sS'column'
+p495
+I7
+sS'phosphate liber'
+p496
+I1
+sS'mutant rat'
+p497
+I1
+sS'contamin'
+p498
+I2
+sS'stringency wash'
+p499
+I2
+sS'nuclear transport pathway'
+p500
+I3
+sS'of steroid-responsive gen'
+p501
+I2
+sS'retention of agonist-bound gr'
+p502
+I1
+sS'\xce\xbcm oleic acid'
+p503
+I1
+sS'gr-mediat'
+p504
+I1
+sS'stratagen'
+p505
+I1
+sS'hitrap sp'
+p506
+I1
+sS'reutil'
+p507
+I1
+sS'mutant forms of pp5'
+p508
+I1
+sS'ammonium sulfate fraction'
+p509
+I2
+sS'concentrations of pp5'
+p510
+I1
+sS'physiological substrates for'
+p511
+I1
+sS'receptor'
+p512
+I6
+sS'mm dtt'
+p513
+I2
+sS'gr mutant'
+p514
+I1
+sS'edta'
+p515
+I4
+sS'maxiprep column'
+p516
+I1
+sS'dmem'
+p517
+I5
+sS'cellular roles of'
+p518
+I2
+sS'ambion'
+p519
+I2
+sS'rat glucocorticoid receptor'
+p520
+I1
+sS'transform'
+p521
+I2
+sS'intracellular receptor'
+p522
+I1
+sS'antisense treat'
+p523
+I1
+sS'nucleocytoplasmic shuttl'
+p524
+I1
+sS'fraction'
+p525
+I1
+sS'autoradiographi'
+p526
+I1
+sS'homogenates pp5'
+p527
+I1
+sS'hitrap q column'
+p528
+I1
+sS'total rna'
+p529
+I2
+sS'phosphohiston'
+p530
+I4
+sS'hr'
+p531
+I1
+sS'mm hepe'
+p532
+I2
+sS'distribution of'
+p533
+I1
+sS'of gfp-nfat'
+p534
+I1
+sS'pp7'
+p535
+I3
+sS'partitioning of gr'
+p536
+I3
+sS'-gfp express'
+p537
+I1
+sS'pp4'
+p538
+I2
+sS'gr-responsive gen'
+p539
+I1
+sS'acid okadaic acid'
+p540
+I1
+sS'acid act'
+p541
+I1
+sS'hsp40'
+p542
+I1
+sS'gfp-gr translocation cel'
+p543
+I1
+sS'absence of physiological concentr'
+p544
+I1
+sS'uv'
+p545
+I1
+sS'translocation act'
+p546
+I1
+sS'mg of'
+p547
+I2
+sS'utp'
+p548
+I1
+sS'soluble intracellular receptor'
+p549
+I1
+sS'binding complex'
+p550
+I1
+sS'dose-response studi'
+p551
+I1
+sS'complex compris'
+p552
+I1
+sS'a549 lung carcinoma cel'
+p553
+I1
+sS'cytoskeleton'
+p554
+I1
+sS'gr-hsp90-hsp70-complex'
+p555
+I1
+sS'nl'
+p556
+I1
+sS'nm'
+p557
+I6
+sS'steroid receptor'
+p558
+I1
+sS'hybrid'
+p559
+I3
+sS'liganded receptor'
+p560
+I1
+sS'graphpad softwar'
+p561
+I1
+sS'gre'
+p562
+I2
+sS'phosphoprotein substrates histon'
+p563
+I1
+sS'ionophore ionomycin'
+p564
+I1
+sS'lead compound'
+p565
+I1
+sS'for pp5'
+p566
+I2
+sS'preparation of phosphoprotein'
+p567
+I1
+sS'of agonist-bound gr'
+p568
+I1
+sS'hitrap sp column'
+p569
+I1
+sS'ammonium'
+p570
+I1
+sS'mutant rat glucocorticoid receptor'
+p571
+I1
+sS'mrna degrad'
+p572
+I1
+sS'mm edta'
+p573
+I4
+sS'half-life of'
+p574
+I1
+sS'enzym'
+p575
+I2
+sS'dupont nen'
+p576
+I1
+sS'cytoplasmic gr-gfp'
+p577
+I1
+sS'nucleu'
+p578
+I13
+sS'cell homogenates pp5'
+p579
+I1
+sS'gapdh'
+p580
+I1
+sS'cytoplasmic distribution of'
+p581
+I1
+sS'nuclear retention of agonist-bound'
+p582
+I1
+sS'nuclear retent'
+p583
+I2
+sS'dapi'
+p584
+I1
+sS'mg of histon'
+p585
+I1
+sS'degrad'
+p586
+I1
+sS'phosphat'
+p587
+I2
+sS'hormone bind'
+p588
+I1
+stp589
+Rp590
+tp591
+.

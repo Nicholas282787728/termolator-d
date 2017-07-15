@@ -1,0 +1,2054 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'for the extracellular domain of prohb-egf'
+p7
+I1
+sS'represent'
+p8
+I1
+sS'gal4 fus'
+p9
+I2
+sS'all of the calcium-binding egf-like modul'
+p10
+I1
+sS'chain'
+p11
+I2
+sS'tetraspanin protein'
+p12
+I1
+sS'egf receptor'
+p13
+I5
+sS'soluble forms of hb-egf'
+p14
+I1
+sS'dt-sensit'
+p15
+I1
+sS'carboxyl-terminal seg'
+p16
+I1
+sS'lacz'
+p17
+I1
+sS'\xce\xb2-galactosidase assay'
+p18
+I2
+sS'laminin'
+p19
+I5
+sS'amino terminal cytoplasmic domain'
+p20
+I1
+sS'genbank'
+p21
+I1
+sS'tenascin'
+p22
+I1
+sS'matrix protein'
+p23
+I5
+sS'cdna'
+p24
+I1
+sS'labeling kit'
+p25
+I1
+sS'gttgaagtgaacttgcgggg'
+p26
+I1
+sS'assay'
+p27
+I4
+sS'g2'
+p28
+I1
+sS'g1'
+p29
+I1
+sS'protein-protein interact'
+p30
+I2
+sS'host strain for clon'
+p31
+I1
+sS'heparin-binding region of'
+p32
+I2
+sS'pva3'
+p33
+I3
+sS'anaphylatoxin type i'
+p34
+I2
+sS'matrix interact'
+p35
+I1
+sS'cellular'
+p36
+I1
+sS'soluble protein'
+p37
+I1
+sS'chimeric mouse-monkey cd9 antigen'
+p38
+I1
+sS'negative control of y187'
+p39
+I1
+sS'monkey cv-1'
+p40
+I6
+sS'of fibulin-1c fus'
+p41
+I1
+sS'ltbp-3'
+p42
+I10
+sS'cv-1 cdna librari'
+p43
+I7
+sS'of fibronectin'
+p44
+I2
+sS'vector'
+p45
+I2
+sS'colony hybridization experi'
+p46
+I1
+sS'monkey ltbp-3'
+p47
+I2
+sS'trp'
+p48
+I2
+sS'extracellular ligand-binding protein'
+p49
+I1
+sS'protein-protein interactions of prohb-egf'
+p50
+I1
+sS'proteas'
+p51
+I1
+sS'screening assay'
+p52
+I1
+sS'restriction sites of pgad424'
+p53
+I1
+sS'antigen'
+p54
+I6
+sS'carboxyl-terminus of fibulin-1c'
+p55
+I2
+sS'juxtacrine growth'
+p56
+I1
+sS'egf-respons'
+p57
+I1
+sS'protein-interacting partners for the extracellular domain of prohb-egf'
+p58
+I1
+sS'fibulin-1c interact'
+p59
+I2
+sS'receptor-ligand protein-protein interact'
+p60
+I1
+sS'growth factor \xce\xb2-bind'
+p61
+I1
+sS'dt receptor'
+p62
+I2
+sS'cd9 antigen'
+p63
+I6
+sS'proteolytic cleavag'
+p64
+I2
+sS'carboxyl-terminal segment of'
+p65
+I1
+sS'cell'
+p66
+I6
+sS'of the library clon'
+p67
+I1
+sS'constrast'
+p68
+I1
+sS'key constitu'
+p69
+I1
+sS'amino termin'
+p70
+I1
+sS'mature hb-egf'
+p71
+I2
+sS'affinity for heparin'
+p72
+I1
+sS'the heparin-binding region of hb-egf'
+p73
+I1
+sS'b-cell develop'
+p74
+I1
+sS'fibronectin receptor'
+p75
+I1
+sS'cellular synthesis of'
+p76
+I1
+sS'matrix synthesi'
+p77
+I1
+sS'cellular synthesis of tgf-\xce\xb2'
+p78
+I1
+sS'two-hybrid screen'
+p79
+I3
+sS'cgaattctgcgcgccacctgctga'
+p80
+I1
+sS'numerous protein'
+p81
+I1
+sS'precursor'
+p82
+I1
+sS'extracellular matrix glycoprotein'
+p83
+I1
+sS'hybridization experi'
+p84
+I1
+sS'host'
+p85
+I1
+sS'\xce\xb2-galactosidase act'
+p86
+I6
+sS'filter pap'
+p87
+I1
+sS'soluble forms of heparin-binding epidermal growth factor-like growth'
+p88
+I1
+sS'paper assay'
+p89
+I1
+sS'filter paper assay'
+p90
+I1
+sS'of monkey fibulin-1c'
+p91
+I1
+sS'glu'
+p92
+I1
+sS'calcium-binding extracellular matrix glycoprotein'
+p93
+I1
+sS'domain plasmid'
+p94
+I1
+sS'numerous cellular'
+p95
+I1
+sS'of pgad424'
+p96
+I1
+sS'amino-terminal region of'
+p97
+I1
+sS'growth hormon'
+p98
+I1
+sS'modul'
+p99
+I33
+sS'physical interactions of prohb-egf'
+p100
+I1
+sS'representation of the cd9 cdna'
+p101
+I1
+sS'calcium-binding type ii egf-lik'
+p102
+I4
+sS'protein-3'
+p103
+I1
+sS'for heparin'
+p104
+I1
+sS'interactions of ltbp-3'
+p105
+I1
+sS'ltbp'
+p106
+I1
+sS'dna'
+p107
+I4
+sS'egf-like module bind'
+p108
+I1
+sS'precursor of hb-egf'
+p109
+I1
+sS'mature tgf-\xce\xb2'
+p110
+I1
+sS'program'
+p111
+I3
+sS'dna prob'
+p112
+I1
+sS'carboxyl termini of'
+p113
+I1
+sS'domain fus'
+p114
+I1
+sS'of the cd9 cdna'
+p115
+I1
+sS'mature protein'
+p116
+I1
+sS'egf-like module of prohb-egf'
+p117
+I1
+sS'of the tetraspanin protein'
+p118
+I1
+sS'half of'
+p119
+I1
+sS'physical association of'
+p120
+I1
+sS'numerous calcium-binding type ii'
+p121
+I1
+sS'room'
+p122
+I3
+sS'glycosaminoglycan attachment domain'
+p123
+I1
+sS'of fibulin-1c interact'
+p124
+I1
+sS'molecular biochem'
+p125
+I1
+sS'fibrillin motif'
+p126
+I1
+sS'of'
+p127
+I3
+sS'tgf-\xce\xb2 repeat'
+p128
+I1
+sS'inhibitor'
+p129
+I1
+sS'carboxyl-terminal fibulin-type modul'
+p130
+I1
+sS'\xce\xb2-galatosidase act'
+p131
+I1
+sS'of the extracellular domain of prohb-egf'
+p132
+I2
+sS'containing egf-like modul'
+p133
+I1
+sS'of exogenous heparin'
+p134
+I2
+sS'of monkey cd9'
+p135
+I2
+sS'hi restriction sites of pgbt9'
+p136
+I2
+sS'calcium-binding type ii egf-like domain'
+p137
+I1
+sS'nidogen binding sit'
+p138
+I1
+sS'yeast two-hybrid system strategi'
+p139
+I1
+sS'module of prohb-egf'
+p140
+I1
+sS'genbank access'
+p141
+I6
+sS'biglycan'
+p142
+I1
+sS'of tertiary complex'
+p143
+I3
+sS'amino acid sequence of the heparin-binding region of hb-egf'
+p144
+I1
+sS'yeast'
+p145
+I14
+sS'egf family of growth'
+p146
+I1
+sS'true positive clon'
+p147
+I1
+sS'proteoglycan'
+p148
+I3
+sS'toxin'
+p149
+I2
+sS'two-hybrid sytem'
+p150
+I1
+sS'map'
+p151
+I4
+sS'diphtheria toxin'
+p152
+I2
+sS'clone'
+p153
+I10
+sS'extracellular domain of monkey cd9'
+p154
+I2
+sS'gelatin'
+p155
+I1
+sS'mac'
+p156
+I1
+sS'taccactacaatggatg'
+p157
+I2
+sS'mac vector'
+p158
+I1
+sS'egf epitop'
+p159
+I1
+sS'the calcium-binding egf-like modul'
+p160
+I1
+sS'of hb-egf'
+p161
+I8
+sS'monkey cd9 antigen'
+p162
+I1
+sS'proteolytic processing of th'
+p163
+I1
+sS'vitronectin'
+p164
+I1
+sS'of the laminin'
+p165
+I1
+sS'y187'
+p166
+I5
+sS'bind'
+p167
+I5
+sS'soluble hb-egf'
+p168
+I1
+sS'amino acid sequence of the heparin-binding region of'
+p169
+I1
+sS'egf'
+p170
+I8
+sS'sd'
+p171
+I3
+sS'monkey dt'
+p172
+I1
+sS'constitu'
+p173
+I1
+sS'sites of pgad424'
+p174
+I1
+sS'wound heal'
+p175
+I4
+sS'bio-rad'
+p176
+I1
+sS'egf-like repeat'
+p177
+I2
+sS'growth factor act'
+p178
+I1
+sS'glycosylation sit'
+p179
+I1
+sS'coli'
+p180
+I1
+sS'amino acid sequence of'
+p181
+I1
+sS'mhb-egf'
+p182
+I10
+sS'basement membrane protein'
+p183
+I1
+sS'egf receptor protein'
+p184
+I1
+sS'coreceptor'
+p185
+I1
+sS'terminal domain'
+p186
+I1
+sS'pcr'
+p187
+I9
+sS'ptd1'
+p188
+I2
+sS'prohb-egf'
+p189
+I43
+sS'encoding prohb-egf'
+p190
+I1
+sS'monkey dt receptor'
+p191
+I1
+sS'modules of ltbp-3'
+p192
+I1
+sS'gene contain'
+p193
+I1
+sS'carboxyl-terminal domain'
+p194
+I5
+sS'the library clon'
+p195
+I1
+sS'heparin-binding domain'
+p196
+I1
+sS'auxotrophic transform'
+p197
+I1
+sS'synthesis of tgf-\xce\xb2'
+p198
+I1
+sS'yeast two-hybrid screen'
+p199
+I3
+sS'half'
+p200
+I1
+sS'bam hi'
+p201
+I6
+sS'ii egf-like domain'
+p202
+I2
+sS'carboxyl-terminal domains contain'
+p203
+I1
+sS'genbank databas'
+p204
+I3
+sS'amino terminal cytoplasmic domain of monkey cd9'
+p205
+I1
+sS'growth factor \xce\xb2-binding protein'
+p206
+I2
+sS'tgf-\xce\xb2 treatment'
+p207
+I1
+sS'calcium-binding repeat'
+p208
+I1
+sS'bond'
+p209
+I1
+sS'domain'
+p210
+I20
+sS'mammalian growth'
+p211
+I1
+sS'module bind'
+p212
+I1
+sS'membrane-bound precursor of hb-egf'
+p213
+I1
+sS'fibronectin'
+p214
+I7
+sS'coli coloni'
+p215
+I1
+sS'ex'
+p216
+I1
+sS'domain of hb-egf'
+p217
+I1
+sS'heparin-binding region of fibronectin'
+p218
+I1
+sS'the librari'
+p219
+I1
+sS'extracellular domain of'
+p220
+I26
+sS'carboxyl-terminal domain of aggrecan'
+p221
+I1
+sS'matrix'
+p222
+I8
+sS'chimeric mouse-monkey cd9'
+p223
+I1
+sS'extracellular domain of the tetraspanin protein'
+p224
+I1
+sS'develop'
+p225
+I1
+sS'affinity for'
+p226
+I2
+sS'membrane-bound precursor'
+p227
+I2
+sS'of the prohb-egf'
+p228
+I2
+sS'ri'
+p229
+I8
+sS'matric'
+p230
+I1
+sS'fiber'
+p231
+I2
+sS'carboxyl-terminal domains containing egf-like modul'
+p232
+I1
+sS'eco'
+p233
+I8
+sS'gal4-activation domain'
+p234
+I2
+sS'aggrecan'
+p235
+I5
+sS'monkey cv-1 cdna librari'
+p236
+I6
+sS'pgada424'
+p237
+I1
+sS'rie-1 cel'
+p238
+I2
+sS'heparin-binding region of th'
+p239
+I1
+sS'\xce\xb2-binding protein-3'
+p240
+I2
+sS'fibulin'
+p241
+I2
+sS'plasmid vector'
+p242
+I2
+sS'of tgf-\xce\xb2'
+p243
+I1
+sS'exogenous heparin'
+p244
+I1
+sS'vector sequence analysis program'
+p245
+I1
+sS'sytem'
+p246
+I1
+sS'cell-surface receptor for'
+p247
+I1
+sS'ccgtcgactcactcagcaggtggcgcgca'
+p248
+I1
+sS'egf-like domain of hb-egf'
+p249
+I1
+sS'carboxyl terminus of'
+p250
+I1
+sS'interactions of'
+p251
+I2
+sS'zeta prob'
+p252
+I1
+sS'amino acid sequence of th'
+p253
+I1
+sS'of cd9'
+p254
+I1
+sS'egf calcium-binding repeat'
+p255
+I1
+sS'clontech'
+p256
+I2
+sS'the tetraspanin protein'
+p257
+I1
+sS'elastin'
+p258
+I1
+sS'membrane protein'
+p259
+I1
+sS'domains containing egf-like modul'
+p260
+I1
+sS'receptor protein'
+p261
+I1
+sS'collagen'
+p262
+I2
+sS'restrict'
+p263
+I1
+sS'instruct'
+p264
+I2
+sS'of prohb-egf'
+p265
+I28
+sS'of pgada424'
+p266
+I1
+sS'membran'
+p267
+I1
+sS'egf-like module of'
+p268
+I1
+sS'facil'
+p269
+I2
+sS'fibronectin-binding sit'
+p270
+I1
+sS'gal4 fusion protein'
+p271
+I1
+sS'\xce\xb2-galactosidase activity of the librari'
+p272
+I2
+sS'domain of monkey cd9'
+p273
+I2
+sS'interact'
+p274
+I16
+sS'ltbp-3 protein'
+p275
+I1
+sS'heparin-binding egf-like growth'
+p276
+I2
+sS'termin'
+p277
+I1
+sS'biochem'
+p278
+I1
+sS'molecular'
+p279
+I1
+sS'cdna encoding prohb-egf'
+p280
+I1
+sS'adhes'
+p281
+I2
+sS'growth factors tgf-\xce\xb2'
+p282
+I1
+sS'for diphtheria toxin'
+p283
+I2
+sS'host strain'
+p284
+I1
+sS'egf-like domain'
+p285
+I3
+sS'potential protein-interacting partners for the extracellular domain of prohb-egf'
+p286
+I1
+sS'receptor for diphtheria toxin'
+p287
+I2
+sS'\xce\xb2-galactosidase activity of the library clon'
+p288
+I1
+sS'protein interact'
+p289
+I4
+sS'monkey cd9'
+p290
+I2
+sS'staphylococcu'
+p291
+I1
+sS'gal4 fusion partner protein'
+p292
+I1
+sS'\xce\xb2-galactosidase filter paper assay'
+p293
+I1
+sS'domain of prohb-egf'
+p294
+I25
+sS'calcium-dependent self-associ'
+p295
+I1
+sS'mammalian growth hormon'
+p296
+I1
+sS'physical interactions of'
+p297
+I1
+sS'probe'
+p298
+I2
+sS'interactions of prohb-egf'
+p299
+I2
+sS'plasmid'
+p300
+I1
+sS'lectin'
+p301
+I1
+sS'fibulin-1c gen'
+p302
+I1
+sS'reporter gene express'
+p303
+I1
+sS'exhibit'
+p304
+I1
+sS'the anaphylatoxin type i'
+p305
+I1
+sS'calcium-dependent bind'
+p306
+I1
+sS'of fibulin-1'
+p307
+I4
+sS'gal4 fusion partn'
+p308
+I1
+sS'cellular synthesi'
+p309
+I1
+sS'attachment domain'
+p310
+I1
+sS'carboxyl-terminus of'
+p311
+I2
+sS'bam hi restrict'
+p312
+I3
+sS'domain of mkcd9'
+p313
+I1
+sS'calcium-binding egf-like modul'
+p314
+I3
+sS'half of the anaphylatoxin type i'
+p315
+I1
+sS'egf-like domain of'
+p316
+I1
+sS'extracellular matrix'
+p317
+I8
+sS'carboxyl-terminal segment of th'
+p318
+I1
+sS'ltbp-3 probe'
+p319
+I1
+sS'matrix fib'
+p320
+I1
+sS'saran wrap'
+p321
+I1
+sS'two-hybrid system strategi'
+p322
+I1
+sS'cdna insert'
+p323
+I1
+sS'gene express'
+p324
+I1
+sS'extracellular matric'
+p325
+I1
+sS'potential protein-interacting partners for the extracellular domain'
+p326
+I1
+sS'gal4'
+p327
+I1
+sS'egf-like modules of'
+p328
+I2
+sS'of the calcium-binding egf-like modul'
+p329
+I1
+sS'glycin'
+p330
+I1
+sS'cysteine residu'
+p331
+I1
+sS'gal4 dna'
+p332
+I1
+sS'nidogen binding site of'
+p333
+I1
+sS'hydroxyl'
+p334
+I1
+sS'ligand-binding protein'
+p335
+I1
+sS'regulatory protein-like modul'
+p336
+I1
+sS'transcript'
+p337
+I1
+sS'kb dna'
+p338
+I1
+sS'synthesi'
+p339
+I1
+sS'of fibulin-1c'
+p340
+I2
+sS'containing domain'
+p341
+I1
+sS'pgad424'
+p342
+I4
+sS'hi'
+p343
+I3
+sS'databas'
+p344
+I3
+sS'sigma'
+p345
+I1
+sS'restriction sites of'
+p346
+I1
+sS'tissu'
+p347
+I2
+sS'latency-associated peptid'
+p348
+I2
+sS'protein-like modul'
+p349
+I1
+sS'nidogen binding site of fibulin-1c'
+p350
+I1
+sS'ltbp protein'
+p351
+I1
+sS'affin'
+p352
+I2
+sS'observations of'
+p353
+I1
+sS'tgf-\xce\xb2'
+p354
+I16
+sS'fibulin-1c fus'
+p355
+I1
+sS'egf-modules contain'
+p356
+I1
+sS'pgbt9'
+p357
+I9
+sS'activity of the librari'
+p358
+I1
+sS'latent'
+p359
+I1
+sS'egf-modul'
+p360
+I1
+sS'core glycosaminoglycan attach'
+p361
+I1
+sS'juxtacrine growth factor act'
+p362
+I1
+sS'activ'
+p363
+I7
+sS'colony dna'
+p364
+I1
+sS'heparan-sulfate proteoglycan'
+p365
+I1
+sS'cytoplasmic domain of prohb-egf'
+p366
+I1
+sS'extracellular'
+p367
+I1
+sS'of the heparin-binding region of hb-egf'
+p368
+I2
+sS'extracellular matrix interact'
+p369
+I1
+sS'express'
+p370
+I2
+sS'potential protein-interacting partners for'
+p371
+I1
+sS'fusion partner protein'
+p372
+I1
+sS'bam hi restriction sites of'
+p373
+I3
+sS'i-iii'
+p374
+I1
+sS'nidogen'
+p375
+I4
+sS'\xce\xb2-galactosidas'
+p376
+I1
+sS'report'
+p377
+I2
+sS'dt'
+p378
+I5
+sS'carboxyl termini of cd9'
+p379
+I1
+sS'cd9'
+p380
+I5
+sS'platelet activ'
+p381
+I1
+sS'amino terminal cytoplasm'
+p382
+I1
+sS'calcium-binding type egf-like modul'
+p383
+I2
+sS'ii egf-lik'
+p384
+I2
+sS'carboxyl terminu'
+p385
+I1
+sS'cerevisiae strains y187'
+p386
+I1
+sS'monom'
+p387
+I1
+sS'paper'
+p388
+I1
+sS'carboxyl termini'
+p389
+I1
+sS'contain'
+p390
+I1
+sS'carboxyl terminus of monkey fibulin-1c'
+p391
+I1
+sS'amino terminal cytoplasmic domain of'
+p392
+I1
+sS'bam hi restriction sites of pgada424'
+p393
+I1
+sS'cell line rie-1 cel'
+p394
+I1
+sS'mkhb-egf'
+p395
+I2
+sS'mac vector sequence analysis program'
+p396
+I1
+sS'multim'
+p397
+I1
+sS'coreceptor for'
+p398
+I1
+sS'bam'
+p399
+I6
+sS'domain g2 of nidogen'
+p400
+I1
+sS'bam hi restriction sites of pgbt9'
+p401
+I2
+sS'soluble forms of heparin-binding epidermal growth'
+p402
+I1
+sS'heparin-binding region of hb-egf'
+p403
+I1
+sS'egf-lik'
+p404
+I5
+sS'latent complex'
+p405
+I1
+sS'cell line rie-1'
+p406
+I1
+sS'sites of pgada424'
+p407
+I1
+sS'numerous calcium-binding type ii egf-like modul'
+p408
+I1
+sS'mouse-monkey cd9 antigen'
+p409
+I1
+sS'reporter gene transcript'
+p410
+I1
+sS'label'
+p411
+I1
+sS'activity of the library clon'
+p412
+I1
+sS'colony hybrid'
+p413
+I4
+sS'monkey fibulin-1c'
+p414
+I3
+sS'of the anaphylatoxin type i'
+p415
+I1
+sS'experi'
+p416
+I1
+sS'library clon'
+p417
+I4
+sS'perlecan'
+p418
+I1
+sS'human ltbp-3'
+p419
+I1
+sS'cd9 protein'
+p420
+I1
+sS'calcium-binding type ii'
+p421
+I8
+sS'screen'
+p422
+I4
+sS'prohb-egfex'
+p423
+I4
+sS'egf famili'
+p424
+I1
+sS'plasmids ptd1'
+p425
+I1
+sS'fibulin-1'
+p426
+I20
+sS'tgf-\xce\xb2 cell-surface receptor'
+p427
+I2
+sS'amino acid residu'
+p428
+I5
+sS'exhibit calcium-dependent self-associ'
+p429
+I1
+sS'cell-surface molecul'
+p430
+I1
+sS'bind collagen'
+p431
+I1
+sS'tertiary complex'
+p432
+I1
+sS'epitop'
+p433
+I1
+sS'potential true positive clon'
+p434
+I1
+sS'stratagene crosslink'
+p435
+I1
+sS'potential protein-interacting partners for th'
+p436
+I1
+sS'carboxyl domain'
+p437
+I1
+sS'soluble forms of'
+p438
+I2
+sS'reporter gen'
+p439
+I2
+sS'residu'
+p440
+I6
+sS'strategi'
+p441
+I2
+sS'purif'
+p442
+I1
+sS'cytoplasmic domain of'
+p443
+I1
+sS'extracellular domain of mkcd9'
+p444
+I1
+sS'amino'
+p445
+I1
+sS'versican'
+p446
+I3
+sS'protease inhibitor'
+p447
+I1
+sS'intracellular'
+p448
+I1
+sS'vascular endothelial growth'
+p449
+I1
+sS'core glycosaminoglycan attachment domain'
+p450
+I1
+sS'core glycosaminoglycan'
+p451
+I1
+sS'interactions of hb-egf'
+p452
+I1
+sS'cdna librari'
+p453
+I13
+sS'cytoplasmic domain of monkey cd9'
+p454
+I1
+sS'two-hybrid fus'
+p455
+I1
+sS'extracellular matrix protein'
+p456
+I4
+sS'egf family of'
+p457
+I1
+sS'egf-like modules of fibulin-1c interact'
+p458
+I1
+sS'cell motil'
+p459
+I1
+sS'termini of cd9'
+p460
+I1
+sS'bulu'
+p461
+I1
+sS'lift'
+p462
+I1
+sS'tcggcactggtggaattcgagagcctggag'
+p463
+I1
+sS'fibulin-type modul'
+p464
+I1
+sS'align'
+p465
+I2
+sS'metastasi'
+p466
+I1
+sS'calcium'
+p467
+I2
+sS'gene transcript'
+p468
+I1
+sS'cell-surface receptor for diphtheria toxin'
+p469
+I1
+sS'observ'
+p470
+I2
+sS'segment of the laminin'
+p471
+I1
+sS'motif'
+p472
+I1
+sS'protein fib'
+p473
+I1
+sS'matrix glycoprotein'
+p474
+I1
+sS'site'
+p475
+I5
+sS'motil'
+p476
+I1
+sS'x-ray film'
+p477
+I1
+sS'strain'
+p478
+I1
+sS'ccgtcgactcagagctctgcagacacaaa'
+p479
+I1
+sS'observations of hb-egf'
+p480
+I1
+sS'protein'
+p481
+I42
+sS'self-association sit'
+p482
+I1
+sS'dt-sensitive transfected mouse fibroblast cel'
+p483
+I1
+sS'epidermal growth'
+p484
+I1
+sS'fibronectin-containing matrix fib'
+p485
+I1
+sS'sites of pgbt9'
+p486
+I2
+sS'hb-egf'
+p487
+I18
+sS'soluble mhb-egf'
+p488
+I1
+sS'dt-sensitive transfected mous'
+p489
+I1
+sS'complex'
+p490
+I2
+sS'terminal cytoplasmic domain of monkey cd9'
+p491
+I1
+sS'carboxyl-terminal domain of'
+p492
+I2
+sS'the laminin'
+p493
+I1
+sS'subunit'
+p494
+I2
+sS'zeta probe membran'
+p495
+I1
+sS'development'
+p496
+I1
+sS'mkhb-egf ex'
+p497
+I1
+sS'cgcggatcctcaacacacataggagccctgaag'
+p498
+I1
+sS'\xce\xb2-galactosidase activity of'
+p499
+I2
+sS'kit'
+p500
+I1
+sS'fuse'
+p501
+I2
+sS'cerevisiae strain'
+p502
+I1
+sS'gene'
+p503
+I2
+sS'the extracellular domain of prohb-egf'
+p504
+I2
+sS'i'
+p505
+I2
+sS'cell-surface receptor'
+p506
+I4
+sS'gal4 subunit'
+p507
+I1
+sS'proteolytic processing of the prohb-egf'
+p508
+I1
+sS'acid'
+p509
+I7
+sS'domain of the tetraspanin protein'
+p510
+I1
+sS'staphylococcus aureu'
+p511
+I1
+sS'strain for clon'
+p512
+I1
+sS'bam hi restriction sit'
+p513
+I3
+sS'cell-surface cd9 antigen'
+p514
+I1
+sS'protocol'
+p515
+I1
+sS'self-associ'
+p516
+I1
+sS'librari'
+p517
+I16
+sS'non egf-like modul'
+p518
+I2
+sS'affinity for dt'
+p519
+I1
+sS'mkcd9'
+p520
+I1
+sS'fibrin'
+p521
+I1
+sS'acid residu'
+p522
+I5
+sS'human'
+p523
+I1
+sS'dt-sensitive cel'
+p524
+I1
+sS'yeast two-hybrid sytem'
+p525
+I1
+sS'dtrex'
+p526
+I1
+sS'binding site of fibulin-1c'
+p527
+I1
+sS'\xce\xb2-binding protein'
+p528
+I4
+sS'prohb-egf map'
+p529
+I1
+sS'protein-protein interactions of'
+p530
+I1
+sS'blot'
+p531
+I2
+sS'modules of fibulin-1c interact'
+p532
+I1
+sS'restriction sit'
+p533
+I1
+sS'fibrillin monom'
+p534
+I1
+sS'cdna library clon'
+p535
+I1
+sS'treatment'
+p536
+I1
+sS'disulfide bond'
+p537
+I1
+sS'bind heparin'
+p538
+I1
+sS'of monkey cd9 antigen'
+p539
+I1
+sS'of mkcd9'
+p540
+I1
+sS'physical associ'
+p541
+I1
+sS'the prohb-egf'
+p542
+I1
+sS'egf-like modules of fibulin-1c'
+p543
+I1
+sS'molecul'
+p544
+I2
+sS'physical association of mhb-egf'
+p545
+I1
+sS'\xce\xb2-galactosidase filter pap'
+p546
+I1
+sS'fusion'
+p547
+I3
+sS'acetate protocol'
+p548
+I1
+sS'terminus of monkey fibulin-1c'
+p549
+I1
+sS'insert'
+p550
+I2
+sS'two-hybrid fusion protein'
+p551
+I1
+sS'of pgbt9'
+p552
+I2
+sS'\xce\xb2-galactosidase activity of th'
+p553
+I2
+sS'extracellular domain of prohb-egf'
+p554
+I24
+sS'aureu'
+p555
+I1
+sS'carboxyl-terminal domain of fibulin-1'
+p556
+I1
+sS'lithium acetate protocol'
+p557
+I1
+sS'cloned insert'
+p558
+I1
+sS'receptor for'
+p559
+I1
+sS'potential protein-interacting partn'
+p560
+I1
+sS'large latent complex'
+p561
+I1
+sS'glycoprotein'
+p562
+I3
+sS'extracellular domain of th'
+p563
+I1
+sS'cdna clon'
+p564
+I1
+sS'cell metastasi'
+p565
+I1
+sS'a-d'
+p566
+I1
+sS'y190'
+p567
+I2
+sS'bp p'
+p568
+I1
+sS'amino-terminal region of fibulin-1'
+p569
+I1
+sS'representation of'
+p570
+I1
+sS'extracellular protein'
+p571
+I3
+sS'of the librari'
+p572
+I1
+sS'membrane-bound prohb-egf'
+p573
+I1
+sS'cd9 cdna'
+p574
+I1
+sS'cytoplasmic domain'
+p575
+I1
+sS'ii egf-like modul'
+p576
+I14
+sS'transmembrane domain'
+p577
+I1
+sS'carboxyl-terminal segment of the laminin'
+p578
+I1
+sS'coloni'
+p579
+I11
+sS'heterotypic interact'
+p580
+I1
+sS'of nidogen'
+p581
+I1
+sS'fibulin-1c'
+p582
+I11
+sS'of y187'
+p583
+I5
+sS'cleavag'
+p584
+I2
+sS'core'
+p585
+I1
+sS'colony blot'
+p586
+I2
+sS'carboxyl-terminus of fibulin-1c fus'
+p587
+I1
+sS'restriction sites of pgada424'
+p588
+I1
+sS'probe membran'
+p589
+I1
+sS'hormon'
+p590
+I1
+sS'domain g1'
+p591
+I1
+sS'domain g2'
+p592
+I2
+sS'calcium-binding type ii egf-like modul'
+p593
+I7
+sS'hi restriction sites of pgada424'
+p594
+I1
+sS'coreceptor for dt'
+p595
+I1
+sS'partners for the extracellular domain of prohb-egf'
+p596
+I1
+sS'heparin'
+p597
+I5
+sS'g2 of nidogen'
+p598
+I1
+sS'terminal domain of fibulin-1'
+p599
+I1
+sS'cacagccaggatggatccatggtcataggt'
+p600
+I1
+sS'fusion protein'
+p601
+I5
+sS'tumor'
+p602
+I1
+sS'protective large latent complex'
+p603
+I1
+sS'cryptic sit'
+p604
+I1
+sS'amino acid'
+p605
+I11
+sS'thrombospondin'
+p606
+I1
+sS'film'
+p607
+I1
+sS'cell-surfac'
+p608
+I1
+sS'site of fibulin-1c'
+p609
+I1
+sS'of mhb-egf'
+p610
+I1
+sS'receptor'
+p611
+I11
+sS'membrane-bound'
+p612
+I1
+sS'extracellular matrix synthesi'
+p613
+I1
+sS'wrap'
+p614
+I1
+sS'prodelhb-egf'
+p615
+I4
+sS'basement membran'
+p616
+I1
+sS'prolactin'
+p617
+I1
+sS'monkey prohb-egf'
+p618
+I2
+sS'c-type lectin'
+p619
+I1
+sS'file fibulin-1'
+p620
+I1
+sS'transform'
+p621
+I1
+sS'of aggrecan'
+p622
+I1
+sS'association of mhb-egf'
+p623
+I1
+sS'numerous tissu'
+p624
+I1
+sS'host strain for'
+p625
+I1
+sS'terminal domain of'
+p626
+I1
+sS'restriction sites of pgbt9'
+p627
+I2
+sS'non egf-like domain'
+p628
+I1
+sS'half of th'
+p629
+I1
+sS'heal'
+p630
+I2
+sS'domain of fibulin-1'
+p631
+I2
+sS'egf-like modules of ltbp-3'
+p632
+I1
+sS'wound sit'
+p633
+I1
+sS'cell adhes'
+p634
+I1
+sS'link'
+p635
+I1
+sS'kb dna prob'
+p636
+I1
+sS'possibl'
+p637
+I1
+sS'fibronectin repeat'
+p638
+I1
+sS'access'
+p639
+I6
+sS'pgad10'
+p640
+I1
+sS'growth'
+p641
+I7
+sS'cell-surface cd9'
+p642
+I1
+sS'heparin-binding region of the extracellular domain of prohb-egf'
+p643
+I1
+sS'x-ray'
+p644
+I1
+sS'extracellular domain'
+p645
+I31
+sS'partner protein'
+p646
+I1
+sS'membrane-bound precursor of'
+p647
+I1
+sS'extracellular domain of monkey cd9 antigen'
+p648
+I1
+sS'latent tgf-\xce\xb2'
+p649
+I1
+sS'physical link'
+p650
+I1
+sS'file'
+p651
+I13
+sS'cgaattctatctgaatgaccgctgc'
+p652
+I1
+sS'domain g2 of'
+p653
+I1
+sS'representation of th'
+p654
+I1
+sS'colony lift'
+p655
+I1
+sS'negative control of'
+p656
+I1
+sS'for dt'
+p657
+I2
+sS'hybrid'
+p658
+I3
+sS'strains y187'
+p659
+I1
+sS'of ltbp-3'
+p660
+I2
+sS'potential protein-interacting partners for the extracellular domain of'
+p661
+I1
+sS'eco ri'
+p662
+I8
+sS'dna sequencing facil'
+p663
+I1
+sS'domain of aggrecan'
+p664
+I1
+sS'repeat'
+p665
+I5
+sS'nidogen1'
+p666
+I1
+sS'extracellular domain of monkey'
+p667
+I1
+sS'gene containing domain'
+p668
+I1
+sS'molecular interact'
+p669
+I1
+sS'crosslink'
+p670
+I1
+sS'proteolytic processing of'
+p671
+I1
+sS'domain of monkey cd9 antigen'
+p672
+I1
+sS'basement'
+p673
+I1
+sS'egf-like modul'
+p674
+I36
+sS'the cd9 cdna'
+p675
+I1
+sS'peptid'
+p676
+I2
+sS'heparin-binding region of the extracellular domain'
+p677
+I1
+sS'physical interact'
+p678
+I2
+sS'dt-sensitive transfected mouse fibroblast'
+p679
+I1
+sS'hb-egf express'
+p680
+I1
+sS'acid sequence of the heparin-binding region of hb-egf'
+p681
+I1
+sS'monkey fibulin'
+p682
+I1
+sS'growth factor \xce\xb2-binding protein-3'
+p683
+I1
+sS'for clon'
+p684
+I1
+sS'heparin-binding region of the extracellular domain of'
+p685
+I1
+stp686
+Rp687
+tp688
+.

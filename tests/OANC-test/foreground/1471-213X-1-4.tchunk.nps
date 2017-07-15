@@ -1,0 +1,1082 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'detecting eyfp'
+p7
+I1
+sS'ecfp cdna'
+p8
+I1
+sS'ecfp reporter strain'
+p9
+I1
+sS'probe'
+p10
+I1
+sS'kb targeted band'
+p11
+I1
+sS'ex436'
+p12
+I1
+sS'klenow'
+p13
+I5
+sS'recombin'
+p14
+I2
+sS'cre-mediated excision of a stop'
+p15
+I1
+sS'mouse strain'
+p16
+I1
+sS'lacz'
+p17
+I5
+sS'ecori sit'
+p18
+I1
+sS'tissue-specific cre strain'
+p19
+I1
+sS'es cells jm-1 '
+p20
+I1
+sS'isl-1'
+p21
+I1
+sS'original rosa26 lacz promoter trap strain'
+p22
+I1
+sS'restriction digest'
+p23
+I1
+sS'knockout allel'
+p24
+I1
+sS'plasmid pbigt'
+p25
+I1
+sS'sensory ganglia'
+p26
+I1
+sS'ecorv sit'
+p27
+I1
+sS'unfixed embryonic tissu'
+p28
+I1
+sS'cre expressing strain'
+p29
+I1
+sS'for ecfp'
+p30
+I2
+sS'cdna'
+p31
+I1
+sS'digit'
+p32
+I1
+sS'restriction sites for xhoi'
+p33
+I1
+sS'cre-mediated excis'
+p34
+I4
+sS'emission spectra of'
+p35
+I1
+sS'cover glass'
+p36
+I1
+sS'gfp reporter strain'
+p37
+I1
+sS'yfp'
+p38
+I2
+sS'ires cre sv40 pa'
+p39
+I1
+sS'report'
+p40
+I5
+sS'bovine growth'
+p41
+I2
+sS'target'
+p42
+I1
+sS'isl1-cr'
+p43
+I2
+sS'\xce\xb2-actin-cre transgenic mic'
+p44
+I1
+sS'psa\xce\xb2geo'
+p45
+I1
+sS'plasmid psa\xce\xb2geo'
+p46
+I1
+sS'es cells jm-1 es cel'
+p47
+I1
+sS'of neuron'
+p48
+I1
+sS'yield'
+p49
+I1
+sS'vector'
+p50
+I7
+sS'cre'
+p51
+I10
+sS'cmv'
+p52
+I1
+sS'cassette coating ires cre sv40'
+p53
+I1
+sS'librari'
+p54
+I1
+sS'cre-mediated excision of'
+p55
+I2
+sS'cre reporter allel'
+p56
+I1
+sS'tissue-tek'
+p57
+I1
+sS'sv genomic librari'
+p58
+I1
+sS'sv40 pa'
+p59
+I1
+sS'eyfp'
+p60
+I15
+sS'dna arm'
+p61
+I1
+sS'or cyan fluorescent protein'
+p62
+I1
+sS'arm'
+p63
+I3
+sS'cfp'
+p64
+I2
+sS'gene express'
+p65
+I1
+sS'filter sets for ecfp'
+p66
+I1
+sS'detect'
+p67
+I1
+sS'excis'
+p68
+I1
+sS'cre-mediated excision of th'
+p69
+I1
+sS'cell'
+p70
+I8
+sS'loxp-flank'
+p71
+I1
+sS'ecfp'
+p72
+I16
+sS'for the external prob'
+p73
+I1
+sS'external prob'
+p74
+I1
+sS'neo-tpa cassett'
+p75
+I1
+sS'ecorv'
+p76
+I1
+sS'cassette coating ires cre sv40 pa'
+p77
+I1
+sS'transgenic offspr'
+p78
+I1
+sS'rosa26 lacz promoter trap strain'
+p79
+I1
+sS'kpni'
+p80
+I2
+sS'nikon epifluorescence microscope fit'
+p81
+I1
+sS'original rosa26'
+p82
+I1
+sS'flanked neo cassett'
+p83
+I1
+sS'similar cre report'
+p84
+I1
+sS'cell-specific patterns of isl1'
+p85
+I1
+sS'isl1-cre mic'
+p86
+I2
+sS'the external prob'
+p87
+I1
+sS'ubiquitous express'
+p88
+I2
+sS'adenovirus splice acceptor'
+p89
+I1
+sS'cre report'
+p90
+I3
+sS'gene'
+p91
+I2
+sS'genomic southern'
+p92
+I1
+sS'pbigt'
+p93
+I3
+sS'chroma filter sets for ecfp'
+p94
+I1
+sS'color'
+p95
+I1
+sS'dorsal root ganglia'
+p96
+I1
+sS'reporter allel'
+p97
+I1
+sS'egfp'
+p98
+I4
+sS'template for the external prob'
+p99
+I1
+sS'fashion'
+p100
+I1
+sS'motor'
+p101
+I2
+sS'recombinase act'
+p102
+I2
+sS'coloni'
+p103
+I1
+sS'expressing strain'
+p104
+I1
+sS'dna'
+p105
+I3
+sS'apai'
+p106
+I2
+sS'klenow fil'
+p107
+I1
+sS'autofluorescent protein'
+p108
+I1
+sS'chroma'
+p109
+I1
+sS'bigt'
+p110
+I1
+sS'pb'
+p111
+I7
+sS'pa'
+p112
+I1
+sS'genomic southern blot'
+p113
+I1
+sS'trap strain'
+p114
+I1
+sS'cassette co'
+p115
+I1
+sS'motor neuron'
+p116
+I2
+sS'bovine growth hormone polyadenyl'
+p117
+I2
+sS'cre mic'
+p118
+I2
+sS'neuron'
+p119
+I3
+sS'promoter trap strain'
+p120
+I1
+sS'ubiquitous expression of'
+p121
+I2
+sS'nikon'
+p122
+I1
+sS'sites for xhoi'
+p123
+I1
+sS'ex500'
+p124
+I1
+sS'prosa26-1'
+p125
+I1
+sS'room'
+p126
+I1
+sS'mc'
+p127
+I5
+sS'ecfp report'
+p128
+I1
+sS'gfp ex500'
+p129
+I1
+sS'cranial sensory ganglia'
+p130
+I1
+sS'trimer of'
+p131
+I1
+sS'cre strain'
+p132
+I1
+sS'template for'
+p133
+I1
+sS'root'
+p134
+I1
+sS'paci'
+p135
+I5
+sS'en-1'
+p136
+I1
+sS'jm-1 es cel'
+p137
+I1
+sS'reporter protein'
+p138
+I1
+sS'restriction sites for'
+p139
+I1
+sS'of the isl1-cre mous'
+p140
+I1
+sS'transgenic embryo'
+p141
+I1
+sS'restriction enzym'
+p142
+I1
+sS'site'
+p143
+I13
+sS'templat'
+p144
+I1
+sS'cre-dependent lacz report'
+p145
+I1
+sS'strain'
+p146
+I13
+sS'cyan fluorescent protein'
+p147
+I1
+sS'locu'
+p148
+I7
+sS'coating ires cre sv40 pa'
+p149
+I1
+sS'protein'
+p150
+I5
+sS'loxp flanked neo cassett'
+p151
+I1
+sS'lacz express'
+p152
+I3
+sS'expression cassett'
+p153
+I2
+sS'cell-specific patterns of'
+p154
+I1
+sS'es cel'
+p155
+I6
+sS'sectioned tissu'
+p156
+I1
+sS'southern blot'
+p157
+I1
+sS'of th'
+p158
+I1
+sS'embryogenesi'
+p159
+I1
+sS'ligat'
+p160
+I1
+sS'toxin'
+p161
+I1
+sS'of cr'
+p162
+I2
+sS'mid-hindbrain junct'
+p163
+I2
+sS'diphtheria toxin'
+p164
+I1
+sS'gel purifi'
+p165
+I1
+sS'conditional knockout allel'
+p166
+I1
+sS'reporter mic'
+p167
+I2
+sS'southern'
+p168
+I1
+sS'chroma filt'
+p169
+I1
+sS'xbai'
+p170
+I1
+sS'ecfp express'
+p171
+I1
+sS'genomic librari'
+p172
+I1
+sS'cre reporter strain'
+p173
+I3
+sS'floxed neo-tpa'
+p174
+I1
+sS'genomic southern blot hybrid'
+p175
+I1
+sS'lim domain'
+p176
+I2
+sS'\xce\xb2-actin promot'
+p177
+I1
+sS'fluorescence intens'
+p178
+I1
+sS'lineage trac'
+p179
+I1
+sS'isl1'
+p180
+I5
+sS'quantum yield'
+p181
+I1
+sS'lacz promoter trap strain'
+p182
+I1
+sS'paraformaldehyd'
+p183
+I1
+sS'of isl1'
+p184
+I4
+sS'sa'
+p185
+I1
+sS'purifi'
+p186
+I1
+sS'trimer of th'
+p187
+I1
+sS'bigt digest'
+p188
+I1
+sS'pecfp'
+p189
+I1
+sS'nikon epifluorescence microscop'
+p190
+I1
+sS'root ganglia'
+p191
+I1
+sS'stratagen'
+p192
+I1
+sS'activ'
+p193
+I2
+sS'cre-mediated excision of the floxed termin'
+p194
+I1
+sS'the isl1-cre mouse strain'
+p195
+I1
+sS'ubiquitous expression of eyfp'
+p196
+I2
+sS'template for th'
+p197
+I1
+sS'dorsal root'
+p198
+I2
+sS'digest'
+p199
+I3
+sS'lacz reporter strain'
+p200
+I1
+sS'paci sit'
+p201
+I3
+sS'neo expression cassett'
+p202
+I1
+sS'fit'
+p203
+I1
+sS'pcr'
+p204
+I1
+sS'genomic dna arm'
+p205
+I1
+sS'multiple cloning sit'
+p206
+I1
+sS'cre recombinas'
+p207
+I2
+sS'lim domain of'
+p208
+I2
+sS'es cells jm-1'
+p209
+I1
+sS'final targeting vector'
+p210
+I1
+sS'ganglia'
+p211
+I2
+sS'original rosa26 lacz promoter trap'
+p212
+I1
+sS'cutter'
+p213
+I3
+sS'diagnostic pcr'
+p214
+I1
+sS'xhoi'
+p215
+I3
+sS'of eyfp'
+p216
+I4
+sS'anim'
+p217
+I1
+sS'junction'
+p218
+I2
+sS'of the isl1-cre mouse strain'
+p219
+I2
+sS'neo-tpa'
+p220
+I1
+sS'spectra of eyfp'
+p221
+I1
+sS'gfp report'
+p222
+I1
+sS'band'
+p223
+I3
+sS'exon'
+p224
+I2
+sS'lacz gen'
+p225
+I1
+sS'reporter strain'
+p226
+I8
+sS'for xhoi'
+p227
+I1
+sS'bpa'
+p228
+I1
+sS'chimeric mic'
+p229
+I2
+sS'lim domain of isl1'
+p230
+I2
+sS'chroma filter sets for'
+p231
+I1
+sS'emission spectra'
+p232
+I1
+sS'yellow or'
+p233
+I1
+sS'genom'
+p234
+I1
+sS'cre-dependent lacz reporter strain'
+p235
+I1
+sS'subset'
+p236
+I1
+sS'subsets of'
+p237
+I1
+sS'expression of eyfp'
+p238
+I4
+sS'cre sv40 pa'
+p239
+I1
+sS'gfp'
+p240
+I5
+sS'stage embryo'
+p241
+I1
+sS'rosa26 locu'
+p242
+I1
+sS'somite stage embryo'
+p243
+I1
+sS'heterozyg'
+p244
+I1
+sS'sucros'
+p245
+I4
+sS'event'
+p246
+I1
+sS'es'
+p247
+I5
+sS'feeder cel'
+p248
+I1
+sS'fluorescent protein'
+p249
+I2
+sS'restriction enzymes nhei'
+p250
+I1
+sS'targeting vector'
+p251
+I4
+sS'xbai sit'
+p252
+I1
+sS'\xce\xb2actin-cr'
+p253
+I1
+sS'transcriptional stop'
+p254
+I1
+sS'gfp ex436'
+p255
+I1
+sS'cre recombinase act'
+p256
+I1
+sS'cells jm-1 es cel'
+p257
+I1
+sS'original rosa26 lacz promot'
+p258
+I1
+sS'transgenic anim'
+p259
+I1
+sS'variant'
+p260
+I1
+sS'engrailed-1'
+p261
+I1
+sS'isl1-cre mouse strain'
+p262
+I1
+sS'kb target'
+p263
+I1
+sS'rosa26'
+p264
+I1
+sS'lineag'
+p265
+I2
+sS'southern blot hybrid'
+p266
+I2
+sS'color vari'
+p267
+I1
+sS'\xce\xbcg'
+p268
+I1
+sS'of'
+p269
+I2
+sS'transgenic mic'
+p270
+I2
+sS'\xce\xbcm'
+p271
+I1
+sS'filter'
+p272
+I1
+sS'intens'
+p273
+I1
+sS'somite stag'
+p274
+I1
+sS'homozygous mic'
+p275
+I1
+sS'floxed stop'
+p276
+I1
+sS'embryo'
+p277
+I5
+sS'trimer of the sv40'
+p278
+I1
+sS'acci'
+p279
+I1
+sS'target locu'
+p280
+I1
+sS'cre-expressing transgenic mic'
+p281
+I1
+sS'saci'
+p282
+I1
+sS'epifluorescence microscope fit'
+p283
+I1
+sS'restrict'
+p284
+I3
+sS'cre- loxp sit'
+p285
+I1
+sS'rosa26 targeting vector'
+p286
+I1
+sS'recombinas'
+p287
+I2
+sS'rosa26 target'
+p288
+I1
+sS'peyfp-n1'
+p289
+I1
+sS'loxp sit'
+p290
+I4
+sS'swai'
+p291
+I2
+sS'cassett'
+p292
+I5
+sS'pbigt plasmid'
+p293
+I1
+sS'genomic dna'
+p294
+I1
+sS'restriction sit'
+p295
+I1
+sS'enzymes nhei'
+p296
+I1
+sS'microscope fit'
+p297
+I1
+sS'sali'
+p298
+I2
+sS'neo cassett'
+p299
+I1
+sS'offspr'
+p300
+I1
+sS'asci'
+p301
+I2
+sS'tissu'
+p302
+I4
+sS'mice'
+p303
+I14
+sS'pgkneotpalox2'
+p304
+I1
+sS'lim'
+p305
+I3
+sS'photograph'
+p306
+I1
+sS'pgk-neomycin'
+p307
+I1
+sS'cassette coating ires cr'
+p308
+I1
+sS'heterozygous isl1-cre mic'
+p309
+I1
+sS'heterozygous isl1-cr'
+p310
+I1
+sS'tissue-specific fashion'
+p311
+I1
+sS'express'
+p312
+I8
+sS'tissue-specif'
+p313
+I1
+sS'sacii'
+p314
+I2
+sS'plasmid'
+p315
+I10
+sS'cloning sit'
+p316
+I1
+sS'embryonic tissu'
+p317
+I1
+sS'domain of isl1'
+p318
+I2
+sS'unfixed embryo'
+p319
+I1
+sS'emission spectra of eyfp'
+p320
+I1
+sS'homeodomain protein'
+p321
+I1
+sS'linker'
+p322
+I2
+sS'trimer'
+p323
+I1
+sS'neo express'
+p324
+I1
+sS'desicc'
+p325
+I1
+sS'agei'
+p326
+I1
+sS'cultur'
+p327
+I1
+sS'bovine growth hormon'
+p328
+I2
+sS'allel'
+p329
+I4
+sS'plasmids peyfp-n1'
+p330
+I1
+sS'fill'
+p331
+I1
+sS'lif'
+p332
+I1
+sS'nhei'
+p333
+I1
+sS'asci sit'
+p334
+I2
+sS'green fluorescent protein'
+p335
+I1
+sS'hybrid'
+p336
+I2
+sS'subsets of neuron'
+p337
+I1
+sS'trimer of the sv40 polyadenyl'
+p338
+I1
+sS'targeted band'
+p339
+I1
+sS'excision ev'
+p340
+I1
+sS'noti'
+p341
+I3
+sS'similar cre reporter strain'
+p342
+I1
+sS'blot hybrid'
+p343
+I2
+sS'trace'
+p344
+I1
+sS'cassette coating ir'
+p345
+I1
+sS'expression of'
+p346
+I1
+sS'electropor'
+p347
+I2
+sS'ap reporter strain'
+p348
+I1
+sS'transcript'
+p349
+I2
+sS'ppacsa digest'
+p350
+I1
+sS'phosphatase express'
+p351
+I1
+sS'homologous recombin'
+p352
+I1
+sS'kb'
+p353
+I3
+sS'tpa'
+p354
+I2
+sS'glass'
+p355
+I1
+sS'plasmid pgkneotpalox2'
+p356
+I1
+sS'cover'
+p357
+I1
+sS'floxed neo-tpa cassett'
+p358
+I1
+sS'cre-mediated excision ev'
+p359
+I1
+sS'vectashield'
+p360
+I1
+sS'yellow or cyan fluorescent protein'
+p361
+I1
+stp362
+Rp363
+tp364
+.

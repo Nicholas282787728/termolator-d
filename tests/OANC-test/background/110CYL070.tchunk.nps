@@ -1,0 +1,80 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'workforc'
+p7
+I1
+sS'goodwil'
+p8
+I2
+sS'welfare cycl'
+p9
+I1
+sS'assist'
+p10
+I1
+sS'tax'
+p11
+I2
+sS'donat'
+p12
+I1
+sS'cycl'
+p13
+I1
+sS'tax pay'
+p14
+I1
+sS'public assist'
+p15
+I1
+sS'welfare depend'
+p16
+I1
+sS'welfar'
+p17
+I2
+sS'depend'
+p18
+I1
+sS'mental dis'
+p19
+I1
+sS'payer'
+p20
+I1
+sS'donation today'
+p21
+I1
+sS'mailhous'
+p22
+I1
+sS'dollar'
+p23
+I1
+sS'mailhouse donor'
+p24
+I1
+sS'tax dollar'
+p25
+I1
+sS'disabl'
+p26
+I1
+sS'today'
+p27
+I1
+stp28
+Rp29
+tp30
+.

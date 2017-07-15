@@ -1,0 +1,407 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'aln'
+p7
+I3
+sS'growth of the iii-nitride semiconductor'
+p8
+I1
+sS'growth of th'
+p9
+I2
+sS'interlay'
+p10
+I3
+sS'of iii-nitride semiconductor alloy'
+p11
+I2
+sS'prevention of the growth of iii-nitride semiconductor'
+p12
+I1
+sS'ga'
+p13
+I1
+sS'high electron'
+p14
+I1
+sS'individual semiconductor'
+p15
+I1
+sS'electron mobility transistor'
+p16
+I1
+sS'cell'
+p17
+I2
+sS'cross-sectional view of'
+p18
+I1
+sS'iii-nitride semiconductor growth'
+p19
+I2
+sS'growth of iii-nitride semiconductor'
+p20
+I1
+sS'densiti'
+p21
+I1
+sS'adjacent growth'
+p22
+I3
+sS'internal stress'
+p23
+I1
+sS'iii-nitride growth inhibitor'
+p24
+I10
+sS'ingan'
+p25
+I1
+sS'band'
+p26
+I1
+sS'iii-nitride growth'
+p27
+I14
+sS'electrod'
+p28
+I7
+sS'of the individual cel'
+p29
+I2
+sS'hemt'
+p30
+I2
+sS'stress relief'
+p31
+I1
+sS'aluminum'
+p32
+I3
+sS'manhattan beach ca'
+p33
+I1
+sS'york ni'
+p34
+I1
+sS'crystal growth'
+p35
+I1
+sS'band gap of'
+p36
+I1
+sS'compris'
+p37
+I6
+sS'die'
+p38
+I2
+sS'band gap'
+p39
+I1
+sS'prevent'
+p40
+I1
+sS'oxid'
+p41
+I2
+sS'mobility transistor'
+p42
+I1
+sS'nitrogen'
+p43
+I1
+sS'iii-v semiconductor'
+p44
+I3
+sS'growth'
+p45
+I49
+sS'thermal expans'
+p46
+I1
+sS'heterojunct'
+p47
+I3
+sS'inalgan'
+p48
+I15
+sS'filler'
+p49
+I1
+sS'beach ca'
+p50
+I1
+sS'semiconductor'
+p51
+I27
+sS'conduct'
+p52
+I1
+sS'barrier'
+p53
+I17
+sS'of iii-nitride semiconductor'
+p54
+I1
+sS'growth inhibit'
+p55
+I1
+sS'growth inhibitor'
+p56
+I4
+sS'york'
+p57
+I1
+sS'algan'
+p58
+I4
+sS'growth of'
+p59
+I4
+sS'band gap of iii-nitride semiconductor'
+p60
+I1
+sS'thermal expansion characteristics of iii-nitride semiconductor alloy'
+p61
+I1
+sS'iii-nitride semiconductor device fabr'
+p62
+I2
+sS'iii-nitride semiconductor'
+p63
+I59
+sS'thermal conduct'
+p64
+I1
+sS'adjacent growth barri'
+p65
+I2
+sS'cross-sectional view of the individual cel'
+p66
+I1
+sS'silicon dioxid'
+p67
+I3
+sS'iii-nitride semiconductor alloy'
+p68
+I2
+sS'the individual cel'
+p69
+I1
+sS'dioxid'
+p70
+I3
+sS'plan view of'
+p71
+I1
+sS'mishemt'
+p72
+I1
+sS'ca'
+p73
+I2
+sS'mesa having growth'
+p74
+I1
+sS'cross-sectional view of th'
+p75
+I1
+sS'thermal expansion characteristics of iii-nitride semiconductor'
+p76
+I1
+sS'fabric'
+p77
+I4
+sS'mesa hav'
+p78
+I1
+sS'individual cel'
+p79
+I2
+sS'ungraded iii-nitride semiconductor'
+p80
+I1
+sS'expansion characteristics of iii-nitride semiconductor alloy'
+p81
+I1
+sS'manhattan beach'
+p82
+I1
+sS'high electron mobility transistor'
+p83
+I1
+sS'altadena ca'
+p84
+I1
+sS'transistor'
+p85
+I1
+sS'mismatch'
+p86
+I3
+sS'iii-nitride power semiconductor'
+p87
+I2
+sS'lattice mismatch'
+p88
+I1
+sS'prevention of the growth of'
+p89
+I1
+sS'semiconductor body compris'
+p90
+I3
+sS'gan'
+p91
+I7
+sS'thermal mismatch'
+p92
+I1
+sS'of the iii-nitride semiconductor'
+p93
+I1
+sS'thermal expansion characteristics of'
+p94
+I1
+sS'wafer'
+p95
+I1
+sS'silicon waf'
+p96
+I1
+sS'b h'
+p97
+I4
+sS'the iii-nitride semiconductor'
+p98
+I1
+sS'iii-nitride growth barri'
+p99
+I3
+sS'ion implant'
+p100
+I1
+sS'prevention of th'
+p101
+I1
+sS'growth of a iii-nitride semiconductor'
+p102
+I1
+sS'dislocation dens'
+p103
+I1
+sS'graded iii-nitride semiconductor'
+p104
+I1
+sS'individual semiconductor device di'
+p105
+I1
+sS'gan-based semiconductor'
+p106
+I1
+sS'semiconductor device fabr'
+p107
+I2
+sS'incompat'
+p108
+I18
+sS'fill'
+p109
+I1
+sS'drain electrod'
+p110
+I1
+sS'silicon'
+p111
+I5
+sS'plan view of a semiconductor'
+p112
+I1
+sS'semiconductor alloy'
+p113
+I6
+sS'sic'
+p114
+I2
+sS'ny'
+p115
+I1
+sS'iii-nitride semiconductor body compris'
+p116
+I3
+sS'implant'
+p117
+I1
+sS'manhattan'
+p118
+I1
+sS'buffer'
+p119
+I1
+sS'plan'
+p120
+I4
+sS'mesa'
+p121
+I3
+sS'america'
+p122
+I1
+sS'algainn'
+p123
+I1
+sS'disloc'
+p124
+I2
+sS'stress'
+p125
+I2
+sS'drain'
+p126
+I1
+sS'altadena'
+p127
+I1
+sS'growth barri'
+p128
+I17
+sS'high electron mobl'
+p129
+I1
+sS'iii-nitride semiconductor growth inhibitor'
+p130
+I1
+sS'iii-nitrid'
+p131
+I5
+sS'relief'
+p132
+I1
+sS'alloy'
+p133
+I6
+sS'semiconductor device di'
+p134
+I1
+sS'prevention of'
+p135
+I1
+sS'prevention of the growth'
+p136
+I1
+stp137
+Rp138
+tp139
+.

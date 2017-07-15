@@ -1,0 +1,101 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'purchas'
+p7
+I1
+sS'run'
+p8
+I5
+sS'contribut'
+p9
+I2
+sS'utensil'
+p10
+I1
+sS'tool'
+p11
+I1
+sS'pleasant'
+p12
+I5
+sS'buying gift'
+p13
+I1
+sS'purchase cloth'
+p14
+I1
+sS'holiday season'
+p15
+I2
+sS'famili'
+p16
+I1
+sS'suppli'
+p17
+I1
+sS'holiday m'
+p18
+I1
+sS'home'
+p19
+I2
+sS'buy'
+p20
+I1
+sS'children'
+p21
+I2
+sS'school'
+p22
+I1
+sS'pleasant run'
+p23
+I5
+sS'children famili'
+p24
+I1
+sS'gift'
+p25
+I1
+sS'cloth'
+p26
+I1
+sS'at-risk children'
+p27
+I1
+sS'meal'
+p28
+I1
+sS'school suppli'
+p29
+I1
+sS'educational tool'
+p30
+I1
+sS'treatment'
+p31
+I1
+sS'season'
+p32
+I2
+sS'holiday'
+p33
+I4
+sS'warmth'
+p34
+I1
+stp35
+Rp36
+tp37
+.

@@ -1,0 +1,3041 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'essay'
+p7
+I1
+sS'albion'
+p8
+I2
+sS'folding-star aris'
+p9
+I2
+sS'gr'
+p10
+I1
+sS'chain'
+p11
+I1
+sS'odorous flow'
+p12
+I1
+sS'd bank'
+p13
+I1
+sS'alc'
+p14
+I2
+sS'o fear'
+p15
+I3
+sS'hath'
+p16
+I1
+sS'upsilon'
+p17
+I54
+sS'sky-worn robes of tenderest blu'
+p18
+I2
+sS'tiviotdal'
+p19
+I1
+sS'moss-crown'
+p20
+I2
+sS's song'
+p21
+I2
+sS'zone'
+p22
+I1
+sS'cosmo reign'
+p23
+I1
+sS'deject'
+p24
+I1
+sS'festal sounding shad'
+p25
+I1
+sS'abra'
+p26
+I6
+sS'unspoil'
+p27
+I1
+sS'enchantress rul'
+p28
+I1
+sS'sens'
+p29
+I2
+sS'pride'
+p30
+I4
+sS'mayst thou'
+p31
+I2
+sS'guardian nam'
+p32
+I1
+sS'cest'
+p33
+I1
+sS'merchant'
+p34
+I1
+sS'shoot'
+p35
+I1
+sS'cordial youth'
+p36
+I1
+sS'fay'
+p37
+I2
+sS'string'
+p38
+I3
+sS'summer food'
+p39
+I1
+sS'song'
+p40
+I3
+sS'bidding mark'
+p41
+I1
+sS'heart implor'
+p42
+I2
+sS'horror'
+p43
+I3
+sS'rise'
+p44
+I6
+sS'voic'
+p45
+I7
+sS'wave'
+p46
+I1
+sS'youthful heart'
+p47
+I1
+sS'orcas howl'
+p48
+I1
+sS'tragic strain'
+p49
+I1
+sS's laurel'
+p50
+I1
+sS'unalt'
+p51
+I2
+sS'finger'
+p52
+I1
+sS'virtuous mind'
+p53
+I1
+sS'heaven'
+p54
+I1
+sS'hour'
+p55
+I4
+sS'anthony lamenting stand'
+p56
+I1
+sS'tear'
+p57
+I2
+sS'heroic mus'
+p58
+I1
+sS'eve'
+p59
+I1
+sS'recording sist'
+p60
+I1
+sS'o pensive ev'
+p61
+I1
+sS'project gutenberg ebook of'
+p62
+I1
+sS'primal innoc'
+p63
+I1
+sS'vulgar great'
+p64
+I1
+sS'team'
+p65
+I1
+sS'all-unconscious shoot'
+p66
+I1
+sS'round'
+p67
+I1
+sS'd ey'
+p68
+I1
+sS'laureat band'
+p69
+I2
+sS'uncheated sight'
+p70
+I1
+sS'unmix'
+p71
+I1
+sS'thy sober aid'
+p72
+I1
+sS'sigh'
+p73
+I3
+sS'divorc'
+p74
+I1
+sS'soul'
+p75
+I4
+sS'loved return'
+p76
+I1
+sS'pass'
+p77
+I1
+sS'feeling hour'
+p78
+I1
+sS'zabran'
+p79
+I2
+sS'folk'
+p80
+I1
+sS'blue'
+p81
+I2
+sS'aelig'
+p82
+I6
+sS'secand'
+p83
+I5
+sS'to-fal'
+p84
+I1
+sS'favour'
+p85
+I2
+sS'cell'
+p86
+I2
+sS'enchant'
+p87
+I3
+sS'magic not'
+p88
+I1
+sS'magic cel'
+p89
+I1
+sS'blest divorc'
+p90
+I1
+sS'superstit'
+p91
+I1
+sS'gutenberg licens'
+p92
+I1
+sS'cull'
+p93
+I1
+sS'sky-worn rob'
+p94
+I1
+sS'hero'
+p95
+I1
+sS'paphian hil'
+p96
+I1
+sS'vi'
+p97
+I1
+sS'honour'
+p98
+I3
+sS'nature l'
+p99
+I2
+sS'vale'
+p100
+I3
+sS'addrest'
+p101
+I2
+sS'wild'
+p102
+I4
+sS'white-brow'
+p103
+I1
+sS'excess'
+p104
+I1
+sS'hast'
+p105
+I4
+sS'boreal mountain'
+p106
+I1
+sS'pleasur'
+p107
+I2
+sS'safe o'
+p108
+I1
+sS'thy lif'
+p109
+I1
+sS'ster'
+p110
+I1
+sS'magic scen'
+p111
+I1
+sS'daughter'
+p112
+I1
+sS'of tenderest blu'
+p113
+I2
+sS'heifer'
+p114
+I1
+sS'breathing ma'
+p115
+I1
+sS'alcyon'
+p116
+I1
+sS'observ'
+p117
+I2
+sS'shalt rul'
+p118
+I1
+sS'survey'
+p119
+I1
+sS'beechen spear'
+p120
+I1
+sS'impass'
+p121
+I3
+sS'dra'
+p122
+I1
+sS'piteous acc'
+p123
+I1
+sS'guardian gal'
+p124
+I1
+sS'precious load'
+p125
+I1
+sS'love'
+p126
+I3
+sS'humour'
+p127
+I2
+sS'heart'
+p128
+I4
+sS'thou shroud'
+p129
+I1
+sS'up-bind'
+p130
+I1
+sS'emot'
+p131
+I1
+sS's favour'
+p132
+I2
+sS'whole unknown'
+p133
+I1
+sS'heroic fam'
+p134
+I1
+sS'limb'
+p135
+I1
+sS'pensive ev'
+p136
+I1
+sS'erturn'
+p137
+I1
+sS's feet'
+p138
+I2
+sS'magic wond'
+p139
+I1
+sS'judgment gain'
+p140
+I1
+sS'ear'
+p141
+I6
+sS'eye'
+p142
+I6
+sS'low sullen'
+p143
+I1
+sS'britannia'
+p144
+I1
+sS'read albion'
+p145
+I1
+sS'chi'
+p146
+I13
+sS'pity sh'
+p147
+I1
+sS'dreary paus'
+p148
+I1
+sS'pearl'
+p149
+I1
+sS'live'
+p150
+I2
+sS'doubt'
+p151
+I2
+sS'call'
+p152
+I1
+sS'summer food forego'
+p153
+I1
+sS'shed'
+p154
+I1
+sS'thee o'
+p155
+I1
+sS's stroke'
+p156
+I2
+sS'religious gleam'
+p157
+I1
+sS'o nymph'
+p158
+I1
+sS'thou court'
+p159
+I1
+sS'unblest'
+p160
+I1
+sS'beds permitted leav'
+p161
+I1
+sS'o thou'
+p162
+I6
+sS'amorous faint cons'
+p163
+I1
+sS'liguria'
+p164
+I2
+sS'sister'
+p165
+I2
+sS'muse'
+p166
+I1
+sS'warn'
+p167
+I2
+sS'vernal hyacinth'
+p168
+I2
+sS'aris'
+p169
+I2
+sS'classic judgment gain'
+p170
+I1
+sS'tarsel'
+p171
+I1
+sS'hold'
+p172
+I1
+sS'aught of'
+p173
+I1
+sS'oriental eclogu'
+p174
+I1
+sS'room'
+p175
+I1
+sS'meek'
+p176
+I1
+sS'sway'
+p177
+I1
+sS'work'
+p178
+I3
+sS'muse essay'
+p179
+I1
+sS'procul'
+p180
+I1
+sS'mu'
+p181
+I40
+sS'sigmaf'
+p182
+I61
+sS's honour'
+p183
+I1
+sS'meet'
+p184
+I1
+sS'love delight'
+p185
+I1
+sS'proof'
+p186
+I1
+sS'vulgar ey'
+p187
+I1
+sS'quiver'
+p188
+I1
+sS'stream'
+p189
+I1
+sS'shepherd'
+p190
+I1
+sS'pain lif'
+p191
+I1
+sS'mimic soul'
+p192
+I1
+sS'wavy b'
+p193
+I1
+sS'stroke'
+p194
+I2
+sS'hunger r'
+p195
+I1
+sS'transferr'
+p196
+I1
+sS'domestic bless'
+p197
+I1
+sS'griefs divid'
+p198
+I1
+sS'drest'
+p199
+I7
+sS'stole'
+p200
+I2
+sS'o nature boon'
+p201
+I1
+sS'court'
+p202
+I1
+sS'divid'
+p203
+I3
+sS'swoln serp'
+p204
+I1
+sS'appal'
+p205
+I1
+sS'unhappy land'
+p206
+I1
+sS'wander'
+p207
+I2
+sS'fame'
+p208
+I3
+sS'thy favourite nam'
+p209
+I1
+sS'lamp'
+p210
+I2
+sS'hop'
+p211
+I1
+sS'purchase folli'
+p212
+I1
+sS'gate'
+p213
+I1
+sS'jealous steep'
+p214
+I1
+sS'memoir'
+p215
+I1
+sS'fiery-tress'
+p216
+I1
+sS'st thou blush'
+p217
+I1
+sS'kind protect'
+p218
+I1
+sS'thee dispos'
+p219
+I1
+sS'wide o'
+p220
+I1
+sS'oft-turn'
+p221
+I1
+sS'stop'
+p222
+I1
+sS'melting ey'
+p223
+I1
+sS'next anger rush'
+p224
+I1
+sS'project gutenberg ebook'
+p225
+I1
+sS's pride'
+p226
+I3
+sS'whilst freedom'
+p227
+I1
+sS'o ris'
+p228
+I1
+sS'mad'
+p229
+I1
+sS'beauti'
+p230
+I1
+sS'tiviot'
+p231
+I1
+sS'midnight reign'
+p232
+I1
+sS'magic shor'
+p233
+I1
+sS'man'
+p234
+I2
+sS'pebbled b'
+p235
+I1
+sS'o natur'
+p236
+I2
+sS'sad o'
+p237
+I1
+sS'sad proof'
+p238
+I1
+sS'read'
+p239
+I1
+sS'st'
+p240
+I5
+sS'tale'
+p241
+I1
+sS'pisa'
+p242
+I1
+sS'shore'
+p243
+I4
+sS'tenderest not'
+p244
+I2
+sS'green'
+p245
+I2
+sS'love delight the'
+p246
+I1
+sS'pilgrim-gray'
+p247
+I1
+sS'sc'
+p248
+I1
+sS'greec'
+p249
+I4
+sS'lambda'
+p250
+I38
+sS'dream'
+p251
+I2
+sS'wind'
+p252
+I1
+sS's shore'
+p253
+I1
+sS'silver stor'
+p254
+I1
+sS'cymbelin'
+p255
+I1
+sS'silver stream'
+p256
+I1
+sS'o peac'
+p257
+I1
+sS'consent'
+p258
+I1
+sS'move'
+p259
+I2
+sS'whilst'
+p260
+I1
+sS'castilia'
+p261
+I1
+sS'nbsp'
+p262
+I14
+sS'dreary del'
+p263
+I1
+sS'thou leavest'
+p264
+I1
+sS'hoary pil'
+p265
+I1
+sS'spade upthrow'
+p266
+I1
+sS'anthony la'
+p267
+I1
+sS'impatient freedom'
+p268
+I1
+sS'conscious aw'
+p269
+I1
+sS'decay'
+p270
+I2
+sS'awful midnight reign'
+p271
+I1
+sS'nymph'
+p272
+I7
+sS'broom'
+p273
+I1
+sS'plaintive day'
+p274
+I1
+sS'thought unknown'
+p275
+I1
+sS'mourner night'
+p276
+I2
+sS'maid'
+p277
+I7
+sS'gem'
+p278
+I1
+sS'epod'
+p279
+I3
+sS'eunuch'
+p280
+I1
+sS'ndash'
+p281
+I113
+sS'passion man'
+p282
+I1
+sS'religious wood'
+p283
+I1
+sS'return'
+p284
+I5
+sS's stori'
+p285
+I1
+sS'nod'
+p286
+I2
+sS'thee'
+p287
+I12
+sS'ridgy steep'
+p288
+I2
+sS's head'
+p289
+I1
+sS'thou return'
+p290
+I2
+sS'tancr'
+p291
+I2
+sS'band'
+p292
+I6
+sS'kind compass'
+p293
+I1
+sS'heathy scen'
+p294
+I2
+sS'possest'
+p295
+I2
+sS'muse survey'
+p296
+I1
+sS'tuscan maid'
+p297
+I2
+sS'silver'
+p298
+I2
+sS'bank'
+p299
+I2
+sS'jonquil'
+p300
+I1
+sS'restrict'
+p301
+I1
+sS'name'
+p302
+I8
+sS'project gutenberg ebook of the poetical work'
+p303
+I1
+sS'awful voic'
+p304
+I1
+sS's steel'
+p305
+I1
+sS'loin'
+p306
+I1
+sS'bless'
+p307
+I2
+sS'silver hair'
+p308
+I1
+sS'the poetical work'
+p309
+I1
+sS'arrow'
+p310
+I1
+sS'blest'
+p311
+I8
+sS'ceas'
+p312
+I1
+sS'viny crown'
+p313
+I1
+sS'agib'
+p314
+I3
+sS'awok'
+p315
+I1
+sS'phi'
+p316
+I25
+sS'love hath'
+p317
+I1
+sS'rifted mound'
+p318
+I1
+sS's name'
+p319
+I3
+sS'year'
+p320
+I1
+sS'hebrid isl'
+p321
+I1
+sS'energi'
+p322
+I1
+sS'dispos'
+p323
+I1
+sS'orient'
+p324
+I1
+sS'genial mead'
+p325
+I1
+sS'er'
+p326
+I4
+sS'teffli'
+p327
+I1
+sS'flower'
+p328
+I2
+sS'thou rich-hair'
+p329
+I1
+sS'affrighted man'
+p330
+I1
+sS'love show'
+p331
+I1
+sS'epick lucan'
+p332
+I1
+sS'paphian'
+p333
+I1
+sS'hill'
+p334
+I1
+sS'ye persian dam'
+p335
+I1
+sS'st thy feet'
+p336
+I1
+sS'breathing spr'
+p337
+I1
+sS'goth'
+p338
+I1
+sS'asp'
+p339
+I1
+sS'strath'
+p340
+I1
+sS'serpent'
+p341
+I1
+sS'advanc'
+p342
+I1
+sS'twas sad'
+p343
+I3
+sS'o stay the'
+p344
+I1
+sS'swoln breast'
+p345
+I1
+sS'grief beguil'
+p346
+I3
+sS'dirg'
+p347
+I1
+sS'murmur'
+p348
+I2
+sS'diviner rag'
+p349
+I1
+sS'recording pag'
+p350
+I1
+sS'shakespeare scorn'
+p351
+I1
+sS'delver'
+p352
+I1
+sS'hunger-prest'
+p353
+I2
+sS'tigri'
+p354
+I1
+sS'applauding freedom'
+p355
+I1
+sS'eacut'
+p356
+I1
+sS'oaten stop'
+p357
+I1
+sS'upthrow'
+p358
+I1
+sS'faint cons'
+p359
+I1
+sS'loves suppli'
+p360
+I1
+sS'blossom'
+p361
+I2
+sS'thoughts neglect'
+p362
+I1
+sS'eclogu'
+p363
+I1
+sS'isl'
+p364
+I1
+sS'turf'
+p365
+I3
+sS'etrurian val'
+p366
+I1
+sS'neglect'
+p367
+I1
+sS'tender pass'
+p368
+I1
+sS'minstrel danc'
+p369
+I1
+sS'fen'
+p370
+I1
+sS'classic judg'
+p371
+I1
+sS'thy gentle mind'
+p372
+I1
+sS'feel'
+p373
+I1
+sS'stay the'
+p374
+I1
+sS'scene'
+p375
+I4
+sS'thy tender melting ey'
+p376
+I1
+sS'chain hast'
+p377
+I1
+sS'feet'
+p378
+I4
+sS'cest of'
+p379
+I1
+sS'fantastic crown'
+p380
+I1
+sS'giant-statu'
+p381
+I1
+sS'love-darting ey'
+p382
+I1
+sS'unaid'
+p383
+I1
+sS'kind bless'
+p384
+I1
+sS'fanci'
+p385
+I4
+sS'moan'
+p386
+I1
+sS'poetical charact'
+p387
+I1
+sS'birken shad'
+p388
+I1
+sS'guest'
+p389
+I1
+sS'gay-motley'
+p390
+I1
+sS'robes of tenderest blu'
+p391
+I2
+sS'swart'
+p392
+I1
+sS'unknown'
+p393
+I3
+sS'licens'
+p394
+I1
+sS'accent'
+p395
+I1
+sS's murmur'
+p396
+I2
+sS'buskins gemm'
+p397
+I1
+sS'snowy blossom'
+p398
+I2
+sS'ilissu'
+p399
+I2
+sS'stori'
+p400
+I1
+sS'pebbled beds permitted leav'
+p401
+I1
+sS'banquo'
+p402
+I1
+sS'natur'
+p403
+I7
+sS'genuine thought'
+p404
+I1
+sS'oppressive spear'
+p405
+I1
+sS'store'
+p406
+I1
+sS'thy tend'
+p407
+I1
+sS'er natur'
+p408
+I2
+sS'briton'
+p409
+I5
+sS'pebbled beds permit'
+p410
+I1
+sS'arviragu'
+p411
+I1
+sS'unriv'
+p412
+I1
+sS'thymy shor'
+p413
+I2
+sS'task'
+p414
+I1
+sS'bower'
+p415
+I1
+sS'kiss ambrosi'
+p416
+I1
+sS'tuscan'
+p417
+I2
+sS's heart'
+p418
+I1
+sS'blest prophetic loin'
+p419
+I1
+sS'o ceas'
+p420
+I1
+sS'heart-smit heif'
+p421
+I1
+sS'steel'
+p422
+I1
+sS'thou hast'
+p423
+I1
+sS'kind'
+p424
+I3
+sS'aught'
+p425
+I2
+sS'sod'
+p426
+I1
+sS'soft dream'
+p427
+I1
+sS'imagination glow'
+p428
+I2
+sS'bed'
+p429
+I1
+sS'charact'
+p430
+I1
+sS'shower'
+p431
+I1
+sS'faithful hour'
+p432
+I1
+sS'flame'
+p433
+I1
+sS'severer wo'
+p434
+I1
+sS'iron'
+p435
+I1
+sS'arun'
+p436
+I2
+sS's kind concern'
+p437
+I1
+sS'folli'
+p438
+I1
+sS'steep'
+p439
+I3
+sS'elf-shot arrow'
+p440
+I1
+sS'thoughtful cel'
+p441
+I1
+sS'shakespear'
+p442
+I1
+sS'ismen'
+p443
+I1
+sS'boston'
+p444
+I1
+sS'jealous fear'
+p445
+I1
+sS'mind'
+p446
+I2
+sS'frantic moth'
+p447
+I1
+sS'waft'
+p448
+I1
+sS'sad'
+p449
+I3
+sS'tide'
+p450
+I1
+sS'gale'
+p451
+I1
+sS'o hop'
+p452
+I2
+sS'ambiguous look'
+p453
+I1
+sS'disastrous tal'
+p454
+I1
+sS'william collins comment'
+p455
+I1
+sS'bidding he'
+p456
+I1
+sS'ray'
+p457
+I1
+sS'mountain'
+p458
+I1
+sS'strength'
+p459
+I1
+sS'realm'
+p460
+I1
+sS'project gutenberg'
+p461
+I3
+sS's voic'
+p462
+I1
+sS'self'
+p463
+I1
+sS'rous'
+p464
+I1
+sS'arm'
+p465
+I3
+sS'note'
+p466
+I3
+sS'mix'
+p467
+I1
+sS'dreary dream'
+p468
+I1
+sS'implor'
+p469
+I2
+sS'tented plain'
+p470
+I1
+sS'subject'
+p471
+I1
+sS'thy genial loved return'
+p472
+I1
+sS'rich-hair'
+p473
+I1
+sS'dread'
+p474
+I1
+sS'tuscan f'
+p475
+I1
+sS'pastoral song'
+p476
+I1
+sS'erhung'
+p477
+I1
+sS'pain'
+p478
+I1
+sS'shade'
+p479
+I7
+sS'trace'
+p480
+I2
+sS'fidel'
+p481
+I2
+sS'divinest nam'
+p482
+I1
+sS's vale'
+p483
+I1
+sS'ebook'
+p484
+I1
+sS'thy genial lov'
+p485
+I1
+sS'sense ris'
+p486
+I1
+sS'heroic muse employ'
+p487
+I1
+sS'choicest herb'
+p488
+I1
+sS'rho'
+p489
+I67
+sS'abbas reign'
+p490
+I1
+sS'awe'
+p491
+I1
+sS'genius dear'
+p492
+I1
+sS'glow'
+p493
+I2
+sS'tenderest blu'
+p494
+I2
+sS'enamel'
+p495
+I1
+sS'rsquo'
+p496
+I651
+sS'grove'
+p497
+I3
+sS'thou blest'
+p498
+I2
+sS'prophetic loin'
+p499
+I1
+sS'sky-worn robes of'
+p500
+I1
+sS'face'
+p501
+I1
+sS'project gutenberg licens'
+p502
+I1
+sS'turtles mix'
+p503
+I1
+sS'tented ski'
+p504
+I1
+sS'rose-lipp'
+p505
+I1
+sS'son'
+p506
+I3
+sS'barbarous yel'
+p507
+I1
+sS's reign'
+p508
+I1
+sS'engirt'
+p509
+I1
+sS'gold'
+p510
+I1
+sS'big swel'
+p511
+I1
+sS'tender strain'
+p512
+I1
+sS's arm'
+p513
+I3
+sS'lay'
+p514
+I1
+sS'many-colour'
+p515
+I1
+sS'magic nam'
+p516
+I2
+sS'runic'
+p517
+I1
+sS'pensive soul'
+p518
+I2
+sS'empir'
+p519
+I2
+sS'fear'
+p520
+I10
+sS'food forego'
+p521
+I1
+sS'hymn thy favourite nam'
+p522
+I1
+sS'paus'
+p523
+I1
+sS'suspicious maid'
+p524
+I2
+sS'oh briton'
+p525
+I1
+sS'gleamy pageant pass'
+p526
+I1
+sS'magic girdle wear'
+p527
+I1
+sS'charmful task'
+p528
+I1
+sS'memoir author'
+p529
+I1
+sS'catilina'
+p530
+I1
+sS'gainst'
+p531
+I1
+sS'sure-found'
+p532
+I1
+sS'project gutenberg ebook of the poet'
+p533
+I1
+sS'gradation mov'
+p534
+I2
+sS'woof'
+p535
+I1
+sS'theme'
+p536
+I1
+sS'wood'
+p537
+I1
+sS'iron tow'
+p538
+I1
+sS'hope'
+p539
+I5
+sS'rial council hold'
+p540
+I1
+sS'prophetic rag'
+p541
+I1
+sS'rural lay'
+p542
+I1
+sS'schiraz'
+p543
+I6
+sS'abba'
+p544
+I1
+sS'spoiler'
+p545
+I1
+sS'express'
+p546
+I2
+sS'watch'
+p547
+I1
+sS'rush'
+p548
+I1
+sS'plaintive train'
+p549
+I1
+sS'fatal blow'
+p550
+I1
+sS'tender passion man'
+p551
+I1
+sS'breast'
+p552
+I1
+sS'compass'
+p553
+I1
+sS'circassia'
+p554
+I4
+sS'ebook of the poetical work'
+p555
+I1
+sS's fight'
+p556
+I1
+sS's plain'
+p557
+I1
+sS'seraphic wir'
+p558
+I1
+sS'kind concern'
+p559
+I1
+sS'falkirk'
+p560
+I1
+sS'fatal day'
+p561
+I2
+sS'rural grov'
+p562
+I1
+sS'pigmy folk'
+p563
+I1
+sS'tender sigh'
+p564
+I1
+sS'pensive ear'
+p565
+I1
+sS's bard'
+p566
+I1
+sS'sense unaid'
+p567
+I1
+sS'o humour'
+p568
+I2
+sS'thy geni'
+p569
+I1
+sS'vision'
+p570
+I1
+sS'widow'
+p571
+I1
+sS'genial loved return'
+p572
+I1
+sS'forego'
+p573
+I1
+sS'uist'
+p574
+I2
+sS'theban'
+p575
+I1
+sS'ye wander'
+p576
+I1
+sS'proofread'
+p577
+I1
+sS'self o'
+p578
+I1
+sS'vine'
+p579
+I1
+sS'fancy charm'
+p580
+I1
+sS'thy tender melt'
+p581
+I1
+sS'blood-stain'
+p582
+I1
+sS'awful nod'
+p583
+I2
+sS'bard'
+p584
+I2
+sS'crown advanc'
+p585
+I1
+sS'thou shalt rul'
+p586
+I1
+sS'tender'
+p587
+I5
+sS'bee'
+p588
+I1
+sS'proofreading team'
+p589
+I1
+sS'conscious natur'
+p590
+I1
+sS'warning lamp'
+p591
+I2
+sS'concern'
+p592
+I1
+sS'youth'
+p593
+I23
+sS'statu'
+p594
+I1
+sS'wire'
+p595
+I1
+sS'fane'
+p596
+I1
+sS'cephisus deep'
+p597
+I1
+sS'enamour'
+p598
+I3
+sS'frantic fear'
+p599
+I1
+sS'excursive sight'
+p600
+I1
+sS's bank'
+p601
+I1
+sS'oelig'
+p602
+I2
+sS'moss-bank'
+p603
+I1
+sS'innoc'
+p604
+I2
+sS'balsora'
+p605
+I2
+sS's land'
+p606
+I2
+sS'thou trembl'
+p607
+I1
+sS'herb'
+p608
+I1
+sS'scorn'
+p609
+I1
+sS'social sci'
+p610
+I1
+sS'guideru'
+p611
+I1
+sS'buskin'
+p612
+I1
+sS'hebe'
+p613
+I1
+sS'fight'
+p614
+I1
+sS'divine excess'
+p615
+I1
+sS'meek natur'
+p616
+I1
+sS'rial council'
+p617
+I1
+sS'swart trib'
+p618
+I1
+sS'blest return'
+p619
+I1
+sS'joy'
+p620
+I1
+sS'omicron'
+p621
+I118
+sS'vocal val'
+p622
+I1
+sS'o stay'
+p623
+I1
+sS'wear'
+p624
+I1
+sS'beguil'
+p625
+I3
+sS'o hast'
+p626
+I1
+sS'whilst mad'
+p627
+I1
+sS's innoc'
+p628
+I1
+sS'magic chain'
+p629
+I1
+sS'gothic prid'
+p630
+I1
+sS'thy turtles mix'
+p631
+I1
+sS'protect'
+p632
+I1
+sS'thebe'
+p633
+I1
+sS'thou'
+p634
+I34
+sS'danc'
+p635
+I1
+sS'permitted leav'
+p636
+I1
+sS'arragon'
+p637
+I1
+sS'comment'
+p638
+I1
+sS'tau'
+p639
+I75
+sS'admit'
+p640
+I2
+sS'eta'
+p641
+I40
+sS's pearl'
+p642
+I1
+sS'lo'
+p643
+I3
+sS'hideous spel'
+p644
+I1
+sS'load'
+p645
+I1
+sS'fear-shook limb'
+p646
+I1
+sS'infectious guest'
+p647
+I1
+sS'distress'
+p648
+I1
+sS'spear'
+p649
+I2
+sS'sweet'
+p650
+I4
+sS'thee ling'
+p651
+I1
+sS'wonder'
+p652
+I3
+sS'dell'
+p653
+I1
+sS'2nd'
+p654
+I1
+sS'peace possest'
+p655
+I1
+sS'suppli'
+p656
+I1
+sS'thou rest'
+p657
+I1
+sS'romantic spr'
+p658
+I1
+sS'thy mimic soul'
+p659
+I1
+sS'zeta'
+p660
+I1
+sS'maiz'
+p661
+I1
+sS'twas wild'
+p662
+I1
+sS'ether'
+p663
+I1
+sS'limpid spr'
+p664
+I2
+sS'heaven-left ag'
+p665
+I1
+sS'debt'
+p666
+I1
+sS's crown'
+p667
+I1
+sS'bride-cak'
+p668
+I1
+sS'pensive head'
+p669
+I1
+sS'mirky night'
+p670
+I1
+sS'unrustling re'
+p671
+I1
+sS'mark'
+p672
+I1
+sS'breath'
+p673
+I2
+sS'poet'
+p674
+I2
+sS'ph'
+p675
+I3
+sS'affrighted shepherd'
+p676
+I1
+sS'warmth'
+p677
+I2
+sS'ample room'
+p678
+I1
+sS'dame'
+p679
+I1
+sS'firm'
+p680
+I1
+sS'euml'
+p681
+I2
+sS'life'
+p682
+I2
+sS'o goddess'
+p683
+I1
+sS'ldquo'
+p684
+I69
+sS'stormful day'
+p685
+I1
+sS'goddess'
+p686
+I1
+sS'ye persian maid'
+p687
+I1
+sS's ear'
+p688
+I2
+sS's shade'
+p689
+I1
+sS'tyrannic sway'
+p690
+I1
+sS'impati'
+p691
+I1
+sS'cythera'
+p692
+I1
+sS'dejected p'
+p693
+I1
+sS'ecstatic wond'
+p694
+I1
+sS'hebe drest'
+p695
+I1
+sS'kappa'
+p696
+I44
+sS'look'
+p697
+I1
+sS'turney'
+p698
+I1
+sS'of the poetical work'
+p699
+I1
+sS'plain'
+p700
+I2
+sS'peac'
+p701
+I2
+sS'glo'
+p702
+I1
+sS'thee divid'
+p703
+I2
+sS'employ'
+p704
+I1
+sS'unfelt'
+p705
+I2
+sS'collins comment'
+p706
+I1
+sS'athenian bow'
+p707
+I1
+sS'aid'
+p708
+I3
+sS'mound'
+p709
+I1
+sS'avernu'
+p710
+I1
+sS'thou cal'
+p711
+I1
+sS'purchas'
+p712
+I1
+sS'unlett'
+p713
+I1
+sS'charybdi'
+p714
+I1
+sS'soil'
+p715
+I1
+sS'thy wond'
+p716
+I1
+sS'miletu'
+p717
+I2
+sS'vot'
+p718
+I1
+sS'strain'
+p719
+I2
+sS'unclosing g'
+p720
+I1
+sS'fancy drest'
+p721
+I2
+sS'virtu'
+p722
+I1
+sS'theta'
+p723
+I25
+sS'virg'
+p724
+I3
+sS'dreary desert'
+p725
+I2
+sS'etrurian shad'
+p726
+I1
+sS'scienc'
+p727
+I1
+sS'piti'
+p728
+I2
+sS'harmoni'
+p729
+I1
+sS'author'
+p730
+I1
+sS'wound'
+p731
+I2
+sS'wildering fear'
+p732
+I2
+sS'meeting soul'
+p733
+I1
+sS'awful gloom'
+p734
+I1
+sS'of oaten stop'
+p735
+I1
+sS'electra'
+p736
+I2
+sS'leavest'
+p737
+I1
+sS'empire o'
+p738
+I2
+sS's paint'
+p739
+I1
+sS'o maid'
+p740
+I1
+sS'darksome round'
+p741
+I1
+sS'anger rush'
+p742
+I1
+sS's aid'
+p743
+I1
+sS'toil'
+p744
+I1
+sS'applaud'
+p745
+I2
+sS'ye'
+p746
+I4
+sS'swell'
+p747
+I1
+sS'rain'
+p748
+I4
+sS'weed'
+p749
+I2
+sS'frantic wo'
+p750
+I1
+sS'brede ether'
+p751
+I1
+sS'judgment'
+p752
+I1
+sS'unwith'
+p753
+I1
+sS'rift'
+p754
+I1
+sS'athenian strength'
+p755
+I1
+sS'otway'
+p756
+I1
+sS'blest youth'
+p757
+I1
+sS'geniu'
+p758
+I2
+sS'thought'
+p759
+I3
+sS'thy sky-worn robes of tenderest blu'
+p760
+I1
+sS'gutenberg ebook of the poetical work'
+p761
+I1
+sS'magic voic'
+p762
+I1
+sS'persian dam'
+p763
+I1
+sS'mother'
+p764
+I1
+sS'lucan'
+p765
+I2
+sS'scheld'
+p766
+I1
+sS'comic sist'
+p767
+I1
+sS'howl'
+p768
+I1
+sS'anthoni'
+p769
+I1
+sS'summer'
+p770
+I1
+sS'grief-full mus'
+p771
+I1
+sS'unseen'
+p772
+I2
+sS'affright'
+p773
+I1
+sS'rest'
+p774
+I3
+sS'gallia'
+p775
+I1
+sS'hero squeak'
+p776
+I1
+sS'swoln fac'
+p777
+I1
+sS'tender zara'
+p778
+I1
+sS'gleamy pag'
+p779
+I1
+sS'merchant son'
+p780
+I1
+sS'laurel'
+p781
+I1
+sS'poetical work'
+p782
+I3
+sS'gan ris'
+p783
+I1
+sS'blow'
+p784
+I1
+sS'applauding honour'
+p785
+I1
+sS'hybla'
+p786
+I2
+sS'pensive wind'
+p787
+I1
+sS'nature boon'
+p788
+I1
+sS'giant statu'
+p789
+I1
+sS'sky'
+p790
+I1
+sS'ye scen'
+p791
+I1
+sS'day'
+p792
+I5
+sS'frith'
+p793
+I1
+sS'twilight grov'
+p794
+I1
+sS'olive shad'
+p795
+I1
+sS'pile'
+p796
+I1
+sS'fixt distress'
+p797
+I1
+sS'delight the'
+p798
+I1
+sS's truth'
+p799
+I1
+sS'gemm'
+p800
+I1
+sS'band admit'
+p801
+I2
+sS'rapid scheld'
+p802
+I1
+sS'fate'
+p803
+I1
+sS'gloom'
+p804
+I1
+sS'social grief'
+p805
+I1
+sS'bid'
+p806
+I2
+sS'quaggy moss'
+p807
+I1
+sS'thou hop'
+p808
+I1
+sS'pageant pass'
+p809
+I1
+sS'vernal be'
+p810
+I1
+sS'world'
+p811
+I1
+sS'pensive pleasur'
+p812
+I2
+sS'dreary vis'
+p813
+I1
+sS'er return'
+p814
+I1
+sS'paint'
+p815
+I1
+sS'hope ench'
+p816
+I3
+sS'epsilon'
+p817
+I110
+sS'paly circlet'
+p818
+I2
+sS'unsated fo'
+p819
+I1
+sS'rdquo'
+p820
+I70
+sS'er fen'
+p821
+I1
+sS's warmth'
+p822
+I2
+sS'immortal str'
+p823
+I1
+sS'horror o'
+p824
+I3
+sS'heed'
+p825
+I1
+sS'poetic'
+p826
+I3
+sS'popular'
+p827
+I1
+sS'luxuri'
+p828
+I2
+sS'project gutenberg ebook of th'
+p829
+I1
+sS'page'
+p830
+I2
+sS'frantic moan'
+p831
+I1
+sS'thee disord'
+p832
+I1
+sS'sober aid'
+p833
+I1
+sS'spring'
+p834
+I4
+sS'thy feet'
+p835
+I1
+sS'disord'
+p836
+I1
+sS'lamenting stand'
+p837
+I1
+sS'hath shunn'
+p838
+I1
+sS'runic bard'
+p839
+I1
+sS'oh'
+p840
+I1
+sS'hair'
+p841
+I1
+sS'beauty cul'
+p842
+I1
+sS'growth'
+p843
+I1
+sS'watchet we'
+p844
+I2
+sS'ambrosi'
+p845
+I1
+sS'sight'
+p846
+I2
+sS'tender tear'
+p847
+I1
+sS'dear'
+p848
+I1
+sS'popular superstit'
+p849
+I1
+sS'unwet feet'
+p850
+I1
+sS'ye persian'
+p851
+I2
+sS'awful midnight'
+p852
+I1
+sS's self'
+p853
+I1
+sS'genius blest'
+p854
+I1
+sS'lsquo'
+p855
+I29
+sS'thy sky-worn robes of'
+p856
+I1
+sS'circlet'
+p857
+I2
+sS'stopp'
+p858
+I1
+sS's kind'
+p859
+I1
+sS'foe'
+p860
+I2
+sS'brawny swarm'
+p861
+I1
+sS'leav'
+p862
+I1
+sS'legat'
+p863
+I1
+sS'viny crown advanc'
+p864
+I1
+sS'jealous pisa'
+p865
+I1
+sS'guardian aid'
+p866
+I1
+sS'mead'
+p867
+I1
+sS'choral dirg'
+p868
+I1
+sS'truth'
+p869
+I1
+sS's chain'
+p870
+I1
+sS'ah fear'
+p871
+I1
+sS'sounding shad'
+p872
+I1
+sS'night'
+p873
+I3
+sS'passions ris'
+p874
+I2
+sS'persian maid'
+p875
+I1
+sS'kingdoms ris'
+p876
+I1
+sS's foe'
+p877
+I1
+sS'great'
+p878
+I1
+sS'woe'
+p879
+I3
+sS's ey'
+p880
+I2
+sS'tower'
+p881
+I1
+sS'thy shrin'
+p882
+I1
+sS'faith'
+p883
+I2
+sS'vocal grov'
+p884
+I1
+sS'linger'
+p885
+I1
+sS'freedom'
+p886
+I3
+sS'beta'
+p887
+I7
+sS'blush'
+p888
+I1
+sS'sake'
+p889
+I1
+sS'westering tid'
+p890
+I1
+sS'stand'
+p891
+I2
+sS'charm'
+p892
+I3
+sS'kelpi'
+p893
+I1
+sS'gamma'
+p894
+I17
+sS'council hold'
+p895
+I1
+sS'tribe'
+p896
+I1
+sS'harmonious whole unknown'
+p897
+I1
+sS'girdle wear'
+p898
+I1
+sS'irwan'
+p899
+I2
+sS'moss'
+p900
+I1
+sS's page'
+p901
+I1
+sS'shiel'
+p902
+I1
+sS'shroud'
+p903
+I1
+sS'hidest'
+p904
+I1
+sS'toft'
+p905
+I1
+sS's daughter'
+p906
+I1
+sS's woe'
+p907
+I1
+sS'whate'
+p908
+I4
+sS's sake'
+p909
+I1
+sS'world unknown'
+p910
+I1
+sS'aught of oaten stop'
+p911
+I1
+sS'culloden'
+p912
+I1
+sS'shepherd-girl'
+p913
+I1
+sS'immortal honour'
+p914
+I1
+sS'pictur'
+p915
+I2
+sS'gleam'
+p916
+I1
+sS'expressive pictur'
+p917
+I2
+sS'muir'
+p918
+I1
+sS'orca'
+p919
+I1
+sS'thunders dread'
+p920
+I1
+sS's fame'
+p921
+I2
+sS'suit'
+p922
+I2
+sS'favourite nam'
+p923
+I1
+sS'spoil awok'
+p924
+I1
+sS'borea'
+p925
+I1
+sS'record'
+p926
+I2
+sS'project'
+p927
+I3
+sS'head'
+p928
+I3
+sS's numbers charm'
+p929
+I1
+sS'gentle mind'
+p930
+I1
+sS'crown'
+p931
+I2
+sS'solan'
+p932
+I1
+sS's chain hast'
+p933
+I1
+sS's shiel'
+p934
+I1
+sS'muse employ'
+p935
+I1
+sS'reed'
+p936
+I1
+sS'gain'
+p937
+I1
+sS'soil thou'
+p938
+I1
+sS'genius stand'
+p939
+I1
+sS'swarm'
+p940
+I1
+sS's son'
+p941
+I2
+sS'oak-crown'
+p942
+I1
+sS'lucid hour'
+p943
+I2
+sS'scylla'
+p944
+I1
+sS'er heaven'
+p945
+I1
+sS's flame'
+p946
+I1
+sS'helvetia'
+p947
+I1
+sS'rage'
+p948
+I2
+sS'strange shad'
+p949
+I1
+sS'vocal str'
+p950
+I2
+sS'thou blush'
+p951
+I1
+sS'duteous band'
+p952
+I1
+sS'firm unalt'
+p953
+I1
+sS'grief o'
+p954
+I1
+sS'willows drest'
+p955
+I1
+sS'zara'
+p956
+I4
+sS'fatal zon'
+p957
+I1
+sS'tarki'
+p958
+I1
+sS'hyacinth'
+p959
+I2
+sS'trembler'
+p960
+I1
+sS'ye laureat band'
+p961
+I1
+sS'thy hand unseen'
+p962
+I1
+sS'ah'
+p963
+I1
+sS'sister-art'
+p964
+I1
+sS'deep'
+p965
+I1
+sS'nerv'
+p966
+I1
+sS'thy sky-worn rob'
+p967
+I1
+sS'sheeny gold'
+p968
+I1
+sS'antistroph'
+p969
+I3
+sS's toil'
+p970
+I1
+sS'hail'
+p971
+I6
+sS'spell'
+p972
+I1
+sS'sullen'
+p973
+I1
+sS'tuscan wild'
+p974
+I1
+sS'plenteous year'
+p975
+I1
+sS'rural faith'
+p976
+I1
+sS'ne'
+p977
+I3
+sS'relegat'
+p978
+I2
+sS'flood'
+p979
+I2
+sS'shrine'
+p980
+I1
+sS'fancy-blest'
+p981
+I2
+sS'boon'
+p982
+I1
+sS'william collin'
+p983
+I1
+sS'sophocl'
+p984
+I1
+sS'nu'
+p985
+I111
+sS'stillness suit'
+p986
+I2
+sS'o pens'
+p987
+I1
+sS'genial land'
+p988
+I1
+sS's wound'
+p989
+I2
+sS'divine emot'
+p990
+I1
+sS'sphere-found gem'
+p991
+I1
+sS'eurip'
+p992
+I1
+sS're-us'
+p993
+I1
+sS'william'
+p994
+I1
+sS'gutenberg'
+p995
+I1
+sS'tender melting ey'
+p996
+I1
+sS'reign'
+p997
+I4
+sS'lyric flow'
+p998
+I1
+sS'squeak'
+p999
+I1
+sS'choicest'
+p1000
+I1
+sS'desert'
+p1001
+I2
+sS'classic shad'
+p1002
+I1
+sS'shrub'
+p1003
+I1
+sS'grief'
+p1004
+I1
+sS'land'
+p1005
+I4
+sS'sigma'
+p1006
+I51
+sS'age'
+p1007
+I1
+sS'rule'
+p1008
+I4
+sS's poet'
+p1009
+I2
+sS'train'
+p1010
+I2
+sS'yell'
+p1011
+I1
+sS'harmonious ear'
+p1012
+I3
+sS'ambitious head'
+p1013
+I1
+sS'shunn'
+p1014
+I1
+stp1015
+Rp1016
+tp1017
+.

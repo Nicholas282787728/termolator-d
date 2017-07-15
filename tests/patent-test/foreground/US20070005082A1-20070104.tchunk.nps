@@ -1,0 +1,1256 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'esophageal adenocarcinoma'
+p7
+I2
+sS'vacuum grip'
+p8
+I1
+sS'belsey'
+p9
+I1
+sS'of the chassi'
+p10
+I2
+sS'of stomach acid'
+p11
+I1
+sS'stationary portion of th'
+p12
+I1
+sS'gastroesophageal flap valve restor'
+p13
+I4
+sS'hernia'
+p14
+I5
+sS'stomach tissue grip'
+p15
+I1
+sS'slot'
+p16
+I1
+sS'tissue junct'
+p17
+I2
+sS'tissue fixation devices for fixing stomach tissu'
+p18
+I1
+sS'serosa'
+p19
+I1
+sS'acid exposur'
+p20
+I2
+sS'helix'
+p21
+I4
+sS'helix drive c'
+p22
+I1
+sS'stationary portion of'
+p23
+I1
+sS'reflux appearance gastroesophageal flap of'
+p24
+I1
+sS'approximally one-half'
+p25
+I1
+sS'esophageal tract'
+p26
+I2
+sS'risk'
+p27
+I1
+sS'anatomy visu'
+p28
+I2
+sS'pull'
+p29
+I1
+sS'of the esophageal-gastro-intestinal tract'
+p30
+I6
+sS'proximal end of th'
+p31
+I3
+sS'tissue aboral of the z-lin'
+p32
+I1
+sS'grip stomach'
+p33
+I1
+sS'u-shaped tissue clip'
+p34
+I1
+sS'viewabl'
+p35
+I4
+sS'reflux appearance gastroesophageal flap of the gastroesophageal flap'
+p36
+I1
+sS'wrap of'
+p37
+I1
+sS'organ'
+p38
+I1
+sS'tube'
+p39
+I11
+sS'tissue or'
+p40
+I1
+sS'tissue shap'
+p41
+I2
+sS'gastrointestinal endoscopi'
+p42
+I1
+sS'acid reflux'
+p43
+I1
+sS'dimens'
+p44
+I1
+sS'backwashing of'
+p45
+I1
+sS'anatomical structure of the gefv'
+p46
+I1
+sS'visualization of gastroesophageal anatomi'
+p47
+I2
+sS'grade iv gastroesophageal flap'
+p48
+I1
+sS'for fixing stomach tissu'
+p49
+I2
+sS'endoscopist'
+p50
+I1
+sS'fold'
+p51
+I3
+sS'closeabl'
+p52
+I1
+sS'fixing stomach tissu'
+p53
+I1
+sS'normal gastroesophag'
+p54
+I1
+sS'observ'
+p55
+I1
+sS'acid'
+p56
+I9
+sS'incisor'
+p57
+I1
+sS'postoperative compl'
+p58
+I2
+sS'proximal end of the chassi'
+p59
+I1
+sS'therapi'
+p60
+I2
+sS'wire'
+p61
+I3
+sS'appear'
+p62
+I3
+sS'abl'
+p63
+I1
+sS'marker view'
+p64
+I8
+sS'uniform'
+p65
+I1
+sS'pump'
+p66
+I1
+sS'intersect'
+p67
+I1
+sS'fastener deliveri'
+p68
+I5
+sS'surgical treat'
+p69
+I1
+sS'approach'
+p70
+I6
+sS'tent'
+p71
+I1
+sS'of the fastener deployment guid'
+p72
+I1
+sS'cross-sectional view of the esophageal-gastro-intestinal tract'
+p73
+I3
+sS'plicat'
+p74
+I2
+sS'wa'
+p75
+I3
+sS'numer'
+p76
+I2
+sS'tissue grip'
+p77
+I1
+sS'u-shaped tissu'
+p78
+I1
+sS'orific'
+p79
+I2
+sS'stomach tissu'
+p80
+I60
+sS'gerd treat'
+p81
+I1
+sS'transoral endoscopic gastroesophageal flap'
+p82
+I1
+sS'esophageal tissu'
+p83
+I7
+sS'valv'
+p84
+I21
+sS'normal anatomical anatomi'
+p85
+I1
+sS'gastroesophageal tissu'
+p86
+I1
+sS'deterior'
+p87
+I2
+sS'movable flap'
+p88
+I3
+sS'manipulation of stomach tissu'
+p89
+I2
+sS'fundopl'
+p90
+I3
+sS'contract'
+p91
+I1
+sS'fixation devices for fixing stomach tissu'
+p92
+I1
+sS'flap of the gastroesophageal flap valv'
+p93
+I1
+sS'of internal body anatomi'
+p94
+I2
+sS'classic symptom'
+p95
+I1
+sS'inflamm'
+p96
+I2
+sS'tissue clip'
+p97
+I1
+sS'lifestyl'
+p98
+I2
+sS'appearance gastroesophageal flap of the gastroesophageal flap valv'
+p99
+I1
+sS'tissue abor'
+p100
+I2
+sS'burp'
+p101
+I1
+sS'esophageal orific'
+p102
+I1
+sS'dysphagia'
+p103
+I2
+sS'the z-lin'
+p104
+I1
+sS'front cross-sectional view of'
+p105
+I3
+sS'transpar'
+p106
+I1
+sS'valve degrad'
+p107
+I1
+sS'vacuum pump'
+p108
+I2
+sS'iv gastroesophageal flap'
+p109
+I1
+sS'moveable portion of'
+p110
+I1
+sS'seattl'
+p111
+I1
+sS'marker'
+p112
+I30
+sS'the chassi'
+p113
+I1
+sS'guid'
+p114
+I31
+sS'manipulation of'
+p115
+I2
+sS'of the gastroesophageal flap valv'
+p116
+I1
+sS'gerd'
+p117
+I18
+sS'injuri'
+p118
+I2
+sS'mark'
+p119
+I1
+sS'valve anatomi'
+p120
+I1
+sS'normal gastroesophageal flap valve anatomi'
+p121
+I1
+sS'symptoms of gastroesophageal reflux diseas'
+p122
+I1
+sS'backwash'
+p123
+I1
+sS'gastroesophageal anatomy visu'
+p124
+I1
+sS'gastroesophageal flap of the gastroesophageal flap valv'
+p125
+I1
+sS'internal body anatomi'
+p126
+I2
+sS'esophageal sphinct'
+p127
+I4
+sS'treatment'
+p128
+I1
+sS'life'
+p129
+I1
+sS'transoral plac'
+p130
+I2
+sS'flap'
+p131
+I45
+sS'gripper'
+p132
+I2
+sS'esophageal passag'
+p133
+I1
+sS'infect'
+p134
+I1
+sS'helical coil'
+p135
+I15
+sS'pre-tied impl'
+p136
+I1
+sS'visual'
+p137
+I10
+sS'of stomach tissu'
+p138
+I2
+sS'valve grade iv gastroesophageal flap'
+p139
+I1
+sS'suction'
+p140
+I1
+sS'stabil'
+p141
+I1
+sS'manipulations of th'
+p142
+I1
+sS'longitudinal slit'
+p143
+I1
+sS'bile'
+p144
+I1
+sS'gastroesophageal tissue junct'
+p145
+I2
+sS'restor'
+p146
+I1
+sS'of the fundu'
+p147
+I1
+sS'moveable portion of th'
+p148
+I1
+sS'reflux'
+p149
+I8
+sS'chronic cough'
+p150
+I1
+sS'the stomach tissu'
+p151
+I1
+sS'stomach tissue aboral of'
+p152
+I1
+sS'b h'
+p153
+I1
+sS'gastric fold'
+p154
+I2
+sS'gastroesophageal reflux disease kraemer stefan'
+p155
+I1
+sS'laparotomi'
+p156
+I1
+sS'normal moveable flap'
+p157
+I1
+sS'normal anti-reflux barri'
+p158
+I1
+sS'transor'
+p159
+I1
+sS'tissue fixation devices for'
+p160
+I1
+sS'site'
+p161
+I1
+sS'bail mov'
+p162
+I1
+sS'iv'
+p163
+I1
+sS'slit'
+p164
+I2
+sS'anatomy aboral of th'
+p165
+I1
+sS'anatomical right'
+p166
+I1
+sS'fastener delivery port'
+p167
+I1
+sS'of the deterior'
+p168
+I2
+sS'differenti'
+p169
+I2
+sS'kps mark'
+p170
+I1
+sS'sphincter '
+p171
+I1
+sS'invasive approach'
+p172
+I1
+sS'gastroesophageal reflux disease kraem'
+p173
+I1
+sS'stylet'
+p174
+I4
+sS'fastener deploy'
+p175
+I30
+sS'transoral endoscop'
+p176
+I1
+sS'tissue fixation devices for fix'
+p177
+I1
+sS'oral of the gastroesophageal junct'
+p178
+I1
+sS'valve restor'
+p179
+I1
+sS'gastric juic'
+p180
+I1
+sS'endoscopi'
+p181
+I1
+sS'anatomical structure of th'
+p182
+I1
+sS'moveable portion of the gefv'
+p183
+I1
+sS'serosa tissu'
+p184
+I5
+sS'flap valve restor'
+p185
+I1
+sS'intraabdominal organ'
+p186
+I1
+sS'tissue oral of th'
+p187
+I1
+sS'stomach acid'
+p188
+I5
+sS'deflect'
+p189
+I1
+sS'gastroesophageal flap valve flap'
+p190
+I2
+sS'geometri'
+p191
+I1
+sS'discomfort'
+p192
+I2
+sS'assigne'
+p193
+I1
+sS'aboral of the gastroesophageal junct'
+p194
+I2
+sS'bellevu'
+p195
+I1
+sS'the gastroesophageal flap valv'
+p196
+I1
+sS'of the gefv'
+p197
+I6
+sS'burning discomfort'
+p198
+I2
+sS'medical therapi'
+p199
+I2
+sS'tissue aboral of th'
+p200
+I2
+sS'vacuum pul'
+p201
+I1
+sS'surgical approach'
+p202
+I3
+sS'wrap of the fundu'
+p203
+I1
+sS'nissen approach'
+p204
+I2
+sS'environ'
+p205
+I1
+sS'representative of the fastener deployment guid'
+p206
+I1
+sS'deployment guid'
+p207
+I13
+sS'anti-reflux barri'
+p208
+I2
+sS'valve grade iv'
+p209
+I1
+sS'move'
+p210
+I1
+sS'mucosa'
+p211
+I4
+sS'gastroesophageal junct'
+p212
+I18
+sS'arm'
+p213
+I1
+sS'anatomy aboral of the gastroesophageal junct'
+p214
+I1
+sS'reflux diseas'
+p215
+I3
+sS'representative of the fastener deploy'
+p216
+I1
+sS'gastroesophageal reflux diseas'
+p217
+I4
+sS'anatomy abor'
+p218
+I1
+sS'fastener deployment guid'
+p219
+I11
+sS'le'
+p220
+I5
+sS'asthma'
+p221
+I1
+sS'upper esophageal sphinct'
+p222
+I1
+sS'passag'
+p223
+I2
+sS'gastrointestin'
+p224
+I1
+sS'breastbon'
+p225
+I1
+sS'representative of th'
+p226
+I1
+sS'distal'
+p227
+I4
+sS'tissue fix'
+p228
+I1
+sS'grip'
+p229
+I5
+sS'the esophageal-gastro-intestinal tract'
+p230
+I3
+sS'flap valve flap'
+p231
+I2
+sS'junction'
+p232
+I20
+sS'monroe wa'
+p233
+I1
+sS'normal movable flap'
+p234
+I3
+sS'wrap of th'
+p235
+I1
+sS'retractor'
+p236
+I1
+sS'burn'
+p237
+I1
+sS'sphincter'
+p238
+I4
+sS'stomach tissue aboral of the z-lin'
+p239
+I1
+sS'aboral of the gastroesophageal tissue junct'
+p240
+I1
+sS'anatomy aboral of'
+p241
+I1
+sS'deployment wir'
+p242
+I3
+sS'valve mold'
+p243
+I1
+sS'tissue aboral of the gastroesophageal tissu'
+p244
+I1
+sS'tissue gripp'
+p245
+I1
+sS'classic symptoms of'
+p246
+I1
+sS'shaper'
+p247
+I2
+sS'fasten'
+p248
+I4
+sS'gastroesophageal flap valve anatomi'
+p249
+I1
+sS'transoral endoscopic gastroesophageal flap valve restor'
+p250
+I1
+sS'intervent'
+p251
+I1
+sS'esophag'
+p252
+I2
+sS'reflux appear'
+p253
+I2
+sS'manipulations of the stomach tissu'
+p254
+I1
+sS'cabl'
+p255
+I2
+sS'receipt'
+p256
+I1
+sS'muscl'
+p257
+I1
+sS'of the z-lin'
+p258
+I1
+sS'z-line adjac'
+p259
+I1
+sS'of the stomach tissu'
+p260
+I1
+sS'gastroesophageal flap valv'
+p261
+I18
+sS'gastric cav'
+p262
+I1
+sS'fundus tissu'
+p263
+I1
+sS'non-invasively grip'
+p264
+I1
+sS'cardiac notch'
+p265
+I4
+sS'confirm'
+p266
+I2
+sS'vacuum'
+p267
+I11
+sS'stomach tissue aboral of th'
+p268
+I1
+sS'valve flap'
+p269
+I4
+sS'bubbl'
+p270
+I2
+sS'hill'
+p271
+I1
+sS'caviti'
+p272
+I1
+sS'monro'
+p273
+I1
+sS'complic'
+p274
+I4
+sS'cord'
+p275
+I1
+sS'diseas'
+p276
+I3
+sS'radial pl'
+p277
+I1
+sS'barrier'
+p278
+I2
+sS'moveable flap'
+p279
+I4
+sS'manipul'
+p280
+I5
+sS'transoral endoscopic gastroesophageal flap valv'
+p281
+I1
+sS'guide lumen'
+p282
+I4
+sS'reflux appearance gastroesophag'
+p283
+I1
+sS'inflat'
+p284
+I6
+sS'transoral endoscopic gastroesophag'
+p285
+I1
+sS'anatomical results of the deterior'
+p286
+I1
+sS'vacuum suct'
+p287
+I1
+sS'nissen fundopl'
+p288
+I2
+sS'cough'
+p289
+I1
+sS'coupl'
+p290
+I1
+sS'distal end of th'
+p291
+I1
+sS'tissue aboral of'
+p292
+I2
+sS'degrad'
+p293
+I1
+sS'gefv'
+p294
+I18
+sS'the deterior'
+p295
+I1
+sS'transverse dimens'
+p296
+I1
+sS'guide tub'
+p297
+I11
+sS'gastroesophageal flap'
+p298
+I41
+sS'of gastroesophageal reflux diseas'
+p299
+I1
+sS'representative of'
+p300
+I1
+sS'vacuum orific'
+p301
+I1
+sS'reflux appearance gastroesophageal flap of the gastroesophageal flap valv'
+p302
+I1
+sS'endoscop'
+p303
+I16
+sS'normal anatomi'
+p304
+I1
+sS'circuitous slit'
+p305
+I1
+sS'classic symptoms of gastroesophageal reflux diseas'
+p306
+I1
+sS'vitro'
+p307
+I1
+sS'wash'
+p308
+I1
+sS'vocal cord'
+p309
+I1
+sS'lung'
+p310
+I1
+sS'hingedly coupl'
+p311
+I1
+sS'wrap'
+p312
+I1
+sS'visualization of internal body anatomi'
+p313
+I2
+sS'vivo observ'
+p314
+I1
+sS'esophageal contract'
+p315
+I1
+sS'gastric tissu'
+p316
+I1
+sS'valve grad'
+p317
+I1
+sS'adjac'
+p318
+I1
+sS'fastener guid'
+p319
+I1
+sS'lumen'
+p320
+I6
+sS'esophageal mucosa'
+p321
+I1
+sS'adenocarcinoma'
+p322
+I2
+sS'machin'
+p323
+I1
+sS'stomach tissue abor'
+p324
+I1
+sS'anatomical results of th'
+p325
+I1
+sS'visualization of'
+p326
+I4
+sS'deliveri'
+p327
+I2
+sS'adher'
+p328
+I1
+sS'endoscopist guid'
+p329
+I1
+sS'stomach'
+p330
+I32
+sS'radial fold'
+p331
+I1
+sS'representative fasten'
+p332
+I1
+sS'the gastroesophageal junct'
+p333
+I3
+sS'fundu'
+p334
+I5
+sS'tissue aboral of the gastroesophageal tissue junct'
+p335
+I1
+sS'surgical environ'
+p336
+I1
+sS'tissu'
+p337
+I75
+sS'grip stomach tissu'
+p338
+I1
+sS'belsey mark'
+p339
+I1
+sS'normal gastroesophageal flap valv'
+p340
+I1
+sS'of the gastroesophageal tissue junct'
+p341
+I1
+sS'symptom'
+p342
+I2
+sS'exposur'
+p343
+I2
+sS'flap uniform'
+p344
+I1
+sS'anatomical anatomi'
+p345
+I1
+sS'regurgit'
+p346
+I2
+sS'tissue oral of'
+p347
+I1
+sS'hiatal hernia'
+p348
+I5
+sS'acid wash'
+p349
+I1
+sS'front cross-sectional view of th'
+p350
+I3
+sS'reflux appearance gastroesophageal flap'
+p351
+I1
+sS'chronic acid reflux'
+p352
+I1
+sS'flap valv'
+p353
+I16
+sS'ue'
+p354
+I1
+sS'invagin'
+p355
+I1
+sS'normal appear'
+p356
+I2
+sS'stationary portion of the gefv'
+p357
+I1
+sS'manipulations of'
+p358
+I1
+sS'flutter valv'
+p359
+I1
+sS'clip'
+p360
+I1
+sS'fastener guide lumen'
+p361
+I1
+sS'anatomy sit'
+p362
+I1
+sS'chronic acid'
+p363
+I1
+sS'anatomical results of'
+p364
+I1
+sS'of the gastroesophageal junct'
+p365
+I3
+sS'of gastroesophageal anatomi'
+p366
+I2
+sS'repres'
+p367
+I1
+sS'the fundu'
+p368
+I1
+sS'z-line'
+p369
+I18
+sS'visual confirm'
+p370
+I1
+sS'bellevue wa'
+p371
+I1
+sS'mold'
+p372
+I2
+sS'life styl'
+p373
+I1
+sS'aboral of the z-lin'
+p374
+I1
+sS'front cross-sectional view of the esophageal-gastro-intestinal tract'
+p375
+I3
+sS'robotic arm'
+p376
+I1
+sS'pharynx'
+p377
+I1
+sS'tip'
+p378
+I1
+sS'port'
+p379
+I1
+sS'gastroesophageal reflux'
+p380
+I1
+sS'distal end of'
+p381
+I1
+sS'proximal end of'
+p382
+I3
+sS'reflux appearance gastroesophageal flap of th'
+p383
+I1
+sS'gefv flap'
+p384
+I1
+sS'implant'
+p385
+I1
+sS'delivery port'
+p386
+I1
+sS'arcuate deflect'
+p387
+I1
+sS'juic'
+p388
+I1
+sS'anatomi'
+p389
+I13
+sS'lung infect'
+p390
+I1
+sS'esophageal-gastro-intestinal tract'
+p391
+I4
+sS'deploy'
+p392
+I14
+sS'belsey mark iv'
+p393
+I1
+sS'potential compl'
+p394
+I1
+sS'chassi'
+p395
+I29
+sS'tissue oral of the gastroesophageal junct'
+p396
+I1
+sS'the gastroesophageal tissue junct'
+p397
+I1
+sS'cancerous esophageal adenocarcinoma'
+p398
+I1
+sS'tract'
+p399
+I6
+sS'coil'
+p400
+I15
+sS'subset'
+p401
+I1
+sS'laparoscop'
+p402
+I1
+sS'anatomical structure of'
+p403
+I1
+sS'duodenum'
+p404
+I1
+sS'gastroesophageal anatomi'
+p405
+I4
+sS'normal gastroesophageal flap'
+p406
+I3
+sS'chronic inflamm'
+p407
+I1
+sS'placement'
+p408
+I2
+sS'tissue aboral of the gastroesophageal junct'
+p409
+I1
+sS'the fastener deployment guid'
+p410
+I1
+sS'mark iv'
+p411
+I1
+sS'approximally one-half clos'
+p412
+I1
+sS'longitudinal passag'
+p413
+I1
+sS'the gefv'
+p414
+I3
+sS'backwashing of stomach acid'
+p415
+I1
+sS'notch'
+p416
+I4
+sS'seattle wa'
+p417
+I1
+sS'flap valve anatomi'
+p418
+I1
+sS'optional slot'
+p419
+I1
+stp420
+Rp421
+tp422
+.

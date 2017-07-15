@@ -1,0 +1,65 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'assist'
+p7
+I1
+sS'goodwil'
+p8
+I1
+sS'peopl'
+p9
+I1
+sS'goodwill work'
+p10
+I1
+sS'job'
+p11
+I2
+sS'public assist'
+p12
+I1
+sS'unknown start'
+p13
+I1
+sS'date'
+p14
+I1
+sS'starting d'
+p15
+I1
+sS'welfar'
+p16
+I3
+sS'reform'
+p17
+I2
+sS'unknown'
+p18
+I1
+sS'work'
+p19
+I1
+sS'unknown starting d'
+p20
+I1
+sS'entry-level job'
+p21
+I1
+sS'welfare reform'
+p22
+I2
+stp23
+Rp24
+tp25
+.

@@ -1,0 +1,1079 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'primary tool'
+p7
+I1
+sS'candidate molecul'
+p8
+I1
+sS'all'
+p9
+I1
+sS'represent'
+p10
+I1
+sS'datum'
+p11
+I2
+sS'reclust'
+p12
+I1
+sS'cutoff'
+p13
+I2
+sS'cancer studi'
+p14
+I2
+sS'tolerance induct'
+p15
+I1
+sS'survival predictions for individual pati'
+p16
+I1
+sS'oci'
+p17
+I1
+sS'morpholog'
+p18
+I1
+sS'nois'
+p19
+I1
+sS'of neural network'
+p20
+I1
+sS'activ'
+p21
+I1
+sS'program'
+p22
+I1
+sS'sens'
+p23
+I1
+sS'cell-like tumor'
+p24
+I2
+sS'analys'
+p25
+I1
+sS'gene panel network'
+p26
+I1
+sS'individual pati'
+p27
+I2
+sS'relative impact'
+p28
+I1
+sS'predict'
+p29
+I2
+sS'risk'
+p30
+I6
+sS'viewpoint'
+p31
+I1
+sS'target antigen'
+p32
+I2
+sS'non-survivor'
+p33
+I4
+sS'express'
+p34
+I5
+sS'expression panel'
+p35
+I1
+sS'preparation for'
+p36
+I1
+sS'efficacious approaches for limiting tumor growth'
+p37
+I1
+sS'candid'
+p38
+I1
+sS'large b-cell lymphoma'
+p39
+I1
+sS'middle-layer neuron'
+p40
+I5
+sS'biopsi'
+p41
+I1
+sS'induct'
+p42
+I1
+sS'oci ly1'
+p43
+I1
+sS'experi'
+p44
+I1
+sS'organ'
+p45
+I1
+sS'informative gen'
+p46
+I1
+sS'list'
+p47
+I1
+sS'iter'
+p48
+I1
+sS'correl'
+p49
+I1
+sS'negative donor'
+p50
+I1
+sS'survival prob'
+p51
+I1
+sS'classification accuraci'
+p52
+I2
+sS'round'
+p53
+I1
+sS'middle layer neuron'
+p54
+I1
+sS'respond'
+p55
+I1
+sS'self-organizing-map'
+p56
+I1
+sS'neuralwork'
+p57
+I1
+sS'training sess'
+p58
+I2
+sS'alizadeh studi'
+p59
+I1
+sS'antigen'
+p60
+I2
+sS'investig'
+p61
+I1
+sS'probability plot'
+p62
+I1
+sS'reserv'
+p63
+I1
+sS'disadvantag'
+p64
+I1
+sS'acute lymphoblastic leukemia'
+p65
+I1
+sS'gene express'
+p66
+I5
+sS'index'
+p67
+I1
+sS'error'
+p68
+I6
+sS'optimum outcome classif'
+p69
+I1
+sS'subselect'
+p70
+I1
+sS'gene clust'
+p71
+I2
+sS'individual scor'
+p72
+I1
+sS'cell'
+p73
+I1
+sS'radiation therapi'
+p74
+I1
+sS'survival probability plot'
+p75
+I1
+sS'network softwar'
+p76
+I1
+sS'vector machin'
+p77
+I2
+sS'impact'
+p78
+I1
+sS'non-linear'
+p79
+I1
+sS'propagation network'
+p80
+I1
+sS'coeffici'
+p81
+I2
+sS'diagnostic accuraci'
+p82
+I4
+sS'prognostic index'
+p83
+I1
+sS'sigmoidal transf'
+p84
+I1
+sS'outcome classif'
+p85
+I1
+sS'k-nearest neighbor'
+p86
+I1
+sS'diagnosing lymphoma'
+p87
+I1
+sS'normal training interv'
+p88
+I1
+sS'cox'
+p89
+I1
+sS'som class'
+p90
+I1
+sS'biological analys'
+p91
+I1
+sS'precis'
+p92
+I1
+sS'svm model'
+p93
+I1
+sS'cancer pati'
+p94
+I1
+sS'three-lay'
+p95
+I1
+sS'studi'
+p96
+I6
+sS'gene'
+p97
+I40
+sS'follow-up donor'
+p98
+I1
+sS'chanc'
+p99
+I1
+sS'new network'
+p100
+I1
+sS'final subset'
+p101
+I1
+sS'cancer'
+p102
+I2
+sS'perou'
+p103
+I1
+sS'error cutoff'
+p104
+I2
+sS'subcategori'
+p105
+I1
+sS'kinase receptor gen'
+p106
+I1
+sS'subselection choic'
+p107
+I1
+sS'poll'
+p108
+I1
+sS'signatur'
+p109
+I2
+sS'plot'
+p110
+I1
+sS'score'
+p111
+I4
+sS'dlbcl'
+p112
+I6
+sS'distinct'
+p113
+I1
+sS'semi-quantitative assess'
+p114
+I1
+sS'microarray data chip'
+p115
+I1
+sS'kaplan mei'
+p116
+I2
+sS'gene profil'
+p117
+I1
+sS'panel network'
+p118
+I2
+sS'criteria'
+p119
+I3
+sS'approaches for limiting tumor growth'
+p120
+I1
+sS'basi'
+p121
+I1
+sS'donor profil'
+p122
+I2
+sS'strategi'
+p123
+I1
+sS'naive intuit'
+p124
+I1
+sS'neuron'
+p125
+I20
+sS'disadvantage of'
+p126
+I1
+sS'numerous recent canc'
+p127
+I1
+sS'inlier'
+p128
+I1
+sS'train'
+p129
+I14
+sS'survival predictions for'
+p130
+I1
+sS'neural network strategi'
+p131
+I1
+sS'relative dependence of th'
+p132
+I1
+sS'cluster'
+p133
+I1
+sS'quartil'
+p134
+I1
+sS'prepar'
+p135
+I1
+sS'work'
+p136
+I2
+sS'mh'
+p137
+I1
+sS'rejection antigen'
+p138
+I1
+sS'backpropagation network'
+p139
+I1
+sS'negative scor'
+p140
+I1
+sS'outcom'
+p141
+I3
+sS'non-tumor'
+p142
+I1
+sS'learn'
+p143
+I1
+sS'immunohistochem'
+p144
+I1
+sS'robin'
+p145
+I1
+sS'overtrain'
+p146
+I2
+sS'prognosis accuraci'
+p147
+I2
+sS'vectors for a neural network'
+p148
+I2
+sS'tumor-expressed gen'
+p149
+I1
+sS'chip'
+p150
+I2
+sS'net profil'
+p151
+I1
+sS'retest'
+p152
+I1
+sS'enhanced identification of'
+p153
+I1
+sS'training iter'
+p154
+I1
+sS'neural network'
+p155
+I17
+sS'contribut'
+p156
+I1
+sS'differenti'
+p157
+I10
+sS'survival predict'
+p158
+I2
+sS'round robin'
+p159
+I2
+sS'for differenti'
+p160
+I1
+sS'situ'
+p161
+I1
+sS'microarray'
+p162
+I2
+sS'clinical outcom'
+p163
+I1
+sS'prognosis classification accuraci'
+p164
+I1
+sS'enhanced identification of cell-typ'
+p165
+I1
+sS'tumor-encoded gen'
+p166
+I1
+sS'tumor growth'
+p167
+I2
+sS'artificial network'
+p168
+I1
+sS'donor pool'
+p169
+I1
+sS'leukemia'
+p170
+I2
+sS'prognostic outcom'
+p171
+I1
+sS'survival categori'
+p172
+I1
+sS'round-robin train'
+p173
+I1
+sS'dhanasekaran'
+p174
+I1
+sS'redund'
+p175
+I2
+sS'fl'
+p176
+I1
+sS'unimpair'
+p177
+I1
+sS'metastatic tumor'
+p178
+I1
+sS'germinal center b cell-like tumor'
+p179
+I1
+sS'attempt'
+p180
+I1
+sS'identification of cell-typ'
+p181
+I1
+sS'relative dependence of'
+p182
+I1
+sS'potential target'
+p183
+I1
+sS'model'
+p184
+I2
+sS'acute myeloid leukemia'
+p185
+I1
+sS'follow-up studi'
+p186
+I2
+sS'qualitative network'
+p187
+I2
+sS'all distinct'
+p188
+I1
+sS'therapi'
+p189
+I1
+sS'precise classif'
+p190
+I1
+sS'influential gen'
+p191
+I1
+sS'momentum coeffici'
+p192
+I1
+sS'for a neural network'
+p193
+I1
+sS'tyrosine kinase receptor gen'
+p194
+I1
+sS'predictions for individual pati'
+p195
+I1
+sS'efficacious approach'
+p196
+I1
+sS'vectors for'
+p197
+I1
+sS'identif'
+p198
+I2
+sS'statistical correl'
+p199
+I1
+sS'absolute best poss'
+p200
+I1
+sS'receptor gen'
+p201
+I1
+sS'overview'
+p202
+I2
+sS'signature gen'
+p203
+I2
+sS'gel'
+p204
+I1
+sS'enhanced identif'
+p205
+I1
+sS'momentum'
+p206
+I1
+sS'non-surviv'
+p207
+I1
+sS'prognostic network'
+p208
+I1
+sS'aml'
+p209
+I3
+sS'gene list'
+p210
+I1
+sS'b-cell lymphoma'
+p211
+I1
+sS'linear neural network'
+p212
+I1
+sS'bit'
+p213
+I2
+sS'lymphoma'
+p214
+I4
+sS'backpropagation neural network'
+p215
+I1
+sS'choic'
+p216
+I1
+sS'efficacious approaches for'
+p217
+I1
+sS'radiat'
+p218
+I1
+sS'non-respons'
+p219
+I1
+sS'gene stag'
+p220
+I1
+sS'subset'
+p221
+I12
+sS'fatal class'
+p222
+I1
+sS'non-respond'
+p223
+I2
+sS'majority vot'
+p224
+I1
+sS'lymphoblastic leukemia'
+p225
+I1
+sS'interv'
+p226
+I1
+sS'potential target antigen'
+p227
+I1
+sS't cell'
+p228
+I1
+sS'marker'
+p229
+I1
+sS'growth'
+p230
+I1
+sS'sampl'
+p231
+I1
+sS'microarray experi'
+p232
+I1
+sS'sight'
+p233
+I1
+sS'year'
+p234
+I1
+sS'malignant phenotyp'
+p235
+I1
+sS'molecul'
+p236
+I1
+sS'binary represent'
+p237
+I1
+sS'network'
+p238
+I29
+sS'cell-typ'
+p239
+I1
+sS'best poss'
+p240
+I1
+sS'categori'
+p241
+I1
+sS'vector'
+p242
+I8
+sS'relative depend'
+p243
+I1
+sS'rm'
+p244
+I1
+sS'gene panel'
+p245
+I3
+sS'cox hazard'
+p246
+I1
+sS'fl patient'
+p247
+I1
+sS'machin'
+p248
+I1
+sS'diseas'
+p249
+I2
+sS'patient'
+p250
+I12
+sS'prognost'
+p251
+I1
+sS'agreement'
+p252
+I1
+sS'target organ'
+p253
+I1
+sS'disadvantage of neural network'
+p254
+I1
+sS'hazard'
+p255
+I1
+sS'tumor rejection antigen'
+p256
+I1
+sS'panel'
+p257
+I4
+sS'session'
+p258
+I2
+sS'prognosi'
+p259
+I1
+sS'tumor'
+p260
+I10
+sS'informative gene mark'
+p261
+I1
+sS'neighbor'
+p262
+I1
+sS'metastatic diseas'
+p263
+I1
+sS'predictor'
+p264
+I1
+sS'softwar'
+p265
+I2
+sS'major'
+p266
+I2
+sS'error-free predict'
+p267
+I1
+sS'non-specific similar'
+p268
+I1
+sS'pairwise similar'
+p269
+I1
+sS'som'
+p270
+I2
+sS'surviv'
+p271
+I7
+sS'assess'
+p272
+I2
+sS'of cell-typ'
+p273
+I1
+sS'survival outcom'
+p274
+I1
+sS'optimum outcom'
+p275
+I1
+sS'antibody-mediated immunotherapi'
+p276
+I1
+sS'vote'
+p277
+I1
+sS'correlation coeffici'
+p278
+I1
+sS'informative subset'
+p279
+I1
+sS'stage'
+p280
+I1
+sS'rms error'
+p281
+I1
+sS'blue-cell tumor'
+p282
+I1
+sS'aml pati'
+p283
+I1
+sS'survival classif'
+p284
+I1
+sS'chemotherapi'
+p285
+I1
+sS'neural net profil'
+p286
+I1
+sS'diagnostic network'
+p287
+I1
+sS'quantitative assess'
+p288
+I1
+sS'fraction'
+p289
+I1
+sS'immunotherapi'
+p290
+I1
+sS'kaplan meier estim'
+p291
+I1
+sS'tool'
+p292
+I1
+sS'software program'
+p293
+I1
+sS'dlbcl lymphoma'
+p294
+I1
+sS'autoimmune diseas'
+p295
+I1
+sS'round-robin fashion'
+p296
+I1
+sS'year prognosi'
+p297
+I1
+sS'tumor reject'
+p298
+I2
+sS'gene expression panel'
+p299
+I1
+sS'numerous recent cancer studi'
+p300
+I1
+sS'diagnosis network'
+p301
+I1
+sS'target'
+p302
+I2
+sS'possibl'
+p303
+I1
+sS'preparation for differenti'
+p304
+I1
+sS'pc'
+p305
+I1
+sS'for limiting tumor growth'
+p306
+I1
+sS'proportional hazard'
+p307
+I1
+sS'recent cancer studi'
+p308
+I1
+sS'network strategi'
+p309
+I1
+sS'tyrosine kinase receptor'
+p310
+I1
+sS'meier estim'
+p311
+I1
+sS'similar'
+p312
+I4
+sS'gene mark'
+p313
+I1
+sS'classif'
+p314
+I25
+sS'fashion'
+p315
+I1
+sS'near-perfect diagnosi'
+p316
+I1
+sS'gene subset'
+p317
+I4
+sS'cutoff criteria'
+p318
+I1
+sS'ann'
+p319
+I4
+sS'diagnosi'
+p320
+I3
+sS'gene predictor'
+p321
+I1
+sS'repres'
+p322
+I1
+sS'round blue-cell tumor'
+p323
+I1
+sS'germinal center b'
+p324
+I1
+sS'b cell-like tumor'
+p325
+I3
+sS'near-perfect classif'
+p326
+I1
+sS'absolute best'
+p327
+I1
+sS'diffuse large b-cell lymphoma'
+p328
+I1
+sS'estim'
+p329
+I1
+sS'normal train'
+p330
+I1
+sS'accuraci'
+p331
+I12
+sS'myeloid leukemia'
+p332
+I1
+sS'efficacious approaches for limiting tumor'
+p333
+I1
+sS'sigmoid transf'
+p334
+I1
+sS'neural network softwar'
+p335
+I1
+sS'kaplan'
+p336
+I2
+sS'donor'
+p337
+I14
+sS'phenotyp'
+p338
+I1
+sS'node'
+p339
+I1
+sS'round-robin'
+p340
+I1
+sS'subsequent network'
+p341
+I1
+sS'ly1'
+p342
+I1
+sS'gene pool'
+p343
+I1
+sS'maximum contribut'
+p344
+I1
+sS'reserve pati'
+p345
+I1
+sS'dlbcl patient'
+p346
+I3
+sS'diagnosis unimpair'
+p347
+I1
+sS'class'
+p348
+I3
+sS'pool'
+p349
+I2
+sS'matrix'
+p350
+I2
+sS'svm'
+p351
+I1
+sS'microarray studi'
+p352
+I1
+sS'for individual pati'
+p353
+I1
+sS'training interv'
+p354
+I1
+sS'individual basi'
+p355
+I1
+sS'rule'
+p356
+I1
+sS'majority pol'
+p357
+I1
+sS'over-train'
+p358
+I1
+sS'profil'
+p359
+I4
+sS'intuit'
+p360
+I1
+stp361
+Rp362
+tp363
+.

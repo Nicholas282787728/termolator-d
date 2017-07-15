@@ -1,0 +1,407 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'fuel-powered engin'
+p7
+I1
+sS'circuitri'
+p8
+I6
+sS'consider'
+p9
+I1
+sS'weidong'
+p10
+I1
+sS'bypass valve of'
+p11
+I1
+sS'meter'
+p12
+I2
+sS'combustion engin'
+p13
+I2
+sS'shuttl'
+p14
+I2
+sS'check valv'
+p15
+I2
+sS'turbocharg'
+p16
+I3
+sS'ny'
+p17
+I1
+sS'internal combust'
+p18
+I2
+sS'turbin'
+p19
+I7
+sS'bypass'
+p20
+I1
+sS'norwich ni'
+p21
+I1
+sS'fuel'
+p22
+I2
+sS'shell type heat exchang'
+p23
+I1
+sS'compressor of a turbocharg'
+p24
+I1
+sS'particulate trap'
+p25
+I1
+sS'loss'
+p26
+I3
+sS'fixed geometry compressor'
+p27
+I1
+sS'optimum engine effici'
+p28
+I1
+sS'dc'
+p29
+I1
+sS'dunlap'
+p30
+I1
+sS'ball valv'
+p31
+I2
+sS'air-to-liquid heat exchang'
+p32
+I1
+sS'four-stroke gasoline engin'
+p33
+I1
+sS'induct'
+p34
+I31
+sS'turbine of th'
+p35
+I1
+sS'the turbocharg'
+p36
+I1
+sS'cooler'
+p37
+I10
+sS'chamber'
+p38
+I8
+sS'turbine of'
+p39
+I1
+sS'trap'
+p40
+I1
+sS'of a turbocharg'
+p41
+I1
+sS'engine exhaust discharg'
+p42
+I1
+sS'shuttle valv'
+p43
+I2
+sS'globe'
+p44
+I2
+sS'driver circuitri'
+p45
+I1
+sS'engine exhaust discharge duct'
+p46
+I1
+sS'combust'
+p47
+I8
+sS'throttle valv'
+p48
+I23
+sS'energi'
+p49
+I4
+sS'nw washington dc'
+p50
+I1
+sS'optimal effici'
+p51
+I1
+sS'transmiss'
+p52
+I1
+sS'bypass flow control gong weidong'
+p53
+I1
+sS'efficiency loss'
+p54
+I1
+sS'microprocessor'
+p55
+I1
+sS'compressor discharg'
+p56
+I5
+sS'sensor'
+p57
+I8
+sS'of the turbocharg'
+p58
+I1
+sS'norwich'
+p59
+I1
+sS'peoria il'
+p60
+I1
+sS'numerous engin'
+p61
+I1
+sS'fluid conduit'
+p62
+I9
+sS'nw washington'
+p63
+I1
+sS'exhaust discharg'
+p64
+I1
+sS'valv'
+p65
+I41
+sS'monitor'
+p66
+I2
+sS'energy loss'
+p67
+I1
+sS'airflow'
+p68
+I1
+sS'compressor discharge duct'
+p69
+I2
+sS'consideration of th'
+p70
+I1
+sS'backpressur'
+p71
+I1
+sS'supply circuitri'
+p72
+I2
+sS'fuel injector'
+p73
+I1
+sS'load'
+p74
+I1
+sS'optimum engin'
+p75
+I1
+sS'effici'
+p76
+I5
+sS'engine effici'
+p77
+I3
+sS'duct'
+p78
+I5
+sS'exchang'
+p79
+I13
+sS'restrict'
+p80
+I3
+sS'injector'
+p81
+I1
+sS'suppli'
+p82
+I1
+sS'turbine of the turbocharg'
+p83
+I1
+sS'compressor of'
+p84
+I1
+sS'induction system having bypass flow control gong weidong'
+p85
+I1
+sS'washington dc'
+p86
+I1
+sS'conduit'
+p87
+I9
+sS'head'
+p88
+I4
+sS'gaseous fuel-powered engin'
+p89
+I1
+sS'consideration of'
+p90
+I1
+sS'air-to-fuel'
+p91
+I3
+sS'engine load'
+p92
+I1
+sS'peoria'
+p93
+I1
+sS'induction system having bypass flow control gong'
+p94
+I1
+sS'compressor'
+p95
+I16
+sS'compressor bypass'
+p96
+I1
+sS'wasteg'
+p97
+I7
+sS'in-lin'
+p98
+I1
+sS'exhaust duct'
+p99
+I1
+sS'viscosity sensor'
+p100
+I1
+sS'work'
+p101
+I3
+sS'gasolin'
+p102
+I1
+sS'discharge duct'
+p103
+I4
+sS'gong weidong'
+p104
+I3
+sS'b h'
+p105
+I1
+sS'solenoid driv'
+p106
+I1
+sS'engine exhaust'
+p107
+I2
+sS'nox absorb'
+p108
+I1
+sS'atmospher'
+p109
+I3
+sS'bypass valv'
+p110
+I19
+sS'four-stroke gasolin'
+p111
+I1
+sS'exhaust backpressur'
+p112
+I1
+sS'il'
+p113
+I2
+sS'exhaust discharge duct'
+p114
+I2
+sS'check'
+p115
+I2
+sS'cylinder head'
+p116
+I4
+sS'differenti'
+p117
+I2
+sS'engin'
+p118
+I16
+sS'dunlap il'
+p119
+I1
+sS'having bypass flow control gong weidong'
+p120
+I2
+sS'engine exhaust duct'
+p121
+I1
+sS'geometry compressor'
+p122
+I2
+sS'globe valv'
+p123
+I2
+sS'gate valv'
+p124
+I2
+sS'gate'
+p125
+I2
+sS'nw'
+p126
+I1
+sS'solenoid driver circuitri'
+p127
+I1
+sS'ball'
+p128
+I2
+sS'combustion chamb'
+p129
+I8
+sS'absorb'
+p130
+I1
+sS'bypass valve of th'
+p131
+I1
+sS'internal combustion engin'
+p132
+I2
+sS'parallel'
+p133
+I1
+sS'induction system hav'
+p134
+I2
+sS'engine microprocessor'
+p135
+I1
+sS'gasoline engin'
+p136
+I2
+stp137
+Rp138
+tp139
+.

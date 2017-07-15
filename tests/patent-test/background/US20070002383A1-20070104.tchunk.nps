@@ -1,0 +1,929 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'represent'
+p7
+I1
+sS'consider'
+p8
+I1
+sS'of the supply rol'
+p9
+I2
+sS'opposit'
+p10
+I1
+sS'of the color las'
+p11
+I1
+sS'exposure device expos'
+p12
+I1
+sS'epdm rubb'
+p13
+I1
+sS'photoconductor of a polycarbonate type resin'
+p14
+I1
+sS'ground'
+p15
+I1
+sS'the supply rol'
+p16
+I1
+sS'color las'
+p17
+I11
+sS'of a color laser print'
+p18
+I2
+sS'intermedi'
+p19
+I1
+sS'opposite of the transfer rol'
+p20
+I1
+sS'particles of carbon'
+p21
+I1
+sS'the transfer rol'
+p22
+I1
+sS'non-electrified portions of the photoconductor belt'
+p23
+I1
+sS'z of the photoconductor belt'
+p24
+I2
+sS'of the suppli'
+p25
+I1
+sS'original storage tray'
+p26
+I3
+sS'polygon mirror'
+p27
+I3
+sS'exposure portion of'
+p28
+I1
+sS'conductive urethan'
+p29
+I1
+sS'dc'
+p30
+I1
+sS'polycarbon'
+p31
+I1
+sS'print'
+p32
+I9
+sS'cyan'
+p33
+I3
+sS'toner contain'
+p34
+I3
+sS'sheet dens'
+p35
+I1
+sS'for th'
+p36
+I3
+sS'organ'
+p37
+I1
+sS'mirror'
+p38
+I3
+sS'cyan ton'
+p39
+I1
+sS'integr'
+p40
+I1
+sS'x'
+p41
+I5
+sS'transportation path of th'
+p42
+I1
+sS'machin'
+p43
+I2
+sS'blade'
+p44
+I2
+sS'polyimide resin'
+p45
+I1
+sS'opposite of th'
+p46
+I1
+sS'silicon rubb'
+p47
+I2
+sS'electrostatic lat'
+p48
+I1
+sS'transfer device for'
+p49
+I1
+sS'printing operation of th'
+p50
+I1
+sS'electrical configuration of the color las'
+p51
+I1
+sS'potential error'
+p52
+I1
+sS'illumin'
+p53
+I1
+sS'particl'
+p54
+I1
+sS'opposite of the transf'
+p55
+I1
+sS'copier cap'
+p56
+I1
+sS'record'
+p57
+I19
+sS'of the development cartridg'
+p58
+I6
+sS'asic'
+p59
+I1
+sS'plastic record'
+p60
+I1
+sS'photoconductor rol'
+p61
+I1
+sS'of a polycarbonate type resin'
+p62
+I1
+sS'conductive particles of carbon'
+p63
+I1
+sS'sheet length sensor'
+p64
+I6
+sS'conductive polycarbon'
+p65
+I1
+sS'color print'
+p66
+I1
+sS'tandem color laser print'
+p67
+I1
+sS'electrical configuration of the color'
+p68
+I1
+sS'error'
+p69
+I4
+sS'len'
+p70
+I1
+sS'perpendicular'
+p71
+I2
+sS'cycl'
+p72
+I1
+sS'epdm'
+p73
+I1
+sS'carbon'
+p74
+I2
+sS'roller'
+p75
+I68
+sS'multi-page transmiss'
+p76
+I1
+sS'organic photoconductor rol'
+p77
+I1
+sS'cycle of'
+p78
+I1
+sS'potential add'
+p79
+I2
+sS'multicolor develop'
+p80
+I1
+sS'electric configuration of the color'
+p81
+I1
+sS'emit'
+p82
+I1
+sS'transportation direction of the record'
+p83
+I1
+sS'of the photoconductor belt'
+p84
+I18
+sS'electric configuration of'
+p85
+I1
+sS'nagoya-shi'
+p86
+I1
+sS'transportation of'
+p87
+I1
+sS'overview'
+p88
+I1
+sS'printing priorit'
+p89
+I2
+sS'organic photoconductor'
+p90
+I1
+sS'motor'
+p91
+I3
+sS'suppli'
+p92
+I2
+sS'electrical configuration of'
+p93
+I1
+sS'of the develop'
+p94
+I4
+sS'belt'
+p95
+I94
+sS'printer cap'
+p96
+I1
+sS'call'
+p97
+I1
+sS'basic'
+p98
+I1
+sS'demodul'
+p99
+I1
+sS'nickel galvanoplast'
+p100
+I1
+sS'of the organic photoconductor'
+p101
+I2
+sS'development cartridg'
+p102
+I13
+sS'nickel'
+p103
+I2
+sS'photoconductor belt'
+p104
+I53
+sS'conductor'
+p105
+I1
+sS'transportation direction of'
+p106
+I1
+sS'notic'
+p107
+I2
+sS'copying function of th'
+p108
+I1
+sS'non-electrified portions of th'
+p109
+I1
+sS'front side of'
+p110
+I1
+sS'normal transf'
+p111
+I3
+sS'drum'
+p112
+I1
+sS'hold'
+p113
+I2
+sS'detection sensor'
+p114
+I3
+sS'overview of th'
+p115
+I1
+sS'laser print'
+p116
+I16
+sS'transfer tandem color laser print'
+p117
+I1
+sS'of carbon'
+p118
+I1
+sS'gnd'
+p119
+I2
+sS'of'
+p120
+I18
+sS'b h'
+p121
+I1
+sS'overview of'
+p122
+I1
+sS's16'
+p123
+I1
+sS'scan'
+p124
+I2
+sS'for the record'
+p125
+I2
+sS'ave'
+p126
+I1
+sS'electr'
+p127
+I1
+sS'internal configuration of a color'
+p128
+I1
+sS'develop'
+p129
+I62
+sS'perimet'
+p130
+I2
+sS'of th'
+p131
+I17
+sS'start-before-determin'
+p132
+I1
+sS'delay'
+p133
+I2
+sS'lamp'
+p134
+I1
+sS'recoveri'
+p135
+I1
+sS'single-ingredi'
+p136
+I1
+sS'explanation of th'
+p137
+I1
+sS'sheet density sensor'
+p138
+I1
+sS'conductive urethane rubb'
+p139
+I1
+sS'the development rol'
+p140
+I1
+sS'voic'
+p141
+I1
+sS'capabl'
+p142
+I6
+sS'of the transfer rol'
+p143
+I1
+sS'explanation of the belt photoconductor'
+p144
+I1
+sS'scanner motor'
+p145
+I3
+sS'representation of th'
+p146
+I1
+sS'photoconductor of'
+p147
+I1
+sS'the organic photoconductor'
+p148
+I1
+sS'pennsylvania'
+p149
+I1
+sS'density detect'
+p150
+I3
+sS'transfer tandem color'
+p151
+I1
+sS'electrical configuration of the color laser print'
+p152
+I1
+sS'external equip'
+p153
+I1
+sS'receiv'
+p154
+I1
+sS'modem'
+p155
+I1
+sS'explan'
+p156
+I1
+sS'polymeric ton'
+p157
+I1
+sS'cartridg'
+p158
+I13
+sS'of the color'
+p159
+I1
+sS'error messag'
+p160
+I1
+sS'copying function of'
+p161
+I1
+sS'printer sheet'
+p162
+I1
+sS'circumfer'
+p163
+I1
+sS'transfer bia'
+p164
+I3
+sS'explanation of the belt'
+p165
+I1
+sS'equip'
+p166
+I1
+sS'supply rol'
+p167
+I3
+sS'rubber'
+p168
+I5
+sS'transportation of th'
+p169
+I1
+sS'photoconductor drum'
+p170
+I1
+sS'interfer'
+p171
+I1
+sS'density detection sensor'
+p172
+I3
+sS'color'
+p173
+I25
+sS'network i'
+p174
+I3
+sS'non-magnet'
+p175
+I1
+sS'flowchart'
+p176
+I2
+sS'the color laser print'
+p177
+I3
+sS'original read'
+p178
+I8
+sS'of the color laser print'
+p179
+I7
+sS'bia'
+p180
+I8
+sS'electrif'
+p181
+I3
+sS'lcd'
+p182
+I1
+sS'hitachi-shi'
+p183
+I1
+sS'front'
+p184
+I1
+sS'z of th'
+p185
+I1
+sS'transfer rol'
+p186
+I31
+sS'loss'
+p187
+I8
+sS'aluminum'
+p188
+I1
+sS'resin'
+p189
+I4
+sS'collect'
+p190
+I2
+sS'opposite of'
+p191
+I1
+sS'transportation direction of th'
+p192
+I1
+sS'electrical configuration of th'
+p193
+I1
+sS'tray'
+p194
+I6
+sS'drive-control'
+p195
+I2
+sS'polycarbonate type resin'
+p196
+I2
+sS'warner'
+p197
+I1
+sS'color laser print'
+p198
+I17
+sS'a4 sized sheet'
+p199
+I3
+sS'intern'
+p200
+I1
+sS'printer'
+p201
+I24
+sS'intermediate transfer belt'
+p202
+I1
+sS'representation of'
+p203
+I1
+sS'nw washington dc'
+p204
+I1
+sS'transport'
+p205
+I29
+sS'transmiss'
+p206
+I2
+sS'internal configuration of a color las'
+p207
+I1
+sS'network'
+p208
+I4
+sS'for'
+p209
+I5
+sS'corona'
+p210
+I1
+sS'intermediate transf'
+p211
+I1
+sS'development bia'
+p212
+I2
+sS'buffer'
+p213
+I1
+sS'subject matt'
+p214
+I1
+sS'automatic original fe'
+p215
+I2
+sS'sensor'
+p216
+I16
+sS'transfer notif'
+p217
+I2
+sS'start-after-determin'
+p218
+I1
+sS'transfer tandem color las'
+p219
+I1
+sS's18'
+p220
+I1
+sS'facsimile cap'
+p221
+I1
+sS'transport rol'
+p222
+I5
+sS'urethane resin'
+p223
+I1
+sS'development rol'
+p224
+I11
+sS'carbon particl'
+p225
+I1
+sS'nw washington'
+p226
+I1
+sS'panel'
+p227
+I16
+sS'of the belt'
+p228
+I1
+sS'front side of th'
+p229
+I1
+sS'transportation path of'
+p230
+I1
+sS'electric configuration of the color laser print'
+p231
+I1
+sS'individual develop'
+p232
+I2
+sS'belt photoconductor'
+p233
+I9
+sS'origin'
+p234
+I2
+sS'telephon'
+p235
+I4
+sS'spherical polymeric ton'
+p236
+I1
+sS'restrict'
+p237
+I2
+sS'sheet'
+p238
+I20
+sS'transfer'
+p239
+I106
+sS'overhead project'
+p240
+I1
+sS'messag'
+p241
+I1
+sS'washington dc'
+p242
+I1
+sS'overhead'
+p243
+I1
+sS'explanation of'
+p244
+I1
+sS'electrostatic latent image correspond'
+p245
+I2
+sS'gear'
+p246
+I4
+sS'voice notif'
+p247
+I1
+sS'copi'
+p248
+I2
+sS'ncu'
+p249
+I3
+sS'electric configuration of th'
+p250
+I1
+sS'sequential bia'
+p251
+I1
+sS'the development cartridg'
+p252
+I3
+sS'termin'
+p253
+I1
+sS'printing operation of'
+p254
+I1
+sS'transportation path of the record'
+p255
+I1
+sS'exposur'
+p256
+I22
+sS'latent image correspond'
+p257
+I2
+sS'maximum'
+p258
+I1
+sS'project'
+p259
+I1
+sS'matter'
+p260
+I1
+sS'density sensor'
+p261
+I1
+sS'toner'
+p262
+I3
+sS'transfer belt'
+p263
+I37
+sS'inverse bia'
+p264
+I1
+sS'z'
+p265
+I5
+sS'individual color'
+p266
+I1
+sS'display'
+p267
+I4
+sS'original eject'
+p268
+I1
+sS'scanner'
+p269
+I1
+sS'transportation of the record'
+p270
+I1
+sS'spectrum'
+p271
+I1
+sS'correspond'
+p272
+I4
+sS'non-electrified portions of'
+p273
+I1
+sS'internal configuration of'
+p274
+I1
+sS'mutual interfer'
+p275
+I1
+sS'ohp'
+p276
+I1
+sS'for the receiv'
+p277
+I1
+sS'nw'
+p278
+I1
+sS'urethane rubb'
+p279
+I2
+sS'conductive rubb'
+p280
+I2
+sS'z of'
+p281
+I1
+sS'of the development rol'
+p282
+I2
+sS'transmit'
+p283
+I1
+sS'detector'
+p284
+I4
+sS'elastic rol'
+p285
+I1
+sS'halogen lamp'
+p286
+I1
+sS'polyimid'
+p287
+I1
+sS'normal print'
+p288
+I5
+sS'notif'
+p289
+I3
+sS'transfer position x'
+p290
+I5
+sS'the photoconductor belt'
+p291
+I7
+sS'regular size sheet'
+p292
+I1
+sS'restriction blad'
+p293
+I4
+sS'adder'
+p294
+I2
+sS'conductive particl'
+p295
+I1
+sS'internal configuration of a color laser print'
+p296
+I1
+sS'rom'
+p297
+I4
+sS'photoconductor'
+p298
+I24
+sS'exposure portion of th'
+p299
+I1
+sS'of the belt photoconductor'
+p300
+I1
+sS'eject'
+p301
+I1
+sS'nickel conductor'
+p302
+I1
+sS'transfer tandem'
+p303
+I1
+sS'electric configuration of the color las'
+p304
+I1
+sS'depth'
+p305
+I1
+sS'pennsylvania av'
+p306
+I1
+sS'detection error'
+p307
+I2
+sS'conductive particles of'
+p308
+I1
+sS'cpu'
+p309
+I15
+sS'collection bia'
+p310
+I2
+stp311
+Rp312
+tp313
+.

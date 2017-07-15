@@ -1,0 +1,1670 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'integrin-blocking reag'
+p7
+I1
+sS'tbs-tween'
+p8
+I3
+sS'ml of'
+p9
+I1
+sS'centrifug'
+p10
+I1
+sS'\xce\xbcm for'
+p11
+I1
+sS'anti-\xce\xb21'
+p12
+I3
+sS'concentrations of fibrillar'
+p13
+I1
+sS'fibrillar form of'
+p14
+I1
+sS'diploid smooth muscle cel'
+p15
+I1
+sS'dish'
+p16
+I3
+sS'kda proteoglycan'
+p17
+I1
+sS'sds sampl'
+p18
+I3
+sS'sds sample buff'
+p19
+I3
+sS'ml 35s04'
+p20
+I1
+sS'bound antibodi'
+p21
+I1
+sS'affinity chromatographi'
+p22
+I10
+sS'iii1-c column'
+p23
+I2
+sS'tb'
+p24
+I3
+sS'hyperfilm'
+p25
+I2
+sS'growth of normal diploid smooth muscle cel'
+p26
+I1
+sS'urea'
+p27
+I2
+sS'assay'
+p28
+I3
+sS'texas r'
+p29
+I1
+sS'\xce\xbcm for iii1-c'
+p30
+I1
+sS'desaturated uron'
+p31
+I1
+sS'mapk pathway'
+p32
+I2
+sS'recombinant protein production proteins iii1-c'
+p33
+I1
+sS'for iii1-c'
+p34
+I10
+sS'of fibronectin'
+p35
+I4
+sS'supplement'
+p36
+I1
+sS'of the jurkat t cel'
+p37
+I1
+sS'dimer'
+p38
+I1
+sS'wash buff'
+p39
+I2
+sS'kda'
+p40
+I6
+sS'cord'
+p41
+I1
+sS'gst-3fn1 fusion'
+p42
+I1
+sS'core protein'
+p43
+I4
+sS'final wash'
+p44
+I1
+sS'molecul'
+p45
+I2
+sS'metastasi'
+p46
+I2
+sS'acid'
+p47
+I4
+sS'of jurkat t cel'
+p48
+I1
+sS'blue'
+p49
+I1
+sS'pdgf stimul'
+p50
+I2
+sS'abc'
+p51
+I3
+sS'chicago'
+p52
+I1
+sS'erk-mediated stimul'
+p53
+I1
+sS'cell'
+p54
+I42
+sS'pen-strep'
+p55
+I3
+sS'hspgs of rasmc'
+p56
+I2
+sS'new'
+p57
+I1
+sS'proliferation of'
+p58
+I1
+sS'kda bind'
+p59
+I1
+sS'chondroitin sulfate proteoglycan'
+p60
+I1
+sS'hyaluronic acid'
+p61
+I3
+sS'fibronectin receptor'
+p62
+I2
+sS'gagase treatment of'
+p63
+I1
+sS'ethanol'
+p64
+I1
+sS'sulfate blocked erk1'
+p65
+I1
+sS'purif'
+p66
+I1
+sS'ml coomassi'
+p67
+I1
+sS'legend'
+p68
+I4
+sS'triethylamin'
+p69
+I1
+sS'cell surface radioiodin'
+p70
+I1
+sS'of fibrillar fibronectin'
+p71
+I1
+sS'biolab'
+p72
+I1
+sS'studi'
+p73
+I1
+sS'iii1-c sepharose column'
+p74
+I1
+sS'erk activ'
+p75
+I6
+sS'mab'
+p76
+I4
+sS'mitogenic pathway'
+p77
+I1
+sS'activation of erk1'
+p78
+I7
+sS'jurkat t'
+p79
+I1
+sS'glutamine pen-strep'
+p80
+I2
+sS'biological effects of iii1-c'
+p81
+I1
+sS'receptors inhibit'
+p82
+I1
+sS'prep'
+p83
+I1
+sS'protein iii'
+p84
+I6
+sS'erk pathway'
+p85
+I2
+sS'plasma fibronectin'
+p86
+I1
+sS'3g10'
+p87
+I3
+sS'cacl'
+p88
+I2
+sS'cnbr-activated sepharos'
+p89
+I1
+sS'iii'
+p90
+I5
+sS'gelatin-agarose affinity chromatographi'
+p91
+I1
+sS'ml'
+p92
+I2
+sS'anti-\xce\xb21 mab'
+p93
+I2
+sS'inhibitor'
+p94
+I1
+sS'blue dy'
+p95
+I1
+sS'erk'
+p96
+I12
+sS'antibodi'
+p97
+I20
+sS'of dimeric fibronectin'
+p98
+I1
+sS'storm phosphorimag'
+p99
+I1
+sS'\xce\xbcm iii1-c'
+p100
+I2
+sS'monoclonal antibody 3g10'
+p101
+I1
+sS'negative control protein iii'
+p102
+I2
+sS'chemic'
+p103
+I1
+sS'cnbr-activ'
+p104
+I1
+sS'adhesion of jurkat t cel'
+p105
+I1
+sS'hog'
+p106
+I1
+sS'glycosaminoglycan'
+p107
+I4
+sS'kda hspg'
+p108
+I3
+sS'mapk'
+p109
+I1
+sS'leica dm irb'
+p110
+I1
+sS'anti-fn antibodi'
+p111
+I1
+sS'sulfate proteoglycan'
+p112
+I3
+sS'cell-surface proteoglycan'
+p113
+I1
+sS'pathway'
+p114
+I15
+sS'cell monolay'
+p115
+I1
+sS'stock'
+p116
+I1
+sS'rasmc hspg'
+p117
+I1
+sS'ml coomassie brilli'
+p118
+I1
+sS'fitc'
+p119
+I1
+sS'act'
+p120
+I1
+sS'concentrations of'
+p121
+I2
+sS'differenti'
+p122
+I1
+sS'fibrillar matrix'
+p123
+I1
+sS'fb'
+p124
+I2
+sS'monoclonal antibodi'
+p125
+I1
+sS'glycosaminoglycan-degrading enzym'
+p126
+I1
+sS'demonstr'
+p127
+I1
+sS'stress'
+p128
+I1
+sS'receptor for iii1-c'
+p129
+I2
+sS'bind'
+p130
+I1
+sS'rasmc attach'
+p131
+I3
+sS'chromatography column'
+p132
+I1
+sS'cell surface radioiodination of rasmc'
+p133
+I1
+sS'recombinant protein production protein'
+p134
+I1
+sS'non-integrin receptor'
+p135
+I1
+sS'sd'
+p136
+I5
+sS'syndecan'
+p137
+I2
+sS'radioiodinated protein'
+p138
+I1
+sS'gst-3fn1 fusion protein'
+p139
+I1
+sS'seikagaku'
+p140
+I1
+sS'mucosa'
+p141
+I1
+sS'secondary antibodi'
+p142
+I1
+sS'bead'
+p143
+I3
+sS'negative control rad'
+p144
+I2
+sS'gagase treat'
+p145
+I2
+sS'digest'
+p146
+I1
+sS'sds-page'
+p147
+I1
+sS'anti-iii1-c'
+p148
+I1
+sS'gagase treatment of cel'
+p149
+I1
+sS'sodium'
+p150
+I1
+sS'centrifuged pellet'
+p151
+I1
+sS'cnbr-activated sepharose cl-4b'
+p152
+I1
+sS'dimeric form of fibronectin'
+p153
+I1
+sS'recombinant protein'
+p154
+I4
+sS'tri'
+p155
+I4
+sS'coomassie blue dy'
+p156
+I1
+sS'activation of'
+p157
+I10
+sS'fragment'
+p158
+I1
+sS'potential adhes'
+p159
+I1
+sS'reagent'
+p160
+I3
+sS'chromatographi'
+p161
+I9
+sS'acetic acid'
+p162
+I1
+sS'smooth muscle cel'
+p163
+I1
+sS'of smc'
+p164
+I1
+sS'insoluble fibrillar matrix'
+p165
+I1
+sS'\xce\xb1v\xce\xb23'
+p166
+I1
+sS'kda cor'
+p167
+I2
+sS'growth of normal diploid smooth muscl'
+p168
+I1
+sS'endostatin'
+p169
+I3
+sS'nonidet p'
+p170
+I1
+sS'stripping buff'
+p171
+I1
+sS't cell'
+p172
+I4
+sS'fibronectin'
+p173
+I33
+sS'affinity purif'
+p174
+I1
+sS'absence of iii1-c'
+p175
+I1
+sS'elut'
+p176
+I2
+sS'sucros'
+p177
+I2
+sS'coomassie blu'
+p178
+I1
+sS'rt'
+p179
+I3
+sS'matrix'
+p180
+I3
+sS'fibronectin frag'
+p181
+I1
+sS'phosphoryl'
+p182
+I1
+sS'stub'
+p183
+I1
+sS'vector'
+p184
+I1
+sS'ra'
+p185
+I3
+sS'smc'
+p186
+I3
+sS'red'
+p187
+I1
+sS'cartilag'
+p188
+I1
+sS'ecl'
+p189
+I2
+sS'standard'
+p190
+I2
+sS'hspg'
+p191
+I25
+sS'growth inhibit'
+p192
+I1
+sS'basi'
+p193
+I1
+sS'kda core protein'
+p194
+I2
+sS'proteins iii1-c'
+p195
+I2
+sS'fibronectin sepharos'
+p196
+I1
+sS'hspg core'
+p197
+I1
+sS'\xce\xbcm'
+p198
+I2
+sS'dimeric fibronectin'
+p199
+I2
+sS'ml fibronectin'
+p200
+I1
+sS'expression vector pqe-12'
+p201
+I1
+sS'tumor growth'
+p202
+I3
+sS'pge'
+p203
+I2
+sS'cell surface protein'
+p204
+I1
+sS'adhesive protein'
+p205
+I1
+sS'nacl'
+p206
+I1
+sS'wash'
+p207
+I3
+sS'leica'
+p208
+I1
+sS'qiagen'
+p209
+I1
+sS'membran'
+p210
+I1
+sS'rad peptid'
+p211
+I4
+sS'1-c antibodi'
+p212
+I2
+sS'panel fn'
+p213
+I1
+sS'mm \xce\xb2-mercaptoethanol'
+p214
+I1
+sS'attach'
+p215
+I4
+sS'dermatan sulfate proteoglycan'
+p216
+I1
+sS'fn'
+p217
+I4
+sS'storm'
+p218
+I1
+sS'biochem'
+p219
+I1
+sS'adsorbed iii1-c'
+p220
+I1
+sS'gst fusion protein'
+p221
+I1
+sS'adhes'
+p222
+I20
+sS'erk1'
+p223
+I9
+sS'erk2'
+p224
+I1
+sS'complete digestion of'
+p225
+I1
+sS'incub'
+p226
+I1
+sS'antibody 3g10'
+p227
+I1
+sS'fibrillar fibronectin'
+p228
+I2
+sS'cl-4b'
+p229
+I1
+sS'sds-page gel'
+p230
+I2
+sS'biological effects of'
+p231
+I1
+sS'monolay'
+p232
+I1
+sS'exposur'
+p233
+I1
+sS'lactoperoxidase-h'
+p234
+I1
+sS'sds-page sample buff'
+p235
+I1
+sS'blocked erk1'
+p236
+I1
+sS'nonidet'
+p237
+I1
+sS'coat'
+p238
+I2
+sS'growth of'
+p239
+I1
+sS'affinity column'
+p240
+I2
+sS'p membran'
+p241
+I1
+sS'chromatography of radioiodinated cell surface protein'
+p242
+I1
+sS'rat'
+p243
+I2
+sS'sepharose cl-4b'
+p244
+I1
+sS'rgd peptid'
+p245
+I2
+sS'of resin for iii1-c'
+p246
+I1
+sS'stress fib'
+p247
+I1
+sS'min'
+p248
+I12
+sS'ml coomassie brilliant blu'
+p249
+I1
+sS'cranial cartilag'
+p250
+I1
+sS'hr'
+p251
+I6
+sS'resin for iii1-c'
+p252
+I1
+sS'of erk1'
+p253
+I7
+sS'anti-iii1-c antibodi'
+p254
+I1
+sS'concentration of protein'
+p255
+I1
+sS'numerous lamellipodia'
+p256
+I1
+sS'chondroitinase abc'
+p257
+I4
+sS'cell surface hspgs of rasmc'
+p258
+I1
+sS'buffer'
+p259
+I11
+sS'adhesion of the jurkat t'
+p260
+I1
+sS'further experi'
+p261
+I1
+sS'rasmcs produc'
+p262
+I1
+sS'pdgf'
+p263
+I6
+sS'cell surface proteoglycan'
+p264
+I2
+sS'grgdsp'
+p265
+I1
+sS'dermatan sulfate blocked erk1'
+p266
+I1
+sS'dmem'
+p267
+I13
+sS'protein production proteins iii1-c'
+p268
+I1
+sS'bsa'
+p269
+I8
+sS'mgcl'
+p270
+I1
+sS'adhesion of the jurkat t cel'
+p271
+I1
+sS'polyclonal antibodi'
+p272
+I2
+sS'\xce\xb2-strand'
+p273
+I2
+sS'immobilon p'
+p274
+I1
+sS'concentrations of fibrillar fibronectin'
+p275
+I1
+sS'jurkat'
+p276
+I1
+sS'brilliant blu'
+p277
+I1
+sS'sigma'
+p278
+I1
+sS'serum sampl'
+p279
+I1
+sS'affinity chromatography of radioiodinated cell surface protein'
+p280
+I1
+sS'proteoglycan'
+p281
+I11
+sS'texa'
+p282
+I1
+sS'affin'
+p283
+I1
+sS'umbilical cord'
+p284
+I1
+sS'leica dm'
+p285
+I1
+sS'relative contribut'
+p286
+I1
+sS'mm tri'
+p287
+I3
+sS'activ'
+p288
+I29
+sS'chondroitin sulf'
+p289
+I1
+sS'stain'
+p290
+I1
+sS'produce pg'
+p291
+I1
+sS'contribut'
+p292
+I1
+sS'stock protein'
+p293
+I1
+sS'express'
+p294
+I1
+sS'fc'
+p295
+I1
+sS'heparan sulf'
+p296
+I4
+sS'stimulated sampl'
+p297
+I1
+sS'octylglucosid'
+p298
+I1
+sS'dye'
+p299
+I1
+sS'pellet'
+p300
+I1
+sS'gel'
+p301
+I2
+sS'\xce\xbcl'
+p302
+I2
+sS'erk polyclonal antibodi'
+p303
+I1
+sS'smcs erk'
+p304
+I1
+sS'expression vector'
+p305
+I1
+sS'pdgf stimulated sampl'
+p306
+I1
+sS'stimulation of pg'
+p307
+I1
+sS'dmem suppl'
+p308
+I1
+sS'mm sucros'
+p309
+I2
+sS'adhesion of'
+p310
+I2
+sS'immobilon'
+p311
+I1
+sS'ni-agarose column'
+p312
+I1
+sS'phosphorimag'
+p313
+I1
+sS'label'
+p314
+I1
+sS'fibrillar form of fibronectin'
+p315
+I1
+sS'anti-iii 1-c antibodi'
+p316
+I2
+sS'dermatan sulf'
+p317
+I2
+sS'affinity resin'
+p318
+I1
+sS'experi'
+p319
+I1
+sS'polaroid ccd'
+p320
+I1
+sS'heparitinase digest'
+p321
+I1
+sS'inhibitor cocktail'
+p322
+I1
+sS'proliferation of smc'
+p323
+I1
+sS'rasmcs produce pg'
+p324
+I1
+sS'syndecan-2'
+p325
+I1
+sS'extent'
+p326
+I1
+sS'rasmc lys'
+p327
+I2
+sS'of pg'
+p328
+I1
+sS'erk signaling pathway'
+p329
+I2
+sS'molar basi'
+p330
+I1
+sS'heparan sulfate proteoglycan'
+p331
+I1
+sS'cocktail tablet'
+p332
+I1
+sS'receptors for iii1-c'
+p333
+I6
+sS'glypican'
+p334
+I1
+sS'chondroitinase abc treat'
+p335
+I3
+sS'erk-mediated stimulation of'
+p336
+I1
+sS'boehringer mannheim biochem'
+p337
+I1
+sS'of erk'
+p338
+I3
+sS'anti-fibronectin antibodi'
+p339
+I2
+sS'musculoskelet'
+p340
+I1
+sS'of iii1-c'
+p341
+I5
+sS'chondroitin-6-sulf'
+p342
+I2
+sS'muscle cel'
+p343
+I2
+sS'anti-iii 1-c'
+p344
+I2
+sS'of rasmc lys'
+p345
+I1
+sS'treatment of cell lys'
+p346
+I1
+sS'cell surface hspg'
+p347
+I8
+sS'pdgf lane'
+p348
+I1
+sS'pb'
+p349
+I11
+sS'integrin'
+p350
+I22
+sS'ph'
+p351
+I3
+sS'complete digestion of rasmc'
+p352
+I1
+sS'coated dish'
+p353
+I3
+sS'ml of resin for iii1-c'
+p354
+I1
+sS'cell attach'
+p355
+I1
+sS'mutant recombinant fibronectin molecul'
+p356
+I1
+sS'lamellipodia'
+p357
+I1
+sS'smcs erk activ'
+p358
+I1
+sS'mitogenesi'
+p359
+I1
+sS'boehringer mannheim'
+p360
+I1
+sS'b \xce\xb2-strand'
+p361
+I2
+sS'lysate sampl'
+p362
+I1
+sS'inhibit'
+p363
+I2
+sS'elution lan'
+p364
+I1
+sS'c-terminu'
+p365
+I1
+sS'cell lys'
+p366
+I3
+sS'immunoblot'
+p367
+I3
+sS'np40 lysi'
+p368
+I4
+sS'final concentr'
+p369
+I2
+sS'amersham'
+p370
+I1
+sS'citrat'
+p371
+I1
+sS'lysat'
+p372
+I10
+sS'novex'
+p373
+I2
+sS'activation of erk'
+p374
+I3
+sS'fibronectin type iii'
+p375
+I1
+sS'complete digest'
+p376
+I1
+sS'mab 3g10'
+p377
+I1
+sS'cell growth'
+p378
+I4
+sS'adhesion of jurkat'
+p379
+I1
+sS'site'
+p380
+I1
+sS'35s04'
+p381
+I1
+sS'ml of resin'
+p382
+I1
+sS'\xce\xb2-mercaptoethanol'
+p383
+I1
+sS'protein'
+p384
+I19
+sS'sepharose column'
+p385
+I1
+sS'\xce\xb1llb\xce\xb23'
+p386
+I1
+sS'kda band'
+p387
+I2
+sS'concentrations of dimeric fibronectin'
+p388
+I1
+sS'self-association sit'
+p389
+I1
+sS'heparan sulfate stub'
+p390
+I1
+sS'fibronectin column'
+p391
+I1
+sS'polaroid'
+p392
+I1
+sS'affinity chromatography of'
+p393
+I1
+sS'affinity chromatography of radioiodinated cel'
+p394
+I1
+sS'digestion of rasmc lys'
+p395
+I1
+sS'concentration of'
+p396
+I1
+sS'serum'
+p397
+I2
+sS'3g10 mab'
+p398
+I1
+sS'week'
+p399
+I1
+sS'heparitinase digestion cel'
+p400
+I1
+sS'nih'
+p401
+I2
+sS'absorb'
+p402
+I1
+sS'of radioiodinated cell surface protein'
+p403
+I1
+sS'lysis buff'
+p404
+I4
+sS'fibronectin coated dish'
+p405
+I3
+sS'uron'
+p406
+I1
+sS'of protein'
+p407
+I1
+sS'peptides grgdsp'
+p408
+I1
+sS'dimeric form of'
+p409
+I1
+sS'the jurkat t cel'
+p410
+I1
+sS'rabbit serum'
+p411
+I1
+sS'gst'
+p412
+I2
+sS'band'
+p413
+I3
+sS'digestion cel'
+p414
+I1
+sS'well'
+p415
+I4
+sS'coomassie brilliant blu'
+p416
+I1
+sS'mapk antibodi'
+p417
+I2
+sS'paraformaldehyd'
+p418
+I2
+sS'thrombospondin-1'
+p419
+I2
+sS'ccd'
+p420
+I1
+sS'new england biolab'
+p421
+I1
+sS'eventual ext'
+p422
+I1
+sS'negative control protein'
+p423
+I2
+sS'cell surface radioiodination of'
+p424
+I1
+sS'heparitinas'
+p425
+I6
+sS'fibronectin molecul'
+p426
+I2
+sS'heparan-sulf'
+p427
+I1
+sS'absence of growth'
+p428
+I1
+sS'concentr'
+p429
+I8
+sS'tablet'
+p430
+I1
+sS'storm phosphorimager instru'
+p431
+I1
+sS'stimul'
+p432
+I1
+sS'rasmc'
+p433
+I22
+sS'instrument'
+p434
+I1
+sS'rgd'
+p435
+I3
+sS'treatment'
+p436
+I9
+sS'plasma'
+p437
+I1
+sS'protease inhibitor'
+p438
+I1
+sS'rasmcs label'
+p439
+I1
+sS'iii1-c protein'
+p440
+I1
+sS'gst fusion'
+p441
+I1
+sS'sprague-dawley rat'
+p442
+I1
+sS'fusion'
+p443
+I1
+sS'\xce\xbcm final concentr'
+p444
+I1
+sS'antibody prep'
+p445
+I1
+sS'monolayer lysate sampl'
+p446
+I1
+sS'gradsp'
+p447
+I1
+sS'negative control rad peptid'
+p448
+I2
+sS'sodium citr'
+p449
+I1
+sS'resin'
+p450
+I2
+sS'hspg core protein'
+p451
+I1
+sS'recombinant fibronectin frag'
+p452
+I1
+sS'potential adhesive receptors for'
+p453
+I1
+sS'receptor for'
+p454
+I2
+sS'eluted sampl'
+p455
+I1
+sS'famili'
+p456
+I2
+sS'radioiodinated cell surface protein'
+p457
+I1
+sS'sample buff'
+p458
+I4
+sS'muscl'
+p459
+I1
+sS'adhesion of th'
+p460
+I1
+sS'pqe-12'
+p461
+I1
+sS'growth'
+p462
+I11
+sS'primary rat'
+p463
+I1
+sS'of cell lys'
+p464
+I1
+sS'sds-page sampl'
+p465
+I1
+sS'immunoblotting wel'
+p466
+I1
+sS'angiogenesi'
+p467
+I3
+sS'iii1-c'
+p468
+I56
+sS'transduction pathway'
+p469
+I1
+sS'icn'
+p470
+I1
+sS'various integrin-blocking reag'
+p471
+I1
+sS'gagase treatment of cell lys'
+p472
+I1
+sS'matrix protein'
+p473
+I2
+sS'integrins act'
+p474
+I1
+sS'fibronectin iii1-c'
+p475
+I1
+sS'immobilon p membran'
+p476
+I1
+sS'recombinant fibronectin molecul'
+p477
+I1
+sS'receptors for'
+p478
+I5
+sS'jurkat t cel'
+p479
+I3
+sS'of normal diploid smooth muscle cel'
+p480
+I1
+sS'complete digestion of rasmc lys'
+p481
+I1
+sS'confluenc'
+p482
+I1
+sS'panel'
+p483
+I3
+sS'heparin'
+p484
+I14
+sS'coomassie stain'
+p485
+I1
+sS'cell surface hspgs of'
+p486
+I1
+sS'column'
+p487
+I9
+sS'of'
+p488
+I1
+sS'new england'
+p489
+I1
+sS'boehring'
+p490
+I1
+sS'fusion protein'
+p491
+I3
+sS'tumor'
+p492
+I3
+sS'prolifer'
+p493
+I3
+sS'inhibitor cocktail tablet'
+p494
+I1
+sS'meoh'
+p495
+I1
+sS'trypsin'
+p496
+I4
+sS'sulfat'
+p497
+I6
+sS'sepharos'
+p498
+I3
+sS'receptor'
+p499
+I20
+sS'strip'
+p500
+I1
+sS'edta'
+p501
+I6
+sS'dermatan sulfate block'
+p502
+I1
+sS'heparitinase treat'
+p503
+I5
+sS'mapk polyclonal antibodi'
+p504
+I1
+sS'phosphorimager instru'
+p505
+I1
+sS'potential adhesive receptors for iii1-c'
+p506
+I1
+sS'vsmc'
+p507
+I1
+sS'through-4'
+p508
+I1
+sS'iii1-c sepharos'
+p509
+I2
+sS'novex sds-page gel'
+p510
+I1
+sS'recommend'
+p511
+I3
+sS'of rasmc'
+p512
+I2
+sS'cell adhes'
+p513
+I13
+sS'radioiodination of rasmc'
+p514
+I2
+sS'vivo'
+p515
+I2
+sS'erk antibodi'
+p516
+I1
+sS'absenc'
+p517
+I3
+sS'adhesive receptors for iii1-c'
+p518
+I1
+sS'sampl'
+p519
+I4
+sS'np40'
+p520
+I4
+sS'syndecan-1'
+p521
+I4
+sS'syndecan-1 through-4'
+p522
+I1
+sS'normal diploid smooth muscle cel'
+p523
+I1
+sS'cd47'
+p524
+I1
+sS'sepharose bead'
+p525
+I3
+sS'adhesion of jurkat t'
+p526
+I1
+sS'hog mucosa'
+p527
+I1
+sS'pqe-12 vector'
+p528
+I1
+sS'vector pqe-12'
+p529
+I1
+sS'potential adhesive receptor'
+p530
+I1
+sS'mm nacl'
+p531
+I1
+sS'absence of'
+p532
+I2
+sS'acet'
+p533
+I1
+sS'england biolab'
+p534
+I1
+sS'mm triethylamin'
+p535
+I1
+sS'sulfate stub'
+p536
+I1
+sS'nah'
+p537
+I1
+sS'coomassi'
+p538
+I1
+sS'n-termin'
+p539
+I1
+sS'matrix b'
+p540
+I1
+sS'erk-mediated stimulation of pg'
+p541
+I1
+sS'mapk assay'
+p542
+I1
+sS'mannheim biochem'
+p543
+I1
+sS'anti-\xce\xb21 blocking antibodi'
+p544
+I1
+sS'mm octylglucosid'
+p545
+I1
+sS'mm edta'
+p546
+I2
+sS'enzym'
+p547
+I2
+sS'lysi'
+p548
+I1
+sS'lane'
+p549
+I2
+sS'peptid'
+p550
+I5
+sS'chondroitin-4-sulf'
+p551
+I1
+sS'antibody concentr'
+p552
+I1
+sS'concentrations of dimer'
+p553
+I1
+sS'ml of resin for'
+p554
+I1
+sS'abc treat'
+p555
+I3
+sS'syndecan famili'
+p556
+I3
+sS'np40 lysis buff'
+p557
+I4
+stp558
+Rp559
+tp560
+.

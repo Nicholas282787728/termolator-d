@@ -1,0 +1,1553 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'represent'
+p7
+I21
+sS'circuitri'
+p8
+I1
+sS'consider'
+p9
+I2
+sS'billing statement including off'
+p10
+I2
+sS'consum'
+p11
+I100
+sS'cellular network'
+p12
+I1
+sS'ridge park stamford'
+p13
+I1
+sS'settlement'
+p14
+I2
+sS'compani'
+p15
+I1
+sS'of the off'
+p16
+I1
+sS'categori'
+p17
+I5
+sS'telephone service provid'
+p18
+I8
+sS'merchant databas'
+p19
+I6
+sS'survey quest'
+p20
+I3
+sS'bol internet'
+p21
+I1
+sS'telephone extens'
+p22
+I1
+sS'internet kiosk'
+p23
+I1
+sS'merchant'
+p24
+I68
+sS'consumer regist'
+p25
+I1
+sS'conditional branch'
+p26
+I2
+sS'underpay'
+p27
+I2
+sS'void'
+p28
+I1
+sS'read onli'
+p29
+I1
+sS'voic'
+p30
+I3
+sS'tenni'
+p31
+I1
+sS'util'
+p32
+I1
+sS'stores information regarding off'
+p33
+I1
+sS'viewabl'
+p34
+I3
+sS'set-top box'
+p35
+I1
+sS'transaction categori'
+p36
+I5
+sS'electronic version of the billing stat'
+p37
+I1
+sS'website presenting off'
+p38
+I2
+sS'verif'
+p39
+I1
+sS'statement correspond'
+p40
+I1
+sS'servic'
+p41
+I24
+sS'vehicl'
+p42
+I1
+sS'consumer account databas'
+p43
+I10
+sS'for transf'
+p44
+I1
+sS'for determining off'
+p45
+I1
+sS'6th avenue department stor'
+p46
+I1
+sS'hardcopy of the billing stat'
+p47
+I1
+sS'including offer point'
+p48
+I2
+sS'stamford'
+p49
+I7
+sS'checkbox for ind'
+p50
+I1
+sS'port'
+p51
+I32
+sS'transaction d'
+p52
+I10
+sS'document view'
+p53
+I1
+sS'of a websit'
+p54
+I1
+sS'uniform'
+p55
+I2
+sS'access'
+p56
+I3
+sS'version'
+p57
+I2
+sS'url offer point'
+p58
+I12
+sS'less-complex generation of offer point'
+p59
+I1
+sS'issuer'
+p60
+I2
+sS'park stamford ct'
+p61
+I1
+sS'yield manag'
+p62
+I2
+sS'card account'
+p63
+I36
+sS'billing statement includ'
+p64
+I2
+sS'software process steps for implement'
+p65
+I1
+sS'website provid'
+p66
+I1
+sS'markup languag'
+p67
+I1
+sS'address'
+p68
+I6
+sS'software protocol'
+p69
+I1
+sS'box'
+p70
+I3
+sS'search'
+p71
+I1
+sS'credit'
+p72
+I85
+sS'electronic docu'
+p73
+I1
+sS'survey'
+p74
+I4
+sS'implement'
+p75
+I1
+sS'processor-executable software process steps for implement'
+p76
+I1
+sS'checkbox for indicating agr'
+p77
+I1
+sS'credit card billing stat'
+p78
+I5
+sS'newspap'
+p79
+I2
+sS'card billing stat'
+p80
+I5
+sS'instal'
+p81
+I1
+sS'web serv'
+p82
+I5
+sS'regist'
+p83
+I1
+sS'websit'
+p84
+I14
+sS'of a stat'
+p85
+I2
+sS'total amount ow'
+p86
+I2
+sS'statement for a credit card account'
+p87
+I1
+sS'benefit conf'
+p88
+I1
+sS'home burglar'
+p89
+I1
+sS'notif'
+p90
+I2
+sS'finance charg'
+p91
+I7
+sS'conswner'
+p92
+I1
+sS'phone'
+p93
+I1
+sS'flag'
+p94
+I3
+sS'accept'
+p95
+I8
+sS'uncollected debt'
+p96
+I1
+sS'of the debt'
+p97
+I2
+sS'bol internet access'
+p98
+I1
+sS'ip-based network'
+p99
+I1
+sS'account'
+p100
+I50
+sS'graphic'
+p101
+I2
+sS'ridg'
+p102
+I1
+sS'consumer account'
+p103
+I11
+sS'date entri'
+p104
+I1
+sS'constraint'
+p105
+I4
+sS'histori'
+p106
+I3
+sS'b h'
+p107
+I2
+sS'requests consumer-specif'
+p108
+I1
+sS'web page correspond'
+p109
+I2
+sS'utility servic'
+p110
+I1
+sS'cross-subsidy off'
+p111
+I1
+sS'indic'
+p112
+I1
+sS'department stor'
+p113
+I7
+sS'unreli'
+p114
+I1
+sS'acceptance of th'
+p115
+I1
+sS'electronic vers'
+p116
+I3
+sS'offer databas'
+p117
+I23
+sS'hyperlink offer point'
+p118
+I1
+sS'representation of a bil'
+p119
+I1
+sS'economic ind'
+p120
+I1
+sS'stores information regard'
+p121
+I1
+sS'negoti'
+p122
+I1
+sS'rebat'
+p123
+I1
+sS'financ'
+p124
+I7
+sS'resourc'
+p125
+I1
+sS'referenc'
+p126
+I4
+sS'max'
+p127
+I1
+sS'risc'
+p128
+I1
+sS'obligation benefit'
+p129
+I1
+sS'electronic version of the bil'
+p130
+I1
+sS'web page pres'
+p131
+I1
+sS'hardcopi'
+p132
+I3
+sS'attempt'
+p133
+I1
+sS'owe'
+p134
+I6
+sS'bank personnel'
+p135
+I1
+sS'correspond'
+p136
+I10
+sS'subsidy offer databas'
+p137
+I11
+sS'issu'
+p138
+I1
+sS'billing stat'
+p139
+I156
+sS'credit card clearinghouse for obtaining credit'
+p140
+I1
+sS'checkbox'
+p141
+I3
+sS'hardcopy billing stat'
+p142
+I1
+sS'check box'
+p143
+I2
+sS'paper'
+p144
+I1
+sS'equip'
+p145
+I1
+sS'pointer'
+p146
+I145
+sS'offer pointer includ'
+p147
+I2
+sS'monitor'
+p148
+I2
+sS'page including off'
+p149
+I1
+sS'panel display'
+p150
+I1
+sS'electronic version of'
+p151
+I1
+sS'walker jay '
+p152
+I1
+sS'html'
+p153
+I2
+sS'domain nam'
+p154
+I1
+sS'of the billing stat'
+p155
+I2
+sS'hawthorn'
+p156
+I1
+sS'web address'
+p157
+I1
+sS'proce'
+p158
+I1
+sS'of transact'
+p159
+I2
+sS'facilit'
+p160
+I1
+sS'arbitr'
+p161
+I1
+sS'less-complex generation of'
+p162
+I1
+sS'offer rul'
+p163
+I7
+sS'bank'
+p164
+I3
+sS'name'
+p165
+I3
+sS'of off'
+p166
+I1
+sS'magazin'
+p167
+I1
+sS'advertising vehicl'
+p168
+I1
+sS'credit card bil'
+p169
+I5
+sS'oblig'
+p170
+I6
+sS'subset'
+p171
+I1
+sS'statement off'
+p172
+I60
+sS'domain'
+p173
+I1
+sS'of the offer point'
+p174
+I2
+sS'loan instal'
+p175
+I1
+sS'revenue manag'
+p176
+I1
+sS'electronic copi'
+p177
+I1
+sS'conventional channel'
+p178
+I4
+sS'huntington'
+p179
+I1
+sS'hawthorne ni'
+p180
+I1
+sS'billing statement correspond'
+p181
+I1
+sS'accomplish'
+p182
+I1
+sS'considerations for'
+p183
+I1
+sS'network'
+p184
+I13
+sS'telephone network'
+p185
+I4
+sS'semiconductor'
+p186
+I1
+sS'web pag'
+p187
+I25
+sS'internet'
+p188
+I5
+sS'hardwar'
+p189
+I1
+sS'difficulti'
+p190
+I1
+sS'individual merch'
+p191
+I1
+sS'hyperlink off'
+p192
+I1
+sS'card'
+p193
+I17
+sS'stores information concern'
+p194
+I1
+sS'url'
+p195
+I32
+sS'electronic version of th'
+p196
+I1
+sS'page presenting off'
+p197
+I1
+sS'softwar'
+p198
+I1
+sS'database manag'
+p199
+I1
+sS'cellular phon'
+p200
+I1
+sS'uniform resource identifi'
+p201
+I1
+sS'version of the billing stat'
+p202
+I1
+sS'instruct'
+p203
+I4
+sS'consumer-specif'
+p204
+I1
+sS'ridge park'
+p205
+I1
+sS'providing off'
+p206
+I1
+sS'associ'
+p207
+I1
+sS'hardcopy of'
+p208
+I1
+sS'statement'
+p209
+I203
+sS'conventional off'
+p210
+I3
+sS'termin'
+p211
+I2
+sS'of statement off'
+p212
+I2
+sS'store'
+p213
+I4
+sS'uncollectable debt'
+p214
+I1
+sS'fraction'
+p215
+I4
+sS'nci'
+p216
+I3
+sS'less-complex generation of off'
+p217
+I1
+sS'sale pric'
+p218
+I1
+sS'penalti'
+p219
+I1
+sS'provid'
+p220
+I13
+sS'frequency network'
+p221
+I1
+sS'web page includ'
+p222
+I1
+sS'credit account'
+p223
+I1
+sS'of stat'
+p224
+I1
+sS'balanc'
+p225
+I8
+sS'hardcopy of the bil'
+p226
+I1
+sS'credit bal'
+p227
+I1
+sS'browser'
+p228
+I3
+sS'ram'
+p229
+I1
+sS'credit card clearinghouse for'
+p230
+I1
+sS'billing statement for a credit card'
+p231
+I1
+sS'for indicating agr'
+p232
+I1
+sS'subsid'
+p233
+I2
+sS'network cli'
+p234
+I1
+sS'date'
+p235
+I11
+sS'slot machin'
+p236
+I1
+sS'of offer point'
+p237
+I4
+sS'postal address'
+p238
+I2
+sS'channel'
+p239
+I4
+sS'cch'
+p240
+I1
+sS'printer'
+p241
+I3
+sS'card stat'
+p242
+I1
+sS'price'
+p243
+I2
+sS'ip address'
+p244
+I1
+sS'random access'
+p245
+I1
+sS'credit card stat'
+p246
+I1
+sS'homepag'
+p247
+I1
+sS'charg'
+p248
+I9
+sS'relative url'
+p249
+I6
+sS'clearinghous'
+p250
+I9
+sS'newspaper advertis'
+p251
+I2
+sS'html document view'
+p252
+I1
+sS'telephone servic'
+p253
+I5
+sS'request'
+p254
+I1
+sS'sale'
+p255
+I5
+sS'hardcopy bil'
+p256
+I1
+sS'web page referenc'
+p257
+I3
+sS'databas'
+p258
+I69
+sS'random'
+p259
+I1
+sS'radio'
+p260
+I3
+sS'protocol'
+p261
+I2
+sS's110'
+p262
+I2
+sS'credit author'
+p263
+I1
+sS'slot'
+p264
+I1
+sS'menu'
+p265
+I1
+sS'transact'
+p266
+I102
+sS'transaction identifi'
+p267
+I2
+sS'web page requests consumer-specif'
+p268
+I1
+sS'acceptance of the stat'
+p269
+I1
+sS'gratif'
+p270
+I1
+sS'of a statement off'
+p271
+I4
+sS'crt'
+p272
+I1
+sS'yield'
+p273
+I2
+sS'common'
+p274
+I1
+sS'web page request'
+p275
+I1
+sS'stamford ct'
+p276
+I7
+sS'of the statement off'
+p277
+I1
+sS'domain name servic'
+p278
+I1
+sS'vr menu'
+p279
+I1
+sS'subject'
+p280
+I4
+sS'statu'
+p281
+I1
+sS'televis'
+p282
+I1
+sS'continuation-in-part'
+p283
+I3
+sS'ridge park stamford ct'
+p284
+I1
+sS'resource identifi'
+p285
+I1
+sS'review'
+p286
+I1
+sS'consumer attempt'
+p287
+I1
+sS'subsidizing merchant databas'
+p288
+I1
+sS'subscript'
+p289
+I1
+sS'approach'
+p290
+I1
+sS'frequency transceiv'
+p291
+I1
+sS'altern'
+p292
+I2
+sS'screen'
+p293
+I1
+sS'extens'
+p294
+I3
+sS'walker jay'
+p295
+I1
+sS'toll-free telephon'
+p296
+I1
+sS'advertis'
+p297
+I5
+sS'debt'
+p298
+I3
+sS'rebate check'
+p299
+I1
+sS'name servic'
+p300
+I1
+sS'hyperlink'
+p301
+I7
+sS'page correspond'
+p302
+I2
+sS'dot-matrix print'
+p303
+I1
+sS'unique consum'
+p304
+I1
+sS'credit card'
+p305
+I76
+sS'max 6th avenue depart'
+p306
+I1
+sS'consumer request'
+p307
+I1
+sS'inkjet print'
+p308
+I1
+sS'offer correspond'
+p309
+I1
+sS'consumer review'
+p310
+I1
+sS'television advertis'
+p311
+I1
+sS'loan'
+p312
+I1
+sS'ct'
+p313
+I9
+sS'subsidi'
+p314
+I37
+sS'billing servic'
+p315
+I1
+sS'web page presenting off'
+p316
+I1
+sS'radio frequ'
+p317
+I2
+sS'homepage of a websit'
+p318
+I1
+sS'for a credit card account'
+p319
+I1
+sS'revenu'
+p320
+I1
+sS'billing statement for'
+p321
+I1
+sS'pa'
+p322
+I1
+sS'offer point'
+p323
+I147
+sS'credit card clearinghouse transact'
+p324
+I1
+sS'subsidy offer rul'
+p325
+I1
+sS'magnetic strip'
+p326
+I3
+sS'strategi'
+p327
+I1
+sS'confer'
+p328
+I1
+sS'credit card clearinghous'
+p329
+I11
+sS'demand'
+p330
+I2
+sS'present'
+p331
+I1
+sS'purchase pric'
+p332
+I1
+sS'the billing stat'
+p333
+I2
+sS'rom'
+p334
+I1
+sS'pittburgh pa'
+p335
+I1
+sS'bill'
+p336
+I145
+sS'budget'
+p337
+I1
+sS'the statement off'
+p338
+I1
+sS'calcul'
+p339
+I2
+sS'account databas'
+p340
+I10
+sS'on-line survey'
+p341
+I1
+sS'penalty charg'
+p342
+I1
+sS'web pages pres'
+p343
+I1
+sS'purchas'
+p344
+I6
+sS'ip'
+p345
+I2
+sS'touch screen'
+p346
+I1
+sS'vr'
+p347
+I8
+sS'inventori'
+p348
+I1
+sS'crt computer monitor'
+p349
+I1
+sS'consumer nam'
+p350
+I2
+sS'of th'
+p351
+I4
+sS'media'
+p352
+I8
+sS'max 6th avenu'
+p353
+I1
+sS'consumer databas'
+p354
+I19
+sS'complex'
+p355
+I1
+sS'uniform resourc'
+p356
+I2
+sS'bol'
+p357
+I3
+sS'radio frequency network'
+p358
+I1
+sS'document'
+p359
+I1
+sS'homepage of'
+p360
+I1
+sS'considerations for determining off'
+p361
+I1
+sS'smallcharg'
+p362
+I1
+sS'http'
+p363
+I1
+sS'hostnam'
+p364
+I1
+sS'assist'
+p365
+I1
+sS'driver'
+p366
+I2
+sS'video gam'
+p367
+I1
+sS'copy of a billing stat'
+p368
+I1
+sS'postpon'
+p369
+I1
+sS'website referenc'
+p370
+I1
+sS'pittburgh'
+p371
+I1
+sS'max 6th'
+p372
+I1
+sS'entri'
+p373
+I2
+sS'subject transact'
+p374
+I1
+sS'home burglar alarm'
+p375
+I1
+sS'client'
+p376
+I1
+sS'card clearinghous'
+p377
+I9
+sS'pages presenting off'
+p378
+I1
+sS'html document'
+p379
+I1
+sS'identifi'
+p380
+I3
+sS'web pages presenting off'
+p381
+I1
+sS'billing statement for a credit card account'
+p382
+I1
+sS'store purchas'
+p383
+I5
+sS'including off'
+p384
+I1
+sS'touch'
+p385
+I1
+sS'depart'
+p386
+I6
+sS'credit authorization termin'
+p387
+I1
+sS'darien'
+p388
+I1
+sS'languag'
+p389
+I1
+sS'service provid'
+p390
+I14
+sS'web'
+p391
+I22
+sS'department store purchas'
+p392
+I5
+sS'processor-executable softwar'
+p393
+I1
+sS'acceptance of the statement off'
+p394
+I1
+sS'silver'
+p395
+I1
+sS'internet protocol'
+p396
+I1
+sS'fraud flag'
+p397
+I3
+sS'of a billing stat'
+p398
+I2
+sS'cash'
+p399
+I1
+sS'credit card account'
+p400
+I39
+sS'magazine subscript'
+p401
+I1
+sS'stores information concerning consum'
+p402
+I1
+sS'subsidy off'
+p403
+I31
+sS'electronic copy of a bil'
+p404
+I1
+sS'offer provid'
+p405
+I1
+sS'network resourc'
+p406
+I1
+sS'read'
+p407
+I1
+sS'game'
+p408
+I1
+sS'acceptance percentag'
+p409
+I6
+sS'check mark'
+p410
+I1
+sS'personal digital assist'
+p411
+I1
+sS'electronic copy of'
+p412
+I1
+sS'billing statement for a credit'
+p413
+I1
+sS'benefit'
+p414
+I3
+sS'cgi extens'
+p415
+I1
+sS'page'
+p416
+I16
+sS'website providing off'
+p417
+I1
+sS'account bal'
+p418
+I6
+sS'credit card clearinghouse for obtain'
+p419
+I1
+sS'hardcopy of th'
+p420
+I1
+sS'percentag'
+p421
+I6
+sS'sampl'
+p422
+I2
+sS'representation of'
+p423
+I1
+sS'representation of a billing stat'
+p424
+I1
+sS'acceptance of'
+p425
+I1
+sS'network serv'
+p426
+I1
+sS'server'
+p427
+I6
+sS'avenue department stor'
+p428
+I1
+sS'transmiss'
+p429
+I1
+sS'statement including offer point'
+p430
+I2
+sS'electronic copy of a billing stat'
+p431
+I1
+sS'billing statement including offer point'
+p432
+I2
+sS'for'
+p433
+I1
+sS'page referenc'
+p434
+I3
+sS'avoid'
+p435
+I2
+sS'offer cash'
+p436
+I1
+sS'seller'
+p437
+I1
+sS'e-mail'
+p438
+I1
+sS'substitut'
+p439
+I1
+sS'digital assist'
+p440
+I1
+sS'market'
+p441
+I2
+sS'processor-executable software process steps for'
+p442
+I1
+sS'cgi'
+p443
+I2
+sS'presenting off'
+p444
+I5
+sS'credit card issu'
+p445
+I2
+sS'agreement'
+p446
+I1
+sS'rules for generating off'
+p447
+I1
+sS'rules for'
+p448
+I1
+sS'radio frequency transceiv'
+p449
+I1
+sS'panel'
+p450
+I1
+sS'for implement'
+p451
+I3
+sS'of'
+p452
+I13
+sS'the debt'
+p453
+I1
+sS'credit card transact'
+p454
+I2
+sS'common gateway'
+p455
+I1
+sS'authorization termin'
+p456
+I1
+sS'for generating off'
+p457
+I1
+sS'telephon'
+p458
+I33
+sS'credit histori'
+p459
+I2
+sS'internet servic'
+p460
+I2
+sS'hypertext markup languag'
+p461
+I1
+sS'terminal associ'
+p462
+I1
+sS'credit card clearinghouse for obtaining credit card transact'
+p463
+I1
+sS'subsidizing merch'
+p464
+I2
+sS'strip'
+p465
+I3
+sS'mark'
+p466
+I1
+sS'thermal print'
+p467
+I1
+sS'total amount owed entri'
+p468
+I1
+sS'settlement proce'
+p469
+I1
+sS'pager'
+p470
+I1
+sS'question'
+p471
+I3
+sS'page requests consumer-specif'
+p472
+I1
+sS'issuing bank'
+p473
+I1
+sS'of the web'
+p474
+I3
+sS'icon'
+p475
+I2
+sS'machin'
+p476
+I1
+sS'huntington ct'
+p477
+I1
+sS'transaction databas'
+p478
+I10
+sS'offer'
+p479
+I254
+sS'the web'
+p480
+I1
+sS'fraud'
+p481
+I3
+sS'the offer point'
+p482
+I1
+sS'url off'
+p483
+I12
+sS'darien ct'
+p484
+I1
+sS'credit card clearinghouse for obtaining credit card'
+p485
+I1
+sS'indicating agr'
+p486
+I1
+sS'merchant nam'
+p487
+I2
+sS'concerning consum'
+p488
+I2
+sS'display'
+p489
+I4
+sS'e-mail address'
+p490
+I1
+sS'internet access'
+p491
+I3
+sS'card issu'
+p492
+I2
+sS'repres'
+p493
+I1
+sS'home'
+p494
+I1
+sS'work'
+p495
+I1
+sS'check'
+p496
+I4
+sS'tennis equip'
+p497
+I1
+sS'in-store display'
+p498
+I1
+sS'personnel'
+p499
+I1
+sS'ny'
+p500
+I1
+sS'branch'
+p501
+I2
+sS'unpaid charg'
+p502
+I1
+sS'web brows'
+p503
+I3
+sS'architectur'
+p504
+I2
+sS'checkbox for'
+p505
+I1
+sS'wildcard'
+p506
+I1
+sS'sample url'
+p507
+I2
+sS'kiosk'
+p508
+I1
+sS'symbol'
+p509
+I2
+sS'max 6th avenue department stor'
+p510
+I1
+sS'web page including off'
+p511
+I1
+sS'tabular represent'
+p512
+I20
+sS'transceiv'
+p513
+I1
+sS'regarding off'
+p514
+I2
+sS'rule'
+p515
+I8
+sS'walker'
+p516
+I1
+sS'transaction settl'
+p517
+I1
+sS'profil'
+p518
+I1
+stp519
+Rp520
+tp521
+.

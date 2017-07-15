@@ -1,0 +1,602 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'radial force of the residual limb'
+p7
+I1
+sS'recess'
+p8
+I1
+sS'trans-tibi'
+p9
+I1
+sS'non-cylindrical forms of th'
+p10
+I1
+sS'vertical sectional views of a prosthesis system correspond'
+p11
+I1
+sS'sleev'
+p12
+I113
+sS'suspension lin'
+p13
+I21
+sS'of a prosthesis system correspond'
+p14
+I3
+sS'proximal side of the s'
+p15
+I1
+sS'valve cap'
+p16
+I1
+sS'non-cylindrical forms of the residual limb'
+p17
+I1
+sS'distal portion of'
+p18
+I1
+sS'hard socket'
+p19
+I1
+sS'reinforc'
+p20
+I26
+sS'prosthetic socket'
+p21
+I7
+sS'external air imperm'
+p22
+I1
+sS'fit'
+p23
+I1
+sS'apex'
+p24
+I1
+sS'withdrawal of th'
+p25
+I1
+sS'tt'
+p26
+I1
+sS'proxim'
+p27
+I14
+sS'intermedi'
+p28
+I2
+sS'floor alexandria'
+p29
+I1
+sS'reinforcement layer intermedi'
+p30
+I1
+sS'residual limb'
+p31
+I33
+sS'distens'
+p32
+I3
+sS'tf'
+p33
+I1
+sS'sens'
+p34
+I2
+sS'distal end area of the liner sleev'
+p35
+I13
+sS'elong'
+p36
+I1
+sS'sleeve including proxim'
+p37
+I2
+sS'axial stiffness of'
+p38
+I1
+sS'liner sleeve including proxim'
+p39
+I2
+sS'withdrawal of'
+p40
+I2
+sS'vacuum'
+p41
+I1
+sS'conical lin'
+p42
+I5
+sS'detach'
+p43
+I3
+sS'vertical sectional view of'
+p44
+I1
+sS'discuss'
+p45
+I1
+sS'proximal side of'
+p46
+I2
+sS'trans-femor'
+p47
+I1
+sS'radial elast'
+p48
+I1
+sS'silicone outer surface of th'
+p49
+I1
+sS'vertical sectional views of'
+p50
+I1
+sS'conical liner sleev'
+p51
+I5
+sS'of a residual limb'
+p52
+I1
+sS'normal retent'
+p53
+I1
+sS'distal region of'
+p54
+I1
+sS'impermeable sleev'
+p55
+I2
+sS'xxxviii-xxxviii'
+p56
+I2
+sS'anisotropi'
+p57
+I1
+sS'bond'
+p58
+I2
+sS'radial force of th'
+p59
+I1
+sS'elast'
+p60
+I2
+sS'seal element protrud'
+p61
+I1
+sS'klasson'
+p62
+I1
+sS'seal'
+p63
+I75
+sS'axial elast'
+p64
+I1
+sS'peripheral portion of the liner sleev'
+p65
+I3
+sS'silicone outer surface of'
+p66
+I1
+sS'distal area of'
+p67
+I1
+sS'liner sleev'
+p68
+I114
+sS'reinforcement material embed'
+p69
+I2
+sS'continuation-in-part'
+p70
+I1
+sS'prosthetic securing pin'
+p71
+I1
+sS'one-way valv'
+p72
+I1
+sS'prosthesis system correspond'
+p73
+I2
+sS'trans-tibial liner sleev'
+p74
+I1
+sS'conical liner sleeve including proxim'
+p75
+I2
+sS'rel'
+p76
+I1
+sS'kristinsson'
+p77
+I1
+sS'one-way dist'
+p78
+I1
+sS'extend'
+p79
+I3
+sS'peripheral area of th'
+p80
+I1
+sS'egilsson'
+p81
+I1
+sS'prosthetic liner sleev'
+p82
+I1
+sS'distal sides of'
+p83
+I1
+sS'stiff'
+p84
+I2
+sS'b h'
+p85
+I1
+sS'elastically distens'
+p86
+I2
+sS'slater'
+p87
+I1
+sS'elastomeric lin'
+p88
+I1
+sS'the residual limb'
+p89
+I2
+sS'valv'
+p90
+I4
+sS'egilsson egill sveinbjorn'
+p91
+I1
+sS'socket'
+p92
+I9
+sS'distal end of a liner sleev'
+p93
+I2
+sS'extens'
+p94
+I4
+sS'of'
+p95
+I7
+sS'retent'
+p96
+I1
+sS'gardaba'
+p97
+I1
+sS'silicon'
+p98
+I3
+sS'distal end of th'
+p99
+I4
+sS'distal sides of th'
+p100
+I1
+sS'elastically extend'
+p101
+I3
+sS'load'
+p102
+I1
+sS'outer surface of the liner sleev'
+p103
+I1
+sS'distal'
+p104
+I1
+sS'annular peak'
+p105
+I1
+sS'axial elong'
+p106
+I1
+sS'suspens'
+p107
+I22
+sS'limb'
+p108
+I32
+sS'ring'
+p109
+I1
+sS'suspension sleev'
+p110
+I1
+sS'distal area of the liner sleev'
+p111
+I1
+sS'span'
+p112
+I2
+sS'distal region of th'
+p113
+I1
+sS'teach'
+p114
+I2
+sS'tacki'
+p115
+I2
+sS'distal valv'
+p116
+I1
+sS'distal end of a lin'
+p117
+I1
+sS'distal end area of'
+p118
+I18
+sS'adhes'
+p119
+I2
+sS'distal area of th'
+p120
+I1
+sS'non-cylindrical forms of'
+p121
+I1
+sS'annular r'
+p122
+I1
+sS'socket sc'
+p123
+I1
+sS'prosthetic hard socket'
+p124
+I1
+sS'elastomeric liner sleev'
+p125
+I2
+sS'suction'
+p126
+I1
+sS'radial distens'
+p127
+I1
+sS'distal end area of a liner sleev'
+p128
+I1
+sS'proximal end of th'
+p129
+I2
+sS'distal end area of th'
+p130
+I17
+sS'the liner sleev'
+p131
+I23
+sS'imperm'
+p132
+I1
+sS'residual limb fit'
+p133
+I1
+sS'axial sens'
+p134
+I2
+sS'proximally rel'
+p135
+I1
+sS'external air impermeable sleev'
+p136
+I1
+sS'axial distension of th'
+p137
+I2
+sS'withdrawal of a residual limb'
+p138
+I1
+sS'axial distension of'
+p139
+I2
+sS'embed'
+p140
+I4
+sS'distal portion of th'
+p141
+I1
+sS'annular recess'
+p142
+I1
+sS'va'
+p143
+I1
+sS'various reinforc'
+p144
+I1
+sS'proximal side of th'
+p145
+I2
+sS'atmospher'
+p146
+I21
+sS'peripheral area of'
+p147
+I1
+sS'distal sides of the s'
+p148
+I1
+sS'conical liner sleeve includ'
+p149
+I2
+sS'egilsson egil'
+p150
+I1
+sS'liner'
+p151
+I19
+sS'distal end of the liner sleev'
+p152
+I3
+sS'elastic stiff'
+p153
+I1
+sS'hypobar'
+p154
+I1
+sS'apex short'
+p155
+I1
+sS'suspension liner sleev'
+p156
+I1
+sS'peripheral portion of th'
+p157
+I5
+sS'differenti'
+p158
+I8
+sS'distal end area of the lin'
+p159
+I3
+sS'floor'
+p160
+I1
+sS'of th'
+p161
+I6
+sS'of the s'
+p162
+I4
+sS'elastomer lin'
+p163
+I2
+sS'distal end of'
+p164
+I6
+sS'proximal end of'
+p165
+I2
+sS'vice-versa'
+p166
+I1
+sS'radial force of'
+p167
+I1
+sS'hypobaric suct'
+p168
+I1
+sS'floor alexandria va'
+p169
+I1
+sS'peripheral s'
+p170
+I10
+sS'elastomer liner sleev'
+p171
+I5
+sS'of a liner sleev'
+p172
+I7
+sS'sveinbjorn'
+p173
+I1
+sS'distribut'
+p174
+I1
+sS'compress'
+p175
+I1
+sS'of the residual limb'
+p176
+I4
+sS'axially stiff'
+p177
+I1
+sS'capabl'
+p178
+I1
+sS'of the liner sleev'
+p179
+I59
+sS'peak'
+p180
+I1
+sS'proximal end of the s'
+p181
+I1
+sS'axial distens'
+p182
+I2
+sS'silicone outer surface of the lin'
+p183
+I1
+sS'short'
+p184
+I1
+sS'don'
+p185
+I1
+sS'peripheral portion of'
+p186
+I5
+sS'including proxim'
+p187
+I2
+sS'iii-iii'
+p188
+I2
+sS'limb fit'
+p189
+I1
+sS'ampute'
+p190
+I4
+sS'correspond'
+p191
+I21
+sS'cup-shap'
+p192
+I1
+sS'prosthetic lin'
+p193
+I3
+sS'silicone outer surface of the liner sleev'
+p194
+I1
+sS'egill sveinbjorn'
+p195
+I1
+sS'axial stiffness of th'
+p196
+I1
+sS'withdraw'
+p197
+I2
+sS'sc'
+p198
+I1
+sS'alexandria va'
+p199
+I1
+sS'protrud'
+p200
+I2
+sS'axial stiff'
+p201
+I1
+stp202
+Rp203
+tp204
+.

@@ -1,0 +1,2384 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'hoechst'
+p7
+I1
+sS'rom'
+p8
+I3
+sS'chain'
+p9
+I1
+sS'duplex'
+p10
+I30
+sS'queri'
+p11
+I2
+sS'surface-bound subject nucleic acid prob'
+p12
+I2
+sS'lack'
+p13
+I1
+sS'polypeptid'
+p14
+I3
+sS'rox'
+p15
+I2
+sS'nucleic acid probes for th'
+p16
+I1
+sS'wash buff'
+p17
+I3
+sS'disk'
+p18
+I4
+sS'tncrna'
+p19
+I3
+sS'duplex molecul'
+p20
+I1
+sS'situ fabr'
+p21
+I2
+sS'surface-bound nucleic acid'
+p22
+I9
+sS'label polynucleotid'
+p23
+I1
+sS'oligom'
+p24
+I3
+sS'graph'
+p25
+I2
+sS'drug discoveri'
+p26
+I1
+sS'probe correspond'
+p27
+I1
+sS'tm'
+p28
+I35
+sS'non-neuronal cel'
+p29
+I1
+sS'sugar moieti'
+p30
+I1
+sS'microrna registri'
+p31
+I3
+sS'preparation of'
+p32
+I1
+sS'cdna'
+p33
+I1
+sS'random'
+p34
+I1
+sS'assay'
+p35
+I4
+sS'assay protocol'
+p36
+I2
+sS'texas r'
+p37
+I3
+sS'rna oligo stock'
+p38
+I1
+sS'small rna'
+p39
+I2
+sS'bodipi'
+p40
+I3
+sS'drug target'
+p41
+I1
+sS'hybridization of a subject array'
+p42
+I1
+sS'nucleotide label moieti'
+p43
+I6
+sS'nucleotide monom'
+p44
+I1
+sS'nucleic acid probes having st'
+p45
+I1
+sS'fam'
+p46
+I2
+sS'coaxial stack'
+p47
+I3
+sS'enhancement domain of a subject nucleic acid prob'
+p48
+I1
+sS'interfering rna'
+p49
+I1
+sS'phosphorylation of rna'
+p50
+I1
+sS'subject assay'
+p51
+I1
+sS'administr'
+p52
+I2
+sS'a-particular diseas'
+p53
+I1
+sS'harbor'
+p54
+I1
+sS'hybridization incub'
+p55
+I1
+sS'mononucleotid'
+p56
+I2
+sS'for the polynucleotid'
+p57
+I1
+sS'nucleic acid probes for the polynucleotid'
+p58
+I1
+sS'tm enhancement domain of a subject nucleic acid'
+p59
+I1
+sS'transduct'
+p60
+I1
+sS'mammal'
+p61
+I1
+sS'terminal nucleotide of th'
+p62
+I2
+sS'chemical moieti'
+p63
+I1
+sS'dimens'
+p64
+I2
+sS'color channel'
+p65
+I1
+sS'exemplary tm'
+p66
+I1
+sS'deoxyribonucleotid'
+p67
+I2
+sS'speci'
+p68
+I7
+sS'natur'
+p69
+I1
+sS'toto-3'
+p70
+I1
+sS'reading multi-featur'
+p71
+I1
+sS'rna-containing sampl'
+p72
+I1
+sS'biolog'
+p73
+I1
+sS'nucleic acid hybrid'
+p74
+I2
+sS'acid'
+p75
+I40
+sS'illumin'
+p76
+I3
+sS'dev cel'
+p77
+I1
+sS'gene express'
+p78
+I3
+sS'texa'
+p79
+I3
+sS'ul t4'
+p80
+I1
+sS'melt'
+p81
+I2
+sS'cell'
+p82
+I10
+sS'text fil'
+p83
+I3
+sS'nucleotide clamp of the nucleic acid prob'
+p84
+I3
+sS'microprocessor'
+p85
+I1
+sS'new'
+p86
+I1
+sS'hindrance of non-target polynucleotid'
+p87
+I1
+sS'public'
+p88
+I4
+sS'stearic hindrance of non-target polynucleotid'
+p89
+I1
+sS'phosphorimag'
+p90
+I1
+sS'smrna'
+p91
+I3
+sS'cold spring harbor'
+p92
+I1
+sS'acid hybrid'
+p93
+I2
+sS'rna sampl'
+p94
+I2
+sS'len'
+p95
+I1
+sS'purin'
+p96
+I5
+sS'viral lat'
+p97
+I1
+sS'address'
+p98
+I2
+sS'purif'
+p99
+I1
+sS'terminal transferas'
+p100
+I2
+sS'total area illumin'
+p101
+I1
+sS'precursor'
+p102
+I1
+sS'micrornas deposit'
+p103
+I2
+sS'p32-label'
+p104
+I1
+sS'nucleic acid popul'
+p105
+I1
+sS'c-glycosides of a purin'
+p106
+I1
+sS'biolab'
+p107
+I1
+sS'gene'
+p108
+I2
+sS'tm of'
+p109
+I3
+sS'label-such'
+p110
+I1
+sS'nanobiolog'
+p111
+I2
+sS'binding of a subject nucleic acid'
+p112
+I1
+sS'non-linear norm'
+p113
+I1
+sS'nucleic acid probes of'
+p114
+I1
+sS'indianapoli'
+p115
+I1
+sS'multi-featured array'
+p116
+I1
+sS'surface-bound nucleic acid prob'
+p117
+I5
+sS'curr issu'
+p118
+I1
+sS'non-target polynucleotid'
+p119
+I1
+sS'total amount of'
+p120
+I1
+sS'dna'
+p121
+I6
+sS'third edit'
+p122
+I1
+sS'tijssen'
+p123
+I1
+sS'individual speci'
+p124
+I1
+sS'suppl'
+p125
+I1
+sS'websit'
+p126
+I1
+sS'nucl'
+p127
+I2
+sS'affinity chromatographi'
+p128
+I1
+sS'nucleic acid probes hav'
+p129
+I1
+sS'mirna'
+p130
+I10
+sS'stage'
+p131
+I1
+sS'ribonucleic acid'
+p132
+I1
+sS'tm of a nucleic acid'
+p133
+I2
+sS'detection protocol'
+p134
+I1
+sS'abbreviations fam'
+p135
+I1
+sS'inventors regard'
+p136
+I1
+sS'of a nucleotide label'
+p137
+I2
+sS'acid duplex'
+p138
+I1
+sS'floppy disk'
+p139
+I2
+sS'ann clin'
+p140
+I1
+sS'griffiths-jon'
+p141
+I2
+sS'cgctcgggttttcccgagcggactatacaacctactacctcaxxxxxxxxxx'
+p142
+I1
+sS'experimental sampl'
+p143
+I1
+sS'of a nucleic acid'
+p144
+I1
+sS'microbiospin'
+p145
+I1
+sS'acid probe correspond'
+p146
+I1
+sS'ribonucleotid'
+p147
+I2
+sS'prepar'
+p148
+I1
+sS'dev'
+p149
+I4
+sS'nucleotide clamp of th'
+p150
+I3
+sS'constitutive rna'
+p151
+I1
+sS'novato'
+p152
+I1
+sS'room'
+p153
+I2
+sS'b h'
+p154
+I4
+sS'new england'
+p155
+I1
+sS'acid probes of a subject array'
+p156
+I1
+sS'of rna ligation reaction aliquot'
+p157
+I1
+sS'scan'
+p158
+I1
+sS'roche diagnost'
+p159
+I1
+sS'alexa-fluor-555'
+p160
+I1
+sS'subject nucleic acid'
+p161
+I27
+sS'neuron-specific gen'
+p162
+I1
+sS'probes for the polynucleotid'
+p163
+I1
+sS'of non-target polynucleotid'
+p164
+I1
+sS'acid chain'
+p165
+I1
+sS'nucleotide of the polynucleotid'
+p166
+I1
+sS'phosphorylation of'
+p167
+I1
+sS'kricka'
+p168
+I1
+sS'duplex tm enhanc'
+p169
+I1
+sS'geriatric mamm'
+p170
+I1
+sS'transgen'
+p171
+I1
+sS'ligat'
+p172
+I1
+sS'ligas'
+p173
+I5
+sS'nucleic acid probe correspond'
+p174
+I1
+sS'6-carboxy-2'
+p175
+I1
+sS'hollaend'
+p176
+I1
+sS'developmental stag'
+p177
+I1
+sS'pathway'
+p178
+I1
+sS'nucleic acid probe for'
+p179
+I1
+sS'plant'
+p180
+I1
+sS't4 rna ligas'
+p181
+I1
+sS'molecular clon'
+p182
+I1
+sS'fitc'
+p183
+I1
+sS'salt concentr'
+p184
+I1
+sS'clone'
+p185
+I1
+sS'rna-specif'
+p186
+I1
+sS'date'
+p187
+I2
+sS'clamp of the nucleic acid prob'
+p188
+I3
+sS'tetramethylrhodamin'
+p189
+I1
+sS'6-carboxy-4'
+p190
+I1
+sS'cyanine dy'
+p191
+I1
+sS'polyacrylamide gel'
+p192
+I1
+sS'tm of a duplex'
+p193
+I1
+sS'stabil'
+p194
+I4
+sS'stress'
+p195
+I1
+sS'amin'
+p196
+I1
+sS'third'
+p197
+I1
+sS'bind'
+p198
+I4
+sS'popo-3'
+p199
+I1
+sS'correspond'
+p200
+I1
+sS'hegd'
+p201
+I1
+sS'tms of th'
+p202
+I1
+sS'duplex tm enhancement domain'
+p203
+I1
+sS'deoxyribose sugar'
+p204
+I1
+sS'deposit'
+p205
+I5
+sS'penta-nucleotid'
+p206
+I1
+sS'fluorescein isothiocyan'
+p207
+I1
+sS'microrna speci'
+p208
+I3
+sS'viral microrna'
+p209
+I1
+sS'base-pair'
+p210
+I11
+sS'sd'
+p211
+I6
+sS'benzimide dy'
+p212
+I1
+sS'deoxyribonucleic acid'
+p213
+I1
+sS'the nucleotid'
+p214
+I1
+sS'una otigonucleotid'
+p215
+I1
+sS'exemplary short rna'
+p216
+I1
+sS'labeled mononucleotid'
+p217
+I1
+sS'nucleotide clamp of the nucleic acid'
+p218
+I3
+sS'lipshutz'
+p219
+I1
+sS'of a polynucleotid'
+p220
+I3
+sS'incid'
+p221
+I1
+sS'dye'
+p222
+I14
+sS'non-coval'
+p223
+I1
+sS'cold'
+p224
+I1
+sS'pcmcia'
+p225
+I1
+sS'dynam'
+p226
+I1
+sS'paramet'
+p227
+I1
+sS'terminolog'
+p228
+I1
+sS'nucteic acid'
+p229
+I1
+sS'diskett'
+p230
+I1
+sS'watson-crick base pairing interact'
+p231
+I1
+sS'mol cel'
+p232
+I2
+sS'heterocycl'
+p233
+I1
+sS'agilent microarray scann'
+p234
+I1
+sS'of rna'
+p235
+I2
+sS'species of surface-bound oligonucleotid'
+p236
+I1
+sS'short interfering rna'
+p237
+I1
+sS'the polynucleotid'
+p238
+I2
+sS'dmso'
+p239
+I4
+sS'of a subject nucleic acid prob'
+p240
+I1
+sS'combinatorial chemistri'
+p241
+I1
+sS'preparation of nucleic acid'
+p242
+I1
+sS'therapi'
+p243
+I1
+sS'web address'
+p244
+I1
+sS'einbodi'
+p245
+I1
+sS'fragment'
+p246
+I1
+sS'trna'
+p247
+I1
+sS'oligonucleotide array'
+p248
+I1
+sS'fluorescence intensity read'
+p249
+I1
+sS'band'
+p250
+I1
+sS'experimental error'
+p251
+I1
+sS'chromatographi'
+p252
+I2
+sS'compound'
+p253
+I1
+sS'normal distribut'
+p254
+I1
+sS'biomol'
+p255
+I1
+sS'non-coding regulatory rna'
+p256
+I2
+sS'drug therapi'
+p257
+I1
+sS'acid array'
+p258
+I2
+sS'pyren'
+p259
+I1
+sS'polynucleotide base-pair'
+p260
+I1
+sS'mir-31a'
+p261
+I1
+sS'drop'
+p262
+I5
+sS'slide'
+p263
+I2
+sS'northern hybrid'
+p264
+I1
+sS'roch'
+p265
+I1
+sS'polynucleotide prob'
+p266
+I4
+sS'genom'
+p267
+I1
+sS'drosophila microrna speci'
+p268
+I1
+sS'stock'
+p269
+I1
+sS'laboratory manu'
+p270
+I1
+sS'clamp'
+p271
+I24
+sS'domain'
+p272
+I38
+sS'atom'
+p273
+I1
+sS'citat'
+p274
+I2
+sS'agil'
+p275
+I1
+sS'qspline norm'
+p276
+I1
+sS'reaction aliquot'
+p277
+I1
+sS'adenin'
+p278
+I1
+sS'preferentially bind'
+p279
+I1
+sS'multimer of nucleotid'
+p280
+I1
+sS'phenoxazine dy'
+p281
+I1
+sS'registri'
+p282
+I3
+sS'multimer of'
+p283
+I1
+sS'array'
+p284
+I13
+sS'nucleotide link'
+p285
+I1
+sS'cy-3'
+p286
+I1
+sS'barcod'
+p287
+I1
+sS'3rd'
+p288
+I1
+sS'phosphoryl'
+p289
+I1
+sS'research'
+p290
+I4
+sS'profil'
+p291
+I1
+sS'acid purif'
+p292
+I1
+sS'terminal nucleotide of'
+p293
+I5
+sS'internet'
+p294
+I2
+sS'subject nucleic acid prob'
+p295
+I30
+sS'red'
+p296
+I3
+sS'nucleotide clamp'
+p297
+I27
+sS'dorsel'
+p298
+I1
+sS'proliferative mut'
+p299
+I1
+sS'drug suscept'
+p300
+I2
+sS'magneto-optical disk'
+p301
+I1
+sS'alexafluor555'
+p302
+I1
+sS'card'
+p303
+I1
+sS'basi'
+p304
+I1
+sS'jet'
+p305
+I1
+sS'non-coding rna'
+p306
+I3
+sS'loveland'
+p307
+I1
+sS'pre-mirna'
+p308
+I1
+sS'relative bind'
+p309
+I1
+sS'rhodamine dy'
+p310
+I1
+sS'cy3'
+p311
+I3
+sS'diethylaminocoumarin'
+p312
+I1
+sS'synthetic rna oligonucleotid'
+p313
+I1
+sS'cy5'
+p314
+I3
+sS'mammalian cel'
+p315
+I1
+sS'nucleotide of the nucleic acid prob'
+p316
+I1
+sS'moieti'
+p317
+I7
+sS'phosphorylation of rna ligation react'
+p318
+I1
+sS'wash'
+p319
+I2
+sS'instruct'
+p320
+I15
+sS'world-wide websit'
+p321
+I1
+sS'human immunodeficiency viru'
+p322
+I1
+sS'nucleosid'
+p323
+I3
+sS'synthetic mimet'
+p324
+I1
+sS'pcpcy5'
+p325
+I1
+sS'assessing polynucleotid'
+p326
+I1
+sS'steric hindr'
+p327
+I1
+sS'of nucleic acid array'
+p328
+I1
+sS'pcpcy3'
+p329
+I1
+sS'ethidium dy'
+p330
+I1
+sS'interact'
+p331
+I3
+sS'tms of'
+p332
+I1
+sS'optical disk'
+p333
+I1
+sS'of'
+p334
+I6
+sS'acid probes for the polynucleotid'
+p335
+I1
+sS'incident illumin'
+p336
+I1
+sS'termin'
+p337
+I10
+sS'biochem'
+p338
+I1
+sS'terminal nucleotide of the nucleic acid prob'
+p339
+I1
+sS'microarray'
+p340
+I2
+sS'incub'
+p341
+I1
+sS'tm of a nucleic acid duplex'
+p342
+I1
+sS'pcr'
+p343
+I1
+sS'nucleic acid probes for'
+p344
+I1
+sS'tissu'
+p345
+I1
+sS'conserv'
+p346
+I1
+sS'pna'
+p347
+I1
+sS'nucleic acid binding complex'
+p348
+I1
+sS'subject kit'
+p349
+I2
+sS'cell popul'
+p350
+I2
+sS'physical stress'
+p351
+I1
+sS'molecular'
+p352
+I7
+sS'target'
+p353
+I3
+sS'drug screen'
+p354
+I1
+sS'pcmcia card'
+p355
+I1
+sS'probe'
+p356
+I152
+sS'reading multi-featured array'
+p357
+I1
+sS'nucteic acid prob'
+p358
+I1
+sS'probes of a subject array'
+p359
+I1
+sS'for a polynucleotid'
+p360
+I1
+sS'nucleic acid'
+p361
+I150
+sS'dtt'
+p362
+I1
+sS'molecular prob'
+p363
+I4
+sS'atmospher'
+p364
+I1
+sS'terminal nucleotide of the nucleic acid'
+p365
+I1
+sS'ann'
+p366
+I1
+sS'ram'
+p367
+I1
+sS'spectrum'
+p368
+I1
+sS'lissamin'
+p369
+I1
+sS'packag'
+p370
+I1
+sS'nucleotide of a polynucleotid'
+p371
+I3
+sS'fluorephor'
+p372
+I1
+sS'photolithographic array fabr'
+p373
+I2
+sS'contiguous nucleotid'
+p374
+I2
+sS'the nucleotide clamp'
+p375
+I1
+sS'engin'
+p376
+I1
+sS'subject nucleic acid probe correspond'
+p377
+I2
+sS'taggagagagaaaaagactgaxxxxxxxxxx'
+p378
+I1
+sS'pulse jet'
+p379
+I1
+sS'support-bound polynucleotide prob'
+p380
+I1
+sS'subject prob'
+p381
+I3
+sS'immunodeficiency viru'
+p382
+I1
+sS'of a nucleic acid duplex'
+p383
+I1
+sS'atp'
+p384
+I1
+sS'phenotyp'
+p385
+I1
+sS'channel'
+p386
+I3
+sS'transferas'
+p387
+I2
+sS'conventional ribos'
+p388
+I1
+sS'distribut'
+p389
+I1
+sS'normal'
+p390
+I8
+sS'buffer'
+p391
+I12
+sS'r110'
+p392
+I1
+sS'random access'
+p393
+I1
+sS'complementary polynucleotid'
+p394
+I1
+sS'tri-nucleotid'
+p395
+I2
+sS'fuinction'
+p396
+I1
+sS'oligonucleotid'
+p397
+I7
+sS'non-trimmed prob'
+p398
+I1
+sS'nucleic acid probe for a polynucleotid'
+p399
+I1
+sS'thymin'
+p400
+I1
+sS'of surface-bound oligonucleotid'
+p401
+I1
+sS'amino acid monom'
+p402
+I1
+sS'total area queri'
+p403
+I1
+sS'xanthene dy'
+p404
+I1
+sS'fluorescein chlorotriazinyl'
+p405
+I1
+sS'salt'
+p406
+I1
+sS'event'
+p407
+I1
+sS'mimet'
+p408
+I1
+sS'of a subject array'
+p409
+I2
+sS'nucleotides bind'
+p410
+I1
+sS'text'
+p411
+I1
+sS'adsorb'
+p412
+I1
+sS'hairpin'
+p413
+I1
+sS'bright'
+p414
+I1
+sS'nucleic acid array'
+p415
+I2
+sS'porphyrin dy'
+p416
+I1
+sS'small modulatory rna'
+p417
+I1
+sS'protocol'
+p418
+I3
+sS'of the nucleotide clamp'
+p419
+I2
+sS'g residu'
+p420
+I1
+sS'normalization strategi'
+p421
+I1
+sS'rna band'
+p422
+I1
+sS'of a subject nucleic acid probe correspond'
+p423
+I1
+sS'reader'
+p424
+I1
+sS'above-method'
+p425
+I1
+sS'representative kit'
+p426
+I1
+sS'activ'
+p427
+I1
+sS'sugar'
+p428
+I2
+sS'biophi'
+p429
+I1
+sS'nucleic acid probes of a subject array'
+p430
+I1
+sS'latenc'
+p431
+I1
+sS'tape'
+p432
+I1
+sS'analyt'
+p433
+I1
+sS'polysaccharid'
+p434
+I1
+sS'species of'
+p435
+I1
+sS'hiv'
+p436
+I1
+sS'express'
+p437
+I3
+sS'nucleotide clamp of'
+p438
+I3
+sS'subject hairpin'
+p439
+I1
+sS'polynucleotide precursor'
+p440
+I1
+sS're-writ'
+p441
+I1
+sS'nucleotide label'
+p442
+I2
+sS'chemic'
+p443
+I1
+sS'distinguishably label polynucleotid'
+p444
+I1
+sS'biopsi'
+p445
+I1
+sS'ssc'
+p446
+I6
+sS'gel'
+p447
+I1
+sS'organ'
+p448
+I2
+sS'monom'
+p449
+I2
+sS'pre-heated sampl'
+p450
+I1
+sS'bodipy dy'
+p451
+I1
+sS'of the nucleic acid prob'
+p452
+I4
+sS'rna profil'
+p453
+I1
+sS'nucleic acid purif'
+p454
+I1
+sS'polynucleotidez'
+p455
+I1
+sS'fluoresc'
+p456
+I1
+sS'tris-hcl'
+p457
+I2
+sS'human'
+p458
+I1
+sS'ion-exchange chromatographi'
+p459
+I1
+sS'stearic hindrance of'
+p460
+I1
+sS'halogen atom'
+p461
+I1
+sS'nucleic acid duplex'
+p462
+I2
+sS'rna ligas'
+p463
+I2
+sS'trition'
+p464
+I1
+sS'penta-nucleotide moieti'
+p465
+I1
+sS'drop deposit'
+p466
+I5
+sS'subject'
+p467
+I1
+sS'detect'
+p468
+I1
+sS'record'
+p469
+I1
+sS'exclusive terminolog'
+p470
+I1
+sS'databas'
+p471
+I1
+sS'chemiluminesc'
+p472
+I1
+sS'label'
+p473
+I2
+sS'incident illuminating las'
+p474
+I1
+sS'synthetic rna'
+p475
+I1
+sS'eosin'
+p476
+I1
+sS'tm enhancement domain'
+p477
+I39
+sS'population of'
+p478
+I1
+sS'absenc'
+p479
+I1
+sS'genet'
+p480
+I1
+sS'screen'
+p481
+I1
+sS'post-hybridization wash'
+p482
+I1
+sS'polydeoxyribonucleotid'
+p483
+I1
+sS'the nucleic acid prob'
+p484
+I4
+sS'tamra'
+p485
+I2
+sS'surface-bound oligonucleotid'
+p486
+I3
+sS'joe'
+p487
+I2
+sS'tcagctatgccgacatcttxxxxxxxxxx'
+p488
+I1
+sS'quantitative detect'
+p489
+I1
+sS'popul'
+p490
+I3
+sS'reaction'
+p491
+I2
+sS'n1-5'
+p492
+I2
+sS'molecular dynam'
+p493
+I1
+sS'pre-small rna'
+p494
+I1
+sS'binding of a subject nucleic acid prob'
+p495
+I1
+sS'of a nucleotide label moieti'
+p496
+I4
+sS'electrical suppli'
+p497
+I1
+sS'agit'
+p498
+I1
+sS'molecular biolog'
+p499
+I2
+sS'polynucleotid'
+p500
+I94
+sS'popro3'
+p501
+I1
+sS'color'
+p502
+I1
+sS'fluorescein'
+p503
+I4
+sS'cgctcgggttttcccgagcggtcagctatgccgacatcttxxxxxxxxxx'
+p504
+I1
+sS'not-ne'
+p505
+I1
+sS'residu'
+p506
+I2
+sS'neuron-specific gene express'
+p507
+I1
+sS't residu'
+p508
+I2
+sS'exemplari'
+p509
+I2
+sS'suppli'
+p510
+I1
+sS'exact biological fuinct'
+p511
+I1
+sS'curr'
+p512
+I4
+sS'domain of a subject nucleic acid prob'
+p513
+I1
+sS'curr opin'
+p514
+I1
+sS'ribos'
+p515
+I2
+sS'stearic hindr'
+p516
+I1
+sS'hard-driv'
+p517
+I1
+sS'nucleic acid chain'
+p518
+I1
+sS'umbelliferon'
+p519
+I1
+sS'softwar'
+p520
+I1
+sS'complementar'
+p521
+I2
+sS'clarit'
+p522
+I1
+sS'spread'
+p523
+I3
+sS'diseas'
+p524
+I1
+sS'phenanthridine dy'
+p525
+I1
+sS'acid binding complex'
+p526
+I1
+sS'mm atp'
+p527
+I1
+sS'ul t4 rna'
+p528
+I1
+sS'digital microprocessor'
+p529
+I1
+sS'strategi'
+p530
+I1
+sS'of nucleotid'
+p531
+I1
+sS'linker'
+p532
+I3
+sS'actatacaacctactacctcaxxxxxxxxxx'
+p533
+I1
+sS'genetic engin'
+p534
+I1
+sS'aliquot'
+p535
+I1
+sS'electroluminescent label'
+p536
+I1
+sS'suscept'
+p537
+I2
+sS'um rna oligo'
+p538
+I1
+sS'acridine dy'
+p539
+I1
+sS'ausubel'
+p540
+I1
+sS'c-glycosides of'
+p541
+I1
+sS'v-1002'
+p542
+I1
+sS'ligation reaction aliquot'
+p543
+I1
+sS'biochem biophi'
+p544
+I1
+sS'solid'
+p545
+I1
+sS'exemplary tm enhancement domain'
+p546
+I1
+sS'amersham'
+p547
+I1
+sS'experimental paramet'
+p548
+I1
+sS'kallioniemi'
+p549
+I1
+sS'error'
+p550
+I1
+sS'sirna'
+p551
+I4
+sS'polyribonucleotid'
+p552
+I1
+sS'program'
+p553
+I1
+sS'total amount of rna'
+p554
+I1
+sS'tm enhancement domain of'
+p555
+I1
+sS'surface-bound subject nucleic acid'
+p556
+I2
+sS'evolutionary conserv'
+p557
+I1
+sS'viru'
+p558
+I1
+sS'neuron'
+p559
+I1
+sS'hybridization buff'
+p560
+I3
+sS'micro-rna'
+p561
+I1
+sS'drug'
+p562
+I6
+sS'normal cel'
+p563
+I2
+sS'population of nucleic acid'
+p564
+I1
+sS'protein'
+p565
+I1
+sS'modulatory rna'
+p566
+I2
+sS'cytosin'
+p567
+I1
+sS'mm tris-hcl'
+p568
+I2
+sS'ul bsa'
+p569
+I1
+sS'mutat'
+p570
+I1
+sS'preparation of nucleic acid array'
+p571
+I1
+sS'una'
+p572
+I1
+sS'of th'
+p573
+I3
+sS'media'
+p574
+I2
+sS'precursor rna'
+p575
+I2
+sS'complex'
+p576
+I1
+sS'label moieti'
+p577
+I4
+sS'rna'
+p578
+I119
+sS'curr biol'
+p579
+I2
+sS'phosphorylation of rna ligation reaction aliquot'
+p580
+I1
+sS'kit'
+p581
+I3
+sS'microarray scann'
+p582
+I1
+sS'stack'
+p583
+I3
+sS'nm'
+p584
+I2
+sS'fluorescence intens'
+p585
+I1
+sS'of a duplex'
+p586
+I1
+sS'of the polynucleotid'
+p587
+I1
+sS'non-differentiated cel'
+p588
+I1
+sS'admiss'
+p589
+I2
+sS'probe nucleic acid'
+p590
+I1
+sS'tm spread'
+p591
+I3
+sS'cgctcgggttttcccgagcggtaggagagagaaaaagactgaxxxxxxxxxx'
+p592
+I1
+sS'modem'
+p593
+I1
+sS'new england biolab'
+p594
+I1
+sS'biorad'
+p595
+I1
+sS'probe nucl'
+p596
+I1
+sS'otigonucleotid'
+p597
+I1
+sS'identifi'
+p598
+I3
+sS'drosophila mirna'
+p599
+I2
+sS'alexafluor647'
+p600
+I1
+sS'slide scan'
+p601
+I1
+sS'tip'
+p602
+I1
+sS'chemisorb'
+p603
+I1
+sS'pharmacia'
+p604
+I1
+sS'formamid'
+p605
+I2
+sS'dna ligas'
+p606
+I3
+sS'skill'
+p607
+I3
+sS'accuraci'
+p608
+I1
+sS'concentr'
+p609
+I3
+sS'struct'
+p610
+I1
+sS'binding of'
+p611
+I1
+sS'elsevi'
+p612
+I1
+sS'desktop'
+p613
+I1
+sS'nt'
+p614
+I9
+sS'reagents distinguishably label polynucleotid'
+p615
+I1
+sS'situ hybrid'
+p616
+I1
+sS'unique identifi'
+p617
+I3
+sS'of nucleic acid'
+p618
+I1
+sS'let-7'
+p619
+I1
+sS'binding of a subject nucleic acid probe correspond'
+p620
+I1
+sS'deterg'
+p621
+I1
+sS'microrna'
+p622
+I3
+sS'read'
+p623
+I2
+sS'subject array'
+p624
+I11
+sS'molecul'
+p625
+I1
+sS'cellular transform'
+p626
+I1
+sS'acid probe for a polynucleotid'
+p627
+I1
+sS'the tm enhancement domain'
+p628
+I1
+sS'mol'
+p629
+I2
+sS'press'
+p630
+I1
+sS'nucleic acid prob'
+p631
+I142
+sS'cold spr'
+p632
+I1
+sS'denaturing polyacrylamide gel'
+p633
+I1
+sS'pyrimidin'
+p634
+I2
+sS'insert'
+p635
+I1
+sS'rrna'
+p636
+I1
+sS'nucleotid'
+p637
+I38
+sS'backbon'
+p638
+I1
+sS'final react'
+p639
+I1
+sS'package insert'
+p640
+I1
+sS'terminal nucleotide of the polynucleotid'
+p641
+I1
+sS'acid popul'
+p642
+I1
+sS'manual'
+p643
+I1
+sS'intensity read'
+p644
+I1
+sS'edit'
+p645
+I2
+sS'rna oligonucleotid'
+p646
+I1
+sS't'
+p647
+I1
+sS'of norm'
+p648
+I3
+sS'label sampl'
+p649
+I1
+sS'subject nucleic acid array'
+p650
+I1
+sS'pre-determined concentr'
+p651
+I1
+sS'short rna'
+p652
+I1
+sS'gtaggagagagaaaaagactgaxxxxxxxxxx'
+p653
+I1
+sS'growth'
+p654
+I1
+sS'sampl'
+p655
+I15
+sS'reagent'
+p656
+I2
+sS'duplex st'
+p657
+I2
+sS'signal-dependent non-linear norm'
+p658
+I1
+sS'bodipy v-1002'
+p659
+I1
+sS'transduction pathway'
+p660
+I2
+sS'modified nucleosid'
+p661
+I1
+sS'setlow'
+p662
+I1
+sS'carbazole dy'
+p663
+I1
+sS'mm mgcl2'
+p664
+I1
+sS'unligated precursor'
+p665
+I1
+sS'genomic frag'
+p666
+I1
+sS'hybridization of'
+p667
+I1
+sS'acid monom'
+p668
+I1
+sS'biological fuinct'
+p669
+I1
+sS'biological act'
+p670
+I1
+sS'pulse-jet'
+p671
+I1
+sS'mgcl2'
+p672
+I1
+sS'fluorophor'
+p673
+I3
+sS'um rna oligo stock'
+p674
+I1
+sS'dev biol'
+p675
+I1
+sS'probe for a polynucleotid'
+p676
+I1
+sS'topro3'
+p677
+I1
+sS'reagents distinguishably label'
+p678
+I1
+sS'biopolym'
+p679
+I1
+sS'gtcagctatgccgacatcttxxxxxxxxxx'
+p680
+I1
+sS'nucteotid'
+p681
+I1
+sS'microarray slid'
+p682
+I1
+sS'tm enhancement domain of a subject nucleic acid prob'
+p683
+I1
+sS'of the tm enhanc'
+p684
+I1
+sS'physiological ev'
+p685
+I1
+sS'ul t4 rna ligas'
+p686
+I1
+sS'prostat'
+p687
+I1
+sS'um rna'
+p688
+I1
+sS'novina'
+p689
+I1
+sS'triton'
+p690
+I1
+sS'amino acid'
+p691
+I1
+sS'effici'
+p692
+I1
+sS'oligo stock'
+p693
+I1
+sS'spatial norm'
+p694
+I1
+sS'rna ligation reaction aliquot'
+p695
+I1
+sS'exemplary tm enhanc'
+p696
+I1
+sS'ordinary skil'
+p697
+I3
+sS'experimental cel'
+p698
+I1
+sS'assess'
+p699
+I2
+sS'spring harbor'
+p700
+I1
+sS'enhancement domain'
+p701
+I38
+sS'rna backbon'
+p702
+I1
+sS'mm dtt'
+p703
+I1
+sS'edta'
+p704
+I1
+sS'agilent microarray'
+p705
+I1
+sS'coumarin'
+p706
+I1
+sS'biosearch'
+p707
+I1
+sS'fabric'
+p708
+I2
+sS'drosophila'
+p709
+I2
+sS'hex'
+p710
+I1
+sS'transform'
+p711
+I1
+sS'biol'
+p712
+I3
+sS'bsa'
+p713
+I1
+sS'curr issues mol'
+p714
+I1
+sS'fraction'
+p715
+I1
+sS'laboratori'
+p716
+I1
+sS'u '
+p717
+I1
+sS'terminal nucleotide of a polynucleotid'
+p718
+I3
+sS'triton x-102'
+p719
+I1
+sS'regard'
+p720
+I1
+sS'plant mol'
+p721
+I1
+sS'rna detect'
+p722
+I1
+sS'regulatory rna'
+p723
+I2
+sS'hybridization chamb'
+p724
+I1
+sS'steric hindrance for'
+p725
+I1
+sS'tiny non-coding rna'
+p726
+I1
+sS'peptid'
+p727
+I1
+sS'piscataway'
+p728
+I2
+sS'conclus'
+p729
+I1
+sS'magnetic tap'
+p730
+I1
+sS'nucleic'
+p731
+I2
+sS'schneideret'
+p732
+I1
+sS'acid prob'
+p733
+I137
+sS'trition x-102'
+p734
+I1
+sS'access'
+p735
+I1
+sS'physisorb'
+p736
+I1
+sS'tm enhanc'
+p737
+I36
+sS'um'
+p738
+I1
+sS'ul'
+p739
+I1
+sS'uk'
+p740
+I1
+sS'acylated purin'
+p741
+I1
+sS'cd-rom'
+p742
+I3
+sS'unincorporated nucleotid'
+p743
+I1
+sS'binding complex'
+p744
+I1
+sS'scanner'
+p745
+I1
+sS'chlorotriazinyl'
+p746
+I1
+sS'dharmacon'
+p747
+I2
+sS'repres'
+p748
+I2
+sS'diagnost'
+p749
+I1
+sS'file'
+p750
+I5
+sS'of a purin'
+p751
+I1
+sS'multim'
+p752
+I1
+sS'filing d'
+p753
+I2
+sS'england biolab'
+p754
+I1
+sS'tetra-nucleotid'
+p755
+I2
+sS'polymethine dy'
+p756
+I1
+sS'x-102'
+p757
+I2
+sS'napthofluorescein'
+p758
+I2
+sS'hybrid'
+p759
+I22
+sS'discoveri'
+p760
+I1
+sS'gactatacaacctactacctcaxxxxxxxxxx'
+p761
+I1
+sS'exemplary cel'
+p762
+I1
+sS'isothiocyan'
+p763
+I1
+sS'chamber'
+p764
+I1
+sS'of the nucleotid'
+p765
+I2
+sS'labeled small rna'
+p766
+I1
+sS'modulator rna'
+p767
+I1
+sS'absolute assess'
+p768
+I1
+sS'hard-drive rom'
+p769
+I2
+sS'quinoline dy'
+p770
+I1
+sS'polym'
+p771
+I4
+sS'di-nucleotid'
+p772
+I2
+sS'ligation effici'
+p773
+I1
+sS'intens'
+p774
+I2
+sS'public network'
+p775
+I1
+sS'antecedent basi'
+p776
+I1
+sS'mm edta'
+p777
+I1
+sS'enzym'
+p778
+I1
+sS'network'
+p779
+I1
+sS'rectangular solid'
+p780
+I1
+sS'cy-5'
+p781
+I1
+sS'dvd'
+p782
+I1
+sS'rna lig'
+p783
+I1
+sS'p32-labeled rna band'
+p784
+I1
+sS'fluid-filled tip'
+p785
+I1
+sS'of the tm enhancement domain'
+p786
+I2
+sS'pixel bright'
+p787
+I1
+sS'p32-labeled rna'
+p788
+I1
+sS'ieast'
+p789
+I1
+sS'tissue biopsi'
+p790
+I1
+sS'polynucleotide sampl'
+p791
+I1
+sS'terminal nucleotid'
+p792
+I8
+sS'photolithographic array'
+p793
+I2
+sS'cpu'
+p794
+I1
+sS'complementary labeled small rna'
+p795
+I1
+stp796
+Rp797
+tp798
+.

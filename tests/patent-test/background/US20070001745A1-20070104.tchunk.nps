@@ -1,0 +1,383 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'capacitor c1'
+p7
+I10
+sS'capacitor c2'
+p8
+I3
+sS'ith'
+p9
+I1
+sS'ground'
+p10
+I1
+sS'of pui'
+p11
+I1
+sS'nk'
+p12
+I6
+sS'threshold'
+p13
+I1
+sS'taiwan'
+p14
+I2
+sS'cp'
+p15
+I3
+sS'c1'
+p16
+I14
+sS'yen chih-jen'
+p17
+I2
+sS'voltage difference of'
+p18
+I1
+sS'n1,3'
+p19
+I1
+sS'pp'
+p20
+I1
+sS'n3'
+p21
+I2
+sS'n1,4'
+p22
+I1
+sS'capacitors c1'
+p23
+I4
+sS'tw'
+p24
+I3
+sS'citi'
+p25
+I1
+sS'm1'
+p26
+I1
+sS'm0'
+p27
+I1
+sS'switch sj'
+p28
+I4
+sS'termin'
+p29
+I16
+sS'voltage v1,1'
+p30
+I2
+sS'voltage v1,2'
+p31
+I2
+sS'regul'
+p32
+I2
+sS'switch sw1,2'
+p33
+I1
+sS'switch sw1,1'
+p34
+I1
+sS'pump unit pu3'
+p35
+I1
+sS'v1,2'
+p36
+I1
+sS'v1,1'
+p37
+I1
+sS'of a charg'
+p38
+I2
+sS'transmission g'
+p39
+I3
+sS'pmos transistor'
+p40
+I3
+sS'gate'
+p41
+I3
+sS'terminal n1'
+p42
+I8
+sS'c2'
+p43
+I3
+sS'terminal n3'
+p44
+I2
+sS'terminal n2'
+p45
+I2
+sS'multi-stage pump'
+p46
+I1
+sS'capacitors of pui'
+p47
+I1
+sS'gaocui'
+p48
+I1
+sS'voltag'
+p49
+I88
+sS'of a charge pump'
+p50
+I6
+sS'switch s1'
+p51
+I3
+sS'roosevelt'
+p52
+I1
+sS'swi'
+p53
+I8
+sS'switch s4'
+p54
+I3
+sS'hsinchu'
+p55
+I1
+sS'vdd'
+p56
+I11
+sS'pump circuit for generating power source voltag'
+p57
+I1
+sS'aforementioned charg'
+p58
+I1
+sS'sw1'
+p59
+I4
+sS'b h'
+p60
+I1
+sS'sw3'
+p61
+I4
+sS'voltage difference of vdd'
+p62
+I1
+sS'roosevelt road'
+p63
+I1
+sS'switch swi'
+p64
+I2
+sS'voltage vdd'
+p65
+I7
+sS'voltage regul'
+p66
+I2
+sS'charge pump circuit for generating power source voltag'
+p67
+I1
+sS'hth'
+p68
+I1
+sS'internal capacitor'
+p69
+I2
+sS'vt'
+p70
+I7
+sS'ph2'
+p71
+I12
+sS'ph1'
+p72
+I15
+sS'capacitors of'
+p73
+I1
+sS'conventional charge pump'
+p74
+I4
+sS'pu1'
+p75
+I11
+sS'pu2'
+p76
+I5
+sS'pu3'
+p77
+I5
+sS'sw1,2'
+p78
+I3
+sS'sk'
+p79
+I5
+sS'pmo'
+p80
+I3
+sS'nm'
+p81
+I2
+sS'equival'
+p82
+I1
+sS'sj'
+p83
+I11
+sS'of a conventional charg'
+p84
+I2
+sS's1'
+p85
+I3
+sS's4'
+p86
+I3
+sS'rd'
+p87
+I1
+sS'pump'
+p88
+I24
+sS'of vdd'
+p89
+I2
+sS'jth'
+p90
+I1
+sS'ith pump'
+p91
+I1
+sS'for generating power source voltag'
+p92
+I2
+sS'pump unit pui'
+p93
+I6
+sS'threshold voltag'
+p94
+I1
+sS'architectur'
+p95
+I1
+sS'terminal n1,3'
+p96
+I1
+sS'transistor'
+p97
+I7
+sS'pui'
+p98
+I17
+sS'terminal n1,4'
+p99
+I1
+sS'of'
+p100
+I4
+sS'charge pump circuit for'
+p101
+I1
+sS'hsinchu c'
+p102
+I1
+sS'sw1,1'
+p103
+I1
+sS'voltage levels yen chih-jen'
+p104
+I1
+sS'capacitor'
+p105
+I5
+sS'chih-jen'
+p106
+I1
+sS'nmo'
+p107
+I3
+sS'switch sw1'
+p108
+I4
+sS'charg'
+p109
+I16
+sS'n transistor'
+p110
+I1
+sS'pump unit pu2'
+p111
+I1
+sS'negative voltag'
+p112
+I3
+sS'pump unit pu1'
+p113
+I3
+sS'charge pump'
+p114
+I21
+sS'pump units pui'
+p115
+I1
+sS'nmos transistor'
+p116
+I3
+sS'of a conventional charge pump'
+p117
+I6
+sS'transistor m1'
+p118
+I1
+sS'transistor m0'
+p119
+I1
+sS'switch'
+p120
+I20
+sS'gaocui rd'
+p121
+I1
+sS'incorpor'
+p122
+I2
+sS'sw2,1'
+p123
+I2
+sS'n1'
+p124
+I8
+sS'n2'
+p125
+I2
+sS'sw2,2'
+p126
+I2
+sS'road'
+p127
+I1
+sS'voltage levels yen'
+p128
+I1
+stp129
+Rp130
+tp131
+.

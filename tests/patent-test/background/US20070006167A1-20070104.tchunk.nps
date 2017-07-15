@@ -1,0 +1,983 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'code'
+p7
+I121
+sS'rom'
+p8
+I1
+sS'binary instrument'
+p9
+I1
+sS'optimal location for'
+p10
+I3
+sS'expansion bu'
+p11
+I3
+sS'bridge routin'
+p12
+I1
+sS'jit-based instrument'
+p13
+I1
+sS'edx'
+p14
+I1
+sS'disk'
+p15
+I3
+sS'depend'
+p16
+I1
+sS'tx'
+p17
+I1
+sS'rewrit'
+p18
+I1
+sS'graph'
+p19
+I2
+sS'writer'
+p20
+I4
+sS'program'
+p21
+I24
+sS'software instrument'
+p22
+I1
+sS'peripheral component interconnect'
+p23
+I1
+sS'routines of instrument'
+p24
+I1
+sS'eprom'
+p25
+I1
+sS'original eflag'
+p26
+I1
+sS'of instruct'
+p27
+I2
+sS'optical card'
+p28
+I1
+sS'advanced graph'
+p29
+I1
+sS'optimization opportun'
+p30
+I1
+sS'inlined body of'
+p31
+I1
+sS'voss road'
+p32
+I1
+sS'unoptimized instrumented vers'
+p33
+I1
+sS'variable-length instruct'
+p34
+I1
+sS'she'
+p35
+I1
+sS'compact disk'
+p36
+I2
+sS'inlined body of the analysis routin'
+p37
+I1
+sS'general-purpos'
+p38
+I1
+sS'optimized location for th'
+p39
+I1
+sS'the code seg'
+p40
+I1
+sS'x86-based architectur'
+p41
+I1
+sS'instrumented cod'
+p42
+I14
+sS'jump'
+p43
+I1
+sS'unknown indirect jump'
+p44
+I1
+sS'guarantees data independ'
+p45
+I1
+sS'overwriting of the eflags regist'
+p46
+I1
+sS'program for th'
+p47
+I2
+sS'port'
+p48
+I3
+sS'just-in-tim'
+p49
+I3
+sS'processor flush'
+p50
+I1
+sS'the analysis routin'
+p51
+I1
+sS'discoveri'
+p52
+I1
+sS'dynamic ram'
+p53
+I1
+sS'optimal location for th'
+p54
+I3
+sS'uninstrumented execut'
+p55
+I1
+sS'version'
+p56
+I6
+sS'caller-saved regist'
+p57
+I3
+sS'just-in-time compil'
+p58
+I3
+sS'individual bit'
+p59
+I1
+sS'approach'
+p60
+I4
+sS'unoptimized instruct'
+p61
+I1
+sS'instrumented vers'
+p62
+I3
+sS'development cycl'
+p63
+I1
+sS'electronic instruct'
+p64
+I1
+sS'cycl'
+p65
+I1
+sS'general-purpose regist'
+p66
+I4
+sS'programmable g'
+p67
+I1
+sS'address'
+p68
+I1
+sS'optimal location for the instrumentation cod'
+p69
+I3
+sS'compiler insert'
+p70
+I1
+sS'invocation frequ'
+p71
+I1
+sS'conditional code regist'
+p72
+I1
+sS'of the code seg'
+p73
+I1
+sS'routines of instrumentation cod'
+p74
+I2
+sS'the eflags regist'
+p75
+I1
+sS'dynamic tool'
+p76
+I1
+sS'eflag'
+p77
+I3
+sS'of avoiding overwriting of'
+p78
+I1
+sS'cd-rw'
+p79
+I1
+sS'instrumentation transpar'
+p80
+I2
+sS'implement'
+p81
+I1
+sS'pda'
+p82
+I1
+sS'acceler'
+p83
+I1
+sS'routine argu'
+p84
+I2
+sS'schedul'
+p85
+I5
+sS'dispatch'
+p86
+I2
+sS'of avoid'
+p87
+I1
+sS'of avoiding overwrit'
+p88
+I1
+sS'api'
+p89
+I1
+sS'bridg'
+p90
+I1
+sS'byte'
+p91
+I1
+sS'target branch'
+p92
+I2
+sS'jump instruct'
+p93
+I1
+sS'approach work'
+p94
+I1
+sS'parallel port'
+p95
+I1
+sS'regist'
+p96
+I38
+sS'unoptimized instrumented cod'
+p97
+I1
+sS'live'
+p98
+I3
+sS'jit compil'
+p99
+I5
+sS'call'
+p100
+I4
+sS'code cach'
+p101
+I9
+sS'software complex'
+p102
+I1
+sS'routine incr'
+p103
+I1
+sS'instruction of th'
+p104
+I1
+sS'special-purpose processor'
+p105
+I1
+sS'optimizing binary-level instrument'
+p106
+I1
+sS'phone'
+p107
+I1
+sS'flag'
+p108
+I1
+sS'unknown indirect jump target'
+p109
+I1
+sS'instrumented program'
+p110
+I1
+sS'cach'
+p111
+I9
+sS'x86 environ'
+p112
+I1
+sS'accelerated graph'
+p113
+I1
+sS'optimizing cal'
+p114
+I1
+sS'instruction of'
+p115
+I1
+sS'work'
+p116
+I1
+sS'pci loc'
+p117
+I1
+sS'register realloc'
+p118
+I1
+sS'b h'
+p119
+I1
+sS'of the analysis routin'
+p120
+I2
+sS'semant'
+p121
+I1
+sS'machine-accessible medium hav'
+p122
+I1
+sS'vm'
+p123
+I7
+sS'routine cal'
+p124
+I1
+sS'typical instrument'
+p125
+I1
+sS'hub'
+p126
+I8
+sS'straight-line sequence of instruct'
+p127
+I1
+sS'accelerated graphics port'
+p128
+I1
+sS'processor resourc'
+p129
+I1
+sS'instrumentation cod'
+p130
+I56
+sS'jit-based approach'
+p131
+I1
+sS'develop'
+p132
+I1
+sS'pci bu'
+p133
+I2
+sS'optimized instrumented cod'
+p134
+I2
+sS'static instrument'
+p135
+I1
+sS'media'
+p136
+I2
+sS'frequenc'
+p137
+I1
+sS'binari'
+p138
+I4
+sS'in-order machin'
+p139
+I1
+sS'software instrumentation tool'
+p140
+I1
+sS'expensive stack switch'
+p141
+I1
+sS'resourc'
+p142
+I1
+sS'optimized location for'
+p143
+I1
+sS'optim'
+p144
+I4
+sS'expans'
+p145
+I1
+sS'compact disk rewrit'
+p146
+I1
+sS'assist'
+p147
+I1
+sS'code seg'
+p148
+I27
+sS'stack switch'
+p149
+I1
+sS'scheduling feas'
+p150
+I1
+sS'for the instrumentation cod'
+p151
+I10
+sS'interconnect'
+p152
+I2
+sS'stack'
+p153
+I6
+sS'register alloc'
+p154
+I3
+sS'alloc'
+p155
+I3
+sS'task'
+p156
+I2
+sS'feasibl'
+p157
+I1
+sS'software architectur'
+p158
+I3
+sS'correspond'
+p159
+I4
+sS'independency hint'
+p160
+I9
+sS'switch'
+p161
+I1
+sS'schedule instrumentation cod'
+p162
+I1
+sS'environ'
+p163
+I1
+sS'host bu'
+p164
+I1
+sS'binary-level instrument'
+p165
+I1
+sS'houston tx'
+p166
+I1
+sS'houston'
+p167
+I1
+sS'instrumentation instruct'
+p168
+I3
+sS'execut'
+p169
+I6
+sS'routin'
+p170
+I22
+sS'advanced graphics port'
+p171
+I1
+sS'move'
+p172
+I1
+sS'o expansion bu'
+p173
+I2
+sS'dynamic instrument'
+p174
+I3
+sS'machine-accessible medium having instruct'
+p175
+I1
+sS'bit'
+p176
+I1
+sS'user-directed approach'
+p177
+I1
+sS'hint'
+p178
+I9
+sS'original semant'
+p179
+I1
+sS'register edx'
+p180
+I1
+sS'instrument'
+p181
+I77
+sS'jit'
+p182
+I8
+sS'pci'
+p183
+I4
+sS'realloc'
+p184
+I1
+sS'trace link'
+p185
+I1
+sS'straight-line sequence of'
+p186
+I1
+sS'pci local bu'
+p187
+I1
+sS'return'
+p188
+I2
+sS'transpar'
+p189
+I2
+sS'tool writer guarantees data independ'
+p190
+I1
+sS'jump target'
+p191
+I1
+sS'unique target'
+p192
+I1
+sS'itanium'
+p193
+I1
+sS'nop'
+p194
+I1
+sS'peripher'
+p195
+I1
+sS'insert'
+p196
+I1
+sS'intel'
+p197
+I1
+sS'personal digital assist'
+p198
+I1
+sS'of instrumentation cod'
+p199
+I1
+sS'programmable gate array'
+p200
+I1
+sS'instruction cod'
+p201
+I1
+sS'compil'
+p202
+I8
+sS'writer guarantees data independ'
+p203
+I1
+sS'unconditional control transf'
+p204
+I1
+sS'slowdown'
+p205
+I1
+sS'flush'
+p206
+I1
+sS'instruction schedul'
+p207
+I1
+sS'librari'
+p208
+I2
+sS'binary cod'
+p209
+I5
+sS'network'
+p210
+I2
+sS'dynamic random access'
+p211
+I2
+sS'agp bu'
+p212
+I1
+sS'execution count'
+p213
+I1
+sS'increment instruct'
+p214
+I1
+sS'the instrumentation cod'
+p215
+I6
+sS'schedule instrument'
+p216
+I1
+sS'semiconductor'
+p217
+I1
+sS'routines of'
+p218
+I1
+sS'digital assist'
+p219
+I1
+sS'exit'
+p220
+I5
+sS'virtual machin'
+p221
+I2
+sS'of avoiding overwriting of the eflags regist'
+p222
+I3
+sS'unoptimized instruction cod'
+p223
+I1
+sS'conditional control transf'
+p224
+I2
+sS'machin'
+p225
+I5
+sS'run'
+p226
+I4
+sS'advanc'
+p227
+I1
+sS'eeprom'
+p228
+I1
+sS'bu'
+p229
+I9
+sS'host'
+p230
+I1
+sS'microcontrol'
+p231
+I1
+sS'magneto-optical disk'
+p232
+I1
+sS'of avoiding overwriting of th'
+p233
+I1
+sS'including instruct'
+p234
+I3
+sS'card'
+p235
+I1
+sS'optimal location for the instrument'
+p236
+I3
+sS'spill'
+p237
+I1
+sS'of'
+p238
+I1
+sS'program for the instrumentation cod'
+p239
+I4
+sS'original program'
+p240
+I1
+sS'optimized location for the instrument'
+p241
+I1
+sS'transfer'
+p242
+I12
+sS'of the eflags regist'
+p243
+I1
+sS'os'
+p244
+I1
+sS'processor'
+p245
+I8
+sS'road'
+p246
+I1
+sS'softwar'
+p247
+I8
+sS'tool writer guarante'
+p248
+I1
+sS'pga'
+p249
+I1
+sS'cellular phon'
+p250
+I1
+sS'instrumented binary cod'
+p251
+I1
+sS'independ'
+p252
+I15
+sS'instrumentation tool'
+p253
+I11
+sS'code vers'
+p254
+I1
+sS'instrumentation engin'
+p255
+I3
+sS'instruct'
+p256
+I41
+sS'inlined body of th'
+p257
+I1
+sS'opportun'
+p258
+I1
+sS'array'
+p259
+I1
+sS'program for the instrument'
+p260
+I2
+sS'unknown'
+p261
+I1
+sS'tool writ'
+p262
+I5
+sS'graphics port'
+p263
+I1
+sS'optical disk'
+p264
+I1
+sS'includ'
+p265
+I1
+sS'automatic approach'
+p266
+I1
+sS'target cod'
+p267
+I2
+sS'store'
+p268
+I1
+sS'static tool'
+p269
+I1
+sS'network port'
+p270
+I1
+sS'instruction of the cod'
+p271
+I1
+sS'side-exit'
+p272
+I1
+sS'x86 instruct'
+p273
+I1
+sS'tool'
+p274
+I18
+sS'original cod'
+p275
+I5
+sS'indirect jump target'
+p276
+I1
+sS'trace exit'
+p277
+I3
+sS'link'
+p278
+I2
+sS'gain'
+p279
+I1
+sS'inlin'
+p280
+I4
+sS'instrumented version of the code seg'
+p281
+I1
+sS'count'
+p282
+I1
+sS'move instruct'
+p283
+I1
+sS'target'
+p284
+I10
+sS'binary image h'
+p285
+I1
+sS'code discoveri'
+p286
+I1
+sS'hub link'
+p287
+I1
+sS'instrumented code seg'
+p288
+I6
+sS'instrumented code vers'
+p289
+I1
+sS'evalu'
+p290
+I2
+sS'instrumented version of'
+p291
+I1
+sS'disk rewrit'
+p292
+I1
+sS'ram'
+p293
+I3
+sS'argument'
+p294
+I2
+sS'processor pipelin'
+p295
+I3
+sS'increment'
+p296
+I1
+sS'software develop'
+p297
+I2
+sS'conditional cod'
+p298
+I1
+sS'optimized location for the instrumentation cod'
+p299
+I1
+sS'engin'
+p300
+I3
+sS'pushf instruct'
+p301
+I1
+sS'target address'
+p302
+I1
+sS'program analysis task'
+p303
+I1
+sS'straight-line cod'
+p304
+I1
+sS'branch'
+p305
+I2
+sS'instrumented version of th'
+p306
+I1
+sS'avoiding overwriting of the eflags regist'
+p307
+I1
+sS'architectur'
+p308
+I4
+sS'original instruct'
+p309
+I1
+sS'pipelin'
+p310
+I3
+sS'trace'
+p311
+I3
+sS'eflags regist'
+p312
+I26
+sS'having instruct'
+p313
+I2
+sS'random access'
+p314
+I1
+sS'code regist'
+p315
+I9
+sS'segment'
+p316
+I26
+sS'conditional flag'
+p317
+I1
+sS'cd-rom'
+p318
+I1
+sS'instrumented version of the cod'
+p319
+I1
+sS'floppy disk'
+p320
+I2
+sS'face'
+p321
+I1
+sS'software development cycl'
+p322
+I1
+sS'version of the code seg'
+p323
+I1
+sS'program for'
+p324
+I2
+sS'gate array'
+p325
+I1
+sS'degrad'
+p326
+I2
+sS'target trac'
+p327
+I3
+sS'agp'
+p328
+I2
+stp329
+Rp330
+tp331
+.

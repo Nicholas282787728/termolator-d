@@ -1,0 +1,2480 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'culture insert'
+p7
+I1
+sS'aca cta agg cca act cag'
+p8
+I1
+sS'constitutive overexpression of'
+p9
+I1
+sS'capacities for'
+p10
+I1
+sS'concentrations of indomethacin'
+p11
+I1
+sS'correl'
+p12
+I1
+sS'grade methanol'
+p13
+I1
+sS'dish'
+p14
+I1
+sS'cells overexpressing ido'
+p15
+I1
+sS'gm'
+p16
+I1
+sS'primer'
+p17
+I3
+sS'hplc column'
+p18
+I1
+sS'profil'
+p19
+I1
+sS'wild type raw cel'
+p20
+I1
+sS'differentiated cel'
+p21
+I1
+sS'of a concentration curv'
+p22
+I2
+sS'laminin'
+p23
+I1
+sS'cox protein express'
+p24
+I2
+sS'eco ri cloning sit'
+p25
+I1
+sS'prostaglandin'
+p26
+I2
+sS'mediators including ifn-\xce\xb3'
+p27
+I1
+sS'ido-antisens'
+p28
+I1
+sS'program'
+p29
+I2
+sS'ido inhibit'
+p30
+I1
+sS'ifn-\xce\xb3 induction of report'
+p31
+I1
+sS'ido cdna'
+p32
+I4
+sS'sens'
+p33
+I8
+sS'tc'
+p34
+I1
+sS'cdna'
+p35
+I4
+sS'fetal loss'
+p36
+I1
+sS'cell lysi'
+p37
+I1
+sS'ido express'
+p38
+I33
+sS'assay'
+p39
+I4
+sS'neuronal cel'
+p40
+I1
+sS'sense-transfected aggreg'
+p41
+I1
+sS'heme'
+p42
+I2
+sS'pge rel'
+p43
+I1
+sS'extracellular bacteria'
+p44
+I1
+sS'ido promot'
+p45
+I2
+sS'transfected p19 clon'
+p46
+I1
+sS'induct'
+p47
+I2
+sS'amplification conditions for'
+p48
+I1
+sS'tryptophan depriv'
+p49
+I1
+sS'lps exposur'
+p50
+I1
+sS'antisense ido rna'
+p51
+I1
+sS'of ido-expressing raw cel'
+p52
+I1
+sS'immunoregul'
+p53
+I1
+sS'of mmp act'
+p54
+I1
+sS'murine macrophage cell line raw'
+p55
+I1
+sS'of the extracellular matrix'
+p56
+I4
+sS'ido-transfected raw'
+p57
+I3
+sS'proximal inducer of'
+p58
+I1
+sS'matric'
+p59
+I1
+sS'agg cca act cag'
+p60
+I1
+sS'non-hepatic tissu'
+p61
+I1
+sS'collagenas'
+p62
+I2
+sS'antisense express'
+p63
+I3
+sS'speci'
+p64
+I1
+sS'sub-cultur'
+p65
+I1
+sS'ifn-\xce\xb3 induct'
+p66
+I1
+sS'cox protein'
+p67
+I2
+sS'inhibition of t cell prolifer'
+p68
+I1
+sS'aggreg'
+p69
+I25
+sS'discussion tryptophan catabol'
+p70
+I1
+sS'tdo'
+p71
+I5
+sS'acid'
+p72
+I12
+sS'tel-test'
+p73
+I1
+sS'bacteria'
+p74
+I1
+sS'gene express'
+p75
+I2
+sS'intracellular environ'
+p76
+I1
+sS'antisense transfect'
+p77
+I1
+sS'prostaglandin production prostaglandin'
+p78
+I1
+sS'vector-only transfected raw cel'
+p79
+I2
+sS'concentration curv'
+p80
+I2
+sS'homeostasi'
+p81
+I1
+sS'of reporter gene express'
+p82
+I1
+sS'cell'
+p83
+I73
+sS'abbrevi'
+p84
+I1
+sS'of mmp express'
+p85
+I1
+sS'antisense clon'
+p86
+I1
+sS'arachidonic acid'
+p87
+I2
+sS'kb ido pcr frag'
+p88
+I1
+sS'gapdh'
+p89
+I1
+sS'cell migration assay'
+p90
+I1
+sS'murine mhc class ii'
+p91
+I1
+sS'inhibitor of ido'
+p92
+I1
+sS'cardiac muscl'
+p93
+I1
+sS'of ido express'
+p94
+I1
+sS'murine ido cdna'
+p95
+I1
+sS'coincid'
+p96
+I2
+sS'c2 produced aggreg'
+p97
+I1
+sS'ido induc'
+p98
+I1
+sS'ido-expressing mc57 cel'
+p99
+I1
+sS'rejection of allogen'
+p100
+I1
+sS'sense prim'
+p101
+I2
+sS'induction of reporter gene express'
+p102
+I1
+sS'cell macroscopic foci'
+p103
+I1
+sS'pharmacological inhibitor of'
+p104
+I1
+sS'maternal rejection of'
+p105
+I1
+sS'similar effects of pg'
+p106
+I1
+sS'normal growth'
+p107
+I5
+sS'cancer pati'
+p108
+I1
+sS'i-bgl ii'
+p109
+I1
+sS'tag cgg'
+p110
+I1
+sS'gene'
+p111
+I5
+sS'growth of macroscopic foci'
+p112
+I3
+sS'kb ido'
+p113
+I2
+sS'interferon'
+p114
+I1
+sS'\xce\xbcg of cel'
+p115
+I1
+sS'hepatic enzyme tdo'
+p116
+I1
+sS'murine embryonic carcinoma cel'
+p117
+I1
+sS'macrophage-induced inhibition of t cell prolifer'
+p118
+I1
+sS'transcription factor mep-1'
+p119
+I1
+sS'ctttctctgcggccattctg'
+p120
+I1
+sS'myoglobin'
+p121
+I1
+sS'mmp gene'
+p122
+I1
+sS'dna'
+p123
+I2
+sS'growth of raw cell macroscopic foci'
+p124
+I1
+sS'of hem'
+p125
+I1
+sS'sodium deoxychol'
+p126
+I1
+sS'monocytic cell line p388'
+p127
+I1
+sS'including ifn-\xce\xb3'
+p128
+I1
+sS'catabol'
+p129
+I2
+sS'inflammatory mediators includ'
+p130
+I1
+sS'gene expression correl'
+p131
+I1
+sS'tag cgg ccg'
+p132
+I1
+sS'antisense prim'
+p133
+I1
+sS'reattach'
+p134
+I2
+sS'capacities for ido express'
+p135
+I1
+sS'cca act cag'
+p136
+I1
+sS'tag cgg ccg cgt aga cag caa'
+p137
+I1
+sS'meltri n-\xce\xb2'
+p138
+I1
+sS'of pg d'
+p139
+I2
+sS'tryptophan catabolit'
+p140
+I1
+sS'ido gene expression correl'
+p141
+I1
+sS'ido-expressing raw cel'
+p142
+I8
+sS'gradient of acetonitril'
+p143
+I1
+sS'tryptophan catabol'
+p144
+I2
+sS'growth of raw cel'
+p145
+I1
+sS'ii'
+p146
+I6
+sS'mg'
+p147
+I1
+sS'maternal rejection of allogen'
+p148
+I1
+sS'puzzl'
+p149
+I1
+sS'mc'
+p150
+I1
+sS'ml'
+p151
+I2
+sS'of murine ido cdna'
+p152
+I1
+sS'focu'
+p153
+I3
+sS'foci'
+p154
+I14
+sS'ido-expressing mc57'
+p155
+I1
+sS'inhibitor'
+p156
+I1
+sS'cag'
+p157
+I1
+sS'necrosis factor-\xce\xb1'
+p158
+I1
+sS'macroscopic foci'
+p159
+I8
+sS'indole r'
+p160
+I1
+sS'clone c2 produc'
+p161
+I1
+sS'chlamydia speci'
+p162
+I1
+sS'trypan blue exclus'
+p163
+I1
+sS'class ii'
+p164
+I2
+sS'tag'
+p165
+I1
+sS'taa'
+p166
+I1
+sS'fetal defens'
+p167
+I1
+sS'antisense inhibition of ido'
+p168
+I1
+sS'serum'
+p169
+I2
+sS'kynurenin'
+p170
+I1
+sS'porous tissue culture insert'
+p171
+I1
+sS'differenti'
+p172
+I2
+sS'critical rol'
+p173
+I1
+sS'murine tumor'
+p174
+I1
+sS'catabolite of ido'
+p175
+I1
+sS'adherent cel'
+p176
+I1
+sS'methanol'
+p177
+I1
+sS'ido antisense express'
+p178
+I2
+sS'interferon-\xce\xb3'
+p179
+I1
+sS'prostaglandin tdo'
+p180
+I1
+sS'tryptophan 2 , 3 dioxygenas'
+p181
+I1
+sS'fragment of murine ido cdna'
+p182
+I1
+sS'cytomegalovirus cox'
+p183
+I1
+sS'clone'
+p184
+I16
+sS'concentrations of'
+p185
+I2
+sS'cox-1'
+p186
+I4
+sS'cox-2'
+p187
+I16
+sS'spot'
+p188
+I1
+sS'prostaglandin production prostaglandin synthesi'
+p189
+I1
+sS'overexpress'
+p190
+I1
+sS'chromatogram'
+p191
+I1
+sS'cell aggreg'
+p192
+I2
+sS'adhesion of ido-expressing raw'
+p193
+I1
+sS'coat'
+p194
+I1
+sS'mmp express'
+p195
+I8
+sS', 3 dioxygenas'
+p196
+I2
+sS'of th'
+p197
+I1
+sS'ido overexpress'
+p198
+I2
+sS'environ'
+p199
+I3
+sS'ido axpress'
+p200
+I1
+sS'exclus'
+p201
+I1
+sS'ido-express'
+p202
+I8
+sS'inhibition of mmp express'
+p203
+I1
+sS'antisense inhibit'
+p204
+I1
+sS'sd'
+p205
+I1
+sS'pharmacological inhibition of ido'
+p206
+I1
+sS'transfected p19 cel'
+p207
+I1
+sS'fetus'
+p208
+I1
+sS'undergoing aggreg'
+p209
+I1
+sS'wound heal'
+p210
+I1
+sS'murine embryonic carcinoma cell line p19'
+p211
+I1
+sS'ml pmsf'
+p212
+I1
+sS'macrophage-induced inhibit'
+p213
+I1
+sS'sense transfected p19 cel'
+p214
+I1
+sS'amino acid'
+p215
+I2
+sS'craniofaci'
+p216
+I1
+sS'cells overexpress'
+p217
+I1
+sS'serum tryptophan homeostasi'
+p218
+I1
+sS'pg synthesi'
+p219
+I4
+sS'cell line hek'
+p220
+I1
+sS'pcr'
+p221
+I1
+sS'over-expressing ido'
+p222
+I1
+sS'of indomethacin'
+p223
+I1
+sS'amino acid tryptophan'
+p224
+I2
+sS'raw cell clon'
+p225
+I2
+sS'lp'
+p226
+I8
+sS'metalloproteinas'
+p227
+I1
+sS'cell migr'
+p228
+I1
+sS'dmso'
+p229
+I5
+sS'of pg '
+p230
+I2
+sS'alter'
+p231
+I3
+sS'mc57 cells expressed cox-2'
+p232
+I1
+sS'count'
+p233
+I1
+sS'similar effects of pg '
+p234
+I1
+sS'fragment'
+p235
+I2
+sS'transfectants over-expressing ido'
+p236
+I1
+sS'pharmacological inhibition of mmp'
+p237
+I1
+sS'taa gat'
+p238
+I1
+sS'extracellular environ'
+p239
+I2
+sS'compound'
+p240
+I1
+sS'evolutionarily primitive enzym'
+p241
+I1
+sS'p19'
+p242
+I6
+sS'discuss'
+p243
+I1
+sS'introduct'
+p244
+I1
+sS'migration assay'
+p245
+I1
+sS'ancestor'
+p246
+I1
+sS'kpskkkptdgdkseepsnvesrgtggtnpmtelrsvkdttek'
+p247
+I1
+sS'gene frag'
+p248
+I1
+sS'tumor develop'
+p249
+I1
+sS'pcr fragment'
+p250
+I1
+sS'essential ca'
+p251
+I1
+sS'non-spherical aggreg'
+p252
+I1
+sS'mrna'
+p253
+I4
+sS'macrophage-induced inhibition of t'
+p254
+I1
+sS'evolutionary ancestor'
+p255
+I1
+sS'ctgctgctcctgttgctgct'
+p256
+I1
+sS'bgl'
+p257
+I3
+sS'multicellular foci'
+p258
+I2
+sS'pcdna-3 mammalian expression vector'
+p259
+I1
+sS'resuspend'
+p260
+I1
+sS'p388'
+p261
+I2
+sS'fibronectin'
+p262
+I1
+sS'lipofectamin'
+p263
+I1
+sS'matrix metalloproteinas'
+p264
+I1
+sS'p19 clone'
+p265
+I1
+sS'orient'
+p266
+I3
+sS'ido transcript'
+p267
+I1
+sS'rt-pcr fragment of'
+p268
+I1
+sS'matrix'
+p269
+I6
+sS'ccatagtctggttaacatca'
+p270
+I1
+sS'gradient'
+p271
+I1
+sS'phenotypic alter'
+p272
+I1
+sS'mhc class ii'
+p273
+I2
+sS'vector copi'
+p274
+I1
+sS'cac tc'
+p275
+I1
+sS'gattgtgaactatactcct'
+p276
+I1
+sS'constitutively overexpressed ido'
+p277
+I1
+sS'ra'
+p278
+I1
+sS'rel'
+p279
+I1
+sS'clone e6'
+p280
+I1
+sS'ido-induced alter'
+p281
+I1
+sS'defens'
+p282
+I1
+sS'pg profil'
+p283
+I1
+sS'linear'
+p284
+I1
+sS'eco'
+p285
+I1
+sS'dissoci'
+p286
+I1
+sS'ecl'
+p287
+I1
+sS'mmp'
+p288
+I12
+sS'tryptophan deplet'
+p289
+I4
+sS'ido gene frag'
+p290
+I1
+sS'beckman phenomenix c18'
+p291
+I1
+sS'e6'
+p292
+I1
+sS'taa gat ctt aca cta agg cca'
+p293
+I1
+sS'inhibition of ido express'
+p294
+I1
+sS'\xce\xbcg'
+p295
+I1
+sS'ttcagtttacacatcagac'
+p296
+I1
+sS'inhibitor of cox-1'
+p297
+I1
+sS'\xce\xbcm'
+p298
+I2
+sS'\xce\xbcl'
+p299
+I2
+sS'pmsf'
+p300
+I1
+sS'of cox-1'
+p301
+I1
+sS'tryptophan-reversible inhibit'
+p302
+I1
+sS'collagenase iv'
+p303
+I1
+sS'caa tgg cac tc'
+p304
+I1
+sS'stimulatory co-factor for'
+p305
+I1
+sS'pge'
+p306
+I1
+sS'rt-pcr'
+p307
+I2
+sS'kidney cell line hek'
+p308
+I1
+sS'inter-cellular adhes'
+p309
+I1
+sS'collagen'
+p310
+I2
+sS'vitro'
+p311
+I8
+sS'macrophage-induced inhibition of t cel'
+p312
+I1
+sS'wash'
+p313
+I1
+sS'suspens'
+p314
+I4
+sS'stimulatory co-factor for cox'
+p315
+I1
+sS'supernat'
+p316
+I1
+sS'antisense-transfected aggreg'
+p317
+I2
+sS'ring'
+p318
+I1
+sS'pharmacologic inhibitor of ido'
+p319
+I1
+sS'murine mhc class'
+p320
+I1
+sS'ido antisense transfect'
+p321
+I1
+sS'interact'
+p322
+I2
+sS'of allogen'
+p323
+I1
+sS'capac'
+p324
+I1
+sS'messag'
+p325
+I1
+sS'rt-pcr analysis of gen'
+p326
+I1
+sS'mc57 cells express'
+p327
+I1
+sS'principal components of the extracellular matrix'
+p328
+I1
+sS'of raw cell macroscopic foci'
+p329
+I1
+sS'tag cgg ccg cgt'
+p330
+I1
+sS'pathogen'
+p331
+I2
+sS'adhes'
+p332
+I18
+sS'phenotype manifest'
+p333
+I1
+sS'p19 cell'
+p334
+I7
+sS'of ido'
+p335
+I3
+sS'sense orient'
+p336
+I1
+sS'copi'
+p337
+I1
+sS'ido sense transfected p19'
+p338
+I1
+sS'taa gat ctt aca'
+p339
+I1
+sS'serotonin'
+p340
+I2
+sS'cell line p19'
+p341
+I1
+sS'tissu'
+p342
+I2
+sS'induc'
+p343
+I2
+sS'apoptosi'
+p344
+I1
+sS'monolay'
+p345
+I1
+sS'cells undergoing aggreg'
+p346
+I1
+sS'exposur'
+p347
+I1
+sS'b'
+p348
+I1
+sS'bgl ii'
+p349
+I3
+sS'rt-pcr analysis of'
+p350
+I1
+sS'cadherin molecul'
+p351
+I1
+sS'calf serum'
+p352
+I1
+sS'plasmid'
+p353
+I1
+sS'growth of'
+p354
+I5
+sS'minut'
+p355
+I1
+sS'reporter gene express'
+p356
+I1
+sS'mmp expression coincid'
+p357
+I1
+sS'vector'
+p358
+I6
+sS'the extracellular matrix'
+p359
+I2
+sS'pgem t-easi'
+p360
+I2
+sS'protein express'
+p361
+I2
+sS'ido pcr frag'
+p362
+I1
+sS'spectrum'
+p363
+I1
+sS'ido-transfected raw cell clon'
+p364
+I1
+sS'raw'
+p365
+I5
+sS'rt-pcr fragment of the ido gen'
+p366
+I1
+sS'ribonuclease free dnase rq1'
+p367
+I1
+sS'cell line raw'
+p368
+I1
+sS'matrigel co'
+p369
+I1
+sS'matrilysin'
+p370
+I1
+sS'murine fetus'
+p371
+I1
+sS'factor-\xce\xb1'
+p372
+I1
+sS'agaros'
+p373
+I2
+sS'min'
+p374
+I1
+sS'n-\xce\xb2'
+p375
+I1
+sS'murine monocytic cel'
+p376
+I1
+sS'amplification conditions for ido'
+p377
+I1
+sS'acid tryptophan'
+p378
+I2
+sS'of t cell prolifer'
+p379
+I1
+sS'blue exclus'
+p380
+I1
+sS'donor'
+p381
+I1
+sS'pcdna-3 mammalian express'
+p382
+I1
+sS'microenviron'
+p383
+I1
+sS'accttggaagaaccaaatc'
+p384
+I1
+sS'cellular microenviron'
+p385
+I1
+sS'egta'
+p386
+I3
+sS'kb ido pcr'
+p387
+I1
+sS'proximal inducer of ido'
+p388
+I1
+sS'ido antisense transfected p19'
+p389
+I1
+sS'monolayer adherent cel'
+p390
+I1
+sS'sense transfect'
+p391
+I3
+sS'electropor'
+p392
+I2
+sS'polyclonal ido-specific antibodi'
+p393
+I1
+sS'prolifer'
+p394
+I2
+sS'prostaglandin synthesi'
+p395
+I4
+sS'transcript'
+p396
+I3
+sS'meltrin-\xce\xb2'
+p397
+I1
+sS'synthesi'
+p398
+I8
+sS'inhibition of mmp act'
+p399
+I1
+sS'ido-expressing cel'
+p400
+I2
+sS'ido amplif'
+p401
+I1
+sS'oxide donor'
+p402
+I1
+sS'ido-expressing clon'
+p403
+I5
+sS't-tailed clon'
+p404
+I1
+sS'tryptophan-reversible inhibition of'
+p405
+I1
+sS'taa gat ctt aca cta agg cca act'
+p406
+I1
+sS'ifn-\xce\xb3 induction of reporter gen'
+p407
+I1
+sS'checks of'
+p408
+I1
+sS'semi-quantitative rt-pcr'
+p409
+I1
+sS'bp fragment of murine ido cdna'
+p410
+I1
+sS'dissociation of hem'
+p411
+I1
+sS'antisense inhibition of'
+p412
+I1
+sS'aggtcacattgccgaacct'
+p413
+I1
+sS'discussion tryptophan'
+p414
+I1
+sS'gatgtacccagtctacaggt'
+p415
+I1
+sS'relative levels of'
+p416
+I1
+sS'pharmacological inhibit'
+p417
+I2
+sS'pdoi vector'
+p418
+I1
+sS'individual p19'
+p419
+I1
+sS'metallothionein gen'
+p420
+I1
+sS'tryptophan'
+p421
+I13
+sS'of a concentr'
+p422
+I1
+sS'b streptococci'
+p423
+I2
+sS'ido-expressing raw clon'
+p424
+I1
+sS'proximal inducer of ido act'
+p425
+I1
+sS'tgg cac tc'
+p426
+I1
+sS'\xce\xbcg of'
+p427
+I1
+sS'of cell protein'
+p428
+I1
+sS'tag cgg ccg cgt aga cag caa tgg cac tc'
+p429
+I1
+sS'primitive enzym'
+p430
+I1
+sS'activ'
+p431
+I7
+sS'anti-inflammatory drug pg'
+p432
+I1
+sS'growth of raw'
+p433
+I1
+sS'kb ido cdna'
+p434
+I1
+sS'deoxychol'
+p435
+I1
+sS'myocyt'
+p436
+I1
+sS'ido-expressing raw'
+p437
+I9
+sS'raw cel'
+p438
+I16
+sS'cells undergo'
+p439
+I1
+sS'monocyte derived macrophag'
+p440
+I1
+sS'expression coincid'
+p441
+I2
+sS'adhesion of ido-express'
+p442
+I1
+sS'cell line p388'
+p443
+I1
+sS'hplc grade methanol'
+p444
+I1
+sS'express'
+p445
+I59
+sS'mci arachidonic acid'
+p446
+I1
+sS'gibco-brl'
+p447
+I1
+sS'raw cell macroscopic foci'
+p448
+I1
+sS'ifn-\xce\xb3 induction of'
+p449
+I1
+sS'matrigel'
+p450
+I3
+sS'multicellular aggreg'
+p451
+I4
+sS'ido gene express'
+p452
+I1
+sS'taa gat ctt aca cta agg cca act cag'
+p453
+I1
+sS'cyclooxygenase ido'
+p454
+I1
+sS'expression correl'
+p455
+I1
+sS'log phase growth'
+p456
+I1
+sS'antisense transfected p19 clon'
+p457
+I1
+sS'expression vector'
+p458
+I2
+sS'ido mrna'
+p459
+I1
+sS'inducer of'
+p460
+I1
+sS'for ido express'
+p461
+I1
+sS'mediat'
+p462
+I1
+sS'free dnase rq1'
+p463
+I1
+sS'inducer of ido act'
+p464
+I1
+sS'hplc'
+p465
+I2
+sS'tag cgg ccg cgt aga cag'
+p466
+I1
+sS'induced alter'
+p467
+I1
+sS'adhesion of'
+p468
+I1
+sS'tryptophan depleting clon'
+p469
+I1
+sS'porous tissu'
+p470
+I1
+sS'hepatic tissu'
+p471
+I1
+sS'complement activ'
+p472
+I1
+sS'pbs wash'
+p473
+I1
+sS'ri cloning sit'
+p474
+I1
+sS'ido overexpressing clon'
+p475
+I1
+sS'capacities for ido'
+p476
+I1
+sS'mc57 cell'
+p477
+I5
+sS'tissue culture insert'
+p478
+I1
+sS'ether extract'
+p479
+I1
+sS'promega'
+p480
+I4
+sS'principal components of th'
+p481
+I1
+sS'checks of g418'
+p482
+I1
+sS'protein turnov'
+p483
+I1
+sS'mammalian expression vector'
+p484
+I1
+sS'concentr'
+p485
+I9
+sS'catabolite of'
+p486
+I1
+sS'amplif'
+p487
+I2
+sS'bp fragment of'
+p488
+I1
+sS'embryonic carcinoma cell line p19'
+p489
+I1
+sS'lipopolysaccharid'
+p490
+I1
+sS'bp fragment of murine ido'
+p491
+I1
+sS'cox express'
+p492
+I1
+sS'of pg'
+p493
+I3
+sS'stromelysin-1'
+p494
+I1
+sS'stromelysin-3'
+p495
+I1
+sS'ido-transfected raw cel'
+p496
+I3
+sS'retinoic acid'
+p497
+I1
+sS'cox'
+p498
+I7
+sS'dnase rq1'
+p499
+I1
+sS'sodium'
+p500
+I1
+sS'ido sense transfected p19 cel'
+p501
+I1
+sS'drug'
+p502
+I1
+sS'of g418'
+p503
+I1
+sS'antisense ido'
+p504
+I1
+sS'syngeneic murine fetus'
+p505
+I1
+sS'tryptophan 2 ,'
+p506
+I1
+sS'mrna induct'
+p507
+I1
+sS'cancer'
+p508
+I1
+sS'antisense aggreg'
+p509
+I1
+sS'of tryptophan'
+p510
+I1
+sS'macrophage cell line raw'
+p511
+I1
+sS'inducer of cox-2'
+p512
+I1
+sS'carcinoma cell line p19'
+p513
+I1
+sS'ido antisense transfected p19 clon'
+p514
+I1
+sS'cell clon'
+p515
+I2
+sS'rt-pcr fragment of the ido'
+p516
+I1
+sS'rt-pcr fragment of th'
+p517
+I1
+sS'turnov'
+p518
+I1
+sS'ifn-\xce\xb3'
+p519
+I4
+sS'anti-inflammatory drug'
+p520
+I1
+sS'vector pgem t-easi'
+p521
+I1
+sS'tgtcttgtctcatcattact'
+p522
+I1
+sS'ingestion of'
+p523
+I1
+sS'ido antisens'
+p524
+I2
+sS'pb'
+p525
+I3
+sS'produced aggreg'
+p526
+I1
+sS'pg'
+p527
+I16
+sS'ido stimulatori'
+p528
+I1
+sS'diverse collect'
+p529
+I1
+sS'growth of extracellular bacteria'
+p530
+I1
+sS'tumor necrosi'
+p531
+I1
+sS'chlamydia'
+p532
+I2
+sS'reaction'
+p533
+I2
+sS'fetal calf serum'
+p534
+I1
+sS'infect'
+p535
+I1
+sS'expressed cox-2'
+p536
+I1
+sS't cell prolifer'
+p537
+I1
+sS'gtatggagcgacgtcact'
+p538
+I1
+sS'tag cgg ccg cgt aga cag caa tgg cac'
+p539
+I1
+sS'ido-a'
+p540
+I1
+sS'c2'
+p541
+I2
+sS'murine mhc'
+p542
+I1
+sS'novel'
+p543
+I1
+sS'non-steroidal anti-inflammatory drug pg'
+p544
+I1
+sS'ido-antisense express'
+p545
+I1
+sS'overexpression of ido'
+p546
+I1
+sS'toxoplasma'
+p547
+I2
+sS'maternal reject'
+p548
+I1
+sS'pg e'
+p549
+I10
+sS'pg d'
+p550
+I1
+sS'for cox'
+p551
+I1
+sS'dioxygenas'
+p552
+I2
+sS'concentrations of egta'
+p553
+I1
+sS'antisense-transfected clon'
+p554
+I1
+sS'of extracellular bacteria'
+p555
+I1
+sS'murine monocytic cell line p388'
+p556
+I1
+sS'tryptophan-reversible inhibition of mmp express'
+p557
+I1
+sS'extra-cellular matrix'
+p558
+I1
+sS'meltrin-\xce\xb1'
+p559
+I1
+sS'of acetonitril'
+p560
+I1
+sS'porous tissue cultur'
+p561
+I1
+sS'beckman'
+p562
+I1
+sS'cell growth'
+p563
+I1
+sS'cultur'
+p564
+I7
+sS'site'
+p565
+I1
+sS'motil'
+p566
+I1
+sS'iv'
+p567
+I1
+sS'tumorigenesi'
+p568
+I2
+sS'picolinic acid'
+p569
+I3
+sS'ido-transfect'
+p570
+I3
+sS'antisense inhibition of ido express'
+p571
+I1
+sS'cgt aga cag caa tgg cac tc'
+p572
+I1
+sS'protein'
+p573
+I10
+sS'ml reaction'
+p574
+I1
+sS'transfected raw cel'
+p575
+I2
+sS'taa gat ctt aca cta'
+p576
+I1
+sS'develop'
+p577
+I1
+sS'axpress'
+p578
+I1
+sS'cag caa tgg cac tc'
+p579
+I1
+sS'stable transfect'
+p580
+I1
+sS'relative levels of pg'
+p581
+I1
+sS'reverse transcript'
+p582
+I1
+sS'mature differentiated cel'
+p583
+I1
+sS'embryonic kidney cel'
+p584
+I1
+sS'essential amino acid'
+p585
+I4
+sS'eco ri'
+p586
+I1
+sS'bacterial petri dish'
+p587
+I1
+sS'd-tryptophan'
+p588
+I1
+sS'breakdown'
+p589
+I1
+sS'nih'
+p590
+I1
+sS'scintillation count'
+p591
+I1
+sS'tgcatcagtggtcagcctca'
+p592
+I1
+sS'ccg cgt aga cag caa tgg cac tc'
+p593
+I1
+sS'lysis buff'
+p594
+I1
+sS'ido sense transfect'
+p595
+I1
+sS'cytokin'
+p596
+I2
+sS'nitric oxid'
+p597
+I1
+sS'streptococci'
+p598
+I1
+sS'taa gat ctt'
+p599
+I1
+sS'minute assay'
+p600
+I1
+sS'focus growth'
+p601
+I1
+sS'pharmacologic inhibitor'
+p602
+I1
+sS'individual p19 aggreg'
+p603
+I1
+sS'absence of g418'
+p604
+I1
+sS'extracellular matrix'
+p605
+I5
+sS'gatgacagggaagctgga'
+p606
+I1
+sS'mhc class'
+p607
+I1
+sS'constitutive overexpress'
+p608
+I1
+sS'adhesion of ido-expressing raw cel'
+p609
+I1
+sS'deplet'
+p610
+I4
+sS'epididymi'
+p611
+I2
+sS'non-attached suspension cultur'
+p612
+I1
+sS'cdna pcr'
+p613
+I1
+sS'macrophage-induced inhibition of'
+p614
+I1
+sS'ido-expressing raw cell clon'
+p615
+I1
+sS'of the ido gen'
+p616
+I1
+sS'g418'
+p617
+I1
+sS'chromatographi'
+p618
+I1
+sS'ifn-\xce\xb3 induction of reporter gene express'
+p619
+I1
+sS'hybrid'
+p620
+I1
+sS'cgctccagagtgctggca'
+p621
+I1
+sS'inflammatory mediators including ifn-\xce\xb3'
+p622
+I1
+sS'dissociation of'
+p623
+I1
+sS'vector-only transfected raw'
+p624
+I2
+sS'co-factor for cox'
+p625
+I1
+sS'drug pg'
+p626
+I1
+sS'depriv'
+p627
+I1
+sS'p19 aggreg'
+p628
+I1
+sS'acetic acid'
+p629
+I1
+sS'treatment'
+p630
+I2
+sS'l-tryptophan'
+p631
+I1
+sS'ido-specific antibodi'
+p632
+I1
+sS'ca'
+p633
+I1
+sS'pharmacological inhibition of mmp act'
+p634
+I1
+sS'cox act'
+p635
+I3
+sS'insert'
+p636
+I1
+sS'rna'
+p637
+I10
+sS'molecul'
+p638
+I1
+sS'catabolit'
+p639
+I2
+sS'biological phenomena'
+p640
+I1
+sS'ingestion of tryptophan'
+p641
+I1
+sS'cloning sit'
+p642
+I1
+sS'neuronal differenti'
+p643
+I1
+sS't-tailed cloning vector pgem'
+p644
+I1
+sS'stat-60'
+p645
+I1
+sS'placenta'
+p646
+I1
+sS'loss'
+p647
+I1
+sS'phenotyp'
+p648
+I9
+sS'necrotic cel'
+p649
+I1
+sS'taa gat ctt aca cta agg'
+p650
+I1
+sS'overexpressing clon'
+p651
+I1
+sS'ctt aca cta agg cca act cag'
+p652
+I1
+sS'mhc'
+p653
+I1
+sS'ido sense prim'
+p654
+I1
+sS'manifest'
+p655
+I1
+sS'ccatccacagtcttctg'
+p656
+I1
+sS'collect'
+p657
+I2
+sS'picolinic acid-induced apoptosi'
+p658
+I1
+sS'of p19 cel'
+p659
+I2
+sS'tumor necrosis factor-\xce\xb1'
+p660
+I1
+sS'mep-1'
+p661
+I2
+sS'wild type raw'
+p662
+I1
+sS'ido rna'
+p663
+I1
+sS'hplc supernat'
+p664
+I1
+sS'tag cgg ccg cgt aga cag caa tgg'
+p665
+I1
+sS'ido induct'
+p666
+I1
+sS'for ido amplif'
+p667
+I2
+sS'enzyme tdo'
+p668
+I1
+sS'ido gen'
+p669
+I3
+sS'phenomena'
+p670
+I1
+sS'muscl'
+p671
+I1
+sS'lipopolysaccharide mmp'
+p672
+I1
+sS'growth'
+p673
+I15
+sS'cellular defens'
+p674
+I1
+sS'acetonitril'
+p675
+I1
+sS'macrophag'
+p676
+I1
+sS'raw clon'
+p677
+I1
+sS'overexpressed ido'
+p678
+I1
+sS'derived macrophag'
+p679
+I1
+sS'of egta'
+p680
+I1
+sS'pharmacological inhibitor of cox-1'
+p681
+I1
+sS'inhibit'
+p682
+I1
+sS'buffer'
+p683
+I1
+sS'pcdna3 expression vector'
+p684
+I1
+sS'overexpressing ido'
+p685
+I2
+sS'bp fragment'
+p686
+I1
+sS'principal components of'
+p687
+I1
+sS'cox-2 rna'
+p688
+I2
+sS'patient'
+p689
+I1
+sS'antisense orient'
+p690
+I2
+sS'of macroscopic foci'
+p691
+I3
+sS'rt-pcr fragment'
+p692
+I1
+sS'cell prolifer'
+p693
+I1
+sS'act cag'
+p694
+I1
+sS'cell protein'
+p695
+I1
+sS'stromelysin-2'
+p696
+I1
+sS'non-adherent cel'
+p697
+I1
+sS'culture collect'
+p698
+I2
+sS'promot'
+p699
+I2
+sS'constitutive overexpression of ido'
+p700
+I1
+sS'fragment of the ido gen'
+p701
+I1
+sS'amplification conditions for ido amplif'
+p702
+I1
+sS'skelet'
+p703
+I1
+sS'cellular interact'
+p704
+I1
+sS'tryptophan concentr'
+p705
+I3
+sS'gat ctt aca cta agg cca act cag'
+p706
+I1
+sS'column'
+p707
+I1
+sS'of'
+p708
+I5
+sS'antibodi'
+p709
+I2
+sS'ingest'
+p710
+I1
+sS'pharmacological inhibition of'
+p711
+I2
+sS'tumor'
+p712
+I3
+sS'ido'
+p713
+I110
+sS'cloning vector pgem t-easi'
+p714
+I1
+sS'cox-2 mrna'
+p715
+I2
+sS'ido sens'
+p716
+I2
+sS'mesenchymal cel'
+p717
+I1
+sS'antisens'
+p718
+I4
+sS'allogen'
+p719
+I1
+sS'ml growth'
+p720
+I1
+sS'non-attached suspens'
+p721
+I1
+sS'cta agg cca act cag'
+p722
+I1
+sS'\xce\xbcg of cell protein'
+p723
+I1
+sS'transfect'
+p724
+I8
+sS'tnf-\xce\xb1'
+p725
+I1
+sS'antisense-expressing aggreg'
+p726
+I2
+sS'gradient of'
+p727
+I1
+sS'mmp-1'
+p728
+I2
+sS'tryptophan homeostasi'
+p729
+I1
+sS'mmp-3'
+p730
+I1
+sS'mmp-7'
+p731
+I1
+sS'mmp-9'
+p732
+I1
+sS'depleting clon'
+p733
+I1
+sS'ido transfect'
+p734
+I1
+sS'clone c2'
+p735
+I3
+sS'ethyl acet'
+p736
+I2
+sS'tag cgg ccg cgt aga'
+p737
+I1
+sS'hplc grade'
+p738
+I1
+sS'adher'
+p739
+I1
+sS'hek'
+p740
+I2
+sS'beckman phenomenix'
+p741
+I1
+sS'total rna'
+p742
+I3
+sS'embryonic kidney'
+p743
+I1
+sS'heal'
+p744
+I1
+sS'of gene express'
+p745
+I2
+sS'novel myoglobin'
+p746
+I1
+sS'nitric oxide donor'
+p747
+I1
+sS'cell adhes'
+p748
+I15
+sS'lps treatment'
+p749
+I2
+sS'cell foci'
+p750
+I1
+sS'quinolinic acid'
+p751
+I2
+sS'of antisense-transfected aggreg'
+p752
+I3
+sS'intracellular pathogen'
+p753
+I2
+sS'culture tryptophan'
+p754
+I1
+sS'cell motil'
+p755
+I1
+sS'c-terminal peptid'
+p756
+I1
+sS'clone c2 produced aggreg'
+p757
+I1
+sS'vivo'
+p758
+I3
+sS'proximal induc'
+p759
+I1
+sS'absenc'
+p760
+I4
+sS'acid-induced apoptosi'
+p761
+I1
+sS'np40'
+p762
+I1
+sS't-tailed cloning vector pgem t-easi'
+p763
+I1
+sS'cells expressed cox-2'
+p764
+I1
+sS'rna stat-60'
+p765
+I1
+sS'curv'
+p766
+I1
+sS'ido induced alter'
+p767
+I1
+sS'mmp activ'
+p768
+I2
+sS'inflammatory medi'
+p769
+I2
+sS'tryptophan-reversible inhibition of mmp'
+p770
+I1
+sS'non-steroidal anti-inflammatory drug'
+p771
+I2
+sS'the ido gen'
+p772
+I1
+sS'ido act'
+p773
+I1
+sS'of ido act'
+p774
+I1
+sS'pharmacological inhibitor'
+p775
+I1
+sS't-tailed cloning vector'
+p776
+I1
+sS'invitrogen'
+p777
+I1
+sS'elastase gen'
+p778
+I1
+sS'absence of'
+p779
+I1
+sS'pcdna3 express'
+p780
+I1
+sS'check'
+p781
+I1
+sS'acet'
+p782
+I2
+sS'nj'
+p783
+I1
+sS'nm'
+p784
+I2
+sS'of p19'
+p785
+I1
+sS'extract'
+p786
+I1
+sS'tgcagtggcaaagtggag'
+p787
+I1
+sS'individual spot'
+p788
+I1
+sS'bca assay'
+p789
+I1
+sS'suspension cultur'
+p790
+I5
+sS'embryonic kidney cell line hek'
+p791
+I1
+sS'extra-cellular matric'
+p792
+I1
+sS'role'
+p793
+I1
+sS'plasmid dna'
+p794
+I1
+sS'mc57'
+p795
+I5
+sS'polyacrylamid'
+p796
+I1
+sS'cell lysis buff'
+p797
+I1
+sS'cgg ccg cgt aga cag caa tgg cac tc'
+p798
+I1
+sS'mc57 murine fibrosarcoma cel'
+p799
+I1
+sS't-easi'
+p800
+I2
+sS'similar effects of'
+p801
+I1
+sS'gel'
+p802
+I1
+sS'pharmacologic inhibitor of'
+p803
+I1
+sS'stimulatory co-factor'
+p804
+I1
+sS'actgcgaagatccactga'
+p805
+I1
+sS'rt-pcr analysis of gene express'
+p806
+I1
+sS'of cox-2'
+p807
+I1
+sS'murine macrophage cel'
+p808
+I1
+sS'essential amino acid tryptophan'
+p809
+I2
+sS'rq1'
+p810
+I1
+sS'peak'
+p811
+I1
+sS'inflamm'
+p812
+I2
+sS'endotoxin toler'
+p813
+I1
+sS'enzym'
+p814
+I2
+sS'synthase-expressing cel'
+p815
+I1
+sS'aga cag caa tgg cac tc'
+p816
+I1
+sS'peptid'
+p817
+I1
+sS'petri dish'
+p818
+I1
+sS'synthas'
+p819
+I1
+sS'sigma'
+p820
+I1
+sS'confirm'
+p821
+I1
+sS'bca'
+p822
+I1
+sS'indomethacin'
+p823
+I2
+sS'cox inhibitor'
+p824
+I1
+sS'endogenousido express'
+p825
+I1
+sS'growth of raw cell macroscop'
+p826
+I1
+sS'rarest essential amino acid'
+p827
+I2
+stp828
+Rp829
+tp830
+.

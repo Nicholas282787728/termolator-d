@@ -1,0 +1,1202 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'recipi'
+p7
+I6
+sS'hoechst'
+p8
+I3
+sS'phosphorylations of map'
+p9
+I1
+sS'remodel'
+p10
+I2
+sS'of donor cel'
+p11
+I4
+sS'centrifug'
+p12
+I1
+sS'amphotericin'
+p13
+I1
+sS'cell cycle analysis of'
+p14
+I2
+sS'supplement'
+p15
+I5
+sS'adult pig'
+p16
+I1
+sS'skin'
+p17
+I1
+sS'maturation stages of the recipient oocyt'
+p18
+I1
+sS'facstartplus analyz'
+p19
+I1
+sS'sioux biochem'
+p20
+I2
+sS'of bovine embryo'
+p21
+I1
+sS'tr'
+p22
+I1
+sS'gibco brl'
+p23
+I1
+sS'cell cycle of the donor'
+p24
+I2
+sS'analyz'
+p25
+I1
+sS'mpf'
+p26
+I12
+sS'fusion chamber slid'
+p27
+I1
+sS'cytoplasmic compet'
+p28
+I1
+sS'cell cycle analysis of donor'
+p29
+I2
+sS'bovine embryo'
+p30
+I1
+sS'fluid'
+p31
+I1
+sS'mous'
+p32
+I1
+sS'blastocyst stag'
+p33
+I5
+sS'activation puls'
+p34
+I1
+sS'prepuls'
+p35
+I1
+sS'rnase'
+p36
+I1
+sS'reconstruct'
+p37
+I2
+sS'original size of'
+p38
+I1
+sS'student t-test'
+p39
+I1
+sS'micromanipul'
+p40
+I1
+sS'gibco'
+p41
+I1
+sS'nuclear membran'
+p42
+I1
+sS'dna synthesi'
+p43
+I2
+sS'blastocyst'
+p44
+I9
+sS'statist'
+p45
+I1
+sS'plasma membrane of'
+p46
+I1
+sS'maturation stages of th'
+p47
+I1
+sS'\xce\xbcl of propidium iodid'
+p48
+I1
+sS'speci'
+p49
+I1
+sS'nuclear envelop'
+p50
+I1
+sS'kinas'
+p51
+I6
+sS'bovin'
+p52
+I1
+sS'pre-requisit'
+p53
+I1
+sS'cell cycle analysis of donor cel'
+p54
+I2
+sS'ivm system for porcine oocyt'
+p55
+I1
+sS'\xce\xbcl of hepes-buffered tcm-199'
+p56
+I1
+sS'nuclear'
+p57
+I1
+sS'pipet'
+p58
+I1
+sS'cell'
+p59
+I40
+sS'preactivated oocyt'
+p60
+I1
+sS'progress'
+p61
+I1
+sS'experi'
+p62
+I4
+sS'oocyt'
+p63
+I51
+sS'outcom'
+p64
+I1
+sS'cell cycle stages of ear fibroblast'
+p65
+I1
+sS'hepes-buffered tcm-199'
+p66
+I1
+sS'pronuclear develop'
+p67
+I1
+sS'reprogramming of gene express'
+p68
+I1
+sS'porcine oocyt'
+p69
+I2
+sS'aspir'
+p70
+I1
+sS'fusion puls'
+p71
+I2
+sS'tetraploid embryo'
+p72
+I1
+sS'cycl'
+p73
+I1
+sS'somatic cell nuclei'
+p74
+I4
+sS'ethanol'
+p75
+I1
+sS'cycle stag'
+p76
+I3
+sS'embryonic genom'
+p77
+I1
+sS'maturation stages of recipient oocyt'
+p78
+I2
+sS'dnase-free rnas'
+p79
+I1
+sS'activation of donor cel'
+p80
+I2
+sS'embryonic nuclei'
+p81
+I1
+sS'improv'
+p82
+I1
+sS'non-treat'
+p83
+I1
+sS'cycle of the donor cel'
+p84
+I2
+sS'activ'
+p85
+I17
+sS'ca'
+p86
+I1
+sS'cell cycle of the donor cel'
+p87
+I2
+sS'pronuclear exchang'
+p88
+I1
+sS'of embryonic nuclei'
+p89
+I1
+sS'brl'
+p90
+I1
+sS'square root transform'
+p91
+I1
+sS'of map kinas'
+p92
+I1
+sS'tr tech'
+p93
+I1
+sS'maturation stage of the recipient oocyt'
+p94
+I3
+sS'microtubule polymerization inhibitor'
+p95
+I1
+sS'cell cycl'
+p96
+I9
+sS'dna'
+p97
+I2
+sS'subcultur'
+p98
+I1
+sS'reprogramming ev'
+p99
+I1
+sS'microfilament polymerization inhibitor'
+p100
+I1
+sS'cell cycle synchronization of embryonic nuclei'
+p101
+I1
+sS'mpf activ'
+p102
+I6
+sS'developmental potenti'
+p103
+I1
+sS'the embryonic genom'
+p104
+I1
+sS'ivm'
+p105
+I7
+sS'nuclear transf'
+p106
+I7
+sS'original cell cycl'
+p107
+I1
+sS'stage'
+p108
+I10
+sS'synchronization of embryonic nuclei'
+p109
+I1
+sS'donor nucleu'
+p110
+I3
+sS'biowhittak'
+p111
+I1
+sS'cycle analysis of donor cel'
+p112
+I2
+sS'\xce\xbcl of hepes-buffered tcm-199 suppl'
+p113
+I1
+sS'vitro develop'
+p114
+I1
+sS'pff'
+p115
+I2
+sS'fetal calf serum'
+p116
+I1
+sS'optimal conditions for activ'
+p117
+I1
+sS'donor cel'
+p118
+I13
+sS'tetraploid'
+p119
+I1
+sS'adult'
+p120
+I2
+sS'examin'
+p121
+I1
+sS'\xce\xbcl of dnase-free rnas'
+p122
+I1
+sS'donor nuclei'
+p123
+I7
+sS'cover slip'
+p124
+I1
+sS'replic'
+p125
+I2
+sS'tokyo'
+p126
+I1
+sS'mm'
+p127
+I2
+sS'ml'
+p128
+I2
+sS'prepar'
+p129
+I1
+sS'reprogramming of gen'
+p130
+I1
+sS'mi'
+p131
+I1
+sS'chromosome condens'
+p132
+I1
+sS'plasma membran'
+p133
+I1
+sS'compart'
+p134
+I1
+sS'cystein'
+p135
+I1
+sS'hepes-buffered tcm-199 suppl'
+p136
+I1
+sS'behavior'
+p137
+I1
+sS'maturation stage of th'
+p138
+I3
+sS'inhibitor'
+p139
+I2
+sS'iodid'
+p140
+I1
+sS'fetal fibroblast'
+p141
+I2
+sS'ivm media'
+p142
+I1
+sS'activation of bovine embryo'
+p143
+I1
+sS'membrane fus'
+p144
+I1
+sS'donor cell perpendicular'
+p145
+I1
+sS'membrane of nocodazole-treated cel'
+p146
+I1
+sS'nuclear membrane of'
+p147
+I1
+sS'donor cells porcin'
+p148
+I1
+sS'slip'
+p149
+I1
+sS'porcine tetraploid embryo'
+p150
+I1
+sS'ia'
+p151
+I1
+sS'protein'
+p152
+I2
+sS'reprogram'
+p153
+I11
+sS'serum'
+p154
+I2
+sS'nocodazole-treated donor cel'
+p155
+I1
+sS'tcm-199'
+p156
+I1
+sS'blastomer'
+p157
+I1
+sS'the donor cel'
+p158
+I3
+sS'epidermal growth'
+p159
+I1
+sS'media'
+p160
+I1
+sS'activation of th'
+p161
+I1
+sS'cell cycle stag'
+p162
+I4
+sS'cell cycle of th'
+p163
+I2
+sS'maturation medium suppl'
+p164
+I1
+sS'phosphorylations of map kinas'
+p165
+I1
+sS'developmental stag'
+p166
+I2
+sS'cytometri'
+p167
+I4
+sS'cytoplasmic compart'
+p168
+I1
+sS'breakdown'
+p169
+I1
+sS'map'
+p170
+I3
+sS'nuclear membrane of th'
+p171
+I1
+sS'cloning outcom'
+p172
+I1
+sS'of recipient oocyt'
+p173
+I2
+sS'optim'
+p174
+I1
+sS'recipient zygot'
+p175
+I1
+sS'swell'
+p176
+I6
+sS'activation of donor'
+p177
+I2
+sS'of preactivated recipient oocyt'
+p178
+I2
+sS'propidium iodid'
+p179
+I1
+sS'stages of ear fibroblast'
+p180
+I1
+sS'the recipient oocyt'
+p181
+I4
+sS'reprogramming of donor nuclei'
+p182
+I2
+sS'fc'
+p183
+I4
+sS'student'
+p184
+I1
+sS'develop'
+p185
+I3
+sS'meiotic cell cycl'
+p186
+I1
+sS'embryo reconstruct'
+p187
+I1
+sS'recipient cytoplasm'
+p188
+I1
+sS'tcm-199 supplement'
+p189
+I1
+sS'sioux'
+p190
+I2
+sS'mitogen-activated protein'
+p191
+I1
+sS'nuclear membrane of the donor cel'
+p192
+I1
+sS'transfer of somatic cel'
+p193
+I1
+sS'walkersvil'
+p194
+I1
+sS'nocodazole-treated cel'
+p195
+I15
+sS'enucleated oocyt'
+p196
+I1
+sS'genome activation of bovine embryo'
+p197
+I1
+sS'original size of donor cell nuclei'
+p198
+I1
+sS'of ear fibroblast'
+p199
+I1
+sS'somatic nuclei'
+p200
+I1
+sS'adult somat'
+p201
+I2
+sS'oocyte matur'
+p202
+I1
+sS'recipient oocyt'
+p203
+I14
+sS'polish'
+p204
+I1
+sS'activation of the embryonic genom'
+p205
+I1
+sS'lf'
+p206
+I1
+sS'complex'
+p207
+I1
+sS'anova'
+p208
+I1
+sS'nuclear remodel'
+p209
+I2
+sS'follicular fluid'
+p210
+I1
+sS'\xce\xbcl of dnase-fre'
+p211
+I1
+sS'treatment'
+p212
+I1
+sS'ear fibroblast'
+p213
+I1
+sS'original size of donor cel'
+p214
+I1
+sS'chromatin'
+p215
+I3
+sS'anim'
+p216
+I1
+sS'of the embryonic genom'
+p217
+I1
+sS'activation of'
+p218
+I3
+sS'adult somatic cel'
+p219
+I1
+sS'cell-oocyte complex'
+p220
+I1
+sS'microtubule behavior'
+p221
+I1
+sS'glycerol'
+p222
+I1
+sS'meiotic progress'
+p223
+I1
+sS'map kinas'
+p224
+I3
+sS'fusion'
+p225
+I10
+sS'sorbitol'
+p226
+I1
+sS'of donor cell nuclei'
+p227
+I4
+sS'nuclear swel'
+p228
+I6
+sS'mmhg'
+p229
+I1
+sS'stage of the recipient oocyt'
+p230
+I3
+sS'mi oocyt'
+p231
+I1
+sS'of propidium iodid'
+p232
+I1
+sS'absolute ethanol'
+p233
+I1
+sS'slide'
+p234
+I1
+sS'mhz'
+p235
+I1
+sS'cell cycle synchron'
+p236
+I1
+sS'cell perpendicular'
+p237
+I1
+sS'genom'
+p238
+I1
+sS'ml streptomycin'
+p239
+I1
+sS'stages of the recipient oocyt'
+p240
+I1
+sS'cloned embryo'
+p241
+I3
+sS'for porcine oocyt'
+p242
+I2
+sS'reconstructed embryos experi'
+p243
+I1
+sS'one-way'
+p244
+I1
+sS'growth'
+p245
+I1
+sS'embryonic genome activ'
+p246
+I1
+sS'embryonic genome activation of bovine embryo'
+p247
+I1
+sS'stages of recipient oocyt'
+p248
+I2
+sS'membrane reform'
+p249
+I1
+sS'porcine embryo'
+p250
+I2
+sS'optimal conditions for'
+p251
+I1
+sS'constitut'
+p252
+I1
+sS'event'
+p253
+I1
+sS'parthenogenetic activ'
+p254
+I2
+sS'meiotic cel'
+p255
+I1
+sS'of nocodazole-treated cel'
+p256
+I1
+sS'mm cystein'
+p257
+I1
+sS'alcohol'
+p258
+I1
+sS'confirm'
+p259
+I1
+sS'aspirated oocyt'
+p260
+I1
+sS'nocodazole treat'
+p261
+I1
+sS'arcsin square root'
+p262
+I1
+sS'phosphoryl'
+p263
+I1
+sS'vortex'
+p264
+I1
+sS'reconstructed embryo'
+p265
+I1
+sS'plasma membrane of nocodazole-treated cel'
+p266
+I1
+sS'bovine somatic cel'
+p267
+I2
+sS'cell cycle synchronization of'
+p268
+I1
+sS'membrane of the donor cel'
+p269
+I1
+sS'tech'
+p270
+I1
+sS'machin'
+p271
+I1
+sS'protein kinas'
+p272
+I1
+sS'nuclear reprogram'
+p273
+I4
+sS'embryo develop'
+p274
+I1
+sS'manipul'
+p275
+I2
+sS'maturation stage of'
+p276
+I3
+sS'perpendicular'
+p277
+I1
+sS'vitro matur'
+p278
+I1
+sS'reprogramming of'
+p279
+I3
+sS'of the recipient oocyt'
+p280
+I4
+sS'zimmermann'
+p281
+I2
+sS'porcine fibroblast'
+p282
+I1
+sS'of hepes-buffered tcm-199 suppl'
+p283
+I1
+sS'confluenc'
+p284
+I3
+sS'streptomycin'
+p285
+I1
+sS'porcin'
+p286
+I1
+sS'root transform'
+p287
+I1
+sS'cell cycle stages of'
+p288
+I1
+sS'of'
+p289
+I1
+sS'enucl'
+p290
+I4
+sS'\xce\xbcm'
+p291
+I1
+sS'\xce\xbcl'
+p292
+I6
+sS'chromosome constitut'
+p293
+I1
+sS'osmolar'
+p294
+I1
+sS'\xce\xbcl of'
+p295
+I3
+sS'cycle stages of ear fibroblast'
+p296
+I1
+sS'trypsin'
+p297
+I1
+sS't-test'
+p298
+I1
+sS'cloned anim'
+p299
+I1
+sS'embryo'
+p300
+I10
+sS'exchang'
+p301
+I1
+sS'zimmermann fus'
+p302
+I2
+sS'qualiti'
+p303
+I1
+sS'vitro'
+p304
+I1
+sS'protein-fre'
+p305
+I1
+sS'arcsin square root transform'
+p306
+I1
+sS'envelope breakdown'
+p307
+I1
+sS'nocodazol'
+p308
+I1
+sS'ivm system for'
+p309
+I1
+sS'nocodazole-treated donor'
+p310
+I1
+sS'pb'
+p311
+I3
+sS'mouse oocyt'
+p312
+I1
+sS'transfer'
+p313
+I6
+sS'of the donor cel'
+p314
+I3
+sS'transform'
+p315
+I1
+sS'cycle synchronization of embryonic nuclei'
+p316
+I1
+sS'biochem'
+p317
+I2
+sS'ml amphotericin'
+p318
+I1
+sS'blastocyst-derived cel'
+p319
+I1
+sS'embryonic cel'
+p320
+I1
+sS'ear skin'
+p321
+I1
+sS'porcine cloning outcom'
+p322
+I1
+sS'cells porcine fibroblast'
+p323
+I1
+sS'of gene express'
+p324
+I1
+sS'current puls'
+p325
+I2
+sS'ear'
+p326
+I1
+sS'preactivated recipi'
+p327
+I3
+sS'embryonic genome activation of'
+p328
+I1
+sS'cell cycle of'
+p329
+I2
+sS'zygot'
+p330
+I3
+sS'calf serum'
+p331
+I1
+sS'express'
+p332
+I1
+sS'manipulation medium suppl'
+p333
+I1
+sS'non-treated m'
+p334
+I1
+sS'donor cells porcine fibroblast'
+p335
+I1
+sS'chamber slid'
+p336
+I1
+sS'puls'
+p337
+I4
+sS'polyvinyl alcohol'
+p338
+I1
+sS'nuclear membrane of the donor'
+p339
+I1
+sS'of somatic cel'
+p340
+I1
+sS'\xce\xbcsec'
+p341
+I2
+sS'nuclear transfer of'
+p342
+I1
+sS'hyaluronidas'
+p343
+I1
+sS'cytoplasm'
+p344
+I2
+sS'somatic cel'
+p345
+I9
+sS'pig'
+p346
+I1
+sS'cytoplast'
+p347
+I2
+sS'fusion chamb'
+p348
+I1
+sS'cultur'
+p349
+I1
+sS'preactivated recipient oocyt'
+p350
+I3
+sS'pronuclei'
+p351
+I2
+sS'original cel'
+p352
+I1
+sS'protein-free ivm'
+p353
+I1
+sS'probabl'
+p354
+I1
+sS'polymerization inhibitor'
+p355
+I2
+sS'microscopic examin'
+p356
+I1
+sS'enucleated zygot'
+p357
+I1
+sS'min'
+p358
+I3
+sS'phosphorylations of'
+p359
+I1
+sS'donor cell nuclei'
+p360
+I3
+sS'activation of donor cell nuclei'
+p361
+I2
+sS'ny'
+p362
+I1
+sS'chromosom'
+p363
+I2
+sS'compet'
+p364
+I1
+sS'of donor nuclei'
+p365
+I2
+sS'donor'
+p366
+I7
+sS'gene express'
+p367
+I1
+sS'maturation stag'
+p368
+I6
+sS'fusion machin'
+p369
+I1
+sS'matur'
+p370
+I2
+sS'repeat'
+p371
+I1
+sS'cytochalasin b'
+p372
+I3
+sS'potenti'
+p373
+I1
+sS'ml hoechst'
+p374
+I2
+sS'mosm'
+p375
+I1
+sS'edta'
+p376
+I1
+sS'non-treated recipi'
+p377
+I2
+sS'nuclear transfer of somatic cel'
+p378
+I1
+sS'cell nuclei'
+p379
+I7
+sS'peak'
+p380
+I1
+sS'condens'
+p381
+I1
+sS'nuclear envelope breakdown'
+p382
+I1
+sS'dmem'
+p383
+I1
+sS'synthesi'
+p384
+I2
+sS'aliquot'
+p385
+I1
+sS'for activ'
+p386
+I2
+sS'maturation stages of'
+p387
+I3
+sS'preliminary experi'
+p388
+I3
+sS'nucleu'
+p389
+I7
+sS'embryos experi'
+p390
+I1
+sS'reform'
+p391
+I1
+sS'cover'
+p392
+I1
+sS'fibroblast'
+p393
+I5
+sS'somat'
+p394
+I1
+sS'of dnase-free rnas'
+p395
+I1
+sS'amphibian'
+p396
+I1
+sS'original cell cycle stag'
+p397
+I1
+sS'nuclei'
+p398
+I16
+sS'sigma'
+p399
+I10
+sS'genetic reprogram'
+p400
+I1
+sS'fingernail polish'
+p401
+I1
+stp402
+Rp403
+tp404
+.

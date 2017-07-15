@@ -1,0 +1,125 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'recipi'
+p7
+I1
+sS'program'
+p8
+I1
+sS'purchas'
+p9
+I1
+sS'neighborhood'
+p10
+I1
+sS'job skil'
+p11
+I1
+sS'dollar'
+p12
+I1
+sS'public assist'
+p13
+I1
+sS'welfare recipi'
+p14
+I1
+sS'home'
+p15
+I2
+sS'skill'
+p16
+I1
+sS'payoff'
+p17
+I1
+sS'impact'
+p18
+I1
+sS'barrier'
+p19
+I1
+sS'goodwill staff'
+p20
+I2
+sS'divis'
+p21
+I1
+sS'tax dollar'
+p22
+I1
+sS'busi'
+p23
+I1
+sS'peopl'
+p24
+I1
+sS'interview'
+p25
+I1
+sS'industrial divis'
+p26
+I1
+sS'serious dis'
+p27
+I1
+sS'employment barri'
+p28
+I1
+sS'goodwil'
+p29
+I3
+sS'tax'
+p30
+I1
+sS'assist'
+p31
+I1
+sS'job interview'
+p32
+I1
+sS'desktop publish'
+p33
+I1
+sS'job'
+p34
+I3
+sS'card'
+p35
+I2
+sS'desktop publishing train'
+p36
+I1
+sS'welfar'
+p37
+I1
+sS'goodwill program'
+p38
+I1
+sS'standout'
+p39
+I1
+sS'employ'
+p40
+I1
+sS'impact goodwil'
+p41
+I1
+sS'disabl'
+p42
+I1
+stp43
+Rp44
+tp45
+.

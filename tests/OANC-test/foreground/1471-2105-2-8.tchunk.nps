@@ -1,0 +1,1505 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'ungap'
+p7
+I1
+sS'code'
+p8
+I2
+sS'score threshold'
+p9
+I1
+sS'genome annot'
+p10
+I1
+sS'cartilage-hair hypoplasia'
+p11
+I1
+sS'queri'
+p12
+I2
+sS'conserv'
+p13
+I1
+sS'for hmm'
+p14
+I1
+sS'messenger rna'
+p15
+I1
+sS'substitution matrix'
+p16
+I1
+sS'correl'
+p17
+I3
+sS'gc'
+p18
+I11
+sS'genefinder for noncoding rna'
+p19
+I1
+sS'qrna improv'
+p20
+I1
+sS'taccctctcctccattcagtatcgcttcttcggcttattagctaagatcaaagtgtagta'
+p21
+I1
+sS'discoveri'
+p22
+I1
+sS'find'
+p23
+I1
+sS'score thresholds for classif'
+p24
+I1
+sS'ground'
+p25
+I1
+sS'position-independent evolut'
+p26
+I1
+sS'prediction target'
+p27
+I1
+sS'window slid'
+p28
+I1
+sS'oth substitution paramet'
+p29
+I1
+sS'winner'
+p30
+I2
+sS'ungapped seed align'
+p31
+I1
+sS'fruit'
+p32
+I1
+sS'codon bias of th'
+p33
+I1
+sS'stormo'
+p34
+I1
+sS'program'
+p35
+I4
+sS'high-gc genom'
+p36
+I1
+sS'screens for novel ncrna'
+p37
+I1
+sS'divergence-matched emission prob'
+p38
+I1
+sS'silicon'
+p39
+I1
+sS'protein coding gen'
+p40
+I1
+sS'ribosomal rna'
+p41
+I1
+sS'megabase of'
+p42
+I1
+sS'silicon graphics irix platform'
+p43
+I1
+sS'express'
+p44
+I1
+sS'for noncoding rna gen'
+p45
+I1
+sS'probabilities for the oth model'
+p46
+I1
+sS'nonpolyadenylated rna'
+p47
+I1
+sS'nt align'
+p48
+I1
+sS'formalization of comparative analysis idea'
+p49
+I1
+sS'theoretical ground'
+p50
+I1
+sS'recent discoveri'
+p51
+I1
+sS'rna posterior prob'
+p52
+I1
+sS'the input align'
+p53
+I1
+sS'dynamic program'
+p54
+I4
+sS'curated multiple sequence align'
+p55
+I1
+sS'for the rna model'
+p56
+I1
+sS'pairwise alignments for'
+p57
+I2
+sS'attenu'
+p58
+I1
+sS'maximum likelihood location of a predict'
+p59
+I1
+sS'genefinding approach'
+p60
+I1
+sS'alignments for rnasep rna'
+p61
+I1
+sS'gnu general publ'
+p62
+I1
+sS'human genetic disord'
+p63
+I1
+sS'default'
+p64
+I3
+sS'verif'
+p65
+I1
+sS'alignment ident'
+p66
+I1
+sS'ncrna genefinding program'
+p67
+I2
+sS'evolutionary model'
+p68
+I1
+sS'oth substitut'
+p69
+I1
+sS'blosum62 substitution matrix'
+p70
+I1
+sS'coding-region genefind'
+p71
+I1
+sS'speci'
+p72
+I1
+sS'experimental screens for novel'
+p73
+I1
+sS'pair-hmm'
+p74
+I2
+sS'compens'
+p75
+I1
+sS'program for rna structure predict'
+p76
+I1
+sS'the genom'
+p77
+I1
+sS'genefinder for'
+p78
+I1
+sS'identity window'
+p79
+I1
+sS'probabilistic form'
+p80
+I1
+sS'atttttggaacctagggaagactcggggcttgctccgacttcccaagggtcgtcctggcg'
+p81
+I1
+sS'silicon graphics irix'
+p82
+I1
+sS'wublastn'
+p83
+I2
+sS'acid'
+p84
+I4
+sS'in-depth qrna screen of'
+p85
+I1
+sS'new noncoding rna'
+p86
+I1
+sS'divergence-matched transition probability paramet'
+p87
+I1
+sS'calcul'
+p88
+I1
+sS'nucleotide frequ'
+p89
+I1
+sS'rna structure predict'
+p90
+I1
+sS'enough'
+p91
+I1
+sS'of comparative analysis idea'
+p92
+I1
+sS'gc composition of'
+p93
+I1
+sS'spurious artifact'
+p94
+I1
+sS'qrna annot'
+p95
+I2
+sS'new'
+p96
+I1
+sS'bayesian posterior prob'
+p97
+I3
+sS'approach'
+p98
+I6
+sS'novel unstructur'
+p99
+I1
+sS'genefind'
+p100
+I3
+sS'the codon prob'
+p101
+I1
+sS'recessive pleiotropic human genetic disord'
+p102
+I1
+sS'graphics irix platform'
+p103
+I1
+sS'formal languag'
+p104
+I1
+sS'screen'
+p105
+I6
+sS'error'
+p106
+I2
+sS'assumpt'
+p107
+I2
+sS'of a predicted rna'
+p108
+I2
+sS'blastn program'
+p109
+I1
+sS'protein-coding gen'
+p110
+I1
+sS'probability paramet'
+p111
+I4
+sS'target genom'
+p112
+I1
+sS'divergence-matched transition prob'
+p113
+I2
+sS'high-gc'
+p114
+I1
+sS'compensatory mut'
+p115
+I1
+sS'genefinding tool'
+p116
+I2
+sS'box'
+p117
+I1
+sS'parameter estim'
+p118
+I3
+sS'comparative genom'
+p119
+I1
+sS'rna oth'
+p120
+I1
+sS'probabilistic model'
+p121
+I4
+sS'curated rna structural align'
+p122
+I1
+sS'rna-structure-constrain'
+p123
+I1
+sS'blastn'
+p124
+I10
+sS'rna posterior'
+p125
+I2
+sS'pair-grammar'
+p126
+I1
+sS'improv'
+p127
+I1
+sS'implement'
+p128
+I1
+sS'gene'
+p129
+I21
+sS'noncoding sequence of'
+p130
+I1
+sS'markov model'
+p131
+I2
+sS'nucleotide substitut'
+p132
+I1
+sS'systematic rna'
+p133
+I1
+sS'rna gen'
+p134
+I7
+sS'sankoff algorithm'
+p135
+I1
+sS'rnase mrp'
+p136
+I3
+sS'overview'
+p137
+I1
+sS'transit'
+p138
+I7
+sS'negative scor'
+p139
+I1
+sS'bayesian scor'
+p140
+I1
+sS'rna structural align'
+p141
+I1
+sS'systematic rna genefind'
+p142
+I1
+sS'7sl'
+p143
+I1
+sS'genome screen'
+p144
+I4
+sS'orf'
+p145
+I4
+sS'blastn pairwise align'
+p146
+I1
+sS'bias of the genom'
+p147
+I1
+sS'famili'
+p148
+I5
+sS'linux'
+p149
+I1
+sS'gc content align'
+p150
+I1
+sS'algorithm for'
+p151
+I1
+sS'training sets of'
+p152
+I1
+sS'dosage compens'
+p153
+I1
+sS'rnasep rna'
+p154
+I4
+sS'score'
+p155
+I9
+sS'chh'
+p156
+I1
+sS'likelihood'
+p157
+I2
+sS'srp rna'
+p158
+I1
+sS'intergenic sequence fract'
+p159
+I1
+sS'score thresholds for'
+p160
+I1
+sS'predict'
+p161
+I5
+sS'formul'
+p162
+I1
+sS'call'
+p163
+I2
+sS'scfg-related prob'
+p164
+I1
+sS'systematic rna genefinding algorithm'
+p165
+I1
+sS'four-dimensional hypercub'
+p166
+I1
+sS'rnasep rna famili'
+p167
+I1
+sS'blastn-type align'
+p168
+I1
+sS'oth'
+p169
+I17
+sS'numerous small nucleolar rna'
+p170
+I1
+sS'for classif'
+p171
+I1
+sS'pairwise alignments for rnasep rna'
+p172
+I2
+sS'bacterial speci'
+p173
+I1
+sS'context-free grammar'
+p174
+I1
+sS'public licens'
+p175
+I2
+sS'gap'
+p176
+I3
+sS'likelihood location of a predicted rna'
+p177
+I1
+sS'iid'
+p178
+I1
+sS'genscan'
+p179
+I1
+sS'train'
+p180
+I2
+sS'codon-codon emission prob'
+p181
+I1
+sS'protein cod'
+p182
+I1
+sS'stochastic context-free grammar'
+p183
+I1
+sS'2-d phase diagram scor'
+p184
+I1
+sS'pair-scfg'
+p185
+I3
+sS'irix platform'
+p186
+I1
+sS'novel'
+p187
+I1
+sS'maximum likelihood location of a predicted rna'
+p188
+I1
+sS'seed align'
+p189
+I1
+sS'mb'
+p190
+I1
+sS'experimental screens for'
+p191
+I1
+sS'bacterial coding-region identif'
+p192
+I1
+sS'align'
+p193
+I70
+sS'constraint'
+p194
+I1
+sS'annot'
+p195
+I7
+sS'error model'
+p196
+I2
+sS'mfold program for rna structure predict'
+p197
+I1
+sS'haussler'
+p198
+I1
+sS'software implement'
+p199
+I1
+sS'for rnasep rna'
+p200
+I1
+sS'pairwis'
+p201
+I2
+sS'comparative analysis idea'
+p202
+I1
+sS'pair-hmm idea'
+p203
+I1
+sS'nematod'
+p204
+I1
+sS'loop'
+p205
+I2
+sS'curated rna'
+p206
+I1
+sS'cis-regulatory rna'
+p207
+I2
+sS'codon bias of'
+p208
+I1
+sS'blastn primary sequence align'
+p209
+I1
+sS'small nucleolar rna'
+p210
+I1
+sS'loci'
+p211
+I1
+sS'probability calcul'
+p212
+I1
+sS'hypoplasia'
+p213
+I1
+sS'rna-generated align'
+p214
+I1
+sS'nucleotide ident'
+p215
+I2
+sS'protein'
+p216
+I2
+sS'absence of'
+p217
+I1
+sS'for the codon prob'
+p218
+I1
+sS'counterpart'
+p219
+I1
+sS'mutat'
+p220
+I4
+sS'ungapped se'
+p221
+I1
+sS'the rna model'
+p222
+I1
+sS'yeast'
+p223
+I1
+sS'scfg-related probability paramet'
+p224
+I1
+sS'complex'
+p225
+I2
+sS'score evalu'
+p226
+I1
+sS'mfold'
+p227
+I1
+sS'languag'
+p228
+I1
+sS'probabl'
+p229
+I25
+sS'sequenced chh'
+p230
+I1
+sS'primary sequence alignment program'
+p231
+I1
+sS'predicted rna'
+p232
+I2
+sS'percentage ident'
+p233
+I2
+sS'ncrna sequence fract'
+p234
+I1
+sS'mfold program for'
+p235
+I1
+sS'mrp gene'
+p236
+I1
+sS'\xcf\x81-independent termin'
+p237
+I1
+sS'for srp-rna'
+p238
+I1
+sS'phase-transition boundari'
+p239
+I1
+sS'rna structure correl'
+p240
+I1
+sS'negative frequ'
+p241
+I1
+sS'algorithm for the rna model'
+p242
+I1
+sS'repetitive sequence famili'
+p243
+I1
+sS'codon bias of the genom'
+p244
+I1
+sS'nucleotid'
+p245
+I10
+sS'rna annot'
+p246
+I2
+sS'critica'
+p247
+I3
+sS'account'
+p248
+I1
+sS'cutoff'
+p249
+I3
+sS'target mrna'
+p250
+I1
+sS'matrix correspond'
+p251
+I1
+sS'caenorhabd'
+p252
+I1
+sS'silicon graph'
+p253
+I1
+sS'noncoding rna gen'
+p254
+I2
+sS'rna posterior log-odds scor'
+p255
+I1
+sS'the oth model'
+p256
+I1
+sS'pairwise ident'
+p257
+I1
+sS'correspond'
+p258
+I1
+sS'codon-bias model'
+p259
+I1
+sS'experimental verif'
+p260
+I1
+sS'of the input align'
+p261
+I2
+sS'non-rna'
+p262
+I1
+sS'ansi c'
+p263
+I1
+sS'model'
+p264
+I30
+sS'rna classif'
+p265
+I2
+sS'expression array'
+p266
+I1
+sS'mutation probabilities for the oth'
+p267
+I1
+sS'qrna'
+p268
+I42
+sS'fasta fil'
+p269
+I2
+sS'est sequenc'
+p270
+I1
+sS'maizel'
+p271
+I1
+sS'in-depth qrna screen'
+p272
+I1
+sS'algorithm for th'
+p273
+I1
+sS'transition paramet'
+p274
+I2
+sS'approximation for'
+p275
+I1
+sS'coli'
+p276
+I2
+sS'codon bia'
+p277
+I1
+sS'biological rol'
+p278
+I1
+sS'maximum likelihood location of'
+p279
+I1
+sS'paramet'
+p280
+I12
+sS'pseudo-genom'
+p281
+I1
+sS'experimental screen'
+p282
+I1
+sS'coli for novel ncrna'
+p283
+I1
+sS'gap frequ'
+p284
+I1
+sS'for novel ncrna'
+p285
+I2
+sS'genetic disord'
+p286
+I1
+sS'identif'
+p287
+I1
+sS'platform'
+p288
+I1
+sS'window'
+p289
+I2
+sS'log-odds scor'
+p290
+I2
+sS'bayesian approach'
+p291
+I1
+sS'catch-al'
+p292
+I1
+sS'role'
+p293
+I1
+sS'coding annot'
+p294
+I1
+sS'new noncoding rna gen'
+p295
+I1
+sS'mutation probabilities for the oth model'
+p296
+I1
+sS'algorithmic strategi'
+p297
+I1
+sS'qrna cod'
+p298
+I1
+sS'programming algorithm'
+p299
+I1
+sS'candid'
+p300
+I1
+sS'codon'
+p301
+I2
+sS'rna'
+p302
+I84
+sS'loop-length distribut'
+p303
+I1
+sS'for the oth model'
+p304
+I1
+sS'genefinding algorithm'
+p305
+I3
+sS'orf sequence fract'
+p306
+I1
+sS'dissimilar enough'
+p307
+I1
+sS'introduct'
+p308
+I1
+sS'core rna'
+p309
+I1
+sS'gap charact'
+p310
+I2
+sS'grammar'
+p311
+I1
+sS'intel'
+p312
+I1
+sS'\xce\xb3-proteobacteria'
+p313
+I1
+sS'cdna librari'
+p314
+I1
+sS'of pairwise align'
+p315
+I3
+sS'slide'
+p316
+I1
+sS'mrna'
+p317
+I3
+sS'genom'
+p318
+I18
+sS'scfg'
+p319
+I3
+sS'pleiotropic human genetic disord'
+p320
+I1
+sS'substitution paramet'
+p321
+I1
+sS'transition prob'
+p322
+I6
+sS'spurious secondary structure predict'
+p323
+I1
+sS'drosophila'
+p324
+I1
+sS'rnase mrp gen'
+p325
+I1
+sS'dynamic programming rna structure align'
+p326
+I1
+sS'disord'
+p327
+I1
+sS'idea'
+p328
+I4
+sS'percentag'
+p329
+I2
+sS'gc composition of the input align'
+p330
+I1
+sS'rna famili'
+p331
+I1
+sS'gappy align'
+p332
+I1
+sS'codon prob'
+p333
+I3
+sS'maximum likelihood'
+p334
+I5
+sS'librari'
+p335
+I1
+sS'megabase of pairwise align'
+p336
+I1
+sS'exon find'
+p337
+I1
+sS'bime'
+p338
+I1
+sS'est'
+p339
+I1
+sS'synthetic pairwise align'
+p340
+I1
+sS'evid'
+p341
+I3
+sS'mutation probabilities for th'
+p342
+I1
+sS'blastn align'
+p343
+I5
+sS'of the genom'
+p344
+I1
+sS'oth annot'
+p345
+I1
+sS'typhi'
+p346
+I1
+sS'7sl rna'
+p347
+I1
+sS'ncrna gen'
+p348
+I12
+sS'core'
+p349
+I1
+sS'srp-rna'
+p350
+I3
+sS'unstructured ncrna'
+p351
+I1
+sS'ident'
+p352
+I10
+sS'rna structure align'
+p353
+I1
+sS'noncod'
+p354
+I1
+sS'olsen'
+p355
+I1
+sS'ncrna genefinding algorithm'
+p356
+I1
+sS'hypercub'
+p357
+I1
+sS'viterbi for hmm'
+p358
+I1
+sS'blastn queri'
+p359
+I2
+sS'new noncod'
+p360
+I1
+sS'low-gc'
+p361
+I1
+sS'rna evolut'
+p362
+I2
+sS'codon-codon emiss'
+p363
+I1
+sS'frequenc'
+p364
+I6
+sS'whole-genom'
+p365
+I1
+sS'dynamic programming rna'
+p366
+I1
+sS'position-independent primary sequence align'
+p367
+I1
+sS'experimental screens for novel ncrna'
+p368
+I1
+sS'rnas controlling transl'
+p369
+I1
+sS'srp'
+p370
+I1
+sS'comparative exon find'
+p371
+I1
+sS'estim'
+p372
+I2
+sS'in-depth qrna'
+p373
+I1
+sS'hidden markov model'
+p374
+I1
+sS'approxim'
+p375
+I1
+sS'ncrna'
+p376
+I6
+sS'riboregulatory rnas controlling transl'
+p377
+I1
+sS'softwar'
+p378
+I1
+sS'ccgcgcctcgttctcaccgcatcgcttcttcggcttattagctaagatcaaagtgtagta'
+p379
+I1
+sS'amino acid'
+p380
+I4
+sS'rna-gener'
+p381
+I1
+sS'position-independent primary sequence alignment program'
+p382
+I1
+sS'probability of'
+p383
+I1
+sS'default paramet'
+p384
+I3
+sS'genefinder for noncoding rna gen'
+p385
+I2
+sS'independ'
+p386
+I2
+sS'dataset'
+p387
+I2
+sS'qrna coding annot'
+p388
+I1
+sS'programming rna structure align'
+p389
+I1
+sS'array'
+p390
+I1
+sS'genefinding program'
+p391
+I1
+sS'nonconserv'
+p392
+I1
+sS'substitution error'
+p393
+I2
+sS'base-pair frequ'
+p394
+I1
+sS'mutation probabilities for'
+p395
+I1
+sS'absence of experimental evid'
+p396
+I1
+sS'licens'
+p397
+I1
+sS'spurious artifact of'
+p398
+I1
+sS'evolut'
+p399
+I2
+sS'megabas'
+p400
+I2
+sS'mfold program for rna'
+p401
+I1
+sS'transcriptional attenu'
+p402
+I1
+sS'for rna structure predict'
+p403
+I1
+sS'bayesian score evalu'
+p404
+I1
+sS'substitution error model'
+p405
+I2
+sS'cowork'
+p406
+I1
+sS'd box'
+p407
+I1
+sS'divergence-matched transit'
+p408
+I2
+sS'approximation for th'
+p409
+I1
+sS'gnu'
+p410
+I1
+sS'fraction'
+p411
+I9
+sS'conditional prob'
+p412
+I1
+sS'tool'
+p413
+I1
+sS'of experimental evid'
+p414
+I1
+sS'key idea'
+p415
+I1
+sS'substitution matrix correspond'
+p416
+I1
+sS'primary sequence align'
+p417
+I2
+sS'rna genefinding algorithm'
+p418
+I1
+sS'independence assumpt'
+p419
+I2
+sS'translat'
+p420
+I2
+sS'termin'
+p421
+I2
+sS'cyk'
+p422
+I2
+sS'viterbi for'
+p423
+I1
+sS'posterior log-odds scor'
+p424
+I1
+sS'dynamic programming algorithm'
+p425
+I1
+sS'target'
+p426
+I3
+sS'divergence-matched emiss'
+p427
+I1
+sS'alignment program'
+p428
+I2
+sS'pairwise align'
+p429
+I19
+sS'hmm'
+p430
+I2
+sS'charact'
+p431
+I2
+sS'codon-codon prob'
+p432
+I1
+sS'absenc'
+p433
+I1
+sS'algorithm for the rna'
+p434
+I1
+sS'strategi'
+p435
+I1
+sS'similar'
+p436
+I2
+sS'training sets of pairwise align'
+p437
+I1
+sS'classif'
+p438
+I3
+sS'sensitivity decreas'
+p439
+I1
+sS'evalu'
+p440
+I1
+sS'viterbi'
+p441
+I1
+sS'mutation prob'
+p442
+I3
+sS'emission prob'
+p443
+I3
+sS'alignment identity window'
+p444
+I1
+sS'probabilistic formalization of comparative analysis idea'
+p445
+I1
+sS'novel ncrna'
+p446
+I2
+sS'decreas'
+p447
+I1
+sS'file'
+p448
+I3
+sS'nucleolar rna'
+p449
+I2
+sS'gapped align'
+p450
+I1
+sS'protein genefind'
+p451
+I1
+sS'fasta'
+p452
+I1
+sS'mb low-gc'
+p453
+I1
+sS'gc composition of th'
+p454
+I1
+sS'genefinder critica'
+p455
+I1
+sS'evolutionary diverg'
+p456
+I1
+sS'shuffled align'
+p457
+I1
+sS'mfold program'
+p458
+I1
+sS'approximation for the codon prob'
+p459
+I1
+sS'substitution prob'
+p460
+I1
+sS'olsen approach'
+p461
+I1
+sS'nucleotide substitution prob'
+p462
+I1
+sS'rna model'
+p463
+I10
+sS'coding gen'
+p464
+I1
+sS'pairwise sequence align'
+p465
+I3
+sS'account length distribut'
+p466
+I1
+sS'pairwise alignments for srp-rna'
+p467
+I2
+sS'experimental evid'
+p468
+I3
+sS'posterior prob'
+p469
+I4
+sS'multiple sequence align'
+p470
+I1
+sS'nt'
+p471
+I2
+sS'divers'
+p472
+I2
+sS'probabilistic formalization of'
+p473
+I1
+sS'oth model'
+p474
+I6
+sS'distribut'
+p475
+I7
+sS'alignments for srp-rna'
+p476
+I1
+sS'sequenc'
+p477
+I1
+sS'e-valu'
+p478
+I2
+sS'ansi'
+p479
+I1
+sS'evolutionary constraint'
+p480
+I1
+sS'internal loop'
+p481
+I2
+sS'probabilistic counterpart'
+p482
+I1
+sS'rna genefinding approach'
+p483
+I1
+sS'enhanc'
+p484
+I1
+sS'candidate loci'
+p485
+I1
+sS'secondary structure predict'
+p486
+I1
+sS'matrix'
+p487
+I3
+sS'kb'
+p488
+I3
+sS'gene discoveri'
+p489
+I1
+sS'gnu general public licens'
+p490
+I1
+sS'transition probability paramet'
+p491
+I2
+sS'algorithm'
+p492
+I13
+sS'simplif'
+p493
+I1
+sS'mrp'
+p494
+I1
+sS'average-gc'
+p495
+I1
+sS'discrimin'
+p496
+I1
+sS'atttttggaacctaggaaagactcggggcttgctccgactttccaagggtcgtcccggcg'
+p497
+I1
+sS'coding-region identif'
+p498
+I1
+sS'novel unstructured ncrna'
+p499
+I1
+sS'thresholds for classif'
+p500
+I1
+sS'comparative method qrna'
+p501
+I1
+sS'boundari'
+p502
+I1
+stp503
+Rp504
+tp505
+.

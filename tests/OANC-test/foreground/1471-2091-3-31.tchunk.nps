@@ -1,0 +1,2027 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'for iq1'
+p7
+I3
+sS'for iq3'
+p8
+I1
+sS'for iq4'
+p9
+I1
+sS'chain'
+p10
+I3
+sS'total concentration of calmodulin'
+p11
+I1
+sS'centrifug'
+p12
+I3
+sS'concentration of ca'
+p13
+I1
+sS'lys-75'
+p14
+I1
+sS'substantial amounts of'
+p15
+I1
+sS'calmodulin concentr'
+p16
+I6
+sS'neuromodulin iq'
+p17
+I2
+sS'supplement'
+p18
+I1
+sS'alexa-calmodulin for measuring interact'
+p19
+I1
+sS'iq peptide concentr'
+p20
+I1
+sS'for antibody detect'
+p21
+I1
+sS'svedberg equation for'
+p22
+I1
+sS'permit access of iq domain'
+p23
+I1
+sS'of iq'
+p24
+I1
+sS'-n'
+p25
+I1
+sS'tail'
+p26
+I1
+sS'globular protein'
+p27
+I1
+sS'egta gradi'
+p28
+I1
+sS'filtrat'
+p29
+I8
+sS'assay'
+p30
+I6
+sS'stoichiometry of iq1'
+p31
+I1
+sS'kcl'
+p32
+I8
+sS'calmodulin-iq peptide interact'
+p33
+I1
+sS'iq3 <'
+p34
+I1
+sS'bullfrog genom'
+p35
+I1
+sS'affinity of'
+p36
+I6
+sS'rnase'
+p37
+I1
+sS'green-2'
+p38
+I1
+sS'for purif'
+p39
+I1
+sS'neuromodulin iq peptid'
+p40
+I1
+sS'peptide concentr'
+p41
+I2
+sS'labtechnologies fluorostar'
+p42
+I1
+sS'signific'
+p43
+I1
+sS'ligand concentr'
+p44
+I2
+sS'n-terminal hexahistidine tag for'
+p45
+I1
+sS'proline residu'
+p46
+I1
+sS'transduct'
+p47
+I1
+sS'myosin-i isozym'
+p48
+I1
+sS'dlyddddk epitope tag for antibodi'
+p49
+I1
+sS'phenylalanin'
+p50
+I1
+sS'dlyddddk epitope tag'
+p51
+I1
+sS'peptide bound'
+p52
+I1
+sS'speci'
+p53
+I3
+sS'superdex'
+p54
+I1
+sS'classic hydrodynamic methods of'
+p55
+I1
+sS'consequ'
+p56
+I1
+sS'pvp peptid'
+p57
+I1
+sS'aggreg'
+p58
+I2
+sS'sucrose gradi'
+p59
+I3
+sS'substantial amounts of alexa-calmodulin bound'
+p60
+I1
+sS'acid'
+p61
+I9
+sS'elisa'
+p62
+I1
+sS'precipit'
+p63
+I1
+sS'excit'
+p64
+I1
+sS'egta'
+p65
+I18
+sS'dynamics of proximal-tubule cel'
+p66
+I1
+sS'calmodulin standard'
+p67
+I2
+sS'brush-border dynamics of'
+p68
+I1
+sS'optical dens'
+p69
+I1
+sS'affin'
+p70
+I13
+sS'cell'
+p71
+I7
+sS'experiment'
+p72
+I1
+sS'calmodulin for'
+p73
+I3
+sS'alexa-calmodulin bound'
+p74
+I4
+sS'concentration of receptor'
+p75
+I1
+sS'the constituent protein'
+p76
+I1
+sS'protein complex'
+p77
+I1
+sS'coeffici'
+p78
+I11
+sS'individual iq peptid'
+p79
+I2
+sS'velocity-sedimentation experi'
+p80
+I1
+sS'myosin'
+p81
+I5
+sS'transduction channel'
+p82
+I2
+sS'purif'
+p83
+I4
+sS'standard'
+p84
+I4
+sS'c-terminal cystein'
+p85
+I1
+sS'\xce\xbcm pepstatin'
+p86
+I1
+sS'coupling of'
+p87
+I1
+sS'hair cel'
+p88
+I1
+sS'iq3 < iq1'
+p89
+I2
+sS'kahkaatkiqasfrghitrkklkc'
+p90
+I1
+sS'phenyl-agaros'
+p91
+I1
+sS'concentrations of alexa-calmodulin'
+p92
+I1
+sS'filtration experi'
+p93
+I1
+sS'leupeptin'
+p94
+I1
+sS'phosphate-buffered salin'
+p95
+I1
+sS'iq domain for'
+p96
+I1
+sS'ultracentrifug'
+p97
+I1
+sS'peptide-bound alexa-calmodulin'
+p98
+I1
+sS'quantitation standard'
+p99
+I1
+sS'motor'
+p100
+I1
+sS'of the iq consensus motif'
+p101
+I1
+sS'myosin lever arm'
+p102
+I1
+sS'isoform'
+p103
+I1
+sS'non-calmodulin receptor'
+p104
+I1
+sS'implic'
+p105
+I2
+sS'ckrkwavdvvrrfikgfiyrnqpr'
+p106
+I1
+sS'consequences of'
+p107
+I1
+sS'motil'
+p108
+I5
+sS'motile cel'
+p109
+I1
+sS'cacl'
+p110
+I12
+sS'peptides bind'
+p111
+I1
+sS'the energi'
+p112
+I1
+sS'room'
+p113
+I4
+sS'prepar'
+p114
+I1
+sS'work'
+p115
+I2
+sS'of iq domains examin'
+p116
+I1
+sS'tag'
+p117
+I2
+sS'calmodulin affinity for'
+p118
+I1
+sS'cam'
+p119
+I1
+sS'stoichiometric titr'
+p120
+I1
+sS'myosin-calmodulin complex'
+p121
+I1
+sS'scan'
+p122
+I1
+sS'brush-bord'
+p123
+I1
+sS'\xce\xbcm egta'
+p124
+I9
+sS'tag for antibody detect'
+p125
+I1
+sS'unconjugated peptid'
+p126
+I1
+sS'bmg labtechnologies fluorostar'
+p127
+I1
+sS'iq peptide-bound alexa-calmodulin'
+p128
+I1
+sS'iq4 hil'
+p129
+I1
+sS'of motile cel'
+p130
+I1
+sS'motor domain'
+p131
+I1
+sS'empirical observ'
+p132
+I1
+sS'low-temperatur'
+p133
+I1
+sS'amino-acid residu'
+p134
+I1
+sS'of ca'
+p135
+I5
+sS'baculovirus'
+p136
+I2
+sS'neck-tail recombinant frag'
+p137
+I1
+sS'stereocilia'
+p138
+I1
+sS'occup'
+p139
+I1
+sS'bovine calmodulin'
+p140
+I1
+sS'normal ionic strength'
+p141
+I1
+sS'iq domain'
+p142
+I23
+sS'exact repeat'
+p143
+I1
+sS'permit access of'
+p144
+I1
+sS'of iq domains examination of'
+p145
+I1
+sS'concentrations of'
+p146
+I2
+sS'pharmacia biotech'
+p147
+I2
+sS'iq sit'
+p148
+I1
+sS'total ligand concentr'
+p149
+I1
+sS'< iq1'
+p150
+I1
+sS'stabil'
+p151
+I2
+sS'hydrodynamic methods of velocity sediment'
+p152
+I1
+sS'bind'
+p153
+I24
+sS'sw'
+p154
+I1
+sS'affinity of th'
+p155
+I1
+sS'of iq3 for ca'
+p156
+I1
+sS'environ'
+p157
+I2
+sS'baculoviru'
+p158
+I1
+sS'for iq peptid'
+p159
+I1
+sS'cellular ionic strength'
+p160
+I1
+sS'actin-activated atpase act'
+p161
+I1
+sS'stoichiometric titration impract'
+p162
+I1
+sS'lever arm'
+p163
+I1
+sS'total alexa-calmodulin bound'
+p164
+I1
+sS'alexa-calmodulin'
+p165
+I35
+sS'brain'
+p166
+I1
+sS'hydrodynamic properties of'
+p167
+I1
+sS'alexa fluor'
+p168
+I1
+sS'sds-page'
+p169
+I3
+sS'consensu'
+p170
+I3
+sS'lm'
+p171
+I1
+sS'affinity of calmodulin for iq4'
+p172
+I1
+sS'rg of th'
+p173
+I1
+sS'of inner-ear hair cel'
+p174
+I1
+sS'myosin-i\xce\xb2'
+p175
+I1
+sS'iq-peptide concentr'
+p176
+I3
+sS'gel-filtration matrix'
+p177
+I1
+sS'crkhsiatflqarwrgyhqrqkfl'
+p178
+I1
+sS'bind calmodulin'
+p179
+I2
+sS'affinity of the calmodulin for iq3'
+p180
+I1
+sS'calmodulin stoichiometri'
+p181
+I4
+sS'three-dimensional interact'
+p182
+I1
+sS'antibody detect'
+p183
+I1
+sS'fragment'
+p184
+I3
+sS'iq peptid'
+p185
+I22
+sS'moieti'
+p186
+I1
+sS'coupling of th'
+p187
+I1
+sS'chromatographi'
+p188
+I1
+sS'titration impract'
+p189
+I1
+sS'iq consensus motif'
+p190
+I1
+sS'of the constituent protein'
+p191
+I2
+sS'affinity of the calmodulin for'
+p192
+I1
+sS'of peptide bound'
+p193
+I1
+sS'mole of'
+p194
+I4
+sS'sigma-aldrich'
+p195
+I1
+sS'\xce\xbcm calmodulin'
+p196
+I3
+sS'phenylmethylsulfonyl fluorid'
+p197
+I1
+sS'atpase act'
+p198
+I3
+sS'genom'
+p199
+I1
+sS'of iq1'
+p200
+I1
+sS'\xce\xbcm unconjugated iq'
+p201
+I1
+sS'bmg labtechnolog'
+p202
+I1
+sS'domain'
+p203
+I23
+sS'consensus motif'
+p204
+I1
+sS'adjacent calmodulin molecul'
+p205
+I1
+sS'concentrations of sucros'
+p206
+I1
+sS'-tetraacetic acid'
+p207
+I1
+sS'iq-peptid'
+p208
+I3
+sS'molar extinct'
+p209
+I3
+sS'affinity of the calmodulin'
+p210
+I1
+sS'nm alexa fluor'
+p211
+I1
+sS'invitrogen'
+p212
+I1
+sS'energi'
+p213
+I2
+sS'sucros'
+p214
+I2
+sS'extract'
+p215
+I1
+sS'of sucros'
+p216
+I1
+sS'absorpt'
+p217
+I1
+sS'matrix'
+p218
+I1
+sS'gradient'
+p219
+I4
+sS'evidence for ca'
+p220
+I1
+sS'atpase cycl'
+p221
+I1
+sS'calmodulin dissoci'
+p222
+I1
+sS'chain isoform'
+p223
+I1
+sS'of calmodulin bind'
+p224
+I1
+sS'rg'
+p225
+I1
+sS'adapt'
+p226
+I2
+sS'fluoromet'
+p227
+I1
+sS'xenopu'
+p228
+I1
+sS'iq peptide for'
+p229
+I1
+sS'impract'
+p230
+I1
+sS'contributions author'
+p231
+I1
+sS'\xce\xbcm unconjugated iq peptid'
+p232
+I1
+sS'linear'
+p233
+I1
+sS'dissoci'
+p234
+I3
+sS'manipul'
+p235
+I2
+sS'rg of the iq'
+p236
+I1
+sS'negative-control peptid'
+p237
+I1
+sS'of a protein'
+p238
+I2
+sS'brush-border dynam'
+p239
+I1
+sS'fluorescence induc'
+p240
+I1
+sS'releas'
+p241
+I2
+sS'bovine brain'
+p242
+I1
+sS'lysine residu'
+p243
+I1
+sS'peptide for alexa-calmodulin'
+p244
+I1
+sS'detection tag'
+p245
+I1
+sS'\xce\xbcg'
+p246
+I2
+sS'proximal-tubule cel'
+p247
+I1
+sS'\xce\xbcm'
+p248
+I9
+sS'\xce\xbcl'
+p249
+I4
+sS'svedberg equ'
+p250
+I2
+sS'atp'
+p251
+I1
+sS'isoelectric precipit'
+p252
+I1
+sS'strain relief'
+p253
+I1
+sS'interact'
+p254
+I13
+sS'total concentration of'
+p255
+I1
+sS'pgg'
+p256
+I1
+sS'individual iq'
+p257
+I1
+sS'hepes ph'
+p258
+I3
+sS'vitro'
+p259
+I1
+sS'rank'
+p260
+I1
+sS'\xce\xbcm bovine-brain calmodulin'
+p261
+I1
+sS'myosin-1a'
+p262
+I1
+sS'myosin-1c'
+p263
+I2
+sS'mm hepe'
+p264
+I4
+sS'fluorid'
+p265
+I1
+sS'soluble iq peptid'
+p266
+I1
+sS'the myosin lever arm'
+p267
+I1
+sS'consensus bett'
+p268
+I1
+sS'ethanesulfonic acid'
+p269
+I1
+sS'demonstr'
+p270
+I1
+sS'mole of calmodulin'
+p271
+I4
+sS'coomassi'
+p272
+I2
+sS'molecular'
+p273
+I2
+sS'calmodulin bind'
+p274
+I20
+sS'amino-acid composition of th'
+p275
+I1
+sS'for the individual iq peptid'
+p276
+I1
+sS'domain of myosin-1a'
+p277
+I1
+sS'for ca'
+p278
+I2
+sS'physiological signific'
+p279
+I1
+sS'of iq domain'
+p280
+I2
+sS'micromolar k'
+p281
+I1
+sS'titrat'
+p282
+I1
+sS'globular motor domain'
+p283
+I1
+sS'the iq domain'
+p284
+I1
+sS'consensus iq'
+p285
+I1
+sS'gel filtr'
+p286
+I9
+sS'nm alexa'
+p287
+I1
+sS'calmodulin for the iq'
+p288
+I1
+sS'polar environ'
+p289
+I1
+sS'of recombinant protein'
+p290
+I2
+sS'mm kcl'
+p291
+I5
+sS'the iq consensus motif'
+p292
+I1
+sS'adaptation of mechanoelectrical transduct'
+p293
+I1
+sS'peptides conjug'
+p294
+I1
+sS'calmodulin-peptide complex'
+p295
+I1
+sS'molecular prob'
+p296
+I2
+sS'motor protein'
+p297
+I1
+sS'iq3 for calmodulin'
+p298
+I1
+sS'protein express'
+p299
+I1
+sS'n-terminal cysteine residu'
+p300
+I1
+sS'head'
+p301
+I1
+sS'permit access of iq'
+p302
+I1
+sS'gaussian curv'
+p303
+I1
+sS'absence of egta'
+p304
+I1
+sS'molecular size of'
+p305
+I1
+sS'strength'
+p306
+I5
+sS'insect cel'
+p307
+I1
+sS'min'
+p308
+I2
+sS'stoichiometri'
+p309
+I9
+sS'concentration of calmodulin'
+p310
+I4
+sS'channel'
+p311
+I2
+sS'alexa-calmodulin fluorescence induc'
+p312
+I1
+sS'multipli'
+p313
+I1
+sS'cysteine residu'
+p314
+I1
+sS'fluorescence intensity of alexa-calmodulin'
+p315
+I1
+sS'affinity of iq3 for calmodulin'
+p316
+I1
+sS'high-ca'
+p317
+I2
+sS'n-terminal purif'
+p318
+I1
+sS'of the calmodulin for iq3'
+p319
+I1
+sS'alexa-calmodulin interact'
+p320
+I1
+sS'transcript'
+p321
+I1
+sS'class'
+p322
+I2
+sS'fixed concentration of'
+p323
+I1
+sS'analytical ultracentrifug'
+p324
+I1
+sS'mgcl'
+p325
+I5
+sS'kd'
+p326
+I4
+sS'inner-ear hair cel'
+p327
+I1
+sS'iq domain of myosin-1a'
+p328
+I1
+sS'leucin'
+p329
+I1
+sS'sigma'
+p330
+I1
+sS'concentration multipli'
+p331
+I1
+sS'sedimentation coeffici'
+p332
+I7
+sS'mm hepes ph'
+p333
+I3
+sS'chelat'
+p334
+I1
+sS'conventional myosin'
+p335
+I1
+sS'particip'
+p336
+I1
+sS'hydrophobic amino-acid residu'
+p337
+I1
+sS'probe'
+p338
+I2
+sS'lamellopodia dynamics of'
+p339
+I1
+sS'iq domain of'
+p340
+I1
+sS'vitro motil'
+p341
+I2
+sS'aminoacid'
+p342
+I1
+sS'epitope tag'
+p343
+I1
+sS'amersham pharmacia'
+p344
+I2
+sS'amino-acid composition of the constitu'
+p345
+I1
+sS'temperature-dependent loss of calmodulin'
+p346
+I1
+sS'\xce\xbcg of'
+p347
+I2
+sS'activ'
+p348
+I3
+sS'neck-tail'
+p349
+I1
+sS'isotherm'
+p350
+I2
+sS'calmodulin-binding motif'
+p351
+I2
+sS'alexa-calmodulin fluorescence intens'
+p352
+I1
+sS'actin'
+p353
+I1
+sS'bradford protein assay'
+p354
+I1
+sS'gel filtration experi'
+p355
+I1
+sS'mechanoelectrical transduct'
+p356
+I1
+sS'equilibrium'
+p357
+I1
+sS'molecular mass'
+p358
+I6
+sS'contribut'
+p359
+I1
+sS'express'
+p360
+I1
+sS'adjacent iq'
+p361
+I1
+sS'gel-filtration experi'
+p362
+I1
+sS'svldkswpvpppslreasellremc'
+p363
+I1
+sS'lamellopodia dynam'
+p364
+I1
+sS'nm'
+p365
+I16
+sS'affinity for iq1'
+p366
+I1
+sS'sensory cel'
+p367
+I1
+sS'peptide interact'
+p368
+I1
+sS'total iq peptide concentr'
+p369
+I1
+sS'yield'
+p370
+I1
+sS'of receptor'
+p371
+I1
+sS'ionic strength'
+p372
+I5
+sS'contrast'
+p373
+I2
+sS'of proximal-tubule cel'
+p374
+I1
+sS'of protein-protein complex'
+p375
+I2
+sS'sediment'
+p376
+I8
+sS'velocity sedimentation experi'
+p377
+I1
+sS'conform'
+p378
+I7
+sS'fluoresc'
+p379
+I5
+sS'lamellopodia dynamics of motile cel'
+p380
+I1
+sS'calmodulin for iq'
+p381
+I1
+sS'hydrodynamic properties of a protein'
+p382
+I1
+sS'calmodulin for iq4'
+p383
+I1
+sS'protein assay'
+p384
+I1
+sS'chains bind'
+p385
+I1
+sS'disadvantag'
+p386
+I2
+sS'arm'
+p387
+I1
+sS'iq domain for calmodulin'
+p388
+I1
+sS'unreacted sit'
+p389
+I1
+sS'detect'
+p390
+I1
+sS'total iq'
+p391
+I1
+sS'myosin head'
+p392
+I1
+sS'three-dimensional interaction of'
+p393
+I1
+sS'evidence for'
+p394
+I1
+sS'experi'
+p395
+I8
+sS'approach'
+p396
+I3
+sS'amersham pharmacia biotech'
+p397
+I2
+sS'classic approach'
+p398
+I1
+sS'analytical ultracentrifugation experi'
+p399
+I1
+sS'fluorescence-intens'
+p400
+I1
+sS'induc'
+p401
+I1
+sS'cycl'
+p402
+I1
+sS'soluble iq'
+p403
+I1
+sS"' -tetraacetic acid"
+p404
+I1
+sS'calibration protein'
+p405
+I2
+sS'sucrose-gradient centrifug'
+p406
+I1
+sS'n-terminal hexahistidine tag'
+p407
+I1
+sS'reaction'
+p408
+I2
+sS'sf9-cell extract'
+p409
+I1
+sS'recombinant frag'
+p410
+I1
+sS'bullfrog calmodulin'
+p411
+I1
+sS'gel scan'
+p412
+I1
+sS'weak calmodulin bind'
+p413
+I1
+sS'receptor concentr'
+p414
+I1
+sS'context'
+p415
+I1
+sS'maleimide-derivat'
+p416
+I1
+sS'xenopus calmodulin'
+p417
+I2
+sS'isozym'
+p418
+I1
+sS'ca'
+p419
+I59
+sS'chemical energi'
+p420
+I1
+sS'residu'
+p421
+I4
+sS'centrifugation experi'
+p422
+I1
+sS'calmodulin for iq3'
+p423
+I1
+sS'calmodulin for iq1'
+p424
+I2
+sS'the calmodulin for iq3'
+p425
+I1
+sS'rpm'
+p426
+I1
+sS'calmodulin affinity for iq1'
+p427
+I1
+sS'of calmodulin for iq1'
+p428
+I2
+sS'better'
+p429
+I1
+sS'of calmodulin for iq4'
+p430
+I1
+sS'coupl'
+p431
+I1
+sS'interaction of'
+p432
+I1
+sS'pb'
+p433
+I2
+sS'n-terminal hexahistidine tag for purif'
+p434
+I1
+sS'chain bind'
+p435
+I1
+sS'ph'
+p436
+I3
+sS'bimolecular-binding isotherm'
+p437
+I2
+sS'stabilization of the myosin lever arm'
+p438
+I1
+sS'calmodulin molecul'
+p439
+I2
+sS'of iq domains examination of th'
+p440
+I1
+sS'k d'
+p441
+I1
+sS'affinity of calmodulin'
+p442
+I3
+sS'of molecular mass'
+p443
+I2
+sS'photon'
+p444
+I1
+sS'c-terminal tail'
+p445
+I1
+sS'alexa-calmodulin for'
+p446
+I1
+sS'epitope tag for antibody detect'
+p447
+I1
+sS'hepe'
+p448
+I1
+sS'calmodulin supplement'
+p449
+I1
+sS'sedimentation experi'
+p450
+I1
+sS'molar extinction coeffici'
+p451
+I3
+sS'hexahistidine tag for purif'
+p452
+I1
+sS'pel-freez'
+p453
+I1
+sS'dlyddddk'
+p454
+I1
+sS'amersham'
+p455
+I2
+sS'calcium'
+p456
+I1
+sS'iq3 for ca'
+p457
+I1
+sS'cystein'
+p458
+I3
+sS'bovine-brain calmodulin'
+p459
+I2
+sS'amino-acid composition of'
+p460
+I1
+sS'spectrofluorometri'
+p461
+I1
+sS'observ'
+p462
+I1
+sS'biotech'
+p463
+I2
+sS'motif'
+p464
+I6
+sS'iq'
+p465
+I54
+sS'ir'
+p466
+I1
+sS'site'
+p467
+I2
+sS'interaction of calmodulin'
+p468
+I2
+sS'strain'
+p469
+I1
+sS'calmodulin-like protein'
+p470
+I1
+sS'il'
+p471
+I1
+sS'domain for calmodulin'
+p472
+I1
+sS'protein'
+p473
+I19
+sS'\xce\xbcl of th'
+p474
+I1
+sS'iq4 hill coeffici'
+p475
+I1
+sS'author'
+p476
+I1
+sS'f iq'
+p477
+I1
+sS'mole'
+p478
+I6
+sS'alexa-calmodulin fluoresc'
+p479
+I5
+sS'complex'
+p480
+I6
+sS'concentration of'
+p481
+I6
+sS'affinity of calmodulin for iq1'
+p482
+I2
+sS'mi-110k'
+p483
+I1
+sS'iq peptide-bound'
+p484
+I1
+sS'hydrodynam'
+p485
+I1
+sS'consensus sequence iqx'
+p486
+I1
+sS'affinity of iq3'
+p487
+I2
+sS'equat'
+p488
+I1
+sS'nih'
+p489
+I1
+sS'myosin-i'
+p490
+I1
+sS'evid'
+p491
+I1
+sS'absorb'
+p492
+I1
+sS'iq motif'
+p493
+I2
+sS'organel'
+p494
+I1
+sS'of mechanoelectrical transduct'
+p495
+I1
+sS'ion'
+p496
+I1
+sS'\xce\xbcl of'
+p497
+I2
+sS'fluorescence intensity of'
+p498
+I1
+sS'micromolar k d'
+p499
+I1
+sS'adjacent iq domain'
+p500
+I1
+sS'fluorescence intens'
+p501
+I7
+sS'ml cystein'
+p502
+I1
+sS'cteneyfldyirysflmtlyrnqpk'
+p503
+I1
+sS'well'
+p504
+I1
+sS'iq peptides bind'
+p505
+I1
+sS'protein loss'
+p506
+I1
+sS'relief'
+p507
+I1
+sS'stimulu'
+p508
+I2
+sS'calmodulin affin'
+p509
+I1
+sS'lys-94'
+p510
+I1
+sS'temperature-dependent loss of'
+p511
+I1
+sS'for measuring interact'
+p512
+I1
+sS'stoichiometric-titration experi'
+p513
+I1
+sS'the individual iq peptid'
+p514
+I1
+sS'intensity of alexa-calmodulin'
+p515
+I1
+sS'rg of'
+p516
+I1
+sS"n ' -tetraacetic acid"
+p517
+I1
+sS'quantum yield'
+p518
+I1
+sS'internal standard'
+p519
+I1
+sS"n '"
+p520
+I1
+sS'stabilization of'
+p521
+I1
+sS'concentr'
+p522
+I29
+sS'\xce\xbcm peptid'
+p523
+I1
+sS'phospholipid'
+p524
+I1
+sS'calmodulin'
+p525
+I109
+sS'dlyddddk epitope tag for'
+p526
+I1
+sS'three-dimensional interaction of calmodulin'
+p527
+I1
+sS'classic hydrodynamic methods of velocity sediment'
+p528
+I1
+sS'amino-acid composition of the constituent protein'
+p529
+I1
+sS'conjug'
+p530
+I1
+sS'rg of the iq consensus motif'
+p531
+I1
+sS'densiti'
+p532
+I1
+sS'\xce\xbcm free calmodulin'
+p533
+I3
+sS'vertebrate calmodulin'
+p534
+I1
+sS'rg of the iq consensu'
+p535
+I1
+sS'stereocilia of inner-ear hair cel'
+p536
+I1
+sS'affinity of iq3 for'
+p537
+I2
+sS'discrep'
+p538
+I1
+sS'molecul'
+p539
+I2
+sS'absence of ca'
+p540
+I2
+sS'loss'
+p541
+I1
+sS'stereocilia of'
+p542
+I1
+sS'\xce\xbcm leupeptin'
+p543
+I1
+sS'yrnqp'
+p544
+I1
+sS'densitometri'
+p545
+I1
+sS'of the energi'
+p546
+I1
+sS'consequences of calmodulin bind'
+p547
+I1
+sS'recombinant protein'
+p548
+I4
+sS'\xce\xbcm ethylene glycol-bi'
+p549
+I1
+sS'loss of calmodulin'
+p550
+I1
+sS'cellular context'
+p551
+I1
+sS'salin'
+p552
+I1
+sS'velocity sediment'
+p553
+I5
+sS'gel-filtr'
+p554
+I1
+sS'jlc'
+p555
+I1
+sS'extinction coeffici'
+p556
+I3
+sS'dye moieti'
+p557
+I1
+sS'carlsbad'
+p558
+I1
+sS'classic iq'
+p559
+I1
+sS'scale'
+p560
+I2
+sS'hill coeffici'
+p561
+I1
+sS'of egta'
+p562
+I1
+sS'of alexa-calmodulin bound'
+p563
+I2
+sS'calmodulin releas'
+p564
+I2
+sS'protein peak'
+p565
+I1
+sS'piscataway'
+p566
+I1
+sS'ultracentrifugation experi'
+p567
+I1
+sS'amino'
+p568
+I3
+sS'free calmodulin'
+p569
+I3
+sS'preload'
+p570
+I2
+sS'tag for purif'
+p571
+I1
+sS'calmodulin concentration multipli'
+p572
+I1
+sS'pvp'
+p573
+I2
+sS'calmodulin for iq peptid'
+p574
+I1
+sS'neuromodulin iq domain'
+p575
+I1
+sS'dynamics of motile cel'
+p576
+I1
+sS'affinity of calmodulin for'
+p577
+I3
+sS'chmkhsaveiqswwrgtigrrkaa'
+p578
+I1
+sS'nm alexa-calmodulin'
+p579
+I1
+sS'hair-cell receptor'
+p580
+I1
+sS'anti-xpress'
+p581
+I1
+sS'bradford protein'
+p582
+I1
+sS'of'
+p583
+I3
+sS'antibodi'
+p584
+I1
+sS'permit access'
+p585
+I1
+sS'calmodulin interact'
+p586
+I6
+sS'classic iq domain'
+p587
+I1
+sS'amino acid'
+p588
+I6
+sS'coupling of the energi'
+p589
+I1
+sS'myosin-i class'
+p590
+I2
+sS'sequenced vertebrate calmodulin'
+p591
+I1
+sS'calmodulin for the iq domain'
+p592
+I1
+sS'bound'
+p593
+I5
+sS'calmodulin for the individual iq'
+p594
+I1
+sS'experimental approach'
+p595
+I2
+sS'receptor'
+p596
+I4
+sS'for the iq domain'
+p597
+I1
+sS'alexa-calmodulin bind'
+p598
+I1
+sS'total concentr'
+p599
+I1
+sS'constituent protein'
+p600
+I1
+sS'fluorostar'
+p601
+I1
+sS'affinity of iq3 for ca'
+p602
+I1
+sS'iq4'
+p603
+I8
+sS'iq1'
+p604
+I18
+sS'of velocity sediment'
+p605
+I2
+sS'iq3'
+p606
+I15
+sS'iq2'
+p607
+I12
+sS'access of iq domain'
+p608
+I1
+sS'concentration of peptide bound'
+p609
+I1
+sS'unconventional myosin'
+p610
+I3
+sS'fraction'
+p611
+I1
+sS'calcium green-2'
+p612
+I1
+sS'globular motor'
+p613
+I1
+sS'gel-scanning experi'
+p614
+I1
+sS'temperature-dependent loss'
+p615
+I1
+sS'bradford'
+p616
+I1
+sS'dlyddddk epitope tag for antibody detect'
+p617
+I1
+sS'neuromodulin'
+p618
+I2
+sS'of calmodulin'
+p619
+I11
+sS'excitatory mechanical stimulu'
+p620
+I1
+sS'tryptophan'
+p621
+I1
+sS'stabilization of th'
+p622
+I1
+sS'flatbed scann'
+p623
+I1
+sS'iqx'
+p624
+I2
+sS'iq peptide for alexa-calmodulin'
+p625
+I1
+sS'velocity-sediment'
+p626
+I1
+sS'absenc'
+p627
+I6
+sS'individual peptid'
+p628
+I1
+sS'of the myosin lever arm'
+p629
+I1
+sS'r250'
+p630
+I2
+sS'similar'
+p631
+I2
+sS'nuclear transcript'
+p632
+I1
+sS'curv'
+p633
+I1
+sS'scanner'
+p634
+I1
+sS'individual organel'
+p635
+I1
+sS'ar'
+p636
+I1
+sS'stoichiometry of'
+p637
+I1
+sS'of iq3 for calmodulin'
+p638
+I1
+sS'stereocilia of inner-ear hair'
+p639
+I1
+sS'absence of'
+p640
+I3
+sS'\xce\xbcm ethylen'
+p641
+I1
+sS'molecular size of protein-protein complex'
+p642
+I1
+sS'neck-tail frag'
+p643
+I1
+sS'bmg'
+p644
+I1
+sS'nj'
+p645
+I1
+sS'adaptation of'
+p646
+I1
+sS'pepstatin'
+p647
+I1
+sS'nc'
+p648
+I1
+sS'bovine neuromodulin'
+p649
+I1
+sS'for alexa-calmodulin'
+p650
+I1
+sS'calmodulin for th'
+p651
+I2
+sS'valin'
+p652
+I1
+sS'emission photon'
+p653
+I1
+sS'fixed concentration of receptor'
+p654
+I1
+sS'lever-arm'
+p655
+I1
+sS'repeat'
+p656
+I1
+sS'calmodulin for the individual iq peptid'
+p657
+I1
+sS'of myosin-1a'
+p658
+I1
+sS'fluor'
+p659
+I1
+sS'intens'
+p660
+I6
+sS'peak'
+p661
+I1
+sS'for calmodulin'
+p662
+I2
+sS'unconjugated iq peptid'
+p663
+I1
+sS'brush-border dynamics of proximal-tubule cel'
+p664
+I1
+sS'hair-cel'
+p665
+I1
+sS'homolog'
+p666
+I1
+sS'peptid'
+p667
+I36
+sS'of alexa-calmodulin'
+p668
+I3
+sS'adjacent calmodulin'
+p669
+I1
+sS'concentration of alexa-calmodulin'
+p670
+I1
+sS'isoleucin'
+p671
+I1
+sS'protein-protein complex'
+p672
+I1
+sS'mass'
+p673
+I6
+sS'\xce\xbcg of recombinant protein'
+p674
+I2
+sS'fixed concentr'
+p675
+I1
+sS'sensitive elisa'
+p676
+I1
+stp677
+Rp678
+tp679
+.

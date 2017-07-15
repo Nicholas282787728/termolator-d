@@ -1,0 +1,53 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'business lead'
+p7
+I2
+sS'workforc'
+p8
+I1
+sS'contribut'
+p9
+I1
+sS'budget'
+p10
+I2
+sS'busi'
+p11
+I2
+sS'harris pol'
+p12
+I1
+sS'mission---to'
+p13
+I1
+sS'lou'
+p14
+I1
+sS'poll'
+p15
+I1
+sS'leader'
+p16
+I2
+sS'lou harris pol'
+p17
+I1
+sS'lou harri'
+p18
+I1
+stp19
+Rp20
+tp21
+.

@@ -1,0 +1,1832 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'plasmid construction clon'
+p7
+I1
+sS'gst-cdc6 fusion protein'
+p8
+I1
+sS't buffer'
+p9
+I1
+sS'atp\xce\xb3'
+p10
+I5
+sS'centrifug'
+p11
+I1
+sS'polypeptid'
+p12
+I7
+sS'baculovirus infected insect cel'
+p13
+I1
+sS'electrophoresis analysis of'
+p14
+I1
+sS'initiation complex'
+p15
+I1
+sS'nonhydrolysable analog of'
+p16
+I1
+sS'gm'
+p17
+I1
+sS'primer'
+p18
+I1
+sS'salt buffer h'
+p19
+I1
+sS'depend'
+p20
+I1
+sS'origin recognition complex'
+p21
+I1
+sS'zone'
+p22
+I1
+sS'dmorc co-loc'
+p23
+I1
+sS'leupeptin'
+p24
+I2
+sS'ts'
+p25
+I1
+sS'mutational analysis of ac'
+p26
+I1
+sS'dna frag'
+p27
+I10
+sS'electrophoresis analysis of the rdna locu'
+p28
+I1
+sS'b-type pestl'
+p29
+I1
+sS'boxes of ar'
+p30
+I1
+sS'polymerase ii'
+p31
+I1
+sS'cdna'
+p32
+I1
+sS'filtrat'
+p33
+I1
+sS'assay'
+p34
+I13
+sS'yeast'
+p35
+I3
+sS'kcl'
+p36
+I4
+sS'the gel'
+p37
+I1
+sS'dna bind'
+p38
+I3
+sS'exact binding specificity of'
+p39
+I1
+sS'p35-dna protein'
+p40
+I1
+sS'strand'
+p41
+I1
+sS'nonhydrolysable analog'
+p42
+I1
+sS'intrinsic affin'
+p43
+I2
+sS'michael'
+p44
+I1
+sS'further studi'
+p45
+I1
+sS'protein preparations containing p35'
+p46
+I1
+sS'ttagtttttcggtttactaaatcgtaatagaaatgtagaacaataaaatgt'
+p47
+I1
+sS'absence of atp'
+p48
+I1
+sS'containing ar'
+p49
+I1
+sS'start sit'
+p50
+I1
+sS'c-myc replication origin'
+p51
+I1
+sS'containing ac'
+p52
+I1
+sS'acid'
+p53
+I1
+sS'precipit'
+p54
+I1
+sS'gene express'
+p55
+I2
+sS'egta'
+p56
+I1
+sS'boxes of th'
+p57
+I2
+sS'n termin'
+p58
+I1
+sS'find'
+p59
+I1
+sS'cell'
+p60
+I12
+sS'co-loc'
+p61
+I1
+sS'gst-cdc6 bead'
+p62
+I1
+sS'cupric'
+p63
+I1
+sS'protein complex'
+p64
+I3
+sS'kda bind'
+p65
+I1
+sS'hydrolysi'
+p66
+I7
+sS'of baculovirus expressing gst-cdc6'
+p67
+I1
+sS'purif'
+p68
+I1
+sS'ts of'
+p69
+I1
+sS'box'
+p70
+I7
+sS'dna fragment contain'
+p71
+I2
+sS'shift'
+p72
+I9
+sS'salt elu'
+p73
+I6
+sS'bp dna frag'
+p74
+I4
+sS'mm nacl'
+p75
+I5
+sS'essential dna'
+p76
+I1
+sS'c-myc origin of replication region containing yeast'
+p77
+I1
+sS'studi'
+p78
+I2
+sS'gene'
+p79
+I7
+sS'promot'
+p80
+I2
+sS'tata-box'
+p81
+I1
+sS'biding protein'
+p82
+I1
+sS'protein preparations contain'
+p83
+I1
+sS'dnasei'
+p84
+I1
+sS'phosphate-buffered salin'
+p85
+I1
+sS'of p35'
+p86
+I3
+sS'dna fragment containing ar'
+p87
+I1
+sS'dna bid'
+p88
+I1
+sS'edta concentr'
+p89
+I1
+sS'dna'
+p90
+I78
+sS'drosophila orc subunit'
+p91
+I1
+sS'tctaaaatacaaatctagaaaatacgaacgaaaagttttccggacgtccgt'
+p92
+I1
+sS'showed dna'
+p93
+I1
+sS'implic'
+p94
+I1
+sS'c-myc origin'
+p95
+I4
+sS'of repl'
+p96
+I3
+sS'subfragment d'
+p97
+I1
+sS'promoter chromatin'
+p98
+I1
+sS'enhanc'
+p99
+I1
+sS'templat'
+p100
+I3
+sS'chromatinised templ'
+p101
+I1
+sS'phenanthroline monohydr'
+p102
+I1
+sS'kb zone'
+p103
+I1
+sS'ars1 dna frag'
+p104
+I1
+sS't-rich strand'
+p105
+I1
+sS'ml aprotinin'
+p106
+I2
+sS'preparations containing p35'
+p107
+I1
+sS'printing assay'
+p108
+I1
+sS'chip'
+p109
+I1
+sS'further characterization of'
+p110
+I1
+sS'polypeptide bind'
+p111
+I1
+sS'boxes of the ar'
+p112
+I1
+sS'cation'
+p113
+I1
+sS'locu'
+p114
+I2
+sS'binding act'
+p115
+I3
+sS'baculovirus'
+p116
+I1
+sS'pre-treatment of'
+p117
+I1
+sS'gst-cdc6 fusion'
+p118
+I1
+sS'rna polymerase ii'
+p119
+I1
+sS'boxes of the ars1'
+p120
+I1
+sS'expressing gst-cdc6'
+p121
+I1
+sS'chorion gene locu'
+p122
+I1
+sS'snf'
+p123
+I2
+sS'ammonium sulph'
+p124
+I1
+sS'express'
+p125
+I2
+sS'elut'
+p126
+I1
+sS'kind gift'
+p127
+I1
+sS'tbe buff'
+p128
+I1
+sS'mm egta'
+p129
+I1
+sS'clone'
+p130
+I2
+sS'mm cupric'
+p131
+I1
+sS'acs motif'
+p132
+I1
+sS'mm salt'
+p133
+I2
+sS'ebv ori p'
+p134
+I1
+sS'cell cycle ev'
+p135
+I1
+sS'pombe origin'
+p136
+I1
+sS'polyacrylamide gel'
+p137
+I1
+sS'bind'
+p138
+I9
+sS'infected insect cel'
+p139
+I1
+sS'cggacgtccgttcacgtgtttgttatgaatttatttatgatgagtcattat'
+p140
+I1
+sS'correspond'
+p141
+I1
+sS'boxes of the ars consensu'
+p142
+I1
+sS'atp analog'
+p143
+I1
+sS'baculoviru'
+p144
+I1
+sS'purifi'
+p145
+I1
+sS'aprotinin'
+p146
+I2
+sS'individual orc'
+p147
+I1
+sS'bead'
+p148
+I6
+sS'etoh'
+p149
+I2
+sS'eukaryotes find'
+p150
+I1
+sS'boxes of the ars1 dna frag'
+p151
+I1
+sS'dna templ'
+p152
+I1
+sS'digest'
+p153
+I1
+sS'sds-page'
+p154
+I2
+sS'oligo'
+p155
+I3
+sS'c-myc origin of repl'
+p156
+I1
+sS'sodium'
+p157
+I1
+sS'dounc'
+p158
+I1
+sS'baculovirus expressing gstcdc6'
+p159
+I1
+sS'radical scaveng'
+p160
+I1
+sS'gst showed dna'
+p161
+I1
+sS'study sccdc6'
+p162
+I1
+sS'expressing gstcdc6'
+p163
+I1
+sS'post-infect'
+p164
+I1
+sS'c-myc origin of replication region contain'
+p165
+I1
+sS'pestl'
+p166
+I1
+sS'immunoblot'
+p167
+I1
+sS'chromatin'
+p168
+I1
+sS'atp depend'
+p169
+I1
+sS'baculovirus express'
+p170
+I1
+sS'fragment'
+p171
+I10
+sS'gel purifi'
+p172
+I1
+sS'initi'
+p173
+I2
+sS'vitro'
+p174
+I1
+sS'band'
+p175
+I8
+sS'tgagtcattattggataaagaatcgtaaaaactgctttaaacgataaaa'
+p176
+I1
+sS'inducible gen'
+p177
+I1
+sS'gel shift assay'
+p178
+I4
+sS'introduct'
+p179
+I1
+sS'intrinsic dna'
+p180
+I1
+sS'mm sodium'
+p181
+I1
+sS'wash'
+p182
+I1
+sS'chain react'
+p183
+I1
+sS'phenylmethylsulfonyl fluorid'
+p184
+I2
+sS'bac-to-bac express'
+p185
+I1
+sS'mm mgcl2'
+p186
+I1
+sS'atpase act'
+p187
+I1
+sS'recognition complex'
+p188
+I1
+sS'strong band'
+p189
+I1
+sS'subfrag'
+p190
+I2
+sS'atp hydrolysi'
+p191
+I7
+sS'oligo arsb'
+p192
+I1
+sS'individu'
+p193
+I1
+sS'ammonium sulphate cut'
+p194
+I1
+sS'fraction'
+p195
+I11
+sS'co-ordin'
+p196
+I1
+sS'invitrogen'
+p197
+I1
+sS'anti-gst polyclonal antibodi'
+p198
+I1
+sS'event'
+p199
+I1
+sS'arsa oligo'
+p200
+I1
+sS'amplification of'
+p201
+I1
+sS'expressing gst'
+p202
+I1
+sS'stain protocol'
+p203
+I1
+sS'mm dithiothreitol'
+p204
+I2
+sS'purification baculovirus'
+p205
+I1
+sS'protein prepar'
+p206
+I1
+sS'post infect'
+p207
+I1
+sS'xenopu'
+p208
+I1
+sS'isw1'
+p209
+I1
+sS'gstcdc6 protein fract'
+p210
+I1
+sS'six-protein origin recognit'
+p211
+I1
+sS'ebv ori'
+p212
+I1
+sS'rk'
+p213
+I1
+sS'gst moieti'
+p214
+I1
+sS'silver stain protocol'
+p215
+I1
+sS'molecular weight fract'
+p216
+I2
+sS'kda protein'
+p217
+I7
+sS'dna-protein complex'
+p218
+I1
+sS'orc'
+p219
+I9
+sS'\xce\xbcl'
+p220
+I1
+sS'ts of th'
+p221
+I1
+sS'sf9 cell'
+p222
+I1
+sS'analog of atp'
+p223
+I1
+sS'atp'
+p224
+I29
+sS'sulphate precipit'
+p225
+I1
+sS'c-myc origin of replication region containing yeast ac'
+p226
+I1
+sS'high salt elu'
+p227
+I1
+sS'origin'
+p228
+I2
+sS'copper'
+p229
+I1
+sS'atp\xce\xb3s suggest'
+p230
+I1
+sS'manuscript'
+p231
+I1
+sS'copper-phenanthroline reag'
+p232
+I1
+sS'transcription start'
+p233
+I1
+sS'moieti'
+p234
+I1
+sS'nacl'
+p235
+I10
+sS'filtration column'
+p236
+I1
+sS'nucleotid'
+p237
+I1
+sS'mm hepe'
+p238
+I1
+sS'dna binding act'
+p239
+I1
+sS'fluorid'
+p240
+I2
+sS'band shift'
+p241
+I8
+sS'footprinting assay'
+p242
+I2
+sS'koh'
+p243
+I1
+sS'leffak'
+p244
+I1
+sS'tata'
+p245
+I1
+sS'ml leupeptin'
+p246
+I2
+sS'eukaryotic gen'
+p247
+I1
+sS'mukhopadhyay'
+p248
+I1
+sS'gst fusion protein'
+p249
+I1
+sS'termin'
+p250
+I1
+sS'the tfiid'
+p251
+I1
+sS'phenanthrolin'
+p252
+I1
+sS'orc protein'
+p253
+I1
+sS'electrophoret'
+p254
+I1
+sS'high salt'
+p255
+I1
+sS'mobility shift assay'
+p256
+I1
+sS'conserv'
+p257
+I1
+sS'competitor dna'
+p258
+I1
+sS'bp dna'
+p259
+I4
+sS'of atp'
+p260
+I8
+sS'kind'
+p261
+I1
+sS'b'
+p262
+I1
+sS'glutathion'
+p263
+I3
+sS'gel filtr'
+p264
+I2
+sS'kb dna frag'
+p265
+I1
+sS'pre-treatment of th'
+p266
+I1
+sS'electrophoretic mobility shift'
+p267
+I1
+sS'cell gen'
+p268
+I2
+sS'plasmid'
+p269
+I3
+sS'sporc4'
+p270
+I1
+sS'atp bind'
+p271
+I1
+sS'p-40'
+p272
+I2
+sS'dna-protein'
+p273
+I1
+sS'tfiid'
+p274
+I1
+sS'remodelling act'
+p275
+I1
+sS'sf9'
+p276
+I2
+sS'atp concentr'
+p277
+I4
+sS'overnight'
+p278
+I1
+sS'the rdna locu'
+p279
+I1
+sS'silver stain anti-gst polyclonal antibodi'
+p280
+I1
+sS'vitro foot'
+p281
+I1
+sS'yeast orc'
+p282
+I1
+sS'complementary oligos correspond'
+p283
+I1
+sS'insect cel'
+p284
+I12
+sS'min'
+p285
+I3
+sS'c-myc gen'
+p286
+I1
+sS'polyhedrin promot'
+p287
+I1
+sS'aaaagataaag'
+p288
+I1
+sS'atp\xce\xb3 '
+p289
+I1
+sS'wright state univers'
+p290
+I1
+sS'drosophila orc'
+p291
+I1
+sS'eukaryotic dna'
+p292
+I3
+sS'buffer'
+p293
+I4
+sS'replication region containing yeast ac'
+p294
+I1
+sS'\xce\xbcl of t buff'
+p295
+I1
+sS'beta'
+p296
+I3
+sS'p35-acs dna complex'
+p297
+I1
+sS'arsd frag'
+p298
+I1
+sS'transcript'
+p299
+I3
+sS'hstf'
+p300
+I1
+sS'kb dna'
+p301
+I1
+sS'containing yeast ar'
+p302
+I1
+sS'mgcl'
+p303
+I1
+sS'polyclonal antibodi'
+p304
+I1
+sS'dnmt1'
+p305
+I1
+sS'fragment containing ac'
+p306
+I1
+sS'ks'
+p307
+I1
+sS'containing yeast ac'
+p308
+I2
+sS'university ohio'
+p309
+I2
+sS'salt'
+p310
+I14
+sS'fragment containing ar'
+p311
+I1
+sS'chorion gen'
+p312
+I1
+sS'mm atp concentr'
+p313
+I3
+sS'promoter act'
+p314
+I1
+sS'probe'
+p315
+I1
+sS'divalent c'
+p316
+I1
+sS'dna complex'
+p317
+I1
+sS'affin'
+p318
+I4
+sS'rna polymeras'
+p319
+I2
+sS'activ'
+p320
+I6
+sS'characterization of a polypeptid'
+p321
+I1
+sS'orc bind'
+p322
+I2
+sS'previous studi'
+p323
+I1
+sS'concentr'
+p324
+I10
+sS'origin recognit'
+p325
+I2
+sS'stain'
+p326
+I2
+sS'kuwabara'
+p327
+I1
+sS'yeast ar'
+p328
+I1
+sS'nonhydrolysable analog of atp'
+p329
+I1
+sS'contribut'
+p330
+I1
+sS'electrophoretic mobl'
+p331
+I1
+sS'eppendorf tub'
+p332
+I1
+sS'origin of repl'
+p333
+I1
+sS'yeast ac'
+p334
+I2
+sS'kda polypeptide bind'
+p335
+I1
+sS'exact binding specificity of p35'
+p336
+I1
+sS'tbe'
+p337
+I1
+sS'gel'
+p338
+I17
+sS'cell cultur'
+p339
+I1
+sS'arsdmut'
+p340
+I1
+sS'baculovirus expressing gst'
+p341
+I1
+sS'final manuscript'
+p342
+I1
+sS'ohio'
+p343
+I1
+sS'michael leffak'
+p344
+I1
+sS'kda polypeptid'
+p345
+I2
+sS'boxes of ars consensu'
+p346
+I1
+sS'tris-hcl'
+p347
+I2
+sS'frugiperda protein'
+p348
+I1
+sS'salt buff'
+p349
+I1
+sS'ebv'
+p350
+I1
+sS'pbluescript k'
+p351
+I1
+sS'nonhydrolysable atp'
+p352
+I1
+sS'copper-phenanthroline footprinting assay'
+p353
+I1
+sS'unique observ'
+p354
+I1
+sS'analog'
+p355
+I1
+sS'of t buff'
+p356
+I1
+sS'baculovirus infected sf9 insect cel'
+p357
+I2
+sS'nonidet'
+p358
+I2
+sS'transcription initiation complex'
+p359
+I1
+sS'gst show'
+p360
+I1
+sS'copper-phenanthroline footprint'
+p361
+I1
+sS'chemic'
+p362
+I1
+sS'infect'
+p363
+I1
+sS'gel slic'
+p364
+I1
+sS'individual orc subunit'
+p365
+I1
+sS'protein origin recognit'
+p366
+I1
+sS'binding specificity of p35'
+p367
+I1
+sS'biochemical assay'
+p368
+I1
+sS'amplif'
+p369
+I1
+sS'eluat'
+p370
+I7
+sS'orc subunit'
+p371
+I2
+sS'drosophila nurf'
+p372
+I1
+sS'gst-cdc6'
+p373
+I2
+sS'cdc6 cdna'
+p374
+I1
+sS'vitro study sccdc6'
+p375
+I1
+sS'strong band shift'
+p376
+I1
+sS'mm kcl'
+p377
+I4
+sS'gel retardation assay'
+p378
+I2
+sS'reaction'
+p379
+I8
+sS'c'
+p380
+I1
+sS'vitro dna'
+p381
+I1
+sS'six-protein origin'
+p382
+I1
+sS'dtt'
+p383
+I1
+sS'nonhydrolysable atp analog'
+p384
+I1
+sS'normal dna'
+p385
+I1
+sS'vitro foot print'
+p386
+I1
+sS'nonidet p-40'
+p387
+I2
+sS'dna repl'
+p388
+I8
+sS'pfb-gstcdc6'
+p389
+I1
+sS'ars1 frag'
+p390
+I1
+sS'pfb-gst plasmid'
+p391
+I1
+sS'residu'
+p392
+I1
+sS't residu'
+p393
+I1
+sS'glutathione column'
+p394
+I1
+sS'cs'
+p395
+I1
+sS'insect cell gen'
+p396
+I2
+sS'rpm'
+p397
+I1
+sS'swi'
+p398
+I1
+sS'gel shift'
+p399
+I4
+sS'mobility shift'
+p400
+I1
+sS'sf9 insect cel'
+p401
+I3
+sS'mm atp'
+p402
+I4
+sS'ph'
+p403
+I2
+sS'baculovirus expressing gst-cdc6'
+p404
+I1
+sS'cdc6'
+p405
+I3
+sS'p35-acs dna'
+p406
+I1
+sS'mcm'
+p407
+I1
+sS'dmorc'
+p408
+I2
+sS'chromatin templ'
+p409
+I1
+sS'atp-dependent chromatin remodelling act'
+p410
+I1
+sS'electrophoretic mobility shift assay'
+p411
+I1
+sS'gstorc2'
+p412
+I1
+sS'filtration fract'
+p413
+I1
+sS'gstorc4'
+p414
+I1
+sS'cerevisia'
+p415
+I4
+sS'replic'
+p416
+I14
+sS'cell lys'
+p417
+I1
+sS'containing p35'
+p418
+I1
+sS'insect cell cultur'
+p419
+I1
+sS'bp dna fragment contain'
+p420
+I1
+sS'mm salt elu'
+p421
+I2
+sS'lysat'
+p422
+I1
+sS'molecular mass'
+p423
+I1
+sS'observ'
+p424
+I1
+sS'motif'
+p425
+I1
+sS'dna protein complex'
+p426
+I2
+sS'amplification of baculovirus expressing gst-cdc6'
+p427
+I1
+sS'eukaryot'
+p428
+I2
+sS'site'
+p429
+I2
+sS'ii'
+p430
+I1
+sS'magnesium acet'
+p431
+I1
+sS'cdc45'
+p432
+I1
+sS'systematic mutational analysis of ac'
+p433
+I1
+sS'protein'
+p434
+I28
+sS'salt fraction'
+p435
+I1
+sS'mm tris-hcl'
+p436
+I2
+sS'chromatin immunoprecipit'
+p437
+I1
+sS'kda band'
+p438
+I1
+sS'mutat'
+p439
+I1
+sS'dialyzed sampl'
+p440
+I1
+sS'suggest'
+p441
+I1
+sS'complex'
+p442
+I8
+sS'subunit'
+p443
+I2
+sS'p35 binding act'
+p444
+I2
+sS'competit'
+p445
+I1
+sS'scaveng'
+p446
+I1
+sS'of atp\xce\xb3'
+p447
+I2
+sS'\xce\xbcl of'
+p448
+I1
+sS'shift assay'
+p449
+I5
+sS'footprint'
+p450
+I1
+sS'kda component of the tfiid'
+p451
+I1
+sS'vitro studi'
+p452
+I1
+sS'pepstatin'
+p453
+I2
+sS'arsd'
+p454
+I2
+sS'arsa'
+p455
+I1
+sS'arsb'
+p456
+I2
+sS'arsc'
+p457
+I2
+sS'of the tfiid'
+p458
+I2
+sS'of replication region containing yeast ac'
+p459
+I1
+sS'gstcdc6 protein'
+p460
+I3
+sS'footprint assay'
+p461
+I1
+sS'protocol'
+p462
+I1
+sS'biochemical analysis of repl'
+p463
+I1
+sS'competition react'
+p464
+I1
+sS'of ac'
+p465
+I2
+sS'cut'
+p466
+I1
+sS'boric acid'
+p467
+I1
+sS'of the ars1 dna frag'
+p468
+I1
+sS'further character'
+p469
+I1
+sS'identif'
+p470
+I2
+sS'wright'
+p471
+I1
+sS'mm edta concentr'
+p472
+I1
+sS'characterization of'
+p473
+I1
+sS'foot printing assay'
+p474
+I1
+sS'protein origin'
+p475
+I1
+sS'boxes of the ars1 dna'
+p476
+I1
+sS'protein fract'
+p477
+I1
+sS'rna'
+p478
+I2
+sS'bp dna fragment containing yeast ar'
+p479
+I1
+sS'gst fusion'
+p480
+I1
+sS'c-myc origin of'
+p481
+I2
+sS'baculovirus infected sf9 insect'
+p482
+I2
+sS'gene locu'
+p483
+I1
+sS'fi digest'
+p484
+I1
+sS'ts of the cor'
+p485
+I1
+sS'wright state university ohio'
+p486
+I1
+sS'polymeras'
+p487
+I1
+sS'of the rdna locu'
+p488
+I2
+sS'gift'
+p489
+I1
+sS'systematic mutational analysis of'
+p490
+I1
+sS'lamin beta'
+p491
+I3
+sS'of a polypeptid'
+p492
+I1
+sS'characterization of p35'
+p493
+I1
+sS'sf9 insect'
+p494
+I1
+sS'ori-\xce\xb2'
+p495
+I2
+sS'salin'
+p496
+I1
+sS'gel filtration fract'
+p497
+I1
+sS'immunoprecipit'
+p498
+I1
+sS'recombinant pfb-gst plasmid'
+p499
+I1
+sS'gst'
+p500
+I18
+sS'kda'
+p501
+I3
+sS'autoradiograph'
+p502
+I1
+sS'the ars1 dna frag'
+p503
+I1
+sS'sampl'
+p504
+I1
+sS'reagent'
+p505
+I1
+sS'superos'
+p506
+I1
+sS'electrophoresis analysis of th'
+p507
+I1
+sS'slice'
+p508
+I1
+sS'competitor'
+p509
+I1
+sS'lamin'
+p510
+I1
+sS'tube'
+p511
+I1
+sS'recognit'
+p512
+I2
+sS'saccharomyces cerevisia'
+p513
+I1
+sS'buffer h'
+p514
+I4
+sS'cell cycl'
+p515
+I1
+sS'salt wash'
+p516
+I1
+sS'eukaryotic dna repl'
+p517
+I3
+sS'cdt1'
+p518
+I1
+sS'bp'
+p519
+I2
+sS'glycerol'
+p520
+I2
+sS'mgcl2'
+p521
+I1
+sS'post'
+p522
+I1
+sS'sulphate cut'
+p523
+I1
+sS'rdna locu'
+p524
+I1
+sS'p35'
+p525
+I20
+sS'elution buff'
+p526
+I1
+sS'stain anti-gst polyclonal antibodi'
+p527
+I1
+sS'column'
+p528
+I2
+sS'of'
+p529
+I4
+sS'antibodi'
+p530
+I1
+sS'boxes of'
+p531
+I3
+sS'fusion protein'
+p532
+I2
+sS'polymerase chain react'
+p533
+I1
+sS'cerevisiae origin recognition complex'
+p534
+I1
+sS'dna protein'
+p535
+I2
+sS'nurf'
+p536
+I1
+sS'chromatin remodelling act'
+p537
+I1
+sS'pcr primer'
+p538
+I1
+sS'mm dtt'
+p539
+I1
+sS'edta'
+p540
+I7
+sS'glutathione elution buff'
+p541
+I1
+sS'dna-protein gel'
+p542
+I1
+sS'gel retard'
+p543
+I1
+sS'drosophila'
+p544
+I3
+sS'dialyzed overnight'
+p545
+I1
+sS'further characterization of p35'
+p546
+I1
+sS'kda component of th'
+p547
+I1
+sS'copper-phenanthroline footprint assay'
+p548
+I1
+sS'transcription start sit'
+p549
+I1
+sS'autoradiographi'
+p550
+I1
+sS'dithiothreitol'
+p551
+I2
+sS'ars consensu'
+p552
+I11
+sS'gstcdc6'
+p553
+I9
+sS'bp dna fragment containing yeast'
+p554
+I1
+sS'of the gel'
+p555
+I1
+sS'recommend'
+p556
+I1
+sS'sccdc6'
+p557
+I2
+sS'fragment containing yeast ar'
+p558
+I1
+sS'gst bead'
+p559
+I4
+sS'biochemical analysis of'
+p560
+I1
+sS'ori p'
+p561
+I1
+sS'vivo'
+p562
+I1
+sS'-atttgctgggttgaaaaatg-3'
+p563
+I1
+sS'cycle ev'
+p564
+I1
+sS'absenc'
+p565
+I3
+sS'character'
+p566
+I2
+sS'oligos correspond'
+p567
+I1
+sS'exact sit'
+p568
+I1
+sS'ac'
+p569
+I30
+sS'vitro foot printing assay'
+p570
+I1
+sS'kda component of'
+p571
+I1
+sS'dna biding protein'
+p572
+I1
+sS'dmut'
+p573
+I1
+sS'ar'
+p574
+I13
+sS'cultur'
+p575
+I1
+sS'silver stain'
+p576
+I2
+sS'absence of'
+p577
+I1
+sS'acet'
+p578
+I1
+sS'glutathione bead'
+p579
+I1
+sS'nm'
+p580
+I1
+sS'pbluescript'
+p581
+I1
+sS'polymerase chain'
+p582
+I1
+sS'n-termin'
+p583
+I1
+sS'salt concentr'
+p584
+I4
+sS'role'
+p585
+I3
+sS'ml pepstatin'
+p586
+I2
+sS'replication initi'
+p587
+I2
+sS'polyacrylamid'
+p588
+I1
+sS'chemical prob'
+p589
+I1
+sS'conservation of'
+p590
+I1
+sS'ts of the core ac'
+p591
+I1
+sS'ammonium'
+p592
+I1
+sS'monohydr'
+p593
+I1
+sS'retardation assay'
+p594
+I2
+sS'ace3'
+p595
+I2
+sS'stress inducible gen'
+p596
+I1
+sS'mm edta'
+p597
+I4
+sS'homolog'
+p598
+I2
+sS'dna fragment containing yeast ar'
+p599
+I1
+sS'origin of replication region containing yeast ac'
+p600
+I1
+sS'\xce\xbcl of t'
+p601
+I1
+sS'dna fragment containing ac'
+p602
+I1
+sS'aaaagaaaaaa'
+p603
+I1
+sS'c-myc'
+p604
+I3
+sS'sigma'
+p605
+I1
+sS'pre-treatment of the gel'
+p606
+I1
+sS'baculovirus infected sf9'
+p607
+I2
+sS'-gaagaaaaactctcttttc-3'
+p608
+I1
+sS'infected sf9 insect cel'
+p609
+I2
+sS'mass'
+p610
+I1
+sS'p35-ac'
+p611
+I1
+stp612
+Rp613
+tp614
+.

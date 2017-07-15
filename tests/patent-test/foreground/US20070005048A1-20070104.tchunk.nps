@@ -1,0 +1,806 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'humid'
+p7
+I1
+sS'gaseous fluid'
+p8
+I1
+sS'gas storage contain'
+p9
+I1
+sS'cryosurg'
+p10
+I1
+sS'probe'
+p11
+I88
+sS'of a liquid refriger'
+p12
+I1
+sS'probe cryosurg'
+p13
+I1
+sS'session'
+p14
+I1
+sS'ga'
+p15
+I1
+sS'skin'
+p16
+I9
+sS'cell'
+p17
+I3
+sS'electrodesicc'
+p18
+I2
+sS'zone'
+p19
+I1
+sS'cavity sink'
+p20
+I1
+sS'frictional engag'
+p21
+I1
+sS'individual treat'
+p22
+I1
+sS'cavity of a cryosurgical prob'
+p23
+I1
+sS'gaseous refriger'
+p24
+I3
+sS'prostate cryosurgeri'
+p25
+I1
+sS'probe tip'
+p26
+I1
+sS'congel'
+p27
+I1
+sS'freeze-thaw cycl'
+p28
+I1
+sS'stop'
+p29
+I1
+sS'dc'
+p30
+I1
+sS'meter'
+p31
+I1
+sS'tip cav'
+p32
+I3
+sS'destruction of'
+p33
+I1
+sS'isenthalpic gaseous expans'
+p34
+I1
+sS'fluid retain'
+p35
+I6
+sS'necrosed tissu'
+p36
+I1
+sS'cross-sectional geometry of th'
+p37
+I1
+sS'cryosurgeri'
+p38
+I3
+sS'contain'
+p39
+I2
+sS'nitrogen'
+p40
+I3
+sS'non-conduct'
+p41
+I1
+sS'surgeri'
+p42
+I1
+sS'evaporation exit'
+p43
+I1
+sS'liquid nitrogen'
+p44
+I3
+sS'street'
+p45
+I1
+sS'joule-thomson'
+p46
+I1
+sS'mcdow'
+p47
+I2
+sS'urolog'
+p48
+I1
+sS'cross-sectional geometry of'
+p49
+I1
+sS'co2'
+p50
+I3
+sS'genetic predisposit'
+p51
+I1
+sS'heat-sink'
+p52
+I1
+sS'primary function of'
+p53
+I1
+sS'vapors exit cryosurgical prob'
+p54
+I1
+sS'cryosurgical instru'
+p55
+I43
+sS'dahiya'
+p56
+I1
+sS'rapid controlled escap'
+p57
+I2
+sS'exhaust port'
+p58
+I2
+sS'click-typ'
+p59
+I1
+sS'led'
+p60
+I3
+sS'krinstin'
+p61
+I1
+sS'adult urolog'
+p62
+I1
+sS'electric resistance warm'
+p63
+I1
+sS'orific'
+p64
+I1
+sS'cycl'
+p65
+I5
+sS'sink'
+p66
+I1
+sS'treatment provid'
+p67
+I2
+sS'valv'
+p68
+I9
+sS'reaction'
+p69
+I1
+sS'automatic control of'
+p70
+I1
+sS'refrigerant suppli'
+p71
+I1
+sS'maximum treat'
+p72
+I1
+sS'probe cav'
+p73
+I1
+sS'nw suit'
+p74
+I1
+sS'allentown pa'
+p75
+I2
+sS'solenoid valv'
+p76
+I1
+sS'the cryosurgical prob'
+p77
+I1
+sS'duct'
+p78
+I1
+sS'superficial les'
+p79
+I1
+sS'skin les'
+p80
+I9
+sS'destruction of the target tissu'
+p81
+I2
+sS'dimethyl eth'
+p82
+I4
+sS'suppli'
+p83
+I1
+sS'batteri'
+p84
+I1
+sS'cavity of'
+p85
+I1
+sS'ether'
+p86
+I4
+sS'rapid escape of'
+p87
+I1
+sS'fluid refriger'
+p88
+I1
+sS'refrigerant liquid'
+p89
+I1
+sS'evaporative cooling of a liquid refriger'
+p90
+I1
+sS'pa'
+p91
+I2
+sS'board'
+p92
+I2
+sS'bacterial skin'
+p93
+I1
+sS'freezing treat'
+p94
+I1
+sS'wart'
+p95
+I1
+sS'liquid pool'
+p96
+I2
+sS'warm'
+p97
+I4
+sS'adult'
+p98
+I1
+sS'exposure of the biological tissu'
+p99
+I10
+sS'work'
+p100
+I2
+sS'tatsutani'
+p101
+I2
+sS'onik'
+p102
+I1
+sS'optimal therapi'
+p103
+I1
+sS'target tissu'
+p104
+I3
+sS'b h'
+p105
+I1
+sS'escape of the gaseous refriger'
+p106
+I1
+sS'engag'
+p107
+I1
+sS'evaporative cool'
+p108
+I1
+sS'indic'
+p109
+I5
+sS'vapors exit'
+p110
+I1
+sS'cone'
+p111
+I2
+sS'isenthalpic expansion of'
+p112
+I1
+sS'therapi'
+p113
+I1
+sS'scar'
+p114
+I2
+sS'cryogen'
+p115
+I6
+sS'fluid pass'
+p116
+I1
+sS'isenthalpic expans'
+p117
+I1
+sS'acid treat'
+p118
+I1
+sS'comfort'
+p119
+I1
+sS'pass'
+p120
+I1
+sS'adjacent passag'
+p121
+I1
+sS'cryosurgical prob'
+p122
+I79
+sS'exemplary cryosurgical instru'
+p123
+I2
+sS'optional guard'
+p124
+I2
+sS'circular'
+p125
+I1
+sS'lesion'
+p126
+I73
+sS'of the gaseous refriger'
+p127
+I1
+sS'rapid decreas'
+p128
+I1
+sS'expans'
+p129
+I6
+sS'reverse-flow'
+p130
+I1
+sS'gase'
+p131
+I2
+sS'cryo surgeri'
+p132
+I1
+sS'fluid'
+p133
+I8
+sS'bacterial skin infect'
+p134
+I1
+sS'curettag'
+p135
+I1
+sS'primary function of guard'
+p136
+I1
+sS'cooling of a liquid refriger'
+p137
+I1
+sS'cellular membran'
+p138
+I1
+sS'moveable conduit'
+p139
+I3
+sS'liquid'
+p140
+I2
+sS'destruction of th'
+p141
+I1
+sS'technical display'
+p142
+I5
+sS'rapid controlled escape of th'
+p143
+I2
+sS'switch'
+p144
+I2
+sS'liquid pool of th'
+p145
+I1
+sS'allentown'
+p146
+I2
+sS'vapor'
+p147
+I1
+sS'the gaseous refriger'
+p148
+I1
+sS'expansion of a gaseous refriger'
+p149
+I1
+sS'human primary prostatic adenocarcinoma'
+p150
+I1
+sS'human'
+p151
+I1
+sS'skill'
+p152
+I1
+sS'rajvir'
+p153
+I1
+sS'liquid ga'
+p154
+I1
+sS'lidocain'
+p155
+I1
+sS'isenthalpic expansion of a gaseous refriger'
+p156
+I1
+sS'instrument'
+p157
+I48
+sS'treatment'
+p158
+I13
+sS'fluid retaining device s'
+p159
+I1
+sS'flowchart'
+p160
+I2
+sS'cryogenic treat'
+p161
+I1
+sS'thaw cycl'
+p162
+I1
+sS'return'
+p163
+I1
+sS'excessive exposur'
+p164
+I10
+sS'prostatic adenocarcinoma cel'
+p165
+I2
+sS'vacuum'
+p166
+I1
+sS'cellular destruct'
+p167
+I1
+sS'joule-thomson expans'
+p168
+I3
+sS'title display'
+p169
+I1
+sS'edit'
+p170
+I1
+sS'dispensing tip'
+p171
+I1
+sS'cryosurgical treat'
+p172
+I3
+sS'nw'
+p173
+I1
+sS'rapid freez'
+p174
+I1
+sS'oxid'
+p175
+I4
+sS'restrictive orific'
+p176
+I1
+sS'liquid pool of'
+p177
+I2
+sS'excessive exposure of the biological tissu'
+p178
+I10
+sS'topical wart'
+p179
+I1
+sS'freez'
+p180
+I7
+sS'automatic control of the cryosurgical prob'
+p181
+I1
+sS'hypertrophic scar'
+p182
+I2
+sS'of the cryosurgical prob'
+p183
+I2
+sS'refrigerant duct'
+p184
+I1
+sS'exit'
+p185
+I1
+sS'caviti'
+p186
+I9
+sS'evapor'
+p187
+I2
+sS'destruction of the target'
+p188
+I1
+sS'cross-sectional geometry of the receiv'
+p189
+I1
+sS'human primari'
+p190
+I1
+sS'vapors exit cryosurg'
+p191
+I1
+sS'isoentropic expans'
+p192
+I2
+sS'biological tissu'
+p193
+I30
+sS'rapid controlled escape of'
+p194
+I2
+sS'cross-sectional geometri'
+p195
+I2
+sS'of a gaseous refriger'
+p196
+I1
+sS'rubinski'
+p197
+I1
+sS'of the biological tissu'
+p198
+I10
+sS'predisposit'
+p199
+I1
+sS'geometri'
+p200
+I3
+sS'adenocarcinoma cel'
+p201
+I2
+sS'led ind'
+p202
+I3
+sS'primary prostatic adenocarcinoma cel'
+p203
+I2
+sS'washington'
+p204
+I1
+sS'ordinary skil'
+p205
+I1
+sS'freeze zon'
+p206
+I1
+sS'restrict'
+p207
+I5
+sS'guard'
+p208
+I11
+sS'membran'
+p209
+I1
+sS'working tip'
+p210
+I2
+sS'cuterag'
+p211
+I1
+sS'ergonomic comfort'
+p212
+I1
+sS'transfer'
+p213
+I2
+sS'philadelphia'
+p214
+I1
+sS'liquid refrigerant duct'
+p215
+I1
+sS'fraction'
+p216
+I1
+sS'suit'
+p217
+I1
+sS'washington dc'
+p218
+I1
+sS'retaining device s'
+p219
+I1
+sS'excessive exposure of'
+p220
+I10
+sS'conduit'
+p221
+I3
+sS'thaw'
+p222
+I1
+sS'liquid gas'
+p223
+I1
+sS'evaporative cooling of'
+p224
+I1
+sS'exhaust valv'
+p225
+I1
+sS'exit cryosurgical prob'
+p226
+I1
+sS'of the target tissu'
+p227
+I1
+sS'tissu'
+p228
+I34
+sS'refriger'
+p229
+I12
+sS'butan'
+p230
+I4
+sS'rapid warm'
+p231
+I1
+sS'the biological tissu'
+p232
+I10
+sS'exemplary cryosurgical prob'
+p233
+I1
+sS'target'
+p234
+I4
+sS'provid'
+p235
+I2
+sS'human primary prostatic adenocarcinoma cel'
+p236
+I1
+sS'cryogenic freez'
+p237
+I1
+sS'excessive exposure of th'
+p238
+I10
+sS'human primary prostat'
+p239
+I1
+sS'liquid gas storage contain'
+p240
+I1
+sS'the target tissu'
+p241
+I1
+sS'display'
+p242
+I6
+sS'atmospher'
+p243
+I1
+sS'rapid evapor'
+p244
+I2
+sS'seal'
+p245
+I2
+sS'decreas'
+p246
+I1
+sS'rapid escape of the gaseous refriger'
+p247
+I1
+sS'gaseous expans'
+p248
+I1
+sS'titl'
+p249
+I1
+sS'tip'
+p250
+I7
+sS'rapid escape of th'
+p251
+I1
+sS'automatic control of th'
+p252
+I1
+sS'treatment sess'
+p253
+I1
+sS'high-pressure hos'
+p254
+I1
+sS'of a cryosurgical prob'
+p255
+I1
+sS'nitrous oxid'
+p256
+I4
+sS'condens'
+p257
+I4
+sS'cross-sectional shape of'
+p258
+I1
+sS'rapid controlled escape of the ga'
+p259
+I2
+sS'liquid condens'
+p260
+I2
+sS'joule-thomson instru'
+p261
+I1
+sS'liquid refriger'
+p262
+I8
+sS'cross-sectional shape of receiv'
+p263
+I1
+sS'droplet'
+p264
+I1
+sS'hypertroph'
+p265
+I1
+sS'ophthalmic instru'
+p266
+I1
+sS'destruct'
+p267
+I2
+sS'rapid escap'
+p268
+I1
+sS'facial hypertroph'
+p269
+I1
+stp270
+Rp271
+tp272
+.

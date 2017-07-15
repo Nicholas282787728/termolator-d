@@ -1,0 +1,752 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'monterey'
+p7
+I1
+sS'undesirable reflect'
+p8
+I1
+sS'circuitri'
+p9
+I3
+sS'electromagnetic model'
+p10
+I1
+sS'cross-sectional view of a multi-element broadside feed array'
+p11
+I1
+sS'planar filter-lens-array for'
+p12
+I1
+sS'conductive epoxi'
+p13
+I1
+sS'slotlin'
+p14
+I2
+sS'paper'
+p15
+I2
+sS'multi-element broadsid'
+p16
+I3
+sS'plan view of a multi-element broadside fe'
+p17
+I1
+sS'y-direct'
+p18
+I1
+sS'skill'
+p19
+I1
+sS'disk'
+p20
+I3
+sS'ieee'
+p21
+I1
+sS'planar discrete len'
+p22
+I3
+sS'slot'
+p23
+I2
+sS'elliptical dielectric electromagnetic len'
+p24
+I2
+sS'depend'
+p25
+I1
+sS'vice versa'
+p26
+I1
+sS'ebling james p'
+p27
+I1
+sS'conductive patch'
+p28
+I23
+sS'transact'
+p29
+I1
+sS'radiative port'
+p30
+I1
+sS'board'
+p31
+I12
+sS'versa'
+p32
+I1
+sS'pcb'
+p33
+I1
+sS'planar filter-lens-array'
+p34
+I1
+sS'transmission line interpos'
+p35
+I2
+sS'conductive feedlin'
+p36
+I1
+sS'loss plast'
+p37
+I1
+sS'plano-cylindrical len'
+p38
+I1
+sS'electromagnetic coupl'
+p39
+I1
+sS'the focal length f'
+p40
+I1
+sS'wave'
+p41
+I3
+sS'dielectric layer interpos'
+p42
+I1
+sS'beam'
+p43
+I3
+sS'cylindrical rod of teflon'
+p44
+I1
+sS'slot fe'
+p45
+I1
+sS'coplanar striplin'
+p46
+I2
+sS'excessive undesirable reflect'
+p47
+I1
+sS'loss tang'
+p48
+I1
+sS'loss'
+p49
+I2
+sS'plastic co'
+p50
+I1
+sS'epoxi'
+p51
+I1
+sS'three-pole filt'
+p52
+I1
+sS'u-shap'
+p53
+I1
+sS'relative dielectric const'
+p54
+I1
+sS'radiat'
+p55
+I4
+sS'ap-s int'
+p56
+I1
+sS'feedlin'
+p57
+I1
+sS'ieee transact'
+p58
+I1
+sS'elevation plane of the multi-beam antenna'
+p59
+I1
+sS'quarter-wave groov'
+p60
+I1
+sS'ordinary skil'
+p61
+I1
+sS'electromagnetic wav'
+p62
+I4
+sS'incid'
+p63
+I1
+sS'ebl'
+p64
+I1
+sS'la jolla'
+p65
+I2
+sS'electromagnetic energi'
+p66
+I26
+sS'duroid'
+p67
+I4
+sS'conductive layer interpos'
+p68
+I4
+sS'striplin'
+p69
+I4
+sS'focal length f'
+p70
+I2
+sS'energi'
+p71
+I26
+sS'plan view of a multi-element broadside feed array'
+p72
+I1
+sS'bandpass filt'
+p73
+I1
+sS'port'
+p74
+I5
+sS'coplanar-waveguid'
+p75
+I1
+sS'transmiss'
+p76
+I34
+sS'printed circuit board'
+p77
+I1
+sS'technical pap'
+p78
+I2
+sS'dual polar'
+p79
+I1
+sS'network'
+p80
+I12
+sS'lamin'
+p81
+I4
+sS'feed array'
+p82
+I26
+sS'phased-array portion of a multi-element broadside fe'
+p83
+I1
+sS'radi'
+p84
+I1
+sS'profil'
+p85
+I1
+sS'subject matt'
+p86
+I1
+sS'folded-dipol'
+p87
+I1
+sS'spherical dielectric electromagnetic len'
+p88
+I2
+sS'double-dipol'
+p89
+I1
+sS'conduct'
+p90
+I22
+sS'dipol'
+p91
+I2
+sS'electromagnetic len'
+p92
+I24
+sS'distal broadsid'
+p93
+I1
+sS'linear'
+p94
+I1
+sS'microstrip-type antenna'
+p95
+I1
+sS'x-direct'
+p96
+I1
+sS'individual patch'
+p97
+I2
+sS'len'
+p98
+I142
+sS'polarization of'
+p99
+I1
+sS'polarization of the radi'
+p100
+I1
+sS'phased-array portion of'
+p101
+I1
+sS'symp'
+p102
+I1
+sS'tangent'
+p103
+I1
+sS'la jolla ca'
+p104
+I2
+sS'of the radi'
+p105
+I1
+sS'plano-spher'
+p106
+I1
+sS'radiation incid'
+p107
+I1
+sS'double-slot'
+p108
+I1
+sS'full-wave electromagnetic model'
+p109
+I1
+sS'single-beam antenna'
+p110
+I1
+sS'cambridge court'
+p111
+I1
+sS'collimated beam'
+p112
+I1
+sS'discrete len'
+p113
+I3
+sS'loss plastic co'
+p114
+I1
+sS'multibeam'
+p115
+I1
+sS'plan cross-sectional view of a multi-element broadside feed array'
+p116
+I1
+sS'frequenc'
+p117
+I11
+sS'la'
+p118
+I2
+sS'linear array'
+p119
+I1
+sS'sarabandi'
+p120
+I1
+sS'of the multi-beam antenna'
+p121
+I3
+sS'filter'
+p122
+I2
+sS'int'
+p123
+I1
+sS'plane'
+p124
+I14
+sS'logic'
+p125
+I2
+sS'cylindrical rod'
+p126
+I1
+sS'dipole antenna'
+p127
+I1
+sS'elliptical len'
+p128
+I1
+sS'feed'
+p129
+I1
+sS'plan view of'
+p130
+I1
+sS'automatic cruis'
+p131
+I1
+sS'of a multi-beam antenna'
+p132
+I4
+sS'ground'
+p133
+I3
+sS'ca'
+p134
+I2
+sS'elevation plane of th'
+p135
+I1
+sS'plan cross-sectional view of a multi-element broadside fe'
+p136
+I1
+sS'cross-array'
+p137
+I1
+sS'one-dimensional arrays of broadside fe'
+p138
+I1
+sS'suppli'
+p139
+I2
+sS'constant'
+p140
+I3
+sS'array'
+p141
+I29
+sS'impedance-match'
+p142
+I2
+sS'teflon'
+p143
+I6
+sS'delay profil'
+p144
+I1
+sS'mm-wave frequ'
+p145
+I1
+sS'coupl'
+p146
+I2
+sS'peripheral contour'
+p147
+I1
+sS'patch'
+p148
+I2
+sS'relative flat'
+p149
+I1
+sS'ground plan'
+p150
+I12
+sS'cross-sectional plan'
+p151
+I1
+sS'planar len'
+p152
+I26
+sS'broadside feed array'
+p153
+I26
+sS'etch'
+p154
+I4
+sS'of the focal length f'
+p155
+I1
+sS'flat'
+p156
+I1
+sS'network of th'
+p157
+I1
+sS'environmental protect'
+p158
+I1
+sS'of a multi-element broadside feed array'
+p159
+I6
+sS'protect'
+p160
+I1
+sS'gap'
+p161
+I2
+sS'multi-beam antenna'
+p162
+I35
+sS'groov'
+p163
+I1
+sS'glass-epoxy circuit board'
+p164
+I1
+sS'microstrip patch'
+p165
+I1
+sS'ebling jam'
+p166
+I1
+sS'multi-element broadside fe'
+p167
+I24
+sS'plan cross-sectional view of'
+p168
+I1
+sS'therebetweeen'
+p169
+I1
+sS'd of the focal length f'
+p170
+I1
+sS'dielectric electromagnet'
+p171
+I1
+sS'f'
+p172
+I4
+sS'radom'
+p173
+I1
+sS'cambridg'
+p174
+I1
+sS'focal plan'
+p175
+I2
+sS'matter'
+p176
+I1
+sS'polarization of th'
+p177
+I1
+sS'spherical len'
+p178
+I2
+sS'individual patch antenna'
+p179
+I2
+sS'fr4'
+p180
+I1
+sS'plane of the multi-beam antenna'
+p181
+I1
+sS'b h'
+p182
+I1
+sS'abbaspour-tamijani'
+p183
+I1
+sS'phased-array portion of a multi-element broadside feed array'
+p184
+I1
+sS'jolla ca'
+p185
+I2
+sS'elevation plane of'
+p186
+I1
+sS'ion etch'
+p187
+I4
+sS'ray-trac'
+p188
+I1
+sS'planar'
+p189
+I2
+sS'one-dimensional arrays of'
+p190
+I1
+sS'rod of teflon'
+p191
+I1
+sS'pin'
+p192
+I1
+sS'scan'
+p193
+I2
+sS'broadsid'
+p194
+I4
+sS'of'
+p195
+I3
+sS'dielectric const'
+p196
+I3
+sS'multi-element broadside feed array'
+p197
+I30
+sS'multibeam antenna'
+p198
+I1
+sS'cylindrical rod of'
+p199
+I1
+sS'automotive collision avoid'
+p200
+I1
+sS'conductive ground plan'
+p201
+I9
+sS'of teflon'
+p202
+I1
+sS'network of'
+p203
+I1
+sS'interconnect'
+p204
+I14
+sS'conductive interconnect'
+p205
+I13
+sS'conventional printed circuit board'
+p206
+I1
+sS'transmission line delay'
+p207
+I1
+sS'slot antenna'
+p208
+I1
+sS'court'
+p209
+I1
+sS'antenna'
+p210
+I42
+sS'off-axi'
+p211
+I1
+sS'of th'
+p212
+I1
+sS'parallel planar'
+p213
+I2
+sS'cylindrical len'
+p214
+I1
+sS'integral multi-beam antenna'
+p215
+I1
+sS'contour'
+p216
+I1
+sS'delay'
+p217
+I63
+sS'patch antenna'
+p218
+I2
+sS'micro-mechanical switch'
+p219
+I1
+sS'divers'
+p220
+I2
+sS'conductive ground'
+p221
+I9
+sS'deposit'
+p222
+I4
+sS'switch network'
+p223
+I6
+sS'polar'
+p224
+I4
+sS'one-dimensional array'
+p225
+I3
+sS'rebeiz'
+p226
+I1
+sS'azimuthal depend'
+p227
+I1
+sS'plano-convex block of'
+p228
+I2
+sS'reflect'
+p229
+I1
+sS'cylindrical disk'
+p230
+I3
+sS'dielectr'
+p231
+I48
+sS'plan'
+p232
+I7
+sS'transceiv'
+p233
+I2
+sS'the multi-beam antenna'
+p234
+I2
+sS'elevation plan'
+p235
+I1
+sS'cylindrical dielectric electromagnetic len'
+p236
+I2
+sS'microstrip'
+p237
+I1
+sS'the radi'
+p238
+I1
+sS'transistor switch'
+p239
+I1
+sS'vice'
+p240
+I1
+sS'interpos'
+p241
+I14
+sS'coat'
+p242
+I1
+sS'therebetween'
+p243
+I3
+sS'ghz'
+p244
+I4
+sS'convex electromagnetic len'
+p245
+I1
+sS'switch'
+p246
+I8
+sS'dielectric electromagnetic len'
+p247
+I10
+sS'azimuth'
+p248
+I2
+sS'electrical coupl'
+p249
+I1
+sS'model'
+p250
+I1
+sS'cpw'
+p251
+I1
+stp252
+Rp253
+tp254
+.

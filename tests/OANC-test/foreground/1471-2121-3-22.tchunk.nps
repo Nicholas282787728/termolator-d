@@ -1,0 +1,2051 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'cellular rna'
+p7
+I1
+sS'pathway of cell cycle inhibit'
+p8
+I1
+sS'chain'
+p9
+I1
+sS'prostate canc'
+p10
+I8
+sS'continuous presence of mib'
+p11
+I1
+sS'proteolytic downregul'
+p12
+I1
+sS'scf'
+p13
+I4
+sS'centrifug'
+p14
+I2
+sS'excess of the antiandrogen cyproterone acet'
+p15
+I1
+sS'cancer cell line lncap'
+p16
+I1
+sS'correl'
+p17
+I2
+sS'neoplasia'
+p18
+I1
+sS'sds sampl'
+p19
+I2
+sS'genetex'
+p20
+I1
+sS'depend'
+p21
+I1
+sS'morphological gland integr'
+p22
+I1
+sS'overexpress'
+p23
+I9
+sS'sds sample buff'
+p24
+I3
+sS'leupeptin'
+p25
+I2
+sS'phosphorylation sit'
+p26
+I1
+sS'tween'
+p27
+I1
+sS'lncap cell lys'
+p28
+I3
+sS'molar excess of'
+p29
+I1
+sS'lncap cel'
+p30
+I24
+sS'neomark'
+p31
+I3
+sS'adenoviral dna'
+p32
+I2
+sS'androgen-mediated pathway of'
+p33
+I1
+sS'androgen act'
+p34
+I1
+sS'biotechnology sc-163'
+p35
+I1
+sS'assay'
+p36
+I4
+sS'phosphorylation of'
+p37
+I1
+sS'autoradiographi'
+p38
+I2
+sS'kcl'
+p39
+I1
+sS'skp'
+p40
+I1
+sS'androgen response mechanism of lncap cel'
+p41
+I1
+sS'sonnenschein'
+p42
+I1
+sS'castration lead'
+p43
+I1
+sS'molar excess'
+p44
+I1
+sS'cdk'
+p45
+I1
+sS'quantit'
+p46
+I2
+sS'androgen-mediated pathway of cell cycle inhibit'
+p47
+I1
+sS'tri'
+p48
+I1
+sS'of wildtyp'
+p49
+I1
+sS'administr'
+p50
+I2
+sS'p27 degrad'
+p51
+I1
+sS'human prost'
+p52
+I1
+sS'proteolysis of'
+p53
+I1
+sS'growth inhibiting levels of'
+p54
+I1
+sS'rb1 downregul'
+p55
+I1
+sS'supplement'
+p56
+I1
+sS'min'
+p57
+I4
+sS'transduct'
+p58
+I1
+sS'ad-skp2-\xce\x94f'
+p59
+I2
+sS'lncap m rna'
+p60
+I1
+sS'cytometri'
+p61
+I4
+sS'mib-induc'
+p62
+I1
+sS'hepes ph'
+p63
+I1
+sS'androgen-mediated p27'
+p64
+I3
+sS'speci'
+p65
+I2
+sS'acid'
+p66
+I1
+sS'cul1'
+p67
+I4
+sS'kinas'
+p68
+I2
+sS'mib-arrested lncap cel'
+p69
+I1
+sS'co-expression of'
+p70
+I1
+sS'cycle arrest'
+p71
+I5
+sS'atp-dependent activation of ubiquitin'
+p72
+I1
+sS'amersham hybond'
+p73
+I1
+sS'cell'
+p74
+I61
+sS'abbrevi'
+p75
+I1
+sS'cyclin e complex'
+p76
+I1
+sS'therapeutic intervent'
+p77
+I1
+sS'suppress'
+p78
+I1
+sS'dihydrotestosteron'
+p79
+I1
+sS'consolid'
+p80
+I1
+sS'prostate cancer cell line lncap'
+p81
+I1
+sS'northern blotting isol'
+p82
+I1
+sS'ethanol'
+p83
+I1
+sS'wildtyp'
+p84
+I2
+sS'lamin b lead'
+p85
+I1
+sS'interpret'
+p86
+I1
+sS'p27 upregul'
+p87
+I2
+sS'integral components of'
+p88
+I1
+sS'antiandrogen cyproterone acet'
+p89
+I2
+sS'recent studi'
+p90
+I1
+sS'biochemical studi'
+p91
+I1
+sS'ubiquitin-conjugating enzym'
+p92
+I1
+sS'studi'
+p93
+I3
+sS'gene'
+p94
+I2
+sS'glass coverslip'
+p95
+I1
+sS'subunit of'
+p96
+I1
+sS'immunocomplex'
+p97
+I1
+sS'mib-induced cell cycle arrest'
+p98
+I1
+sS'rpmi'
+p99
+I1
+sS'mutant'
+p100
+I4
+sS'bj-adeasy cel'
+p101
+I2
+sS's phase entry of mib-arrested lncap cel'
+p102
+I1
+sS'genetex ms-jab11-px1'
+p103
+I1
+sS'induced inhibit'
+p104
+I1
+sS'dna'
+p105
+I2
+sS'androgen control of lncap cel'
+p106
+I1
+sS'pten'
+p107
+I1
+sS'aneuploid derivatives of a metastatic les'
+p108
+I1
+sS'ms-1061'
+p109
+I1
+sS'potential target for'
+p110
+I2
+sS'chx'
+p111
+I1
+sS'nuclear stain'
+p112
+I1
+sS'aneuploid deriv'
+p113
+I1
+sS'perkin elm'
+p114
+I1
+sS'tissue culture lncap-fgc cel'
+p115
+I1
+sS'asynchronous lncap cel'
+p116
+I1
+sS'atp-dependent activ'
+p117
+I1
+sS'creatine phosph'
+p118
+I1
+sS'padtrack1 shuttl'
+p119
+I1
+sS'gene induc'
+p120
+I1
+sS'skp-\xce\x94f'
+p121
+I1
+sS'ml'
+p122
+I1
+sS'derivatives of a metastatic les'
+p123
+I1
+sS'transcriptional target of th'
+p124
+I1
+sS'androgen-sensit'
+p125
+I1
+sS'kinase activity assay'
+p126
+I1
+sS'cell line lncap'
+p127
+I2
+sS'administration of mib'
+p128
+I1
+sS'antibodi'
+p129
+I5
+sS'androgen control of p27 express'
+p130
+I1
+sS'santo cruz'
+p131
+I1
+sS'tag'
+p132
+I1
+sS'santa cruz sc-7164'
+p133
+I1
+sS'enzyme cdc34'
+p134
+I1
+sS'differenti'
+p135
+I2
+sS'csn'
+p136
+I2
+sS'baculovirus'
+p137
+I1
+sS'molar excess of th'
+p138
+I1
+sS'polyubiquitylation of wildtyp'
+p139
+I1
+sS'cell cycle progression of'
+p140
+I1
+sS'of mib'
+p141
+I3
+sS'gland integr'
+p142
+I1
+sS'lncap cell prolifer'
+p143
+I1
+sS'potential target for intervent'
+p144
+I1
+sS'ubiquitin'
+p145
+I4
+sS'lesion'
+p146
+I1
+sS'phenotype of lncap cel'
+p147
+I1
+sS'staining for p27'
+p148
+I1
+sS'proteolysis of p27'
+p149
+I1
+sS'target for intervent'
+p150
+I1
+sS'fb'
+p151
+I1
+sS'infection of'
+p152
+I1
+sS'aneuploid derivatives of'
+p153
+I1
+sS'stabil'
+p154
+I3
+sS'aliquots of phosphorylated protein'
+p155
+I1
+sS'androgen control of p27'
+p156
+I1
+sS'bind'
+p157
+I2
+sS'para-formaldehyd'
+p158
+I1
+sS'immunofluorescence stain'
+p159
+I4
+sS'androgen-induced g1 arrest'
+p160
+I2
+sS'mib-arrested cel'
+p161
+I2
+sS'critical cdk2'
+p162
+I1
+sS'proteolysi'
+p163
+I4
+sS'sd'
+p164
+I4
+sS'photoshop'
+p165
+I1
+sS's phase entri'
+p166
+I4
+sS'androgen receptor'
+p167
+I1
+sS'mm tri'
+p168
+I1
+sS'cell cycle inhibit'
+p169
+I1
+sS'secondary antibodi'
+p170
+I1
+sS'microscop'
+p171
+I1
+sS'invasive carcinoma'
+p172
+I1
+sS'downregulation of'
+p173
+I1
+sS'pcr'
+p174
+I4
+sS'of mib-arrested cel'
+p175
+I1
+sS'androgen control of lncap cell prolifer'
+p176
+I1
+sS's phase entry of'
+p177
+I1
+sS'suppressor'
+p178
+I2
+sS'overexpression of skp-\xce\x94f'
+p179
+I1
+sS'g1 cell cycle arrest'
+p180
+I2
+sS'g bead'
+p181
+I1
+sS'transcriptional target of'
+p182
+I1
+sS'downregulation of the cyclin-dependent kinas'
+p183
+I1
+sS'accumulation of p27 protein'
+p184
+I1
+sS'ubiquityl'
+p185
+I8
+sS'adeasi'
+p186
+I1
+sS'calcium phosph'
+p187
+I1
+sS'androgen response mechanism of'
+p188
+I1
+sS'miboleron'
+p189
+I1
+sS'dht'
+p190
+I1
+sS'androgen-induced growth'
+p191
+I1
+sS'p27 accumul'
+p192
+I2
+sS'complementary dna'
+p193
+I1
+sS'ubiquitin transf'
+p194
+I1
+sS'perkin'
+p195
+I1
+sS'the cyclin-dependent kinas'
+p196
+I1
+sS'slide'
+p197
+I1
+sS'mrna'
+p198
+I2
+sS'ab-6'
+p199
+I1
+sS'androgen-induced growth arrest'
+p200
+I1
+sS'intervent'
+p201
+I2
+sS'ab-2'
+p202
+I1
+sS'northern blotting isolation of'
+p203
+I1
+sS'ab-1'
+p204
+I1
+sS'as3'
+p205
+I2
+sS'intraepithelial neoplasia'
+p206
+I1
+sS'cell cycle arrest'
+p207
+I5
+sS'life sci'
+p208
+I1
+sS'quickchang'
+p209
+I1
+sS'laboratori'
+p210
+I1
+sS'aggressive prostate canc'
+p211
+I1
+sS'of p27 degrad'
+p212
+I2
+sS'of sds sample buff'
+p213
+I2
+sS'ectopic proteolysi'
+p214
+I1
+sS'immobilon p membran'
+p215
+I1
+sS'for p27'
+p216
+I1
+sS'continuous presence of'
+p217
+I2
+sS'two-fold'
+p218
+I1
+sS'epifluorescence microscop'
+p219
+I1
+sS'inactiv'
+p220
+I2
+sS'vector'
+p221
+I1
+sS'androgen dihydrotestosteron'
+p222
+I1
+sS'ra'
+p223
+I1
+sS'inhibitor p27'
+p224
+I1
+sS'of cyclin'
+p225
+I1
+sS'hepatocyt'
+p226
+I1
+sS'androgen control of'
+p227
+I2
+sS'of asynchronous lncap cel'
+p228
+I1
+sS're-administration of'
+p229
+I1
+sS'circumstantial evid'
+p230
+I1
+sS'inhibition correl'
+p231
+I1
+sS'hrt1'
+p232
+I3
+sS'downregulation of p27'
+p233
+I2
+sS'growth inhibit'
+p234
+I2
+sS'phenotype of'
+p235
+I1
+sS'm rna'
+p236
+I1
+sS'dna fragments for skp2'
+p237
+I1
+sS'e1'
+p238
+I1
+sS'androgen-induced p27'
+p239
+I1
+sS'isolation of total cellular rna'
+p240
+I1
+sS'recombinant cyclin '
+p241
+I2
+sS'androgen-mediated pathway of cel'
+p242
+I1
+sS'pmsf'
+p243
+I2
+sS'sc-163'
+p244
+I1
+sS'cruz sc-7164'
+p245
+I1
+sS'ubiquitin-conjugating enzyme cdc34'
+p246
+I1
+sS'atp'
+p247
+I5
+sS'mib induced inhibit'
+p248
+I1
+sS'padtrack1 shuttle vector'
+p249
+I1
+sS'molar excess of the antiandrogen cyproteron'
+p250
+I1
+sS'phosphoryl'
+p251
+I4
+sS'manuscript'
+p252
+I1
+sS'target for therapeutic intervent'
+p253
+I1
+sS'vitro'
+p254
+I3
+sS'nacl'
+p255
+I1
+sS'infection of asynchronous lncap cel'
+p256
+I1
+sS'of lncap cell prolifer'
+p257
+I2
+sS'supernat'
+p258
+I1
+sS'\xce\xbcg cell lys'
+p259
+I1
+sS'membran'
+p260
+I1
+sS'cop9'
+p261
+I1
+sS'cycle exit'
+p262
+I1
+sS'l-f'
+p263
+I1
+sS'pre-castration cel'
+p264
+I1
+sS'of cell cycle inhibit'
+p265
+I1
+sS'cks1'
+p266
+I1
+sS'ml leupeptin'
+p267
+I2
+sS'viral oncoprotein'
+p268
+I1
+sS'the antiandrogen cyproterone acet'
+p269
+I1
+sS'adenovirus'
+p270
+I3
+sS'mib induc'
+p271
+I1
+sS'molecular weight speci'
+p272
+I1
+sS'rat fibroblast'
+p273
+I4
+sS'f-box'
+p274
+I5
+sS'incub'
+p275
+I1
+sS'tissue-specific regul'
+p276
+I1
+sS'protein synthesi'
+p277
+I1
+sS'down-regulation of p27'
+p278
+I2
+sS'p27 gene'
+p279
+I1
+sS'tissu'
+p280
+I1
+sS'down-regulation of'
+p281
+I2
+sS'ubiquitin chain'
+p282
+I1
+sS'primary rat hepatocyt'
+p283
+I1
+sS'perkin elmer life sci'
+p284
+I1
+sS'target'
+p285
+I1
+sS'santo cruz biotechnolog'
+p286
+I1
+sS'of total cellular rna'
+p287
+I1
+sS'cyclin'
+p288
+I3
+sS'p27'
+p289
+I31
+sS'mib-treated cel'
+p290
+I2
+sS'shuttle vector'
+p291
+I1
+sS'nikon e600 epifluorescence microscop'
+p292
+I1
+sS'plasmid'
+p293
+I2
+sS'mm kcl'
+p294
+I1
+sS'of the cop9'
+p295
+I1
+sS'dtt'
+p296
+I1
+sS'tubulin'
+p297
+I2
+sS'nuclear staining for p27'
+p298
+I1
+sS'mib-induced g1 cell cycle arrest'
+p299
+I2
+sS'p membran'
+p300
+I1
+sS'gapdh prob'
+p301
+I1
+sS'co-expression of cyclin'
+p302
+I1
+sS'kinase act'
+p303
+I4
+sS'androgen-mediated cel'
+p304
+I2
+sS'activity assay'
+p305
+I1
+sS'p27 half-lif'
+p306
+I1
+sS'overexpression of pten'
+p307
+I1
+sS'insect cel'
+p308
+I1
+sS'caused arrest'
+p309
+I1
+sS'mib'
+p310
+I28
+sS'\xce\xbcm okadaic acid'
+p311
+I1
+sS'accumulation of p27'
+p312
+I2
+sS'of the cyclin-dependent kinas'
+p313
+I1
+sS'human e1'
+p314
+I1
+sS'sds gel electrophoresi'
+p315
+I3
+sS'phenotyp'
+p316
+I1
+sS'lamin b'
+p317
+I1
+sS'nuclear staining for'
+p318
+I1
+sS'buffer'
+p319
+I4
+sS'lncap-fgc cel'
+p320
+I1
+sS'electrophoresi'
+p321
+I5
+sS'electropor'
+p322
+I1
+sS'prolifer'
+p323
+I6
+sS'carcinoma'
+p324
+I1
+sS'of skp2'
+p325
+I1
+sS'pelvic lymph'
+p326
+I1
+sS'zyme'
+p327
+I2
+sS'transcript'
+p328
+I4
+sS'model'
+p329
+I1
+sS'activation of ubiquitin'
+p330
+I1
+sS'synthesi'
+p331
+I1
+sS'upregulation of p27'
+p332
+I1
+sS'mgcl'
+p333
+I1
+sS'jab1'
+p334
+I2
+sS'half-lif'
+p335
+I3
+sS'mutant skp2-\xce\x94f'
+p336
+I1
+sS'prostate epithelial cel'
+p337
+I1
+sS'cancer specimen'
+p338
+I1
+sS'downregulation of th'
+p339
+I1
+sS'normal human prost'
+p340
+I1
+sS'cell cycle progression of mib-arrested cel'
+p341
+I1
+sS'the ar'
+p342
+I1
+sS'mm pmsf'
+p343
+I2
+sS'androgen-mediated cell cycl'
+p344
+I2
+sS'mm hepes ph'
+p345
+I1
+sS'upregul'
+p346
+I10
+sS'x100'
+p347
+I4
+sS'ms-jab11-px1'
+p348
+I1
+sS'probe'
+p349
+I1
+sS'alanin'
+p350
+I1
+sS'sds gel'
+p351
+I3
+sS'recombin'
+p352
+I1
+sS'poly-lysin'
+p353
+I1
+sS'epitope tag'
+p354
+I1
+sS'recombinant human e1'
+p355
+I1
+sS'complementary dna frag'
+p356
+I1
+sS'vitro transcript'
+p357
+I3
+sS'northern'
+p358
+I1
+sS'inverse correl'
+p359
+I1
+sS'activ'
+p360
+I13
+sS'radiolabeled wildtyp'
+p361
+I1
+sS'n-terminal myc epitope tag'
+p362
+I1
+sS'c-terminal leucine-rich repeat'
+p363
+I1
+sS'cycle progress'
+p364
+I1
+sS'stain'
+p365
+I4
+sS'cycle inhibit'
+p366
+I1
+sS'nikon e600'
+p367
+I1
+sS'contribut'
+p368
+I1
+sS'simultaneous administration of mib'
+p369
+I1
+sS'express'
+p370
+I3
+sS'growth arrest'
+p371
+I1
+sS'ms-870'
+p372
+I1
+sS'progress'
+p373
+I1
+sS'bead'
+p374
+I1
+sS'ssc'
+p375
+I3
+sS'primary canc'
+p376
+I1
+sS'cancer cel'
+p377
+I4
+sS'experi'
+p378
+I1
+sS'enabl'
+p379
+I1
+sS'cycloheximid'
+p380
+I1
+sS'rna'
+p381
+I3
+sS'adenovir'
+p382
+I1
+sS'mutant p27'
+p383
+I1
+sS'final manuscript'
+p384
+I1
+sS'integr'
+p385
+I1
+sS'primary cancer specimen'
+p386
+I1
+sS'millipor'
+p387
+I1
+sS'pcdna3'
+p388
+I1
+sS'aldehyd'
+p389
+I1
+sS'gleason scor'
+p390
+I2
+sS'immobilon'
+p391
+I1
+sS'cyproterone acet'
+p392
+I2
+sS'rpmi suppl'
+p393
+I1
+sS'myc epitope tag'
+p394
+I1
+sS'tumor suppressor'
+p395
+I2
+sS'score'
+p396
+I1
+sS'prostate epithelial cell prolifer'
+p397
+I1
+sS'skp2-\xce\x94f mutant'
+p398
+I1
+sS'conjectur'
+p399
+I1
+sS'transcriptional target of the ar'
+p400
+I1
+sS'induc'
+p401
+I1
+sS'overexpression of skp2'
+p402
+I1
+sS'androgen'
+p403
+I7
+sS'cycl'
+p404
+I1
+sS'leucine-rich repeat'
+p405
+I1
+sS'of lncap cel'
+p406
+I6
+sS'of mib-arrested lncap cel'
+p407
+I1
+sS'metastatic les'
+p408
+I2
+sS'recombinant adenovirus'
+p409
+I1
+sS'of phosphorylated protein'
+p410
+I1
+sS'reaction'
+p411
+I3
+sS'polyubiquitylated high molecular weight speci'
+p412
+I1
+sS'ml ubiquitin'
+p413
+I1
+sS'transfer react'
+p414
+I1
+sS'csn5'
+p415
+I4
+sS'mutant of p27'
+p416
+I2
+sS'sc-7164'
+p417
+I1
+sS'prostate tumor'
+p418
+I1
+sS'of sds sampl'
+p419
+I1
+sS'cruz biotechnology sc-163'
+p420
+I1
+sS'skp2-\xce\x94f'
+p421
+I2
+sS'ubiquitin transfer react'
+p422
+I1
+sS'mib-induced g1 cel'
+p423
+I2
+sS'ca'
+p424
+I4
+sS'for skp2'
+p425
+I1
+sS'tissue cultur'
+p426
+I1
+sS'absolute ethanol'
+p427
+I1
+sS'for intervent'
+p428
+I1
+sS'of the antiandrogen cyproterone acet'
+p429
+I1
+sS'apoptosis-inducing act'
+p430
+I1
+sS'of p27 protein'
+p431
+I1
+sS'cell cycle exit'
+p432
+I1
+sS'cell cycl'
+p433
+I6
+sS'mib caused arrest'
+p434
+I1
+sS'vivo'
+p435
+I1
+sS'polyubiquitylation of'
+p436
+I1
+sS'rat hepatocyt'
+p437
+I1
+sS'rb1'
+p438
+I2
+sS'pb'
+p439
+I4
+sS'accumul'
+p440
+I11
+sS'santo cruz biotechnology sc-163'
+p441
+I1
+sS'mm atp'
+p442
+I2
+sS'g1 arrest'
+p443
+I4
+sS'p27 express'
+p444
+I1
+sS'epithelial cell prolifer'
+p445
+I1
+sS'adob'
+p446
+I1
+sS'infect'
+p447
+I5
+sS'p27 rna'
+p448
+I1
+sS'cdc34'
+p449
+I1
+sS'nikon'
+p450
+I1
+sS'coordin'
+p451
+I1
+sS'fibroblast'
+p452
+I4
+sS'polyubiquityl'
+p453
+I1
+sS'northern blotting isolation of total cellular rna'
+p454
+I1
+sS'inhibit'
+p455
+I4
+sS'cyclin '
+p456
+I11
+sS'mib-exposed cel'
+p457
+I1
+sS'anti-sens'
+p458
+I1
+sS'cell lys'
+p459
+I11
+sS'immunoblot'
+p460
+I5
+sS'subunit of th'
+p461
+I1
+sS'aliquots of'
+p462
+I1
+sS'amersham'
+p463
+I1
+sS'calcium'
+p464
+I1
+sS'lysat'
+p465
+I10
+sS'ubiquitylation assay'
+p466
+I1
+sS'proteolytic downregulation of'
+p467
+I1
+sS'observ'
+p468
+I1
+sS'molar excess of the antiandrogen cyproterone acet'
+p469
+I1
+sS'androgen-mediated pathway'
+p470
+I1
+sS'mib-treated lncap cel'
+p471
+I1
+sS'of skp-\xce\x94f'
+p472
+I1
+sS'perkin elmer lif'
+p473
+I1
+sS'mib-induced g1'
+p474
+I2
+sS'viru'
+p475
+I1
+sS'lncap'
+p476
+I4
+sS'site'
+p477
+I1
+sS'x-ray film'
+p478
+I1
+sS'of sd'
+p479
+I1
+sS'time-dependent downregulation of'
+p480
+I1
+sS'adobe photoshop'
+p481
+I1
+sS'simultaneous administration of'
+p482
+I1
+sS'protein'
+p483
+I15
+sS'phosphoimager for'
+p484
+I1
+sS'scienc'
+p485
+I1
+sS'prostate cel'
+p486
+I1
+sS'licl protocol'
+p487
+I1
+sS'f-box-dependent p27'
+p488
+I1
+sS'atp-dependent activation of'
+p489
+I1
+sS'\xce\xbcg cell'
+p490
+I1
+sS'potential target'
+p491
+I2
+sS'lysates for immunoprecipit'
+p492
+I1
+sS'lymph nod'
+p493
+I1
+sS'reverse transcript'
+p494
+I1
+sS'blotting isolation of total cellular rna'
+p495
+I1
+sS'santa cruz'
+p496
+I1
+sS'cyclin-dependent kinas'
+p497
+I2
+sS'complex'
+p498
+I5
+sS'androgen administr'
+p499
+I2
+sS'transcriptional target'
+p500
+I1
+sS'cell lysates for'
+p501
+I1
+sS'subunit'
+p502
+I2
+sS'target of the ar'
+p503
+I1
+sS'subunit of the cop9'
+p504
+I1
+sS'overexpression of'
+p505
+I3
+sS'evid'
+p506
+I1
+sS'prostate cancer cel'
+p507
+I3
+sS'androgen-induced g1'
+p508
+I2
+sS'mib-induced p27 upregul'
+p509
+I1
+sS'vitro studi'
+p510
+I1
+sS'e600 epifluorescence microscop'
+p511
+I1
+sS'progression of mib-arrested cel'
+p512
+I1
+sS'p27 mrna'
+p513
+I2
+sS'total cellular rna'
+p514
+I1
+sS'ectopic degrad'
+p515
+I1
+sS'entri'
+p516
+I6
+sS'androgen-induced p27 upregul'
+p517
+I1
+sS'immobilon p'
+p518
+I1
+sS'cyclin e kinas'
+p519
+I1
+sS'target protein'
+p520
+I1
+sS'androgen-mediated g1 arrest'
+p521
+I1
+sS'micrograph'
+p522
+I1
+sS'ip-lb'
+p523
+I3
+sS'protocol'
+p524
+I1
+sS'abund'
+p525
+I1
+sS'\xce\xbcm mg132'
+p526
+I1
+sS'potential target for therapeutic intervent'
+p527
+I1
+sS'proteasom'
+p528
+I1
+sS'for immunoprecipit'
+p529
+I1
+sS'molar excess of the antiandrogen'
+p530
+I1
+sS'microscopy slid'
+p531
+I1
+sS'homozygous inactiv'
+p532
+I1
+sS'dht-treated cel'
+p533
+I1
+sS'concentr'
+p534
+I2
+sS'cell lysates for immunoprecipit'
+p535
+I1
+sS'cancer'
+p536
+I7
+sS'coverslip'
+p537
+I3
+sS'e kinase act'
+p538
+I1
+sS'arrest'
+p539
+I13
+sS'pelvic lymph nod'
+p540
+I1
+sS'immunological techniques cell lys'
+p541
+I1
+sS'mib-induced cel'
+p542
+I1
+sS'gel electrophoresi'
+p543
+I5
+sS'cell cycle progress'
+p544
+I2
+sS'mutant of'
+p545
+I1
+sS'specimen'
+p546
+I1
+sS'of p27'
+p547
+I11
+sS'down-regul'
+p548
+I1
+sS'deplet'
+p549
+I2
+sS'atcc'
+p550
+I1
+sS'falcon'
+p551
+I1
+sS'secretory cel'
+p552
+I1
+sS'enzymatic react'
+p553
+I1
+sS'fragments for skp2'
+p554
+I1
+sS'of ubiquitin'
+p555
+I1
+sS'aggressive prost'
+p556
+I1
+sS'ad-skp2'
+p557
+I3
+sS'androgen-mediated growth control of lncap cel'
+p558
+I1
+sS'androgen miboleron'
+p559
+I1
+sS'phosphorylated protein'
+p560
+I1
+sS'triton x100'
+p561
+I4
+sS'culture lncap-fgc cel'
+p562
+I1
+sS'phosphorylation of p27'
+p563
+I1
+sS'hypotonic lysi'
+p564
+I2
+sS'cm falcon'
+p565
+I1
+sS'salin'
+p566
+I1
+sS'demarzo'
+p567
+I1
+sS'sample buff'
+p568
+I3
+sS'elmer life sci'
+p569
+I1
+sS'\xce\xbcm ubiquitin aldehyd'
+p570
+I1
+sS'growth'
+p571
+I2
+sS'primary rat'
+p572
+I1
+sS'proteolytic downregulation of p27'
+p573
+I1
+sS'steady-state p27 protein'
+p574
+I1
+sS'of a metastatic les'
+p575
+I1
+sS'of p27 express'
+p576
+I2
+sS'postmitotic differenti'
+p577
+I1
+sS'lead'
+p578
+I1
+sS'okadaic acid'
+p579
+I1
+sS'growth control of lncap cel'
+p580
+I1
+sS'parallel experi'
+p581
+I1
+sS'vitro assay'
+p582
+I1
+sS'prostatic intraepithelial neoplasia'
+p583
+I1
+sS'exit'
+p584
+I1
+sS'entry of mib-arrested lncap cel'
+p585
+I2
+sS'complementary dna fragments for skp2'
+p586
+I1
+sS'mib caus'
+p587
+I1
+sS'cell prolifer'
+p588
+I2
+sS'accumulation of'
+p589
+I2
+sS'escap'
+p590
+I1
+sS'santa'
+p591
+I1
+sS'santo'
+p592
+I1
+sS'normal biphasic mechanism of'
+p593
+I1
+sS'phosphoimager for signal quantit'
+p594
+I1
+sS'of'
+p595
+I3
+sS'northern blot'
+p596
+I1
+sS'tris-buffered salin'
+p597
+I1
+sS'tumor'
+p598
+I1
+sS'time-dependent downregul'
+p599
+I1
+sS'mg132'
+p600
+I1
+sS'prostat'
+p601
+I2
+sS'triton'
+p602
+I4
+sS'mib-induced rb1'
+p603
+I1
+sS'stratagen'
+p604
+I1
+sS'upregulation of'
+p605
+I1
+sS'ubiquitin aldehyd'
+p606
+I1
+sS'cdk2'
+p607
+I2
+sS'receptor'
+p608
+I1
+sS'mm dtt'
+p609
+I1
+sS'simultaneous administr'
+p610
+I1
+sS'individual cel'
+p611
+I1
+sS'transform'
+p612
+I1
+sS'ubiquitylation act'
+p613
+I2
+sS'fraction'
+p614
+I1
+sS'for signal quantit'
+p615
+I1
+sS'complementary dna fragments for'
+p616
+I1
+sS'cdk2 phosphorylation sit'
+p617
+I1
+sS'rb-012'
+p618
+I1
+sS'high molecular weight speci'
+p619
+I1
+sS'lysi'
+p620
+I2
+sS'mm hepe'
+p621
+I1
+sS'time-dependent accumul'
+p622
+I1
+sS'cytotox'
+p623
+I1
+sS'cycle progression of mib-arrested cel'
+p624
+I1
+sS'androgen-mediated pathway of cell cycl'
+p625
+I1
+sS'ph'
+p626
+I1
+sS'time-dependent downregulation of p27'
+p627
+I1
+sS'downregul'
+p628
+I7
+sS'mib-induced p27'
+p629
+I2
+sS'critical cdk2 phosphorylation sit'
+p630
+I1
+sS'mib-induced rb1 downregul'
+p631
+I1
+sS'for therapeutic intervent'
+p632
+I1
+sS'phosphoimag'
+p633
+I1
+sS'export'
+p634
+I1
+sS'ug'
+p635
+I1
+sS'mib-induced cell cycl'
+p636
+I1
+sS'e complex'
+p637
+I2
+sS'x-ray'
+p638
+I1
+sS'amplified viru'
+p639
+I1
+sS'prostate tumor suppressor'
+p640
+I1
+sS'androgen-mediated g1'
+p641
+I1
+sS'ar'
+p642
+I4
+sS'mib-induced g1 cell cycl'
+p643
+I2
+sS'mm nacl'
+p644
+I1
+sS'regul'
+p645
+I3
+sS'recombinant adenoviral dna'
+p646
+I1
+sS'film'
+p647
+I1
+sS'acet'
+p648
+I2
+sS'of the ar'
+p649
+I1
+sS'pepstatin'
+p650
+I2
+sS'oncoprotein'
+p651
+I1
+sS'antibody incub'
+p652
+I1
+sS'of pten'
+p653
+I1
+sS'aliquot'
+p654
+I1
+sS'ml pepstatin'
+p655
+I2
+sS'neomarkers ab-1'
+p656
+I1
+sS'neomarkers ab-2'
+p657
+I1
+sS'protein st'
+p658
+I2
+sS'neomarkers ab-6'
+p659
+I1
+sS'p27 protein'
+p660
+I2
+sS'node'
+p661
+I1
+sS'immunoprecipit'
+p662
+I2
+sS'repeat'
+p663
+I1
+sS'skp2'
+p664
+I34
+sS'skp1'
+p665
+I2
+sS'cyclin e kinase act'
+p666
+I1
+sS'signalosom'
+p667
+I1
+sS'the cop9'
+p668
+I1
+sS'vogelstein'
+p669
+I1
+sS'ubc'
+p670
+I1
+sS'anti-sense as3'
+p671
+I1
+sS'p27 downregul'
+p672
+I1
+sS'steady-state p27'
+p673
+I1
+sS'transduction laboratori'
+p674
+I1
+sS'nucleu'
+p675
+I1
+sS'glass'
+p676
+I1
+sS'sigma'
+p677
+I1
+sS'f-box depend'
+p678
+I1
+sS'gapdh'
+p679
+I2
+sS'pharmingen'
+p680
+I1
+sS'csn subunit'
+p681
+I1
+sS'androgen-mediated p27 accumul'
+p682
+I2
+sS'degrad'
+p683
+I5
+sS'phosphat'
+p684
+I1
+stp685
+Rp686
+tp687
+.

@@ -1,0 +1,1229 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'circuitri'
+p7
+I15
+sS'shot'
+p8
+I1
+sS'supply topolog'
+p9
+I1
+sS'text'
+p10
+I1
+sS'commercial ac'
+p11
+I1
+sS'front panel'
+p12
+I1
+sS'digital cod'
+p13
+I1
+sS'pulse-start lamp'
+p14
+I2
+sS'bright'
+p15
+I2
+sS'code'
+p16
+I1
+sS'inductor'
+p17
+I1
+sS'reson'
+p18
+I3
+sS'vco'
+p19
+I2
+sS'voltage controlled oscil'
+p20
+I1
+sS'of the output voltag'
+p21
+I1
+sS'manufacturer-specific lamp'
+p22
+I1
+sS'pogodayev'
+p23
+I1
+sS'parameters of the power stag'
+p24
+I2
+sS'nois'
+p25
+I2
+sS'zone'
+p26
+I1
+sS'menu'
+p27
+I1
+sS'the boost convert'
+p28
+I4
+sS'exact d'
+p29
+I1
+sS'lc output network'
+p30
+I1
+sS'program'
+p31
+I6
+sS'inverter output curr'
+p32
+I1
+sS'potentiomet'
+p33
+I1
+sS'of the boost'
+p34
+I2
+sS'copy of th'
+p35
+I1
+sS'hierarchical network'
+p36
+I1
+sS'flicker'
+p37
+I1
+sS'of the buck'
+p38
+I1
+sS'microprocessor control circuitri'
+p39
+I1
+sS'of a buck convert'
+p40
+I1
+sS'buck convert'
+p41
+I15
+sS'dc'
+p42
+I5
+sS'electron'
+p43
+I19
+sS'for the control electron'
+p44
+I1
+sS'ac voltag'
+p45
+I1
+sS'govern'
+p46
+I1
+sS'report'
+p47
+I2
+sS'server-side databas'
+p48
+I1
+sS'burn hour'
+p49
+I2
+sS'undamped reson'
+p50
+I1
+sS'administr'
+p51
+I1
+sS'gui'
+p52
+I17
+sS'list'
+p53
+I1
+sS'national semiconductor'
+p54
+I1
+sS'for the half-bridge power stag'
+p55
+I1
+sS'integr'
+p56
+I1
+sS'government ag'
+p57
+I1
+sS'dip'
+p58
+I2
+sS'wattag'
+p59
+I6
+sS'preload'
+p60
+I1
+sS'predefined constant dc voltag'
+p61
+I1
+sS'ge lamp work'
+p62
+I1
+sS'keypad'
+p63
+I3
+sS'gui-controlled network'
+p64
+I1
+sS'automatic feedback control loop'
+p65
+I1
+sS'pogodayev igor'
+p66
+I1
+sS'cycle of the switch mode power supply circuitri'
+p67
+I1
+sS'close'
+p68
+I1
+sS'electronic interfer'
+p69
+I1
+sS'port'
+p70
+I2
+sS'optimal effici'
+p71
+I1
+sS'conversion lamp'
+p72
+I1
+sS'wire'
+p73
+I2
+sS'of the buck convert'
+p74
+I5
+sS'v_bia'
+p75
+I6
+sS'databas'
+p76
+I1
+sS'voltage of'
+p77
+I2
+sS'cell phon'
+p78
+I1
+sS'current'
+p79
+I4
+sS'version'
+p80
+I4
+sS'room occup'
+p81
+I1
+sS'microprocessor'
+p82
+I7
+sS'duty cycle of'
+p83
+I1
+sS'boost'
+p84
+I11
+sS'topolog'
+p85
+I3
+sS'of the boost convert'
+p86
+I6
+sS'for conductive emi'
+p87
+I1
+sS'wilshir'
+p88
+I1
+sS'the output voltag'
+p89
+I1
+sS'screen'
+p90
+I1
+sS'switch mode power suppli'
+p91
+I2
+sS'atmega32-16ai'
+p92
+I1
+sS'screen shot'
+p93
+I2
+sS'electrical curr'
+p94
+I2
+sS'boost pfc'
+p95
+I1
+sS'huntington beach ca'
+p96
+I1
+sS'monitor'
+p97
+I1
+sS'box'
+p98
+I1
+sS'parameters of th'
+p99
+I3
+sS'convert'
+p100
+I28
+sS'convers'
+p101
+I1
+sS'cycl'
+p102
+I3
+sS'incandescent dimming cap'
+p103
+I1
+sS'fault'
+p104
+I1
+sS'halide lamp'
+p105
+I4
+sS'display'
+p106
+I12
+sS'duty cycl'
+p107
+I4
+sS'management softwar'
+p108
+I2
+sS'commercial ac main'
+p109
+I1
+sS'improv'
+p110
+I1
+sS'implement'
+p111
+I2
+sS'pda'
+p112
+I2
+sS'aquarium'
+p113
+I1
+sS'automatic feedback loop'
+p114
+I1
+sS'inverter input voltag'
+p115
+I1
+sS'ca'
+p116
+I3
+sS'topology of a buck convert'
+p117
+I1
+sS'the half-bridge power stag'
+p118
+I1
+sS'ips'
+p119
+I4
+sS'voltage of th'
+p120
+I2
+sS'voltage of the buck convert'
+p121
+I2
+sS'enclosur'
+p122
+I1
+sS'server monitor'
+p123
+I1
+sS'watt ge lamp work'
+p124
+I1
+sS'panel'
+p125
+I10
+sS'logic'
+p126
+I9
+sS'parameters of'
+p127
+I3
+sS'sub-network'
+p128
+I3
+sS'invert'
+p129
+I15
+sS'supply topology of'
+p130
+I1
+sS'rotary multi-position switch s1'
+p131
+I1
+sS'electr'
+p132
+I1
+sS'basi'
+p133
+I1
+sS'the switch mode power supply circuitri'
+p134
+I1
+sS'ballast'
+p135
+I20
+sS'pfc'
+p136
+I2
+sS'regul'
+p137
+I2
+sS'wilshire boulevard'
+p138
+I1
+sS'high-pressure sodium'
+p139
+I1
+sS'phone'
+p140
+I1
+sS'logic for the half-bridge power stag'
+p141
+I1
+sS'government agency for'
+p142
+I1
+sS'floor lo'
+p143
+I1
+sS'digital display'
+p144
+I2
+sS'irvin'
+p145
+I1
+sS'vcc for'
+p146
+I1
+sS'scale lighting data collect'
+p147
+I1
+sS'room'
+p148
+I1
+sS'hour'
+p149
+I3
+sS'supply voltag'
+p150
+I2
+sS'work'
+p151
+I1
+sS'mh'
+p152
+I1
+sS'angeles ca'
+p153
+I1
+sS'lamp work'
+p154
+I1
+sS'dc output voltag'
+p155
+I1
+sS'of'
+p156
+I4
+sS'b h'
+p157
+I1
+sS'watt g'
+p158
+I1
+sS'loop'
+p159
+I3
+sS'economy vers'
+p160
+I4
+sS'file'
+p161
+I1
+sS'cell'
+p162
+I1
+sS'agency for conductive emi'
+p163
+I1
+sS'ip'
+p164
+I1
+sS'secondary wind'
+p165
+I1
+sS'the invert'
+p166
+I1
+sS'scale lighting network'
+p167
+I2
+sS'supply circuitri'
+p168
+I5
+sS'occup'
+p169
+I1
+sS'interrogation communication network'
+p170
+I1
+sS'real-tim'
+p171
+I1
+sS'magnetic ballasts flick'
+p172
+I1
+sS'circuitry of th'
+p173
+I1
+sS's1'
+p174
+I1
+sS'conventional incandescent dimming cap'
+p175
+I1
+sS'economi'
+p176
+I4
+sS'rotary multi-position switch'
+p177
+I1
+sS'lamp'
+p178
+I14
+sS'crystal display'
+p179
+I1
+sS'voltag'
+p180
+I54
+sS'voltage cap'
+p181
+I2
+sS'atmel'
+p182
+I2
+sS'frequency clos'
+p183
+I1
+sS'duty cycle of the switch mode power supply circuitri'
+p184
+I1
+sS'lan'
+p185
+I1
+sS'kilowatthour'
+p186
+I1
+sS'dip switch'
+p187
+I2
+sS'farm'
+p188
+I1
+sS'density discharg'
+p189
+I1
+sS'capabl'
+p190
+I3
+sS'standby power suppli'
+p191
+I1
+sS'notebook'
+p192
+I2
+sS'feedback loop'
+p193
+I1
+sS'multi-lay'
+p194
+I1
+sS'date'
+p195
+I2
+sS'switch mode power supply circuitri'
+p196
+I1
+sS'bia'
+p197
+I2
+sS'watt ge lamp'
+p198
+I1
+sS'integrated lamp'
+p199
+I1
+sS'off'
+p200
+I1
+sS'networking standard'
+p201
+I1
+sS'of th'
+p202
+I4
+sS'switch'
+p203
+I11
+sS'command'
+p204
+I3
+sS'emi filt'
+p205
+I2
+sS'voltage regul'
+p206
+I2
+sS'voltage of the boost convert'
+p207
+I2
+sS'hid'
+p208
+I1
+sS'voltage minu'
+p209
+I2
+sS'liquid crystal display'
+p210
+I1
+sS'wind'
+p211
+I2
+sS'protocol'
+p212
+I1
+sS'keypad button'
+p213
+I1
+sS'unique electronic ballast'
+p214
+I1
+sS'predefined constant dc'
+p215
+I1
+sS'conductive emi'
+p216
+I1
+sS'logic for'
+p217
+I1
+sS'hierarchi'
+p218
+I1
+sS'sensor circuitri'
+p219
+I1
+sS'paramet'
+p220
+I7
+sS'lb'
+p221
+I2
+sS'lc'
+p222
+I3
+sS'sodium'
+p223
+I7
+sS'interfer'
+p224
+I3
+sS'folder tab icon'
+p225
+I1
+sS'electrical waveform'
+p226
+I1
+sS'desktop'
+p227
+I1
+sS'internet protocol'
+p228
+I1
+sS'board'
+p229
+I5
+sS'the control electron'
+p230
+I1
+sS'main'
+p231
+I2
+sS'energy-ineffici'
+p232
+I1
+sS'parameters of the buck'
+p233
+I2
+sS'feedback control loop'
+p234
+I1
+sS'client stat'
+p235
+I1
+sS'nation'
+p236
+I1
+sS'lcd'
+p237
+I1
+sS'of the invert'
+p238
+I3
+sS'voltage v_bia'
+p239
+I2
+sS'optional repeat'
+p240
+I1
+sS'ac main'
+p241
+I2
+sS'real-time diagnost'
+p242
+I1
+sS'choic'
+p243
+I2
+sS'organ'
+p244
+I1
+sS'copy of'
+p245
+I1
+sS'personal digital assist'
+p246
+I1
+sS'drop'
+p247
+I2
+sS'switch s1'
+p248
+I1
+sS'voltage of the buck'
+p249
+I1
+sS'server'
+p250
+I2
+sS'vdc'
+p251
+I7
+sS'energy-effici'
+p252
+I1
+sS'button'
+p253
+I1
+sS'circuitry of the boost'
+p254
+I1
+sS'node'
+p255
+I2
+sS'bias suppli'
+p256
+I2
+sS'intensity discharg'
+p257
+I2
+sS'emi'
+p258
+I5
+sS'interv'
+p259
+I12
+sS'suppli'
+p260
+I8
+sS'intelligent power switch'
+p261
+I1
+sS'continu'
+p262
+I1
+sS'manag'
+p263
+I2
+sS'tab icon'
+p264
+I1
+sS'repeat'
+p265
+I3
+sS'of the switch mode power supply circuitri'
+p266
+I1
+sS'energi'
+p267
+I1
+sS'bias voltag'
+p268
+I1
+sS'digital potentiomet'
+p269
+I1
+sS'inverter stag'
+p270
+I1
+sS'circuitry of the boost convert'
+p271
+I1
+sS'vcc'
+p272
+I2
+sS'network'
+p273
+I27
+sS'vcc for the control electron'
+p274
+I1
+sS'gui softwar'
+p275
+I7
+sS'discharg'
+p276
+I2
+sS'semiconductor'
+p277
+I1
+sS'waveform'
+p278
+I5
+sS'digital assist'
+p279
+I1
+sS'internet'
+p280
+I5
+sS'hardwar'
+p281
+I1
+sS'electric discharg'
+p282
+I3
+sS'agricultural farm'
+p283
+I1
+sS'sensor'
+p284
+I1
+sS'correct'
+p285
+I8
+sS'halid'
+p286
+I8
+sS'zone basi'
+p287
+I1
+sS'assist'
+p288
+I1
+sS'floor los angeles ca'
+p289
+I1
+sS'lamp-burn hour'
+p290
+I1
+sS'vac'
+p291
+I5
+sS'standard'
+p292
+I1
+sS'duty cycle of the switch'
+p293
+I1
+sS'logic for th'
+p294
+I1
+sS'front fac'
+p295
+I1
+sS'the buck convert'
+p296
+I4
+sS'microcontrol'
+p297
+I5
+sS'liquid cryst'
+p298
+I1
+sS'rs485 communication port'
+p299
+I1
+sS'maximum bright'
+p300
+I1
+sS'fixed cli'
+p301
+I1
+sS'ballasts flick'
+p302
+I1
+sS'half-bridge power stag'
+p303
+I2
+sS'frequenc'
+p304
+I10
+sS'of the power stag'
+p305
+I1
+sS'electric discharge lamp'
+p306
+I3
+sS'supply topology of a buck convert'
+p307
+I2
+sS'filter'
+p308
+I3
+sS'intens'
+p309
+I2
+sS'dialog'
+p310
+I1
+sS'fixed client st'
+p311
+I1
+sS'corrector'
+p312
+I1
+sS'duty cycle of the switch mode power suppli'
+p313
+I1
+sS'commercial build'
+p314
+I1
+sS'pulse start'
+p315
+I1
+sS'softwar'
+p316
+I11
+sS'effici'
+p317
+I3
+sS'multi-position switch s1'
+p318
+I1
+sS'government agency for conductive emi'
+p319
+I1
+sS'exchang'
+p320
+I1
+sS'magnetic ballast'
+p321
+I6
+sS'one-to-on'
+p322
+I1
+sS'sodium lamp'
+p323
+I4
+sS'menu hierarchi'
+p324
+I1
+sS'stage'
+p325
+I28
+sS'voltage of the boost'
+p326
+I1
+sS'alphanumeric messag'
+p327
+I1
+sS'boulevard'
+p328
+I1
+sS'the power stag'
+p329
+I1
+sS'electromagnetic interfer'
+p330
+I1
+sS'messag'
+p331
+I1
+sS'start'
+p332
+I2
+sS'station'
+p333
+I1
+sS'master'
+p334
+I2
+sS'acoustic reson'
+p335
+I1
+sS'huntington beach'
+p336
+I1
+sS'parameters of the buck convert'
+p337
+I4
+sS'hz'
+p338
+I1
+sS'ipse cap'
+p339
+I1
+sS'hub'
+p340
+I1
+sS'hp'
+p341
+I1
+sS'transistor'
+p342
+I4
+sS'rotary switch'
+p343
+I2
+sS'duti'
+p344
+I4
+sS'selector'
+p345
+I3
+sS'non-flick'
+p346
+I1
+sS'link'
+p347
+I4
+sS'dialog box'
+p348
+I2
+sS'pwm'
+p349
+I1
+sS'duty cycle of th'
+p350
+I1
+sS'ac input voltag'
+p351
+I1
+sS'discharge lamp'
+p352
+I6
+sS'access'
+p353
+I1
+sS'inverter power stag'
+p354
+I2
+sS'maximum'
+p355
+I2
+sS'network-ready ballast'
+p356
+I1
+sS'pre-select'
+p357
+I1
+sS'electronics enclosur'
+p358
+I1
+sS'beach ca'
+p359
+I1
+sS'magnetic interfer'
+p360
+I1
+sS'frequency waveform'
+p361
+I1
+sS'ac'
+p362
+I8
+sS'folder tab'
+p363
+I1
+sS'constant'
+p364
+I2
+sS'display panel'
+p365
+I9
+sS'individual ballast'
+p366
+I1
+sS'igor'
+p367
+I1
+sS'internet access'
+p368
+I1
+sS'electronic ballast'
+p369
+I6
+sS'diagnost'
+p370
+I1
+sS'inverter operating frequ'
+p371
+I1
+sS'have'
+p372
+I1
+sS'firmwar'
+p373
+I2
+sS'huntington'
+p374
+I1
+sS'supply topology of a buck'
+p375
+I1
+sS'filing d'
+p376
+I1
+sS'engin'
+p377
+I5
+sS'high density discharg'
+p378
+I1
+sS'floor'
+p379
+I1
+sS'keypad softwar'
+p380
+I1
+sS'vcc for th'
+p381
+I1
+sS'buck'
+p382
+I8
+sS'photocel'
+p383
+I1
+sS'build'
+p384
+I1
+sS'dimmer'
+p385
+I2
+sS'photo sensor'
+p386
+I1
+sS'current waveform'
+p387
+I1
+sS'v_bias=v_out'
+p388
+I2
+sS'copi'
+p389
+I1
+sS'circuitry of'
+p390
+I1
+sS'scale'
+p391
+I3
+sS'watt'
+p392
+I1
+sS'oscil'
+p393
+I2
+sS'los angeles ca'
+p394
+I1
+sS'irvine ca'
+p395
+I1
+sS'icon'
+p396
+I1
+sS'boost convert'
+p397
+I14
+sS'copy of the output voltag'
+p398
+I1
+sS'constant dc voltag'
+p399
+I1
+sS'light-weight'
+p400
+I1
+sS'noise filt'
+p401
+I1
+sS'face'
+p402
+I1
+sS'floor los angel'
+p403
+I1
+sS'dc voltag'
+p404
+I6
+sS'intensity discharge lamp'
+p405
+I2
+sS'dropdown list'
+p406
+I1
+sS'minu'
+p407
+I1
+sS'dimming cap'
+p408
+I1
+sS'n3'
+p409
+I2
+sS'cpu'
+p410
+I2
+stp411
+Rp412
+tp413
+.

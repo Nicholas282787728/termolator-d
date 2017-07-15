@@ -1,0 +1,425 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'social reform'
+p7
+I1
+sS'endeavour'
+p8
+I2
+sS'consider'
+p9
+I1
+sS'organic un'
+p10
+I1
+sS'hierarchi'
+p11
+I1
+sS'equip'
+p12
+I1
+sS'bergson'
+p13
+I1
+sS'le'
+p14
+I1
+sS'ambitious task'
+p15
+I1
+sS'cournot'
+p16
+I1
+sS'esprit'
+p17
+I1
+sS'littr'
+p18
+I1
+sS'social b'
+p19
+I1
+sS'sociolog'
+p20
+I2
+sS'syst'
+p21
+I1
+sS'express'
+p22
+I1
+sS'divine ag'
+p23
+I2
+sS'positivism rank'
+p24
+I1
+sS'une vue d'
+p25
+I1
+sS'introduct'
+p26
+I2
+sS'altruistic mot'
+p27
+I1
+sS'political philosophi'
+p28
+I1
+sS'montesquieu'
+p29
+I1
+sS'egoism'
+p30
+I1
+sS'societi'
+p31
+I1
+sS'intellig'
+p32
+I1
+sS'natur'
+p33
+I1
+sS'knowledg'
+p34
+I3
+sS'anarchi'
+p35
+I1
+sS'harmoni'
+p36
+I1
+sS'biolog'
+p37
+I2
+sS'doctrin'
+p38
+I1
+sS'metaphysical abstract'
+p39
+I1
+sS'project'
+p40
+I2
+sS'reform'
+p41
+I1
+sS'fouill'
+p42
+I1
+sS'egrav'
+p43
+I3
+sS'absolute knowledg'
+p44
+I1
+sS'physiolog'
+p45
+I1
+sS'ocirc'
+p46
+I1
+sS'import'
+p47
+I1
+sS'discours sur l'
+p48
+I1
+sS'eacut'
+p49
+I6
+sS'vigorous react'
+p50
+I1
+sS'boutroux'
+p51
+I1
+sS'be'
+p52
+I1
+sS'primary import'
+p53
+I1
+sS'religion endeavour'
+p54
+I1
+sS'comt'
+p55
+I19
+sS'lew'
+p56
+I1
+sS'esprit humain'
+p57
+I1
+sS'debt'
+p58
+I1
+sS'piecemeal fashion'
+p59
+I1
+sS'stage'
+p60
+I5
+sS'saint-simonist doctrin'
+p61
+I1
+sS'saint-simon'
+p62
+I7
+sS'positif'
+p63
+I1
+sS'le of philosophi'
+p64
+I1
+sS'abstract stag'
+p65
+I1
+sS'testimoni'
+p66
+I1
+sS'mdash'
+p67
+I2
+sS'ebook'
+p68
+I1
+sS'question comt'
+p69
+I1
+sS'organis'
+p70
+I3
+sS'studi'
+p71
+I2
+sS'of philosophi'
+p72
+I1
+sS'sociological studi'
+p73
+I1
+sS'positivist philosophi'
+p74
+I1
+sS'rank'
+p75
+I1
+sS'standpoint'
+p76
+I1
+sS'plan des travaux'
+p77
+I1
+sS'scientific knowledg'
+p78
+I2
+sS'rational studi'
+p79
+I1
+sS'serious reflect'
+p80
+I1
+sS'positivist standpoint'
+p81
+I1
+sS'tain'
+p82
+I1
+sS'ancient'
+p83
+I1
+sS'question'
+p84
+I1
+sS'soci'
+p85
+I1
+sS'desire august'
+p86
+I1
+sS'absolute natur'
+p87
+I1
+sS'synth'
+p88
+I1
+sS'fruitful soil'
+p89
+I1
+sS'basi'
+p90
+I1
+sS'progr'
+p91
+I1
+sS'desir'
+p92
+I1
+sS'reaction'
+p93
+I1
+sS'theoretic basi'
+p94
+I1
+sS'humain'
+p95
+I1
+sS'cessair'
+p96
+I1
+sS'subsequent develop'
+p97
+I1
+sS'fictitious stag'
+p98
+I1
+sS'lacheli'
+p99
+I1
+sS'far- reach'
+p100
+I1
+sS'sur l'
+p101
+I1
+sS'condorcet'
+p102
+I1
+sS'positivist religion'
+p103
+I1
+sS'political organis'
+p104
+I1
+sS'classif'
+p105
+I1
+sS'fashion'
+p106
+I1
+sS'soil'
+p107
+I1
+sS'abstract'
+p108
+I2
+sS'sentimental express'
+p109
+I1
+sS'individual man'
+p110
+I1
+sS'plan des travaux scientifiqu'
+p111
+I1
+sS'le of'
+p112
+I1
+sS'motiv'
+p113
+I1
+sS'final stag'
+p114
+I1
+sS'agenc'
+p115
+I2
+sS'uniti'
+p116
+I1
+sS'develop'
+p117
+I1
+sS'project gutenberg'
+p118
+I1
+sS'scientifiqu'
+p119
+I1
+sS'travaux scientifiqu'
+p120
+I2
+sS'guyau'
+p121
+I1
+sS'auguste comt'
+p122
+I1
+sS'desire auguste comt'
+p123
+I1
+sS'anatomi'
+p124
+I1
+sS'gutenberg ebook'
+p125
+I1
+sS'renouvi'
+p126
+I1
+sS'esprit positif'
+p127
+I1
+sS'astronomi'
+p128
+I1
+sS'reach'
+p129
+I1
+sS'project gutenberg ebook'
+p130
+I1
+sS'philosophy endeavour'
+p131
+I2
+sS'plan'
+p132
+I1
+sS'mediaeval societi'
+p133
+I1
+sS'philosophi'
+p134
+I12
+sS'judgment'
+p135
+I1
+sS'physic'
+p136
+I1
+sS'man'
+p137
+I1
+sS'vue d'
+p138
+I1
+sS'task'
+p139
+I1
+sS'renan'
+p140
+I1
+sS'reflect'
+p141
+I1
+sS'positivist religion endeavour'
+p142
+I1
+stp143
+Rp144
+tp145
+.

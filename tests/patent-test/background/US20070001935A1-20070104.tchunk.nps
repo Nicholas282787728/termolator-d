@@ -1,0 +1,500 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'ito'
+p7
+I1
+sS'code'
+p8
+I2
+sS'electrode bu'
+p9
+I1
+sS'maximum voltag'
+p10
+I4
+sS'opposit'
+p11
+I11
+sS'2sf'
+p12
+I2
+sS'of the plasma display'
+p13
+I2
+sS'front panel'
+p14
+I7
+sS'plasma display panel of'
+p15
+I1
+sS'electrod'
+p16
+I21
+sS'moon seonghak'
+p17
+I1
+sS'ga'
+p18
+I3
+sS'skill'
+p19
+I1
+sS'discharg'
+p20
+I11
+sS'ground'
+p21
+I21
+sS'negative puls'
+p22
+I6
+sS'ground voltage gnd'
+p23
+I7
+sS'sub-field'
+p24
+I4
+sS'discharge cel'
+p25
+I10
+sS'disadvantages of'
+p26
+I1
+sS'plasma'
+p27
+I1
+sS'pixel'
+p28
+I2
+sS'ramp puls'
+p29
+I1
+sS'subfield'
+p30
+I13
+sS'mgo'
+p31
+I1
+sS'n1 for the time t1'
+p32
+I1
+sS'the time t1'
+p33
+I1
+sS'bia'
+p34
+I7
+sS'ultraviolet'
+p35
+I2
+sS'bus electrod'
+p36
+I2
+sS'front'
+p37
+I1
+sS'seonghak'
+p38
+I1
+sS'internal voltag'
+p39
+I2
+sS'ramp waveform'
+p40
+I9
+sS'voltag'
+p41
+I56
+sS't4'
+p42
+I2
+sS'address discharg'
+p43
+I1
+sS't2'
+p44
+I4
+sS't3'
+p45
+I2
+sS't1'
+p46
+I6
+sS'node n1 for th'
+p47
+I1
+sS'scnp'
+p48
+I1
+sS'ground voltage suppli'
+p49
+I4
+sS'inactive ga'
+p50
+I2
+sS'address period ap'
+p51
+I6
+sS'negative polar'
+p52
+I4
+sS'ramp pulse pr'
+p53
+I1
+sS'breakdown'
+p54
+I1
+sS'ordinary skil'
+p55
+I1
+sS'address voltag'
+p56
+I1
+sS'address voltage suppli'
+p57
+I1
+sS'barrier rib'
+p58
+I2
+sS'frequency voltag'
+p59
+I1
+sS'peak voltag'
+p60
+I4
+sS'vsc'
+p61
+I10
+sS'resistor r1'
+p62
+I1
+sS'disadvantag'
+p63
+I1
+sS'bias voltag'
+p64
+I7
+sS'constitut'
+p65
+I4
+sS'sub-field 1sf'
+p66
+I3
+sS'scale'
+p67
+I3
+sS'rp'
+p68
+I24
+sS'moon'
+p69
+I1
+sS'cell'
+p70
+I10
+sS'waveform'
+p71
+I17
+sS'supplying source vsc'
+p72
+I2
+sS'waveform for the pre-reset period prp'
+p73
+I1
+sS'plasma display'
+p74
+I77
+sS'korea'
+p75
+I1
+sS'barrier'
+p76
+I2
+sS'node n1'
+p77
+I15
+sS'pre-reset period prp'
+p78
+I8
+sS'node n2'
+p79
+I3
+sS'ramp waveform for th'
+p80
+I1
+sS'bu'
+p81
+I3
+sS'capacitor'
+p82
+I7
+sS'polarity opposit'
+p83
+I12
+sS'address'
+p84
+I40
+sS'switch sw1'
+p85
+I2
+sS'for the pre-reset period prp'
+p86
+I1
+sS'panel'
+p87
+I46
+sS'the pre-reset period prp'
+p88
+I1
+sS'r1'
+p89
+I1
+sS'discharge ga'
+p90
+I1
+sS'frequenc'
+p91
+I1
+sS'voltage gnd'
+p92
+I7
+sS'address electrod'
+p93
+I16
+sS'node n1 for'
+p94
+I1
+sS'1sf'
+p95
+I3
+sS'va'
+p96
+I1
+sS'electrode z'
+p97
+I1
+sS'panel capacitor cp1'
+p98
+I1
+sS'voltage vsetup'
+p99
+I1
+sS'for a pre-reset period prp'
+p100
+I1
+sS'suppli'
+p101
+I2
+sS'cp'
+p102
+I1
+sS'high-voltag'
+p103
+I6
+sS'pr'
+p104
+I1
+sS'panel capacitor'
+p105
+I8
+sS'disadvantages of th'
+p106
+I1
+sS'default cod'
+p107
+I2
+sS'fet'
+p108
+I1
+sS'pass switch'
+p109
+I1
+sS'address driv'
+p110
+I6
+sS'node n1 for the time t1'
+p111
+I1
+sS'ramp waveform for'
+p112
+I2
+sS'waveform for a pre-reset period prp'
+p113
+I1
+sS'transistor'
+p114
+I3
+sS'voltage vsc'
+p115
+I4
+sS'pulse pr'
+p116
+I1
+sS'voltage supplying source vsc'
+p117
+I4
+sS'address puls'
+p118
+I1
+sS'for the time t1'
+p119
+I1
+sS'default'
+p120
+I2
+sS'uv'
+p121
+I2
+sS'gnd'
+p122
+I11
+sS'of'
+p123
+I2
+sS'sw1'
+p124
+I2
+sS'b h'
+p125
+I1
+sS'display'
+p126
+I3
+sS'puls'
+p127
+I16
+sS'phosphor'
+p128
+I1
+sS'scale display'
+p129
+I1
+sS'display panel'
+p130
+I31
+sS'sf8'
+p131
+I1
+sS'voltage source vsc'
+p132
+I4
+sS'pass'
+p133
+I1
+sS'ap'
+p134
+I12
+sS'setup voltag'
+p135
+I1
+sS'prp'
+p136
+I14
+sS'conventional plasma display'
+p137
+I1
+sS'rib'
+p138
+I2
+sS'ramp waveform for the pre-reset period prp'
+p139
+I1
+sS'ground voltage source gnd'
+p140
+I2
+sS'of th'
+p141
+I2
+sS'transparent electrod'
+p142
+I3
+sS'next-generation display'
+p143
+I1
+sS'ne'
+p144
+I1
+sS'vsetup'
+p145
+I1
+sS'cp1'
+p146
+I1
+sS'cp3'
+p147
+I1
+sS'ground voltag'
+p148
+I21
+sS'node'
+p149
+I2
+sS'polar'
+p150
+I22
+sS'ramp waveform for a pre-reset period prp'
+p151
+I1
+sS'plasma display panel of a conventional plasma display'
+p152
+I1
+sS'driver'
+p153
+I6
+sS'voltage suppli'
+p154
+I6
+sS'peak'
+p155
+I4
+sS'voltage source gnd'
+p156
+I2
+sS'capacitor cp1'
+p157
+I1
+sS'parallel'
+p158
+I3
+sS'plasma display panel'
+p159
+I32
+sS'sub-field 2sf'
+p160
+I2
+sS'vacuum ultraviolet'
+p161
+I2
+sS'sp'
+p162
+I12
+sS'switch'
+p163
+I3
+sS'error'
+p164
+I1
+sS'xenon'
+p165
+I1
+sS'n1'
+p166
+I14
+sS'n2'
+p167
+I3
+stp168
+Rp169
+tp170
+.

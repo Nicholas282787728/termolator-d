@@ -1,0 +1,2123 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'leu gly phe leu phe gly trp phe ile li'
+p7
+I1
+sS'tris concentr'
+p8
+I2
+sS'immunoreact'
+p9
+I1
+sS'of polypeptid'
+p10
+I1
+sS'bovine serum'
+p11
+I1
+sS'polypeptid'
+p12
+I1
+sS'ala'
+p13
+I1
+sS'prt artificial sequence analog of melan-a'
+p14
+I1
+sS'chelat'
+p15
+I1
+sS'manitol'
+p16
+I1
+sS'ki67'
+p17
+I1
+sS'pro asn li'
+p18
+I1
+sS'milk'
+p19
+I1
+sS'aminomethan'
+p20
+I1
+sS'leu ile gly leu li'
+p21
+I1
+sS'tyrosinas'
+p22
+I1
+sS'norleucin'
+p23
+I1
+sS'antibody lca being stain'
+p24
+I1
+sS'ala gly ala leu val leu ala gly gly phe ph'
+p25
+I1
+sS'leu leu ala val leu tyr cys leu glu'
+p26
+I2
+sS'tween'
+p27
+I4
+sS'phospho-erk'
+p28
+I1
+sS'antibody anti-cd45 antibody lca b'
+p29
+I1
+sS'enzymatic act'
+p30
+I1
+sS'carcinoma tissu'
+p31
+I1
+sS'val gli'
+p32
+I1
+sS'neomark'
+p33
+I1
+sS'tb'
+p34
+I2
+sS'cyclodextrin'
+p35
+I1
+sS'assay'
+p36
+I4
+sS'of nonspecific interact'
+p37
+I1
+sS'arg arg ci'
+p38
+I1
+sS'of antigen'
+p39
+I1
+sS'reconstitution error'
+p40
+I1
+sS'chaotrop'
+p41
+I1
+sS'phosphorylated antibodi'
+p42
+I1
+sS'arg cys gly ala arg'
+p43
+I1
+sS'ionic surfact'
+p44
+I1
+sS'ala ala tyr'
+p45
+I1
+sS'polyoxyethylen'
+p46
+I3
+sS'val leu tyr cys leu glu leu ala gly ile gly il'
+p47
+I2
+sS'asp pro glu pro ile leu ci'
+p48
+I1
+sS'trizma'
+p49
+I2
+sS'anti-cd45 lca stain'
+p50
+I2
+sS'thr phe tyr asp pro glu pro ile leu ci'
+p51
+I1
+sS'tyr val'
+p52
+I1
+sS'leu ile gly leu lys arg pro'
+p53
+I1
+sS'val ile leu gly val leu'
+p54
+I1
+sS'leu li'
+p55
+I2
+sS'trp'
+p56
+I5
+sS'leu leu ala val leu'
+p57
+I2
+sS'antigenic epitop'
+p58
+I1
+sS'cys gly asp arg thr phe tyr'
+p59
+I1
+sS'tbst'
+p60
+I5
+sS'cys gly asp arg thr'
+p61
+I1
+sS'prt artificial sequence man'
+p62
+I8
+sS'antigen'
+p63
+I7
+sS'artificial sequence analog of tyrosinas'
+p64
+I1
+sS'alkaline phosphatas'
+p65
+I1
+sS'gly phe ph'
+p66
+I1
+sS'melan-a'
+p67
+I1
+sS'ethylene glycol'
+p68
+I1
+sS'trp leu cys ala gly ala leu val leu ala gly gly phe ph'
+p69
+I1
+sS'tbmc'
+p70
+I6
+sS'ala leu thr arg arg ci'
+p71
+I1
+sS'n ms-1884-p0'
+p72
+I1
+sS'asp ala ala tyr'
+p73
+I1
+sS'of melan-a'
+p74
+I1
+sS'beta-galactosidas'
+p75
+I1
+sS'numerous publ'
+p76
+I1
+sS'innovation park'
+p77
+I1
+sS'public'
+p78
+I1
+sS'gln cys ala leu thr arg arg'
+p79
+I1
+sS'leu leu leu ile gly cys trp tyr ci'
+p80
+I1
+sS'ile leu gly val leu leu leu ile gly cys trp tyr ci'
+p81
+I1
+sS'antibody dilu'
+p82
+I2
+sS'gly asp arg thr phe tyr asp pro glu pro ile leu ci'
+p83
+I1
+sS'leu'
+p84
+I9
+sS'gly val leu'
+p85
+I1
+sS'b h'
+p86
+I4
+sS'sciences research'
+p87
+I1
+sS'leu leu gly phe leu phe gly trp ph'
+p88
+I1
+sS'gly leu'
+p89
+I1
+sS'gli'
+p90
+I3
+sS'leucocyte common antigen'
+p91
+I1
+sS'deterior'
+p92
+I1
+sS'gln'
+p93
+I3
+sS'lyophilized antibodi'
+p94
+I2
+sS'leu lys arg pro'
+p95
+I1
+sS'val leu leu li'
+p96
+I1
+sS'being stain'
+p97
+I1
+sS'um breast carcinoma'
+p98
+I1
+sS'val ile leu gly val leu leu leu ile gly ci'
+p99
+I1
+sS'nan3'
+p100
+I3
+sS'tuberculin ppd st'
+p101
+I1
+sS'glu'
+p102
+I1
+sS'leu ile gli'
+p103
+I3
+sS'cys gly asp arg thr phe tyr asp'
+p104
+I1
+sS'gly ala arg'
+p105
+I1
+sS'prt artificial sequence analog of tyrosinas'
+p106
+I1
+sS'gln ci'
+p107
+I3
+sS'shelf-lif'
+p108
+I1
+sS'leu ala gly ile gly il'
+p109
+I2
+sS'for the stabilization of antigen'
+p110
+I1
+sS'gly gly phe ph'
+p111
+I1
+sS'renaturing protein'
+p112
+I1
+sS'excessive concentrations of block'
+p113
+I1
+sS'shelf-liv'
+p114
+I1
+sS'mmol trizmag'
+p115
+I1
+sS'dna'
+p116
+I4
+sS'pro arg trp leu'
+p117
+I1
+sS'phe ile li'
+p118
+I1
+sS'gly xaa'
+p119
+I1
+sS'ile leu ci'
+p120
+I1
+sS'ile phe tyr val arg cys gly ala'
+p121
+I1
+sS'hurley john k'
+p122
+I1
+sS'microphotograph'
+p123
+I1
+sS'excessive concentrations of'
+p124
+I1
+sS'dna prob'
+p125
+I1
+sS'hepatitis c viru'
+p126
+I1
+sS'monolaur'
+p127
+I1
+sS'leu leu ala val leu tyr cys leu glu leu ala gly ile gli'
+p128
+I2
+sS'deterioration of polypeptid'
+p129
+I1
+sS'leu leu gly phe leu'
+p130
+I1
+sS'pro ile leu ci'
+p131
+I1
+sS'mmol tri'
+p132
+I1
+sS'sugar residu'
+p133
+I1
+sS'low-temperature environ'
+p134
+I1
+sS'bovine gamma'
+p135
+I1
+sS'leu thr arg arg ci'
+p136
+I1
+sS'antibody anti-cd45 antibodi'
+p137
+I1
+sS'val ile leu gly v'
+p138
+I1
+sS'trp ile thr gln'
+p139
+I3
+sS'md'
+p140
+I11
+sS'perk antibodi'
+p141
+I1
+sS'mm'
+p142
+I2
+sS'ml'
+p143
+I6
+sS'prepar'
+p144
+I1
+sS'anti-cd45 leucocyte common antigen'
+p145
+I1
+sS'pro glu li'
+p146
+I1
+sS'anti-perk antibodi'
+p147
+I1
+sS'hcv diluent'
+p148
+I1
+sS'leu leu gly phe leu phe gly trp phe il'
+p149
+I1
+sS'innovation park drive tucson az'
+p150
+I1
+sS'photomicrograph'
+p151
+I3
+sS'alkaline phosphatase conjug'
+p152
+I1
+sS'top-left'
+p153
+I1
+sS'mannitol'
+p154
+I11
+sS'peptide frag'
+p155
+I2
+sS'phosphatas'
+p156
+I1
+sS'buffered salin'
+p157
+I1
+sS'artificial sequence analog of melan-a'
+p158
+I1
+sS'of tween'
+p159
+I2
+sS'hcv antigen'
+p160
+I2
+sS'hepatitis c'
+p161
+I1
+sS'hydrogen'
+p162
+I1
+sS'serum'
+p163
+I2
+sS'pro asn'
+p164
+I1
+sS'leu phe gly trp phe ile li'
+p165
+I1
+sS'val ile leu gly val leu leu leu ile gly cys trp tyr ci'
+p166
+I1
+sS'tris buff'
+p167
+I2
+sS'thr arg arg ci'
+p168
+I1
+sS'tyr cys leu glu leu ala gly ile gly il'
+p169
+I2
+sS'scienc'
+p170
+I1
+sS'leu ala val leu tyr cys leu glu leu ala gly ile gly il'
+p171
+I2
+sS'val ile leu gly val leu leu'
+p172
+I1
+sS'tyr val arg cys gly ala arg'
+p173
+I1
+sS'leu leu gly phe leu phe gly trp phe ile li'
+p174
+I1
+sS'cys gly asp'
+p175
+I1
+sS'variant'
+p176
+I1
+sS'glu pro ile leu ci'
+p177
+I1
+sS'leu gly asp ala ala tyr'
+p178
+I1
+sS'gelatin'
+p179
+I1
+sS'ile gly leu'
+p180
+I1
+sS'leu val leu ala gly gly phe ph'
+p181
+I1
+sS'cys trp tyr ci'
+p182
+I1
+sS'thr gln'
+p183
+I1
+sS'cys gly asp arg thr phe tyr asp pro glu pro il'
+p184
+I1
+sS'man'
+p185
+I16
+sS'stabil'
+p186
+I5
+sS'ile gli'
+p187
+I1
+sS'in-house ventana tissue bank'
+p188
+I1
+sS'bind'
+p189
+I5
+sS'arg ci'
+p190
+I1
+sS'environ'
+p191
+I1
+sS'phe gly trp phe ile li'
+p192
+I1
+sS'homo sapien'
+p193
+I6
+sS'sd'
+p194
+I1
+sS'ala val leu tyr cys leu glu leu ala gly ile gly il'
+p195
+I2
+sS'val leu ala gly gly phe ph'
+p196
+I1
+sS'mm tri'
+p197
+I2
+sS'blocker'
+p198
+I8
+sS'ile ala'
+p199
+I1
+sS'gln cys ala leu thr arg arg ci'
+p200
+I1
+sS'sodium chlorid'
+p201
+I3
+sS'anti-microbi'
+p202
+I1
+sS'equip'
+p203
+I1
+sS'prt artificial sequence analog of'
+p204
+I4
+sS'ile gly leu gly asp ala ala tyr'
+p205
+I1
+sS'ile gly xaa'
+p206
+I1
+sS'gly cys trp tyr ci'
+p207
+I1
+sS'asn li'
+p208
+I1
+sS'tumor tissu'
+p209
+I1
+sS'leu il'
+p210
+I4
+sS'qdot'
+p211
+I1
+sS'concentrations of block'
+p212
+I1
+sS'biomolecul'
+p213
+I9
+sS'prt artificial sequence analog of pram'
+p214
+I1
+sS'sapien'
+p215
+I6
+sS'ly'
+p216
+I17
+sS'tri'
+p217
+I12
+sS'dibas'
+p218
+I1
+sS'fragment'
+p219
+I5
+sS'lyophil'
+p220
+I1
+sS'reagent'
+p221
+I3
+sS'norvalin'
+p222
+I4
+sS'val ile leu gly val leu leu leu'
+p223
+I1
+sS'ile phe tyr val arg'
+p224
+I1
+sS'bank'
+p225
+I1
+sS'leu leu ala val leu tyr cys leu glu leu ala gli'
+p226
+I2
+sS'val il'
+p227
+I1
+sS'pro arg'
+p228
+I1
+sS'glu leu leu ci'
+p229
+I1
+sS'conjugate st'
+p230
+I1
+sS'leu ile gly xaa'
+p231
+I1
+sS'primary antibody anti-ki-67'
+p232
+I1
+sS'tbst antibody dilu'
+p233
+I1
+sS'artificial sequence analog of pram'
+p234
+I1
+sS'carbon atom'
+p235
+I1
+sS'ordinary skil'
+p236
+I2
+sS'life sci'
+p237
+I2
+sS'photomicrographs of anti-cd45 lca'
+p238
+I2
+sS'clone 2b11'
+p239
+I1
+sS'eg'
+p240
+I1
+sS'gly thr'
+p241
+I5
+sS'leu ile gly leu'
+p242
+I2
+sS'thr val tyr'
+p243
+I2
+sS'pro arg trp leu cys ala gly ala leu'
+p244
+I1
+sS'quantum'
+p245
+I1
+sS'invitrogen'
+p246
+I1
+sS'analog of tyrosinas'
+p247
+I2
+sS'gly ala leu val leu ala gly gly phe ph'
+p248
+I1
+sS'in-house ventana tissu'
+p249
+I1
+sS'leu ala gly gly phe ph'
+p250
+I1
+sS'hcv'
+p251
+I4
+sS'alcohol'
+p252
+I1
+sS'photomicrographs of anti-cd45'
+p253
+I2
+sS'val ile leu'
+p254
+I1
+sS'research'
+p255
+I1
+sS'casein-only dilu'
+p256
+I1
+sS'2b11'
+p257
+I1
+sS'diluent for stabilizing biomolecul'
+p258
+I4
+sS'non-specific bind'
+p259
+I1
+sS'hydrolyzed casein protein'
+p260
+I1
+sS'leu leu ala val leu tyr cys leu glu leu ala gly il'
+p261
+I2
+sS'sodium phosph'
+p262
+I4
+sS'hcl'
+p263
+I2
+sS'd-mannitol'
+p264
+I1
+sS'asp'
+p265
+I5
+sS'cys gly asp arg thr phe tyr asp pro glu pro ile leu'
+p266
+I1
+sS'azid'
+p267
+I7
+sS'ile phe tyr val arg ci'
+p268
+I1
+sS'analog of pram'
+p269
+I2
+sS'pub'
+p270
+I1
+sS'immunohistochemistri'
+p271
+I1
+sS'day x'
+p272
+I1
+sS'pro arg trp leu cys ala gly ala leu val leu ala'
+p273
+I1
+sS'anti-cd45 leucocyte common'
+p274
+I1
+sS'ile gly cys trp tyr ci'
+p275
+I1
+sS'ppd stabil'
+p276
+I1
+sS'gly ile gly il'
+p277
+I2
+sS'glu leu ala gly ile gly il'
+p278
+I2
+sS'tuberculin ppd'
+p279
+I2
+sS'sodium azid'
+p280
+I7
+sS'ala arg leu arg glu leu leu'
+p281
+I1
+sS'casein protein'
+p282
+I1
+sS's-2002'
+p283
+I1
+sS'leu thr'
+p284
+I2
+sS'gly val leu leu leu ile gly cys trp tyr ci'
+p285
+I1
+sS'common antigen'
+p286
+I1
+sS'prt artificial sequence analog of ny-eso-1'
+p287
+I1
+sS'enzymatic frag'
+p288
+I1
+sS'analog of melan-a'
+p289
+I2
+sS'gly il'
+p290
+I2
+sS'bioinformat'
+p291
+I1
+sS'ile phe tyr val arg cys gli'
+p292
+I1
+sS'hydrolyz'
+p293
+I1
+sS'ihc'
+p294
+I2
+sS'gln cys ala'
+p295
+I1
+sS'hurley john'
+p296
+I1
+sS'prt homo sapien'
+p297
+I6
+sS'protein-protein bind'
+p298
+I2
+sS'nonspecific interact'
+p299
+I1
+sS'tbst diluent'
+p300
+I4
+sS'interact'
+p301
+I3
+sS'val li'
+p302
+I2
+sS'immunoassay'
+p303
+I1
+sS'pro arg trp leu cys ala gly ala leu val leu ala gly gly phe ph'
+p304
+I1
+sS'leu thr val'
+p305
+I2
+sS'polyhydroxy carbohydr'
+p306
+I8
+sS'quantum dot'
+p307
+I1
+sS'n s-2002'
+p308
+I1
+sS'arg thr phe tyr asp pro glu pro ile leu ci'
+p309
+I1
+sS'norvaline vari'
+p310
+I1
+sS'gln cys li'
+p311
+I3
+sS'asn ci'
+p312
+I1
+sS'antibody anti-cd45 antibody lca'
+p313
+I1
+sS'ile thr gln'
+p314
+I1
+sS'cys gly asp arg thr phe tyr asp pro glu'
+p315
+I1
+sS'protein interact'
+p316
+I1
+sS'antibody anti-cd45 antibody lca being stain'
+p317
+I1
+sS'tuberculin prepar'
+p318
+I1
+sS'val ile leu gly val leu leu leu ile gly cys trp tyr'
+p319
+I1
+sS'asp arg thr phe tyr asp pro glu pro ile leu ci'
+p320
+I1
+sS'target'
+p321
+I3
+sS'mm sodium chlorid'
+p322
+I2
+sS'roberto'
+p323
+I1
+sS'ile ala leu'
+p324
+I1
+sS'plasmid'
+p325
+I6
+sS'hydrolyzed casein'
+p326
+I4
+sS'breast carcinoma'
+p327
+I1
+sS'diluent for the stabilization of antigen'
+p328
+I1
+sS'asn'
+p329
+I1
+sS'leu leu ala val leu tyr'
+p330
+I2
+sS'phe tyr asp pro glu pro ile leu ci'
+p331
+I1
+sS'diluent comprising tri'
+p332
+I1
+sS'globulin'
+p333
+I3
+sS'pro'
+p334
+I6
+sS'thr'
+p335
+I7
+sS'prt'
+p336
+I18
+sS'phe tyr val li'
+p337
+I1
+sS'tyr asp pro glu pro ile leu ci'
+p338
+I1
+sS'sorbitan monool'
+p339
+I2
+sS'leu ile gly cys trp tyr ci'
+p340
+I1
+sS'leu leu ala val leu tyr cys leu'
+p341
+I2
+sS'prt homo'
+p342
+I6
+sS'leu ci'
+p343
+I2
+sS'target analyt'
+p344
+I2
+sS'bovin'
+p345
+I2
+sS'buffer'
+p346
+I7
+sS'photomicrographs of'
+p347
+I3
+sS'pro arg trp leu cys ala gly ala leu val leu'
+p348
+I1
+sS'cys ph'
+p349
+I1
+sS'ala arg leu'
+p350
+I1
+sS'leu leu ci'
+p351
+I1
+sS'diluent for th'
+p352
+I1
+sS'bsa'
+p353
+I2
+sS'tyr'
+p354
+I6
+sS'chemicon'
+p355
+I1
+sS'asp gly thr'
+p356
+I4
+sS'thr gln cys li'
+p357
+I3
+sS'of block'
+p358
+I1
+sS'leu leu gli'
+p359
+I1
+sS'ala leu val leu ala gly gly phe ph'
+p360
+I1
+sS'concentration of th'
+p361
+I1
+sS'of serum'
+p362
+I1
+sS'pro arg trp leu cys ala gly ala leu v'
+p363
+I1
+sS'sigma'
+p364
+I1
+sS'polyoxyethylene sorbitan monolaur'
+p365
+I1
+sS'tissu'
+p366
+I3
+sS'non-specific protein-protein bind'
+p367
+I2
+sS'sorbitol'
+p368
+I1
+sS'pro arg trp leu cys ala gly ala leu val leu ala gly gly ph'
+p369
+I1
+sS'probe'
+p370
+I1
+sS'leu leu ala val leu tyr cys leu glu leu ala gly ile gly il'
+p371
+I2
+sS'antibody anti-ki-67'
+p372
+I1
+sS'artificial sequence man'
+p373
+I8
+sS'cys gly ala arg'
+p374
+I1
+sS'antibody bind'
+p375
+I1
+sS'nois'
+p376
+I4
+sS'denatur'
+p377
+I1
+sS'activ'
+p378
+I2
+sS'arg leu arg glu leu leu ci'
+p379
+I1
+sS'sugar'
+p380
+I2
+sS'trp ile thr gln ci'
+p381
+I3
+sS'stain'
+p382
+I3
+sS'analyt'
+p383
+I2
+sS'stainer'
+p384
+I1
+sS'organic compound'
+p385
+I1
+sS'leu leu gly phe leu ph'
+p386
+I1
+sS'biological target'
+p387
+I1
+sS'asp gli'
+p388
+I4
+sS'starch'
+p389
+I1
+sS'trizmag hcl'
+p390
+I1
+sS'ventana'
+p391
+I2
+sS'bovine gamma globulin'
+p392
+I3
+sS'ala gly ile gly il'
+p393
+I2
+sS'lys arg pro'
+p394
+I1
+sS'pro arg trp leu cys ala gly ala'
+p395
+I1
+sS'leu gly val leu leu leu ile gly cys trp tyr ci'
+p396
+I1
+sS'val ile leu gly val leu leu leu ile gly cys trp'
+p397
+I1
+sS'brij'
+p398
+I1
+sS'anti-cd45'
+p399
+I2
+sS'gly val'
+p400
+I1
+sS'val gly thr'
+p401
+I1
+sS'mm sodium phosph'
+p402
+I2
+sS'disacharrid'
+p403
+I1
+sS'ny-eso-1'
+p404
+I1
+sS'ile thr gln cys li'
+p405
+I2
+sS'val ile leu gly val leu leu leu ile gli'
+p406
+I1
+sS'conform'
+p407
+I1
+sS'ala arg leu arg glu leu'
+p408
+I1
+sS'val ile leu gli'
+p409
+I1
+sS'hepat'
+p410
+I1
+sS'arg'
+p411
+I3
+sS'breast'
+p412
+I2
+sS'thr pro'
+p413
+I1
+sS'leu gln'
+p414
+I1
+sS'inconveni'
+p415
+I1
+sS'ile phe tyr val arg cys gly ala arg'
+p416
+I1
+sS'for antibody bind'
+p417
+I1
+sS'antibody act'
+p418
+I1
+sS'stability of the dilu'
+p419
+I1
+sS'discoveri'
+p420
+I1
+sS'antigen interact'
+p421
+I1
+sS'n hca-411'
+p422
+I1
+sS'pro arg trp leu cys ala'
+p423
+I1
+sS'cys gly asp arg thr phe tyr asp pro glu pro'
+p424
+I1
+sS'magnesium'
+p425
+I1
+sS'phe ph'
+p426
+I1
+sS'leu tyr cys leu glu leu ala gly ile gly il'
+p427
+I2
+sS'leu leu ala val leu tyr cys leu glu leu ala'
+p428
+I2
+sS'prame'
+p429
+I1
+sS'carbon'
+p430
+I1
+sS'enzyme conjug'
+p431
+I1
+sS'arg trp leu cys ala gly ala leu val leu ala gly gly phe ph'
+p432
+I1
+sS'mmol trizmag hcl'
+p433
+I1
+sS'diluent day x'
+p434
+I1
+sS'mds diluent day x'
+p435
+I1
+sS'ile'
+p436
+I14
+sS'preservative anti-microbi'
+p437
+I1
+sS'hydroxi'
+p438
+I1
+sS'val ile leu gly val leu leu leu il'
+p439
+I1
+sS'leu leu ile gly cys trp tyr ci'
+p440
+I1
+sS'dna artificial sequence plasmid'
+p441
+I3
+sS'pro arg trp leu cys ala gly ala leu val leu ala gly gli'
+p442
+I1
+sS'glu glu'
+p443
+I1
+sS'improv'
+p444
+I1
+sS'dtt'
+p445
+I1
+sS'prt artificial sequence analog'
+p446
+I4
+sS'leu ile gly leu gly asp ala ala'
+p447
+I1
+sS'tris buffered salin'
+p448
+I1
+sS'leu ile gly leu gli'
+p449
+I1
+sS'dry milk'
+p450
+I1
+sS'cys gli'
+p451
+I1
+sS'lca stain'
+p452
+I2
+sS'anti-cd45 antibody lca being stain'
+p453
+I1
+sS'oxygen'
+p454
+I1
+sS'complementation assay'
+p455
+I1
+sS'residu'
+p456
+I1
+sS'val leu leu leu ile gly cys trp tyr ci'
+p457
+I1
+sS'cy'
+p458
+I8
+sS'leu ile gly leu gly asp ala'
+p459
+I1
+sS'breast tumor tissu'
+p460
+I1
+sS'of tyrosinas'
+p461
+I1
+sS'phe tyr val arg cys gly ala arg'
+p462
+I1
+sS'trp ile thr gln cys li'
+p463
+I2
+sS'temecula'
+p464
+I1
+sS'novel tbmc'
+p465
+I1
+sS'cys ala leu thr arg arg ci'
+p466
+I1
+sS'pb'
+p467
+I3
+sS'trp tyr ci'
+p468
+I1
+sS'xaa'
+p469
+I6
+sS'ph'
+p470
+I5
+sS'tissue stain'
+p471
+I1
+sS'life'
+p472
+I4
+sS'carbohydr'
+p473
+I8
+sS'tissue bank'
+p474
+I1
+sS'innovation park drive tucson'
+p475
+I1
+sS'mds diluent'
+p476
+I10
+sS'leu leu ala'
+p477
+I2
+sS'of the dilu'
+p478
+I1
+sS'gly leu pro'
+p479
+I1
+sS'cys gly asp arg thr phe tyr asp pro glu pro ile leu ci'
+p480
+I1
+sS'microbial growth'
+p481
+I1
+sS'novel'
+p482
+I1
+sS'prt artifici'
+p483
+I12
+sS'buffered protein'
+p484
+I1
+sS'thr gln ci'
+p485
+I3
+sS'lyophilization of'
+p486
+I1
+sS'cys leu glu leu ala gly ile gly il'
+p487
+I2
+sS'error'
+p488
+I1
+sS'tbmc diluent'
+p489
+I4
+sS'leu ile gly leu gly asp ala ala tyr'
+p490
+I1
+sS'for stabilizing biomolecul'
+p491
+I4
+sS'viru'
+p492
+I1
+sS'stabilization of antigen'
+p493
+I1
+sS'arg arg'
+p494
+I1
+sS'nanocrystal-bas'
+p495
+I1
+sS'gly leu lys arg pro'
+p496
+I1
+sS'protein'
+p497
+I12
+sS'leu leu li'
+p498
+I1
+sS'sorbitan monolaur'
+p499
+I1
+sS'surfact'
+p500
+I5
+sS'potential sites of nonspecific interact'
+p501
+I1
+sS'glycogen'
+p502
+I1
+sS'analog of ny-eso-1'
+p503
+I2
+sS'lyophilized reag'
+p504
+I1
+sS'of pram'
+p505
+I1
+sS'pro arg trp leu cys ala gli'
+p506
+I1
+sS'ventana p'
+p507
+I1
+sS'epitop'
+p508
+I2
+sS'concentration of'
+p509
+I4
+sS'pro glu'
+p510
+I1
+sS'tyr val li'
+p511
+I2
+sS'tyr ci'
+p512
+I1
+sS'cellulos'
+p513
+I1
+sS'gly leu gly asp ala ala tyr'
+p514
+I1
+sS'optim'
+p515
+I1
+sS'trp ile'
+p516
+I4
+sS'phe'
+p517
+I3
+sS'novel tbmc dilu'
+p518
+I1
+sS'nonspecific bind'
+p519
+I1
+sS'mds diluent day'
+p520
+I1
+sS'stability of'
+p521
+I1
+sS'leu leu ala val leu tyr ci'
+p522
+I2
+sS'epitope for antibody bind'
+p523
+I1
+sS'excessive concentr'
+p524
+I1
+sS'breast tumor'
+p525
+I1
+sS'physiological ph'
+p526
+I1
+sS's26'
+p527
+I1
+sS'gly ala li'
+p528
+I1
+sS'ile phe tyr'
+p529
+I2
+sS'leu pro'
+p530
+I1
+sS'gamma globulin'
+p531
+I3
+sS'innov'
+p532
+I1
+sS'ile ala leu gln'
+p533
+I1
+sS'leu thr val tyr'
+p534
+I2
+sS'ile phe tyr val li'
+p535
+I1
+sS'ile gly il'
+p536
+I2
+sS'molar'
+p537
+I1
+sS'compound'
+p538
+I1
+sS'life sciences research'
+p539
+I1
+sS'non-exist'
+p540
+I1
+sS'ppd'
+p541
+I1
+sS'stabilizing biomolecul'
+p542
+I4
+sS'marker enzym'
+p543
+I1
+sS'ms-1884-p0'
+p544
+I1
+sS'skill'
+p545
+I2
+sS'protein stabil'
+p546
+I2
+sS'sites of nonspecific interact'
+p547
+I1
+sS'concentr'
+p548
+I11
+sS'val tyr'
+p549
+I2
+sS'ala tyr'
+p550
+I1
+sS'salmon serum'
+p551
+I1
+sS'conjug'
+p552
+I3
+sS'of anti-cd45 lca stain'
+p553
+I2
+sS'dna artifici'
+p554
+I3
+sS'ala arg leu arg'
+p555
+I1
+sS'leu arg glu leu leu ci'
+p556
+I1
+sS'ile thr gln ci'
+p557
+I2
+sS'leu leu gly phe leu phe gli'
+p558
+I1
+sS'tubercl'
+p559
+I1
+sS'deterg'
+p560
+I4
+sS'bovine serum albumin'
+p561
+I1
+sS'leu leu'
+p562
+I3
+sS'leu leu gly ph'
+p563
+I1
+sS'phe leu phe gly trp phe ile li'
+p564
+I1
+sS'antibody anti-cd45'
+p565
+I1
+sS'preserv'
+p566
+I3
+sS'glu li'
+p567
+I1
+sS'artificial sequence plasmid'
+p568
+I3
+sS'lca'
+p569
+I4
+sS'qdot conjugate st'
+p570
+I1
+sS'gly val leu leu li'
+p571
+I1
+sS'the stabilization of antigen'
+p572
+I1
+sS'ile gly leu pro'
+p573
+I1
+sS'gly phe leu phe gly trp phe ile li'
+p574
+I1
+sS'mm sodium'
+p575
+I4
+sS'cys ala gly ala leu val leu ala gly gly phe ph'
+p576
+I1
+sS'bacteriocid'
+p577
+I1
+sS'park drive tucson az'
+p578
+I1
+sS'arg glu leu leu ci'
+p579
+I1
+sS'glycol'
+p580
+I1
+sS'diluent for stabil'
+p581
+I4
+sS'ala arg'
+p582
+I2
+sS'diluent'
+p583
+I53
+sS'sigma-aldrich'
+p584
+I3
+sS'asp li'
+p585
+I1
+sS'primary antibodi'
+p586
+I2
+sS'oh'
+p587
+I1
+sS'diluent for'
+p588
+I5
+sS'growth'
+p589
+I1
+sS'ile gly leu lys arg pro'
+p590
+I1
+sS'of ny-eso-1'
+p591
+I1
+sS'ile thr'
+p592
+I1
+sS'carlsbad'
+p593
+I1
+sS'ventana tissue bank'
+p594
+I1
+sS'polyoxyethylene sorbitan monool'
+p595
+I2
+sS'qdot-streptavidin'
+p596
+I1
+sS'ethylen'
+p597
+I1
+sS'cys li'
+p598
+I3
+sS'ile li'
+p599
+I3
+sS'um breast'
+p600
+I1
+sS'trp phe ile li'
+p601
+I1
+sS'tucson az'
+p602
+I3
+sS'trp ile thr'
+p603
+I3
+sS'semiconductor nanocrystal-bas'
+p604
+I1
+sS'concentration of serum'
+p605
+I1
+sS'gly ala'
+p606
+I1
+sS'leu glu leu ala gly ile gly il'
+p607
+I2
+sS'dissert'
+p608
+I1
+sS'anti-perk'
+p609
+I1
+sS'mmol'
+p610
+I2
+sS'chlorid'
+p611
+I3
+sS'leu cys ala gly ala leu val leu ala gly gly phe ph'
+p612
+I1
+sS'dissertation abstract'
+p613
+I1
+sS'bgg'
+p614
+I2
+sS'of'
+p615
+I1
+sS'enzyme frag'
+p616
+I2
+sS'antibodi'
+p617
+I19
+sS'gln arg arg'
+p618
+I1
+sS'contamin'
+p619
+I1
+sS'ala gly gly phe ph'
+p620
+I1
+sS'photomicrographs of anti-cd45 lca stain'
+p621
+I2
+sS'gly val leu leu'
+p622
+I1
+sS'ala leu gln'
+p623
+I1
+sS'ala arg leu arg glu leu leu ci'
+p624
+I1
+sS'mannitol concentr'
+p625
+I1
+sS'epitope for antibodi'
+p626
+I1
+sS'mm manitol'
+p627
+I1
+sS'gln cys ala leu'
+p628
+I1
+sS'artificial sequence analog of ny-eso-1'
+p629
+I1
+sS'sugar alcohol'
+p630
+I1
+sS'salin'
+p631
+I1
+sS'edta'
+p632
+I2
+sS'gln arg'
+p633
+I1
+sS'val'
+p634
+I2
+sS'leu leu ala val leu tyr cys leu glu leu'
+p635
+I2
+sS'mmol mannitol'
+p636
+I2
+sS'arg pro'
+p637
+I1
+sS'formul'
+p638
+I2
+sS'monobas'
+p639
+I1
+sS'stability of th'
+p640
+I1
+sS'albumin'
+p641
+I1
+sS'nonionic deterg'
+p642
+I1
+sS'gln cys ala leu thr'
+p643
+I1
+sS'n s26'
+p644
+I1
+sS'ala li'
+p645
+I1
+sS'monool'
+p646
+I2
+sS'atom'
+p647
+I1
+sS'epitope for'
+p648
+I1
+sS'immunohistochemical assay'
+p649
+I1
+sS'trehalos'
+p650
+I7
+sS'mds antibody dilu'
+p651
+I1
+sS'diluent for the stabil'
+p652
+I1
+sS'gly asp ala ala tyr'
+p653
+I1
+sS'lca being stain'
+p654
+I1
+sS'casein'
+p655
+I17
+sS'mm mannitol'
+p656
+I1
+sS'pro arg trp leu cys ala gly ala leu val leu ala gli'
+p657
+I1
+sS'tucson'
+p658
+I1
+sS'anti-ki-67'
+p659
+I1
+sS'gln cys ala leu thr arg'
+p660
+I1
+sS'cys gly asp arg thr phe tyr asp pro'
+p661
+I1
+sS'mm trizma'
+p662
+I1
+sS'hurley'
+p663
+I1
+sS'hapten'
+p664
+I1
+sS'lca antibodi'
+p665
+I1
+sS'abstract'
+p666
+I1
+sS'pro arg trp leu ci'
+p667
+I1
+sS'ile phe tyr v'
+p668
+I2
+sS'anti-cd45 leucocyt'
+p669
+I1
+sS'cys gly asp arg'
+p670
+I1
+sS'potential sites of'
+p671
+I1
+sS'az'
+p672
+I2
+sS'ala arg leu arg glu'
+p673
+I1
+sS'potential sit'
+p674
+I1
+sS'deterioration of'
+p675
+I1
+sS'ml casein'
+p676
+I2
+sS'val arg cys gly ala arg'
+p677
+I1
+sS'gly trp phe ile li'
+p678
+I1
+sS'leu leu ala v'
+p679
+I2
+sS'streptavidin'
+p680
+I1
+sS'hca-411'
+p681
+I1
+sS'phenol'
+p682
+I1
+sS'phosphatase conjug'
+p683
+I1
+sS'ile ph'
+p684
+I3
+sS'leu leu gly phe leu phe gly trp'
+p685
+I1
+sS'nonfat dry milk'
+p686
+I1
+sS'immunoassay reag'
+p687
+I1
+sS'beta-galactosidase peptide frag'
+p688
+I1
+sS'anti-cd45 lca'
+p689
+I1
+sS'breast carcinoma tissu'
+p690
+I1
+sS'cys gly asp arg thr ph'
+p691
+I1
+sS'diluent for the stabilization of'
+p692
+I1
+sS'polyoxyethylene sorbitan'
+p693
+I3
+sS'mm edta'
+p694
+I1
+sS'tbst antibodi'
+p695
+I1
+sS'enzym'
+p696
+I1
+sS'gly leu li'
+p697
+I1
+sS'mds antibodi'
+p698
+I1
+sS'c viru'
+p699
+I1
+sS'leu ile gly leu lys arg'
+p700
+I1
+sS'the dilu'
+p701
+I1
+sS'pro arg trp'
+p702
+I1
+sS'dot'
+p703
+I1
+sS'pro glu pro ile leu ci'
+p704
+I1
+sS'leu ile gly leu gly asp'
+p705
+I1
+sS'serum albumin'
+p706
+I1
+sS'biosourc'
+p707
+I1
+sS'phosphat'
+p708
+I4
+stp709
+Rp710
+tp711
+.

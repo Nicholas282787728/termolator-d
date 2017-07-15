@@ -1,0 +1,416 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'cordonnet'
+p7
+I1
+sS'corner loop'
+p8
+I1
+sS'picot of the 2nd row'
+p9
+I2
+sS'chain'
+p10
+I6
+sS'picots of th'
+p11
+I2
+sS'opposit'
+p12
+I2
+sS'4th row'
+p13
+I4
+sS'middle picot'
+p14
+I3
+sS'next chapt'
+p15
+I1
+sS'shuttl'
+p16
+I7
+sS'corner'
+p17
+I2
+sS'9th picot of th'
+p18
+I1
+sS'row'
+p19
+I33
+sS'9th picot'
+p20
+I1
+sS'shuttle thread'
+p21
+I1
+sS'2nd picot of'
+p22
+I2
+sS'thumb'
+p23
+I2
+sS'9th picot of the 1st'
+p24
+I1
+sS'picots of the 1st r'
+p25
+I1
+sS'better'
+p26
+I2
+sS'4th plain'
+p27
+I1
+sS'plain of the 1st row'
+p28
+I1
+sS'6th half'
+p29
+I1
+sS'picots of the 1st'
+p30
+I1
+sS'macram'
+p31
+I1
+sS'empty loop'
+p32
+I1
+sS'picot of th'
+p33
+I7
+sS'knot'
+p34
+I1
+sS'4th trebl'
+p35
+I1
+sS'insert'
+p36
+I2
+sS'the 1st row'
+p37
+I3
+sS'trebl'
+p38
+I1
+sS'laquo'
+p39
+I4
+sS'picot of the 2nd r'
+p40
+I1
+sS'3rd chain'
+p41
+I2
+sS'4th doubl'
+p42
+I1
+sS'round'
+p43
+I1
+sS'italian'
+p44
+I1
+sS'4th short picot'
+p45
+I1
+sS'3rd row'
+p46
+I8
+sS'of the 1st row'
+p47
+I3
+sS'picot of the 1st r'
+p48
+I3
+sS'shuttle pass'
+p49
+I1
+sS'pass'
+p50
+I1
+sS'picot of the 3rd r'
+p51
+I1
+sS'stitch'
+p52
+I7
+sS'3rd'
+p53
+I5
+sS'6th picot'
+p54
+I1
+sS'3rd chain stitch'
+p55
+I2
+sS'of the 2nd row'
+p56
+I3
+sS'eacut'
+p57
+I2
+sS'2nd picot of the 3rd r'
+p58
+I1
+sS'4th picot'
+p59
+I3
+sS'picot of the r'
+p60
+I1
+sS'1st ring'
+p61
+I4
+sS'fine thread'
+p62
+I1
+sS'picot'
+p63
+I200
+sS'medallion'
+p64
+I1
+sS'picot of the 1st'
+p65
+I2
+sS'picot of the ring opposit'
+p66
+I1
+sS'chapter'
+p67
+I1
+sS'the 2nd row'
+p68
+I3
+sS'thread'
+p69
+I30
+sS'mdash'
+p70
+I21
+sS'the ring opposit'
+p71
+I1
+sS'vogu'
+p72
+I1
+sS'ring opposit'
+p73
+I1
+sS'3rd ring'
+p74
+I2
+sS'4th plain of the 1st row'
+p75
+I1
+sS'2nd'
+p76
+I6
+sS'instruct'
+p77
+I1
+sS'2nd picot of th'
+p78
+I2
+sS'unbleached thread'
+p79
+I1
+sS'tatted medallion'
+p80
+I1
+sS'ring'
+p81
+I12
+sS'jaune-rouil'
+p82
+I1
+sS'doubl'
+p83
+I1
+sS'4th plain of the 1st'
+p84
+I1
+sS'short picot'
+p85
+I3
+sS'picot opposit'
+p86
+I1
+sS'2nd short picot'
+p87
+I1
+sS'9th picot of the 1st r'
+p88
+I1
+sS'chain stitch'
+p89
+I7
+sS'3rd double knot'
+p90
+I1
+sS'3rd picot'
+p91
+I4
+sS'of the 1st r'
+p92
+I4
+sS'occhi'
+p93
+I1
+sS'makouk'
+p94
+I1
+sS'1st row'
+p95
+I3
+sS'2nd ring'
+p96
+I3
+sS'tatted insert'
+p97
+I2
+sS'tortoise-shel'
+p98
+I1
+sS'6th half r'
+p99
+I1
+sS'loop'
+p100
+I2
+sS'half r'
+p101
+I1
+sS'picots of the 2nd row'
+p102
+I1
+sS'4th ring'
+p103
+I1
+sS'corner r'
+p104
+I1
+sS'2nd row'
+p105
+I9
+sS'picot of the 1st row'
+p106
+I2
+sS'5th picot of'
+p107
+I1
+sS'alsac'
+p108
+I4
+sS'9th picot of'
+p109
+I1
+sS'2nd picot'
+p110
+I4
+sS'2nd thread'
+p111
+I1
+sS'picot of'
+p112
+I7
+sS'5th picot of th'
+p113
+I1
+sS'the 2nd r'
+p114
+I1
+sS'the 3rd r'
+p115
+I1
+sS'agrav'
+p116
+I2
+sS'2nd picot of the 1st r'
+p117
+I1
+sS'shuttle round'
+p118
+I1
+sS'prepar'
+p119
+I1
+sS'the 1st r'
+p120
+I4
+sS'5th picot'
+p121
+I3
+sS'picots of'
+p122
+I2
+sS'josephin'
+p123
+I3
+sS'of the ring opposit'
+p124
+I1
+sS'double knot'
+p125
+I1
+sS'empty picot'
+p126
+I1
+sS'5th picot of the 1st r'
+p127
+I1
+sS'2nd picot of the 1st'
+p128
+I1
+sS'josephine picot'
+p129
+I3
+sS'3rd short picot'
+p130
+I1
+sS'of the 2nd r'
+p131
+I1
+sS'5th row'
+p132
+I2
+sS'of the 3rd r'
+p133
+I1
+sS'6th'
+p134
+I1
+sS'4th plain of th'
+p135
+I1
+sS'raquo'
+p136
+I4
+sS'5th picot of the 1st'
+p137
+I1
+sS'4th plain of'
+p138
+I1
+sS'6th row'
+p139
+I1
+stp140
+Rp141
+tp142
+.

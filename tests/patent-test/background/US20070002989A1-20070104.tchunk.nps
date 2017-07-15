@@ -1,0 +1,383 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'ansi'
+p7
+I1
+sS'circuitri'
+p8
+I1
+sS'electronic industries alli'
+p9
+I1
+sS'link jitter compens'
+p10
+I1
+sS'transit'
+p11
+I2
+sS'canaan'
+p12
+I1
+sS'bandwidth'
+p13
+I3
+sS'exemplari'
+p14
+I1
+sS'gb'
+p15
+I4
+sS'drc logic'
+p16
+I14
+sS'industries alli'
+p17
+I1
+sS'mhz bandwith'
+p18
+I1
+sS'ct'
+p19
+I1
+sS'clock jitt'
+p20
+I1
+sS'usb'
+p21
+I1
+sS'pc'
+p22
+I2
+sS'transition detect'
+p23
+I1
+sS'parallel'
+p24
+I3
+sS'pc architectur'
+p25
+I1
+sS'latenc'
+p26
+I6
+sS'board'
+p27
+I2
+sS'recommend'
+p28
+I1
+sS'pci-express'
+p29
+I4
+sS'pi'
+p30
+I12
+sS'of a pci-express'
+p31
+I1
+sS'sipo'
+p32
+I3
+sS'fixed input reference clock'
+p33
+I1
+sS'bit-'
+p34
+I3
+sS'implementation of a pci-express'
+p35
+I1
+sS'exemplary implement'
+p36
+I1
+sS'electron'
+p37
+I1
+sS'electronic industri'
+p38
+I1
+sS'link'
+p39
+I19
+sS'picosecond'
+p40
+I1
+sS'pi phase shift'
+p41
+I1
+sS'half'
+p42
+I2
+sS'bit'
+p43
+I2
+sS'on-chip jitt'
+p44
+I1
+sS'condition'
+p45
+I4
+sS'peripher'
+p46
+I1
+sS'suppli'
+p47
+I1
+sS'bit-error-r'
+p48
+I1
+sS'loop lat'
+p49
+I1
+sS'pc environ'
+p50
+I1
+sS'latency issu'
+p51
+I1
+sS'song hongjiang'
+p52
+I2
+sS'lead'
+p53
+I1
+sS'eia'
+p54
+I1
+sS'canaan ct'
+p55
+I1
+sS'adjust'
+p56
+I1
+sS'mhz'
+p57
+I3
+sS'locustavenu'
+p58
+I1
+sS'rs-232'
+p59
+I1
+sS'implementation of'
+p60
+I1
+sS'loop'
+p61
+I1
+sS'chip'
+p62
+I1
+sS'adjacent data bit'
+p63
+I1
+sS'pi phase shift output ind'
+p64
+I1
+sS'interv'
+p65
+I2
+sS'non-id'
+p66
+I1
+sS'compens'
+p67
+I1
+sS'indic'
+p68
+I10
+sS'transmitt'
+p69
+I1
+sS'receiver pl'
+p70
+I1
+sS'recommended standard-232c'
+p71
+I1
+sS"receiver pll '"
+p72
+I1
+sS'ink'
+p73
+I2
+sS'ph3'
+p74
+I12
+sS'ph2'
+p75
+I12
+sS'ph1'
+p76
+I15
+sS'ph4'
+p77
+I3
+sS'standard-232c'
+p78
+I1
+sS'hongjiang'
+p79
+I1
+sS'piso'
+p80
+I1
+sS'fine adjust'
+p81
+I1
+sS'clock'
+p82
+I32
+sS'receiv'
+p83
+I3
+sS'recovery circuit song'
+p84
+I1
+sS'recovery circuit song hongjiang'
+p85
+I2
+sS'accuraci'
+p86
+I2
+sS'proportional filt'
+p87
+I1
+sS'buffer'
+p88
+I5
+sS'clock chip'
+p89
+I2
+sS'ck1'
+p90
+I1
+sS'recoveri'
+p91
+I7
+sS'ck3'
+p92
+I1
+sS'ck2'
+p93
+I1
+sS'shift output ind'
+p94
+I2
+sS'architectur'
+p95
+I1
+sS"'s"
+p96
+I1
+sS'trace'
+p97
+I1
+sS'track'
+p98
+I1
+sS'interpol'
+p99
+I20
+sS'parallel communication link'
+p100
+I1
+sS'ber'
+p101
+I1
+sS'detect'
+p102
+I1
+sS'pi output clock'
+p103
+I14
+sS'b h'
+p104
+I1
+sS'board trac'
+p105
+I2
+sS'bit-n'
+p106
+I1
+sS"pll '"
+p107
+I1
+sS'pll'
+p108
+I1
+sS'drc'
+p109
+I30
+sS'convert'
+p110
+I4
+sS'attempt'
+p111
+I1
+sS'exemplary log'
+p112
+I1
+sS'jitter'
+p113
+I11
+sS'ata'
+p114
+I2
+sS'jitter compens'
+p115
+I1
+sS'synchron'
+p116
+I1
+sS'numerous attempt'
+p117
+I1
+sS'filter'
+p118
+I1
+sS'parallel output convert'
+p119
+I4
+sS'environ'
+p120
+I1
+sS'issu'
+p121
+I1
+sS'logic'
+p122
+I11
+sS'tracking ind'
+p123
+I1
+sS'ethernet'
+p124
+I1
+sS'implement'
+p125
+I2
+sS'allianc'
+p126
+I1
+sS'link jitt'
+p127
+I4
+sS'bandwith'
+p128
+I1
+stp129
+Rp130
+tp131
+.

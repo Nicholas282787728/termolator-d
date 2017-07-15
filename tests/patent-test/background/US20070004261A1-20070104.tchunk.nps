@@ -1,0 +1,461 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'consider'
+p7
+I1
+sS'the ic packag'
+p8
+I2
+sS'ic socket of'
+p9
+I1
+sS'beryllium copp'
+p10
+I1
+sS'pin of the ic socket'
+p11
+I2
+sS'deform'
+p12
+I13
+sS'the coil spr'
+p13
+I3
+sS'conventional structure of'
+p14
+I1
+sS'board'
+p15
+I16
+sS'elastic force of the elastic piec'
+p16
+I1
+sS'equilibrium'
+p17
+I5
+sS'the elastic piec'
+p18
+I2
+sS'pin of'
+p19
+I1
+sS'of the contact portions of the contact pin'
+p20
+I2
+sS'hayakawa kenji'
+p21
+I2
+sS'piec'
+p22
+I37
+sS'kenji'
+p23
+I1
+sS'press'
+p24
+I1
+sS'having vert'
+p25
+I2
+sS'mutual contacting positions of th'
+p26
+I1
+sS'stopper'
+p27
+I4
+sS'for th'
+p28
+I1
+sS'of the ic socket'
+p29
+I1
+sS'of the contact portions of th'
+p30
+I1
+sS'inclin'
+p31
+I1
+sS'resin'
+p32
+I1
+sS'accommod'
+p33
+I1
+sS'slide'
+p34
+I2
+sS'package accommod'
+p35
+I1
+sS'diagonal center line o'
+p36
+I1
+sS'fashion'
+p37
+I1
+sS'matrix having vert'
+p38
+I2
+sS'revers'
+p39
+I2
+sS'elastically deform'
+p40
+I13
+sS'engagement piec'
+p41
+I1
+sS'elastic piec'
+p42
+I29
+sS'peripheral edge portion of the ic packag'
+p43
+I1
+sS'spring'
+p44
+I4
+sS'conventional structure of the contact pin'
+p45
+I1
+sS'projection piec'
+p46
+I1
+sS'tin nickel copper alloy'
+p47
+I1
+sS'of the contact portion of the contact pin'
+p48
+I6
+sS'close'
+p49
+I1
+sS'array'
+p50
+I1
+sS'elastic pieces of'
+p51
+I1
+sS'for the ic packag'
+p52
+I3
+sS'mutual contacting positions of'
+p53
+I1
+sS'york avenu'
+p54
+I1
+sS'semiconductor'
+p55
+I1
+sS'conduct'
+p56
+I11
+sS'tin nickel'
+p57
+I1
+sS'the support piec'
+p58
+I1
+sS'perpendicular'
+p59
+I2
+sS'elastic force of'
+p60
+I1
+sS'york'
+p61
+I1
+sS'burr'
+p62
+I1
+sS'vertic'
+p63
+I2
+sS'of the spherical termin'
+p64
+I27
+sS'of the support piec'
+p65
+I3
+sS'bga'
+p66
+I1
+sS'of the contact pin'
+p67
+I40
+sS'row'
+p68
+I1
+sS'of'
+p69
+I33
+sS'o'
+p70
+I4
+sS'ic socket of th'
+p71
+I1
+sS'electrical piec'
+p72
+I1
+sS'the contact portion of the contact pin'
+p73
+I1
+sS'elastic pieces of th'
+p74
+I1
+sS'conventional structure of th'
+p75
+I1
+sS'copper'
+p76
+I1
+sS'injuri'
+p77
+I5
+sS'ii-ii'
+p78
+I2
+sS'avenu'
+p79
+I1
+sS'of the contact portion of'
+p80
+I3
+sS'ball grid'
+p81
+I1
+sS'copper alloy'
+p82
+I2
+sS'guid'
+p83
+I8
+sS'pin of th'
+p84
+I1
+sS'the contact pin'
+p85
+I14
+sS'ic packag'
+p86
+I26
+sS'guide piec'
+p87
+I1
+sS'termin'
+p88
+I37
+sS'hei'
+p89
+I1
+sS'flaw'
+p90
+I1
+sS'electrical conduct'
+p91
+I4
+sS'the contact portions of the contact pin'
+p92
+I1
+sS'relax'
+p93
+I3
+sS'matrix hav'
+p94
+I2
+sS'elastic force of th'
+p95
+I1
+sS'adjacent contact pin'
+p96
+I3
+sS'pin of the '
+p97
+I1
+sS'ic socket'
+p98
+I17
+sS'synthetic resin'
+p99
+I1
+sS'packag'
+p100
+I22
+sS'spherical termin'
+p101
+I37
+sS'work'
+p102
+I1
+sS'tin-nickel-copper alloy'
+p103
+I1
+sS'therealong'
+p104
+I1
+sS'project'
+p105
+I1
+sS'of the ic packag'
+p106
+I3
+sS'b h'
+p107
+I1
+sS'parallel equilibrium'
+p108
+I1
+sS'peripheral edge portion of'
+p109
+I2
+sS'saitama'
+p110
+I1
+sS'pin'
+p111
+I158
+sS'elastic contact piec'
+p112
+I1
+sS'for the '
+p113
+I1
+sS'titanium'
+p114
+I1
+sS'titanium copper alloy'
+p115
+I1
+sS'ic'
+p116
+I40
+sS'electrical parts hayakawa'
+p117
+I1
+sS'the spherical termin'
+p118
+I9
+sS'mutual contacting positions of the contact pin'
+p119
+I1
+sS'titanium-copper alloy'
+p120
+I1
+sS'elastic pieces of the contact pin'
+p121
+I1
+sS'ball grid array'
+p122
+I1
+sS'peripheral edge portion of th'
+p123
+I2
+sS'the ic socket'
+p124
+I1
+sS'coil spr'
+p125
+I4
+sS'peripheral edge portion of the support piec'
+p126
+I1
+sS'hereund'
+p127
+I1
+sS'for'
+p128
+I1
+sS'of the contact portion of th'
+p129
+I3
+sS'nickel copper alloy'
+p130
+I1
+sS'titanium copp'
+p131
+I1
+sS'peripheral edge portion of the '
+p132
+I1
+sS'of the contact portions of'
+p133
+I1
+sS'surface-to-surface fashion'
+p134
+I1
+sS'stress relax'
+p135
+I3
+sS'ic package accommod'
+p136
+I4
+sS'ball'
+p137
+I1
+sS'transverse row'
+p138
+I1
+sS'socket'
+p139
+I16
+sS'plan'
+p140
+I2
+sS'electrical parts hayakawa kenji'
+p141
+I1
+sS'parallel'
+p142
+I2
+sS'matrix'
+p143
+I2
+sS'stress'
+p144
+I3
+sS'grid array'
+p145
+I1
+sS'e'
+p146
+I4
+sS'tin nickel copp'
+p147
+I1
+sS'of the elastic piec'
+p148
+I5
+sS'iii-iii'
+p149
+I2
+sS'pieces of the contact pin'
+p150
+I1
+sS'of the coil spr'
+p151
+I6
+sS'hereinlat'
+p152
+I2
+sS'of th'
+p153
+I33
+sS'alloy'
+p154
+I4
+stp155
+Rp156
+tp157
+.

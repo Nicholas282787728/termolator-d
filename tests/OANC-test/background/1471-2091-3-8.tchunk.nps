@@ -1,0 +1,1223 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'thiamine uptak'
+p7
+I6
+sS'subcellular fract'
+p8
+I1
+sS'affinity kinet'
+p9
+I1
+sS'cytosol'
+p10
+I3
+sS'potassium phosph'
+p11
+I1
+sS'turnover pool repres'
+p12
+I1
+sS'signific'
+p13
+I1
+sS'physiological significance of thiamine uptak'
+p14
+I1
+sS'subline of sk-n-sh'
+p15
+I1
+sS'cell culture norm'
+p16
+I1
+sS'glass fib'
+p17
+I1
+sS'affin'
+p18
+I10
+sS'bio-rad dc protein'
+p19
+I1
+sS'\xce\xbcm non-radioactive thdp'
+p20
+I2
+sS'affinity thdp transport'
+p21
+I1
+sS'dc protein assay kit'
+p22
+I1
+sS'the thiamin'
+p23
+I1
+sS'activ'
+p24
+I1
+sS'previous studi'
+p25
+I1
+sS'of the plasma membran'
+p26
+I3
+sS'lymphoblast cel'
+p27
+I1
+sS'submicromolar concentr'
+p28
+I1
+sS'count'
+p29
+I2
+sS'filtrat'
+p30
+I2
+sS'contribut'
+p31
+I2
+sS'uptake of thiamin'
+p32
+I6
+sS'kcl'
+p33
+I3
+sS'stop'
+p34
+I2
+sS'cell culture normal lymphoblast'
+p35
+I1
+sS'mitochondrial thdp uptak'
+p36
+I1
+sS'of the cytosol'
+p37
+I1
+sS'affinity uptake component for'
+p38
+I1
+sS'import'
+p39
+I1
+sS'of the plasma membrane folate transport'
+p40
+I2
+sS'thdp-utilizing enzymes of'
+p41
+I1
+sS'pellet'
+p42
+I1
+sS'anemia'
+p43
+I1
+sS'qs'
+p44
+I1
+sS'final mitochondrial pellet'
+p45
+I1
+sS'cellular uptak'
+p46
+I2
+sS'glass fiber filt'
+p47
+I1
+sS'cell cultur'
+p48
+I1
+sS'non-radioactive thdp'
+p49
+I2
+sS'enzyme act'
+p50
+I1
+sS'of sk-n-sh'
+p51
+I1
+sS'thdp entri'
+p52
+I2
+sS'bio-rad dc protein assay'
+p53
+I1
+sS'min'
+p54
+I1
+sS'mediat'
+p55
+I1
+sS'thdp compartment'
+p56
+I2
+sS'intracellular pools of thiamin'
+p57
+I3
+sS'protein concentr'
+p58
+I2
+sS'prepar'
+p59
+I1
+sS'transporter of the plasma membran'
+p60
+I2
+sS'thrice-cloned subline of'
+p61
+I1
+sS'parallel react'
+p62
+I1
+sS'glyb cel'
+p63
+I5
+sS'radioactive thdp'
+p64
+I1
+sS'heat-inactive fetal calf serum'
+p65
+I1
+sS'thiamine transporter of'
+p66
+I1
+sS'natur'
+p67
+I1
+sS'mitochondria mitochondria'
+p68
+I1
+sS'carrier protein'
+p69
+I1
+sS'trma'
+p70
+I25
+sS'consequ'
+p71
+I1
+sS'protein assay kit'
+p72
+I1
+sS'affinity thiamine uptak'
+p73
+I1
+sS'total cellular thiamin'
+p74
+I1
+sS'stop buff'
+p75
+I2
+sS'uptake capac'
+p76
+I2
+sS'affinity uptak'
+p77
+I7
+sS'the mitochondrial thdp uptak'
+p78
+I1
+sS'thdp-utilizing enzymes of the cytosol'
+p79
+I1
+sS'the plasma membrane folate transport'
+p80
+I1
+sS'plasma membran'
+p81
+I4
+sS'membrane thiamine transport'
+p82
+I1
+sS'cell'
+p83
+I22
+sS'previous work'
+p84
+I1
+sS'mitochondria uptake of'
+p85
+I1
+sS'transport capac'
+p86
+I3
+sS'concentrations of thdp'
+p87
+I1
+sS'thiamine concentr'
+p88
+I4
+sS'experi'
+p89
+I3
+sS'concentr'
+p90
+I18
+sS'folate transport'
+p91
+I4
+sS'defici'
+p92
+I1
+sS'deriv'
+p93
+I6
+sS'sk-n-sh'
+p94
+I1
+sS'antiserum'
+p95
+I4
+sS'mem'
+p96
+I1
+sS'vitamin'
+p97
+I1
+sS'acid similar'
+p98
+I1
+sS'affinity thiamine transporter of'
+p99
+I1
+sS'splice'
+p100
+I1
+sS'significance of thiamine uptak'
+p101
+I1
+sS'interpret'
+p102
+I2
+sS'reaction'
+p103
+I1
+sS'cellular uptake of thiamin'
+p104
+I1
+sS'depletion of thiamine avail'
+p105
+I1
+sS'of mitochondrial suspens'
+p106
+I1
+sS'mitochondria uptak'
+p107
+I1
+sS'efflux'
+p108
+I1
+sS'of thiamine for normal lymphoblast'
+p109
+I1
+sS'radiochemical pur'
+p110
+I2
+sS'thdp transport mechanism for trma mitochondria'
+p111
+I1
+sS'mitochondrial protein'
+p112
+I1
+sS'studi'
+p113
+I1
+sS'gene'
+p114
+I1
+sS'affinity thdp transport mechanism for'
+p115
+I1
+sS'ck'
+p116
+I1
+sS'micrograms of'
+p117
+I1
+sS'trma lymphoblast'
+p118
+I5
+sS'ca'
+p119
+I2
+sS'codon'
+p120
+I1
+sS'thiamine-responsive megaloblastic anemia'
+p121
+I1
+sS'progressive depletion of the thiamin'
+p122
+I1
+sS'affinity transport of thiamin'
+p123
+I1
+sS'turnov'
+p124
+I1
+sS'plot'
+p125
+I1
+sS'coordin'
+p126
+I1
+sS'assay kit'
+p127
+I1
+sS'affinity uptake of thiamin'
+p128
+I1
+sS'transport mechanism for trma mitochondria'
+p129
+I1
+sS'megaloblastic anemia'
+p130
+I1
+sS'affinity thiamine transporter of the plasma membran'
+p131
+I1
+sS'mitochondria uptake of thiamin'
+p132
+I1
+sS'neuroblastoma mitochondria'
+p133
+I1
+sS'differential spl'
+p134
+I1
+sS'progressive deplet'
+p135
+I3
+sS'fetal calf serum'
+p136
+I1
+sS'lymphoblast mitochondria'
+p137
+I1
+sS'affinity uptake component for mitochondria'
+p138
+I1
+sS'k m'
+p139
+I1
+sS'mitochondrial thdp-utilizing enzyme act'
+p140
+I1
+sS'glass'
+p141
+I1
+sS'fibroblast'
+p142
+I2
+sS'hepe'
+p143
+I1
+sS'of thdp'
+p144
+I2
+sS'mitochondrial folate transport'
+p145
+I2
+sS'me'
+p146
+I1
+sS'progressive depletion of'
+p147
+I3
+sS'plasma'
+p148
+I1
+sS'millipore membrane filt'
+p149
+I1
+sS'work'
+p150
+I1
+sS'final concentr'
+p151
+I1
+sS'rpmi'
+p152
+I1
+sS'dietary intak'
+p153
+I1
+sS'c antiserum'
+p154
+I1
+sS'of the plasma membrane thiamine transport'
+p155
+I2
+sS'thiamine transporter of the plasma membran'
+p156
+I2
+sS'mitochondrial suspens'
+p157
+I2
+sS'intracellular thiamine concentr'
+p158
+I2
+sS'mannitol'
+p159
+I1
+sS'kinet'
+p160
+I1
+sS'puriti'
+p161
+I2
+sS'submicromolar'
+p162
+I1
+sS'thiamine transport'
+p163
+I9
+sS'intracellular concentr'
+p164
+I2
+sS'anti-human transport'
+p165
+I1
+sS'water-solubl'
+p166
+I1
+sS'protein'
+p167
+I6
+sS'serum'
+p168
+I1
+sS'of thiamin'
+p169
+I11
+sS'b-complex vitamin'
+p170
+I1
+sS'of th'
+p171
+I2
+sS'mitochondrial transport'
+p172
+I3
+sS'mitochondrial prepar'
+p173
+I1
+sS'concentration of'
+p174
+I1
+sS'plasma membrane thiamine transport'
+p175
+I1
+sS'kinetic paramet'
+p176
+I1
+sS'l penicillin'
+p177
+I1
+sS'wernike-korsakoff syndrom'
+p178
+I1
+sS'scintillation count'
+p179
+I2
+sS'kind gift'
+p180
+I1
+sS'l-glutamin'
+p181
+I1
+sS'contributions q'
+p182
+I1
+sS'max'
+p183
+I2
+sS'kit'
+p184
+I1
+sS'\xce\xbcl of'
+p185
+I2
+sS'physiological significance of th'
+p186
+I1
+sS'of thiamine avail'
+p187
+I1
+sS'ice-cold stop buff'
+p188
+I1
+sS'of protein'
+p189
+I1
+sS'affinity k'
+p190
+I1
+sS'cellular membran'
+p191
+I1
+sS'radiochem'
+p192
+I1
+sS'affinity thiamine transport'
+p193
+I3
+sS'intracellular thdp'
+p194
+I1
+sS'entri'
+p195
+I3
+sS'intracellular concentration of thdp'
+p196
+I1
+sS'enzyme-bound'
+p197
+I1
+sS'thiamine diphosph'
+p198
+I1
+sS'thiamine transporter-specific peptid'
+p199
+I1
+sS'thiamine transport capac'
+p200
+I1
+sS'streptomycin'
+p201
+I1
+sS'physiological significance of the mitochondrial thdp uptak'
+p202
+I1
+sS'transporter affin'
+p203
+I1
+sS'for trma mitochondria'
+p204
+I2
+sS'depletion of thiamin'
+p205
+I1
+sS'cytosolic thdp available for'
+p206
+I1
+sS'thdp mediat'
+p207
+I1
+sS'biphasic natur'
+p208
+I1
+sS'mitochondrial uptake of'
+p209
+I4
+sS'trma pati'
+p210
+I3
+sS'paramet'
+p211
+I1
+sS'uptake component for mitochondria'
+p212
+I1
+sS'lymphoblast'
+p213
+I17
+sS'affinity thiamine import'
+p214
+I1
+sS'identif'
+p215
+I1
+sS'anti-cytochrome c'
+p216
+I1
+sS'complex'
+p217
+I1
+sS'\xce\xb1-ketoglutarate dehydrogenase complex'
+p218
+I1
+sS'lineweaver-burk plot'
+p219
+I1
+sS'thdp uptake capac'
+p220
+I2
+sS'\xce\xbcl of incubation buff'
+p221
+I1
+sS'membrane filt'
+p222
+I1
+sS'folate carri'
+p223
+I1
+sS'membrane folate transport'
+p224
+I1
+sS'thrice-cloned subline of sk-n-sh'
+p225
+I1
+sS'affinity transport of'
+p226
+I1
+sS'submicromolar concentrations of thdp'
+p227
+I1
+sS'transport of thiamin'
+p228
+I1
+sS'fibroblasts cel'
+p229
+I1
+sS'\xce\xbcm thiamin'
+p230
+I1
+sS'mitochondrial transporter affin'
+p231
+I1
+sS'trma mitochondria'
+p232
+I3
+sS'gift'
+p233
+I1
+sS'normal human lymphoblast'
+p234
+I1
+sS'physiological significance of'
+p235
+I2
+sS'of thdp medi'
+p236
+I1
+sS'for intracellular transport'
+p237
+I1
+sS'phosphorylated deriv'
+p238
+I3
+sS'thdp-utilizing enzyme act'
+p239
+I1
+sS'mitochondrial uptake of thiamine for'
+p240
+I1
+sS'representing enzyme-bound thdp'
+p241
+I1
+sS'enzyme-bound thdp'
+p242
+I1
+sS'the cytosol'
+p243
+I1
+sS'pools of thiamin'
+p244
+I3
+sS'efflux of thdp medi'
+p245
+I1
+sS'non-enzyme bound'
+p246
+I1
+sS'folat'
+p247
+I3
+sS'transporter-specific peptid'
+p248
+I1
+sS'individu'
+p249
+I3
+sS'trma individu'
+p250
+I3
+sS'affinity transport'
+p251
+I3
+sS'growth'
+p252
+I1
+sS'mm hepe'
+p253
+I1
+sS'cytosolic thdp'
+p254
+I1
+sS'microgram'
+p255
+I1
+sS'transport'
+p256
+I19
+sS'syndrom'
+p257
+I1
+sS'plasma concentr'
+p258
+I1
+sS'of the mitochondrial thdp uptak'
+p259
+I1
+sS'cell-dependent regulation of'
+p260
+I1
+sS'thdp-utilizing enzymes of th'
+p261
+I1
+sS'total concentr'
+p262
+I1
+sS'stop codon'
+p263
+I1
+sS'of the thiamin'
+p264
+I1
+sS'mm l-glutamin'
+p265
+I1
+sS'progressive depletion of thiamine avail'
+p266
+I1
+sS'submicromolar concentrations of'
+p267
+I1
+sS'cellular uptake of'
+p268
+I1
+sS'bio-rad dc protein assay kit'
+p269
+I1
+sS'cytosolic enzym'
+p270
+I1
+sS'calf serum'
+p271
+I1
+sS'folate carrier protein'
+p272
+I1
+sS'affinity thiamine transporter of th'
+p273
+I1
+sS'patient'
+p274
+I3
+sS'mitochondrial pellet'
+p275
+I1
+sS'thiamine entri'
+p276
+I1
+sS'of the plasma membrane thiamin'
+p277
+I1
+sS'\xce\xbcl of mitochondrial suspens'
+p278
+I1
+sS'thdp available for intracellular transport'
+p279
+I1
+sS'of incubation buff'
+p280
+I1
+sS'mmol'
+p281
+I2
+sS'confluenc'
+p282
+I1
+sS'efflux of'
+p283
+I1
+sS'trma cel'
+p284
+I6
+sS'biphasic fashion'
+p285
+I1
+sS'of'
+p286
+I2
+sS'\xce\xbcm'
+p287
+I12
+sS'\xce\xbcl'
+p288
+I2
+sS'filter'
+p289
+I2
+sS'intracellular transport'
+p290
+I1
+sS'intracellular pools of'
+p291
+I3
+sS'of radioactive thdp'
+p292
+I1
+sS'micromolar final concentr'
+p293
+I1
+sS'amino acid'
+p294
+I1
+sS'mm me'
+p295
+I1
+sS'thiamine phosphate deriv'
+p296
+I1
+sS'mammalian cel'
+p297
+I4
+sS'the plasma membrane thiamine transport'
+p298
+I1
+sS'dehydrogenase complex'
+p299
+I1
+sS'bound'
+p300
+I1
+sS'affinity k m'
+p301
+I1
+sS'mitochondria'
+p302
+I42
+sS'the plasma membran'
+p303
+I2
+sS'suspens'
+p304
+I3
+sS'intak'
+p305
+I1
+sS'of thiamine uptak'
+p306
+I1
+sS'membran'
+p307
+I5
+sS'edta'
+p308
+I2
+sS'cell-typ'
+p309
+I3
+sS'affinity for'
+p310
+I1
+sS'of thdp compartment'
+p311
+I1
+sS'anti-cytochrome c antiserum'
+p312
+I1
+sS'for mitochondria'
+p313
+I2
+sS'turnover pool'
+p314
+I1
+sS'question'
+p315
+I1
+sS'capac'
+p316
+I5
+sS'ice-cold stop'
+p317
+I1
+sS'avail'
+p318
+I1
+sS'monophosph'
+p319
+I1
+sS'fraction'
+p320
+I1
+sS'neuroblastoma cel'
+p321
+I3
+sS'of the plasma'
+p322
+I1
+sS'compartment'
+p323
+I4
+sS'thiamine transporter of th'
+p324
+I1
+sS'thiamine import'
+p325
+I1
+sS'human lymphoblast'
+p326
+I1
+sS'for normal lymphoblast'
+p327
+I1
+sS'radioactive thiamin'
+p328
+I1
+sS'murine cel'
+p329
+I1
+sS'incubation buff'
+p330
+I1
+sS'enzymes of the cytosol'
+p331
+I1
+sS'bio-rad dc'
+p332
+I1
+sS'physiological signific'
+p333
+I3
+sS'satur'
+p334
+I3
+sS'ovary cel'
+p335
+I2
+sS'transport buff'
+p336
+I1
+sS'thdp-utilizing enzym'
+p337
+I3
+sS'thiamine avail'
+p338
+I1
+sS'affinity thdp transport mechanism for trma'
+p339
+I1
+sS'depletion of the thiamin'
+p340
+I1
+sS'kind'
+p341
+I1
+sS'cowork'
+p342
+I1
+sS'mm mannitol'
+p343
+I1
+sS'mitochondrial uptak'
+p344
+I5
+sS'amino acid similar'
+p345
+I1
+sS'concentration of thdp'
+p346
+I1
+sS'available for intracellular transport'
+p347
+I1
+sS'absenc'
+p348
+I2
+sS'mm kcl'
+p349
+I3
+sS'similar'
+p350
+I1
+sS'mitochondrial uptake of thiamin'
+p351
+I4
+sS'kinetic const'
+p352
+I1
+sS'significance of the mitochondrial thdp uptak'
+p353
+I1
+sS'fashion'
+p354
+I1
+sS'constant'
+p355
+I1
+sS'neruoblastoma cel'
+p356
+I1
+sS'plasma membrane folate transport'
+p357
+I1
+sS'diphosph'
+p358
+I1
+sS'cytosolic thdp available for intracellular transport'
+p359
+I1
+sS'cell line deriv'
+p360
+I1
+sS'intracellular concentration of'
+p361
+I1
+sS'diphosphokinas'
+p362
+I3
+sS'affinity uptake of'
+p363
+I1
+sS'thdp'
+p364
+I18
+sS'affinity thdp transport mechanism for trma mitochondria'
+p365
+I1
+sS'uptake of thiamine for normal lymphoblast'
+p366
+I1
+sS'mitochondrial transport capac'
+p367
+I1
+sS'thiamin'
+p368
+I41
+sS'concentration of radioactive thdp'
+p369
+I1
+sS'uptak'
+p370
+I20
+sS'beriberi'
+p371
+I1
+sS'of the plasma membrane fol'
+p372
+I1
+sS'pool representing enzyme-bound thdp'
+p373
+I1
+sS'cofactor'
+p374
+I1
+sS'culture normal lymphoblast'
+p375
+I1
+sS'progressive depletion of thiamin'
+p376
+I1
+sS'progressive depletion of th'
+p377
+I1
+sS'turnover pool representing enzyme-bound thdp'
+p378
+I1
+sS'buffer'
+p379
+I5
+sS'saturable uptak'
+p380
+I1
+sS'normal lymphoblast mitochondria'
+p381
+I1
+sS'mitochondrial uptake of thiamine for normal lymphoblast'
+p382
+I1
+sS'thiamine for normal lymphoblast'
+p383
+I1
+sS'cell-dependent regul'
+p384
+I1
+sS'ovary cell line deriv'
+p385
+I1
+sS'mitochondria form normal lymphoblast'
+p386
+I1
+sS'mm edta'
+p387
+I2
+sS'thrice-cloned sublin'
+p388
+I1
+sS'enzym'
+p389
+I3
+sS'mgcl'
+p390
+I2
+sS'regulation of thdp compartment'
+p391
+I1
+sS'peptid'
+p392
+I1
+sS'phosphate deriv'
+p393
+I1
+sS'normal lymphoblast'
+p394
+I10
+sS'kd'
+p395
+I1
+sS'cell-dependent regulation of thdp compartment'
+p396
+I1
+sS'fiber filt'
+p397
+I1
+sS'suspension buff'
+p398
+I1
+sS'thiamine diphosphokinas'
+p399
+I3
+sS'phosphat'
+p400
+I1
+sS'thiamine defici'
+p401
+I1
+sS'micrograms of protein'
+p402
+I1
+sS'intracellular pool'
+p403
+I3
+sS'thdp uptak'
+p404
+I5
+sS'rapid filtr'
+p405
+I2
+sS'transporter gen'
+p406
+I1
+sS'\xce\xbcm millipore membrane filt'
+p407
+I1
+sS'normal mitochondria'
+p408
+I1
+stp409
+Rp410
+tp411
+.

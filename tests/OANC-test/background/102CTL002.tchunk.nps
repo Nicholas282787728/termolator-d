@@ -1,0 +1,200 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'prospect'
+p7
+I1
+sS'chairperson indy read'
+p8
+I1
+sS'workplace accid'
+p9
+I1
+sS'tax'
+p10
+I1
+sS'one-on-one tutor'
+p11
+I1
+sS'instruct'
+p12
+I1
+sS'famili'
+p13
+I1
+sS'employ'
+p14
+I1
+sS'contributor'
+p15
+I2
+sS'greater indianapoli'
+p16
+I1
+sS'skill'
+p17
+I1
+sS'indianapolis literacy leagu'
+p18
+I1
+sS'honorary chair corporate fund drive indy read'
+p19
+I1
+sS'wthr channel'
+p20
+I1
+sS'languag'
+p21
+I1
+sS'video-based instruct'
+p22
+I1
+sS'literacy statist'
+p23
+I1
+sS'tax revenu'
+p24
+I1
+sS'tutor'
+p25
+I2
+sS'literacy program'
+p26
+I1
+sS'learner'
+p27
+I1
+sS'indy read'
+p28
+I13
+sS'fund drive indy read'
+p29
+I2
+sS'revenu'
+p30
+I1
+sS'live'
+p31
+I1
+sS'program'
+p32
+I1
+sS'indy reads webpag'
+p33
+I1
+sS'leadership'
+p34
+I1
+sS'leadership skil'
+p35
+I1
+sS'reads webpag'
+p36
+I1
+sS'channel'
+p37
+I1
+sS'employment prospect'
+p38
+I1
+sS'literacy leagu'
+p39
+I1
+sS'greater indianapolis literacy leagu'
+p40
+I1
+sS'accid'
+p41
+I1
+sS'read'
+p42
+I10
+sS'adult learn'
+p43
+I1
+sS'reads stud'
+p44
+I1
+sS'leagu'
+p45
+I1
+sS'adult'
+p46
+I1
+sS'student'
+p47
+I1
+sS'honorary chair'
+p48
+I1
+sS'honorari'
+p49
+I1
+sS'greater indianapolis literaci'
+p50
+I1
+sS'honorary chair corporate fund'
+p51
+I1
+sS'welfar'
+p52
+I1
+sS'chairperson'
+p53
+I1
+sS'organ'
+p54
+I1
+sS'webpag'
+p55
+I1
+sS'indi'
+p56
+I10
+sS'wthr'
+p57
+I1
+sS'language tutor'
+p58
+I1
+sS'greater'
+p59
+I1
+sS'chairperson indi'
+p60
+I1
+sS'chair corporate fund drive indy read'
+p61
+I1
+sS'statist'
+p62
+I1
+sS'workplac'
+p63
+I1
+sS'indy reads stud'
+p64
+I1
+sS'disabl'
+p65
+I1
+sS'contribut'
+p66
+I2
+sS'honorary chair corporate fund drive indi'
+p67
+I1
+stp68
+Rp69
+tp70
+.

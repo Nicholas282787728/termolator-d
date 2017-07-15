@@ -1,0 +1,1346 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'corpu'
+p7
+I1
+sS'represent'
+p8
+I1
+sS'start screamin'
+p9
+I1
+sS'orat'
+p10
+I1
+sS'text'
+p11
+I1
+sS'herodotu'
+p12
+I1
+sS'yersilf'
+p13
+I1
+sS'public tin'
+p14
+I1
+sS'afternoon f'
+p15
+I1
+sS'budget night'
+p16
+I2
+sS'captain'
+p17
+I1
+sS'impromptu rhym'
+p18
+I1
+sS'george curzon'
+p19
+I1
+sS'magisteri'
+p20
+I2
+sS'treasuri'
+p21
+I2
+sS'rufou'
+p22
+I1
+sS'melodramatic situ'
+p23
+I1
+sS'busi'
+p24
+I3
+sS'symptom'
+p25
+I1
+sS'opposit'
+p26
+I2
+sS'te'
+p27
+I1
+sS'hope'
+p28
+I2
+sS'ex luce lucellum'
+p29
+I1
+sS'trident'
+p30
+I1
+sS'rhyme'
+p31
+I1
+sS'lancashire counti'
+p32
+I1
+sS'christy-minstrel epigrammatic dialogu'
+p33
+I1
+sS'operatic not'
+p34
+I1
+sS'venerable jam'
+p35
+I1
+sS'appar'
+p36
+I1
+sS'austral cricket'
+p37
+I1
+sS'coster-investor'
+p38
+I1
+sS'shadowless man'
+p39
+I1
+sS'tarrible depressin'
+p40
+I1
+sS'non-believ'
+p41
+I1
+sS'magic'
+p42
+I1
+sS'artist'
+p43
+I1
+sS'dramat'
+p44
+I1
+sS'herchel'
+p45
+I1
+sS'hozier-apollo'
+p46
+I1
+sS'lancashir'
+p47
+I4
+sS'hozier'
+p48
+I2
+sS'habea'
+p49
+I1
+sS'james daubeni'
+p50
+I1
+sS'bill'
+p51
+I3
+sS'purple zant'
+p52
+I1
+sS'archimed'
+p53
+I1
+sS'jokim'
+p54
+I2
+sS'sez'
+p55
+I1
+sS'oratorical styl'
+p56
+I1
+sS'wicked nobleman'
+p57
+I1
+sS'subject'
+p58
+I1
+sS'hymn'
+p59
+I1
+sS'youth'
+p60
+I1
+sS'dialogu'
+p61
+I1
+sS'aelig'
+p62
+I3
+sS'repentant subscrib'
+p63
+I1
+sS'luv'
+p64
+I1
+sS'wreck'
+p65
+I1
+sS'joe gargeri'
+p66
+I1
+sS'wot'
+p67
+I1
+sS'debat'
+p68
+I1
+sS'mental attitud'
+p69
+I1
+sS'onest'
+p70
+I3
+sS'gules ensign'
+p71
+I1
+sS'debate adjourn'
+p72
+I1
+sS'subscript'
+p73
+I1
+sS'approach'
+p74
+I1
+sS'of tory farm'
+p75
+I1
+sS'daubeni'
+p76
+I1
+sS'old-stag'
+p77
+I1
+sS'ome'
+p78
+I1
+sS'mem'
+p79
+I1
+sS'harmonious meet'
+p80
+I1
+sS'lady caroline pontefract'
+p81
+I2
+sS'punch'
+p82
+I1
+sS'quell'
+p83
+I1
+sS'joe'
+p84
+I1
+sS'aid'
+p85
+I1
+sS'ecirc'
+p86
+I1
+sS'sweet sound'
+p87
+I1
+sS'debt'
+p88
+I1
+sS'massa johnson o'
+p89
+I1
+sS'great'
+p90
+I1
+sS'convers'
+p91
+I4
+sS'twould'
+p92
+I1
+sS'alterin'
+p93
+I1
+sS'job'
+p94
+I1
+sS'screamin'
+p95
+I1
+sS'awkin'
+p96
+I5
+sS'mandolin'
+p97
+I1
+sS'admir'
+p98
+I1
+sS'vallombrosa'
+p99
+I2
+sS'committe'
+p100
+I1
+sS'puff'
+p101
+I1
+sS'railway'
+p102
+I1
+sS'magic r'
+p103
+I1
+sS'controversi'
+p104
+I1
+sS'anti-advertisement leagu'
+p105
+I1
+sS'tone'
+p106
+I1
+sS'dramatis person'
+p107
+I2
+sS'stray'
+p108
+I1
+sS'ov yersilf'
+p109
+I1
+sS'farmer'
+p110
+I1
+sS'trio danc'
+p111
+I1
+sS'ensign'
+p112
+I1
+sS'horologist'
+p113
+I1
+sS'toriest of tory farm'
+p114
+I1
+sS'mischievous polici'
+p115
+I1
+sS'attitud'
+p116
+I1
+sS'vide'
+p117
+I1
+sS'scottish'
+p118
+I1
+sS'marrowfat'
+p119
+I1
+sS'bench'
+p120
+I6
+sS'establish'
+p121
+I1
+sS'o purple zant'
+p122
+I1
+sS'woolwich inf'
+p123
+I1
+sS'liabil'
+p124
+I1
+sS'budget schem'
+p125
+I1
+sS'eye'
+p126
+I1
+sS'lady hunstanton'
+p127
+I2
+sS'political controversi'
+p128
+I1
+sS'igh-soundin'
+p129
+I1
+sS'resting-plac'
+p130
+I1
+sS'massa johnson'
+p131
+I1
+sS'doubt'
+p132
+I1
+sS'ministeri'
+p133
+I1
+sS'o hyacinthin'
+p134
+I1
+sS'robertson'
+p135
+I1
+sS'habeas corpu'
+p136
+I1
+sS'sort'
+p137
+I1
+sS'ordinary night'
+p138
+I1
+sS'shadowless'
+p139
+I1
+sS'doner'
+p140
+I1
+sS'stratum'
+p141
+I1
+sS'ital'
+p142
+I1
+sS're-us'
+p143
+I1
+sS'uuml'
+p144
+I1
+sS'crusad'
+p145
+I1
+sS'demand'
+p146
+I1
+sS'adjourn'
+p147
+I1
+sS'sound'
+p148
+I1
+sS'hous'
+p149
+I2
+sS'right speech'
+p150
+I1
+sS'melodrama'
+p151
+I1
+sS'judg'
+p152
+I1
+sS'budget'
+p153
+I6
+sS'imperi'
+p154
+I1
+sS'project gutenberg ebook punch'
+p155
+I1
+sS'sangreal'
+p156
+I1
+sS'umbl'
+p157
+I2
+sS'mr'
+p158
+I1
+sS'meet'
+p159
+I1
+sS'malapropo'
+p160
+I2
+sS'sensitive ey'
+p161
+I1
+sS'dizzi'
+p162
+I1
+sS'drawing-room d'
+p163
+I1
+sS'vi'
+p164
+I1
+sS'prisoner p'
+p165
+I1
+sS'tax'
+p166
+I1
+sS'tory farm'
+p167
+I1
+sS'life guard'
+p168
+I1
+sS'uncom'
+p169
+I1
+sS'budget speech'
+p170
+I1
+sS'squir'
+p171
+I1
+sS'botanical afternoon f'
+p172
+I1
+sS'ruthen'
+p173
+I7
+sS'amend'
+p174
+I1
+sS'harmoni'
+p175
+I1
+sS'rhubarb'
+p176
+I1
+sS'genuine toilet-soap'
+p177
+I1
+sS'tableau'
+p178
+I1
+sS'squire to-night'
+p179
+I1
+sS'georg'
+p180
+I2
+sS'austral'
+p181
+I1
+sS'woolwich'
+p182
+I1
+sS'speech'
+p183
+I2
+sS'botanical afternoon'
+p184
+I1
+sS'chancellor'
+p185
+I2
+sS'advertis'
+p186
+I3
+sS'soight y'
+p187
+I1
+sS"jokim '"
+p188
+I1
+sS'operat'
+p189
+I1
+sS'quelles alouett'
+p190
+I1
+sS'lady nickleby leclercq'
+p191
+I1
+sS'vener'
+p192
+I1
+sS'lady carolin'
+p193
+I2
+sS'leclercq'
+p194
+I3
+sS'act'
+p195
+I1
+sS'project gutenberg ebook'
+p196
+I3
+sS'sort to-night'
+p197
+I1
+sS'business stat'
+p198
+I1
+sS'trevelyand'
+p199
+I2
+sS'date'
+p200
+I1
+sS'man'
+p201
+I1
+sS'further attend'
+p202
+I1
+sS'gentleman opposit'
+p203
+I1
+sS'life'
+p204
+I1
+sS'london charivari'
+p205
+I1
+sS'person'
+p206
+I2
+sS'cheer'
+p207
+I1
+sS'faithful adher'
+p208
+I1
+sS'hyacinthine isl'
+p209
+I1
+sS'half-a-crown'
+p210
+I1
+sS'glendov'
+p211
+I1
+sS'o hyacinthine isl'
+p212
+I1
+sS'magistr'
+p213
+I1
+sS'infant'
+p214
+I1
+sS'venerable james daubeni'
+p215
+I1
+sS'miss rose leclercq'
+p216
+I1
+sS'flare-up to-night'
+p217
+I1
+sS'popular manag'
+p218
+I1
+sS'paper'
+p219
+I1
+sS'london'
+p220
+I1
+sS'nbsp'
+p221
+I11
+sS'comic trio d'
+p222
+I1
+sS'leod'
+p223
+I1
+sS'hunstanton'
+p224
+I3
+sS'botan'
+p225
+I1
+sS'style'
+p226
+I1
+sS'pent'
+p227
+I1
+sS'miss leclercq'
+p228
+I1
+sS'parad'
+p229
+I1
+sS'polici'
+p230
+I1
+sS'old-fashionedest toriest of tori'
+p231
+I1
+sS'chimney-stack'
+p232
+I1
+sS'gargeri'
+p233
+I1
+sS'abbey'
+p234
+I1
+sS'alouett'
+p235
+I1
+sS'note-book'
+p236
+I1
+sS'charivari'
+p237
+I1
+sS'chancellor stand'
+p238
+I1
+sS'apparent tri'
+p239
+I1
+sS'diggl'
+p240
+I1
+sS'introduct'
+p241
+I1
+sS'massa beerbones lord'
+p242
+I1
+sS'original text'
+p243
+I1
+sS'tri'
+p244
+I1
+sS'ministerial major'
+p245
+I1
+sS'o purpl'
+p246
+I1
+sS'thee'
+p247
+I1
+sS'purist'
+p248
+I1
+sS'ye'
+p249
+I2
+sS'to-night'
+p250
+I3
+sS'treasury bench'
+p251
+I2
+sS'belt'
+p252
+I1
+sS'preponder'
+p253
+I1
+sS'leagu'
+p254
+I1
+sS'liberal purist'
+p255
+I1
+sS'westminster abbey'
+p256
+I1
+sS'wegg'
+p257
+I1
+sS'zant'
+p258
+I1
+sS'budget bil'
+p259
+I1
+sS'haymarket'
+p260
+I2
+sS'duchesse de vallombrosa'
+p261
+I1
+sS'attendance dispens'
+p262
+I1
+sS'ladi'
+p263
+I7
+sS'bi-metal'
+p264
+I1
+sS'nicklebi'
+p265
+I1
+sS'name'
+p266
+I1
+sS'gift'
+p267
+I1
+sS'admiral courbet'
+p268
+I1
+sS'eneri'
+p269
+I3
+sS'precious crusad'
+p270
+I1
+sS'refresh'
+p271
+I1
+sS'johnson o'
+p272
+I1
+sS'sleep start'
+p273
+I1
+sS'massachusett'
+p274
+I2
+sS'halsburi'
+p275
+I3
+sS'neatest'
+p276
+I1
+sS'uncommon-place book'
+p277
+I1
+sS'object-lesson'
+p278
+I1
+sS'manag'
+p279
+I1
+sS'em'
+p280
+I2
+sS'repartee-shuttlecock'
+p281
+I1
+sS'right'
+p282
+I1
+sS'old'
+p283
+I1
+sS'citat'
+p284
+I1
+sS'shakspearian'
+p285
+I1
+sS'gutenberg ebook'
+p286
+I2
+sS'ruinous wreck'
+p287
+I1
+sS'duchess'
+p288
+I2
+sS'revel'
+p289
+I1
+sS'expect'
+p290
+I1
+sS'year'
+p291
+I1
+sS'ous'
+p292
+I1
+sS'sleep start screamin'
+p293
+I1
+sS'hart'
+p294
+I1
+sS'nobleman'
+p295
+I1
+sS'depress'
+p296
+I1
+sS'velvet'
+p297
+I1
+sS'palat'
+p298
+I1
+sS'frac12'
+p299
+I2
+sS'inner circl'
+p300
+I1
+sS'prison'
+p301
+I1
+sS'egrav'
+p302
+I1
+sS'nickleby leclercq'
+p303
+I1
+sS'lancashire county magistr'
+p304
+I1
+sS'working-men'
+p305
+I2
+sS'fad-or'
+p306
+I1
+sS'camperdown'
+p307
+I1
+sS'radical pap'
+p308
+I1
+sS'eacut'
+p309
+I3
+sS'sympathetic hous'
+p310
+I1
+sS'massa beerbon'
+p311
+I1
+sS'machin'
+p312
+I1
+sS'old-fashionedest toriest'
+p313
+I1
+sS'dramatic advertis'
+p314
+I1
+sS'rose leclercq'
+p315
+I1
+sS'apparit'
+p316
+I1
+sS'depressin'
+p317
+I1
+sS'sympathis'
+p318
+I1
+sS'war-path'
+p319
+I1
+sS'night'
+p320
+I3
+sS'situat'
+p321
+I1
+sS'curzon'
+p322
+I3
+sS'lobbi'
+p323
+I1
+sS'existence by-and-bi'
+p324
+I1
+sS'oro'
+p325
+I1
+sS'opposition camp'
+p326
+I1
+sS'much-talked-of'
+p327
+I1
+sS'magisterial bench'
+p328
+I2
+sS'amendment bil'
+p329
+I1
+sS'stage-dish'
+p330
+I1
+sS'toilet-soap'
+p331
+I1
+sS'wot sez'
+p332
+I1
+sS'mdash'
+p333
+I67
+sS'gutenberg licens'
+p334
+I1
+sS'stand'
+p335
+I1
+sS'isl'
+p336
+I1
+sS'luce lucellum'
+p337
+I1
+sS'restrict'
+p338
+I1
+sS'op'
+p339
+I1
+sS'shakspearian quest'
+p340
+I1
+sS'major'
+p341
+I1
+sS'question'
+p342
+I1
+sS'dispens'
+p343
+I1
+sS'neuro-magnetic belt'
+p344
+I1
+sS'boardmen'
+p345
+I1
+sS'sparkler'
+p346
+I1
+sS'guard'
+p347
+I1
+sS'uncommon-place book of'
+p348
+I1
+sS'ring'
+p349
+I2
+sS'miss'
+p350
+I2
+sS'legh'
+p351
+I1
+sS'duchesse de malapropo'
+p352
+I1
+sS'vide not'
+p353
+I1
+sS'malwood'
+p354
+I2
+sS'play-wright'
+p355
+I1
+sS'licens'
+p356
+I1
+sS'agricultur'
+p357
+I2
+sS'new nam'
+p358
+I1
+sS'lady nicklebi'
+p359
+I3
+sS'dreamin'
+p360
+I1
+sS'inner'
+p361
+I1
+sS'statement'
+p362
+I1
+sS'old-fashionedest toriest of'
+p363
+I1
+sS'fashionable sea-sid'
+p364
+I1
+sS'scheme'
+p365
+I1
+sS'syrup'
+p366
+I1
+sS'further attendance dispens'
+p367
+I1
+sS'meretricious parad'
+p368
+I1
+sS'adher'
+p369
+I1
+sS'cricket'
+p370
+I1
+sS'bulwery-lyttony or'
+p371
+I1
+sS'circl'
+p372
+I1
+sS'epigrammatic dialogu'
+p373
+I1
+sS'tableau verv'
+p374
+I1
+sS'subscrib'
+p375
+I1
+sS'theatrical melodrama'
+p376
+I1
+sS'non-essential dramatis person'
+p377
+I1
+sS'wight'
+p378
+I1
+sS'iniquitous chancellor'
+p379
+I1
+sS'cuttl'
+p380
+I1
+sS'lucellum'
+p381
+I1
+sS'fine old'
+p382
+I1
+sS'income-tax assess'
+p383
+I1
+sS'inexpensive job'
+p384
+I1
+sS'agriculturist'
+p385
+I1
+sS'nickleby hunstanton'
+p386
+I1
+sS'business arrangements of'
+p387
+I1
+sS'agricultural depress'
+p388
+I1
+sS'saponaceous aid'
+p389
+I1
+sS'charact'
+p390
+I2
+sS'project'
+p391
+I4
+sS'vervant'
+p392
+I1
+sS'r'
+p393
+I1
+sS'architect'
+p394
+I1
+sS'tawdri'
+p395
+I1
+sS'danc'
+p396
+I2
+sS'ultramarin'
+p397
+I1
+sS'latitud'
+p398
+I1
+sS'fashion'
+p399
+I1
+sS'public busi'
+p400
+I1
+sS'spectrum'
+p401
+I1
+sS'repres'
+p402
+I1
+sS'ringing ch'
+p403
+I1
+sS'exist'
+p404
+I1
+sS'strayed revel'
+p405
+I1
+sS'pip'
+p406
+I1
+sS'sar'
+p407
+I1
+sS'parliamentary artist'
+p408
+I1
+sS'surpris'
+p409
+I1
+sS'project gutenberg'
+p410
+I4
+sS'captain cuttl'
+p411
+I1
+sS'miss ros'
+p412
+I1
+sS'yer luv'
+p413
+I1
+sS'westminst'
+p414
+I1
+sS'fust-class judg'
+p415
+I1
+sS'repent'
+p416
+I1
+sS'imperial fad-or'
+p417
+I1
+sS'note'
+p418
+I2
+sS'tin'
+p419
+I1
+sS'courbet'
+p420
+I1
+sS'massa'
+p421
+I2
+sS'upholster'
+p422
+I1
+sS'county magistr'
+p423
+I1
+sS"'s"
+p424
+I1
+sS'convivial plan'
+p425
+I1
+sS'lancashire bench'
+p426
+I2
+sS'ebook'
+p427
+I3
+sS'pontefract'
+p428
+I2
+sS'shakspear'
+p429
+I1
+sS'lady nickleby hunstanton'
+p430
+I1
+sS'income-tax'
+p431
+I1
+sS'plan'
+p432
+I1
+sS'southport'
+p433
+I1
+sS'old-fashionedest toriest of tory farm'
+p434
+I1
+sS'appoint'
+p435
+I1
+sS'liability bil'
+p436
+I1
+sS'principal charact'
+p437
+I1
+sS'socrat'
+p438
+I1
+sS'by-and-bi'
+p439
+I1
+sS'caroline pontefract'
+p440
+I2
+sS'camp'
+p441
+I1
+sS'ebook punch'
+p442
+I1
+sS'project gutenberg licens'
+p443
+I1
+sS'scottish wegg'
+p444
+I1
+sS'o boardmen'
+p445
+I1
+sS'gutenberg ebook punch'
+p446
+I1
+sS'great expect'
+p447
+I1
+sS'hup'
+p448
+I1
+sS'classic wight'
+p449
+I1
+stp450
+Rp451
+tp452
+.

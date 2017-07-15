@@ -1,0 +1,1601 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'unprogrammed transl'
+p7
+I1
+sS'microtip'
+p8
+I1
+sS'centrifug'
+p9
+I8
+sS'tcf family member elk-1 synerg'
+p10
+I1
+sS'c-fo'
+p11
+I3
+sS'depend'
+p12
+I1
+sS'gal4-srf'
+p13
+I4
+sS'leupeptin'
+p14
+I1
+sS'serum induction of c-fo'
+p15
+I1
+sS'dependent report'
+p16
+I3
+sS'assay'
+p17
+I6
+sS'phosphorylation of'
+p18
+I2
+sS'protein-protein interact'
+p19
+I3
+sS'dna bind'
+p20
+I1
+sV-pulldown assay
+p21
+I1
+sS'cooperative rol'
+p22
+I1
+sS'tri'
+p23
+I1
+sS'mm \xce\xb2-glycerol phosph'
+p24
+I1
+sS'mapk family members for'
+p25
+I1
+sS'vivo interaction of'
+p26
+I1
+sS'maximal induction of the sr'
+p27
+I1
+sS't7'
+p28
+I2
+sS'p20-c'
+p29
+I3
+sS'cell lys'
+p30
+I1
+sS'vector'
+p31
+I1
+sS'ras-stimulated transactivation of the sr'
+p32
+I2
+sS'sre-cat report'
+p33
+I1
+sS'of a gal4 dependent report'
+p34
+I1
+sS'penicillin g sodium'
+p35
+I1
+sS'pulldown assay'
+p36
+I1
+sS'synergi'
+p37
+I3
+sS'ebp\xce\xb2 interact'
+p38
+I2
+sS'start sit'
+p39
+I1
+sS'n-terminal domain of'
+p40
+I1
+sS'c-box'
+p41
+I3
+sS'ras stimul'
+p42
+I2
+sS'cotransfect'
+p43
+I1
+sS'acid'
+p44
+I1
+sS'kinas'
+p45
+I3
+sS'nen'
+p46
+I1
+sS'induction of c-fo'
+p47
+I1
+sS'vivo coimmunoprecipitation assay'
+p48
+I1
+sS'consensus mitogen activated protein kinas'
+p49
+I1
+sS'cell'
+p50
+I8
+sS'delet'
+p51
+I1
+sS'novafector transfect'
+p52
+I1
+sS'wild-typ'
+p53
+I1
+sS'net'
+p54
+I3
+sS'transcriptional activity of'
+p55
+I1
+sS'protein complex'
+p56
+I1
+sS'enhancer binding protein-beta'
+p57
+I1
+sS'ras stimulation of th'
+p58
+I1
+sS'n-terminal a-box of'
+p59
+I2
+sS'the c-terminal mapk sit'
+p60
+I1
+sS'of transcript'
+p61
+I1
+sS'concentration of calf serum'
+p62
+I1
+sS'panvera'
+p63
+I1
+sS'family members elk-1'
+p64
+I1
+sS'sre-driven report'
+p65
+I3
+sS'gene'
+p66
+I2
+sS'transcription of the reporter gen'
+p67
+I1
+sS'sap2'
+p68
+I2
+sS'of the c-terminal mapk sit'
+p69
+I1
+sS'culture collect'
+p70
+I2
+sS'phosphate-buffered salin'
+p71
+I1
+sS'sre-cat reporter gen'
+p72
+I1
+sS'dna'
+p73
+I7
+sS'transactivation of th'
+p74
+I5
+sS'isoform'
+p75
+I2
+sS'assay kit'
+p76
+I1
+sS'goat anti-rabbit secondary ab'
+p77
+I1
+sS'p35'
+p78
+I1
+sS'calf'
+p79
+I4
+sS'two-hybrid assay kit'
+p80
+I1
+sS'activated protein kinas'
+p81
+I2
+sS'gst protein'
+p82
+I2
+sS'mapk sit'
+p83
+I3
+sS'repressor'
+p84
+I1
+sS'ras-depend'
+p85
+I9
+sS'elk-1 protein'
+p86
+I2
+sS'tnt'
+p87
+I1
+sS'mg'
+p88
+I2
+sS'erp'
+p89
+I3
+sS'basic-leucine zipper famili'
+p90
+I1
+sS'kda form of'
+p91
+I1
+sS'translation lys'
+p92
+I1
+sS'cat'
+p93
+I1
+sS'mammalian'
+p94
+I1
+sS'tag'
+p95
+I2
+sS'gal4 dependent report'
+p96
+I4
+sS'c-fos gen'
+p97
+I1
+sS'ccaat-enhanc'
+p98
+I1
+sS'serum induction of th'
+p99
+I1
+sS'inhibitor'
+p100
+I3
+sS'ml aprotinin'
+p101
+I1
+sS'family members for a multiprotein complex'
+p102
+I1
+sS'oc'
+p103
+I1
+sS'phosphorylation of the c-terminal mapk sit'
+p104
+I1
+sS'gst-pulldown assay'
+p105
+I2
+sS'polymyxin b antibiot'
+p106
+I1
+sS'prsetb-efii'
+p107
+I2
+sS'fusion protein'
+p108
+I3
+sS'transcriptional complex'
+p109
+I2
+sS'serum'
+p110
+I6
+sS'pgex-4t-1'
+p111
+I1
+sS'unprogrammed translation lys'
+p112
+I1
+sS'novagen'
+p113
+I1
+sS'consensus mapk sit'
+p114
+I1
+sS'ets famili'
+p115
+I2
+sS'mapk'
+p116
+I3
+sS'ebp\xce\xb2 synerg'
+p117
+I4
+sS'pathway'
+p118
+I3
+sS'l-glutamin'
+p119
+I1
+sS'induction of srf'
+p120
+I1
+sS'ets-1'
+p121
+I1
+sS'cos-7'
+p122
+I2
+sS'co-transfect'
+p123
+I4
+sS'c-terminal elk-1'
+p124
+I1
+sS'transcription of th'
+p125
+I1
+sS'srf interaction domain'
+p126
+I1
+sS'consensus mitogen'
+p127
+I1
+sS'of elk-1'
+p128
+I9
+sS'bind'
+p129
+I1
+sS'transcriptional activ'
+p130
+I1
+sS'transfect'
+p131
+I10
+sS'of the reporter gene depend'
+p132
+I1
+sS'his-p35-c'
+p133
+I1
+sS'maximal ras-stimulated transactivation of th'
+p134
+I2
+sS'mm pmsf'
+p135
+I1
+sS'aprotinin'
+p136
+I1
+sS'b antibiot'
+p137
+I1
+sS'mm tri'
+p138
+I1
+sS'bead'
+p139
+I6
+sS'repressor of transcript'
+p140
+I1
+sS'coli'
+p141
+I1
+sS'ets domain'
+p142
+I1
+sS'c-terminal deletion mut'
+p143
+I1
+sS'molybd'
+p144
+I1
+sS'consensu'
+p145
+I2
+sS'vivo studi'
+p146
+I1
+sS'mm sodium vanad'
+p147
+I1
+sS'immunoblot'
+p148
+I2
+sS'serum induction of the sr'
+p149
+I1
+sS'activation of'
+p150
+I3
+sS'fragment'
+p151
+I3
+sS'ras stimult'
+p152
+I1
+sS't7 tag'
+p153
+I1
+sS'maximal induct'
+p154
+I2
+sS'calcium phosph'
+p155
+I2
+sS'studi'
+p156
+I2
+sS'coimmunoprecipit'
+p157
+I1
+sS'gst-pulldown'
+p158
+I1
+sS'ebp\xce\xb2 fus'
+p159
+I1
+sS'phenylmethylsulfonyl fluorid'
+p160
+I2
+sS'bp ecori frag'
+p161
+I2
+sS'mrna'
+p162
+I1
+sS'transactivation of srf-dependent transcript'
+p163
+I2
+sS'cos-7 cel'
+p164
+I3
+sS'domain'
+p165
+I11
+sS'serum induct'
+p166
+I2
+sS'expression vector'
+p167
+I1
+sS'transcription of'
+p168
+I1
+sS'invitrogen'
+p169
+I1
+sS'srf dna'
+p170
+I1
+sS'ebp\xce\xb2-are cotransfect'
+p171
+I1
+sS'maximal ras-stimulated transactivation of'
+p172
+I2
+sS'transcription factors elk-1'
+p173
+I1
+sS'lt1'
+p174
+I1
+sS'transactivation domain of p35-c'
+p175
+I1
+sS'phosphoryl'
+p176
+I2
+sS'transcription of the c-fos gen'
+p177
+I1
+sS'mm l-glutamin'
+p178
+I1
+sS'gal4-dependent promot'
+p179
+I1
+sS'ra'
+p180
+I3
+sS'further studi'
+p181
+I1
+sS'transactivation of a gal4 dependent report'
+p182
+I1
+sS'synergism of elk-1'
+p183
+I1
+sS'maximal ras-stimulated transactiv'
+p184
+I2
+sS'nf-m'
+p185
+I1
+sS'sre activ'
+p186
+I1
+sS'a-box deletion mut'
+p187
+I1
+sS'phosphorylation of th'
+p188
+I1
+sS'co-immunoprecipitation cos-7 cel'
+p189
+I1
+sS'cell transfect'
+p190
+I1
+sS'ras activation of'
+p191
+I1
+sS'schibler'
+p192
+I1
+sS'nf-il6'
+p193
+I1
+sS'a-box of elk-1'
+p194
+I4
+sS'clontech'
+p195
+I1
+sS'vitro gst-pulldown'
+p196
+I1
+sS'of srf-dependent transcript'
+p197
+I2
+sS'mitogenic signaling pathway'
+p198
+I1
+sS'p35-c'
+p199
+I21
+sS'nacl'
+p200
+I1
+sS'transcription of the report'
+p201
+I1
+sS'transactiv'
+p202
+I13
+sS'instruct'
+p203
+I1
+sS'supernat'
+p204
+I1
+sS'membran'
+p205
+I1
+sS'fluorid'
+p206
+I2
+sS'ebp\xce\xb2-gst fusion protein'
+p207
+I1
+sS'domain of elk-1'
+p208
+I2
+sS'gst-p35-c'
+p209
+I2
+sS'interact'
+p210
+I8
+sS'ml leupeptin'
+p211
+I1
+sS'polyacrylamide gel'
+p212
+I1
+sS'termin'
+p213
+I1
+sS'biochem'
+p214
+I1
+sS'isopropyl-\xce\xb2-d-thiogalactopyranosid'
+p215
+I1
+sS'ras activ'
+p216
+I1
+sS'induction overnight'
+p217
+I1
+sS'ecori cut'
+p218
+I2
+sS'machineri'
+p219
+I3
+sS'molecular'
+p220
+I1
+sS'target'
+p221
+I1
+sS'n-terminal a-box of elk-1'
+p222
+I2
+sS'calf serum'
+p223
+I5
+sS'nonidet'
+p224
+I1
+sS'plasmid'
+p225
+I4
+sS'in-frame methionin'
+p226
+I1
+sS'p-40'
+p227
+I1
+sS'supplement'
+p228
+I1
+sS'tnt t7'
+p229
+I1
+sS'c-terminal dna'
+p230
+I2
+sS'repressor of'
+p231
+I1
+sS'overnight'
+p232
+I1
+sS'tag antibodi'
+p233
+I1
+sS'transfection effici'
+p234
+I2
+sS'tcf family members elk-1'
+p235
+I1
+sS'ebp\xce\xb2 mrna'
+p236
+I1
+sS'vitro'
+p237
+I13
+sS'transactivation of the sr'
+p238
+I7
+sS'min'
+p239
+I6
+sS'abbreviations aa'
+p240
+I1
+sS'c-fos sre activ'
+p241
+I1
+sS'activity of the tcf'
+p242
+I1
+sS'transcriptional machineri'
+p243
+I3
+sS'ebp\xce\xb2 fusion protein'
+p244
+I1
+sS'gal4'
+p245
+I2
+sS'n-terminal domain of elk-1'
+p246
+I1
+sS'of ras-depend'
+p247
+I2
+sS'buffer'
+p248
+I4
+sS'glycin'
+p249
+I1
+sS'mm glycin'
+p250
+I1
+sS'histidine-tagged p35-c'
+p251
+I1
+sS'src-1'
+p252
+I1
+sS'dmem'
+p253
+I4
+sS'transcript'
+p254
+I9
+sS'ml polymyxin b antibiot'
+p255
+I1
+sS'a-box'
+p256
+I2
+sS'thr235'
+p257
+I2
+sS'tcf family member elk-1'
+p258
+I2
+sS'transactivation of'
+p259
+I9
+sS'basal transcriptional machineri'
+p260
+I2
+sS'sapk'
+p261
+I1
+sS'consensus mitogen activ'
+p262
+I1
+sS'absence of elk-1'
+p263
+I1
+sS'bl21'
+p264
+I1
+sS'dimerization domain'
+p265
+I1
+sS'growth factor stimulated cel'
+p266
+I1
+sS'ebp\xce\xb2 isoform'
+p267
+I1
+sS'transfer buff'
+p268
+I1
+sS'mapk family members for a multiprotein complex'
+p269
+I1
+sS'of c-fo'
+p270
+I1
+sS'gene depend'
+p271
+I1
+sS'of the sr'
+p272
+I9
+sS'laemmli sample buff'
+p273
+I1
+sS'ebp\xce\xb2'
+p274
+I79
+sS'n-terminus of c'
+p275
+I1
+sS'dna complex'
+p276
+I2
+sS'of the tcf'
+p277
+I1
+sS'multiprotein complex'
+p278
+I3
+sS'a-box of'
+p279
+I2
+sS'terminal repeat'
+p280
+I1
+sS'histidine-tag'
+p281
+I1
+sS'mammalian matchmaker two-hybrid'
+p282
+I1
+sS'maximal induction of srf'
+p283
+I1
+sS'activ'
+p284
+I6
+sS'g sodium'
+p285
+I1
+sS'stress activated protein kinas'
+p286
+I1
+sS'coimmunoprecipitation assay'
+p287
+I1
+sS'c-terminal region of'
+p288
+I1
+sS'the sr'
+p289
+I9
+sS'michigan'
+p290
+I1
+sS'express'
+p291
+I1
+sS'c-terminal domain of'
+p292
+I4
+sS'matchmaker two-hybrid assay kit'
+p293
+I1
+sS'tcf famili'
+p294
+I5
+sS'gel'
+p295
+I2
+sS'c-terminal domain of c'
+p296
+I4
+sS'the c-fos gen'
+p297
+I1
+sS'ras-raf-mapk signal transduct'
+p298
+I1
+sS'dupont'
+p299
+I1
+sS'mm pepstatin'
+p300
+I1
+sS'switzerland'
+p301
+I1
+sS'ras stimulation of'
+p302
+I1
+sS'ecori frag'
+p303
+I3
+sS'c-fos sr'
+p304
+I4
+sS'dmem suppl'
+p305
+I1
+sS'millipor'
+p306
+I1
+sS'protein-beta'
+p307
+I2
+sS'pcdna3'
+p308
+I1
+sS'srf-dependent transcript'
+p309
+I2
+sS'jnk'
+p310
+I1
+sS'ebp'
+p311
+I1
+sS'vivo'
+p312
+I4
+sS'vanad'
+p313
+I2
+sS'jun-n-terminal kinas'
+p314
+I1
+sS'for a multiprotein complex'
+p315
+I2
+sS'vivo interact'
+p316
+I3
+sS'gal4-srf fus'
+p317
+I1
+sS'supersignal chemiluminesc'
+p318
+I1
+sS'promega'
+p319
+I2
+sS'sodium molybd'
+p320
+I1
+sS'anti-rabbit secondary ab'
+p321
+I1
+sS'laemmli sampl'
+p322
+I1
+sS'approach'
+p323
+I1
+sS'sds-12'
+p324
+I1
+sS'sodium vanad'
+p325
+I2
+sS'cycl'
+p326
+I1
+sS'cut pgex-4t-1'
+p327
+I1
+sS'mammalian matchmaker two-hybrid assay'
+p328
+I1
+sS'transcriptional act'
+p329
+I1
+sS'sodium'
+p330
+I2
+sS'duty cycl'
+p331
+I1
+sS'kda form of c'
+p332
+I1
+sS'transactivation of srf'
+p333
+I1
+sS'transcription of the reporter gene depend'
+p334
+I1
+sS'nonidet p-40'
+p335
+I1
+sS'mapk famili'
+p336
+I1
+sS'reporter gen'
+p337
+I1
+sS'b-box'
+p338
+I2
+sS'duti'
+p339
+I1
+sS'wild-type elk-1'
+p340
+I1
+sS'elk-1'
+p341
+I62
+sS'c-terminal domain'
+p342
+I5
+sS'clarif'
+p343
+I1
+sS'transcriptional activity of the tcf'
+p344
+I1
+sS'maximal ras-stimulated transactivation of the sr'
+p345
+I2
+sS'final concentration of'
+p346
+I1
+sS'gal4 report'
+p347
+I2
+sS'n-terminal domain'
+p348
+I1
+sS'c-terminal region of c'
+p349
+I1
+sS'pb'
+p350
+I5
+sS'of calf serum'
+p351
+I1
+sS'ph'
+p352
+I1
+sS'consensus mitogen activated protein'
+p353
+I1
+sS'prseta-lip'
+p354
+I1
+sS'c-terminal delet'
+p355
+I2
+sS'cmv-elk-1'
+p356
+I2
+sS'basic-leucine zipper family of'
+p357
+I1
+sS'extracellular signal-regulated kinas'
+p358
+I1
+sS'of srf'
+p359
+I2
+sS'domain-srf fus'
+p360
+I1
+sS'serum induction of'
+p361
+I2
+sS'deletion mut'
+p362
+I2
+sS'final concentr'
+p363
+I2
+sS'lysat'
+p364
+I3
+sS'report'
+p365
+I10
+sS'observ'
+p366
+I2
+sS'methionin'
+p367
+I3
+sS'mutant'
+p368
+I4
+sS'viru'
+p369
+I1
+sS'cultur'
+p370
+I1
+sS'site'
+p371
+I6
+sS'rapid transcription of the c-fos gen'
+p372
+I1
+sS'molecular biochem'
+p373
+I1
+sS'binding sit'
+p374
+I1
+sS'protein'
+p375
+I18
+sS'vitro interaction domain'
+p376
+I1
+sS'absence of'
+p377
+I1
+sS'glutathione-sepharose bead'
+p378
+I1
+sS'mm isopropyl-\xce\xb2-d-thiogalactopyranosid'
+p379
+I1
+sS'antibiot'
+p380
+I1
+sS'final concentration of calf serum'
+p381
+I1
+sS'maximal induction of th'
+p382
+I1
+sS'complex'
+p383
+I9
+sS'\xce\xb2-glycerol phosph'
+p384
+I1
+sS'amersham-pharmacia'
+p385
+I2
+sS'pgal4-srf'
+p386
+I1
+sS'mammalian matchmaker two-hybrid assay kit'
+p387
+I1
+sS'nih'
+p388
+I2
+sS'phosphorylation of the c-terminal mapk'
+p389
+I1
+sS'ets family of'
+p390
+I1
+sS'lysis buff'
+p391
+I2
+sS'kit'
+p392
+I1
+sS'rapid transcription of'
+p393
+I1
+sS'interaction of elk-1'
+p394
+I1
+sS'sap-2'
+p395
+I1
+sS'rapid transcript'
+p396
+I1
+sS'sap-1'
+p397
+I1
+sS'cmv-lap'
+p398
+I2
+sS'ebp\xce\xb2 bead'
+p399
+I3
+sS'gst'
+p400
+I6
+sS'the reporter gene depend'
+p401
+I1
+sS'sap1'
+p402
+I2
+sS'ras stimulation of the srf-p35-c'
+p403
+I1
+sS'stimult'
+p404
+I1
+sS'p300'
+p405
+I1
+sS'transcriptional start sit'
+p406
+I1
+sS'sodium bicarbon'
+p407
+I1
+sS'srf dna bind'
+p408
+I1
+sS'of tcf'
+p409
+I2
+sS'vitro interact'
+p410
+I1
+sS'tcf'
+p411
+I18
+sS'n-terminal a-box'
+p412
+I4
+sS'transcriptional start'
+p413
+I1
+sS'concentr'
+p414
+I1
+sS'synergism of'
+p415
+I1
+sS'mitogen activated protein kinas'
+p416
+I1
+sS'stimul'
+p417
+I2
+sS'of the c-fos gen'
+p418
+I1
+sS'ebp\xce\xb2-gst fus'
+p419
+I1
+sS'growth factor stimul'
+p420
+I1
+sS'sonic'
+p421
+I2
+sS'c-terminal mapk sit'
+p422
+I1
+sS'penicillin g'
+p423
+I1
+sS'srf protein'
+p424
+I1
+sS'sre report'
+p425
+I2
+sS'reporter gene depend'
+p426
+I1
+sS'fusion'
+p427
+I1
+sS'capo'
+p428
+I3
+sS'elk-1 ab'
+p429
+I1
+sS'activation of tcf'
+p430
+I2
+sS'mm sodium'
+p431
+I1
+sS'ras activation of tcf'
+p432
+I1
+sS'-agarose bead'
+p433
+I1
+sS'collect'
+p434
+I1
+sS'maximal induction of'
+p435
+I2
+sS'bicarbon'
+p436
+I1
+sS'salin'
+p437
+I1
+sS'ebp\xce\xb2 protein'
+p438
+I3
+sS'sample buff'
+p439
+I1
+sS'repeat'
+p440
+I1
+sS'transcription factor nam'
+p441
+I1
+sS'stimulated cel'
+p442
+I2
+sS'anti-elk-1 ab'
+p443
+I1
+sS'of thr235'
+p444
+I1
+sS'glutathione-agarose bead'
+p445
+I1
+sS'transduction pathway'
+p446
+I2
+sS'tfii-i'
+p447
+I1
+sS'induction of the sr'
+p448
+I2
+sS'interaction domain'
+p449
+I2
+sS'activation of ras-depend'
+p450
+I2
+sS'phosphorylation sit'
+p451
+I1
+sS'the tcf'
+p452
+I1
+sS'accessory protein'
+p453
+I1
+sS'electrophoresi'
+p454
+I1
+sS'transactivation domain'
+p455
+I8
+sS'protein kinas'
+p456
+I2
+sS'rapid transcription of th'
+p457
+I1
+sS'cell protein'
+p458
+I1
+sS'n-terminal transactivation domain'
+p459
+I3
+sS'promot'
+p460
+I2
+sS'immobilon-p membran'
+p461
+I1
+sS'c-terminal c-box'
+p462
+I1
+sS'confluenc'
+p463
+I3
+sS'anti-elk-1'
+p464
+I1
+sS'srf transactivation domain'
+p465
+I1
+sS'srf'
+p466
+I31
+sS'ccaat'
+p467
+I1
+sS'sre'
+p468
+I31
+sS'antibodi'
+p469
+I1
+sS'internal control invalid'
+p470
+I1
+sS'transcriptional activity of th'
+p471
+I1
+sS'ecori cut pgex-4t-1'
+p472
+I1
+sS'mammalian matchmak'
+p473
+I1
+sS'protease inhibitor'
+p474
+I3
+sS'domain-srf fusion protein'
+p475
+I1
+sS'triton'
+p476
+I2
+sS'pmsf'
+p477
+I3
+sS'amino acid'
+p478
+I1
+sS'effici'
+p479
+I2
+sS'cos-7 cell transfect'
+p480
+I1
+sS'gst-p20-c'
+p481
+I2
+sS'pgal4'
+p482
+I1
+sS'edta'
+p483
+I1
+sS'elk-1 synerg'
+p484
+I2
+sS'transfer'
+p485
+I1
+sS'transactivation domain of elk-1'
+p486
+I1
+sS'co-immunoprecipitation approach'
+p487
+I1
+sS'polyacrylamid'
+p488
+I1
+sS'laemmli'
+p489
+I1
+sS'glutathione-s-transferas'
+p490
+I1
+sS'triton x-100'
+p491
+I2
+sS'sarcoma viru'
+p492
+I1
+sS'translat'
+p493
+I1
+sS'consensus mapk'
+p494
+I1
+sS'internal control plasmid'
+p495
+I1
+sS'growth'
+p496
+I1
+sS'absenc'
+p497
+I6
+sS'chimeric gst protein'
+p498
+I1
+sS'synerg'
+p499
+I8
+sS'aa'
+p500
+I1
+sS'vivo interaction of elk-1'
+p501
+I1
+sS'ab'
+p502
+I5
+sS'serum stimul'
+p503
+I1
+sS'n-terminus of'
+p504
+I1
+sS'cbp'
+p505
+I1
+sS'mm nacl'
+p506
+I1
+sS'family member elk-1 synerg'
+p507
+I1
+sS'elk-1 mut'
+p508
+I1
+sS'transit-lt1'
+p509
+I1
+sS'transactivation domain of'
+p510
+I2
+sS'pepstatin'
+p511
+I1
+sS'c-terminal dna bind'
+p512
+I1
+sS'x-100'
+p513
+I2
+sS'invalid'
+p514
+I2
+sS'role'
+p515
+I1
+sS'secondary ab'
+p516
+I2
+sS'family member elk-1'
+p517
+I1
+sS'gal4 dna'
+p518
+I1
+sS'coactiv'
+p519
+I2
+sS'ml polymyxin b'
+p520
+I1
+sS'chimeric gst'
+p521
+I1
+sS'ras-raf-mapk signal transduction pathway'
+p522
+I1
+sS'binding protein-beta'
+p523
+I1
+sS'mm edta'
+p524
+I1
+sS'ternary complex'
+p525
+I1
+sS'dupont nen'
+p526
+I1
+sS'c-terminal elk-1 mut'
+p527
+I1
+sS'phosphorylation of thr235'
+p528
+I1
+sS'gal4 binding sit'
+p529
+I1
+sS'lyse'
+p530
+I1
+sS'co-immunoprecipitation cos-7'
+p531
+I1
+sS'c-fos promot'
+p532
+I1
+sS'phosphat'
+p533
+I3
+sS'agp'
+p534
+I1
+stp535
+Rp536
+tp537
+.

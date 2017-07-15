@@ -1,0 +1,1460 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'intein-free homologs of the host protein'
+p7
+I1
+sS'empty target sit'
+p8
+I2
+sS'lack'
+p9
+I1
+sS'centrifug'
+p10
+I1
+sS'methanosarcina'
+p11
+I1
+sS'unprocess'
+p12
+I1
+sS'signific'
+p13
+I1
+sS'saccharomyc'
+p14
+I4
+sS'distribution of empty target'
+p15
+I1
+sS'the intron'
+p16
+I2
+sS'destain'
+p17
+I1
+sS'endonuclease gen'
+p18
+I1
+sS'persistence of'
+p19
+I1
+sS'the intein'
+p20
+I2
+sS'aua'
+p21
+I2
+sS'a-subunit'
+p22
+I1
+sS'amino acid residu'
+p23
+I1
+sS'lb broth contain'
+p24
+I1
+sS'containing allel'
+p25
+I2
+sS'f-atpas'
+p26
+I2
+sS'intron'
+p27
+I10
+sS'eukaryotic vacuolar atpas'
+p28
+I1
+sS'schagger'
+p29
+I1
+sS'micro-tip'
+p30
+I1
+sS'mm phenyl methyl sulfonyl'
+p31
+I1
+sS'of intein'
+p32
+I1
+sS'genbank'
+p33
+I1
+sS'endonuclease act'
+p34
+I2
+sS'concentr'
+p35
+I1
+sS'sens'
+p36
+I1
+sS'ta-4'
+p37
+I1
+sS'ta-5'
+p38
+I1
+sS'surviv'
+p39
+I1
+sS'of the host protein'
+p40
+I2
+sS'pyrococcal a-atpas'
+p41
+I1
+sS'yeast'
+p42
+I1
+sS'express'
+p43
+I3
+sS'autocatalytic spl'
+p44
+I3
+sS'soluble protein'
+p45
+I1
+sS'reconstruct'
+p46
+I1
+sS'usage frequ'
+p47
+I1
+sS'acidophilum'
+p48
+I5
+sS'induct'
+p49
+I4
+sS'tri'
+p50
+I1
+sS'protein coding gen'
+p51
+I1
+sS'religation of'
+p52
+I1
+sS'methyl sulfonyl fluorid'
+p53
+I1
+sS'organ'
+p54
+I1
+sS'non-denatur'
+p55
+I1
+sS'thermoplasma intein'
+p56
+I1
+sS'intein databas'
+p57
+I1
+sS'monom'
+p58
+I1
+sS'carota'
+p59
+I1
+sS'integr'
+p60
+I2
+sS'java program'
+p61
+I1
+sS'catalytic subunit'
+p62
+I8
+sS'c-extein'
+p63
+I1
+sS'a-atpas'
+p64
+I11
+sS'align'
+p65
+I5
+sS'dimer'
+p66
+I1
+sS'proteas'
+p67
+I1
+sS'tris-hcl'
+p68
+I1
+sS'thermococcus sp'
+p69
+I1
+sS'coli protein'
+p70
+I1
+sS'speci'
+p71
+I6
+sS'tabulated from genbank'
+p72
+I1
+sS'thermoplasma acidophilum'
+p73
+I2
+sS'evolutionary sens'
+p74
+I1
+sS'tree-branch-reconnect'
+p75
+I1
+sS'lb broth'
+p76
+I1
+sS'acidophilum cytoplasm'
+p77
+I1
+sS'aggreg'
+p78
+I1
+sS'tep'
+p79
+I2
+sS'persistence of the intron'
+p80
+I2
+sS'acid'
+p81
+I5
+sS'phylogenies of'
+p82
+I1
+sS'gene express'
+p83
+I1
+sS'blue'
+p84
+I1
+sS'tree-puzzl'
+p85
+I1
+sS'pyrococcus catalytic subunit'
+p86
+I1
+sS'excis'
+p87
+I2
+sS'aggregate of'
+p88
+I1
+sS'abi'
+p89
+I1
+sS'abi prism bigdy'
+p90
+I1
+sS'endonuclease domain'
+p91
+I2
+sS'a-atpase catalytic subunit'
+p92
+I4
+sS'clustal'
+p93
+I2
+sS'jannaschii'
+p94
+I1
+sS'intein-free homolog'
+p95
+I3
+sS'new'
+p96
+I1
+sS'survival of'
+p97
+I1
+sS'topolog'
+p98
+I1
+sS'acidophilum a-atpase catalytic subunit'
+p99
+I1
+sS'horizontal gen'
+p100
+I2
+sS'of tep buff'
+p101
+I1
+sS'non-denaturating gel'
+p102
+I1
+sS'rapid spread'
+p103
+I1
+sS'cerevisiae v-atpas'
+p104
+I1
+sS'clustal x'
+p105
+I2
+sS'pairwis'
+p106
+I1
+sS'non-denatured protein'
+p107
+I1
+sS'encoding gen'
+p108
+I1
+sS'cycl'
+p109
+I4
+sS'-ril strain for protein express'
+p110
+I1
+sS'hki'
+p111
+I1
+sS'intein-free homologs of'
+p112
+I1
+sS'gamma distribut'
+p113
+I1
+sS'a-typ'
+p114
+I1
+sS'empty target'
+p115
+I1
+sS'external protein'
+p116
+I1
+sS'of the a-atpase intein'
+p117
+I1
+sS'efficient autocatalytic spl'
+p118
+I1
+sS'ile'
+p119
+I1
+sS'ncbi'
+p120
+I1
+sS'olga'
+p121
+I1
+sS'blastp'
+p122
+I1
+sS'duty cycl'
+p123
+I1
+sS'volcanium'
+p124
+I1
+sS'crenarcheot'
+p125
+I1
+sS'subunit ribosomal rna'
+p126
+I2
+sS'acidophiluma-atpas'
+p127
+I1
+sS'biolab'
+p128
+I1
+sS'gene'
+p129
+I9
+sS'ribosom'
+p130
+I2
+sS'subunit of'
+p131
+I2
+sS'relig'
+p132
+I1
+sS'gaggtgaacatatgggaaagataatcag'
+p133
+I1
+sS'splice'
+p134
+I4
+sS'atpase intein'
+p135
+I1
+sS'v-atpase intein'
+p136
+I1
+sS'isopropyl thio-\xce\xb2-d-galactosid'
+p137
+I1
+sS'codon'
+p138
+I5
+sS'cf'
+p139
+I1
+sS'duti'
+p140
+I1
+sS'rna polymeras'
+p141
+I1
+sS'confidence interv'
+p142
+I1
+sS'the a-type atpases of thermoplasma acidophilum'
+p143
+I1
+sS'thermoplasma a-atpas'
+p144
+I1
+sS'rpm'
+p145
+I2
+sS'amino'
+p146
+I2
+sS'v-type atpas'
+p147
+I1
+sS'dna'
+p148
+I5
+sS'autocatalytic splicing of th'
+p149
+I1
+sS'containing ampicillin'
+p150
+I1
+sS'implic'
+p151
+I1
+sS'program'
+p152
+I1
+sS'trna regul'
+p153
+I1
+sS'pe'
+p154
+I1
+sS'transfer scenario'
+p155
+I2
+sS'subunit encoding gen'
+p156
+I1
+sS'ph'
+p157
+I2
+sS'broth'
+p158
+I1
+sS'of the c-extein'
+p159
+I1
+sS'rapid spread of the intron'
+p160
+I1
+sS'amino acid residue of the c-extein'
+p161
+I1
+sS'regul'
+p162
+I1
+sS'daucus carota'
+p163
+I1
+sS'distribution of th'
+p164
+I1
+sS'abi pr'
+p165
+I1
+sS'phylogenetic reconstruct'
+p166
+I1
+sS'gap'
+p167
+I2
+sS'a-type atpases of thermoplasma acidophilum'
+p168
+I1
+sS'lb broth containing ampicillin'
+p169
+I1
+sS'connecticut'
+p170
+I1
+sS'atpsynthas'
+p171
+I1
+sS'database project ii'
+p172
+I1
+sS'aggregate of th'
+p173
+I1
+sS'protein cod'
+p174
+I1
+sS'thermococcu'
+p175
+I2
+sS'usage comparison codon usag'
+p176
+I1
+sS'amino acid residue of th'
+p177
+I1
+sS'replic'
+p178
+I1
+sS'endonuclease contain'
+p179
+I1
+sS'intein hom'
+p180
+I2
+sS'retriev'
+p181
+I2
+sS'of dtt'
+p182
+I2
+sS'ml'
+p183
+I1
+sS'prepar'
+p184
+I2
+sS'subunit of th'
+p185
+I2
+sS'intron contain'
+p186
+I2
+sS'final concentr'
+p187
+I1
+sS'rapid spread of'
+p188
+I1
+sS'atpase catalytic subunit'
+p189
+I3
+sS'furiosu'
+p190
+I1
+sS'-ril strain'
+p191
+I2
+sS'codon usage tabul'
+p192
+I1
+sS'\xce\xbcl of tep buff'
+p193
+I1
+sS'phylogenet'
+p194
+I1
+sS'kdalton'
+p195
+I1
+sS'operon'
+p196
+I1
+sS'vacuolar atpas'
+p197
+I2
+sS'prss'
+p198
+I1
+sS'abi prism bigdye termin'
+p199
+I1
+sS'phylogenetic classif'
+p200
+I1
+sS'ribosomal rna'
+p201
+I1
+sS'activ'
+p202
+I2
+sS'ii'
+p203
+I1
+sS'strain'
+p204
+I2
+sS'rapid spread of th'
+p205
+I1
+sS'of empty target sit'
+p206
+I1
+sS'protein'
+p207
+I20
+sS'host protein'
+p208
+I9
+sS'the extein'
+p209
+I1
+sS'residue of the c-extein'
+p210
+I1
+sS'vacuolar'
+p211
+I2
+sS'of the a-subunit monom'
+p212
+I1
+sS'catalytic sit'
+p213
+I1
+sS'cerevisiae intein'
+p214
+I1
+sS'intein spread'
+p215
+I1
+sS'olga zhaxybayeva'
+p216
+I1
+sS'thermoplasma'
+p217
+I13
+sS'persistence of th'
+p218
+I1
+sS'the c-extein'
+p219
+I1
+sS'subunit'
+p220
+I16
+sS'confid'
+p221
+I1
+sS'horikoshii'
+p222
+I1
+sS'clone'
+p223
+I1
+sS'methanobacterium thermoautotrophicus branch'
+p224
+I1
+sS'subunit of the a-type atpases of thermoplasma'
+p225
+I1
+sS'preparation for'
+p226
+I1
+sS'\xce\xbcl of'
+p227
+I1
+sS'v-atpas'
+p228
+I1
+sS'the host protein'
+p229
+I2
+sS'multiple sequence alignments of diverse intein'
+p230
+I1
+sS'religation of the extein'
+p231
+I1
+sS'braun-sonic u'
+p232
+I1
+sS'scenario'
+p233
+I2
+sS'bromphenol blu'
+p234
+I1
+sS'pyrococcus a-atpas'
+p235
+I1
+sS'for trna regul'
+p236
+I1
+sS'causes for trna regul'
+p237
+I1
+sS'sp'
+p238
+I1
+sS'correspond'
+p239
+I1
+sS'coding gen'
+p240
+I1
+sS'environ'
+p241
+I1
+sS'gene transf'
+p242
+I2
+sS'model'
+p243
+I2
+sS'new england biolab'
+p244
+I1
+sS'sd'
+p245
+I3
+sS'cutg'
+p246
+I1
+sS'intein'
+p247
+I49
+sS'extein'
+p248
+I3
+sS'alireza'
+p249
+I1
+sS'host gen'
+p250
+I1
+sS'intein transf'
+p251
+I1
+sS'coli'
+p252
+I12
+sS'religated a-subunit'
+p253
+I1
+sS'ampicillin'
+p254
+I2
+sS'of thermoplasma acidophilum'
+p255
+I1
+sS'gyras'
+p256
+I1
+sS'\xce\xbcl of tep'
+p257
+I1
+sS'usage tabulated from genbank'
+p258
+I1
+sS'bacterial f-atpas'
+p259
+I1
+sS'lb'
+p260
+I1
+sS'dna repl'
+p261
+I1
+sS'phenyl methyl sulfonyl fluorid'
+p262
+I1
+sS'phylogenies of archaeal atpase catalytic subunit'
+p263
+I1
+sS'restriction sit'
+p264
+I1
+sS'acetic acid'
+p265
+I3
+sS'identif'
+p266
+I1
+sS'hcl ph'
+p267
+I1
+sS'spread'
+p268
+I1
+sS'phylogeny of'
+p269
+I1
+sS'treatment'
+p270
+I2
+sS'losses of the intein'
+p271
+I1
+sS'persist'
+p272
+I3
+sS'of the intein'
+p273
+I2
+sS'gel'
+p274
+I3
+sS'archaea'
+p275
+I6
+sS'distribution of the a-atpase intein'
+p276
+I1
+sS'alireza senejani'
+p277
+I1
+sS'multiple sequence alignments of'
+p278
+I1
+sS'phylogeni'
+p279
+I7
+sS'horizontal transfer scenario'
+p280
+I2
+sS'webpag'
+p281
+I1
+sS'trna'
+p282
+I1
+sS'rna'
+p283
+I2
+sS'of the thermoplasma'
+p284
+I1
+sS'ribosomal database project ii'
+p285
+I2
+sS'band'
+p286
+I2
+sS'tep buff'
+p287
+I3
+sS'polymeras'
+p288
+I1
+sS'exact causes for'
+p289
+I1
+sS'genus thermoplasma lack cel'
+p290
+I1
+sS'codon usage tabulated from'
+p291
+I1
+sS'horizontal gene transf'
+p292
+I2
+sS'endonuclease motif'
+p293
+I1
+sS'pyrococcus intein'
+p294
+I1
+sS'loss'
+p295
+I1
+sS'codon usage frequ'
+p296
+I1
+sS'zhaxybayeva'
+p297
+I1
+sS'tran'
+p298
+I1
+sS'ribosomal databas'
+p299
+I2
+sS'thermolithotrophicu'
+p300
+I1
+sS'the a-atpase intein'
+p301
+I1
+sS'inteins lack'
+p302
+I1
+sS'thio-\xce\xb2-d-galactosid'
+p303
+I1
+sS'genom'
+p304
+I2
+sS'catalytic v-atpase subunits form inclus'
+p305
+I1
+sS'yeast mitochondria'
+p306
+I1
+sS'archaeal atpsynthas'
+p307
+I1
+sS'of the intron'
+p308
+I2
+sS'domain'
+p309
+I2
+sS'insertion sit'
+p310
+I2
+sS'a-subunit monom'
+p311
+I1
+sS'containing intein'
+p312
+I1
+sS'integration sit'
+p313
+I1
+sS'interv'
+p314
+I3
+sS'kda'
+p315
+I1
+sS'sampl'
+p316
+I2
+sS'codon aua'
+p317
+I1
+sS'distribution of empty target sit'
+p318
+I1
+sS'home'
+p319
+I2
+sS'mm phenyl'
+p320
+I1
+sS'multiple sequence align'
+p321
+I2
+sS'religation of th'
+p322
+I1
+sS'phylogeny of th'
+p323
+I1
+sS'non-functioning enzym'
+p324
+I1
+sS'archaeal atpase catalytic subunit'
+p325
+I1
+sS'non-denaturing gel'
+p326
+I1
+sS'reductas'
+p327
+I1
+sS'thermoautotrophicus branch'
+p328
+I1
+sS'pyrococcus intein multipl'
+p329
+I1
+sS'amino acid residue of'
+p330
+I1
+sS'substitut'
+p331
+I5
+sS'saccharomyces cerevisia'
+p332
+I2
+sS'the thermoplasma'
+p333
+I1
+sS'subclon'
+p334
+I1
+sS'cerevisia'
+p335
+I1
+sS'cloning dna'
+p336
+I1
+sS'abi prism bigdye terminator cycl'
+p337
+I1
+sS'usag'
+p338
+I3
+sS'target sit'
+p339
+I2
+sS'lineag'
+p340
+I2
+sS'intein integr'
+p341
+I1
+sS'host'
+p342
+I8
+sS'abysii'
+p343
+I1
+sS'ribonucleotide reductas'
+p344
+I1
+sS'java'
+p345
+I1
+sS'ribosomal rrna phylogeni'
+p346
+I1
+sS'survival of th'
+p347
+I1
+sS'homing endonucleas'
+p348
+I1
+sS'subunit of the thermoplasma'
+p349
+I1
+sS'methanobacterium'
+p350
+I1
+sS'frequenc'
+p351
+I1
+sS'new england'
+p352
+I1
+sS'\xce\xbcl'
+p353
+I2
+sS'coli cytoplasm'
+p354
+I3
+sS'bootstrap sampl'
+p355
+I1
+sS'atp'
+p356
+I1
+sS'from genbank'
+p357
+I1
+sS'databas'
+p358
+I1
+sS'the a-subunit monom'
+p359
+I1
+sS'a-type atpas'
+p360
+I1
+sS'codon usage comparison codon'
+p361
+I1
+sS'stratagen'
+p362
+I2
+sS'amino acid'
+p363
+I5
+sS'strain for protein express'
+p364
+I1
+sS'encod'
+p365
+I1
+sS'autocatalytic splicing of'
+p366
+I1
+sS'p-valu'
+p367
+I2
+sS'restrict'
+p368
+I1
+sS'internal protein'
+p369
+I1
+sS'acid residue of the c-extein'
+p370
+I1
+sS'supernat'
+p371
+I1
+sS'spread of the intron'
+p372
+I1
+sS'sulfonyl fluorid'
+p373
+I1
+sS'edta'
+p374
+I1
+sS'intein excis'
+p375
+I2
+sS'fluorid'
+p376
+I1
+sS'horizontal transf'
+p377
+I3
+sS'phylogeny of the host'
+p378
+I1
+sS'of archaeal atpase catalytic subunit'
+p379
+I1
+sS'transfer'
+p380
+I4
+sS'evolut'
+p381
+I1
+sS'cyclic reinvasion model'
+p382
+I2
+sS'of'
+p383
+I1
+sS'for sd'
+p384
+I1
+sS'genomic dna'
+p385
+I1
+sS'intron containing allel'
+p386
+I2
+sS'bootstrapped sampl'
+p387
+I1
+sS'non-reducing gel'
+p388
+I1
+sS'gene identif'
+p389
+I1
+sS'non-funct'
+p390
+I1
+sS'v-atpase gen'
+p391
+I1
+sS'losses of'
+p392
+I1
+sS'atpas'
+p393
+I6
+sS'survival of the intein'
+p394
+I2
+sS'losses of th'
+p395
+I1
+sS'endonuclease containing intein'
+p396
+I1
+sS'distribution of'
+p397
+I3
+sS'archaeal'
+p398
+I1
+sS'of the a-type atpases of thermoplasma acidophilum'
+p399
+I1
+sS'thermoplasma lineag'
+p400
+I1
+sS'exact caus'
+p401
+I1
+sS'codon usage comparison codon usag'
+p402
+I1
+sS'coomassi'
+p403
+I2
+sS'intein multiple sequence align'
+p404
+I1
+sS'genus thermoplasma lack'
+p405
+I1
+sS'ml bromphenol blu'
+p406
+I1
+sS'pyrococcu'
+p407
+I11
+sS'acidic environ'
+p408
+I1
+sS'tree'
+p409
+I1
+sS'pairwise align'
+p410
+I1
+sS'vivo'
+p411
+I1
+sS'exact causes for trna regul'
+p412
+I1
+sS'glycerol'
+p413
+I1
+sS'pyrococci'
+p414
+I1
+sS'plasmid'
+p415
+I2
+sS'absenc'
+p416
+I2
+sS'site'
+p417
+I7
+sS'similar'
+p418
+I10
+sS'dtt'
+p419
+I3
+sS'endonuclease encod'
+p420
+I1
+sS'classif'
+p421
+I1
+sS'metabolic enzym'
+p422
+I1
+sS'genus thermoplasma'
+p423
+I1
+sS'desulfurococcu'
+p424
+I1
+sS'cytoplasm'
+p425
+I4
+sS'protein express'
+p426
+I2
+sS'rrna phylogeni'
+p427
+I1
+sS'aggregate of the a-subunit monom'
+p428
+I1
+sS'codon usage tabulated from genbank'
+p429
+I1
+sS'ancestral gen'
+p430
+I1
+sS'homologs of the host protein'
+p431
+I1
+sS'for protein express'
+p432
+I1
+sS'pyrococcus intein multiple sequence align'
+p433
+I1
+sS'pyrococcus homolog'
+p434
+I1
+sS'cytoskeleton'
+p435
+I1
+sS'allel'
+p436
+I3
+sS'intein-free homologs of the host'
+p437
+I1
+sS'acet'
+p438
+I3
+sS'england biolab'
+p439
+I1
+sS'probabl'
+p440
+I1
+sS'intein-free homologs of th'
+p441
+I1
+sS'min'
+p442
+I1
+sS'intein integration sit'
+p443
+I1
+sS'euryarchaeot'
+p444
+I1
+sS'band correspond'
+p445
+I1
+sS'volcanium intein'
+p446
+I1
+sS'mm phenyl methyl'
+p447
+I1
+sS'motif'
+p448
+I1
+sS'saccharomyces cerevisiae v-atpas'
+p449
+I1
+sS'atggatccttctcaacgaagagcagtg'
+p450
+I1
+sS'archaeal type atpas'
+p451
+I1
+sS'branch'
+p452
+I1
+sS'phylogeny of the host protein'
+p453
+I1
+sS'project ii'
+p454
+I1
+sS'codon usag'
+p455
+I6
+sS'ribosomal database project'
+p456
+I2
+sS'protein band'
+p457
+I1
+sS'saccharomyces cerevisiae intein'
+p458
+I1
+sS'acidophilum subunit'
+p459
+I1
+sS'eubacteria'
+p460
+I1
+sS'bl21-codonplu'
+p461
+I1
+sS'of the extein'
+p462
+I1
+sS'distribut'
+p463
+I4
+sS'buffer'
+p464
+I3
+sS'senejani'
+p465
+I1
+sS'subunit of the a-type atpases of'
+p466
+I1
+sS'luria-bertani broth'
+p467
+I1
+sS'a-atpase intein'
+p468
+I2
+sS'distribution of intein'
+p469
+I1
+sS'homolog'
+p470
+I5
+sS'enzym'
+p471
+I2
+sS'reinvasion model'
+p472
+I2
+sS'subunit of the a-type atpas'
+p473
+I1
+sS'atpases of thermoplasma acidophilum'
+p474
+I1
+sS'broth containing ampicillin'
+p475
+I1
+sS'subunit of the a-type atpases of thermoplasma acidophilum'
+p476
+I1
+sS'endonucleas'
+p477
+I13
+sS'mitochondria'
+p478
+I1
+sS'unprocessed intein'
+p479
+I1
+sS'acidophilum intein'
+p480
+I4
+sS'a-atpase intein spread'
+p481
+I1
+sS'protein spl'
+p482
+I2
+sS'pyrococcus abysii'
+p483
+I1
+sS'preparation for sd'
+p484
+I1
+sS'jtt'
+p485
+I1
+sS'mm phenyl methyl sulfonyl fluorid'
+p486
+I1
+sS'halobacterium'
+p487
+I1
+stp488
+Rp489
+tp490
+.

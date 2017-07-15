@@ -1,0 +1,365 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'explan'
+p7
+I1
+sS'cordonnet'
+p8
+I2
+sS'clustered open-work'
+p9
+I1
+sS'tagliato'
+p10
+I1
+sS'represent'
+p11
+I2
+sS'gris-tilleul moyen'
+p12
+I1
+sS'original thread'
+p13
+I1
+sS'next chapt'
+p14
+I1
+sS'darning-stitch'
+p15
+I3
+sS'unbleached materials for the lattice-work'
+p16
+I1
+sS'moyen'
+p17
+I2
+sS'table-cov'
+p18
+I1
+sS'brun-cuir clair'
+p19
+I1
+sS'ground'
+p20
+I1
+sS'for the lattice-work'
+p21
+I2
+sS'cut'
+p22
+I8
+sS'unbleached materials for'
+p23
+I1
+sS'fine linen'
+p24
+I1
+sS'linen-canva'
+p25
+I1
+sS'unbleached materials for th'
+p26
+I1
+sS'tr'
+p27
+I2
+sS'over-casting stitch'
+p28
+I1
+sS's clair'
+p29
+I2
+sS'back-stitch'
+p30
+I3
+sS'woof'
+p31
+I2
+sS'the lattice-work'
+p32
+I1
+sS'hem'
+p33
+I2
+sS'latticed hem'
+p34
+I1
+sS'loop-stitch'
+p35
+I1
+sS'lock-stitch'
+p36
+I1
+sS'perpendicular thread'
+p37
+I2
+sS'crossway'
+p38
+I1
+sS'perpendicular bar'
+p39
+I1
+sS'half-spid'
+p40
+I1
+sS'interrupt'
+p41
+I1
+sS'origin'
+p42
+I1
+sS'insert'
+p43
+I10
+sS'agrav'
+p44
+I5
+sS'bar'
+p45
+I1
+sS'holbein-linen'
+p46
+I1
+sS'lattice-ground'
+p47
+I2
+sS'work'
+p48
+I1
+sS'minut'
+p49
+I1
+sS'darn'
+p50
+I3
+sS'antiqu'
+p51
+I2
+sS'single open-work'
+p52
+I1
+sS'linen-gauz'
+p53
+I1
+sS'unbleached cotton'
+p54
+I3
+sS'ornamental latticed hem'
+p55
+I1
+sS'tirato'
+p56
+I1
+sS'round'
+p57
+I1
+sS'gobelin stitch'
+p58
+I2
+sS'hem-stitch'
+p59
+I9
+sS'slanting hem-stitch'
+p60
+I1
+sS'brim-chamois tr'
+p61
+I1
+sS'needle-work'
+p62
+I3
+sS'alsac'
+p63
+I1
+sS'ordinary hem'
+p64
+I1
+sS'antique-linen'
+p65
+I1
+sS'house-linen'
+p66
+I1
+sS'punto tagliato'
+p67
+I1
+sS'seam'
+p68
+I1
+sS'cross-lin'
+p69
+I1
+sS'reserv'
+p70
+I2
+sS'letter b'
+p71
+I1
+sS'punto tirato'
+p72
+I1
+sS'open-work'
+p73
+I27
+sS'clair'
+p74
+I5
+sS'cotton'
+p75
+I4
+sS'stitch'
+p76
+I4
+sS'embroideri'
+p77
+I2
+sS'fine linen textur'
+p78
+I1
+sS'single three-rowed open-work'
+p79
+I1
+sS'rosett'
+p80
+I1
+sS'work round'
+p81
+I1
+sS'egrav'
+p82
+I2
+sS'gris-tilleul clair'
+p83
+I1
+sS'damask-stitch'
+p84
+I1
+sS'foundation-thread'
+p85
+I1
+sS'cluster'
+p86
+I3
+sS'altar-cloth'
+p87
+I1
+sS'cluster-open-work'
+p88
+I1
+sS'eacut'
+p89
+I1
+sS'bleu-indigo tr'
+p90
+I1
+sS'textur'
+p91
+I2
+sS'seam-edg'
+p92
+I1
+sS'woof thread'
+p93
+I1
+sS'cut open-work'
+p94
+I5
+sS'perpendicular clust'
+p95
+I1
+sS'antique hem-stitch'
+p96
+I2
+sS'linen textur'
+p97
+I1
+sS'slant'
+p98
+I1
+sS'three-rowed open-work'
+p99
+I1
+sS'cross-thread'
+p100
+I3
+sS'brun-chamois moyen'
+p101
+I1
+sS'bed-linen'
+p102
+I2
+sS'picot'
+p103
+I3
+sS'stripe'
+p104
+I1
+sS'letter'
+p105
+I1
+sS'fine textur'
+p106
+I1
+sS'ornamental seam'
+p107
+I1
+sS'java'
+p108
+I1
+sS'openwork ground'
+p109
+I1
+sS'cross-stitch embroideri'
+p110
+I1
+sS'chapter'
+p111
+I1
+sS'connecting-stitch'
+p112
+I1
+sS'thread'
+p113
+I5
+sS'mdash'
+p114
+I3
+sS'single hem-stitch'
+p115
+I1
+sS'latticed-hem'
+p116
+I1
+sS'admit'
+p117
+I1
+sS'embroidery cotton'
+p118
+I1
+sS'rouge-grenat clair'
+p119
+I1
+sS'lattice-work'
+p120
+I1
+sS'rectangular rosett'
+p121
+I1
+sS'open-work insert'
+p122
+I10
+stp123
+Rp124
+tp125
+.

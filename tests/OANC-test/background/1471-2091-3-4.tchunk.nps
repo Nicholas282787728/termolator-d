@@ -1,0 +1,1601 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'the mutant enzym'
+p7
+I1
+sS'chain'
+p8
+I1
+sS'nosocomial infections of'
+p9
+I1
+sS'inductively coupled plasma spectrometer with atomic emission spectroscopi'
+p10
+I1
+sS'growth cultur'
+p11
+I6
+sS'homotetramer of'
+p12
+I1
+sS'mutant enzym'
+p13
+I1
+sS'\xce\xbcm intermedi'
+p14
+I3
+sS'organ transpl'
+p15
+I1
+sS'zinc'
+p16
+I1
+sS'nosocomial infections of immunocompromised pati'
+p17
+I1
+sS'millisecond'
+p18
+I2
+sS'wild-type sampl'
+p19
+I1
+sS'concentrations of zn'
+p20
+I3
+sS'overexpress'
+p21
+I1
+sS'intermedi'
+p22
+I5
+sS'ultrafiltration cel'
+p23
+I1
+sS'coworkers postul'
+p24
+I1
+sS'purification of th'
+p25
+I3
+sS'catalytic rol'
+p26
+I1
+sS'cephalothin'
+p27
+I1
+sS'of the mutants isolat'
+p28
+I2
+sS'steady-state k'
+p29
+I2
+sS'fluorescence studies of nitrocefin hydrolysi'
+p30
+I1
+sS'alanin'
+p31
+I2
+sS'soluble protein'
+p32
+I1
+sS'induct'
+p33
+I1
+sS'fragili'
+p34
+I2
+sS'gibco'
+p35
+I1
+sS'for penicillin g'
+p36
+I2
+sS'phenylalanin'
+p37
+I2
+sS'zn'
+p38
+I21
+sS'of the l1 mut'
+p39
+I1
+sS'biological chemistri'
+p40
+I1
+sS'purification kit'
+p41
+I1
+sS'biolog'
+p42
+I1
+sS'nitrocefin bind'
+p43
+I3
+sS'cefoxitin'
+p44
+I3
+sS'acid'
+p45
+I7
+sS'bacteria'
+p46
+I2
+sS'bacterial infect'
+p47
+I1
+sS'stopped-flow fluorescence studi'
+p48
+I8
+sS'substituent of'
+p49
+I1
+sS'discussion \xce\xb2-lactam'
+p50
+I1
+sS'cell'
+p51
+I3
+sS'amino acid chain'
+p52
+I1
+sS'new'
+p53
+I1
+sS'discussion \xce\xb2-lactam containing antibiot'
+p54
+I1
+sS'hydrophob'
+p55
+I1
+sS'hydrolysi'
+p56
+I7
+sS'site serin'
+p57
+I1
+sS'mutants bind'
+p58
+I1
+sS'serine residu'
+p59
+I1
+sS'purif'
+p60
+I5
+sS'the mutants isolat'
+p61
+I1
+sS'mutants over-express'
+p62
+I1
+sS'crystallographically characterized metallo-\xce\xb2-lactamas'
+p63
+I1
+sS'mutants isolat'
+p64
+I1
+sS'johnson algorithm'
+p65
+I1
+sS'bb enzymes shar'
+p66
+I1
+sS'meropenem'
+p67
+I3
+sS'biolab'
+p68
+I1
+sS'studi'
+p69
+I32
+sS'gene'
+p70
+I1
+sS'puc19'
+p71
+I1
+sS'bc enzym'
+p72
+I1
+sS'enzymes shar'
+p73
+I2
+sS'approxim'
+p74
+I1
+sS'phosphate buff'
+p75
+I1
+sS'small-scale growth cultur'
+p76
+I4
+sS'spectrometer with atomic emission spectroscopi'
+p77
+I1
+sS'brl'
+p78
+I1
+sS'\xce\xb2-lactam antibiot'
+p79
+I1
+sS'transplant'
+p80
+I1
+sS'inductively coupled plasma'
+p81
+I1
+sS'reaction mechanism for'
+p82
+I1
+sS'dna'
+p83
+I2
+sS'nde i'
+p84
+I1
+sS'lysine residu'
+p85
+I1
+sS'purification of'
+p86
+I3
+sS'mutants binding significant amounts of'
+p87
+I1
+sS'total amounts of th'
+p88
+I1
+sS'reaction mechanism for th'
+p89
+I1
+sS'hydrogen-bonding network'
+p90
+I1
+sS'containing antibiot'
+p91
+I5
+sS'aromatic portion of tyr228'
+p92
+I1
+sS'mcmannu'
+p93
+I1
+sS'k cat'
+p94
+I7
+sS'classification schem'
+p95
+I1
+sS'miniprep'
+p96
+I1
+sS'mg'
+p97
+I1
+sS'catalytic role for ser224'
+p98
+I1
+sS's values for penicillin g'
+p99
+I1
+sS'ml'
+p100
+I1
+sS'prepar'
+p101
+I4
+sS'cat'
+p102
+I5
+sS'characterized metallo-\xce\xb2-lactamas'
+p103
+I1
+sS'wild-typ'
+p104
+I18
+sS'nitrocefin'
+p105
+I17
+sS'\xce\xb2-structur'
+p106
+I2
+sS'inhibitor'
+p107
+I4
+sS'of icp'
+p108
+I2
+sS'wild-type l1'
+p109
+I33
+sS'kinet'
+p110
+I3
+sS'strains dh5\xce\xb1'
+p111
+I1
+sS'of tyr228'
+p112
+I2
+sS'k cat values of'
+p113
+I1
+sS'share'
+p114
+I2
+sS'exhibited decreas'
+p115
+I1
+sS'j-810 cd'
+p116
+I1
+sS'hydrogen'
+p117
+I5
+sS'acid chain'
+p118
+I1
+sS'cacodylate buff'
+p119
+I1
+sS'overexpression of the mutant enzym'
+p120
+I1
+sS'q-sepharos'
+p121
+I1
+sS'total amounts of'
+p122
+I1
+sS'substrate-enzym'
+p123
+I1
+sS'antiparallel'
+p124
+I1
+sS'small-scale growth'
+p125
+I4
+sS'spectrophotometri'
+p126
+I1
+sS'\xce\xb2-lactamase inhibitor'
+p127
+I2
+sS'spectrum of'
+p128
+I1
+sS'\xce\xbcm wild-type l1'
+p129
+I1
+sS'rapid decreas'
+p130
+I1
+sS'concentrations of'
+p131
+I3
+sS'inductively coupled plasma spectrometer with'
+p132
+I1
+sS'pharmacia biotech'
+p133
+I1
+sS'steady-state kinetic const'
+p134
+I3
+sS'cellulose molecular porous membran'
+p135
+I1
+sS'coli strains dh5\xce\xb1'
+p136
+I1
+sS'parallel'
+p137
+I1
+sS'binds wild-typ'
+p138
+I1
+sS'the enzym'
+p139
+I2
+sS'johnson'
+p140
+I1
+sS'photomultipli'
+p141
+I1
+sS'spectra'
+p142
+I2
+sS'dialysis tub'
+p143
+I1
+sS'por regenerated cellulose molecular porous membran'
+p144
+I1
+sS'sequenced metallo-\xce\xb2-lactamas'
+p145
+I1
+sS'hydrogen bonding network'
+p146
+I3
+sS'preparations of the l1 mut'
+p147
+I1
+sS'plyss'
+p148
+I1
+sS'enzyme prepar'
+p149
+I1
+sS'amino acid'
+p150
+I4
+sS'coli'
+p151
+I1
+sS'mutants binding significant amounts of zn'
+p152
+I1
+sS'qiaquick gel extraction kit'
+p153
+I1
+sS'sds-page'
+p154
+I2
+sS'lb'
+p155
+I1
+sS'ligand'
+p156
+I2
+sS'decay'
+p157
+I2
+sS'imi'
+p158
+I1
+sS'for nitrocefin bind'
+p159
+I2
+sS'the carbapenem'
+p160
+I1
+sS'hydrophobic interact'
+p161
+I2
+sS'deoxynucleotide triphosph'
+p162
+I1
+sS'thaw cycl'
+p163
+I1
+sS'ly'
+p164
+I1
+sS'aeromona'
+p165
+I1
+sS'steady-state kinetic studi'
+p166
+I4
+sS'enzyme sampl'
+p167
+I1
+sS'gel purifi'
+p168
+I1
+sS'the metallo-\xce\xb2-lactamas'
+p169
+I1
+sS'chromatographi'
+p170
+I1
+sS'discuss'
+p171
+I1
+sS'restrict'
+p172
+I1
+sS'\xce\xbcm mutant'
+p173
+I1
+sS'scale growth'
+p174
+I1
+sS'\xce\xb2-lactamas'
+p175
+I7
+sS'discussion \xce\xb2-lactam contain'
+p176
+I1
+sS'chain react'
+p177
+I1
+sS'aeruginosa'
+p178
+I1
+sS'steady-state k cat'
+p179
+I2
+sS'l1 wild-type l1'
+p180
+I2
+sS'biotech grad'
+p181
+I1
+sS'infections of immunocompromised pati'
+p182
+I1
+sS'l1'
+p183
+I41
+sS'jasco j-810 cd'
+p184
+I1
+sS'k s values for penicillin g'
+p185
+I1
+sS'unisolat'
+p186
+I1
+sS'pre-steady state kinet'
+p187
+I2
+sS'bond'
+p188
+I2
+sS'clinical inhibitor'
+p189
+I1
+sS'lysin'
+p190
+I2
+sS'rapid-scanning uv-visible spectrophotometri'
+p191
+I1
+sS'co-work'
+p192
+I1
+sS'of \xce\xb2-lactam antibiot'
+p193
+I2
+sS'qiagen qiaquick gel extraction kit'
+p194
+I1
+sS'metallo-\xce\xb2-lactamase ccra'
+p195
+I1
+sS'wavelength'
+p196
+I1
+sS'energi'
+p197
+I1
+sS'periyannan'
+p198
+I1
+sS'dna polymeras'
+p199
+I1
+sS'network'
+p200
+I4
+sS'isolat'
+p201
+I1
+sS'substituent of the carbapenem'
+p202
+I1
+sS'over-expression levels of'
+p203
+I1
+sS'luria-bertani'
+p204
+I1
+sS'of \xce\xb2-lactamas'
+p205
+I2
+sS'the mut'
+p206
+I4
+sS'aromatic portion of'
+p207
+I1
+sS'for the enzym'
+p208
+I2
+sS'putative tetrahedral intermedi'
+p209
+I1
+sS'k cat values of th'
+p210
+I1
+sS'asn'
+p211
+I2
+sS'midi'
+p212
+I1
+sS'puriti'
+p213
+I1
+sS'of nitrocefin hydrolysi'
+p214
+I1
+sS'\xce\xbcm'
+p215
+I5
+sS'interactions of'
+p216
+I1
+sS'pmsf'
+p217
+I1
+sS'mutant overexpression plasmid'
+p218
+I1
+sS'amino acid sequence ident'
+p219
+I1
+sS'plasmid purification kit'
+p220
+I1
+sS'ym-10 diaflo membran'
+p221
+I1
+sS'ser224 mut'
+p222
+I1
+sS'grade'
+p223
+I1
+sS'of wild-type l1'
+p224
+I2
+sS'hydrolyz'
+p225
+I3
+sS'regenerated cellulose molecular porous membran'
+p226
+I1
+sS'carbapenem'
+p227
+I7
+sS'vent dna polymeras'
+p228
+I1
+sS'substituent of th'
+p229
+I1
+sS'extraction kit'
+p230
+I1
+sS'k s value for'
+p231
+I1
+sS'facil'
+p232
+I2
+sS'phenylmethylsulfonylfluorid'
+p233
+I1
+sS'over-expression levels of mut'
+p234
+I1
+sS'biosynthesi'
+p235
+I1
+sS'for antibiotic resistant bacteria'
+p236
+I3
+sS'of'
+p237
+I1
+sS'previous nmr'
+p238
+I1
+sS'plyss cel'
+p239
+I1
+sS'dichroism spectra'
+p240
+I1
+sS'scheme'
+p241
+I1
+sS'nmr studi'
+p242
+I1
+sS'the l1 mut'
+p243
+I1
+sS'stopped-flow fluorescence studies of nitrocefin hydrolysi'
+p244
+I1
+sS'asn233 mut'
+p245
+I1
+sS'over-express'
+p246
+I6
+sS'amicon'
+p247
+I1
+sS'of the mut'
+p248
+I5
+sS'postul'
+p249
+I1
+sS'final dialysis buff'
+p250
+I3
+sS'plasmid'
+p251
+I4
+sS'bind'
+p252
+I9
+sS'antibiotic resistant bacteria'
+p253
+I1
+sS'reaction intermedi'
+p254
+I1
+sS'energy minim'
+p255
+I1
+sS'spectrum'
+p256
+I2
+sS'asn233'
+p257
+I4
+sS'transpeptidas'
+p258
+I1
+sS'maltophilia'
+p259
+I4
+sS'l1 mutant'
+p260
+I1
+sS'bacteroid'
+p261
+I1
+sS'detection limit of'
+p262
+I1
+sS'sulbactam'
+p263
+I1
+sS'buffer'
+p264
+I10
+sS'\xce\xb1-helix'
+p265
+I2
+sS'preparations of wild-type l1'
+p266
+I1
+sS'escherichia'
+p267
+I1
+sS'charg'
+p268
+I1
+sS'enzyme bind'
+p269
+I1
+sS'purifi'
+p270
+I1
+sS'bb metallo-\xce\xb2-lactamas'
+p271
+I1
+sS'bl21'
+p272
+I1
+sS'bacteroides fragili'
+p273
+I1
+sS'leucin'
+p274
+I1
+sS'sigma'
+p275
+I2
+sS'aspartic acid'
+p276
+I4
+sS'zncl'
+p277
+I6
+sS'stopped-flow fluorescence studies of'
+p278
+I1
+sS'stenotrophomona'
+p279
+I1
+sS'interactions of the enzym'
+p280
+I1
+sS'ym-10'
+p281
+I1
+sS'\xce\xbcm nitrocefin'
+p282
+I4
+sS'phe158'
+p283
+I4
+sS'affin'
+p284
+I2
+sS'amersham pharmacia'
+p285
+I1
+sS'k cat values of the mut'
+p286
+I1
+sS'dh5\xce\xb1'
+p287
+I1
+sS'l1 wild-typ'
+p288
+I1
+sS'activ'
+p289
+I2
+sS'gibco brl'
+p290
+I1
+sS'two-third'
+p291
+I1
+sS'qiagen-tip'
+p292
+I1
+sS'total amounts of the mutants isolat'
+p293
+I1
+sS'\xce\xb2-sheet'
+p294
+I2
+sS'over-expression plasmid'
+p295
+I1
+sS'ser224'
+p296
+I4
+sS'\xce\xb2-lactam carbonyl'
+p297
+I10
+sS'interactions of th'
+p298
+I1
+sS'cat values of the mut'
+p299
+I1
+sS'concentration of mut'
+p300
+I1
+sS'pre-steady state kinetic studi'
+p301
+I2
+sS'of the enzym'
+p302
+I1
+sS'coupled plasma spectrometer with atomic emission spectroscopi'
+p303
+I1
+sS'k s values for'
+p304
+I1
+sS'plasmid purif'
+p305
+I1
+sS'organ'
+p306
+I1
+sS'asn233 mutants two-third'
+p307
+I1
+sS'metallo-\xce\xb2-lactamases isol'
+p308
+I1
+sS'ile164'
+p309
+I2
+sS'inductively coupled plasma spectromet'
+p310
+I1
+sS'homotetram'
+p311
+I1
+sS'role for ser224'
+p312
+I1
+sS'mutants exhibited k '
+p313
+I1
+sS'potential inhibitor'
+p314
+I1
+sS'ccra'
+p315
+I4
+sS'promega'
+p316
+I2
+sS'fisherbrand'
+p317
+I1
+sS'amersham pharmacia biotech'
+p318
+I1
+sS'overexpression of th'
+p319
+I1
+sS'assumpt'
+p320
+I1
+sS'scale growth cultur'
+p321
+I1
+sS'\xce\xb2-lactam containing antibiot'
+p322
+I5
+sS'of the mutant enzym'
+p323
+I1
+sS'isol'
+p324
+I1
+sS'of immunocompromised pati'
+p325
+I1
+sS'cycl'
+p326
+I1
+sS'bacterial enzym'
+p327
+I1
+sS'studies of nitrocefin hydrolysi'
+p328
+I1
+sS'escherichia coli'
+p329
+I1
+sS'uv-visible spectrophotometri'
+p330
+I1
+sS'reaction'
+p331
+I6
+sS'ile'
+p332
+I2
+sS'drug'
+p333
+I1
+sS'mutated over-expression plasmid'
+p334
+I1
+sS'key assumpt'
+p335
+I1
+sS'kinetic buff'
+p336
+I1
+sS'mutants exhibited decreas'
+p337
+I1
+sS'diaflo membran'
+p338
+I1
+sS'vent'
+p339
+I1
+sS'stenotrophomonas maltophilia'
+p340
+I1
+sS'carbonyl'
+p341
+I8
+sS'extensive use of'
+p342
+I1
+sS'cd'
+p343
+I1
+sS'residu'
+p344
+I4
+sS'mutants two-third'
+p345
+I1
+sS'bacterial production of'
+p346
+I1
+sS'turnov'
+p347
+I2
+sS's value for nitrocefin bind'
+p348
+I1
+sS'bbl'
+p349
+I1
+sS'imipenem'
+p350
+I2
+sS'emission spectroscopi'
+p351
+I1
+sS'accumul'
+p352
+I2
+sS'isolatable enzym'
+p353
+I1
+sS'for ser224'
+p354
+I1
+sS'carboxyl'
+p355
+I4
+sS'wg320 nm'
+p356
+I1
+sS'kinetic studi'
+p357
+I9
+sS'infect'
+p358
+I1
+sS'k m'
+p359
+I4
+sS'hepe'
+p360
+I1
+sS'purification of the mut'
+p361
+I3
+sS'with atomic emission spectroscopi'
+p362
+I1
+sS'ident'
+p363
+I6
+sS'for biapenem'
+p364
+I2
+sS'amersham'
+p365
+I1
+sS'previous nmr studi'
+p366
+I1
+sS'metallo-\xce\xb2-lactamase l1'
+p367
+I4
+sS'negative charg'
+p368
+I1
+sS'biotech'
+p369
+I2
+sS'mutant'
+p370
+I53
+sS'motif'
+p371
+I1
+sS'vi'
+p372
+I3
+sS'lederl'
+p373
+I1
+sS'site'
+p374
+I1
+sS'ii'
+p375
+I1
+sS'strain'
+p376
+I1
+sS'metallo-\xce\xb2-lactamase imi'
+p377
+I1
+sS'protein'
+p378
+I6
+sS'overexpression plasmid'
+p379
+I1
+sS'of the carbapenem'
+p380
+I1
+sS'mutat'
+p381
+I14
+sS'minim'
+p382
+I1
+sS'of th'
+p383
+I1
+sS'antibiot'
+p384
+I6
+sS'novagen'
+p385
+I2
+sS'nitrocefin concentr'
+p386
+I1
+sS'\xce\xb2-turn'
+p387
+I1
+sS'concentration of'
+p388
+I2
+sS'thermolyn'
+p389
+I1
+sS'overexpression of'
+p390
+I1
+sS'fibrosi'
+p391
+I1
+sS'absorb'
+p392
+I4
+sS'cystic fibrosi'
+p393
+I1
+sS'kit'
+p394
+I2
+sS'ion'
+p395
+I10
+sS'k '
+p396
+I9
+sS'protein sampl'
+p397
+I1
+sS'protein pur'
+p398
+I1
+sS'chemistri'
+p399
+I1
+sS'catalytic act'
+p400
+I1
+sS'model'
+p401
+I2
+sS'new england biolab'
+p402
+I1
+sS'subgroup'
+p403
+I2
+sS'reaction mechanism for the enzym'
+p404
+I1
+sS'vis studi'
+p405
+I3
+sS'\xce\xb2-lactam'
+p406
+I4
+sS'excitation wavelength'
+p407
+I1
+sS'ampicillin'
+p408
+I2
+sS'concentr'
+p409
+I11
+sS'of nitrocefin'
+p410
+I1
+sS'\xce\xb2-lactam contain'
+p411
+I4
+sS'invariant carboxyl'
+p412
+I1
+sS'thermopol buff'
+p413
+I1
+sS'appli'
+p414
+I3
+sS'molecular porous membran'
+p415
+I1
+sS'penicillin g'
+p416
+I2
+sS'molecul'
+p417
+I4
+sS'polymeras'
+p418
+I1
+sS'jasco'
+p419
+I1
+sS'thermolyne amplitron ii'
+p420
+I1
+sS'amicon ultrafiltration cel'
+p421
+I1
+sS'steady-state kinet'
+p422
+I3
+sS'crystallographic studi'
+p423
+I1
+sS'porous membran'
+p424
+I1
+sS'catalytic role for'
+p425
+I1
+sS'interact'
+p426
+I3
+sS'membran'
+p427
+I2
+sS'kda'
+p428
+I1
+sS'of mut'
+p429
+I3
+sS'sampl'
+p430
+I4
+sS'antiparallel \xce\xb2-sheet'
+p431
+I1
+sS'freez'
+p432
+I1
+sS'scale'
+p433
+I1
+sS'for'
+p434
+I1
+sS'confirm'
+p435
+I1
+sS'gel extraction kit'
+p436
+I1
+sS'tube'
+p437
+I1
+sS'final dialysi'
+p438
+I3
+sS'icp'
+p439
+I2
+sS'fluorescence studi'
+p440
+I7
+sS'cephalosporin'
+p441
+I7
+sS'patient'
+p442
+I1
+sS'spectrum of wild-type l1'
+p443
+I1
+sS'bb'
+p444
+I1
+sS'anatrac'
+p445
+I1
+sS'preparations of the l1'
+p446
+I1
+sS'acid sequence ident'
+p447
+I1
+sS'bp'
+p448
+I1
+sS'cefaclor'
+p449
+I2
+sS'tazobactam'
+p450
+I1
+sS'mutant binds wild-typ'
+p451
+I1
+sS'dialysis buff'
+p452
+I3
+sS'hydrophobic substitu'
+p453
+I1
+sS'tyr228'
+p454
+I5
+sS'new england'
+p455
+I1
+sS'nde'
+p456
+I1
+sS'histidin'
+p457
+I1
+sS'near-wild-type levels of zn'
+p458
+I1
+sS'polymerase chain react'
+p459
+I1
+sS'aeromonas sobria'
+p460
+I1
+sS'applied photophys'
+p461
+I3
+sS'icp-a'
+p462
+I1
+sS'bacterial strain'
+p463
+I1
+sS'inductively coupl'
+p464
+I1
+sS'k cat values for biapenem'
+p465
+I1
+sS'vent dna'
+p466
+I1
+sS'inclus'
+p467
+I1
+sS'nucleophil'
+p468
+I1
+sS'immunocompromised pati'
+p469
+I1
+sS'optical cel'
+p470
+I1
+sS'overus'
+p471
+I1
+sS'ym-10 diaflo'
+p472
+I1
+sS'hydrophobic residu'
+p473
+I1
+sS'clavulanic acid'
+p474
+I1
+sS'biapenem'
+p475
+I2
+sS'concentration of nitrocefin'
+p476
+I1
+sS'isopropyl-\xce\xb2-thiogalactosid'
+p477
+I1
+sS'near-wild-type levels of'
+p478
+I1
+sS'mm hepe'
+p479
+I1
+sS'substitu'
+p480
+I5
+sS'inductively coupled plasma spectrometer with atomic emiss'
+p481
+I1
+sS'kinetic const'
+p482
+I3
+sS'amplitron ii'
+p483
+I1
+sS'serin'
+p484
+I2
+sS'putative tetrahedr'
+p485
+I1
+sS'bonding network'
+p486
+I3
+sS'thermolyne amplitron'
+p487
+I1
+sS'spectroscopi'
+p488
+I4
+sS'maximum'
+p489
+I1
+sS'growth'
+p490
+I1
+sS'plasma spectrometer with atomic emission spectroscopi'
+p491
+I1
+sS'k s value for nitrocefin bind'
+p492
+I1
+sS'atomic emission spectroscopi'
+p493
+I1
+sS'extensive use of \xce\xb2-lactam antibiot'
+p494
+I1
+sS'curv'
+p495
+I1
+sS'constant'
+p496
+I3
+sS'aromatic substitu'
+p497
+I1
+sS'ba enzymes shar'
+p498
+I1
+sS'triphosph'
+p499
+I1
+sS'decreas'
+p500
+I2
+sS'file'
+p501
+I4
+sS'cultur'
+p502
+I6
+sS'sobria'
+p503
+I1
+sS'k cat values for'
+p504
+I1
+sS'england biolab'
+p505
+I1
+sS'nosocomial infect'
+p506
+I1
+sS'bacterial production of \xce\xb2-lactamas'
+p507
+I1
+sS'nitrocefin hydrolysi'
+p508
+I4
+sS'nm'
+p509
+I11
+sS'electrostatic interact'
+p510
+I1
+sS'polymerase chain'
+p511
+I1
+sS'exhibited k '
+p512
+I1
+sS'of the metallo-\xce\xb2-lactamas'
+p513
+I3
+sS'\xce\xbcm enzym'
+p514
+I1
+sS'preparations of'
+p515
+I2
+sS'tetrahedral intermedi'
+p516
+I1
+sS'metal-fre'
+p517
+I1
+sS'calibration curv'
+p518
+I1
+sS'detection limit of icp'
+p519
+I1
+sS'mgso'
+p520
+I1
+sS'preparations of wild-typ'
+p521
+I1
+sS'metallo-\xce\xb2-lactamas'
+p522
+I19
+sS'circular dichroism spectra'
+p523
+I1
+sS'enzym'
+p524
+I11
+sS'jasco j-810'
+p525
+I1
+sS'algorithm'
+p526
+I1
+sS'mutants exhibited k'
+p527
+I1
+sS'parallel \xce\xb2-sheet'
+p528
+I1
+sS'hydroxid'
+p529
+I2
+sS'mutagenesis studi'
+p530
+I3
+sS'cat values for biapenem'
+p531
+I1
+sS'hydrogen bond'
+p532
+I5
+sS'inductively coupled plasma spectrometer with atom'
+p533
+I1
+sS'preparations of th'
+p534
+I1
+stp535
+Rp536
+tp537
+.

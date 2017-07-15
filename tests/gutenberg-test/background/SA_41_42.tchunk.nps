@@ -1,0 +1,500 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'original descent of th'
+p7
+I2
+sS'peritonaeum'
+p8
+I20
+sS'velpeau'
+p9
+I1
+sS'external inguinal hernia'
+p10
+I2
+sS'fibrous tub'
+p11
+I11
+sS'passu'
+p12
+I1
+sS'inguinal peritonaeum'
+p13
+I1
+sS'whilst'
+p14
+I1
+sS'the tunica vaginali'
+p15
+I1
+sS'neighbourhood of'
+p16
+I1
+sS'umbilical cord'
+p17
+I2
+sS'descent of the testicl'
+p18
+I2
+sS'obliter'
+p19
+I1
+sS'fibrous r'
+p20
+I1
+sS'vaginali'
+p21
+I12
+sS'original invest'
+p22
+I1
+sS'distent'
+p23
+I1
+sS'fascia propria'
+p24
+I1
+sS'opposit'
+p25
+I1
+sS'duplicatur'
+p26
+I1
+sS'original serous infantile tub'
+p27
+I1
+sS'oblique hernia'
+p28
+I1
+sS'arteri'
+p29
+I14
+sS'philosophic caru'
+p30
+I1
+sS'abdominal end of th'
+p31
+I1
+sS'of the serous tub'
+p32
+I2
+sS'albinu'
+p33
+I1
+sS'surgic'
+p34
+I2
+sS'spermatic vessel'
+p35
+I12
+sS'internal bord'
+p36
+I1
+sS'external r'
+p37
+I6
+sS'cavity of th'
+p38
+I1
+sS'epigastric arteri'
+p39
+I14
+sS'cavity of the tunica vaginali'
+p40
+I1
+sS'spermatic fascia'
+p41
+I1
+sS'of the tunica vaginali'
+p42
+I1
+sS'cremasteric prolong'
+p43
+I1
+sS'round'
+p44
+I1
+sS'round liga'
+p45
+I1
+sS'of the testicl'
+p46
+I2
+sS'serous membran'
+p47
+I3
+sS'muscl'
+p48
+I3
+sS'fibrous membran'
+p49
+I1
+sS'cremaster muscl'
+p50
+I1
+sS'infantile tub'
+p51
+I1
+sS'neighbourhood'
+p52
+I1
+sS'subject'
+p53
+I1
+sS'the internal r'
+p54
+I1
+sS'serous tub'
+p55
+I8
+sS'external variety of'
+p56
+I1
+sS'relative position of th'
+p57
+I1
+sS'relative position of'
+p58
+I1
+sS'connexion'
+p59
+I1
+sS'tube'
+p60
+I30
+sS'femor'
+p61
+I1
+sS'of the internal r'
+p62
+I1
+sS'peritonaeum opposit'
+p63
+I1
+sS'serous cyst'
+p64
+I1
+sS'inguin'
+p65
+I2
+sS'internal ring of'
+p66
+I1
+sS'joseph maclis'
+p67
+I1
+sS'caviti'
+p68
+I1
+sS'the fascia transversali'
+p69
+I1
+sS'cord'
+p70
+I3
+sS'inguinal hernia'
+p71
+I4
+sS'propria'
+p72
+I1
+sS'of the spermatic vessel'
+p73
+I2
+sS'surgical anatomi'
+p74
+I2
+sS'epigastr'
+p75
+I2
+sS'caru'
+p76
+I1
+sS'of the fascia transversali'
+p77
+I1
+sS'serous can'
+p78
+I1
+sS'multicapsular'
+p79
+I1
+sS'peritonaeal membran'
+p80
+I2
+sS'neighbourhood of the internal r'
+p81
+I1
+sS'relative position of the spermatic vessel'
+p82
+I1
+sS'maclis'
+p83
+I1
+sS'spermatic cord'
+p84
+I1
+sS'serous infantile tub'
+p85
+I1
+sS'hernial mass'
+p86
+I1
+sS'opinion'
+p87
+I1
+sS'internal ring of th'
+p88
+I1
+sS'pariet'
+p89
+I1
+sS'internal ring of the fascia transversali'
+p90
+I1
+sS'the serous tub'
+p91
+I1
+sS'femoral hernia'
+p92
+I1
+sS'internal obliqu'
+p93
+I2
+sS'external hernia'
+p94
+I4
+sS'ligament'
+p95
+I1
+sS'record opinion'
+p96
+I1
+sS'vessel'
+p97
+I12
+sS'membran'
+p98
+I6
+sS'ring'
+p99
+I23
+sS'cavity of'
+p100
+I1
+sS'canal'
+p101
+I16
+sS'internal hernia'
+p102
+I7
+sS'tumour'
+p103
+I1
+sS'tunica vaginali'
+p104
+I12
+sS'the spermatic vessel'
+p105
+I1
+sS'original serous tub'
+p106
+I2
+sS'abdominal end of the serous tub'
+p107
+I1
+sS'original descent of the testicl'
+p108
+I2
+sS'invers'
+p109
+I1
+sS'inguinal can'
+p110
+I15
+sS'joseph'
+p111
+I1
+sS'original serous spermatic tub'
+p112
+I1
+sS'nuck'
+p113
+I1
+sS'prolong'
+p114
+I1
+sS'fascia'
+p115
+I3
+sS'serous r'
+p116
+I1
+sS'bowel'
+p117
+I2
+sS'adult'
+p118
+I1
+sS'infundibuliform fascia'
+p119
+I1
+sS'hernia'
+p120
+I20
+sS'congenital hernia'
+p121
+I2
+sS'neighbourhood of th'
+p122
+I1
+sS'transversali'
+p123
+I5
+sS'herniary bowel'
+p124
+I2
+sS'record'
+p125
+I1
+sS'transversalis fascia'
+p126
+I1
+sS'ring of the fascia transversali'
+p127
+I1
+sS'transverse muscl'
+p128
+I1
+sS'observ'
+p129
+I1
+sS'obliqu'
+p130
+I5
+sS'exhibit'
+p131
+I2
+sS'original desc'
+p132
+I2
+sS'internal serous r'
+p133
+I1
+sS'sac'
+p134
+I1
+sS'interruptedly obliter'
+p135
+I1
+sS'abdominal end of'
+p136
+I1
+sS'abdominal pariet'
+p137
+I1
+sS'pervious tub'
+p138
+I1
+sS'border'
+p139
+I1
+sS'cremast'
+p140
+I1
+sS'the testicl'
+p141
+I2
+sS'hernial tumour'
+p142
+I1
+sS'of inguinal hernia'
+p143
+I2
+sS'langenbeck'
+p144
+I1
+sS'sacs--on'
+p145
+I1
+sS'pari passu'
+p146
+I1
+sS'external variety of inguinal hernia'
+p147
+I1
+sS'filament'
+p148
+I1
+sS'anatomi'
+p149
+I2
+sS'fibrous spermatic tub'
+p150
+I1
+sS'pube'
+p151
+I1
+sS'internal inguinal r'
+p152
+I1
+sS'internal r'
+p153
+I15
+sS'cloquet'
+p154
+I4
+sS'cyst'
+p155
+I1
+sS'gradual distent'
+p156
+I1
+sS'judgment'
+p157
+I1
+sS'original descent of'
+p158
+I2
+sS'demonstr'
+p159
+I1
+sS'invest'
+p160
+I1
+sS'inguinal r'
+p161
+I1
+sS'fascia transversali'
+p162
+I2
+sS'abdominal muscl'
+p163
+I1
+sS'spermatic tub'
+p164
+I9
+sS'mass'
+p165
+I1
+sS'testicl'
+p166
+I12
+sS'serous spermatic tub'
+p167
+I8
+stp168
+Rp169
+tp170
+.
