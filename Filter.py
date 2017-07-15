@@ -142,11 +142,11 @@ def stem(string):
         if bad_unicode(string):
             ## added A. Meyers 8/28/15
             string = remove_non_unicode(string)
-            if len(string)>3:
+            if len(string) > 3:
                 temp = stemmer.stem(string)
             else:
                 temp = string
-        elif len(string)>3:
+        elif len(string) > 3:
             ## print('***',string,'***')
             temp = stemmer.stem(string)
         else:

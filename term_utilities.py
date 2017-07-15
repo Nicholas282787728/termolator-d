@@ -1,7 +1,7 @@
-from typing import List, Dict
 import os
 import random
 import re
+from typing import List, Dict
 
 DICT_DIRECTORY = os.path.dirname(os.path.realpath(__file__)) + os.sep
 ## DICT_DIRECTORY = '../'
@@ -485,7 +485,7 @@ def update_pos_dict(name_infiles=[person_name_file, nat_name_file], other_infile
 def read_in_nom_dict(infile=nom_file):
     global nom_dict
     for line in open(infile).readlines():
-        nom_class: str, word: str = line.strip().split('\t')
+        nom_class, word = line.strip().split('\t')
         if word in nom_dict:
             nom_dict[word].append(nom_class)
         else:

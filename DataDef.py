@@ -1,9 +1,9 @@
-from typing import TypeVar, Generic, List
 import sys
+from typing import TypeVar, Generic, List
 
 # @resource https://www.python.org/dev/peps/pep-0484/#user-defined-generic-types
 
-DT = TypeVar('DT')      #, contravariant=True)
+DT = TypeVar('DT')  # , contravariant=True)
 
 # class TP:
 #     def __init__(self, v: str) -> None:
@@ -21,12 +21,13 @@ POS = str
 TERMS = str
 ABBR = str
 
+
 class FileName(Generic[DT]):
     def __init__(self, name: DT) -> None:
         self.name = name
 
-    # def get(self) -> DT:
-    #     return self.name
+        # def get(self) -> DT:
+        #     return self.name
 
 
 def main(args: List[str]):
@@ -39,5 +40,5 @@ def main(args: List[str]):
 
     pos = terms
 
-if __name__ == '__main__': sys.exit(main(sys.argv))
 
+if __name__ == '__main__': sys.exit(main(sys.argv))

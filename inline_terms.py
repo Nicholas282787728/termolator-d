@@ -1,7 +1,7 @@
-from typing import Dict
-from abbreviate import *
-import sys
 import re
+import sys
+
+from abbreviate import *
 
 et_al_citation = re.compile(' et[.]? al[.]? *$')
 ok_path_types = ['url']  ##  currently 'ratio' is not an ok_path_type
@@ -9,6 +9,8 @@ compound_inbetween_string = re.compile('^ +(of|for) +((the|a|[A-Z]\.) +)?$', re.
 term_stop_words_with_periods = re.compile('(^|\s)(u\.s|e\.g|i\.e|u\.k|c\.f|see|ser)([\.\s]|$)', re.I)
 
 lemma_dict: Dict[str, str] = {}
+
+
 # @semanticbeeng not used cluster_hash: Dict = {}
 
 
@@ -56,6 +58,7 @@ def ugly_word(word: str):
         return (True)
     elif re.search('^[0-9]{1,3}[a-zA-Z]$', word):
         return (True)
+
 
 # @semanticbeeng typing
 def topic_term_ok(word_list: List[str], pos_list: List[str], term_string: str):
@@ -230,8 +233,8 @@ def get_next_word(instring, start):
         elif instring[border] == "-":
             ## Don't split at hyphen unless both adjacent chars are alpha chars maybe done
             next_word = word_pattern.search(instring, found.end())
-            if next_word and (border + 1 == next_word.start()) and (((found.group(0).isalpha() and
-                                                                          ((len(found.group(0)) == 1) or found.group(0).isalpha()))) or
+            if next_word and (border + 1 == next_word.start()) and (((found.group(0).isalpha() and \
+                                                                          ((len(found.group(0)) == 1) or found.group(0).isalpha()))) or \
                                                                         ((len(next_word.group(0)) > 3) and (
                                                                                     (next_word.group(0)[-2:] == "ed") or (next_word.group(0)[-3:] == 'ing')))):
                 end = next_word.end()
@@ -242,9 +245,9 @@ def get_next_word(instring, start):
             else:
                 end = found.end()
                 found = False
-        elif ((instring[border] == ',') and
+        elif ((instring[border] == ',') and \
                   ((not ((border > 0) and instring[border - 1].isalpha)) or (not re.search('\s', instring[border + 1])))) \
-                or ((instring[border] == ')') and
+                or ((instring[border] == ')') and \
                         (border < (len(instring) - 1)) and (re.search('[a-zA-Z0-9]', instring[border + 1]))):
             ## don't split unless preceding character is alphachar and following char is whitespace
             next_word = word_pattern.search(instring, found.end())
@@ -359,7 +362,7 @@ def OK_chemical(chem_string):
                 ## elements can only occur once
                 return (False)
             elements.append(current_element)
-    if (len(elements) > 2) or ((len(elements) == 2) and
+    if (len(elements) > 2) or ((len(elements) == 2) and \
                                    (has_two_char_element or re.search('[0-9]', chem_string))):
         return (True)
     else:
@@ -420,7 +423,7 @@ def get_next_path_match(text, start):
     while path_match or path_match2:
         if path_match and path_match2:
             if (path_match.start() < path_match2.start()) or \
-                    ((path_match.start() == path_match2.start()) and
+                    ((path_match.start() == path_match2.start()) and \
                          (path_match.end() <= path_match2.end())):
                 if (re.search('^[^/]*:[^/]*/', path_match.group(0)) or re.search('^[^/]*[a-zA-Z]\.[a-zA-Z][^/]*/', path_match.group(0))) \
                         and OK_path(path_match.group(0), url=True):
@@ -605,7 +608,8 @@ def global_formula_filter(term_list, term_hash, type_hash):
 
 def get_topic_terms(text, offset, filter_off=False):
     txt_markup = re.compile('(\[in-line-formulae\].*?\[/in-line-formulae\])|(</[a-z]+>)|(<(/)?[a-z]+( [a-z]+=[^>]+)* ?>)', re.I)
-    single_quote_pattern = re.compile('(\s|^)[\`\'‘](?!(s[^a-z]|d[^a-z]| |t[^a-z]|ll[^a-z]|m[^a-z]|ve[^a-z]|re[^a-z]))([^\`\']*?)[\'’](?!(s[^a-z]|d[^a-z]|t[^a-z]|ll[^a-z]|m[^a-z]|ve[^a-z]|re[^a-z]))')
+    single_quote_pattern = re.compile(
+        '(\s|^)[\`\'‘](?!(s[^a-z]|d[^a-z]| |t[^a-z]|ll[^a-z]|m[^a-z]|ve[^a-z]|re[^a-z]))([^\`\']*?)[\'’](?!(s[^a-z]|d[^a-z]|t[^a-z]|ll[^a-z]|m[^a-z]|ve[^a-z]|re[^a-z]))')
     ## '...', where ' is not followed by a contraction or possessive marker (the first one cannot be followed by a space either,
     ## since this would make it a second quote or a plural possessive marker -- note this procludes an apostrophe inside a single quote
     double_quote_pattern = re.compile('(\s|^)["“]([^"“”]*?)["”](\s|$)')
@@ -690,7 +694,7 @@ def get_topic_terms(text, offset, filter_off=False):
         while (start < len(piece)) and (sing or doub):
             if doub and ((not sing) or ((sing.start() < doub.start()) and (sing.end() > doub.end()))):
                 ## if doub nested inside of singular, assume singular quotes are in error
-                pieces2.extend([[meta_start + start, piece[start:doub.start()]],
+                pieces2.extend([[meta_start + start, piece[start:doub.start()]], \
                                 [meta_start + doub.start(2), doub.group(2)]])
                 start = doub.end()
                 doub = double_quote_pattern.search(piece, start)

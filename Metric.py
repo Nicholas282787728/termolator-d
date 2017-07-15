@@ -1,12 +1,13 @@
-from typing import List, Dict
 import logging
 import math
+from typing import Dict
+
 import nltk
 
-# @semanticbeeng not used import Settings
 import TestData
 import Wordlist
 from Document import *
+import Filter
 
 
 class Metric:
@@ -27,10 +28,10 @@ class Metric:
         if os.path.exists(filtfname):
             Filter._get_stemdict(filtfname)
         # General document group is given as files in a directory
-        if type(general)== type(str()):
-            logging.debug('Loading general documents from '+general)
+        if type(general) == type(str()):
+            logging.debug('Loading general documents from ' + general)
             # gen = [Document(general+genFile) for genFile in os.listdir(general) if genFile[-4:]=='.txt']
-            gen = map(lambda x: Document(filename=x.strip(),overwrite=overwrite), open(general).readlines())
+            gen = map(lambda x: Document(filename=x.strip(), overwrite=overwrite), open(general).readlines())
             ## note that the iterator only les us calculate this once
             ## this is OK because this is the initialization function
             ## other maps should be cast into lists
@@ -80,9 +81,9 @@ class Metric:
                     self.genDocs.counts[w] += 1
             logging.debug('done')
         # Related Document Group -- we need each document separately
-        logging.debug('Loading RDG from '+rdgDir+'...')
+        logging.debug('Loading RDG from ' + rdgDir + '...')
         # self.rdgDocs = [Document(rdgDir+rdgFile) for rdgFile in os.listdir(rdgDir) if rdgFile[-4:]=='.txt']
-        self.rdgDocs = list (map(lambda x: Document(filename=x.strip(),overwrite=overwrite), open(rdgDir).readlines()))
+        self.rdgDocs = list(map(lambda x: Document(filename=x.strip(), overwrite=overwrite), open(rdgDir).readlines()))
         ## Python 3 compatibility -- rdgDocs needs to be a list and Python3 makes it an iterator
         logging.debug('done')
         if not os.path.exists(filtfname):
@@ -131,10 +132,10 @@ class Metric:
                 negFreq = self.genDocs.counts[word]
             else:
                 negFreq = 0
-            if (negFreq+posFreq) !=0:
-                DR = posFreq*math.log(len(word)+2.0)/(negFreq+posFreq)
+            if (negFreq + posFreq) != 0:
+                DR = posFreq * math.log(len(word) + 2.0) / (negFreq + posFreq)
             else:
-                DR = 0 ## AM july 2017 -- assuming 0/0 equals 0
+                DR = 0  ## AM july 2017 -- assuming 0/0 equals 0
             self._DR[word] = DR
         return DR
 
@@ -150,11 +151,11 @@ class Metric:
             for doc in self.rdgDocs:
                 if word in doc.counts:
                     if posFreq != 0:
-                        ptd = doc.counts[word]/float(posFreq)
-                        DC += ptd*math.log(1/ptd)
+                        ptd = doc.counts[word] / float(posFreq)
+                        DC += ptd * math.log(1 / ptd)
                     else:
                         ptd = 0
-                        DC = 0 ## AM July 2017 -- assumes 0/0 = 0
+                        DC = 0  ## AM July 2017 -- assumes 0/0 = 0
             self._DC[word] = DC
         return DC
 
@@ -205,9 +206,9 @@ of a proposed term"""
                     for doc in self.rdgDocs:
                         token_rel += doc.token_counts[t]
                     token_total = token_rel + self.genDocs.token_counts[t]
-                    if token_total!=0: ## AM July 7 -- treating 0 divided by 0 as 0
+                    if token_total != 0:  ## AM July 7 -- treating 0 divided by 0 as 0
                         ## changed to !=0 from > 0 on July 10
-                        tokenDR += token_rel/float(token_total)
+                        tokenDR += token_rel / float(token_total)
             tokenDR /= len(tokens)
             self._TokenDR[word] = tokenDR
         return tokenDR
@@ -310,8 +311,8 @@ Keys = 'patent', 'science', 'law', 'common', and 'medicine'."""
                     ('law', 'uscourts.lst'), ('common', 'gsl.lst'),
                     ('medicine', 'medical_roots.lst')]
         if not hasattr(self, 'lstProbs'):
-            self.lstProbs : Dict[str, float] = {'patent':0.75, 'science': 0.25, 'law':0.25,
-                                                'common':0.01, 'medicine': 0.75}
+            self.lstProbs: Dict[str, float] = {'patent': 0.75, 'science': 0.25, 'law': 0.25,
+                                               'common': 0.01, 'medicine': 0.75}
         if not hasattr(self, 'wordlistdict'):
             self.wordlistdict = {}
             for item in lstfiles:
@@ -409,19 +410,19 @@ Keys = 'DC', 'DR', 'DRDC', 'TokenDRDC', 'IDF', 'TFIDF', 'TokenIDF', 'Entropy', '
             temp = self.metrics[measure](w)
             for s in Filter.unstem(w):
                 ranking.append((s, temp))
-            ##        # force ranks to be [0,1]
-            ##        minimum = min(map(lambda x: x[1], ranking)) #to enforce >= 0
-            ##        if minimum < 0:
-            ##            minimum = abs(minimum)
-            ##        else:
-            ##            minumum = 0.0
-            ##        # add a placeholder for unknown words
-            ##        ranking.append(('[UNK]', -minimum - 9e-11)) # smallest value: 1e-11 before normalization
-            ##        minimum += 1e-10 #to avoid rank of 0
-            ##        ranking = [(r[0], r[1]+minimum) for r in ranking]
-            ##        total = sum(map(lambda x: x[1], ranking))
-            ##        # save log(rank) to avoid floating point precision errors
-            ##        ranking = [(r[0], math.log(r[1],2)-math.log(total),2) for r in ranking]
+                ##        # force ranks to be [0,1]
+                ##        minimum = min(map(lambda x: x[1], ranking)) #to enforce >= 0
+                ##        if minimum < 0:
+                ##            minimum = abs(minimum)
+                ##        else:
+                ##            minumum = 0.0
+                ##        # add a placeholder for unknown words
+                ##        ranking.append(('[UNK]', -minimum - 9e-11)) # smallest value: 1e-11 before normalization
+                ##        minimum += 1e-10 #to avoid rank of 0
+                ##        ranking = [(r[0], r[1]+minimum) for r in ranking]
+                ##        total = sum(map(lambda x: x[1], ranking))
+                ##        # save log(rank) to avoid floating point precision errors
+                ##        ranking = [(r[0], math.log(r[1],2)-math.log(total),2) for r in ranking]
         ranking.sort(key=lambda x: x[1], reverse=True)
         return ranking
 
@@ -589,7 +590,7 @@ weighted scoring. Here we are minimizing the perplexity of a held out set."""
         # set tolerance
         tolerance = 1e-10
         # E-M loop
-        print ('Optimizing weights...',)
+        print('Optimizing weights...', )
         delta = 1.0
         weight_old = weight.copy()
         while delta > tolerance:
@@ -618,7 +619,7 @@ weighted scoring. Here we are minimizing the perplexity of a held out set."""
                 weight_old[j] = weight[j]
                 weight[j] = c[j] / sum(c.values())
                 delta += (weight[j] - weight_old[j]) ** 2
-        print ('done')
+        print('done')
         # set those weights
         metric.setWeights(weight)
         return weight
