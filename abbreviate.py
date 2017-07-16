@@ -1,4 +1,4 @@
-from typing import List, Dict, Tuple, Pattern, Match, Optional, Any
+from typing import List, Dict, Tuple, Pattern, Match, Optional, Any, NamedTuple
 from term_utilities import *
 from DataDef import FileName, TXT3, ABBR
 
@@ -9,6 +9,8 @@ from DataDef import FileName, TXT3, ABBR
 # global ABBREVIATION_STOP_WORDS
 # global greek_match_table
 # global number_match_table
+
+Abbr = NamedTuple("Abbr",  [('begin', int), ('end', int), ('out_string', str), ('out_type', str), ('one_off', bool)])
 
 word_split_pattern: Pattern[str] = re.compile(r'[^\w@]+')
 ABBREVIATION_STOP_WORDS: List[str] = ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among', 'as', 'at', 'by', 'for', 'from', 'in', 'into',
@@ -86,20 +88,23 @@ def ok_inbetween_abbreviation_string(string: str) -> bool:
 #
 # @semanticbeeng static type @todo
 #
-def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: int, backwards_borders: List[int] = []) -> List[int]:
+def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: int, backwards_borders: List[int] = []) -> Optional[Abbr]:
     if len(abbreviation) > 1 and abbreviation[0] in '\'"“`':
         abbreviation2 = abbreviation[1:]
         one_off = True
     else:
         one_off = False
         abbreviation2 = abbreviation
+
     if re.search('[-/]', abbreviation2):
         abbreviation2 = re.sub('[-/]', '', abbreviation2)
+
     key = abbreviation2.upper()
-    output: List[int] = []
+    output: Abbr = None
     search_string = regularize_match_string1(line[:end])
     maxlength = 0
     out_type = 'JARGON'
+
     if key in abbr_to_full_dict:
         entry = abbr_to_full_dict[key]
         ## print(entry)
@@ -116,7 +121,9 @@ def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: i
                     end = backwards_borders[1] + file_position
                 begin: int = backwards_borders[0] + file_position
                 out_string = line[:match_end]
-                output = [begin, end, out_string, out_type, one_off]
+
+                output = Abbr(begin, end, out_string, out_type, one_off)
+
             elif (position != -1):
                 match_end = (position + len(out_string))
                 if (match_end < len(search_string)) and (search_string[match_end] == 'S'):
@@ -132,7 +139,8 @@ def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: i
                         begin = position + file_position
                         end = begin + len(out_string)
                         out_type = 'JARGON'
-                        output = [begin, end, out_string, out_type, one_off]
+
+                        output = Abbr(begin, end, out_string, out_type, one_off)
     return (output)
 
 
@@ -346,7 +354,10 @@ def letter_match(char1, word):
         return (False)
 
 
-def classify_abbreviated_string(word_string, wordlist=False):
+#
+# @semanticbeeng static type @todo
+#
+def classify_abbreviated_string(word_string: str, wordlist: List[str] = []) -> str:
     if not wordlist:
         wordlist = remove_empties(word_split_pattern.split(word_string))
     if '@' in word_string:
@@ -375,16 +386,16 @@ def abbreviation_match(abbreviation, previous_words, line, abbreviation_position
     ##                2) ADAMTS-2 (A Disintegrin And Metalloproteinase with ThromboSpondin motifs)  ## also not clear -- when can we add a number
     ##                3) tetracycline (tet) -- not completely clear because we get similar cases, but perhaps it is the length
     one_off = False
-    out_string = False
+    out_string = []                     # @semanticbeeng static type @todo
     matching_words = []
-    organization = False
+    # organization = False              @semanticbeeng not used
     abbreviation2 = abbreviation
     skipped_maximum = 3
     stop_words = 0
     skipped_words = 0
     trimmed_words = 0
     last_word_was_stop_word = False
-    pattern_that_matched = False
+    pattern_that_matched: int = None       # @semanticbeeng static type @todo
     final_s = False
     final_match = False
     multi_letter = False
@@ -603,11 +614,11 @@ def make_nyu_id(Class: str) -> str:
     return ('NYU_' + Class + str(number))
 
 
-def make_nyu_entity(entity_type: str, string: str, begin: str, end: str) -> Dict[str, str]:
+def make_nyu_entity(entity_type: str, string: str, begin: int, end: int) -> Dict[str, str]:
     if entity_type == 'JARGON':
-        return ({'CLASS': entity_type, 'ID': make_nyu_id(entity_type), 'START': begin, 'END': end, 'TEXT': string})
+        return ({'CLASS': entity_type, 'ID': make_nyu_id(entity_type), 'START': str(begin), 'END': str(end), 'TEXT': string})
     elif entity_type in ['ORGANIZATION', 'PERSON', 'URL', 'EMAIL', 'GPE']:
-        return ({'CLASS': 'ENAMEX', 'TYPE': entity_type, 'ID': make_nyu_id('ENAMEX'), 'START': begin, 'END': end, 'TEXT': string})
+        return ({'CLASS': 'ENAMEX', 'TYPE': entity_type, 'ID': make_nyu_id('ENAMEX'), 'START': str(begin), 'END': str(end), 'TEXT': string})
     else:
         print(1, string, begin, end)
         print('No such entity type:', entity_type)
@@ -674,10 +685,10 @@ def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False) -> bool:
         string = ARG1_string.lower()
         abbrev = ARG2_string.lower()
         OK = True
-        string_type = False
+        string_type: str = None         # @semanticbeeng static type
         string_char = False
         match = False
-        next_type = False
+        next_type: str = None           # @semanticbeeng static type
         while (string_index < len(string)) and (abbrev_index < len(abbrev)):
             ## match initial consonant and vowel clusters
             last_type = string_type
@@ -698,7 +709,8 @@ def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False) -> bool:
                 else:
                     next_type = 'consonant'
             else:
-                next_type = False
+                next_type = None        # @semanticbeeng static type
+
             # print(1,string_char,abbrev_char,match,string_type)
             # print(2,last_type,last_match)
             # print(3,abbrev_index)
@@ -724,27 +736,29 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
     pattern: Optional[Match[str]] = parentheses_pattern_match(line, start, 2)
     ### parentheses_pattern2.search(line,start)
     ## allows for unclosed parenthesis
-    more_words = False  # @semanticbeeng static type @ todo : List[str] = []
-    ARG2_begin = False
-    ARG2_end = False
-    ARG2_string = False
-    ARG1_begin = False
-    ARG2_end = False
-    ARG2_string = False
-    output_type = False
-    result = False
+    more_words: List[str] = []      # @semanticbeeng static type @ todo
+    ARG1_begin: int = None          # @semanticbeeng static type @ todo
+    ARG2_begin: int = None          # @semanticbeeng static type @ todo
+    ARG1_end: int = None            # @semanticbeeng static type @ todo
+    ARG2_end: int = None            # @semanticbeeng static type @ todo
+    ARG2_string: str = None         # @semanticbeeng static type @ todo
+    output_type: str = None         # @semanticbeeng static type @ todo
+    result: Abbr = None             # @semanticbeeng static type @ todo
     Fail = False
-    extend_antecedent = False
-    last_start = False
-    alt_abbreviation = False
+    extend_antecedent: bool = False # @semanticbeeng static type @ todo
+    last_start: int = None          # @semanticbeeng static type @ todo
+    alt_abbreviation: str = None    # @semanticbeeng static type @ todo
+
     while pattern:
-        result = False  # @semanticbeeng static type @ todo  : List[int] = []
+        # result = []      # @semanticbeeng static type @ todo
         Fail = False
-        first_word_break = re.search('[^\(]([ ,;:])', pattern.group(2))
+        first_word_break: Optional[Match[str]] = re.search('[^\(]([ ,;:])', pattern.group(2))
+
         if first_word_break:
             abbreviation = pattern.group(2)[:first_word_break.start(1)]
         else:
             abbreviation = pattern.group(2)
+
         if abbreviation:
             abbrev_start = re.search('[^ /-]', abbreviation)
             if abbrev_start and (abbrev_start.start() > 0):
@@ -755,11 +769,13 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
         ## if there is no space
         search_end = pattern.start()
         search_end, Fail = find_search_end(line, search_end)
+
         if ill_formed_abbreviation_pattern(pattern):
             Fail = True
             Double_Fail = True
         else:
             Double_Fail = False
+
         if re.search('^[a-zA-Z]$', abbreviation):
             ## eliminate ill_formed pattern plus all single roman letter abbreviations
             ## the latter are correct sometimes, but rarely useful at all for our purposes
@@ -768,7 +784,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
             Fail = True
         if Fail and (not Double_Fail) and alt_abbreviation and (not re.search('^[a-zA-Z]$', alt_abbreviation)):
             abbreviation = alt_abbreviation
-            alt_abbreviation = False
+            alt_abbreviation = None        # @semanticbeeng static type
             Fail = False
         if not Fail:
             if extend_antecedent:
@@ -785,6 +801,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                 offset_adjustment = len(previous_line)
                 more_words.extend(previous_words)
                 result = lookup_abbreviation(abbreviation, previous_line + line, search_end + offset_adjustment, position - offset_adjustment)
+
                 if alt_abbreviation and (not result):
                     result = lookup_abbreviation(alt_abbreviation, previous_line + line, search_end + offset_adjustment, position - offset_adjustment)
                     if result:
@@ -809,7 +826,8 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                         abbreviation = alt_abbreviation
             ## print(result)
             if result and ((not OK_jargon(result[2])) or (not OK_abbrev_antec(result[2]))):
-                result = False
+                result = None          # @semanticbeeng static type
+
             if result:
                 if result[4]:  ## if the abbreviation is one off
                     ARG2_begin = pattern.start() + position + 2
@@ -819,15 +837,19 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                     ARG2_begin = pattern.start() + position + 1
                     ARG2_string = abbreviation
                     ARG2_end = ARG2_begin + len(abbreviation)
+
+                # @semanticbeeng @todo use Abbr explicitly
                 ARG1_begin = result[0]
                 ARG1_end = result[1]
                 ARG1_string = result[2]
                 output_type = result[3]
+
             elif len(abbreviation) == 1:
                 ## single capital letters divided by spaces, are an alternative match, e.g., (J R A)
                 ## Abbreviations can also contain periods
                 ## -- we will try removing up to 7 spaces/periods
                 abbreviation = re.sub('[. ]', '', pattern.group(2), 7)  ## remove upto 7 spaces/periods from abbreviation
+
                 if (start == 0) and (previous_line != '') and (len(previous_words) < len(abbreviation)):
                     more_words  = get_more_words(previous_line, (1 + len(abbreviation) - len(previous_words)))
                     if more_words and (len(more_words) > 0):
@@ -859,13 +881,17 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                 ## the parentheses (abbreviation), i.e., the backwards case
                 # @semanticbeeng static type @todo previous_word: Optional[Match] = None
                 if pattern.end() > 3:
-                    previous_word = re.search('([a-zA-ZΑ-ϖ][a-zA-Z0-9-/Α-ϖ]*[a-zA-Z0-9Α-ϖ])[^a-z0-9]$', line[:pattern.start()])
+                    previous_word: Optional[Match[str]] = re.search('([a-zA-ZΑ-ϖ][a-zA-Z0-9-/Α-ϖ]*[a-zA-Z0-9Α-ϖ])[^a-z0-9]$', line[:pattern.start()])
                 else:
-                   previous_word = False
+                    previous_word = None         # @semanticbeeng static type @todo
+
                 if previous_word:
                     abbreviation = previous_word.group(1)
                     antecedent_string = pattern.group(0)[1:-1]
-                    result = lookup_abbreviation(abbreviation, antecedent_string, len(pattern.group(0)) - 2, position, backwards_borders=[previous_word.start(), pattern.end()])
+
+                    result = lookup_abbreviation(abbreviation, antecedent_string, len(pattern.group(0)) - 2, position,
+                                                 backwards_borders=[previous_word.start(), pattern.end()])
+
                     if not result:
                         forward_words = remove_empties(word_split_pattern.split(antecedent_string.rstrip(' ')))
                         line_offset = len(pattern.group(0)) - 2
@@ -885,13 +911,15 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                         ## end position = end position of pattern + offset
             if result:
                 if invalid_abbreviation(ARG2_string) or invalid_abbrev_of(ARG2_string, ARG1_string):
-                    ARG1 = False
-                    ARG2 = False
+                    ARG1 = None        # @semanticbeeng static type @todo !
+                    ARG2 = None        # @semanticbeeng static type @todo !
                 else:
                     ARG2 = make_nyu_entity(output_type, ARG2_string, ARG2_begin, ARG2_end)
                     ARG1 = make_nyu_entity(output_type, ARG1_string, ARG1_begin, ARG1_end)
+
                 relation_start = min(ARG1_begin, ARG2_begin)
                 relation_end = max(ARG1_end, ARG2_end)
+
                 if ARG1 and ARG2:
                     output.extend([ARG1, ARG2,
                                    {'CLASS': 'RELATION', 'TYPE': 'ABBREVIATE', 'ID': make_nyu_id('RELATION'), 'START': relation_start, 'END': relation_end, 'ARG1': ARG1['ID'],

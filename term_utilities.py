@@ -34,9 +34,9 @@ plural_dict: Dict[str, List[str]] = {}  ## @arch static state
 verb_base_form_dict: Dict[str, str] = {}  ## @arch static state
 verb_variants_dict: Dict[str, str] = {}  ## @arch static state
 nom_dict: Dict[str, str] = {}
-pos_dict: Dict[str, str] = {}
+pos_dict: Dict[str, List[str]] = {}
 jargon_words = set()  ## @arch shared static state
-pos_offset_table: Dict[str, str] = {}
+pos_offset_table: Dict[int, str] = {}
 organization_dictionary = {}
 location_dictionary = {}
 nationality_dictionary = {}
@@ -845,23 +845,23 @@ def term_dict_check(term, test_dict):
 # @semanticbeeng func comp_termChunker
 # @semanticbeeng global to object @todo
 #
-def guess_pos(word, is_capital, offset=False):  # @semanticbeeng static type @todo -> str:
-    pos = []
+def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @semanticbeeng static type @todo
+    pos: List[str] = []
     plural = False
     if offset and (offset in pos_offset_table):
         tagger_pos = pos_offset_table[offset]
         ## Most conservative move is to use for disambiguation,
         ## and for identifying ing nouns (whether NNP or NN)
-        ## We care about: 
+        ## We care about:
         ## Easy translations: NN NNP NNPS NNS; JJ JJR JJS; RB RBR RBS RP WRB;
         ## 'FW' 'SYM' '-LRB-''-RRB-'; VBD VBG VBN VBP VBZ VB; DT PDT WDT PRP$ WP$
-        ## CC CD EX FW LS MD POS PRP UH WP 
+        ## CC CD EX FW LS MD POS PRP UH WP
         if tagger_pos in ['NNP', 'NNPS', 'FW', 'SYM', '-LRB-', '-RRB-']:
             ## these are inaccurate for this corpus or irrelevant for this task
             ## NNP and NNPS are not very accurate, FW identifies some conventionalized abbreviations (et. al. and i.e.)
             ##     and latin terms (per se).  SYM cases are eliminated in other ways
             ## Punctuation cases are already ignored
-            tagger_pos = False
+            tagger_pos = None          # @semanticbeeng static type @todo !
         elif tagger_pos == 'NN':
             tagger_pos = 'NOUN'
         elif tagger_pos == 'NNS':
@@ -881,7 +881,7 @@ def guess_pos(word, is_capital, offset=False):  # @semanticbeeng static type @to
         else:
             tagger_pos = 'OTHER'
     else:
-        tagger_pos = False
+        tagger_pos = None           # @semanticbeeng static type @todo !
     if (len(word) > 2) and word[-2:] in ['\'s', 's\'']:
         possessive = True
         word = word[:-2]
@@ -969,14 +969,18 @@ def guess_pos(word, is_capital, offset=False):  # @semanticbeeng static type @to
 
     elif (not possessive) and ('-' in word) and re.search('[a-zA-Z]', word):
         little_words = word.split('-')
+
         if len(little_words) > 2:
             for word in little_words:
                 little_pos = guess_pos(word, word.istitle())
                 if little_pos == 'NOUN_OOV':
                     return ('NOUN_OOV')
             return ('NOUN')
+
         if len(little_words) == 1 and (little_words[0].isalnum()):
-            return (guess_pos(little_words[0]), is_capital)
+            return (guess_pos(little_words[0], is_capital))     # @semanticbeeng todo !!
+            # return (guess_pos(little_words[0]), is_capital)
+
         if little_words[1] in pos_dict:  ## the last word
             last_pos = pos_dict[little_words[1]][:]
             first_pos = guess_pos(little_words[0], little_words[0].istitle())
@@ -1064,6 +1068,7 @@ def guess_pos(word, is_capital, offset=False):  # @semanticbeeng static type @to
     else:
         return ('NOUN_OOV')
         ## otherwise assume most OOV words are nouns
+    raise Exception('Unexpected to get here')       # @semanticbeeng
 
 
 def divide_sentence_into_words_and_start_positions(sentence: str, start: int = 0) -> List[object]:

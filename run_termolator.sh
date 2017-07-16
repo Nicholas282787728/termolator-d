@@ -31,7 +31,7 @@ echo "dedicated webscore file ${12}"
 
 ## Step 1: Finding inline terms for foreground files
 echo "Running Step 1: finding inline terms for foreground files"
-TERMOLATOR=${9:-$TERMOLATORPATH}
+# @semanticbeeng TERMOLATOR=${9:-$TERMOLATORPATH}
 $TERMOLATOR/make_io_file.py $1 $4.internal_prefix_list BARE
 $TERMOLATOR/make_io_file.py $1 $4.internal_pos_list .pos
 $TERMOLATOR/make_io_file.py $1 $4.internal_txt_fact_list .txt3 .fact
@@ -100,7 +100,7 @@ fi
 echo "Final terms can be found in $4.out_term_list from the scored file in $4.scored_output"
 head -$8 $4.scored_output | cut -f 1 > $4.out_term_list
 
-echo "Cleaning up files"
-rm $4.internal_prefix_list $4.internal_pos_list $4.internal_txt_fact_list $4.internal_fact_pos_list
-rm $4.internal_txt_fact_pos_list $4.internal_pos_terms_abbr_list $4.internal_foreground_tchunk_list
-rm $4.internal_background_tchunk_list
+#echo "Cleaning up files"
+#rm $4.internal_prefix_list $4.internal_pos_list $4.internal_txt_fact_list $4.internal_fact_pos_list
+#rm $4.internal_txt_fact_pos_list $4.internal_pos_terms_abbr_list $4.internal_foreground_tchunk_list
+#rm $4.internal_background_tchunk_list
