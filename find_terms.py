@@ -1,16 +1,16 @@
 from inline_terms import *
+from DataDef import FileName, TXT3
 
-
-def find_inline_terms_for_file_list(file_list, dict_prefix=False):
+def find_inline_terms_for_file_list(file_list: FileName, dict_prefix: bool = False) -> None:
     start = True
-    with open(file_list) as instream:
+    with file_list.openText() as instream:
         # if dict_prefix:
         #     unigram_dictionary.clear()
         ## see derive_plurals in term_utilities
         ## and other instances of "unigram_dict" below
-        for line in instream:
+        for line in instream.readlines():
             file_prefix = line.strip()
-            lines = get_lines_from_file(file_prefix + '.txt3')  ## add feature to remove xml
+            lines = get_lines_from_file(FileName[TXT3](file_prefix + '.txt3'))  ## add feature to remove xml
             run_abbreviate_on_lines(lines, file_prefix + '.abbr', reset_dictionary=start)
             ## creates abbreviation files and acquires abbreviation --> term
             ## and term --> abbreviation dictionaries
@@ -24,5 +24,6 @@ def find_inline_terms_for_file_list(file_list, dict_prefix=False):
             if start:
                 start = False
         if dict_prefix:
-            save_abbrev_dicts(dict_prefix + ".dict_abbr_to_full", dict_prefix + ".dict_full_to_abbr")
+            save_abbrev_dicts(FileName[ABBR](str(dict_prefix) + ".dict_abbr_to_full"),
+                              FileName[ABBR](str(dict_prefix) + ".dict_full_to_abbr"))
             ## save_unigram_dict(dict_prefix+".dict_unigram")

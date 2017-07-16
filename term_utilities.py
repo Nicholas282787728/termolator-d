@@ -1,7 +1,8 @@
 import os
 import random
 import re
-from typing import List, Dict, Pattern, Match
+from typing import List, Dict, Pattern, Match, Optional
+from DataDef import FileName
 
 DICT_DIRECTORY = os.path.dirname(os.path.realpath(__file__)) + os.sep + "dicts" + os.sep
 ## DICT_DIRECTORY = '../'
@@ -29,7 +30,7 @@ special_domains: List[str] = []
 stat_adj_dict: Dict[str, int] = {}  ## @func comp_termChunker, @arch static state
 stat_term_dict: Dict[str, bool] = {}  ## @func comp_termChunker, @arch static state
 noun_base_form_dict: Dict[str, str] = {}  ## @func comp_termChunker, @arch static state
-plural_dict: Dict[str, str] = {}  ## @arch static state
+plural_dict: Dict[str, List[str]] = {}  ## @arch static state
 verb_base_form_dict: Dict[str, str] = {}  ## @arch static state
 verb_variants_dict: Dict[str, str] = {}  ## @arch static state
 nom_dict: Dict[str, str] = {}
@@ -40,7 +41,7 @@ organization_dictionary = {}
 location_dictionary = {}
 nationality_dictionary = {}
 nom_map_dict = {}
-unigram_dictionary = set()
+# unigram_dictionary = set()        # @semanticbeeng not used
 ## add all observed words (in the foreground set) to unigram_dictionary
 
 
@@ -511,7 +512,7 @@ def initialize_utilities():
         parentheses_pattern3 = parentheses_pattern3a
 
 
-def parentheses_pattern_match(instring: str, start: int, pattern_number: int) -> Match:
+def parentheses_pattern_match(instring: str, start: int, pattern_number: int) -> Optional[Match[str]]:
     if 'legal' in special_domains:
         if pattern_number == 2:
             return (parentheses_pattern2b.search(instring, start))
@@ -544,23 +545,23 @@ def breakup_line_into_chunks(inline, difference):
     return (output)
 
 
-def table_upper_split(line):
+def table_upper_split(line: str) -> List[str]:
     ## in order to maintain offsets this program will delete
     ## one non-alphanumeric character or upper case character
     ## per new line created
     ## since other programs assume a newline character between
     ## lines.
-    difference = 0
-    table_pattern = re.compile('[^a-zA-Z0-9]TABLE[^a-zA-Z0-9]')
-    end_table_pattern = re.compile('[A-Za-z][a-z]')
-    table_start = table_pattern.search(line)
-    output = []
-    start = 0
+    difference: int = 0
+    table_pattern: Pattern[str] = re.compile('[^a-zA-Z0-9]TABLE[^a-zA-Z0-9]')
+    end_table_pattern: Pattern[str] = re.compile('[A-Za-z][a-z]')
+    table_start: Optional[Match[str]] = table_pattern.search(line)
+    output: List[str] = []
+    start: int = 0
     if not table_start:
         return ([line])
     while table_start:
         output.append(line[start:table_start.start() - difference])
-        end_table = end_table_pattern.search(line, table_start.end())
+        end_table: Optional[Match[str]] = end_table_pattern.search(line, table_start.end())
         if end_table:
             output.append(line[table_start.start() + difference:end_table.start()])
             start = end_table.start()
@@ -568,8 +569,8 @@ def table_upper_split(line):
         else:
             output.append(line[start:])
             start = len(line)
-            table_start = False
-    output2 = []
+            table_start = None      # @semanticbeeng static typing
+    output2: List[str] = []
     if start < len(line):
         output.append(line[start:])
     for out in output:
@@ -580,7 +581,7 @@ def table_upper_split(line):
     return (output2)
 
 
-def long_line_split(input_line):
+def long_line_split(input_line: str):
     ## really long lines can be problematic
     ## one case we found is inserted tables
     ## we will start with these.
@@ -592,7 +593,7 @@ def long_line_split(input_line):
         return (table_upper_split(input_line))
 
 
-def remove_xml(string):
+def remove_xml(string: str) -> str:
     output = xml_pattern.sub('', string)
     return (output)
 
@@ -619,7 +620,7 @@ def remove_xml_spit_out_paragraph_start_end(string, offset):
     next_xml = xml_pattern.search(string)
     start = 0
     out_string = ''
-    bare_string_border = 0
+    # bare_string_border = 0
     paragraph_starts = []
     paragraph_ends = []
     remove_starts = []
@@ -662,29 +663,29 @@ def replace_less_than_with_positions(string, offset):
     return (out_string, less_thans)
 
 
-def interior_white_space_trim(instring):
+def interior_white_space_trim(instring: str) -> str:
     out1 = re.sub('\s+', ' ', instring)
     out2 = re.sub('\s*(.*[^\s])\s*$', '\g<1>', out1)
     return (out2)
 
 
-def isStub(line):
+def isStub(line: str) -> bool:
     if (len(line) < 1000) and re.search('[\(\[][ \t]*$', line):
         return (True)
+    return (False)
 
-
-def get_lines_from_file(infile):
-    with open(infile, 'r') as instream:
-        output = []
-        short_line = False
-        for line in (instream.readlines()):
+def get_lines_from_file(infile: FileName) -> List[str]:
+    with infile.openText('r') as instream:
+        output: List[str] = []
+        short_line: Optional[str] = None        # @semanticbeeng static type
+        for line in instream.readlines():
             line = remove_xml(line)
             if short_line:
                 line = short_line + line
             if isStub(line):
                 short_line = re.sub(os.linesep, ' ', line)
             else:
-                short_line = False
+                short_line = None
                 for line2 in long_line_split(line):
                     output.append(line2)
         if short_line:
@@ -777,10 +778,10 @@ def verbal_profile(word):
     if (len(word) > 5) and re.search('[aeiou][b-df-hj-np-ts-z]ed$', word):
         return (True)
 
-        ## @arch global state mutation
-
-
-## @func comp_termChunker
+#
+# @semanticbeeng @arch global state mutation
+# @semanticbeeng @func comp_termChunker
+#
 def read_in_stat_term_dict(indict, dict_dir=DICT_DIRECTORY):
     global stat_term_dict
     global stat_adj_dict
@@ -840,8 +841,11 @@ def term_dict_check(term, test_dict):
             return (True)
 
 
-## @func comp_termChunker
-def guess_pos(word, is_capital, offset=False):
+#
+# @semanticbeeng func comp_termChunker
+# @semanticbeeng global to object @todo
+#
+def guess_pos(word, is_capital, offset=False):  # @semanticbeeng static type @todo -> str:
     pos = []
     plural = False
     if offset and (offset in pos_offset_table):
@@ -883,8 +887,10 @@ def guess_pos(word, is_capital, offset=False):
         word = word[:-2]
     else:
         possessive = False
+
     if (len(word) == 1) and not word.isalnum():
         return ('OTHER')
+
     if word in pos_dict:
         pos = pos_dict[word][:]
         if not possessive:
@@ -960,6 +966,7 @@ def guess_pos(word, is_capital, offset=False):
                 return ('PERSON_NAME')
             else:
                 return ('OTHER')
+
     elif (not possessive) and ('-' in word) and re.search('[a-zA-Z]', word):
         little_words = word.split('-')
         if len(little_words) > 2:
@@ -1059,38 +1066,44 @@ def guess_pos(word, is_capital, offset=False):
         ## otherwise assume most OOV words are nouns
 
 
-def divide_sentence_into_words_and_start_positions(sentence, start=0):
+def divide_sentence_into_words_and_start_positions(sentence: str, start: int = 0) -> List[object]:
     ## only sequences of letters are needed for look up
-    break_pattern = re.compile('[^0-9A-Za-z-]')
-    match = break_pattern.search(sentence, start)
-    output = []
+    break_pattern: Pattern[str] = re.compile('[^0-9A-Za-z-]')
+    match: Optional[Match[str]] = break_pattern.search(sentence, start)
+    output: List[object] = []           # @semanticbeeng static type @todo
+
     while match:
         if start != match.start():
             output.append([start, sentence[start:match.start()]])
         start = match.end()
         match = break_pattern.search(sentence, start)
+
     if start < len(sentence):
         output.append([start, sentence[start:]])
     return (output)
 
 
-def list_intersect(list1, list2):
+def list_intersect(list1: List[str], list2: List[str]) -> bool:
     for item1 in list1:
         for item2 in list2:
             if item1 == item2:
                 return (True)
+    return (False)
 
 
-def get_integrated_line_attribute_value_structure_no_list(line, types):
-    start = line.find(' ')
+def get_integrated_line_attribute_value_structure_no_list(line: str, types: List[str]) -> Optional[Dict[str, str]]:
+
+    start: int = line.find(' ')
+
     if start != -1:
         av_type = line[:start]
-        output = {}
+        output: Optional[Dict[str, str]] = {}
     else:
-        output = False
-        av_type = False
+        av_type = None      # @semanticbeeng static type @todo
+        output = None       # @semanticbeeng static type @todo
+
     if av_type in types:
-        pattern = attribute_value_from_fact.search(line, start)
+        pattern: Optional[Match[str]] = attribute_value_from_fact.search(line, start)
         output['av_type'] = av_type
         while pattern:
             output[pattern.group(1)] = pattern.group(2).strip('"')
@@ -1099,13 +1112,16 @@ def get_integrated_line_attribute_value_structure_no_list(line, types):
     return (output)
 
 
-def derive_plurals(word):
+#
+# @semanticbeeng @todo gobal to object
+#
+def derive_plurals(word: str) -> List[str]:
     ## the dictionary plurals, actually includes -ing forms of verbs as well
     ## and regularizes them to verbs (which may or may not also be nouns)
     if word in plural_dict:
         return (plural_dict[word])
     elif len(word) <= 1:
-        return (False)
+        return ([])     # @semanticbeeng static type @todo
     elif (word[-1] in 'sxz') or (word[-2:] in ['sh', 'ch']):
         output = word + 'es'
     elif (word[-1] == 'y') and not (word[-2] in 'aeiou'):
@@ -1119,45 +1135,57 @@ def derive_plurals(word):
     #     return([output])
 
 
-def increment_unigram_dict_from_lines(lines):
-    for line in lines:
-        words = re.split('[^a-zA-Z]', line)
-        for word in words:
-            if word != '':
-                unigram_dictionary.add(word.lower())
+#
+# @semanticbeeng dead code
+#
+# def increment_unigram_dict_from_lines(lines):
+#     for line in lines:
+#         words = re.split('[^a-zA-Z]', line)
+#         for word in words:
+#             if word != '':
+#                 unigram_dictionary.add(word.lower())
 
 
-def save_unigram_dict(outfile):
-    global unigram_dictionary
-    with open(outfile, 'w') as outstream:
-        for word in unigram_dictionary:
-            outstream.write(word + os.linesep)
+#
+# @semanticbeeng dead code
+#
+# def save_unigram_dict(outfile):
+#     global unigram_dictionary
+#     with open(outfile, 'w') as outstream:
+#         for word in unigram_dictionary:
+#             outstream.write(word + os.linesep)
 
 
-def load_unigram_dict(infile):
-    global unigram_dictionary
-    unigram_dictionary.clear()
-    with open(infile) as instream:
-        for line in instream:
-            unigram_dictionary.add(line.strip())
+#
+# @semanticbeeng dead code
+#
+# def load_unigram_dict(infile):
+#     global unigram_dictionary
+#     unigram_dictionary.clear()
+#     with open(infile) as instream:
+#         for line in instream:
+#             unigram_dictionary.add(line.strip())
 
 
-def get_n_random_lines(infile, outfile, N):
-    random.seed()
-    lines = open(infile).readlines()
-    output = []
-    while (len(output) < N) and (len(lines) > 0):
-        new_num = random.randint(0, len(lines) - 1)
-        output.append(lines.pop(new_num))
-    with open(outfile, 'w') as outstream:
-        for line in output:
-            outstream.write(line)
+#
+# @semanticbeeng dead code
+#
+# def get_n_random_lines(infile, outfile, N):
+#     random.seed()
+#     lines = open(infile).readlines()
+#     output = []
+#     while (len(output) < N) and (len(lines) > 0):
+#         new_num = random.randint(0, len(lines) - 1)
+#         output.append(lines.pop(new_num))
+#     with open(outfile, 'w') as outstream:
+#         for line in output:
+#             outstream.write(line)
 
 
-def merge_multiline_and_fix_xml(inlinelist):
-    outlinelist = []
-    current_line = ''
-    start_xml = re.compile('^[ \t]*<')
+def merge_multiline_and_fix_xml(inlinelist: List[str]) -> List[str]:
+    outlinelist: List[str] = []
+    current_line: str = ''
+    start_xml: Pattern[str] = re.compile('^[ \t]*<')
     for line in inlinelist:
         if start_xml.search(line) and (not '>' in line):
             current_line = current_line + line
@@ -1170,11 +1198,14 @@ def merge_multiline_and_fix_xml(inlinelist):
         else:
             outlinelist.append(line)
     if (current_line != ''):
-        outlinelist.append(line)
+        outlinelist.append(line)        # @semanticbeeng @todo
     return (outlinelist)
 
 
-def get_my_string_list(input_file):
+#
+# @semanticbeeng use type FileName
+#
+def get_my_string_list(input_file: str) -> List[str]:
     try:
         instream = open(input_file)
         output = instream.readlines()

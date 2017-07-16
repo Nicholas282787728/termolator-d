@@ -1,5 +1,4 @@
 import sys
-import re
 from typing import List, Dict, Pattern, Match
 
 from abbreviate import *
@@ -256,7 +255,7 @@ def get_next_word(instring, start):
                 end = next_word.end()
                 found = next_word
         elif (instring[border] == '(') and (border > 0) and (not re.search('\s', instring[border - 1])):
-            paren_pat: Match = parentheses_pattern_match(instring, border, 2)
+            paren_pat: Optional[Match[str]] = parentheses_pattern_match(instring, border, 2)
             ### parentheses_pattern2.search(instring,border)
             if paren_pat and (not re.search('\s', paren_pat.group(1))):
                 ## require matching paren pattern
@@ -267,7 +266,7 @@ def get_next_word(instring, start):
                 end = found.end()
                 found = False
         elif (start == found.start()) and (found.end() == start + 1) and (instring[start] == '('):
-            paren_pat = parentheses_pattern_match(instring, start, 2)
+            paren_pat: Optional[Match[str]] = parentheses_pattern_match(instring, start, 2)
             ### parentheses_pattern2.search(instring,start)
             if paren_pat and (not re.search('\s', paren_pat.group(1))) and (len(instring) > paren_pat.end() + 1) \
                     and (not re.search('\s', instring[paren_pat.end() + 1])):
@@ -616,7 +615,7 @@ def get_topic_terms(text, offset, filter_off=False):
     double_quote_pattern = re.compile('(\s|^)["“]([^"“”]*?)["”](\s|$)')
     first_character_pattern = re.compile('[^ ,\.?><\'";:\]\[{}\-_=)(*&\^%$\#@!~]')
     start = 0
-    paren_pat = parentheses_pattern_match(text, start, 3)
+    paren_pat: Optional[Match[str]] = parentheses_pattern_match(text, start, 3)
     ### parentheses_pattern3.search(text,start)
     txt_markup_match = txt_markup.search(text, start)
     pieces = []
@@ -635,9 +634,9 @@ def get_topic_terms(text, offset, filter_off=False):
         elif paren_pat and (paren_pat.start() < start):
             ## in case parens are inside of txt_markup
             ### paren_pat = parentheses_pattern3.search(text,start)
-            paren_pat = parentheses_pattern_match(text, start, 3)
+            paren_pat: Optional[Match[str]] = parentheses_pattern_match(text, start, 3)
         elif txt_markup_match and (not paren_pat):
-            txt_markup_match = txt_markup.search(text, start)
+            txt_markup_match: Optional[Match[str]] = txt_markup.search(text, start)
         else:
             result = False
             Fail = False
@@ -681,7 +680,7 @@ def get_topic_terms(text, offset, filter_off=False):
                 pieces.extend([[start, text[start:paren_pat.start()]], [paren_pat.start(2), paren_pat.group(2)]])
                 start = paren_pat.end()
                 ### paren_pat = parentheses_pattern3.search(text,paren_pat.end())
-                paren_pat = parentheses_pattern_match(text, paren_pat.end(), 3)
+                paren_pat: Optional[Match[str]] = parentheses_pattern_match(text, paren_pat.end(), 3)
     if start and (len(text) > start):
         pieces.append([start, text[start:]])
     if len(pieces) == 0:
@@ -1361,6 +1360,7 @@ def write_term_becomes_person(outstream, term, instances):
 
 
 def find_inline_terms(lines, fact_file, pos_file, terms_file, marked_paragraphs=False, filter_off=False):
+    # @semanticbeeng not used @todo
     global abbr_to_full_dict
     global full_to_abbr_dict
     global term_id_number

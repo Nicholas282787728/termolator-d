@@ -1,5 +1,6 @@
-from typing import List, Dict, Pattern
+from typing import List, Dict, Tuple, Pattern, Match, Optional, Any
 from term_utilities import *
+from DataDef import FileName, TXT3, ABBR
 
 # global abbr_to_full_dict
 # global full_to_abbr_dict
@@ -17,8 +18,8 @@ ABBREVIATION_STOP_WORDS: List[str] = ['a', 'the', 'an', 'and', 'or', 'but', 'abo
                                       'that']
 
 id_number: int = 0
-abbr_to_full_dict: Dict[str, str] = {}
-full_to_abbr_dict: Dict[str, str] = {}
+abbr_to_full_dict: Dict[str, List[str]] = {}
+full_to_abbr_dict: Dict[str, List[str]] = {}
 greek_match_table: Dict[str, str] = {'Α': 'A', 'Β': 'B', 'Γ': 'G', 'Δ': 'D', 'Ε': 'E', 'Ζ': 'Z', 'Η': 'H', 'Θ': 'T',
                      'Ι': 'I', 'Κ': 'K', 'Λ': 'L', 'Μ': 'M', 'Ν': 'N', 'Ξ': 'X', 'Ο': 'O',
                      'Π': 'P', 'Ρ': 'R', 'Σ': 'S', 'Τ': 'T', 'Υ': 'U', 'Φ': 'P', 'Χ': 'C', 'Ψ': 'P', 'ϖ': 'P'}
@@ -61,20 +62,20 @@ def remove_empties(input_list: List[str]) -> List[str]:
         return (input_list)
 
 
-def get_more_words(line, length):
+def get_more_words(line: str, length: int) -> List[str]:
     ## print(line)
     ## print(length)
     if line and re.search('[^\W\d]', line):
-        words = remove_empties(word_split_pattern.split(line.strip(''' ,.?><'";:][{}-_=)(*&^%$#@!~''')))
+        words: List[str] = remove_empties(word_split_pattern.split(line.strip(''' ,.?><'";:][{}-_=)(*&^%$#@!~''')))
         if len(words) > length:
             return (words[0 - length:])
         else:
             return (words)
     else:
-        return (False)
+        return ([])  # @semanticbeeng static type @todo
 
 
-def ok_inbetween_abbreviation_string(string):
+def ok_inbetween_abbreviation_string(string: str) -> bool:
     word_list = remove_empties(word_split_pattern.split(string))
     if len(word_list) < 3:
         return (True)
@@ -82,7 +83,10 @@ def ok_inbetween_abbreviation_string(string):
         return (False)
 
 
-def lookup_abbreviation(abbreviation, line, end, file_position, backwards_borders=False):
+#
+# @semanticbeeng static type @todo
+#
+def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: int, backwards_borders: List[int] = []) -> List[int]:
     if len(abbreviation) > 1 and abbreviation[0] in '\'"“`':
         abbreviation2 = abbreviation[1:]
         one_off = True
@@ -92,7 +96,7 @@ def lookup_abbreviation(abbreviation, line, end, file_position, backwards_border
     if re.search('[-/]', abbreviation2):
         abbreviation2 = re.sub('[-/]', '', abbreviation2)
     key = abbreviation2.upper()
-    output = []
+    output: List[int] = []
     search_string = regularize_match_string1(line[:end])
     maxlength = 0
     out_type = 'JARGON'
@@ -101,7 +105,7 @@ def lookup_abbreviation(abbreviation, line, end, file_position, backwards_border
         ## print(entry)
         ## print(search_string)
         for out_string in entry:
-            add_s = False
+            # add_s = False     @semanticbeeng not used @todo
             position = search_string.rfind(out_string)
             if backwards_borders and (position != -1):
                 match_end = (position + len(out_string))
@@ -110,7 +114,7 @@ def lookup_abbreviation(abbreviation, line, end, file_position, backwards_border
                     end = backwards_borders[1] + file_position - len_difference
                 else:
                     end = backwards_borders[1] + file_position
-                begin = backwards_borders[0] + file_position
+                begin: int = backwards_borders[0] + file_position
                 out_string = line[:match_end]
                 output = [begin, end, out_string, out_type, one_off]
             elif (position != -1):
@@ -594,12 +598,12 @@ def get_next_id_number():
     return (id_number)
 
 
-def make_nyu_id(Class):
+def make_nyu_id(Class: str) -> str:
     number = get_next_id_number()
     return ('NYU_' + Class + str(number))
 
 
-def make_nyu_entity(entity_type, string, begin, end):
+def make_nyu_entity(entity_type: str, string: str, begin: str, end: str) -> Dict[str, str]:
     if entity_type == 'JARGON':
         return ({'CLASS': entity_type, 'ID': make_nyu_id(entity_type), 'START': begin, 'END': end, 'TEXT': string})
     elif entity_type in ['ORGANIZATION', 'PERSON', 'URL', 'EMAIL', 'GPE']:
@@ -607,6 +611,7 @@ def make_nyu_entity(entity_type, string, begin, end):
     else:
         print(1, string, begin, end)
         print('No such entity type:', entity_type)
+        raise ValueError('No such entity type:' + entity_type)
 
 
 def extend_abbreviation_context(pattern, line):
@@ -619,7 +624,7 @@ def extend_abbreviation_context(pattern, line):
     return (False)
 
 
-def find_search_end(line, search_end):
+def find_search_end(line: str, search_end: int) -> Tuple[int, bool]:
     Fail = False
     pattern = re.search('[\w][\W]+$', line[:search_end])
     if pattern:
@@ -633,7 +638,7 @@ def find_search_end(line, search_end):
         return (search_end, Fail)
 
 
-def invalid_abbreviation(ARG2_string):
+def invalid_abbreviation(ARG2_string: Any) -> bool:
     if not isinstance(ARG2_string, str):
         return (True)
     elif ARG2_string.islower() and ((ARG2_string in pos_dict) \
@@ -646,9 +651,10 @@ def invalid_abbreviation(ARG2_string):
         return (True)
     elif ARG2_string.isupper() and roman(ARG2_string):
         return (True)
+    return (False)
 
 
-def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False):
+def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False) -> bool:
     if (ARG2_string == '') or (ARG1_string == ''):
         return (True)
     elif ' ' in ARG1_string:
@@ -711,14 +717,14 @@ def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False):
             return (True)
 
 
-def get_next_abbreviate_relations(previous_line, line, position):
+def get_next_abbreviate_relations(previous_line: str, line: str, position: int) -> List[object]:
     global word_split_pattern
-    output = []
+    output: List[object] = []
     start = 0
-    pattern = parentheses_pattern_match(line, start, 2)
+    pattern: Optional[Match[str]] = parentheses_pattern_match(line, start, 2)
     ### parentheses_pattern2.search(line,start)
     ## allows for unclosed parenthesis
-    more_words = False
+    more_words = False  # @semanticbeeng static type @ todo : List[str] = []
     ARG2_begin = False
     ARG2_end = False
     ARG2_string = False
@@ -732,7 +738,7 @@ def get_next_abbreviate_relations(previous_line, line, position):
     last_start = False
     alt_abbreviation = False
     while pattern:
-        result = False
+        result = False  # @semanticbeeng static type @ todo  : List[int] = []
         Fail = False
         first_word_break = re.search('[^\(]([ ,;:])', pattern.group(2))
         if first_word_break:
@@ -769,9 +775,12 @@ def get_next_abbreviate_relations(previous_line, line, position):
                 start = adjust_start_for_antecedent(line, last_start, search_end)
             else:
                 start = adjust_start_for_antecedent(line, start, search_end)
-            previous_words = remove_empties(word_split_pattern.split(line[start:search_end].rstrip(' ')))
+
+            previous_words: List[str] = remove_empties(word_split_pattern.split(line[start:search_end].rstrip(' ')))
+
             if (start == 0) and (previous_line != '') and (len(previous_words) < len(abbreviation)):
                 more_words = get_more_words(previous_line, (3 + len(abbreviation) - len(previous_words)))
+
             if more_words and (len(more_words) > 0) and (len(abbreviation) > 0):
                 offset_adjustment = len(previous_line)
                 more_words.extend(previous_words)
@@ -820,7 +829,7 @@ def get_next_abbreviate_relations(previous_line, line, position):
                 ## -- we will try removing up to 7 spaces/periods
                 abbreviation = re.sub('[. ]', '', pattern.group(2), 7)  ## remove upto 7 spaces/periods from abbreviation
                 if (start == 0) and (previous_line != '') and (len(previous_words) < len(abbreviation)):
-                    more_words = get_more_words(previous_line, (1 + len(abbreviation) - len(previous_words)))
+                    more_words  = get_more_words(previous_line, (1 + len(abbreviation) - len(previous_words)))
                     if more_words and (len(more_words) > 0):
                         offset_adjustment = len(previous_line)
                         more_words.extend(previous_words)
@@ -848,10 +857,11 @@ def get_next_abbreviate_relations(previous_line, line, position):
             elif ' ' in pattern.group(0):
                 ## possibility of a multi-word item in parentheses (antecedent) matching the word right before
                 ## the parentheses (abbreviation), i.e., the backwards case
+                # @semanticbeeng static type @todo previous_word: Optional[Match] = None
                 if pattern.end() > 3:
                     previous_word = re.search('([a-zA-ZΑ-ϖ][a-zA-Z0-9-/Α-ϖ]*[a-zA-Z0-9Α-ϖ])[^a-z0-9]$', line[:pattern.start()])
                 else:
-                    previous_word = False
+                   previous_word = False
                 if previous_word:
                     abbreviation = previous_word.group(1)
                     antecedent_string = pattern.group(0)[1:-1]
@@ -1007,8 +1017,9 @@ def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
         return (output)
 
 
-def save_abbrev_dicts(abbr_to_full_file, full_to_abbr_file):
-    with open(abbr_to_full_file, 'w') as abbr_full_stream, open(full_to_abbr_file, 'w') as full_abbr_stream:
+def save_abbrev_dicts(abbr_to_full_file: FileName[ABBR], full_to_abbr_file: FileName[ABBR]) -> None:
+
+    with abbr_to_full_file.openText('w') as abbr_full_stream, full_to_abbr_file.openText('w') as full_abbr_stream:
         for key in abbr_to_full_dict:
             abbr_full_stream.write(interior_white_space_trim(key))
             for value in abbr_to_full_dict[key]:
@@ -1042,12 +1053,13 @@ def run_abbreviate_on_file_list(file_list, dict_prefix=False):
     with open(file_list) as instream:
         for line in instream:
             file_prefix = line.strip()
-            lines = get_lines_from_file(file_prefix + '.txt3')
+            lines = get_lines_from_file(FileName[TXT3](file_prefix + '.txt3'))
             run_abbreviate_on_lines(lines, file_prefix + '.abbr', reset_dictionary=start)
             if start:
                 start = False
     if dict_prefix:
-        save_abbrev_dicts(dict_prefix + ".dict_abbr_to_full", dict_prefix + ".dict_full_to_abbr")
+        save_abbrev_dicts(FileName[ABBR](str(dict_prefix) + ".dict_abbr_to_full"),
+                          FileName[ABBR](str(dict_prefix) + ".dict_full_to_abbr"))
 
 
 def get_expanded_forms_from_abbreviations(term):
@@ -1065,18 +1077,19 @@ def get_expanded_forms_from_abbreviations(term):
     return (output)
 
 
-def make_abbr_dicts_from_abbr(infiles, full_to_abbr_file, abbr_to_full_file):
+def make_abbr_dicts_from_abbr(infiles: FileName, full_to_abbr_file: FileName[ABBR], abbr_to_full_file: FileName[ABBR]) -> None:
     global abbr_to_full_dict
     global full_to_abbr_dict
     abbr_to_full_dict.clear()
     full_to_abbr_dict.clear()
-    arg1_pattern = re.compile('ARG1_TEXT="([^"]*)"')
-    arg2_pattern = re.compile('ARG2_TEXT="([^"]*)"')
-    with open(infiles) as liststream:
-        for infile in liststream:
+    arg1_pattern: Pattern[str] = re.compile('ARG1_TEXT="([^"]*)"')
+    arg2_pattern: Pattern[str] = re.compile('ARG2_TEXT="([^"]*)"')
+
+    with infiles.openText() as liststream:
+        for infile in liststream.readlines():
             infile = infile.strip()
-            with open(infile) as instream:
-                for line in instream:
+            with FileName(infile).openText() as instream:
+                for line in instream.readlines():
                     if line.startswith('RELATION'):
                         arg1_match = arg1_pattern.search(line)
                         arg2_match = arg2_pattern.search(line)
