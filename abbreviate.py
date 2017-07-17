@@ -12,6 +12,9 @@ from typing import List, Dict, Tuple, Pattern, Match, Optional, Any, NamedTuple
 
 Abbr = NamedTuple("Abbr",  [('begin', int), ('end', int), ('out_string', str), ('out_type', str), ('one_off', bool)])
 
+#
+# @semanticbeeng other than `ABBREVIATE`, none of these strings is referenced in code
+#
 ARG1_NAME_TABLE: Dict[str, str] = {'EXEMPLIFY': 'SUBCLASS', 'DISCOVER': 'INVENTOR', 'MANUFACTURE': 'MAKER', 'SUPPLY': 'SUPPLIER',
                    'ORIGINATE': 'INVENTOR', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'FULLNAME', 'BETTER_THAN': 'BETTER',
                    'BASED_ON': 'DERIVED', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
@@ -990,16 +993,18 @@ def write_fact_file(output, outfile):
     global ARG2_NAME_TABLE
     # global FACT_STYLE @semanticbeeng not used
 
+    keys = ['ID', 'TYPE', 'SUBTYPE', 'START', 'END', 'ARG1', 'ARG2', 'ARG1_TEXT', 'ARG2_TEXT', 'GRAM_SIGNAL', 'TEXT_SIGNAL', 'TEXT']
     with open(outfile, 'w') as outstream:
-        keys = ['ID', 'TYPE', 'SUBTYPE', 'START', 'END', 'ARG1', 'ARG2', 'ARG1_TEXT', 'ARG2_TEXT', 'GRAM_SIGNAL', 'TEXT_SIGNAL', 'TEXT']
         for out in output:
-            outstream.write(out['CLASS'])
+            fact: str = out['CLASS']
+
             key_list = keys
             if out['CLASS'] == 'RELATION':
                 if 'SUBTYPE' in out:
                     look_up = out['SUBTYPE']
                 else:
                     look_up = out['TYPE']
+
                 ARG1_NAME = ARG1_NAME_TABLE[look_up]
                 ARG2_NAME = ARG2_NAME_TABLE[look_up]
 
@@ -1010,12 +1015,15 @@ def write_fact_file(output, outfile):
                         value = str(value)
                     else:
                         value = '"' + value + '"'
-                    outstream.write(' ' + key + '=' + value)
+
+                    fact = fact + ' ' + key + '=' + value
+
                     if key == 'ARG1':
-                        outstream.write(' ARG1_NAME="' + ARG1_NAME + '"')
+                        fact = fact + ' ARG1_NAME="' + ARG1_NAME + '"'
                     elif key == 'ARG2':
-                        outstream.write(' ARG2_NAME="' + ARG2_NAME + '"')
-            outstream.write(os.linesep)
+                        fact = fact + ' ARG2_NAME="' + ARG2_NAME + '"'
+
+            outstream.write(fact + os.linesep)
 
 
 def bad_patent_line(line):
