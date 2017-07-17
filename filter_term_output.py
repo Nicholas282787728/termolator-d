@@ -22,9 +22,10 @@ def main(args):
     input_file = file_prefix + ".all_terms"
     output_file = file_prefix + ".scored_output"
     abbr_full_file = file_prefix + ".dict_abbr_to_full"
-    full_abbr_file = file_prefix + ".dict_full_to_abbr"
+    # @semanticbeeng @todo not used  full_abbr_file = file_prefix + ".dict_full_to_abbr"
     reject_file = file_prefix + ".rejected-terms"
-    filter_terms(input_file, output_file, abbr_full_file, full_abbr_file, use_web_score, numeric_cutoff=max_term_number, reject_file=reject_file,
+    filter_terms(input_file, output_file, abbr_full_file,   # @semanticbeeng @todo not used  full_abbr_file,
+                 use_web_score, numeric_cutoff=max_term_number, reject_file=reject_file,
                  web_score_dict_file=web_score_dict_file)
 
 

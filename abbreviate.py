@@ -1105,12 +1105,14 @@ def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
 def save_abbrev_dicts(abbr_to_full_file: FileName[ABBR], full_to_abbr_file: FileName[ABBR]) -> None:
 
     with abbr_to_full_file.openText('w') as abbr_full_stream, full_to_abbr_file.openText('w') as full_abbr_stream:
+
         for key in abbr_to_full_dict:
             abbr_full_stream.write(interior_white_space_trim(key))
             for value in abbr_to_full_dict[key]:
                 value = interior_white_space_trim(value)
                 abbr_full_stream.write('\t' + value)
             abbr_full_stream.write(os.linesep)
+
         for key in full_to_abbr_dict:
             full_abbr_stream.write(interior_white_space_trim(key))
             for value in full_to_abbr_dict[key]:
@@ -1119,18 +1121,23 @@ def save_abbrev_dicts(abbr_to_full_file: FileName[ABBR], full_to_abbr_file: File
             full_abbr_stream.write(os.linesep)
 
 
-def read_in_abbrev_dicts_from_files(abbr_to_full_file, full_to_abbr_file):
+#
+#
+#
+def read_in_abbrev_dicts_from_files(abbr_to_full_file):     # @todo not used , full_to_abbr_file):
     global abbr_to_full_dict
     global full_to_abbr_dict
 
     abbr_to_full_dict.clear()
     full_to_abbr_dict.clear()
 
-    with open(abbr_to_full_file) as abbr_full_stream, open(full_to_abbr_file) as full_abbr_stream:
+    with open(abbr_to_full_file) as abbr_full_stream:       # @semanticbeeng @todo not used , open(full_to_abbr_file) as full_abbr_stream:
+
         for line in abbr_full_stream:
             line_list = line.strip().split('\t')
             abbr_to_full_dict[line_list[0]] = line_list[1:]
-        for line in full_to_abbr_dict:
+
+        for line in full_to_abbr_dict:                      # @semanticbeeng @todo how is this built?
             line_list = line.strip().split('\t')
             full_to_abbr_dict[line_list[0]] = line_list[1:]
 

@@ -914,7 +914,7 @@ def ok_statistical_term(term, lenient=False, penalize_initial_the=False):
 def filter_terms(infile, \
                  outfile, \
                  abbr_full_file, \
-                 full_abbr_file, \
+                 # @semanticbeeng @todo not used full_abbr_file, \
                  use_web_score=True, \
                  ranking_pref_cutoff=.001, \
                  percent_cutoff=.3, \
@@ -924,8 +924,8 @@ def filter_terms(infile, \
                  web_score_dict_file=False
                  ):
     ## it is possible that some people may want to allow NPs as well as noun groups as terms
-    if abbr_full_file and full_abbr_file:
-        read_in_abbrev_dicts_from_files(abbr_full_file, full_abbr_file)
+    if abbr_full_file:   # @semanticbeeng @todo not used and full_abbr_file:
+        read_in_abbrev_dicts_from_files(abbr_full_file)     # @semanticbeeng @todo not used , full_abbr_file)
     if use_web_score and web_score_dict_file:
         load_web_score_dict_file(web_score_dict_file)
         use_web_score_dict = True
