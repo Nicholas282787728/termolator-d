@@ -915,16 +915,16 @@ def ok_statistical_term(term, lenient=False, penalize_initial_the=False):
     return (False, classification, chunks, rating, well_formedness)
 
 
-def filter_terms(infile, \
-                 outfile, \
-                 abbr_full_file: File, \
+def filter_terms(infile,
+                 outfile,
+                 abbr_full_file: File,
                  # @semanticbeeng @todo not used full_abbr_file, \
-                 use_web_score=True, \
-                 ranking_pref_cutoff=.001, \
-                 percent_cutoff=.3, \
-                 numeric_cutoff=30000, \
-                 reject_file=False, \
-                 penalize_initial_the=True, \
+                 use_web_score=True,
+                 ranking_pref_cutoff=.001,
+                 percent_cutoff=.3,
+                 numeric_cutoff=30000,
+                 reject_file=None,
+                 penalize_initial_the=True,
                  web_score_dict_file=False
                  ):
     ## it is possible that some people may want to allow NPs as well as noun groups as terms
@@ -935,12 +935,14 @@ def filter_terms(infile, \
         use_web_score_dict = True
     else:
         use_web_score_dict = False
-    stat_scores = []
+    stat_scores: List[float] = []
     alternate_lists = {}
+
     if reject_file:
-        reject_stream = open(reject_file, 'w')
+        reject_stream = reject_file.openText('w')
     else:
-        reject_stream = False
+        reject_stream = None
+
     ## make_stat_term_dictionary4
     instream = open(infile, errors='replace')
     lines = instream.readlines()

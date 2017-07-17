@@ -28,7 +28,7 @@ def main(args):
     output_file = file_prefix + ".scored_output"
     abbr_full_file = File(file_prefix + ".dict_abbr_to_full")
     # @semanticbeeng @todo not used  full_abbr_file = file_prefix + ".dict_full_to_abbr"
-    reject_file = file_prefix + ".rejected-terms"
+    reject_file = File(file_prefix + ".rejected-terms")
 
     filter_terms(input_file, output_file,
                  abbr_full_file,

@@ -22,11 +22,12 @@ import time
 import urllib.request
 
 from term_utilities import *
+from typing import Dict
 
 basic_yahoo_search_url_prefix = '''https://search.yahoo.com/search?p='''
 basic_bing_search_url_prefix = '''https://search.yahoo.com/search?q='''
 ## basic_google_search_url_prefix = '''https://www.google.com/search?q='''
-webscore_dict = {}
+webscore_dict: Dict[str, float] = {}
 
 
 def load_web_score_dict_file(dict_file):
