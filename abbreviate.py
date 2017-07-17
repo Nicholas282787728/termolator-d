@@ -1,5 +1,5 @@
 from term_utilities import *
-from DataDef import FileName, TXT3, ABBR
+from DataDef import File, TXT3, ABBR
 from typing import List, Dict, Tuple, Pattern, Match, Optional, Any, NamedTuple
 
 # global abbr_to_full_dict
@@ -1002,7 +1002,7 @@ ARG2_NAME_TABLE: Dict[str, str] = {'EXEMPLIFY': 'SUPERCLASS', 'DISCOVER': 'INVEN
 # Serializes and persists a list of Fact entities
 # @semanticbeeng @todo define FACT entity: is that different than ABBR?
 #
-def write_fact_file(output: List[Dict[str, str]], outfile: FileName[ABBR]) -> None:
+def write_fact_file(output: List[Dict[str, str]], outfile: File[ABBR]) -> None:
     global ARG1_NAME_TABLE
     global ARG2_NAME_TABLE
     # global FACT_STYLE @semanticbeeng not used
@@ -1099,12 +1099,12 @@ def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
         previous_line = line
 
     if output:
-        write_fact_file(output, FileName[ABBR](abbr_file))
+        write_fact_file(output, File[ABBR](abbr_file))
 
     return (output)
 
 
-def save_abbrev_dicts(abbr_to_full_file: FileName[ABBR], full_to_abbr_file: FileName[ABBR]) -> None:
+def save_abbrev_dicts(abbr_to_full_file: File[ABBR], full_to_abbr_file: File[ABBR]) -> None:
 
     with abbr_to_full_file.openText('w') as abbr_full_stream, full_to_abbr_file.openText('w') as full_abbr_stream:
 
@@ -1126,7 +1126,7 @@ def save_abbrev_dicts(abbr_to_full_file: FileName[ABBR], full_to_abbr_file: File
 #
 #
 #
-def read_in_abbrev_dicts_from_files(abbr_to_full_file: FileName):     # @todo not used , full_to_abbr_file):
+def read_in_abbrev_dicts_from_files(abbr_to_full_file: File):     # @todo not used , full_to_abbr_file):
     global abbr_to_full_dict
     global full_to_abbr_dict
 
@@ -1149,13 +1149,13 @@ def run_abbreviate_on_file_list(file_list, dict_prefix=False):
     with open(file_list) as instream:
         for line in instream:
             file_prefix = line.strip()
-            lines = get_lines_from_file(FileName[TXT3](file_prefix + '.txt3'))
+            lines = get_lines_from_file(File[TXT3](file_prefix + '.txt3'))
             run_abbreviate_on_lines(lines, file_prefix + '.abbr', reset_dictionary=start)
             if start:
                 start = False
     if dict_prefix:
-        save_abbrev_dicts(FileName[ABBR](str(dict_prefix) + ".dict_abbr_to_full"),
-                          FileName[ABBR](str(dict_prefix) + ".dict_full_to_abbr"))
+        save_abbrev_dicts(File[ABBR](str(dict_prefix) + ".dict_abbr_to_full"),
+                          File[ABBR](str(dict_prefix) + ".dict_full_to_abbr"))
 
 
 def get_expanded_forms_from_abbreviations(term):
@@ -1173,7 +1173,7 @@ def get_expanded_forms_from_abbreviations(term):
     return (output)
 
 
-def make_abbr_dicts_from_abbr(infiles: FileName, full_to_abbr_file: FileName[ABBR], abbr_to_full_file: FileName[ABBR]) -> None:
+def make_abbr_dicts_from_abbr(infiles: File, full_to_abbr_file: File[ABBR], abbr_to_full_file: File[ABBR]) -> None:
     global abbr_to_full_dict
     global full_to_abbr_dict
 
@@ -1186,7 +1186,7 @@ def make_abbr_dicts_from_abbr(infiles: FileName, full_to_abbr_file: FileName[ABB
     with infiles.openText() as liststream:
         for infile in liststream.readlines():
             infile = infile.strip()
-            with FileName(infile).openText() as instream:
+            with File(infile).openText() as instream:
                 for line in instream.readlines():
                     if line.startswith('RELATION'):
                         arg1_match = arg1_pattern.search(line)

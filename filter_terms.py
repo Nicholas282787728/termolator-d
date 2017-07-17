@@ -913,7 +913,7 @@ def ok_statistical_term(term, lenient=False, penalize_initial_the=False):
 
 def filter_terms(infile, \
                  outfile, \
-                 abbr_full_file: FileName, \
+                 abbr_full_file: File, \
                  # @semanticbeeng @todo not used full_abbr_file, \
                  use_web_score=True, \
                  ranking_pref_cutoff=.001, \

@@ -23,7 +23,7 @@ ABBR = str
 TXT2 = str
 TXT3 = str
 
-class FileName(Generic[DT]):
+class File(Generic[DT]):
     def __init__(self, name: str) -> None:
         self.name = name
 
@@ -34,8 +34,8 @@ class FileName(Generic[DT]):
         return cast(TextIO, open(self.name, mode))
 
 def main(args: List[str]):
-    posFile1 = FileName[POS]("123.pos")
-    termsFile2 = FileName[TERM]("123.terms")
+    posFile1 = File[POS]("123.pos")
+    termsFile2 = File[TERM]("123.terms")
 
     posFile1 = termsFile2
     pos = List[POS]

@@ -2,7 +2,7 @@ import os
 import random
 import re
 from typing import List, Dict, Pattern, Match, Optional
-from DataDef import FileName
+from DataDef import File
 
 DICT_DIRECTORY = os.path.dirname(os.path.realpath(__file__)) + os.sep + "dicts" + os.sep
 ## DICT_DIRECTORY = '../'
@@ -662,7 +662,7 @@ def isStub(line: str) -> bool:
         return (True)
     return (False)
 
-def get_lines_from_file(infile: FileName) -> List[str]:
+def get_lines_from_file(infile: File) -> List[str]:
     with infile.openText('r') as instream:
         output: List[str] = []
         short_line: Optional[str] = None        # @semanticbeeng static type

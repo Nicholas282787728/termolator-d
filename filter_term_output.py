@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from filter_terms import *
-from DataDef import FileName
+from DataDef import File
 
 
 def main(args):
@@ -26,7 +26,7 @@ def main(args):
     # @semanticbeeng @todo not used  full_abbr_file = file_prefix + ".dict_full_to_abbr"
     reject_file = file_prefix + ".rejected-terms"
     filter_terms(input_file, output_file,
-                 FileName(abbr_full_file),
+                 File(abbr_full_file),
                  # @semanticbeeng @todo not used  full_abbr_file,
                  use_web_score,
                  numeric_cutoff=max_term_number,
