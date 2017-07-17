@@ -991,19 +991,18 @@ ARG2_NAME_TABLE: Dict[str, str] = {'EXEMPLIFY': 'SUPERCLASS', 'DISCOVER': 'INVEN
 
 #
 # Serializes and persists a list of Fact entities
-# @semanticbeeng @todo define Fact entity
+# @semanticbeeng @todo define FACT entity: is that different than ABBR?
 #
-def write_fact_file(output: List[Dict[str, str]], outfile: str) -> None:
+def write_fact_file(output: List[Dict[str, str]], outfile: FileName[ABBR]) -> None:
     global ARG1_NAME_TABLE
     global ARG2_NAME_TABLE
     # global FACT_STYLE @semanticbeeng not used
 
     keys = ['ID', 'TYPE', 'SUBTYPE', 'START', 'END', 'ARG1', 'ARG2', 'ARG1_TEXT', 'ARG2_TEXT', 'GRAM_SIGNAL', 'TEXT_SIGNAL', 'TEXT']
-    with open(outfile, 'w') as outstream:
+    with outfile.openText('w') as outstream:
         for out in output:
             fact: str = out['CLASS']
 
-            key_list = keys
             if out['CLASS'] == 'RELATION':
                 if 'SUBTYPE' in out:
                     look_up = out['SUBTYPE']
@@ -1013,7 +1012,7 @@ def write_fact_file(output: List[Dict[str, str]], outfile: str) -> None:
                 ARG1_NAME = ARG1_NAME_TABLE[look_up]
                 ARG2_NAME = ARG2_NAME_TABLE[look_up]
 
-            for key in key_list:
+            for key in keys:
                 if key in out:
                     value = out[key]
                     if type(value) == int:
@@ -1083,7 +1082,7 @@ def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
             start = end
             previous_line = line
         if output:
-            write_fact_file(output, abbr_file)
+            write_fact_file(output, FileName[ABBR](abbr_file))
         return (output)
 
 
