@@ -729,9 +729,9 @@ def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False) -> bool:
             return (True)
 
 
-def get_next_abbreviate_relations(previous_line: str, line: str, position: int) -> List[object]:
+def get_next_abbreviate_relations(previous_line: str, line: str, position: int) -> List[Dict[str, str]]:
     global word_split_pattern
-    output: List[object] = []
+    output: List[Dict[str, str]] = []
     start = 0
     pattern: Optional[Match[str]] = parentheses_pattern_match(line, start, 2)
     ### parentheses_pattern2.search(line,start)
@@ -934,8 +934,10 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
 
                 if ARG1 and ARG2:
                     output.extend([ARG1, ARG2,
-                                   {'CLASS': 'RELATION', 'TYPE': 'ABBREVIATE', 'ID': make_nyu_id('RELATION'), 'START': relation_start, 'END': relation_end, 'ARG1': ARG1['ID'],
-                                    'ARG2': ARG2['ID'], 'ARG1_TEXT': ARG1_string, 'ARG2_TEXT': ARG2_string, 'GRAM_SIGNAL': 'PARENTHESES'}])
+                                   {'CLASS': 'RELATION', 'TYPE': 'ABBREVIATE', 'ID': make_nyu_id('RELATION'),
+                                    'START': str(relation_start), 'END': str(relation_end),
+                                    'ARG1': ARG1['ID'], 'ARG2': ARG2['ID'],
+                                    'ARG1_TEXT': ARG1_string, 'ARG2_TEXT': ARG2_string, 'GRAM_SIGNAL': 'PARENTHESES'}])
                     ## not currently using context_string or context
 
         if not result:
@@ -951,6 +953,11 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
 
         pattern = parentheses_pattern_match(line, start, 2)
         ## pattern = parentheses_pattern2.search(line,start)
+
+    # import json
+    # print("############ ")
+    # print("get_next_abbreviate_relations ======>>>>>>>> " + json.dumps(output))
+    # print("############ ")
     return (output)
 
 
@@ -1052,12 +1059,15 @@ def triplify(inlist):
 
 
 def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
-    output = []
+
     global abbr_to_full_dict
     global full_to_abbr_dict
     global id_number
+
+    output: List[Dict[str, str]] = []
     start = 0
     previous_line = False
+
     if reset_dictionary:
         abbr_to_full_dict.clear()
         full_to_abbr_dict.clear()
@@ -1067,12 +1077,13 @@ def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
     for line in lines:
         line = line.replace(os.linesep, ' ')
         end: int = start + len(line)
-        out = False
         trimmed_line = line.strip(' \t')
+
         if ((trimmed_line.count('\t') + trimmed_line.count(' ')) > (len(trimmed_line) / 3)) or bad_patent_line(trimmed_line):
+            out: List[Dict[str, str]] = []
             pass
         else:
-            out = get_next_abbreviate_relations(previous_line, line, start)
+            out: List[Dict[str, str]] = get_next_abbreviate_relations(previous_line, line, start)
             if out:
                 for triple in triplify(out):
                     if triple[1]['CLASS'] == 'ENAMEX':
