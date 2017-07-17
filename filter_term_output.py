@@ -20,7 +20,7 @@ def main(args):
     max_term_number = int(args[4])
 
     if (len(args) > 5) and (args[5].lower() != 'false'):
-        special_domains.extend(args[5].split('+'))
+        special_domains.extend(args[5].split('+'))              # @semanticbeeng @todo @arch global state initialization
 
     initialize_utilities()
 

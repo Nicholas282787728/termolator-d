@@ -12,9 +12,10 @@ def main(args):
     else:
         outfile_prefix = False
     if (len(args) > 3) and (args[3].lower() != 'false'):
-        special_domains.extend(args[3].split('+'))
+        special_domains.extend(args[3].split('+'))                                  # @semanticbeeng @todo @arch global state initialization
+
     initialize_utilities()
-    run_abbreviate_on_file_list(File(file_list), dict_prefix=outfile_prefix)      # @semanticbeeng @todo @arch global state mutation
+    run_abbreviate_on_file_list(File(file_list), dict_prefix=outfile_prefix)        # @semanticbeeng @todo @arch global state mutation
 
 
 if __name__ == '__main__': sys.exit(main(sys.argv))
