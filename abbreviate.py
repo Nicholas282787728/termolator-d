@@ -1062,30 +1062,33 @@ def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
         abbr_to_full_dict.clear()
         full_to_abbr_dict.clear()
         id_number = 0
-    with open(abbr_file, 'w') as outstream:
-        for line in lines:
-            line = line.replace(os.linesep, ' ')
-            end = start + len(line)
-            out = False
-            trimmed_line = line.strip(' \t')
-            if ((trimmed_line.count('\t') + trimmed_line.count(' ')) > (len(trimmed_line) / 3)) or bad_patent_line(trimmed_line):
-                pass
-            else:
-                out = get_next_abbreviate_relations(previous_line, line, start)
-                if out:
-                    for triple in triplify(out):
-                        if triple[1]['CLASS'] == 'ENAMEX':
-                            argtype = triple[1]['TYPE']
-                        else:
-                            argtype = triple[1]['CLASS']
-                        if argtype == 'JARGON':
-                            record_abbreviate_dictionary(triple[0]['TEXT'], triple[1]['TEXT'])
-                    output.extend(out)
-            start = end
-            previous_line = line
-        if output:
-            write_fact_file(output, FileName[ABBR](abbr_file))
-        return (output)
+
+    # @semanticbeeng @todo not used with open(abbr_file, 'w') as outstream:
+    for line in lines:
+        line = line.replace(os.linesep, ' ')
+        end: int = start + len(line)
+        out = False
+        trimmed_line = line.strip(' \t')
+        if ((trimmed_line.count('\t') + trimmed_line.count(' ')) > (len(trimmed_line) / 3)) or bad_patent_line(trimmed_line):
+            pass
+        else:
+            out = get_next_abbreviate_relations(previous_line, line, start)
+            if out:
+                for triple in triplify(out):
+                    if triple[1]['CLASS'] == 'ENAMEX':
+                        argtype = triple[1]['TYPE']
+                    else:
+                        argtype = triple[1]['CLASS']
+                    if argtype == 'JARGON':
+                        record_abbreviate_dictionary(triple[0]['TEXT'], triple[1]['TEXT'])
+                output.extend(out)
+        start = end
+        previous_line = line
+
+    if output:
+        write_fact_file(output, FileName[ABBR](abbr_file))
+
+    return (output)
 
 
 def save_abbrev_dicts(abbr_to_full_file: FileName[ABBR], full_to_abbr_file: FileName[ABBR]) -> None:
