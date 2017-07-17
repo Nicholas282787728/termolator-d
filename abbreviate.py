@@ -750,7 +750,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
     alt_abbreviation: str = None    # @semanticbeeng static type @ todo
 
     while pattern:
-        result = []      # @semanticbeeng static type @ todo
+        result = None               # @semanticbeeng static type @ todo
         Fail = False
         first_word_break: Optional[Match[str]] = re.search('[^\(]([ ,;:])', pattern.group(2))
 
@@ -782,10 +782,12 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
             ## also eliminate cases where the parenthesized item is part of a complex formula of some sort
             ## (wrong abbreviation context)
             Fail = True
+
         if Fail and (not Double_Fail) and alt_abbreviation and (not re.search('^[a-zA-Z]$', alt_abbreviation)):
             abbreviation = alt_abbreviation
             alt_abbreviation = None        # @semanticbeeng static type
             Fail = False
+
         if not Fail:
             if extend_antecedent:
                 start = adjust_start_for_antecedent(line, last_start, search_end)
@@ -813,6 +815,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                     result = abbreviation_match(alt_abbreviation, more_words, previous_line + line, search_end + offset_adjustment, position - offset_adjustment, False, False)
                     if result:
                         abbreviation = alt_abbreviation
+
             if (not result) and (len(previous_words) > 0) and (len(abbreviation) > 0):
                 result = lookup_abbreviation(abbreviation, line, search_end, position)
                 if not result:
@@ -825,6 +828,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                     if result:
                         abbreviation = alt_abbreviation
             ## print(result)
+
             if result and ((not OK_jargon(result[2])) or (not OK_abbrev_antec(result[2]))):
                 result = None          # @semanticbeeng static type
 
@@ -876,6 +880,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                     ARG1_end = result[1]
                     ARG1_string = result[2]
                     output_type = result[3]
+
             elif ' ' in pattern.group(0):
                 ## possibility of a multi-word item in parentheses (antecedent) matching the word right before
                 ## the parentheses (abbreviation), i.e., the backwards case
@@ -898,6 +903,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                         ## line_offset effects begin and end
                         ## *** 57 ***
                         result = abbreviation_match(abbreviation, forward_words, antecedent_string, line_offset, position, previous_line, more_words)
+
                     if result:
                         ARG1_string = result[2]
                         ARG2_string = abbreviation
@@ -909,6 +915,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                         ## must adjust offsets for backwards situation
                         ## perhaps provide offsets explicitly (start position = start of first word + offset)
                         ## end position = end position of pattern + offset
+
             if result:
                 if invalid_abbreviation(ARG2_string) or invalid_abbrev_of(ARG2_string, ARG1_string):
                     ARG1 = None        # @semanticbeeng static type @todo !
@@ -925,15 +932,18 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                                    {'CLASS': 'RELATION', 'TYPE': 'ABBREVIATE', 'ID': make_nyu_id('RELATION'), 'START': relation_start, 'END': relation_end, 'ARG1': ARG1['ID'],
                                     'ARG2': ARG2['ID'], 'ARG1_TEXT': ARG1_string, 'ARG2_TEXT': ARG2_string, 'GRAM_SIGNAL': 'PARENTHESES'}])
                     ## not currently using context_string or context
+
         if not result:
             start = pattern.start() + 1
         else:
             last_start = start
             start = pattern.end()
+
         if extend_abbreviation_context(pattern, line):
             extend_antecedent = True
         else:
             extend_antecedent = False
+
         pattern = parentheses_pattern_match(line, start, 2)
         ## pattern = parentheses_pattern2.search(line,start)
     return (output)
