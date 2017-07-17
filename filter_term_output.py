@@ -6,6 +6,7 @@ from DataDef import File
 
 def main(args):
     global special_domains
+
     file_prefix = args[1]
     web_score_dict_file = args[2]
     if args[3].lower() in ['true', 't']:
@@ -17,16 +18,20 @@ def main(args):
         print('Use "True" if you want the system to use the webscore function and the system will run slowly and be more accurate.')
         print('Use "False" otherwise.')
     max_term_number = int(args[4])
+
     if (len(args) > 5) and (args[5].lower() != 'false'):
         special_domains.extend(args[5].split('+'))
+
     initialize_utilities()
+
     input_file = file_prefix + ".all_terms"
     output_file = file_prefix + ".scored_output"
-    abbr_full_file = file_prefix + ".dict_abbr_to_full"
+    abbr_full_file = File(file_prefix + ".dict_abbr_to_full")
     # @semanticbeeng @todo not used  full_abbr_file = file_prefix + ".dict_full_to_abbr"
     reject_file = file_prefix + ".rejected-terms"
+
     filter_terms(input_file, output_file,
-                 File(abbr_full_file),
+                 abbr_full_file,
                  # @semanticbeeng @todo not used  full_abbr_file,
                  use_web_score,
                  numeric_cutoff=max_term_number,
