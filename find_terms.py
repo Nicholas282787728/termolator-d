@@ -13,9 +13,9 @@ def find_inline_terms_for_file_list(file_list: File, dict_prefix: bool = False) 
         ## and other instances of "unigram_dict" below
         for line in instream.readlines():
             file_prefix = line.strip()
-            lines = get_lines_from_file(File[TXT3](file_prefix + '.txt3'))  ## add feature to remove xml
+            lines: List[str] = get_lines_from_file(File[TXT3](file_prefix + '.txt3'))  ## add feature to remove xml
 
-            run_abbreviate_on_lines(lines, file_prefix + '.abbr', reset_dictionary=start)       # @semanticbeeng @todo @arch global state mutation
+            run_abbreviate_on_lines(lines, File[ABBR](file_prefix + '.abbr'), reset_dictionary=start)       # @semanticbeeng @todo @arch global state mutation
             ## creates abbreviation files and acquires abbreviation --> term
             ## and term --> abbreviation dictionaries
             ## Possibly add alternative which loads existing abbreviation files into

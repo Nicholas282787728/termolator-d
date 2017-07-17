@@ -749,6 +749,9 @@ def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False) -> bool:
             return (True)
 
 
+#
+#
+#
 def get_next_abbreviate_relations(previous_line: str, line: str, position: int) -> List[Dict[str, str]]:
     global word_split_pattern
     output: List[Dict[str, str]] = []
@@ -1090,7 +1093,10 @@ def triplify(inlist):
         return (output)
 
 
-def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
+#
+#
+#
+def run_abbreviate_on_lines(lines: List[str], abbr_file: File[ABBR], reset_dictionary: bool=False) -> List[Dict[str, str]]:
 
     global abbr_to_full_dict
     global full_to_abbr_dict
@@ -1098,7 +1104,7 @@ def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
 
     output: List[Dict[str, str]] = []
     start = 0
-    previous_line = False
+    previous_line: str = None
 
     if reset_dictionary:
         abbr_to_full_dict.clear()               # @semanticbeeng @todo @arch global state mutation
@@ -1110,12 +1116,14 @@ def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
         line = line.replace(os.linesep, ' ')
         end: int = start + len(line)
         trimmed_line = line.strip(' \t')
+        out: List[Dict[str, str]] = []
 
         if ((trimmed_line.count('\t') + trimmed_line.count(' ')) > (len(trimmed_line) / 3)) or bad_patent_line(trimmed_line):
-            out: List[Dict[str, str]] = []
             pass
+
         else:
-            out: List[Dict[str, str]] = get_next_abbreviate_relations(previous_line, line, start)
+            out = get_next_abbreviate_relations(previous_line, line, start)
+
             if out:
                 for triple in triplify(out):
                     if triple[1]['CLASS'] == 'ENAMEX':
@@ -1129,7 +1137,7 @@ def run_abbreviate_on_lines(lines, abbr_file, reset_dictionary=False):
         previous_line = line
 
     if output:
-        write_fact_file(output, File[ABBR](abbr_file))
+        write_fact_file(output, abbr_file)
 
     return (output)
 
@@ -1179,10 +1187,12 @@ def read_in_abbrev_dicts_from_files(abbr_to_full_file: File):       # @todo not 
 def run_abbreviate_on_file_list(file_list, dict_prefix=False):
     start = True
     with open(file_list) as instream:
+
         for line in instream:
             file_prefix = line.strip()
-            lines = get_lines_from_file(File[TXT3](file_prefix + '.txt3'))
-            run_abbreviate_on_lines(lines, file_prefix + '.abbr', reset_dictionary=start)
+            lines: List[str] = get_lines_from_file(File[TXT3](file_prefix + '.txt3'))
+            run_abbreviate_on_lines(lines, File[ABBR](file_prefix + '.abbr'), reset_dictionary=start)       # @semanticbeeng @todo @arch global state mutation
+
             if start:
                 start = False
     if dict_prefix:
