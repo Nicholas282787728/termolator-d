@@ -616,9 +616,11 @@ def make_nyu_id(Class: str) -> str:
 
 def make_nyu_entity(entity_type: str, string: str, begin: int, end: int) -> Dict[str, str]:
     if entity_type == 'JARGON':
-        return ({'CLASS': entity_type, 'ID': make_nyu_id(entity_type), 'START': str(begin), 'END': str(end), 'TEXT': string})
+        return ({'CLASS': entity_type, 'ID': make_nyu_id(entity_type),
+                 'START': str(begin), 'END': str(end), 'TEXT': string})
     elif entity_type in ['ORGANIZATION', 'PERSON', 'URL', 'EMAIL', 'GPE']:
-        return ({'CLASS': 'ENAMEX', 'TYPE': entity_type, 'ID': make_nyu_id('ENAMEX'), 'START': str(begin), 'END': str(end), 'TEXT': string})
+        return ({'CLASS': 'ENAMEX', 'TYPE': entity_type, 'ID': make_nyu_id('ENAMEX'),
+                 'START': str(begin), 'END': str(end), 'TEXT': string})
     else:
         print(1, string, begin, end)
         print('No such entity type:', entity_type)
@@ -1124,20 +1126,20 @@ def save_abbrev_dicts(abbr_to_full_file: FileName[ABBR], full_to_abbr_file: File
 #
 #
 #
-def read_in_abbrev_dicts_from_files(abbr_to_full_file):     # @todo not used , full_to_abbr_file):
+def read_in_abbrev_dicts_from_files(abbr_to_full_file: FileName):     # @todo not used , full_to_abbr_file):
     global abbr_to_full_dict
     global full_to_abbr_dict
 
     abbr_to_full_dict.clear()
     full_to_abbr_dict.clear()
 
-    with open(abbr_to_full_file) as abbr_full_stream:       # @semanticbeeng @todo not used , open(full_to_abbr_file) as full_abbr_stream:
+    with abbr_to_full_file.openText() as abbr_full_stream:          # @semanticbeeng @todo not used , open(full_to_abbr_file) as full_abbr_stream:
 
-        for line in abbr_full_stream:
+        for line in abbr_full_stream.readlines():
             line_list = line.strip().split('\t')
             abbr_to_full_dict[line_list[0]] = line_list[1:]
 
-        for line in full_to_abbr_dict:                      # @semanticbeeng @todo how is this built?
+        for line in full_to_abbr_dict:                              # @semanticbeeng @todo how is this built?
             line_list = line.strip().split('\t')
             full_to_abbr_dict[line_list[0]] = line_list[1:]
 
