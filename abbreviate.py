@@ -1142,6 +1142,9 @@ def run_abbreviate_on_lines(lines: List[str], abbr_file: File[ABBR], reset_dicti
     return (output)
 
 
+#
+#
+#
 def save_abbrev_dicts(abbr_to_full_file: File[ABBR], full_to_abbr_file: File[ABBR]) -> None:
 
     with abbr_to_full_file.openText('w') as abbr_full_stream, full_to_abbr_file.openText('w') as full_abbr_stream:
@@ -1184,17 +1187,22 @@ def read_in_abbrev_dicts_from_files(abbr_to_full_file: File):       # @todo not 
             full_to_abbr_dict[line_list[0]] = line_list[1:]         # @semanticbeeng @todo @arch global state mutation
 
 
-def run_abbreviate_on_file_list(file_list, dict_prefix=False):
+#
+#
+#
+def run_abbreviate_on_file_list(file_list: File, dict_prefix=False):
     start = True
-    with open(file_list) as instream:
+    with file_list.openText() as instream:
 
-        for line in instream:
-            file_prefix = line.strip()
+        for line in instream.readlines():
+            file_prefix: str = line.strip()
             lines: List[str] = get_lines_from_file(File[TXT3](file_prefix + '.txt3'))
+
             run_abbreviate_on_lines(lines, File[ABBR](file_prefix + '.abbr'), reset_dictionary=start)       # @semanticbeeng @todo @arch global state mutation
 
             if start:
                 start = False
+
     if dict_prefix:
         save_abbrev_dicts(File[ABBR](str(dict_prefix) + ".dict_abbr_to_full"),
                           File[ABBR](str(dict_prefix) + ".dict_full_to_abbr"))
