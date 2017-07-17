@@ -684,11 +684,12 @@ def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False) -> bool:
         abbrev_index = 0
         string = ARG1_string.lower()
         abbrev = ARG2_string.lower()
-        OK = True
+        # OK = True
         string_type: str = None         # @semanticbeeng static type
-        string_char = False
+        string_char: str = None
         match = False
         next_type: str = None           # @semanticbeeng static type
+
         while (string_index < len(string)) and (abbrev_index < len(abbrev)):
             ## match initial consonant and vowel clusters
             last_type = string_type
@@ -714,8 +715,7 @@ def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False) -> bool:
             # print(1,string_char,abbrev_char,match,string_type)
             # print(2,last_type,last_match)
             # print(3,abbrev_index)
-            if match and (last_match
-                          or (last_type != string_type) \
+            if match and (last_match or (last_type != string_type) \
                                   or ((string_type == 'consonant') and (next_type == 'vowel'))):
                 ## looking for match and vowel/consonant cluster border
                 ## abbrev char can be vowel following consonant
@@ -736,21 +736,25 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
     pattern: Optional[Match[str]] = parentheses_pattern_match(line, start, 2)
     ### parentheses_pattern2.search(line,start)
     ## allows for unclosed parenthesis
-    more_words: List[str] = []      # @semanticbeeng static type @ todo
-    ARG1_begin: int = None          # @semanticbeeng static type @ todo
-    ARG2_begin: int = None          # @semanticbeeng static type @ todo
-    ARG1_end: int = None            # @semanticbeeng static type @ todo
-    ARG2_end: int = None            # @semanticbeeng static type @ todo
-    ARG2_string: str = None         # @semanticbeeng static type @ todo
-    output_type: str = None         # @semanticbeeng static type @ todo
-    result: Abbr = None             # @semanticbeeng static type @ todo
+    more_words: List[str] = []          # @semanticbeeng static type @ todo
+
+    ARG1_begin: int                     # @semanticbeeng static type @ todo
+    ARG1_end: int                       # @semanticbeeng static type @ todo
+
+    ARG2_begin: int                     # @semanticbeeng static type @ todo
+    ARG2_end: int                       # @semanticbeeng static type @ todo
+
+    ARG2_string: str                    # @semanticbeeng static type @ todo
+    output_type: str                    # @semanticbeeng static type @ todo
+
+    result: Abbr = None                 # @semanticbeeng static type @ todo
     Fail = False
-    extend_antecedent: bool = False # @semanticbeeng static type @ todo
-    last_start: int = None          # @semanticbeeng static type @ todo
-    alt_abbreviation: str = None    # @semanticbeeng static type @ todo
+    extend_antecedent: bool = False     # @semanticbeeng static type @ todo
+    last_start: int = None              # @semanticbeeng static type @ todo
+    alt_abbreviation: str = None        # @semanticbeeng static type @ todo
 
     while pattern:
-        result = None               # @semanticbeeng static type @ todo
+        result = None                   # @semanticbeeng static type @ todo
         Fail = False
         first_word_break: Optional[Match[str]] = re.search('[^\(]([ ,;:])', pattern.group(2))
 
@@ -875,6 +879,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                     else:
                         ARG2_begin = pattern.start() + position + 1
                         ARG2_string = pattern.start(2)
+
                     ARG2_end = start + pattern.end() - 1
                     ARG1_begin = result[0]
                     ARG1_end = result[1]
@@ -984,6 +989,7 @@ def write_fact_file(output, outfile):
                     look_up = out['TYPE']
                 ARG1_NAME = ARG1_NAME_TABLE[look_up]
                 ARG2_NAME = ARG2_NAME_TABLE[look_up]
+
             for key in key_list:
                 if key in out:
                     value = out[key]
