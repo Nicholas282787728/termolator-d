@@ -609,11 +609,17 @@ def get_next_id_number():
     return (id_number)
 
 
+#
+#   @semanticbeeng @todo generate unique ids in a cluster
+#
 def make_nyu_id(Class: str) -> str:
     number = get_next_id_number()
     return ('NYU_' + Class + str(number))
 
 
+#
+#
+#
 def make_nyu_entity(entity_type: str, string: str, begin: int, end: int) -> Dict[str, str]:
     if entity_type == 'JARGON':
         return ({'CLASS': entity_type, 'ID': make_nyu_id(entity_type),
@@ -651,36 +657,48 @@ def find_search_end(line: str, search_end: int) -> Tuple[int, bool]:
         return (search_end, Fail)
 
 
-def invalid_abbreviation(ARG2_string: Any) -> bool:
+#
+#
+#
+def invalid_abbreviation(ARG2_string: str) -> bool:
     if not isinstance(ARG2_string, str):
         return (True)
-    elif ARG2_string.islower() and ((ARG2_string in pos_dict) \
-                                            or (ARG2_string in nom_dict)):
+
+    elif ARG2_string.islower() and \
+            ((ARG2_string in pos_dict) or (ARG2_string in nom_dict)):
         return (True)
-    elif ARG2_string.istitle() and ((ARG2_string.lower() in pos_dict)
-                                    or (ARG2_string.lower() in nom_dict) \
-                                            or ((ARG2_string.lower() in location_dictionary)
-                                                and (not 'ABBREVIATION-OF' in location_dictionary[ARG2_string.lower()]))):
+
+    elif ARG2_string.istitle() and \
+            ((ARG2_string.lower() in pos_dict) or (ARG2_string.lower() in nom_dict)
+             or ((ARG2_string.lower() in location_dictionary)
+             and (not 'ABBREVIATION-OF' in location_dictionary[ARG2_string.lower()]))):
         return (True)
+
     elif ARG2_string.isupper() and roman(ARG2_string):
         return (True)
+
     return (False)
 
 
 def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False) -> bool:
     if (ARG2_string == '') or (ARG1_string == ''):
         return (True)
+
     elif ' ' in ARG1_string:
         return (False)  ## these errors are only for single word cases
+
     elif (not recurs) and (ARG2_string[-1] in 'sS') and (ARG1_string[-1] in 'sS') \
             and (not invalid_abbrev_of(ARG2_string[:-1], ARG1_string[:-1], recurs=True)):
         ## handles plurals
         return (False)
+
     elif ARG1_string.lower().startswith(ARG2_string.lower()):
         return (False)  ## prefixes are valid 1 word abbreviations
+
     elif (len(ARG2_string) == 2) and (ARG2_string[0].lower() == ARG1_string[0].lower()) \
             and (ARG2_string[-1].lower() == ARG1_string[-1].lower()):
         return (False)  ## first and last character matches are valid abbreviations
+
     else:
         string_index = 0
         abbrev_index = 0
