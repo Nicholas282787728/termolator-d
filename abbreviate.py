@@ -1201,40 +1201,46 @@ def get_expanded_forms_from_abbreviations(term):
     return (output)
 
 
-def make_abbr_dicts_from_abbr(infiles: File, full_to_abbr_file: File[ABBR], abbr_to_full_file: File[ABBR]) -> None:
-    global abbr_to_full_dict
-    global full_to_abbr_dict
-
-    abbr_to_full_dict.clear()
-    full_to_abbr_dict.clear()
-
-    arg1_pattern: Pattern[str] = re.compile('ARG1_TEXT="([^"]*)"')
-    arg2_pattern: Pattern[str] = re.compile('ARG2_TEXT="([^"]*)"')
-
-    with infiles.openText() as liststream:
-        for infile in liststream.readlines():
-            infile = infile.strip()
-
-            with File(infile).openText() as instream:
-                for line in instream.readlines():
-                    if line.startswith('RELATION'):
-                        arg1_match = arg1_pattern.search(line)
-                        arg2_match = arg2_pattern.search(line)
-
-                        if arg1_match and arg2_match:
-                            full_name = arg1_match.group(1).upper()
-                            abbr = arg2_match.group(1).upper()
-
-                            if (abbr in abbr_to_full_dict):
-                                if (not full_name in abbr_to_full_dict[abbr]):
-                                    abbr_to_full_dict[abbr].append(full_name)
-                            else:
-                                abbr_to_full_dict[abbr] = [full_name]
-
-                            if (full_name in full_to_abbr_dict):
-                                if (not abbr in full_to_abbr_dict[full_name]):
-                                    full_to_abbr_dict[full_name].append(abbr)
-                            else:
-                                full_to_abbr_dict[full_name] = [abbr]
-
-    save_abbrev_dicts(abbr_to_full_file, full_to_abbr_file)
+# #
+# #   # @semanticbeeng dead code
+# #
+# def make_abbr_dicts_from_abbr(infiles: File, full_to_abbr_file: File[ABBR], abbr_to_full_file: File[ABBR]) -> None:
+#     global abbr_to_full_dict
+#     global full_to_abbr_dict
+#
+#     # @semanticbeeng @todo @arch global state mutation abbr_to_full_dict
+#     abbr_to_full_dict.clear()
+#     full_to_abbr_dict.clear()
+#
+#     arg1_pattern: Pattern[str] = re.compile('ARG1_TEXT="([^"]*)"')
+#     arg2_pattern: Pattern[str] = re.compile('ARG2_TEXT="([^"]*)"')
+#
+#     with infiles.openText() as liststream:
+#         for infile in liststream.readlines():
+#             infile = infile.strip()
+#
+#             with File(infile).openText() as instream:
+#                 for line in instream.readlines():
+#                     if line.startswith('RELATION'):
+#                         arg1_match = arg1_pattern.search(line)
+#                         arg2_match = arg2_pattern.search(line)
+#
+#                         if arg1_match and arg2_match:
+#                             full_name = arg1_match.group(1).upper()
+#                             abbr = arg2_match.group(1).upper()
+#
+#                             # @semanticbeeng @todo @arch global state mutation abbr_to_full_dict
+#                             if (abbr in abbr_to_full_dict):
+#                                 if (not full_name in abbr_to_full_dict[abbr]):
+#                                     abbr_to_full_dict[abbr].append(full_name)
+#                             else:
+#                                 abbr_to_full_dict[abbr] = [full_name]
+#
+#                             # @semanticbeeng @todo @arch global state mutation abbr_to_full_dict
+#                             if (full_name in full_to_abbr_dict):
+#                                 if (not abbr in full_to_abbr_dict[full_name]):
+#                                     full_to_abbr_dict[full_name].append(abbr)
+#                             else:
+#                                 full_to_abbr_dict[full_name] = [abbr]
+#
+#     save_abbrev_dicts(abbr_to_full_file, full_to_abbr_file)
