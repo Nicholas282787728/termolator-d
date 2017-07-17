@@ -808,25 +808,32 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
             if more_words and (len(more_words) > 0) and (len(abbreviation) > 0):
                 offset_adjustment = len(previous_line)
                 more_words.extend(previous_words)
+
                 result = lookup_abbreviation(abbreviation, previous_line + line, search_end + offset_adjustment, position - offset_adjustment)
 
                 if alt_abbreviation and (not result):
+
                     result = lookup_abbreviation(alt_abbreviation, previous_line + line, search_end + offset_adjustment, position - offset_adjustment)
                     if result:
                         abbreviation = alt_abbreviation
+
                 if not result:
                     ## print(1,start,search_end)
                     result = abbreviation_match(abbreviation, more_words, previous_line + line, search_end + offset_adjustment, position - offset_adjustment, False, False)
+
                 if (not result) and alt_abbreviation:
                     result = abbreviation_match(alt_abbreviation, more_words, previous_line + line, search_end + offset_adjustment, position - offset_adjustment, False, False)
                     if result:
                         abbreviation = alt_abbreviation
 
             if (not result) and (len(previous_words) > 0) and (len(abbreviation) > 0):
+
                 result = lookup_abbreviation(abbreviation, line, search_end, position)
+
                 if not result:
                     ## print(2,start,search_end)
                     result = abbreviation_match(abbreviation, previous_words, line, search_end, position, False, False)
+
                 if not result and alt_abbreviation:
                     result = lookup_abbreviation(abbreviation, line, search_end, position)
                     if not result:
@@ -861,19 +868,25 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                 abbreviation = re.sub('[. ]', '', pattern.group(2), 7)  ## remove upto 7 spaces/periods from abbreviation
 
                 if (start == 0) and (previous_line != '') and (len(previous_words) < len(abbreviation)):
-                    more_words  = get_more_words(previous_line, (1 + len(abbreviation) - len(previous_words)))
+
+                    more_words = get_more_words(previous_line, (1 + len(abbreviation) - len(previous_words)))
+
                     if more_words and (len(more_words) > 0):
                         offset_adjustment = len(previous_line)
                         more_words.extend(previous_words)
+
                         result = lookup_abbreviation(abbreviation, previous_line + line, search_end + offset_adjustment, position - offset_adjustment)
+
                         if not result:
                             ## print(3)
                             result = abbreviation_match(abbreviation, more_words, previous_line + line, search_end + offset_adjustment, position - offset_adjustment, False, False)
+
                     else:
                         result = lookup_abbreviation(abbreviation, line, search_end, position)
                         ## print(4)
                         if not result:
                             result = abbreviation_match(abbreviation, previous_words, line, search_end, position, previous_line, more_words)
+
                 if result:
                     if result[4]:
                         ARG2_begin = pattern.start() + position + 2
@@ -924,17 +937,14 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                         ## end position = end position of pattern + offset
 
             if result:
-                if invalid_abbreviation(ARG2_string) or invalid_abbrev_of(ARG2_string, ARG1_string):
-                    ARG1 = None        # @semanticbeeng static type @todo !
-                    ARG2 = None        # @semanticbeeng static type @todo !
-                else:
-                    ARG2 = make_nyu_entity(output_type, ARG2_string, ARG2_begin, ARG2_end)
-                    ARG1 = make_nyu_entity(output_type, ARG1_string, ARG1_begin, ARG1_end)
+                if not invalid_abbreviation(ARG2_string) and not invalid_abbrev_of(ARG2_string, ARG1_string):
 
-                relation_start = min(ARG1_begin, ARG2_begin)
-                relation_end = max(ARG1_end, ARG2_end)
+                    ARG2: Dict[str, str] = make_nyu_entity(output_type, ARG2_string, ARG2_begin, ARG2_end)
+                    ARG1: Dict[str, str] = make_nyu_entity(output_type, ARG1_string, ARG1_begin, ARG1_end)
 
-                if ARG1 and ARG2:
+                    relation_start: int = min(ARG1_begin, ARG2_begin)
+                    relation_end: int = max(ARG1_end, ARG2_end)
+
                     output.extend([ARG1, ARG2,
                                    {'CLASS': 'RELATION', 'TYPE': 'ABBREVIATE', 'ID': make_nyu_id('RELATION'),
                                     'START': str(relation_start), 'END': str(relation_end),
