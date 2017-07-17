@@ -113,18 +113,6 @@ signal_set = ['academically', 'accordance', 'according', 'accordingly', 'actuali
 
 NE_stop_words = ['eds', 'publications?', 'et', 'co', 'al', 'eds', 'corp', 'inc', 'sa', 'cia', 'ltd', 'gmbh', 'esq', 'phd', 'natl', 'acad', 'sci', 'proc', 'chem', 'soc']
 
-ARG1_NAME_TABLE = {'EXEMPLIFY': 'SUBCLASS', 'DISCOVER': 'INVENTOR', 'MANUFACTURE': 'MAKER', 'SUPPLY': 'SUPPLIER',
-                   'ORIGINATE': 'INVENTOR', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'FULLNAME', 'BETTER_THAN': 'BETTER',
-                   'BASED_ON': 'DERIVED', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
-                   'POSITIVE': 'JUDGE', 'NEGATIVE': 'JUDGE', 'SIGNIFICANT': 'JUDGE', 'PRACTICAL': 'JUDGE', 'STANDARD': 'JUDGE', 'EMPHASIZED_TERM': 'THEME', 'COMPONENT': 'PART',
-                   'FEATURE': 'FEATURE'}
-
-ARG2_NAME_TABLE = {'EXEMPLIFY': 'SUPERCLASS', 'DISCOVER': 'INVENTION', 'MANUFACTURE': 'PRODUCT', 'SUPPLY': 'PRODUCT',
-                   'ORIGINATE': 'INVENTION', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'SHORTNAME', 'BETTER_THAN': 'WORSE',
-                   'BASED_ON': 'ORIGINAL', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
-                   'POSITIVE': 'THEME', 'NEGATIVE': 'THEME', 'SIGNIFICANT': 'THEME', 'PRACTICAL': 'THEME', 'STANDARD': 'THEME', 'EMPHASIZED_TERM': 'THEME', 'COMPONENT': 'WHOLE',
-                   'FEATURE': 'BEARER'}
-
 attribute_value_from_fact = re.compile(r'([A-Z0-9_]+) *[=] *((["][^"]*["])|([0-9]+))', re.I)
 
 person_ending_pattern = re.compile(' (Esq|PhD|Jr|snr)\.?$', re.I)

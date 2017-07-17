@@ -1,6 +1,6 @@
-from typing import List, Dict, Tuple, Pattern, Match, Optional, Any, NamedTuple
 from term_utilities import *
 from DataDef import FileName, TXT3, ABBR
+from typing import List, Dict, Tuple, Pattern, Match, Optional, Any, NamedTuple
 
 # global abbr_to_full_dict
 # global full_to_abbr_dict
@@ -11,6 +11,18 @@ from DataDef import FileName, TXT3, ABBR
 # global number_match_table
 
 Abbr = NamedTuple("Abbr",  [('begin', int), ('end', int), ('out_string', str), ('out_type', str), ('one_off', bool)])
+
+ARG1_NAME_TABLE: Dict[str, str] = {'EXEMPLIFY': 'SUBCLASS', 'DISCOVER': 'INVENTOR', 'MANUFACTURE': 'MAKER', 'SUPPLY': 'SUPPLIER',
+                   'ORIGINATE': 'INVENTOR', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'FULLNAME', 'BETTER_THAN': 'BETTER',
+                   'BASED_ON': 'DERIVED', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
+                   'POSITIVE': 'JUDGE', 'NEGATIVE': 'JUDGE', 'SIGNIFICANT': 'JUDGE', 'PRACTICAL': 'JUDGE', 'STANDARD': 'JUDGE', 'EMPHASIZED_TERM': 'THEME', 'COMPONENT': 'PART',
+                   'FEATURE': 'FEATURE'}
+
+ARG2_NAME_TABLE: Dict[str, str] = {'EXEMPLIFY': 'SUPERCLASS', 'DISCOVER': 'INVENTION', 'MANUFACTURE': 'PRODUCT', 'SUPPLY': 'PRODUCT',
+                   'ORIGINATE': 'INVENTION', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'SHORTNAME', 'BETTER_THAN': 'WORSE',
+                   'BASED_ON': 'ORIGINAL', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
+                   'POSITIVE': 'THEME', 'NEGATIVE': 'THEME', 'SIGNIFICANT': 'THEME', 'PRACTICAL': 'THEME', 'STANDARD': 'THEME', 'EMPHASIZED_TERM': 'THEME', 'COMPONENT': 'WHOLE',
+                   'FEATURE': 'BEARER'}
 
 word_split_pattern: Pattern[str] = re.compile(r'[^\w@]+')
 ABBREVIATION_STOP_WORDS: List[str] = ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among', 'as', 'at', 'by', 'for', 'from', 'in', 'into',
@@ -976,7 +988,8 @@ def record_abbreviate_dictionary(fulltext, abbreviation):
 def write_fact_file(output, outfile):
     global ARG1_NAME_TABLE
     global ARG2_NAME_TABLE
-    global FACT_STYLE
+    # global FACT_STYLE @semanticbeeng not used
+
     with open(outfile, 'w') as outstream:
         keys = ['ID', 'TYPE', 'SUBTYPE', 'START', 'END', 'ARG1', 'ARG2', 'ARG1_TEXT', 'ARG2_TEXT', 'GRAM_SIGNAL', 'TEXT_SIGNAL', 'TEXT']
         for out in output:
@@ -1081,8 +1094,10 @@ def save_abbrev_dicts(abbr_to_full_file: FileName[ABBR], full_to_abbr_file: File
 def read_in_abbrev_dicts_from_files(abbr_to_full_file, full_to_abbr_file):
     global abbr_to_full_dict
     global full_to_abbr_dict
+
     abbr_to_full_dict.clear()
     full_to_abbr_dict.clear()
+
     with open(abbr_to_full_file) as abbr_full_stream, open(full_to_abbr_file) as full_abbr_stream:
         for line in abbr_full_stream:
             line_list = line.strip().split('\t')
@@ -1124,8 +1139,10 @@ def get_expanded_forms_from_abbreviations(term):
 def make_abbr_dicts_from_abbr(infiles: FileName, full_to_abbr_file: FileName[ABBR], abbr_to_full_file: FileName[ABBR]) -> None:
     global abbr_to_full_dict
     global full_to_abbr_dict
+
     abbr_to_full_dict.clear()
     full_to_abbr_dict.clear()
+
     arg1_pattern: Pattern[str] = re.compile('ARG1_TEXT="([^"]*)"')
     arg2_pattern: Pattern[str] = re.compile('ARG2_TEXT="([^"]*)"')
 
