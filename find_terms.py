@@ -1,6 +1,9 @@
 from inline_terms import *
 from DataDef import File, TXT3
 
+#
+#
+#
 def find_inline_terms_for_file_list(file_list: File, dict_prefix: bool = False) -> None:
     start = True
     with file_list.openText() as instream:
@@ -11,7 +14,8 @@ def find_inline_terms_for_file_list(file_list: File, dict_prefix: bool = False) 
         for line in instream.readlines():
             file_prefix = line.strip()
             lines = get_lines_from_file(File[TXT3](file_prefix + '.txt3'))  ## add feature to remove xml
-            run_abbreviate_on_lines(lines, file_prefix + '.abbr', reset_dictionary=start)
+
+            run_abbreviate_on_lines(lines, file_prefix + '.abbr', reset_dictionary=start)       # @semanticbeeng @todo @arch global state mutation
             ## creates abbreviation files and acquires abbreviation --> term
             ## and term --> abbreviation dictionaries
             ## Possibly add alternative which loads existing abbreviation files into
