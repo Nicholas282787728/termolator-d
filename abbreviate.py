@@ -12,21 +12,6 @@ from typing import List, Dict, Tuple, Pattern, Match, Optional, Any, NamedTuple
 
 Abbr = NamedTuple("Abbr",  [('begin', int), ('end', int), ('out_string', str), ('out_type', str), ('one_off', bool)])
 
-#
-# @semanticbeeng other than `ABBREVIATE`, none of these strings is referenced in code
-#
-ARG1_NAME_TABLE: Dict[str, str] = {'EXEMPLIFY': 'SUBCLASS', 'DISCOVER': 'INVENTOR', 'MANUFACTURE': 'MAKER', 'SUPPLY': 'SUPPLIER',
-                   'ORIGINATE': 'INVENTOR', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'FULLNAME', 'BETTER_THAN': 'BETTER',
-                   'BASED_ON': 'DERIVED', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
-                   'POSITIVE': 'JUDGE', 'NEGATIVE': 'JUDGE', 'SIGNIFICANT': 'JUDGE', 'PRACTICAL': 'JUDGE', 'STANDARD': 'JUDGE', 'EMPHASIZED_TERM': 'THEME', 'COMPONENT': 'PART',
-                   'FEATURE': 'FEATURE'}
-
-ARG2_NAME_TABLE: Dict[str, str] = {'EXEMPLIFY': 'SUPERCLASS', 'DISCOVER': 'INVENTION', 'MANUFACTURE': 'PRODUCT', 'SUPPLY': 'PRODUCT',
-                   'ORIGINATE': 'INVENTION', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'SHORTNAME', 'BETTER_THAN': 'WORSE',
-                   'BASED_ON': 'ORIGINAL', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
-                   'POSITIVE': 'THEME', 'NEGATIVE': 'THEME', 'SIGNIFICANT': 'THEME', 'PRACTICAL': 'THEME', 'STANDARD': 'THEME', 'EMPHASIZED_TERM': 'THEME', 'COMPONENT': 'WHOLE',
-                   'FEATURE': 'BEARER'}
-
 word_split_pattern: Pattern[str] = re.compile(r'[^\w@]+')
 ABBREVIATION_STOP_WORDS: List[str] = ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among', 'as', 'at', 'by', 'for', 'from', 'in', 'into',
                                       'like',
@@ -988,7 +973,27 @@ def record_abbreviate_dictionary(fulltext, abbreviation):
         full_to_abbr_dict[value] = [key]
 
 
-def write_fact_file(output, outfile):
+#
+# @semanticbeeng other than `ABBREVIATE`, none of these strings is referenced in code
+# @semanticbeeng @todo encapsulate
+#
+ARG1_NAME_TABLE: Dict[str, str] = {'EXEMPLIFY': 'SUBCLASS', 'DISCOVER': 'INVENTOR', 'MANUFACTURE': 'MAKER', 'SUPPLY': 'SUPPLIER',
+                                   'ORIGINATE': 'INVENTOR', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'FULLNAME', 'BETTER_THAN': 'BETTER',
+                                   'BASED_ON': 'DERIVED', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
+                                   'POSITIVE': 'JUDGE', 'NEGATIVE': 'JUDGE', 'SIGNIFICANT': 'JUDGE', 'PRACTICAL': 'JUDGE', 'STANDARD': 'JUDGE', 'EMPHASIZED_TERM': 'THEME', 'COMPONENT': 'PART',
+                                   'FEATURE': 'FEATURE'}
+
+ARG2_NAME_TABLE: Dict[str, str] = {'EXEMPLIFY': 'SUPERCLASS', 'DISCOVER': 'INVENTION', 'MANUFACTURE': 'PRODUCT', 'SUPPLY': 'PRODUCT',
+                                   'ORIGINATE': 'INVENTION', 'ALIAS': 'FULLNAME', 'ABBREVIATE': 'SHORTNAME', 'BETTER_THAN': 'WORSE',
+                                   'BASED_ON': 'ORIGINAL', 'CONTRAST': 'THEME', 'CORROBORATION': 'THEME', 'CO-CITATION': 'THEME',
+                                   'POSITIVE': 'THEME', 'NEGATIVE': 'THEME', 'SIGNIFICANT': 'THEME', 'PRACTICAL': 'THEME', 'STANDARD': 'THEME', 'EMPHASIZED_TERM': 'THEME', 'COMPONENT': 'WHOLE',
+                                   'FEATURE': 'BEARER'}
+
+#
+# Serializes and persists a list of Fact entities
+# @semanticbeeng @todo define Fact entity
+#
+def write_fact_file(output: List[Dict[str, str]], outfile: str) -> None:
     global ARG1_NAME_TABLE
     global ARG2_NAME_TABLE
     # global FACT_STYLE @semanticbeeng not used
