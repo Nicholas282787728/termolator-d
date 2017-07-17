@@ -1001,7 +1001,6 @@ def write_fact_file(output: List[Dict[str, str]], outfile: FileName[ABBR]) -> No
     keys = ['ID', 'TYPE', 'SUBTYPE', 'START', 'END', 'ARG1', 'ARG2', 'ARG1_TEXT', 'ARG2_TEXT', 'GRAM_SIGNAL', 'TEXT_SIGNAL', 'TEXT']
     with outfile.openText('w') as outstream:
         for out in output:
-            fact: str = out['CLASS']
 
             if out['CLASS'] == 'RELATION':
                 if 'SUBTYPE' in out:
@@ -1012,6 +1011,7 @@ def write_fact_file(output: List[Dict[str, str]], outfile: FileName[ABBR]) -> No
                 ARG1_NAME = ARG1_NAME_TABLE[look_up]
                 ARG2_NAME = ARG2_NAME_TABLE[look_up]
 
+            fact: str = out['CLASS']
             for key in keys:
                 if key in out:
                     value = out[key]
@@ -1023,8 +1023,10 @@ def write_fact_file(output: List[Dict[str, str]], outfile: FileName[ABBR]) -> No
                     fact = fact + ' ' + key + '=' + value
 
                     if key == 'ARG1':
+                        assert 'ARG1_NAME' in locals()
                         fact = fact + ' ARG1_NAME="' + ARG1_NAME + '"'
                     elif key == 'ARG2':
+                        assert 'ARG2_NAME' in locals()
                         fact = fact + ' ARG2_NAME="' + ARG2_NAME + '"'
 
             outstream.write(fact + os.linesep)
