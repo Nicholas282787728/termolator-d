@@ -100,7 +100,7 @@ def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: i
         abbreviation2 = re.sub('[-/]', '', abbreviation2)
 
     key = abbreviation2.upper()
-    output: Abbr = None
+    output: Optional[Abbr] = None
     search_string = regularize_match_string1(line[:end])
     maxlength = 0
     out_type = 'JARGON'
@@ -750,7 +750,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
     alt_abbreviation: str = None    # @semanticbeeng static type @ todo
 
     while pattern:
-        # result = []      # @semanticbeeng static type @ todo
+        result = []      # @semanticbeeng static type @ todo
         Fail = False
         first_word_break: Optional[Match[str]] = re.search('[^\(]([ ,;:])', pattern.group(2))
 
