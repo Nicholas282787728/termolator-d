@@ -1,9 +1,12 @@
 import os
 import random
 import re
-from typing import List, Dict, Pattern, Match, Optional
+from typing import List, Dict, Tuple, Pattern, Match, Optional
 from DataDef import File
 
+##
+#   Dictionaries
+#
 DICT_DIRECTORY = os.path.dirname(os.path.realpath(__file__)) + os.sep + "dicts" + os.sep
 ## DICT_DIRECTORY = '../'
 ## DICT_DIRECTORY = './'
@@ -37,15 +40,16 @@ nom_dict: Dict[str, str] = {}
 pos_dict: Dict[str, List[str]] = {}
 jargon_words = set()  ## @arch shared static state
 pos_offset_table: Dict[int, str] = {}
-organization_dictionary = {}
-location_dictionary = {}
-nationality_dictionary = {}
-nom_map_dict = {}
+organization_dictionary: Dict[int, str] = {}
+location_dictionary: Dict[int, str] = {}
+nationality_dictionary: Dict[int, str] = {}
+nom_map_dict: Dict[int, str] = {}
 # unigram_dictionary = set()        # @semanticbeeng not used
 ## add all observed words (in the foreground set) to unigram_dictionary
 
 
-closed_class_stop_words = ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among',
+closed_class_stop_words: List[str] = \
+                          ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among',
                            'as', 'at', 'by', 'for', 'from', 'in', 'into', 'like', 'minus', 'near', 'of', 'off', 'on',
                            'onto', 'out', 'over', 'past', 'per', 'plus', 'since', 'till', 'to', 'under', 'until', 'up',
                            'via', 'vs', 'with', 'that', 'can', 'cannot', 'could', 'may', 'might', 'must',
@@ -69,12 +73,14 @@ closed_class_stop_words = ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above
                            ]
 ## ABBREVIATION_STOP_WORDS plus some
 
-patent_stop_words = ['patent', 'provisional', 'kokai', 'open', 'publication', 'number', 'nos', 'serial',
+patent_stop_words: List[str] = \
+                    ['patent', 'provisional', 'kokai', 'open', 'publication', 'number', 'nos', 'serial',
                      'related', 'claim', 'claims', 'embodiment', 'related', 'present', 'priority', 'design',
                      'said', 'respective', 'fig', 'figs', 'copyright', 'following', 'preceding', 'according',
                      'barring', 'pending', 'pertaining', 'international', 'wo', 'pct']
 
-signal_set = ['academically', 'accordance', 'according', 'accordingly', 'actuality', 'actually', 'addition', 'additionally', 'administratively', 'admittedly', 'aesthetically',
+signal_set: List[str] = \
+              ['academically', 'accordance', 'according', 'accordingly', 'actuality', 'actually', 'addition', 'additionally', 'administratively', 'admittedly', 'aesthetically',
               'agreement', 'alarmingly', 'alas', 'all', 'allegedly', 'also', 'alternative', 'alternatively', 'although', 'altogether', 'amazingly', 'analogously', 'anyhow',
               'anyway', 'anyways', 'apparently', 'appropriately', 'architecturally', 'arguably', 'arithmetically', 'artistically', 'as', 'assumingly', 'assuredly', 'astonishingly',
               'astronomically', 'asymptotically', 'atypically', 'axiomatically', 'base', 'based', 'bases', 'basing', 'besides', 'biologically', 'but', 'case', 'certainly',
@@ -111,34 +117,34 @@ signal_set = ['academically', 'accordance', 'according', 'accordingly', 'actuali
 
 ## ne_stop_words = ['et', 'co', 'al', 'eds','corp','inc','sa','cia','ltd','GmbH','Esq','PhD']
 
-NE_stop_words = ['eds', 'publications?', 'et', 'co', 'al', 'eds', 'corp', 'inc', 'sa', 'cia', 'ltd', 'gmbh', 'esq', 'phd', 'natl', 'acad', 'sci', 'proc', 'chem', 'soc']
+NE_stop_words: List[str] = ['eds', 'publications?', 'et', 'co', 'al', 'eds', 'corp', 'inc', 'sa', 'cia', 'ltd', 'gmbh', 'esq', 'phd', 'natl', 'acad', 'sci', 'proc', 'chem', 'soc']
 
-attribute_value_from_fact = re.compile(r'([A-Z0-9_]+) *[=] *((["][^"]*["])|([0-9]+))', re.I)
+attribute_value_from_fact: Pattern[str] = re.compile(r'([A-Z0-9_]+) *[=] *((["][^"]*["])|([0-9]+))', re.I)
 
-person_ending_pattern = re.compile(' (Esq|PhD|Jr|snr)\.?$', re.I)
+person_ending_pattern: Pattern[str] = re.compile(' (Esq|PhD|Jr|snr)\.?$', re.I)
 
-org_ending_pattern = re.compile(' (corp|inc|sa|cia|ltd|gmbh|co)\.?$', re.I)
+org_ending_pattern: Pattern[str] = re.compile(' (corp|inc|sa|cia|ltd|gmbh|co)\.?$', re.I)
 
 closed_class_words2 = r'and|or|as|the|a|of|for|at|on|in|by|into|onto|to|per|plus|through|till|towards?|under|until|via|with|within|without|no|any|each|that|there|et|al'
-closed_class_check2 = re.compile('^(' + closed_class_words2 + ')$', re.I)
+closed_class_check2: Pattern[str] = re.compile('^(' + closed_class_words2 + ')$', re.I)
 
-organization_word_pattern = re.compile(
+organization_word_pattern: Pattern[str] = re.compile(
     r'^(AGENC(Y|IE)|ASSOCIATION|BUREAU|CENT(ER|RE|RO)|COLL[EÈ]GE|COMMISSION|CORP[\.]|CORPORATION|COUNCIL|DEPARTMENT|ENDOWMENT|FOUNDATION|FUND|GROUP|HOSPITAL|(INC|SA|CIA|LTD|CORP|GMBH|CO)\.?|IN?STITUT[EO]?|LABORATOR((Y)|IE)|OFFICE|ORGANI[SZ]ATION|PARTNER|PROGRAMME|PROGRAM|PROJECT|SCHOOL|SOCIET(Y|IE)|TRUST|(UNIVERSI[TD](AD)?(E|É|Y|IE|À|ÄT)?)|UNIVERSITÄTSKLINIKUM|UNIVERSITÄTSSPITAL)S?$',
     re.I)
 
-last_word_organization = re.compile(
+last_word_organization: Pattern[str] = re.compile(
     r'^(AGENC(Y|IE)|ASSOCIATION|CENT(ER|RE|RO)|COLL[EÈ]GE|COMMISSION|CORP[\.]|CORPORATION|COUNCIL|DEPARTMENT|ENDOWMENT|FOUNDATION|FUND|GROUP|HOSPITAL|(INC|SA|CIA|LTD|CORP|GMBH|CO)\.?|IN?STITUT[EO]?|LABORATOR((Y)|IE)|OFFICE|ORGANI[SZ]ATION|PARTNER|PROGRAMME|PROGRAM|PROJECT|SCHOOL|SOCIET(Y|IE)|TRUST|(UNIVERSI[TD](AD)?(E|É|Y|IE|À|ÄT)?)|UNIVERSITÄTSKLINIKUM|UNIVERSITÄTSSPITAL|INDUSTRIE|PRESS|SOLUTIONS|TELECOMMUNICATIONS|TECHNOLOGIE|PHARMACEUTICAL|CHEMICAL|BIOSCIENCE|BIOSYSTEM|BIOTECHNOLOG(Y|IE)|INSTRUMENT|SYSTEMS|COMPANY|INST|RES|ABSTRACTS|ASSOC(ITATES)?|SCIENTIFICA|UNION)S?$',
     re.I)
 
-ambig_last_word_org = re.compile(r'^(PROGRAM|SYSTEM)S?$', re.I)
+ambig_last_word_org: Pattern[str] = re.compile(r'^(PROGRAM|SYSTEM)S?$', re.I)
 
-last_word_gpe = re.compile(r'(HEIGHTS?|MASS|TOWNSHIP|PARK)$', re.I)
+last_word_gpe: Pattern[str] = re.compile(r'(HEIGHTS?|MASS|TOWNSHIP|PARK)$', re.I)
 
-last_word_loc = re.compile(r'(STREET|AVENUE|BOULEVARD|LANE|PLACE)$', re.I)
+last_word_loc: Pattern[str] = re.compile(r'(STREET|AVENUE|BOULEVARD|LANE|PLACE)$', re.I)
 
-xml_pattern = re.compile(r'<([/!?]?)([a-z?\-]+)[^>]*>', re.I)
+xml_pattern: Pattern[str] = re.compile(r'<([/!?]?)([a-z?\-]+)[^>]*>', re.I)
 
-xml_string = '<([/!?]?)([a-z?\-]+)[^>]*>'
+xml_string: str = '<([/!?]?)([a-z?\-]+)[^>]*>'
 
 ## abbreviate patterns -- the b patterns ignore square brackets
 # global parentheses_pattern2
@@ -154,24 +160,24 @@ text_html_fields = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'dt', 'dd', '
 ## some of these may require additional formatting to properly process them, e.g., 
 ## the following (not implemented) may require additional new lines: address, pre
 
-roman_value = {'i': 1, 'v': 5, 'x': 10, 'l': 50, 'c': 100, 'd': 500, 'm': 1000}
+roman_value: Dict[str, int] = {'i': 1, 'v': 5, 'x': 10, 'l': 50, 'c': 100, 'd': 500, 'm': 1000}
 
 
-def ok_roman_bigram(pair):
+def ok_roman_bigram(pair: str) -> bool:
     if pair in ['ii', 'iv', 'ix', 'vi', 'xi', 'xv', 'xx', 'xl', 'xc', 'li', 'lv', 'lx', 'ci', 'cv', 'cx', 'cl', 'cc', 'cd', 'cm', 'mi', 'mv', 'mx', 'ml', 'mc', 'md', 'mm']:
         return (True)
     else:
         return (False)
 
 
-def OK_roman_trigram(triple):
+def OK_roman_trigram(triple: str) -> bool:
     if triple in ['ivi', 'ixi', 'xlx', 'xcx', 'cdc', 'cmc']:
         return (False)
     else:
         return (True)
 
 
-def roman(string):
+def roman(string: str) -> bool:
     lower = string.lower()
     if (type(lower) == str) and re.search('^[ivxlcdm]+$', lower):
         ## lower consists completely of correct characters (unigram)
@@ -188,12 +194,12 @@ def roman(string):
         return (False)
 
 
-def evaluate_roman(string):
+def evaluate_roman(string: str) -> int:
     total = 0
-    value_list = []
+    value_list: List[int] = []
     for character in string:
         value_list.append(roman_value[character.lower()])
-    last = value_list[0]
+    last: int = value_list[0]
     for number in value_list[1:]:
         if last and (last < number):
             total = total + (number - last)
@@ -208,11 +214,11 @@ def evaluate_roman(string):
     return (total)
 
 
-def return_stray_colons(string):
+def return_stray_colons(string: str) -> str:
     return (string.replace('-colon-', ':'))
 
 
-def fix_stray_colons(string):
+def fix_stray_colons(string: str) -> str:
     position = string.find(':')
     if position == -1:
         output = string
@@ -225,28 +231,30 @@ def fix_stray_colons(string):
     return (output)
 
 
-## todo: not used
-def is_lisp_key_word(string):
-    return (string[0] == ':')
+# #
+# #   @semanticbeeng dead code
+# #
+# def is_lisp_key_word(string):
+#     return (string[0] == ':')
 
 
-def list_starter(string):
+def list_starter(string: str) -> bool:
     return (string[0] == '(')
 
 
-def list_ender(string):
+def list_ender(string: str) -> bool:
     return (string[-1] == ')')
 
 
-def string_starter(string):
+def string_starter(string: str) -> bool:
     return (string[0] == '"')
 
 
-def string_ender(string):
+def string_ender(string: str) -> bool:
     return (string[-1] == '"')
 
 
-def process_lexicon_list(value):
+def process_lexicon_list(value: str) -> List[str]:
     output = []
     value = value.strip('()')
     if '"' in value:
@@ -262,7 +270,10 @@ def process_lexicon_list(value):
     return (output)
 
 
-def get_key_value(string):
+#
+#   @semanticbeeng @todo static type - conflict between List and Tuple; maybe to a conversion?
+#
+def get_key_value(string: str) -> Tuple[str, str]:
     initial_list = string.partition(' ')
     key = initial_list[0]
     value = initial_list[2].strip(' ')
@@ -347,7 +358,9 @@ def add_dictionary_entry(line, dictionary, shallow, lower=False, patent=False):
             actual_dict[entry_dict['ORTH'].upper()] = [entry_dict]
 
 
-## @arch global state mutation
+#
+#   @semanticbeeng @todo @arch global state initialization
+#
 def read_in_org_dictionary(dict_file, dictionary='org', shallow=True, lower=False, patent=False):
     if dictionary == 'org':
         organization_dictionary.clear()
@@ -359,6 +372,7 @@ def read_in_org_dictionary(dict_file, dictionary='org', shallow=True, lower=Fals
         discourse_dictionary.clear()
     elif dictionary == 'term_relation':
         term_rel_dictionary.clear()
+
     with open(dict_file, 'r') as instream:
         for line in instream:
             add_dictionary_entry(line, dictionary, shallow, lower=lower, patent=patent)
