@@ -356,8 +356,6 @@ def read_in_nom_dict():
 #   @todo refactor all dictionary stuff into a separate module
 #
 def initialize_utilities():
-    # gglobal parentheses_pattern2
-    # global parentheses_pattern3
 
     read_in_pos_file()
     update_pos_dict()
@@ -389,26 +387,36 @@ def initialize_utilities():
 def read_in_stat_term_dict(indict, dict_dir=DICT_DIRECTORY):
     global stat_term_dict
     global stat_adj_dict
+
     stat_term_dict.clear()
     stat_adj_dict.clear()
+
     with open(dict_dir + indict) as instream:
         for line in instream.readlines():
             line_entry = line.strip().split('\t')
             stat_term_dict[line_entry[0]] = True
+
             if ' ' in line_entry[0]:
                 position: int = line_entry[0].index(' ')
                 first_word: str = line_entry[0][:position].lower()
             else:
                 first_word = line_entry[0].lower()
+
             pos = guess_pos(first_word, False)
+
             if pos in ['ADJECTIVE', 'SKIPABLE_ADJ', 'TECH_ADJECTIVE']:
                 if not first_word in stat_adj_dict:
                     stat_adj_dict[first_word] = 1
                 else:
                     stat_adj_dict[first_word] = stat_adj_dict[first_word] + 1
+
     adj_threshold = 5  ## not sure what this number should be
+
     for key in list(stat_adj_dict.keys()):
         if stat_adj_dict[key] < adj_threshold:
             stat_adj_dict.pop(key)
 
+    # @semanticbeeng @arch global state immutable
+    stat_term_dict = frozendict(stat_term_dict)
+    stat_adj_dict = frozendict(stat_adj_dict)
 
