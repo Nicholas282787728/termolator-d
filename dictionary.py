@@ -1,4 +1,5 @@
 import os
+from utilspie.collectionsutils import frozendict
 from typing import List, Dict
 from DataDef import File
 import term_utilities
@@ -230,7 +231,7 @@ def read_in_verb_morph_file() -> None:
 #
 #
 #
-def read_in_pos_file():
+def read_in_pos_file() -> None:
     global pos_dict
     global pos_file
     global jargon_files
@@ -253,6 +254,13 @@ def read_in_pos_file():
                 if word in pos_dict:
                     ## pos_dict.pop(word)
                     jargon_words.add(word)
+
+
+#
+# @semanticbeeng @arch global state immutable
+#
+def freeze_dict(dict: Dict) -> Dict:
+    return (frozendict(dict))
 
 
 #
@@ -327,12 +335,46 @@ def initialize_utilities():
     read_in_pos_file()
     update_pos_dict()
 
+    global pos_dict
+    # @semanticbeeng @arch global state immutable
+    pos_dict = freeze_dict(pos_dict)
+
     read_in_org_dictionary(ORG_DICTIONARY, dictionary='org', lower=True)
+    global organization_dictionary
+    # @semanticbeeng @arch global state immutable
+    organization_dictionary = freeze_dict(organization_dictionary)
+
     read_in_org_dictionary(LOC_DICTIONARY, dictionary='loc', lower=True)
+    global location_dictionary
+    # @semanticbeeng @arch global state immutable
+    location_dictionary = freeze_dict(location_dictionary)
+
     read_in_nom_map_dict()
+    global nom_map_dict
+    # @semanticbeeng @arch global state immutable
+    nom_map_dict = freeze_dict(nom_map_dict)
+
     read_in_verb_morph_file()
+    global verb_base_form_dict
+    # @semanticbeeng @arch global state immutable
+    verb_base_form_dict = freeze_dict(verb_base_form_dict)
+
+    global verb_variants_dict
+    # @semanticbeeng @arch global state immutable
+    verb_variants_dict = freeze_dict(verb_variants_dict)
+
     read_in_noun_morph_file()
+    global noun_base_form_dict
+    # @semanticbeeng @arch global state immutable
+    verb_base_form_dict = freeze_dict(verb_base_form_dict)
+
+    global plural_dict
+    # @semanticbeeng @arch global state immutable
+    plural_dict = freeze_dict(plural_dict)
+
     read_in_nom_dict()
+    global nom_dict
+    nom_dict = freeze_dict(nom_dict)
 
     if 'legal' in special_domains:
         term_utilities.parentheses_pattern2 = term_utilities.parentheses_pattern2b
