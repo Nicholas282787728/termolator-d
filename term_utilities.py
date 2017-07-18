@@ -1,5 +1,5 @@
 import os
-import random
+# import random
 import re
 from typing import List, Dict, Tuple, Pattern, Match, Optional
 from DataDef import File
@@ -566,7 +566,8 @@ def read_in_nom_dict():
 
 
 #
-#
+#   @semanticbeeng @todo @arch global state initialization
+#   @todo refactor all dictionary stuff into a separate module
 #
 def initialize_utilities():
     global parentheses_pattern2
