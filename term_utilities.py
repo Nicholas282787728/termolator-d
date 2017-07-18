@@ -18,6 +18,7 @@ LOC_DICTIONARY: File = File(DICT_DIRECTORY + 'location-lisp2-ugly.dict')
 # NAT_DICTIONARY = DICT_DIRECTORY + 'nationalities.dict'
 # DISC_DICTIONARY = DICT_DIRECTORY + 'discourse.dict'
 # TERM_REL_DICTIONARY = DICT_DIRECTORY + 'term_relation.dict'
+
 nom_file = DICT_DIRECTORY + 'NOMLIST.dict'
 pos_file = DICT_DIRECTORY + 'POS.dict'
 nom_map_file = DICT_DIRECTORY + 'nom_map.dict'
@@ -43,9 +44,9 @@ nom_dict: Dict[str, str] = {}
 pos_dict: Dict[str, List[str]] = {}
 jargon_words = set()  ## @arch shared static state
 pos_offset_table: Dict[int, str] = {}
-organization_dictionary: Dict[int, str] = {}
-location_dictionary: Dict[int, str] = {}
-nationality_dictionary: Dict[int, str] = {}
+organization_dictionary: Dict[str, Dict[str, str]] = {}
+location_dictionary: Dict[str, Dict[str, str]] = {}
+nationality_dictionary: Dict[str, Dict[str, str]] = {}
 nom_map_dict: Dict[int, str] = {}
 # unigram_dictionary = set()        # @semanticbeeng not used
 ## add all observed words (in the foreground set) to unigram_dictionary
@@ -257,6 +258,9 @@ def string_ender(string: str) -> bool:
     return (string[-1] == '"')
 
 
+#
+#
+#
 def process_lexicon_list(value: str) -> List[str]:
     output = []
     value = value.strip('()')
@@ -264,8 +268,10 @@ def process_lexicon_list(value: str) -> List[str]:
         value_list = value.split('"')
     else:
         value_list = value.split(' ')
+
     if "" in value_list:
         value_list.remove('')
+
     for item in value_list:
         item = item.strip(' ')
         if item != '':
@@ -280,6 +286,7 @@ def get_key_value(string: str) -> Tuple[str, str]:
     initial_list = string.partition(' ')
     key = initial_list[0]
     value = initial_list[2].strip(' ')
+
     if list_starter(value):
         if list_ender(value):
             value = process_lexicon_list(value)
@@ -287,30 +294,41 @@ def get_key_value(string: str) -> Tuple[str, str]:
             print('string', string)
             print('value', value)
             raise Exception('Current Program cannot handle recursive structures')
+
     elif string_starter(value) and string_ender(value):
         value = value.strip('"')
     return (key, value)
 
 
-def add_dictionary_entry(line, dictionary, shallow, lower=False, patent=False):
-    clean_line = line.strip(os.linesep + '(\t')
+#
+#
+#
+def add_dictionary_entry(line: str, dictionary: str, shallow: bool, lower: bool=False, patent: bool=False):
+
+    clean_line: str = line.strip(os.linesep + '(\t')
+
     if clean_line[-1] == ")":
         clean_line = clean_line[:-1]
+
     clean_line = fix_stray_colons(clean_line)
-    line_list = clean_line.split(':')
+    line_list: List[str] = clean_line.split(':')
+
     for index in range(len(line_list)):
         line_list[index] = return_stray_colons(line_list[index])
-    entry_type = line_list[0].strip(' ')
-    entry_dict = {}
-    current_key = False
-    current_value = False
-    started_string = False
+
+    # @semanticbeeng not used entry_type = line_list[0].strip(' ')
+    entry_dict: Dict[str, str] = {}
+    # @semanticbeeng not used current_key = False
+    # @semanticbeeng not used current_value = False
+    # @semanticbeeng not used started_string = False
+
     for key_value in line_list[1:]:
         key_value = key_value.strip(' ')
         key_value = get_key_value(key_value)
         key = key_value[0]
         value = key_value[1]
         entry_dict[key] = value
+
     if dictionary == 'org':
         if lower:
             orth = entry_dict['ORTH'].lower()
@@ -366,7 +384,7 @@ def add_dictionary_entry(line, dictionary, shallow, lower=False, patent=False):
 #
 #   @semanticbeeng @todo @arch global state initialization
 #
-def read_in_org_dictionary(dict_file: File, dictionary: str ='org', shallow: bool=True, lower: bool=False, patent: bool=False) -> None:
+def read_in_org_dictionary(dict_file: File, dictionary: str='org', shallow: bool=True, lower: bool=False, patent: bool=False) -> None:
     if dictionary == 'org':
         organization_dictionary.clear()
     elif dictionary == 'loc':
@@ -440,6 +458,7 @@ def read_in_verb_morph_file(infile=verb_morph_file):
 def read_in_pos_file(infile=pos_file):
     global pos_dict
     pos_dict.clear()
+
     for line in open(infile).readlines():
         line = line.strip()
         items = line.split('\t')
