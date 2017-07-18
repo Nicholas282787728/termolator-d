@@ -19,18 +19,18 @@ LOC_DICTIONARY: File = File(DICT_DIRECTORY + 'location-lisp2-ugly.dict')
 # DISC_DICTIONARY = DICT_DIRECTORY + 'discourse.dict'
 # TERM_REL_DICTIONARY = DICT_DIRECTORY + 'term_relation.dict'
 
-nom_file = DICT_DIRECTORY + 'NOMLIST.dict'
-pos_file = DICT_DIRECTORY + 'POS.dict'
-nom_map_file = DICT_DIRECTORY + 'nom_map.dict'
-person_name_file = DICT_DIRECTORY + 'person_name_list.dict'
-nat_name_file = DICT_DIRECTORY + 'nationalities_name_list.dict'
-skippable_adj_file = DICT_DIRECTORY + 'out_adjectives.dict'
-out_ing_file = DICT_DIRECTORY + 'out_ing.dict'
-time_name_file = DICT_DIRECTORY + 'time_names.dict'
-verb_morph_file = DICT_DIRECTORY + 'verb-morph-2000.dict'
-noun_morph_file = DICT_DIRECTORY + 'noun-morph-2000.dict'
+nom_file: File = File(DICT_DIRECTORY + 'NOMLIST.dict')
+pos_file: File = File(DICT_DIRECTORY + 'POS.dict')
+nom_map_file: File = File(DICT_DIRECTORY + 'nom_map.dict')
+person_name_file: File = File(DICT_DIRECTORY + 'person_name_list.dict')
+nat_name_file: File = File(DICT_DIRECTORY + 'nationalities_name_list.dict')
+skippable_adj_file: File = File(DICT_DIRECTORY + 'out_adjectives.dict')
+out_ing_file: File = File(DICT_DIRECTORY + 'out_ing.dict')
+time_name_file: File = File(DICT_DIRECTORY + 'time_names.dict')
+verb_morph_file: File = File(DICT_DIRECTORY + 'verb-morph-2000.dict')
+noun_morph_file: File = File(DICT_DIRECTORY + 'noun-morph-2000.dict')
 
-jargon_files = [DICT_DIRECTORY + 'chemicals.dict', DICT_DIRECTORY + 'more_jargon_words.dict']
+jargon_files: List[File] = [File(DICT_DIRECTORY + 'chemicals.dict'), File(DICT_DIRECTORY + 'more_jargon_words.dict')]
 dictionary_table: Dict[str, str] = {'legal': DICT_DIRECTORY + 'legal_dictionary.dict'}
 special_domains: List[str] = []
 
@@ -38,8 +38,8 @@ stat_adj_dict: Dict[str, int] = {}  ## @func comp_termChunker, @arch static stat
 stat_term_dict: Dict[str, bool] = {}  ## @func comp_termChunker, @arch static state
 noun_base_form_dict: Dict[str, str] = {}  ## @func comp_termChunker, @arch static state
 plural_dict: Dict[str, List[str]] = {}  ## @arch static state
-verb_base_form_dict: Dict[str, str] = {}  ## @arch static state
-verb_variants_dict: Dict[str, str] = {}  ## @arch static state
+verb_base_form_dict: Dict[str, List[str]] = {}  ## @arch static state
+verb_variants_dict: Dict[str, List[str]] = {}  ## @arch static state
 nom_dict: Dict[str, str] = {}
 pos_dict: Dict[str, List[str]] = {}
 jargon_words = set()  ## @arch shared static state
@@ -47,7 +47,7 @@ pos_offset_table: Dict[int, str] = {}
 organization_dictionary: Dict[str, Dict[str, str]] = {}
 location_dictionary: Dict[str, Dict[str, str]] = {}
 nationality_dictionary: Dict[str, Dict[str, str]] = {}
-nom_map_dict: Dict[int, str] = {}
+nom_map_dict: Dict[str, str] = {}
 # unigram_dictionary = set()        # @semanticbeeng not used
 ## add all observed words (in the foreground set) to unigram_dictionary
 
@@ -403,28 +403,41 @@ def read_in_org_dictionary(dict_file: File, dictionary: str='org', shallow: bool
             add_dictionary_entry(line, dictionary, shallow, lower=lower, patent=patent)
 
 
-def read_in_nom_map_dict(infile=nom_map_file):
+#
+#
+#
+def read_in_nom_map_dict() -> None:
+    global nom_map_file
     global nom_map_dict
-    for line in open(infile).readlines():
+
+    for line in nom_map_file.openText().readlines():
         word, nominalization = line.strip().split('\t')
         nom_map_dict[word] = nominalization
 
 
-## @func comp_termChunker
-def read_in_noun_morph_file(infile=noun_morph_file):
+#
+#   @semanticbeeng @todo global state initialization
+#   @func comp_termChunker
+#
+def read_in_noun_morph_file():
     global noun_base_form_dict
     global plural_dict
+    global noun_morph_file
+
     plural_dict.clear()
     noun_base_form_dict.clear()
-    for line in open(infile).readlines():
-        line_entry = line.strip().split('\t')
+
+    for line in noun_morph_file.openText().readlines():
+        line_entry: List[str] = line.strip().split('\t')
         word = line_entry[0]
         base = line_entry[1]
+
         if (word in noun_base_form_dict):
             if not (base in noun_base_form_dict[word]):
                 noun_base_form_dict[word].append(base)
         else:
             noun_base_form_dict[word] = [base]
+
     for word in noun_base_form_dict:
         if not (word in noun_base_form_dict[word]):
             for base_form in noun_base_form_dict[word]:
@@ -434,19 +447,27 @@ def read_in_noun_morph_file(infile=noun_morph_file):
                     plural_dict[base_form] = [word]
 
 
-def read_in_verb_morph_file(infile=verb_morph_file):
+#
+#   @semanticbeeng @todo @arch global state initialization
+#
+def read_in_verb_morph_file() -> None:
+    global verb_morph_file
     global verb_base_form_dict
     global verb_variants_dict
+
     verb_base_form_dict.clear()
     verb_variants_dict.clear()
-    for line in open(infile).readlines():
-        line_entry = line.strip().split('\t')
+
+    for line in verb_morph_file.openText().readlines():
+        line_entry: List[str] = line.strip().split('\t')
         word = line_entry[0]
         base = line_entry[1]
+
         if (word in verb_base_form_dict):
             verb_base_form_dict[word].append(base)
         else:
             verb_base_form_dict[word] = [base]
+
     for word in verb_base_form_dict:
         for base_form in verb_base_form_dict[word]:
             if base_form in verb_variants_dict:
@@ -455,31 +476,44 @@ def read_in_verb_morph_file(infile=verb_morph_file):
                 verb_variants_dict[base_form] = [word]
 
 
-def read_in_pos_file(infile=pos_file):
+#
+#
+#
+def read_in_pos_file():
     global pos_dict
+    global pos_file
+    global jargon_files
     pos_dict.clear()
 
-    for line in open(infile).readlines():
+    for line in pos_file.openText().readlines():
         line = line.strip()
         items = line.split('\t')
         pos_dict[items[0]] = items[1:]
+
     for dictionary in special_domains:
-        jargon_files.append(dictionary_table[dictionary])
+        jargon_files.append(File(dictionary_table[dictionary]))
+
     for jargon_file in jargon_files:
         ## remove jargon from dictionary
-        with open(jargon_file) as instream:
+        with jargon_file.openText() as instream:
             for line in instream.readlines():
-                word = line.strip()
+                word: str = line.strip()
                 word = word.lower()
                 if word in pos_dict:
                     ## pos_dict.pop(word)
                     jargon_words.add(word)
 
 
-def update_pos_dict(name_infiles=[person_name_file, nat_name_file], other_infiles=[skippable_adj_file, out_ing_file, time_name_file]):
+#
+#   Does not "update" but initializes pos_dict
+#   @semanticbeeng @todo @arch global state ??
+#
+def update_pos_dict(name_infiles: List[File]=[person_name_file, nat_name_file],
+                    other_infiles: List[File]=[skippable_adj_file, out_ing_file, time_name_file]) -> None:
     global pos_dict
+
     for infile in name_infiles:
-        for line in open(infile).readlines():
+        for line in infile.openText().readlines():
             line = line.strip()
             word, word_class = line.split('\t')
             word = word.lower()
@@ -487,33 +521,43 @@ def update_pos_dict(name_infiles=[person_name_file, nat_name_file], other_infile
                 pos_dict[word].append(word_class)
             else:
                 pos_dict[word] = [word_class]
+
     for infile in other_infiles:
-        for line in open(infile).readlines():
+        for line in infile.openText().readlines():
             line = line.strip()
-            out_list = line.split('\t')
+            out_list: List[str] = line.split('\t')
             word = out_list[0]
             word_class = out_list[1]
+
             if len(out_list) > 2:
                 flag = out_list[2]
             else:
-                flag = False
+                flag = None             # @semanticbeeng @todo static typing fix
             word = word.lower()
+
             if flag == 'ABSOLUTE':
                 pos_dict[word] = [word_class]
             elif word in pos_dict:
                 pos_dict[word].append(word_class)
             else:
                 pos_dict[word] = [word_class]
+
     for word in patent_stop_words:
         pos_dict[word] = ['OTHER']
         ## treat stop words as inadmissable parts of terms
+
     for word in NE_stop_words:
         pos_dict[word] = ['OTHER']
 
 
-def read_in_nom_dict(infile=nom_file):
+#
+#
+#
+def read_in_nom_dict():
     global nom_dict
-    for line in open(infile).readlines():
+    global nom_file
+
+    for line in nom_file.openText().readlines():
         nom_class, word = line.strip().split('\t')
         if word in nom_dict:
             nom_dict[word].append(nom_class)
@@ -521,17 +565,23 @@ def read_in_nom_dict(infile=nom_file):
             nom_dict[word] = [nom_class]
 
 
+#
+#
+#
 def initialize_utilities():
     global parentheses_pattern2
     global parentheses_pattern3
+
     read_in_pos_file()
     update_pos_dict()
+
     read_in_org_dictionary(ORG_DICTIONARY, dictionary='org', lower=True)
     read_in_org_dictionary(LOC_DICTIONARY, dictionary='loc', lower=True)
     read_in_nom_map_dict()
     read_in_verb_morph_file()
     read_in_noun_morph_file()
     read_in_nom_dict()
+
     if 'legal' in special_domains:
         parentheses_pattern2 = parentheses_pattern2b
         parentheses_pattern3 = parentheses_pattern3b
@@ -540,6 +590,9 @@ def initialize_utilities():
         parentheses_pattern3 = parentheses_pattern3a
 
 
+#
+#
+#
 def parentheses_pattern_match(instring: str, start: int, pattern_number: int) -> Optional[Match[str]]:
     if 'legal' in special_domains:
         if pattern_number == 2:
