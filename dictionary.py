@@ -137,6 +137,11 @@ def add_dictionary_entry(line: str, dictionary: str, shallow: bool, lower: bool=
 #   @semanticbeeng @todo @arch global state initialization
 #
 def read_in_org_dictionary(dict_file: File, dictionary: str='org', shallow: bool=True, lower: bool=False, patent: bool=False) -> None:
+
+    global organization_dictionary
+    global location_dictionary
+    global nationality_dictionary
+
     if dictionary == 'org':
         organization_dictionary.clear()
     elif dictionary == 'loc':
@@ -154,6 +159,14 @@ def read_in_org_dictionary(dict_file: File, dictionary: str='org', shallow: bool
         for line in instream.readlines():
             add_dictionary_entry(line, dictionary, shallow, lower=lower, patent=patent)
 
+    # @semanticbeeng @arch global state immutable
+    if dictionary == 'org':
+        organization_dictionary = freeze_dict(organization_dictionary)
+    elif dictionary == 'loc':
+        location_dictionary = freeze_dict(location_dictionary)
+    elif dictionary == 'nat':
+        nationality_dictionary = freeze_dict(nationality_dictionary)
+
 
 #
 #
@@ -166,12 +179,15 @@ def read_in_nom_map_dict() -> None:
         word, nominalization = line.strip().split('\t')
         nom_map_dict[word] = nominalization
 
+    # @semanticbeeng @arch global state immutable
+    nom_map_dict = freeze_dict(nom_map_dict)
+
 
 #
 #   @semanticbeeng @todo global state initialization
 #   @func comp_termChunker
 #
-def read_in_noun_morph_file():
+def read_in_noun_morph_file() -> None:
     global noun_base_form_dict
     global plural_dict
     global noun_morph_file
@@ -197,6 +213,10 @@ def read_in_noun_morph_file():
                     plural_dict[base_form].append(word)
                 else:
                     plural_dict[base_form] = [word]
+
+    # @semanticbeeng @arch global state immutable
+    plural_dict = freeze_dict(plural_dict)
+    noun_base_form_dict = freeze_dict(noun_base_form_dict)
 
 
 #
@@ -226,6 +246,10 @@ def read_in_verb_morph_file() -> None:
                 verb_variants_dict[base_form].append(word)
             else:
                 verb_variants_dict[base_form] = [word]
+
+    # @semanticbeeng @arch global state immutable
+    verb_base_form_dict = freeze_dict(verb_base_form_dict)
+    verb_variants_dict = freeze_dict(verb_variants_dict)
 
 
 #
@@ -259,8 +283,8 @@ def read_in_pos_file() -> None:
 #
 # @semanticbeeng @arch global state immutable
 #
-def freeze_dict(dict: Dict) -> Dict:
-    return (frozendict(dict))
+def freeze_dict(d: Dict) -> Dict:
+    return (frozendict(d))
 
 
 #
@@ -323,6 +347,9 @@ def read_in_nom_dict():
         else:
             nom_dict[word] = [nom_class]
 
+    # @semanticbeeng @arch global state immutable
+    nom_dict = freeze_dict(nom_dict)
+
 
 #
 #   @semanticbeeng @todo @arch global state initialization
@@ -340,41 +367,11 @@ def initialize_utilities():
     pos_dict = freeze_dict(pos_dict)
 
     read_in_org_dictionary(ORG_DICTIONARY, dictionary='org', lower=True)
-    global organization_dictionary
-    # @semanticbeeng @arch global state immutable
-    organization_dictionary = freeze_dict(organization_dictionary)
-
     read_in_org_dictionary(LOC_DICTIONARY, dictionary='loc', lower=True)
-    global location_dictionary
-    # @semanticbeeng @arch global state immutable
-    location_dictionary = freeze_dict(location_dictionary)
-
     read_in_nom_map_dict()
-    global nom_map_dict
-    # @semanticbeeng @arch global state immutable
-    nom_map_dict = freeze_dict(nom_map_dict)
-
     read_in_verb_morph_file()
-    global verb_base_form_dict
-    # @semanticbeeng @arch global state immutable
-    verb_base_form_dict = freeze_dict(verb_base_form_dict)
-
-    global verb_variants_dict
-    # @semanticbeeng @arch global state immutable
-    verb_variants_dict = freeze_dict(verb_variants_dict)
-
     read_in_noun_morph_file()
-    global noun_base_form_dict
-    # @semanticbeeng @arch global state immutable
-    verb_base_form_dict = freeze_dict(verb_base_form_dict)
-
-    global plural_dict
-    # @semanticbeeng @arch global state immutable
-    plural_dict = freeze_dict(plural_dict)
-
     read_in_nom_dict()
-    global nom_dict
-    nom_dict = freeze_dict(nom_dict)
 
     if 'legal' in special_domains:
         term_utilities.parentheses_pattern2 = term_utilities.parentheses_pattern2b
