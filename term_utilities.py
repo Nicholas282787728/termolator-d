@@ -10,11 +10,14 @@ from DataDef import File
 DICT_DIRECTORY = os.path.dirname(os.path.realpath(__file__)) + os.sep + "dicts" + os.sep
 ## DICT_DIRECTORY = '../'
 ## DICT_DIRECTORY = './'
-ORG_DICTIONARY = DICT_DIRECTORY + 'org_dict.txt'
-LOC_DICTIONARY = DICT_DIRECTORY + 'location-lisp2-ugly.dict'
-NAT_DICTIONARY = DICT_DIRECTORY + 'nationalities.dict'
-DISC_DICTIONARY = DICT_DIRECTORY + 'discourse.dict'
-TERM_REL_DICTIONARY = DICT_DIRECTORY + 'term_relation.dict'
+ORG_DICTIONARY: File = File(DICT_DIRECTORY + 'org_dict.txt')
+LOC_DICTIONARY: File = File(DICT_DIRECTORY + 'location-lisp2-ugly.dict')
+#
+#   @semanticbeeng not used
+#
+# NAT_DICTIONARY = DICT_DIRECTORY + 'nationalities.dict'
+# DISC_DICTIONARY = DICT_DIRECTORY + 'discourse.dict'
+# TERM_REL_DICTIONARY = DICT_DIRECTORY + 'term_relation.dict'
 nom_file = DICT_DIRECTORY + 'NOMLIST.dict'
 pos_file = DICT_DIRECTORY + 'POS.dict'
 nom_map_file = DICT_DIRECTORY + 'nom_map.dict'
@@ -327,41 +330,43 @@ def add_dictionary_entry(line, dictionary, shallow, lower=False, patent=False):
             orth = entry_dict['ORTH'].upper()
         nationality_dictionary[orth] = entry_dict
     elif dictionary in ['discourse', 'term_relation']:
-        if dictionary == 'discourse':
-            actual_dict = discourse_dictionary
-        else:
-            actual_dict = term_rel_dictionary
-        if shallow and ('SHALLOW_LOW_CONF' in entry_dict):
-            pass
-        elif ('PATENT_ONLY' in entry_dict) and (not patent):
-            pass
-        elif ('ARTICLE_ONLY' in entry_dict) and patent:
-            pass
-        elif 'FORMS' in entry_dict:
-            forms = entry_dict['FORMS']
-            entry_dict.pop('FORMS')
-            word = entry_dict.pop('ORTH')
-            word = word.lower()
-            for num in range(len(forms)):
-                forms[num] = forms[num].lower()
-            for form in forms:
-                new_entry = entry_dict.copy()
-                new_entry['ORTH'] = form
-                form = form.upper()
-                if form in actual_dict:
-                    actual_dict[form].append(new_entry)
-                else:
-                    actual_dict[form] = [new_entry]
-        elif entry_dict['ORTH'].upper() in actual_dict:
-            actual_dict[entry_dict['ORTH'].upper()].append(entry_dict)
-        else:
-            actual_dict[entry_dict['ORTH'].upper()] = [entry_dict]
+        raise Exception('undefined variable discourse_dictionary and term_rel_dictionary')       # @semanticbeeng @todo dead code
+        # if dictionary == 'discourse':
+        #     actual_dict = discourse_dictionary
+        # else:
+        #     actual_dict = term_rel_dictionary
+        #
+        # if shallow and ('SHALLOW_LOW_CONF' in entry_dict):
+        #     pass
+        # elif ('PATENT_ONLY' in entry_dict) and (not patent):
+        #     pass
+        # elif ('ARTICLE_ONLY' in entry_dict) and patent:
+        #     pass
+        # elif 'FORMS' in entry_dict:
+        #     forms = entry_dict['FORMS']
+        #     entry_dict.pop('FORMS')
+        #     word = entry_dict.pop('ORTH')
+        #     word = word.lower()
+        #     for num in range(len(forms)):
+        #         forms[num] = forms[num].lower()
+        #     for form in forms:
+        #         new_entry = entry_dict.copy()
+        #         new_entry['ORTH'] = form
+        #         form = form.upper()
+        #         if form in actual_dict:
+        #             actual_dict[form].append(new_entry)
+        #         else:
+        #             actual_dict[form] = [new_entry]
+        # elif entry_dict['ORTH'].upper() in actual_dict:
+        #     actual_dict[entry_dict['ORTH'].upper()].append(entry_dict)
+        # else:
+        #     actual_dict[entry_dict['ORTH'].upper()] = [entry_dict]
 
 
 #
 #   @semanticbeeng @todo @arch global state initialization
 #
-def read_in_org_dictionary(dict_file, dictionary='org', shallow=True, lower=False, patent=False):
+def read_in_org_dictionary(dict_file: File, dictionary: str ='org', shallow: bool=True, lower: bool=False, patent: bool=False) -> None:
     if dictionary == 'org':
         organization_dictionary.clear()
     elif dictionary == 'loc':
@@ -369,12 +374,14 @@ def read_in_org_dictionary(dict_file, dictionary='org', shallow=True, lower=Fals
     elif dictionary == 'nat':
         nationality_dictionary.clear()
     elif dictionary == 'discourse':
-        discourse_dictionary.clear()
+        raise Exception('undefined variable discourse_dictionary')       # @semanticbeeng @todo dead code
+        # discourse_dictionary.clear()
     elif dictionary == 'term_relation':
-        term_rel_dictionary.clear()
+        raise Exception('undefined variable term_rel_dictionary')       # @semanticbeeng @todo dead code
+        # term_rel_dictionary.clear()
 
-    with open(dict_file, 'r') as instream:
-        for line in instream:
+    with dict_file.openText('r') as instream:
+        for line in instream.readlines():
             add_dictionary_entry(line, dictionary, shallow, lower=lower, patent=patent)
 
 
