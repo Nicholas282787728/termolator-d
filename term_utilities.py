@@ -161,6 +161,7 @@ def evaluate_roman(string: str) -> int:
     for character in string:
         value_list.append(roman_value[character.lower()])
     last: int = value_list[0]
+
     for number in value_list[1:]:
         if last and (last < number):
             total = total + (number - last)
@@ -239,8 +240,11 @@ def process_lexicon_list(value: str) -> List[str]:
 #
 #   @semanticbeeng @todo static type - conflict between List and Tuple; maybe to a conversion?
 #
-def get_key_value(string: str) -> Tuple[str, str]:
-    initial_list = string.partition(' ')
+def get_key_value(string: str) -> List[str]:
+    # (p1, p2, _) = string.partition(' ')     # @todo initial_list
+    # key = p1                # @todo initial_list[0]
+    # value = p2.strip(' ')   # @todo initial_list[2].strip(' ')
+    initial_list: Tuple[str, str, str] = string.partition(' ')
     key = initial_list[0]
     value = initial_list[2].strip(' ')
 
@@ -254,8 +258,7 @@ def get_key_value(string: str) -> Tuple[str, str]:
 
     elif string_starter(value) and string_ender(value):
         value = value.strip('"')
-    return (key, value)
-
+    return [key, value]         # @semanticbeeng @todo verify okay to return List
 
 
 #
@@ -274,7 +277,7 @@ def parentheses_pattern_match(instring: str, start: int, pattern_number: int) ->
             return (parentheses_pattern3a.search(instring, start))
 
 
-def breakup_line_into_chunks(inline, difference):
+def breakup_line_into_chunks(inline: str, difference: int) -> List[str]:
     size = 1000
     start = 0
     if difference == 0:

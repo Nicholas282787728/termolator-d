@@ -37,7 +37,7 @@ special_domains: List[str] = []
 
 stat_adj_dict: Dict[str, int] = {}  ## @func comp_termChunker, @arch static state
 stat_term_dict: Dict[str, bool] = {}  ## @func comp_termChunker, @arch static state
-noun_base_form_dict: Dict[str, str] = {}  ## @func comp_termChunker, @arch static state
+noun_base_form_dict: Dict[str, List[str]] = {}  ## @func comp_termChunker, @arch static state
 plural_dict: Dict[str, List[str]] = {}  ## @arch static state
 verb_base_form_dict: Dict[str, List[str]] = {}  ## @arch static state
 verb_variants_dict: Dict[str, List[str]] = {}  ## @arch static state
@@ -75,10 +75,10 @@ def add_dictionary_entry(line: str, dictionary: str, shallow: bool, lower: bool=
     # @semanticbeeng not used started_string = False
 
     for key_value in line_list[1:]:
-        key_value = key_value.strip(' ')
-        key_value = term_utilities.get_key_value(key_value)
-        key = key_value[0]
-        value = key_value[1]
+        # kv: str = key_value.strip(' ')
+        kv = term_utilities.get_key_value(key_value.strip(' '))
+        key = kv[0]
+        value = kv[1]
         entry_dict[key] = value
 
     if dictionary == 'org':
