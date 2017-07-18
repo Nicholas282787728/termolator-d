@@ -1,55 +1,19 @@
 import os
 # import random
+import dictionary
 import re
 from typing import List, Dict, Tuple, Pattern, Match, Optional
 from DataDef import File
 
-##
-#   Dictionaries
-#
-DICT_DIRECTORY = os.path.dirname(os.path.realpath(__file__)) + os.sep + "dicts" + os.sep
-## DICT_DIRECTORY = '../'
-## DICT_DIRECTORY = './'
-ORG_DICTIONARY: File = File(DICT_DIRECTORY + 'org_dict.txt')
-LOC_DICTIONARY: File = File(DICT_DIRECTORY + 'location-lisp2-ugly.dict')
-#
-#   @semanticbeeng not used
-#
-# NAT_DICTIONARY = DICT_DIRECTORY + 'nationalities.dict'
-# DISC_DICTIONARY = DICT_DIRECTORY + 'discourse.dict'
-# TERM_REL_DICTIONARY = DICT_DIRECTORY + 'term_relation.dict'
-
-nom_file: File = File(DICT_DIRECTORY + 'NOMLIST.dict')
-pos_file: File = File(DICT_DIRECTORY + 'POS.dict')
-nom_map_file: File = File(DICT_DIRECTORY + 'nom_map.dict')
-person_name_file: File = File(DICT_DIRECTORY + 'person_name_list.dict')
-nat_name_file: File = File(DICT_DIRECTORY + 'nationalities_name_list.dict')
-skippable_adj_file: File = File(DICT_DIRECTORY + 'out_adjectives.dict')
-out_ing_file: File = File(DICT_DIRECTORY + 'out_ing.dict')
-time_name_file: File = File(DICT_DIRECTORY + 'time_names.dict')
-verb_morph_file: File = File(DICT_DIRECTORY + 'verb-morph-2000.dict')
-noun_morph_file: File = File(DICT_DIRECTORY + 'noun-morph-2000.dict')
-
-jargon_files: List[File] = [File(DICT_DIRECTORY + 'chemicals.dict'), File(DICT_DIRECTORY + 'more_jargon_words.dict')]
-dictionary_table: Dict[str, str] = {'legal': DICT_DIRECTORY + 'legal_dictionary.dict'}
-special_domains: List[str] = []
-
-stat_adj_dict: Dict[str, int] = {}  ## @func comp_termChunker, @arch static state
-stat_term_dict: Dict[str, bool] = {}  ## @func comp_termChunker, @arch static state
-noun_base_form_dict: Dict[str, str] = {}  ## @func comp_termChunker, @arch static state
-plural_dict: Dict[str, List[str]] = {}  ## @arch static state
-verb_base_form_dict: Dict[str, List[str]] = {}  ## @arch static state
-verb_variants_dict: Dict[str, List[str]] = {}  ## @arch static state
-nom_dict: Dict[str, str] = {}
-pos_dict: Dict[str, List[str]] = {}
-jargon_words = set()  ## @arch shared static state
 pos_offset_table: Dict[int, str] = {}
-organization_dictionary: Dict[str, Dict[str, str]] = {}
-location_dictionary: Dict[str, Dict[str, str]] = {}
-nationality_dictionary: Dict[str, Dict[str, str]] = {}
-nom_map_dict: Dict[str, str] = {}
-# unigram_dictionary = set()        # @semanticbeeng not used
-## add all observed words (in the foreground set) to unigram_dictionary
+
+## abbreviate patterns -- the b patterns ignore square brackets
+# global parentheses_pattern2
+# global parentheses_pattern3
+parentheses_pattern2a: Pattern[str] = re.compile(r'[(\[]([ \t]*)([^)\]]*)([)\]]|$)')
+parentheses_pattern3a: Pattern[str] = re.compile(r'(\s|^)[(\[]([^)\]]*)([)\]]|$)([^a-zA-Z0-9-]|$)')
+parentheses_pattern2b: Pattern[str] = re.compile(r'[(]([ \t]*)([^)]*)([)]|$)')
+parentheses_pattern3b: Pattern[str] = re.compile(r'(\s|^)[(]([^)]*)([)\]]|$)([^a-zA-Z0-9-]|$)')
 
 
 closed_class_stop_words: List[str] = \
@@ -150,13 +114,6 @@ xml_pattern: Pattern[str] = re.compile(r'<([/!?]?)([a-z?\-]+)[^>]*>', re.I)
 
 xml_string: str = '<([/!?]?)([a-z?\-]+)[^>]*>'
 
-## abbreviate patterns -- the b patterns ignore square brackets
-# global parentheses_pattern2
-# global parentheses_pattern3
-parentheses_pattern2a: Pattern[str] = re.compile(r'[(\[]([ \t]*)([^)\]]*)([)\]]|$)')
-parentheses_pattern3a: Pattern[str] = re.compile(r'(\s|^)[(\[]([^)\]]*)([)\]]|$)([^a-zA-Z0-9-]|$)')
-parentheses_pattern2b: Pattern[str] = re.compile(r'[(]([ \t]*)([^)]*)([)]|$)')
-parentheses_pattern3b: Pattern[str] = re.compile(r'(\s|^)[(]([^)]*)([)\]]|$)([^a-zA-Z0-9-]|$)')
 
 html_fields_to_remove = ['style', 'script']
 
@@ -300,302 +257,12 @@ def get_key_value(string: str) -> Tuple[str, str]:
     return (key, value)
 
 
-#
-#
-#
-def add_dictionary_entry(line: str, dictionary: str, shallow: bool, lower: bool=False, patent: bool=False):
-
-    clean_line: str = line.strip(os.linesep + '(\t')
-
-    if clean_line[-1] == ")":
-        clean_line = clean_line[:-1]
-
-    clean_line = fix_stray_colons(clean_line)
-    line_list: List[str] = clean_line.split(':')
-
-    for index in range(len(line_list)):
-        line_list[index] = return_stray_colons(line_list[index])
-
-    # @semanticbeeng not used entry_type = line_list[0].strip(' ')
-    entry_dict: Dict[str, str] = {}
-    # @semanticbeeng not used current_key = False
-    # @semanticbeeng not used current_value = False
-    # @semanticbeeng not used started_string = False
-
-    for key_value in line_list[1:]:
-        key_value = key_value.strip(' ')
-        key_value = get_key_value(key_value)
-        key = key_value[0]
-        value = key_value[1]
-        entry_dict[key] = value
-
-    if dictionary == 'org':
-        if lower:
-            orth = entry_dict['ORTH'].lower()
-        else:
-            orth = entry_dict['ORTH'].upper()
-        organization_dictionary[orth] = entry_dict
-    elif dictionary == 'loc':
-        if lower:
-            orth = entry_dict['ORTH'].lower()
-        else:
-            orth = entry_dict['ORTH'].upper()
-        location_dictionary[orth] = entry_dict
-    elif dictionary == 'nat':
-        if lower:
-            orth = entry_dict['ORTH'].lower()
-        else:
-            orth = entry_dict['ORTH'].upper()
-        nationality_dictionary[orth] = entry_dict
-    elif dictionary in ['discourse', 'term_relation']:
-        raise Exception('undefined variable discourse_dictionary and term_rel_dictionary')       # @semanticbeeng @todo dead code
-        # if dictionary == 'discourse':
-        #     actual_dict = discourse_dictionary
-        # else:
-        #     actual_dict = term_rel_dictionary
-        #
-        # if shallow and ('SHALLOW_LOW_CONF' in entry_dict):
-        #     pass
-        # elif ('PATENT_ONLY' in entry_dict) and (not patent):
-        #     pass
-        # elif ('ARTICLE_ONLY' in entry_dict) and patent:
-        #     pass
-        # elif 'FORMS' in entry_dict:
-        #     forms = entry_dict['FORMS']
-        #     entry_dict.pop('FORMS')
-        #     word = entry_dict.pop('ORTH')
-        #     word = word.lower()
-        #     for num in range(len(forms)):
-        #         forms[num] = forms[num].lower()
-        #     for form in forms:
-        #         new_entry = entry_dict.copy()
-        #         new_entry['ORTH'] = form
-        #         form = form.upper()
-        #         if form in actual_dict:
-        #             actual_dict[form].append(new_entry)
-        #         else:
-        #             actual_dict[form] = [new_entry]
-        # elif entry_dict['ORTH'].upper() in actual_dict:
-        #     actual_dict[entry_dict['ORTH'].upper()].append(entry_dict)
-        # else:
-        #     actual_dict[entry_dict['ORTH'].upper()] = [entry_dict]
-
-
-#
-#   @semanticbeeng @todo @arch global state initialization
-#
-def read_in_org_dictionary(dict_file: File, dictionary: str='org', shallow: bool=True, lower: bool=False, patent: bool=False) -> None:
-    if dictionary == 'org':
-        organization_dictionary.clear()
-    elif dictionary == 'loc':
-        location_dictionary.clear()
-    elif dictionary == 'nat':
-        nationality_dictionary.clear()
-    elif dictionary == 'discourse':
-        raise Exception('undefined variable discourse_dictionary')       # @semanticbeeng @todo dead code
-        # discourse_dictionary.clear()
-    elif dictionary == 'term_relation':
-        raise Exception('undefined variable term_rel_dictionary')       # @semanticbeeng @todo dead code
-        # term_rel_dictionary.clear()
-
-    with dict_file.openText('r') as instream:
-        for line in instream.readlines():
-            add_dictionary_entry(line, dictionary, shallow, lower=lower, patent=patent)
-
-
-#
-#
-#
-def read_in_nom_map_dict() -> None:
-    global nom_map_file
-    global nom_map_dict
-
-    for line in nom_map_file.openText().readlines():
-        word, nominalization = line.strip().split('\t')
-        nom_map_dict[word] = nominalization
-
-
-#
-#   @semanticbeeng @todo global state initialization
-#   @func comp_termChunker
-#
-def read_in_noun_morph_file():
-    global noun_base_form_dict
-    global plural_dict
-    global noun_morph_file
-
-    plural_dict.clear()
-    noun_base_form_dict.clear()
-
-    for line in noun_morph_file.openText().readlines():
-        line_entry: List[str] = line.strip().split('\t')
-        word = line_entry[0]
-        base = line_entry[1]
-
-        if (word in noun_base_form_dict):
-            if not (base in noun_base_form_dict[word]):
-                noun_base_form_dict[word].append(base)
-        else:
-            noun_base_form_dict[word] = [base]
-
-    for word in noun_base_form_dict:
-        if not (word in noun_base_form_dict[word]):
-            for base_form in noun_base_form_dict[word]:
-                if base_form in plural_dict:
-                    plural_dict[base_form].append(word)
-                else:
-                    plural_dict[base_form] = [word]
-
-
-#
-#   @semanticbeeng @todo @arch global state initialization
-#
-def read_in_verb_morph_file() -> None:
-    global verb_morph_file
-    global verb_base_form_dict
-    global verb_variants_dict
-
-    verb_base_form_dict.clear()
-    verb_variants_dict.clear()
-
-    for line in verb_morph_file.openText().readlines():
-        line_entry: List[str] = line.strip().split('\t')
-        word = line_entry[0]
-        base = line_entry[1]
-
-        if (word in verb_base_form_dict):
-            verb_base_form_dict[word].append(base)
-        else:
-            verb_base_form_dict[word] = [base]
-
-    for word in verb_base_form_dict:
-        for base_form in verb_base_form_dict[word]:
-            if base_form in verb_variants_dict:
-                verb_variants_dict[base_form].append(word)
-            else:
-                verb_variants_dict[base_form] = [word]
-
-
-#
-#
-#
-def read_in_pos_file():
-    global pos_dict
-    global pos_file
-    global jargon_files
-    pos_dict.clear()
-
-    for line in pos_file.openText().readlines():
-        line = line.strip()
-        items = line.split('\t')
-        pos_dict[items[0]] = items[1:]
-
-    for dictionary in special_domains:
-        jargon_files.append(File(dictionary_table[dictionary]))
-
-    for jargon_file in jargon_files:
-        ## remove jargon from dictionary
-        with jargon_file.openText() as instream:
-            for line in instream.readlines():
-                word: str = line.strip()
-                word = word.lower()
-                if word in pos_dict:
-                    ## pos_dict.pop(word)
-                    jargon_words.add(word)
-
-
-#
-#   Does not "update" but initializes pos_dict
-#   @semanticbeeng @todo @arch global state ??
-#
-def update_pos_dict(name_infiles: List[File]=[person_name_file, nat_name_file],
-                    other_infiles: List[File]=[skippable_adj_file, out_ing_file, time_name_file]) -> None:
-    global pos_dict
-
-    for infile in name_infiles:
-        for line in infile.openText().readlines():
-            line = line.strip()
-            word, word_class = line.split('\t')
-            word = word.lower()
-            if word in pos_dict:
-                pos_dict[word].append(word_class)
-            else:
-                pos_dict[word] = [word_class]
-
-    for infile in other_infiles:
-        for line in infile.openText().readlines():
-            line = line.strip()
-            out_list: List[str] = line.split('\t')
-            word = out_list[0]
-            word_class = out_list[1]
-
-            if len(out_list) > 2:
-                flag = out_list[2]
-            else:
-                flag = None             # @semanticbeeng @todo static typing fix
-            word = word.lower()
-
-            if flag == 'ABSOLUTE':
-                pos_dict[word] = [word_class]
-            elif word in pos_dict:
-                pos_dict[word].append(word_class)
-            else:
-                pos_dict[word] = [word_class]
-
-    for word in patent_stop_words:
-        pos_dict[word] = ['OTHER']
-        ## treat stop words as inadmissable parts of terms
-
-    for word in NE_stop_words:
-        pos_dict[word] = ['OTHER']
-
-
-#
-#
-#
-def read_in_nom_dict():
-    global nom_dict
-    global nom_file
-
-    for line in nom_file.openText().readlines():
-        nom_class, word = line.strip().split('\t')
-        if word in nom_dict:
-            nom_dict[word].append(nom_class)
-        else:
-            nom_dict[word] = [nom_class]
-
-
-#
-#   @semanticbeeng @todo @arch global state initialization
-#   @todo refactor all dictionary stuff into a separate module
-#
-def initialize_utilities():
-    global parentheses_pattern2
-    global parentheses_pattern3
-
-    read_in_pos_file()
-    update_pos_dict()
-
-    read_in_org_dictionary(ORG_DICTIONARY, dictionary='org', lower=True)
-    read_in_org_dictionary(LOC_DICTIONARY, dictionary='loc', lower=True)
-    read_in_nom_map_dict()
-    read_in_verb_morph_file()
-    read_in_noun_morph_file()
-    read_in_nom_dict()
-
-    if 'legal' in special_domains:
-        parentheses_pattern2 = parentheses_pattern2b
-        parentheses_pattern3 = parentheses_pattern3b
-    else:
-        parentheses_pattern2 = parentheses_pattern2a
-        parentheses_pattern3 = parentheses_pattern3a
-
 
 #
 #
 #
 def parentheses_pattern_match(instring: str, start: int, pattern_number: int) -> Optional[Match[str]]:
-    if 'legal' in special_domains:
+    if 'legal' in dictionary.special_domains:
         if pattern_number == 2:
             return (parentheses_pattern2b.search(instring, start))
         else:
@@ -778,6 +445,7 @@ def get_lines_from_file(infile: File) -> List[str]:
 def load_pos_offset_table(pos_file):
     global pos_offset_table
     pos_offset_table.clear()
+
     if os.path.isfile(pos_file):
         with open(pos_file) as instream:
             for line in instream.readlines():
@@ -837,8 +505,8 @@ def resolve_differences_with_pos_tagger(word, offset, dict_pos, tagger_pos):
 def closed_class_conflict(word):
     if word in closed_class_stop_words:
         return (True)
-    elif (word in noun_base_form_dict):
-        for base in (noun_base_form_dict[word]):
+    elif (word in dictionary.noun_base_form_dict):
+        for base in (dictionary.noun_base_form_dict[word]):
             if base in closed_class_stop_words:
                 return (True)
 
@@ -860,44 +528,14 @@ def verbal_profile(word):
     if (len(word) > 5) and re.search('[aeiou][b-df-hj-np-ts-z]ed$', word):
         return (True)
 
-#
-# @semanticbeeng @arch global state mutation
-# @semanticbeeng @func comp_termChunker
-#
-def read_in_stat_term_dict(indict, dict_dir=DICT_DIRECTORY):
-    global stat_term_dict
-    global stat_adj_dict
-    stat_term_dict.clear()
-    stat_adj_dict.clear()
-    with open(dict_dir + indict) as instream:
-        for line in instream.readlines():
-            line_entry = line.strip().split('\t')
-            stat_term_dict[line_entry[0]] = True
-            if ' ' in line_entry[0]:
-                position: int = line_entry[0].index(' ')
-                first_word: str = line_entry[0][:position].lower()
-            else:
-                first_word = line_entry[0].lower()
-            pos = guess_pos(first_word, False)
-            if pos in ['ADJECTIVE', 'SKIPABLE_ADJ', 'TECH_ADJECTIVE']:
-                if not first_word in stat_adj_dict:
-                    stat_adj_dict[first_word] = 1
-                else:
-                    stat_adj_dict[first_word] = stat_adj_dict[first_word] + 1
-    adj_threshold = 5  ## not sure what this number should be
-    for key in list(stat_adj_dict.keys()):
-        if stat_adj_dict[key] < adj_threshold:
-            stat_adj_dict.pop(key)
-
-
 def nom_class(word, pos):
     if word in ['invention', 'inventions']:
         return (0)
     ## invention (patents) is usually a self-citation and we want to
     ## downgrade its score
-    elif word in nom_dict:
+    elif word in dictionary.nom_dict:
         rank = 0
-        for feature in nom_dict[word]:
+        for feature in dictionary.nom_dict[word]:
             if feature in ['NOM', 'NOMLIKE', 'ABLE-NOM']:
                 ## 'NOMADJ', 'NOMADJLIKE'
                 ## secondary: ability, attribute, type, group
@@ -973,8 +611,8 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
     if (len(word) == 1) and not word.isalnum():
         return ('OTHER')
 
-    if word in pos_dict:
-        pos = pos_dict[word][:]
+    if word in dictionary.pos_dict:
+        pos = dictionary.pos_dict[word][:]
         if not possessive:
             pos = resolve_differences_with_pos_tagger(word, offset, pos, tagger_pos)
         if ('PERSON_NAME' in pos) and (not is_capital):
@@ -982,7 +620,7 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
             if len(pos) == 0:
                 pos.append('NOUN_OOV')
         ## initially set pos based on dictionary
-        if (word in nom_dict) and ('NOM' in nom_dict[word]):
+        if (word in dictionary.nom_dict) and ('NOM' in dictionary.nom_dict[word]):
             is_nom = True
         else:
             is_nom = False
@@ -997,12 +635,12 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
                     ('CCONJ' in pos) or ('PRONOUN' in pos) or \
                     ('TITLE' in pos) or ('SCONJ' in pos):
                 return ('OTHER')
-            elif (('SKIPABLE_ADJ' in pos) or ('ORDINAL' in pos)) and (not term_dict_check(word.lower(), stat_adj_dict)):
+            elif (('SKIPABLE_ADJ' in pos) or ('ORDINAL' in pos)) and (not term_dict_check(word.lower(), dictionary.stat_adj_dict)):
                 return ('SKIPABLE_ADJ')
             elif (('NOUN' in pos) or ('NOUN_OOV' in pos)) and not closed_class_conflict(word):
                 if possessive:
                     return ('AMBIG_POSSESS')
-                elif (len(word) > 1) and (word[-1] == 's') and (word in noun_base_form_dict) and (not (word in noun_base_form_dict[word])):
+                elif (len(word) > 1) and (word[-1] == 's') and (word in dictionary.noun_base_form_dict) and (not (word in dictionary.noun_base_form_dict[word])):
                     return ('AMBIG_PLURAL')
                 else:
                     return ('AMBIG_NOUN')
@@ -1019,7 +657,7 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
             if (('NOUN' in pos) or ('NOUN_OOV' in pos)):
                 if possessive:
                     return ('POSSESS')
-                elif (len(word) > 1) and (word[-1] == 's') and (word in noun_base_form_dict) and (not (word in noun_base_form_dict[word])):
+                elif (len(word) > 1) and (word[-1] == 's') and (word in dictionary.noun_base_form_dict) and (not (word in dictionary.noun_base_form_dict[word])):
                     return ('PLURAL')
                 ## plurals are nouns ending in 's' and that are not base forms
                 elif 'NOUN_OOV' in pos:
@@ -1037,7 +675,7 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
                 return ('DET')
             elif 'PREP' in pos:
                 return ('PREP')
-            elif (('SKIPABLE_ADJ' in pos) or ('ORDINAL' in pos)) and not (term_dict_check(word.lower(), stat_adj_dict)):
+            elif (('SKIPABLE_ADJ' in pos) or ('ORDINAL' in pos)) and not (term_dict_check(word.lower(), dictionary.stat_adj_dict)):
                 return ('SKIPABLE_ADJ')
             elif 'ADJECTIVE' in pos:
                 if technical_adj(word):
@@ -1063,8 +701,8 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
             return (guess_pos(little_words[0], is_capital))     # @semanticbeeng todo !!
             # return (guess_pos(little_words[0]), is_capital)
 
-        if little_words[1] in pos_dict:  ## the last word
-            last_pos = pos_dict[little_words[1]][:]
+        if little_words[1] in dictionary.pos_dict:  ## the last word
+            last_pos = dictionary.pos_dict[little_words[1]][:]
             first_pos = guess_pos(little_words[0], little_words[0].istitle())
             first_word = little_words[0].lower()
             if first_pos == 'NOUN_OOV':
@@ -1082,7 +720,7 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
             elif 'PERSON_NAME' in last_pos:
                 return ('NOUN')
             elif 'SKIPABLE_ADJ' in pos:
-                if term_dict_check(word.lower(), stat_adj_dict):
+                if term_dict_check(word.lower(), dictionary.stat_adj_dict):
                     if technical_adj(word):
                         return ('TECH_ADJECTIVE')
                     else:
@@ -1092,13 +730,13 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
             elif 'ADJECTIVE' in last_pos:
                 if technical_adj(word):
                     return ('TECH_ADJECTIVE')
-                elif (first_pos == 'NOUN') and ((not first_word in pos_dict) or (nom_class(first_word, first_pos) > 1)):
+                elif (first_pos == 'NOUN') and ((not first_word in dictionary.pos_dict) or (nom_class(first_word, first_pos) > 1)):
                     return ('TECH_ADJECTIVE')
                 else:
                     return ('ADJECTIVE')
             elif 'VERB' in last_pos:
                 if word.endswith('ed') or word.endswith('ing'):
-                    if (first_pos == 'NOUN') and ((not first_word in pos_dict) or (nom_class(first_word, first_pos) > 1)):
+                    if (first_pos == 'NOUN') and ((not first_word in dictionary.pos_dict) or (nom_class(first_word, first_pos) > 1)):
                         return ('TECH_ADJECTIVE')
                     else:
                         return ('ADJECTIVE')
@@ -1205,8 +843,8 @@ def get_integrated_line_attribute_value_structure_no_list(line: str, types: List
 def derive_plurals(word: str) -> List[str]:
     ## the dictionary plurals, actually includes -ing forms of verbs as well
     ## and regularizes them to verbs (which may or may not also be nouns)
-    if word in plural_dict:
-        return (plural_dict[word])
+    if word in dictionary.plural_dict:
+        return (dictionary.plural_dict[word])
     elif len(word) <= 1:
         return ([])     # @semanticbeeng static type @todo
     elif (word[-1] in 'sxz') or (word[-2:] in ['sh', 'ch']):

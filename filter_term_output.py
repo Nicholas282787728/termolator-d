@@ -2,10 +2,10 @@
 
 from filter_terms import *
 from DataDef import File
-
+import dictionary
 
 def main(args):
-    global special_domains
+    # global special_domains
 
     file_prefix = args[1]
     web_score_dict_file = args[2]
@@ -20,9 +20,9 @@ def main(args):
     max_term_number = int(args[4])
 
     if (len(args) > 5) and (args[5].lower() != 'false'):
-        special_domains.extend(args[5].split('+'))              # @semanticbeeng @todo @arch global state initialization
+        dictionary.special_domains.extend(args[5].split('+'))              # @semanticbeeng @todo @arch global state initialization
 
-    initialize_utilities()
+    dictionary.initialize_utilities()
 
     input_file = file_prefix + ".all_terms"
     output_file = file_prefix + ".scored_output"

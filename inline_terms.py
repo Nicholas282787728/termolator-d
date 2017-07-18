@@ -2,6 +2,7 @@ import sys
 from typing import List, Dict, Pattern, Match
 
 from abbreviate import *
+import dictionary
 
 et_al_citation: Pattern[str] = re.compile(' et[.]? al[.]? *$')
 ok_path_types = ['url']  ##  currently 'ratio' is not an ok_path_type
@@ -16,8 +17,9 @@ lemma_dict: Dict[str, str] = {}
 
 ## @func comp_termChunker
 def derive_base_form_from_plural(word: str):
-    if word in noun_base_form_dict:
-        return (noun_base_form_dict[word])
+
+    if word in dictionary.noun_base_form_dict:
+        return (dictionary.noun_base_form_dict[word])
     elif (len(word) > 3) and (word[-3:] == 'ies'):
         return ([word[:-3] + 'y', word[:-2]])
     elif len(word) > 2 and (word[-2:] == 'es'):
@@ -29,7 +31,7 @@ def derive_base_form_from_plural(word: str):
 
 
 def nationality_check(term_lower: str):
-    if (term_lower in pos_dict) and ('NATIONALITY' in pos_dict[term_lower]):
+    if (term_lower in dictionary.pos_dict) and ('NATIONALITY' in dictionary.pos_dict[term_lower]):
         return (True)
 
 
@@ -77,7 +79,7 @@ def topic_term_ok(word_list: List[str], pos_list: List[str], term_string: str):
     elif (len(term_string) == 2) and (("." in term_string) or (term_string[1] in '0123456789')):
         ## a single initial is not a term
         return (False, False)
-    elif term_dict_check(term_string.lower(), stat_term_dict):
+    elif term_dict_check(term_string.lower(), dictionary.stat_term_dict):
         ## return(True,False)
         signif_term = 1
     elif term_stop_words_with_periods.search(term_string):
@@ -109,20 +111,20 @@ def topic_term_ok(word_list: List[str], pos_list: List[str], term_string: str):
             allcaps = True
         else:
             allcaps = False
-        if term_dict_check(lower, stat_term_dict):
+        if term_dict_check(lower, dictionary.stat_term_dict):
             signif_term = signif_term + 1
         if (not alpha) and re.search('[a-zA-Z]', lower):
             alpha = True
-        if lower in pos_dict:
-            if ('NOUN' in pos_dict[lower]) and (len(lower) < 8):
+        if lower in dictionary.pos_dict:
+            if ('NOUN' in dictionary.pos_dict[lower]) and (len(lower) < 8):
                 common = True
             if 'NOUN_OOV' == pos_list[num]:
                 oov = True
                 OOV_count = 1 + OOV_count
-            elif lower in jargon_words:
+            elif lower in dictionary.jargon_words:
                 jargon_word_count = jargon_word_count + 1
-            if lower in noun_base_form_dict:
-                base = noun_base_form_dict[lower][0]
+            if lower in dictionary.noun_base_form_dict:
+                base = dictionary.noun_base_form_dict[lower][0]
             else:
                 base = lower
         elif ugly_word(lower):
@@ -308,8 +310,8 @@ def is_nom_piece(word):
     lower = word.lower()
     if lower in ['invention', 'inventions']:
         return (False)
-    if (lower in noun_base_form_dict) and (lower[-1] == 's'):
-        base = noun_base_form_dict[lower][0]
+    if (lower in dictionary.noun_base_form_dict) and (lower[-1] == 's'):
+        base = dictionary.noun_base_form_dict[lower][0]
     else:
         base = lower
     nom_rank = nom_class(base, 'NOUN')
@@ -652,7 +654,7 @@ def get_topic_terms(text, offset, filter_off=False):
                 Fail = True
             else:
                 previous_words = remove_empties(word_split_pattern.split(text[start:search_end].rstrip(' ')))
-            if Fail or (not abbreviation) or ((not abbreviation.isupper()) and (abbreviation in pos_dict)):
+            if Fail or (not abbreviation) or ((not abbreviation.isupper()) and (abbreviation in dictionary.pos_dict)):
                 result = False
             else:
                 ## lowercase nouns in pos_dict are probably not really abbreviations
@@ -936,14 +938,14 @@ def get_topic_terms(text, offset, filter_off=False):
                             first_piece = False
                     elif current_out_list and (last_pos == 'NOUN_OOV') and \
                             ((not piece3 in signal_set) or is_capital) and \
-                            ((pos in ['TECH_ADJECTIVE', 'NATIONALITY_ADJ']) or ((pos == 'ADJECTIVE') and (is_capital or (term_dict_check(piece3, stat_adj_dict))))):
+                            ((pos in ['TECH_ADJECTIVE', 'NATIONALITY_ADJ']) or ((pos == 'ADJECTIVE') and (is_capital or (term_dict_check(piece3, dictionary.stat_adj_dict))))):
                         current_out_list.append(piece3)
                         current_pos_list.append(pos)
                     elif (current_out_list == False) and \
                             ((not piece3 in signal_set) or is_capital) and \
                             ((pos in ['TECH_ADJECTIVE', 'NATIONALITY_ADJ']) or
                                  ((pos in ['VERB', 'AMBIG_VERB']) and (lower.endswith('ed') or lower.endswith('ing'))) or
-                                 ((pos == 'ADJECTIVE') and (is_capital or term_dict_check(piece3, stat_adj_dict)))):
+                                 ((pos == 'ADJECTIVE') and (is_capital or term_dict_check(piece3, dictionary.stat_adj_dict)))):
                         current_out_list = [piece3]
                         current_pos_list = [pos]
                         term_start = next_word_start + start
@@ -952,7 +954,7 @@ def get_topic_terms(text, offset, filter_off=False):
                     elif (pre_np or first_piece or (last_pos in ['VERB', 'AMBIG_VERB'])) and (current_out_list == False) and \
                             ((not piece3 in signal_set) or is_capital) and \
                             (((pos in ['VERB', 'AMBIG_VERB']) and lower.endswith('ed')) or
-                                 ((pos == 'ADJECTIVE') and (is_capital or term_dict_check(piece3, stat_adj_dict))) or
+                                 ((pos == 'ADJECTIVE') and (is_capital or term_dict_check(piece3, dictionary.stat_adj_dict))) or
                                  ((pos in ['TECH_ADJECTIVE', 'NATIONALITY_ADJ']))):
                         ## considering allowing -ing verbs also, but this causes problems
                         current_out_list = [piece3]
@@ -961,7 +963,7 @@ def get_topic_terms(text, offset, filter_off=False):
                         pre_np = False
                         first_piece = False
                     elif current_out_list and (pos in ['TECH_ADJECTIVE', 'ADJECTIVE', 'NATIONALITY_ADJ']) and (last_pos in ['TECH_ADJECTIVE', 'ADJECTIVE', 'NATIONALITY_ADJ']) and (
-                                    (not piece3 in signal_set) or is_capital or term_dict_check(piece3, stat_adj_dict)):
+                                    (not piece3 in signal_set) or is_capital or term_dict_check(piece3, dictionary.stat_adj_dict)):
                         current_out_list.append(piece3)
                         current_pos_list.append(pos)
                         pre_np = False
@@ -998,7 +1000,7 @@ def get_topic_terms(text, offset, filter_off=False):
                             elif ((not piece3 in signal_set) or is_capital) and \
                                     ((pos in ['TECH_ADJECTIVE', 'NATIONALITY_ADJ']) or
                                          ((pos in ['VERB', 'AMBIG_VERB']) and (lower.endswith('ed') or lower.endswith('ing'))) or
-                                         ((pos == 'ADJECTIVE') and (is_capital or term_dict_check(piece3, stat_adj_dict)))):
+                                         ((pos == 'ADJECTIVE') and (is_capital or term_dict_check(piece3, dictionary.stat_adj_dict)))):
                                 current_out_list = [piece3]
                                 current_pos_list = [pos]
                                 term_start = next_word_start + start
@@ -1038,7 +1040,7 @@ def get_topic_terms(text, offset, filter_off=False):
                         elif ((not piece3 in signal_set) or is_capital) and \
                                 ((pos in ['TECH_ADJECTIVE', 'NATIONALITY_ADJ']) or
                                      ((pos in ['VERB', 'AMBIG_VERB']) and (lower.endswith('ed') or lower.endswith('ing'))) or
-                                     ((pos == 'ADJECTIVE') and (is_capital or term_dict_check(piece3, stat_adj_dict)))):
+                                     ((pos == 'ADJECTIVE') and (is_capital or term_dict_check(piece3, dictionary.stat_adj_dict)))):
                             current_out_list = [piece3]
                             current_pos_list = [pos]
                             term_start = next_word_start + start
@@ -1079,18 +1081,18 @@ def get_term_lemma(term, term_type=False):
     elif term_type and (term_type != 'chunk-based'):
         ## this takes care of all the patterned cases
         output = term.upper()
-    elif (term in abbr_to_full_dict) and (len(abbr_to_full_dict[term]) > 0) and (term.isupper() or (not term in pos_dict) or (term in jargon_words)):
+    elif (term in abbr_to_full_dict) and (len(abbr_to_full_dict[term]) > 0) and (term.isupper() or (not term in dictionary.pos_dict) or (term in dictionary.jargon_words)):
         output = abbr_to_full_dict[term][0]
     else:
         last_word_match = last_word_pat.search(term)
         if last_word_match:
             last_word = last_word_match.group(0).lower()
             last_word_start = last_word_match.start()
-            if (last_word in noun_base_form_dict) and (not last_word.endswith('ing')):
-                if (last_word in noun_base_form_dict[last_word]):
+            if (last_word in dictionary.noun_base_form_dict) and (not last_word.endswith('ing')):
+                if (last_word in dictionary.noun_base_form_dict[last_word]):
                     output = term.upper()
                 else:
-                    output = (term[:last_word_start] + noun_base_form_dict[last_word][0]).upper()
+                    output = (term[:last_word_start] + dictionary.noun_base_form_dict[last_word][0]).upper()
             elif last_word.endswith('ies'):
                 output = (term[:-3] + 'y').upper()
             elif last_word.endswith('es') and (len(last_word) > 3) and (last_word[-3] in 'oshzx'):
@@ -1127,7 +1129,7 @@ def term_is_org(term):
     for position, word in words:
         lower = word.lower()
         is_capital = re.search('^[A-Z][a-z]', word)
-        if is_capital and (lower in pos_dict) and ('PERSON_NAME' in pos_dict[lower]):
+        if is_capital and (lower in dictionary.pos_dict) and ('PERSON_NAME' in dictionary.pos_dict[lower]):
             person_names = person_names + 1
         if is_capital or closed_class_check2.search(word):
             pass
@@ -1170,9 +1172,9 @@ def term_is_org_tester(term):
     for position, word in words:
         lower = word.lower()
         is_capital = re.search('^[A-Z][a-z]', word)
-        if is_capital and (lower in pos_dict) and ('PERSON_NAME' in pos_dict[lower]):
+        if is_capital and (lower in dictionary.pos_dict) and ('PERSON_NAME' in dictionary.pos_dict[lower]):
             person_names = person_names + 1
-            if len(pos_dict[lower]) > 1:
+            if len(dictionary.pos_dict[lower]) > 1:
                 ambiguous_person_names = ambiguous_person_names + 1
                 word_pattern.append('ambig_name')
             else:
@@ -1241,9 +1243,9 @@ def term_is_org_with_write(outstream, term, instances):
     for position, word in words:
         lower = word.lower()
         is_capital = re.search('^[A-Z][a-z]', word)
-        if is_capital and (lower in pos_dict) and ('PERSON_NAME' in pos_dict[lower]):
+        if is_capital and (lower in dictionary.pos_dict) and ('PERSON_NAME' in dictionary.pos_dict[lower]):
             person_names = person_names + 1
-            if len(pos_dict[lower]) > 1:
+            if len(dictionary.pos_dict[lower]) > 1:
                 ambiguous_person_names = ambiguous_person_names + 1
                 word_pattern.append('ambig_name')
             else:

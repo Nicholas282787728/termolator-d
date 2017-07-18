@@ -1,6 +1,6 @@
 from find_terms import *
 from webscore import *
-
+import dictionary
 
 def large_prefix_overlap(term1, term2):
     small_length = min(len(term1), len(term2))
@@ -68,8 +68,9 @@ def collapse_lines(lines, alternate_lists):
 
 
 def derive_base_form_from_plural(word):
-    if word in noun_base_form_dict:
-        return (noun_base_form_dict[word])
+
+    if word in dictionary.noun_base_form_dict:
+        return (dictionary.noun_base_form_dict[word])
     elif (len(word) > 3) and (word[-3:] == 'ies'):
         return ([word[:-3] + 'y', word[:-2]])
     elif len(word) > 2 and (word[-2:] == 'es'):
@@ -84,11 +85,11 @@ def topic_term_rating(word, pos):
     ## based on topic_term_ok
     ## print(word)
     word = word.lower()
-    if (word in pos_dict) and not (pos == 'NOUN_OOV'):
+    if (word in dictionary.pos_dict) and not (pos == 'NOUN_OOV'):
         in_dictionary = True
     else:
         in_dictionary = False
-    if (pos in ['NOUN', 'AMBIG_NOUN']) or ((pos == 'NOUN_OOV') and not (word in pos_dict)):
+    if (pos in ['NOUN', 'AMBIG_NOUN']) or ((pos == 'NOUN_OOV') and not (word in dictionary.pos_dict)):
         ## adding 'NOUN_OOV' to this list without modification has the effect
         ## of permitting people names as terms
         if word.isnumeric():
@@ -101,11 +102,11 @@ def topic_term_rating(word, pos):
                 return ('Medium')
             else:
                 return ('Bad')
-    elif word in jargon_words:
+    elif word in dictionary.jargon_words:
         return ('Medium')
     elif pos in ['PLURAL', 'AMBIG_PLURAL']:
-        if word in noun_base_form_dict:
-            base = noun_base_form_dict[word][0]
+        if word in dictionary.noun_base_form_dict:
+            base = dictionary.noun_base_form_dict[word][0]
             nom_rank = nom_class(base, pos)
             if nom_rank >= 2:
                 return ('Medium')
@@ -149,14 +150,14 @@ def get_morph_variants(word_seq, pos_seq, POS, mitre=False):
     vp_ing = []
     main_base = False
     if POS == 'NP':
-        if last_word in noun_base_form_dict:
-            bases = noun_base_form_dict[last_word]
+        if last_word in dictionary.noun_base_form_dict:
+            bases = dictionary.noun_base_form_dict[last_word]
             if last_word in bases:
                 plurals = derive_plurals(last_word)
             else:
                 plurals = [last_word]
                 if bases and (len(last_word) > 2) and (last_word[-2] == 's'):
-                    dict_forms = plural_dict[bases[0]]
+                    dict_forms = dictionary.plural_dict[bases[0]]
                     if dict_forms:
                         ## just add -ing forms
                         for form in dict_forms:
@@ -187,61 +188,61 @@ def get_morph_variants(word_seq, pos_seq, POS, mitre=False):
                 big_bases.append(big_base.upper())
         return (big_bases, output, main_base)
     elif POS == 'VP':
-        if last_word in verb_variants_dict:
+        if last_word in dictionary.verb_variants_dict:
             big_bases.append((prefix + last_word).upper())
             main_base = last_word.lower()
-            for variant in verb_variants_dict[last_word]:
+            for variant in dictionary.verb_variants_dict[last_word]:
                 big_variant = prefix + variant
                 if (len(variant) > 3) and (variant[-3:] == 'ing') and (not mitre):
                     vp_ing.append(big_variant)
                 output.append(big_variant)
-        elif last_word in verb_base_form_dict:
-            if not last_word in verb_base_form_dict[last_word]:
+        elif last_word in dictionary.verb_base_form_dict:
+            if not last_word in dictionary.verb_base_form_dict[last_word]:
                 big_variant = prefix + last_word
                 if (len(last_word) > 3) and (last_word[-3:] == 'ing') and (not mitre):
                     vp_ing.append(big_variant)
                 output.append(big_variant)
             other_variants = []
-            for base in verb_base_form_dict[last_word]:
-                if base in verb_variants_dict:
-                    for item in verb_variants_dict[base]:
+            for base in dictionary.verb_base_form_dict[last_word]:
+                if base in dictionary.verb_variants_dict:
+                    for item in dictionary.verb_variants_dict[base]:
                         if (item != last_word) and (not item in other_variants):
                             other_variants.append(item)
                 big_base = prefix + last_word
                 big_bases.append(big_base.upper())
                 output.append(big_base)
-            main_base = verb_base_form_dict[last_word][0].lower()
+            main_base = dictionary.verb_base_form_dict[last_word][0].lower()
             for variant in other_variants:
                 big_variant = prefix + variant
                 if (len(variant) > 3) and (variant[-3:] == 'ing') and (not mitre):
                     vp_ing.append(big_variant)
                 output.append(big_variant)
-        elif word_seq[0] in verb_variants_dict:
+        elif word_seq[0] in dictionary.verb_variants_dict:
             suffix = make_term_suffix(word_seq[1:])
             big_bases.append((' '.join(word_seq)).upper())
-            for variant in verb_variants_dict[word_seq[0]]:
+            for variant in dictionary.verb_variants_dict[word_seq[0]]:
                 big_variant = variant + suffix
                 if (len(variant) > 3) and (variant[-3:] == 'ing') and (not mitre):
                     vp_ing.append(big_variant)
                 output.append(big_variant)
             main_base = word_seq[0].lower()
-        elif word_seq[0] in verb_base_form_dict:
+        elif word_seq[0] in dictionary.verb_base_form_dict:
             suffix = make_term_suffix(word_seq[1:])
-            if not word_seq[0] in verb_base_form_dict[word_seq[0]]:
+            if not word_seq[0] in dictionary.verb_base_form_dict[word_seq[0]]:
                 big_variant = word_seq[0] + suffix
                 if (len(word_seq[0]) > 3) and (word_seq[0][-3:] == 'ing') and (not mitre):
                     vp_ing.append(big_variant)
                 output.append(big_variant)
             other_variants = []
-            for base in verb_base_form_dict[word_seq[0]]:
-                if base in verb_variants_dict:
-                    for item in verb_variants_dict[base]:
+            for base in dictionary.verb_base_form_dict[word_seq[0]]:
+                if base in dictionary.verb_variants_dict:
+                    for item in dictionary.verb_variants_dict[base]:
                         if (item != word_seq[0]) and (not item in other_variants):
                             other_variants.append(item)
                 big_base = word_seq[0] + suffix
                 big_bases.append(big_base.upper())
                 output.append(big_base)
-            main_base = verb_base_form_dict[word_seq[0]][0].lower()
+            main_base = dictionary.verb_base_form_dict[word_seq[0]][0].lower()
             for variant in other_variants:
                 big_variant = variant + suffix
                 if (len(variant) > 3) and (variant[-3:] == 'ing') and (not mitre):
@@ -257,16 +258,16 @@ def get_morph_variants(word_seq, pos_seq, POS, mitre=False):
 
 
 def get_noun_nom_map(word):
-    if word in pos_dict:
-        if word in nom_map_dict:
-            return (nom_map_dict[word])
+    if word in dictionary.pos_dict:
+        if word in dictionary.nom_map_dict:
+            return (dictionary.nom_map_dict[word])
     elif (len(word) > 3) and (word[-1] == 'r') and (word[-2] in 'eo'):
-        if (word[:-2] in nom_map_dict):
-            return (nom_map_dict[word[:-2]])
-        elif (word[-3] == word[-4]) and (word[:-3] in nom_map_dict):
-            return (nom_map_dict[word[:-3]])
-        elif (word[-2] + 'e') in nom_map_dict:
-            return (nom_map_dict[word[-2] + 'e'])
+        if (word[:-2] in dictionary.nom_map_dict):
+            return (dictionary.nom_map_dict[word[:-2]])
+        elif (word[-3] == word[-4]) and (word[:-3] in dictionary.nom_map_dict):
+            return (dictionary.nom_map_dict[word[:-3]])
+        elif (word[-2] + 'e') in dictionary.nom_map_dict:
+            return (dictionary.nom_map_dict[word[-2] + 'e'])
         else:
             return (False)
     else:
@@ -274,8 +275,8 @@ def get_noun_nom_map(word):
 
 
 def normal_word(word):
-    if (word in pos_dict) and (not word in jargon_words):
-        pos = pos_dict[word][:]
+    if (word in dictionary.pos_dict) and (not word in dictionary.jargon_words):
+        pos = dictionary.pos_dict[word][:]
         if 'PERSON_NAME' in pos:
             if len(pos) > 1:
                 return (True)
@@ -338,9 +339,9 @@ def get_np_vp_lemma(np_base, vp_base, vp_ing, np_rating, verb_base):
     last_pos = False
     vp_rating = 'Not Sure'
     ## this only keeps the last verb
-    if verb_base in nom_map_dict:
+    if verb_base in dictionary.nom_map_dict:
         vp_rating = 'Good'
-        out = out + ' ' + nom_map_dict[verb_base].upper()
+        out = out + ' ' + dictionary.nom_map_dict[verb_base].upper()
     elif vp_ing:
         out = out + ' ' + vp_ing.upper()
     else:
@@ -563,7 +564,7 @@ def term_classify(line, mitre=False):
                 if pos == 'DET':
                     unnecessary_pieces = 1 + unnecessary_pieces
             elif pos in ['SKIPABLE_ADJ', 'ADJECTIVE', 'TECH_ADJECTIVE', 'NATIONALITY_ADJ']:
-                if (not (pos in ['TECH_ADJECTIVE', 'NATIONALITY_ADJ'])) and (not term_dict_check(word, stat_adj_dict)):
+                if (not (pos in ['TECH_ADJECTIVE', 'NATIONALITY_ADJ'])) and (not term_dict_check(word, dictionary.stat_adj_dict)):
                     unnecessary_pieces = 1 + unnecessary_pieces
                 if current_chunk:
                     if current_chunk[0] == 'NP':

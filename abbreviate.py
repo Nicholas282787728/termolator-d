@@ -1,6 +1,7 @@
 from term_utilities import *
 from DataDef import File, TXT3, ABBR
 from typing import List, Dict, Tuple, Pattern, Match, Optional, Any, NamedTuple
+import dictionary
 
 # global abbr_to_full_dict
 # global full_to_abbr_dict
@@ -367,12 +368,12 @@ def classify_abbreviated_string(word_string: str, wordlist: List[str] = []) -> s
     for word in wordlist:
         if (organization_word_pattern.search(word)):
             return ('ORGANIZATION')
-    if word_string.upper() in location_dictionary:
+    if word_string.upper() in dictionary.location_dictionary:
         return ('GPE')
     might_be_gpe = True
     has_gpe_word = False
     for word in wordlist:
-        if word.upper() in location_dictionary:
+        if word.upper() in dictionary.location_dictionary:
             has_gpe_word = True
         elif not (word.lower()) in ABBREVIATION_STOP_WORDS:
             might_be_gpe = False
@@ -665,13 +666,13 @@ def invalid_abbreviation(ARG2_string: str) -> bool:
         return (True)
 
     elif ARG2_string.islower() and \
-            ((ARG2_string in pos_dict) or (ARG2_string in nom_dict)):
+            ((ARG2_string in dictionary.pos_dict) or (ARG2_string in dictionary.nom_dict)):
         return (True)
 
     elif ARG2_string.istitle() and \
-            ((ARG2_string.lower() in pos_dict) or (ARG2_string.lower() in nom_dict)
-             or ((ARG2_string.lower() in location_dictionary)
-             and (not 'ABBREVIATION-OF' in location_dictionary[ARG2_string.lower()]))):
+            ((ARG2_string.lower() in dictionary.pos_dict) or (ARG2_string.lower() in dictionary.nom_dict)
+             or ((ARG2_string.lower() in dictionary.location_dictionary)
+             and (not 'ABBREVIATION-OF' in dictionary.location_dictionary[ARG2_string.lower()]))):
         return (True)
 
     elif ARG2_string.isupper() and roman(ARG2_string):

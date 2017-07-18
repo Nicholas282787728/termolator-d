@@ -3,14 +3,15 @@
 import sys
 
 from term_utilities import *
+import dictionary
 
-initialize_utilities()
-
+dictionary.initialize_utilities()
 
 def modify_paragraph_delimiters(paragraph_starts, paragraph_ends, paragraph_non_starts, paragraph_non_ends):
     matched_outstarts = []
     matched_outends = []
     next_start = 'Empty'
+
     while (len(paragraph_starts) > 0):
         next_start = paragraph_starts.pop(0)
         matched_outstarts.append(next_start)
