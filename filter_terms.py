@@ -88,7 +88,10 @@ def collapse_lines(lines: List[str], alternate_lists: Dict[str, List[str]]) -> L
     return (output)
 
 
-def derive_base_form_from_plural(word):
+#
+#
+#
+def derive_base_form_from_plural(word: str) -> List[str]:
 
     if word in dictionary.noun_base_form_dict:
         return (dictionary.noun_base_form_dict[word])
@@ -99,17 +102,22 @@ def derive_base_form_from_plural(word):
     elif len(word) > 1 and (word[-1] == 's') and not (word[-2] in "suciy"):
         return ([word[:-1]])
     else:
-        return (False)
+        return ([])                 # @semanticbeeng @todo static typing
 
 
-def topic_term_rating(word, pos):
+#
+#
+#
+def topic_term_rating(word: str, pos: str) -> str:
     ## based on topic_term_ok
     ## print(word)
     word = word.lower()
+
     if (word in dictionary.pos_dict) and not (pos == 'NOUN_OOV'):
         in_dictionary = True
     else:
         in_dictionary = False
+
     if (pos in ['NOUN', 'AMBIG_NOUN']) or ((pos == 'NOUN_OOV') and not (word in dictionary.pos_dict)):
         ## adding 'NOUN_OOV' to this list without modification has the effect
         ## of permitting people names as terms
@@ -144,32 +152,42 @@ def topic_term_rating(word, pos):
         return ('Bad')
 
 
-def make_term_prefix(word_list):
+#
+#
+#
+def make_term_prefix(word_list: List[str]) -> str:
     if len(word_list) == 0:
         return ('')
     else:
         return (' '.join(word_list) + ' ')
 
 
-def make_term_suffix(word_list):
+#
+#
+#
+def make_term_suffix(word_list: List[str]) -> str:
     if len(word_list) == 0:
         return ('')
     else:
         return (' ' + ' '.join(word_list))
 
 
-def get_morph_variants(word_seq, pos_seq, POS, mitre=False):
+#
+#
+#
+def get_morph_variants(word_seq: List[str], pos_seq, POS: str, mitre=False) -> Tuple[List[str], List[str], List[str], str]:
     ## based on get_term_variations in
     ## get_morphological_and_abbreviation_variations
     last_word = word_seq[-1]
     prefix = make_term_prefix(word_seq[:-1])
-    bases = False
-    dict_forms = False
-    plurals = False
+    bases: List[str] = []                # @semanticbeeng @todo static typing
+    dict_forms: List[str] = []           # @semanticbeeng @todo static typing
+    plurals: List[str] = []              # @semanticbeeng @todo static typing
     output = []
     big_bases = []
     vp_ing = []
-    main_base = False
+    main_base: str                        # @semanticbeeng @todo static typing
+
     if POS == 'NP':
         if last_word in dictionary.noun_base_form_dict:
             bases = dictionary.noun_base_form_dict[last_word]
@@ -207,7 +225,8 @@ def get_morph_variants(word_seq, pos_seq, POS, mitre=False):
                 big_base = prefix + base
                 output.append(big_base)
                 big_bases.append(big_base.upper())
-        return (big_bases, output, main_base)
+        return (big_bases, output, [], main_base)       # @semanticbeeng @todo static type
+
     elif POS == 'VP':
         if last_word in dictionary.verb_variants_dict:
             big_bases.append((prefix + last_word).upper())
@@ -223,7 +242,8 @@ def get_morph_variants(word_seq, pos_seq, POS, mitre=False):
                 if (len(last_word) > 3) and (last_word[-3:] == 'ing') and (not mitre):
                     vp_ing.append(big_variant)
                 output.append(big_variant)
-            other_variants = []
+            other_variants: List[str] = []
+
             for base in dictionary.verb_base_form_dict[last_word]:
                 if base in dictionary.verb_variants_dict:
                     for item in dictionary.verb_variants_dict[base]:
@@ -275,10 +295,17 @@ def get_morph_variants(word_seq, pos_seq, POS, mitre=False):
             output.append(big_base)
             big_bases.append(big_base.upper())
             main_base = word_seq[0].lower()
+
         return (big_bases, output, vp_ing, main_base)
 
+    raise ValueError("Unexpected execution path")       # @semanticbeeng @todo static typing
 
-def get_noun_nom_map(word):
+
+#
+#
+#
+def get_noun_nom_map(word: str) -> Optional[str]:
+
     if word in dictionary.pos_dict:
         if word in dictionary.nom_map_dict:
             return (dictionary.nom_map_dict[word])
@@ -290,12 +317,14 @@ def get_noun_nom_map(word):
         elif (word[-2] + 'e') in dictionary.nom_map_dict:
             return (dictionary.nom_map_dict[word[-2] + 'e'])
         else:
-            return (False)
-    else:
-        return (False)
+            return (None)       # @semanticbeeng @todo static typing
+    # else:
+    return (None)           # @semanticbeeng @todo static typing
 
-
-def normal_word(word):
+#
+#
+#
+def normal_word(word: str) -> bool:
     if (word in dictionary.pos_dict) and (not word in dictionary.jargon_words):
         pos = dictionary.pos_dict[word][:]
         if 'PERSON_NAME' in pos:
@@ -309,11 +338,15 @@ def normal_word(word):
         return (False)
 
 
-def get_np1_lemma(np1_base):
+#
+#
+#
+def get_np1_lemma(np1_base: str) -> Tuple[str, bool]:
     np_out = ''
-    words = re.split('[^\w]+', np1_base)
+    words: List[str] = re.split('[^\w]+', np1_base)
     first = True
     nominalization = False
+
     for word in words:
         if first and (word.lower() in ABBREVIATION_STOP_WORDS):
             pass
@@ -338,7 +371,10 @@ def get_np1_lemma(np1_base):
     return (np_out, nominalization)
 
 
-def get_np_lemma(np1_base, prep=False, np2=False):
+#
+#
+#
+def get_np_lemma(np1_base: str, prep=False, np2:Optional[str]=None) -> Tuple[str, bool]:
     np1_out, map1 = get_np1_lemma(np1_base)
     if not np2:
         return (np1_out, map1)
@@ -350,13 +386,16 @@ def get_np_lemma(np1_base, prep=False, np2=False):
             return (np1_out + ' ' + np2_lemma, map1 or map2)
 
 
-def get_np_vp_lemma(np_base, vp_base, vp_ing, np_rating, verb_base):
+#
+#
+#
+def get_np_vp_lemma(np_base: str, vp_base: str, vp_ing: str, np_rating: str, verb_base: str) -> Tuple[str, str]:
     np_lemma, nom = get_np_lemma(np_base)
     ## use rule above -- don't currently
     ## deal with 2NPs + VP case (which is possible)
     out = np_lemma[:]
     found_nom = False
-    vp_pos_seq_mod = []
+    # vp_pos_seq_mod = [] @semanticbeeng not used
     last_pos = False
     vp_rating = 'Not Sure'
     ## this only keeps the last verb
@@ -374,21 +413,30 @@ def get_np_vp_lemma(np_base, vp_base, vp_ing, np_rating, verb_base):
     return (out, rating)
 
 
-def simple_tech_adj_chunk(chunk):
+#
+#
+#
+def simple_tech_adj_chunk(chunk: Any) -> bool:
     if (len(chunk) == 2) and (type(chunk[1]) == list) and (chunk[1][0] == 'TECHNICAL_ADJECTIVE'):
         return (True)
     else:
         return (False)
 
 
-def simple_singular_np(chunk):
+#
+#
+#
+def simple_singular_np(chunk: Any) -> bool:
     if (len(chunk) == 2) and (type(chunk[1]) == list) and (chunk[1][0] in ['NOUN', 'AMBIG_NOUN']):
         return (True)
     else:
         return (False)
 
 
-def word_split(line):
+#
+#
+#
+def word_split(line: str) -> List[str]:
     start = 0
     output = []
     while start < len(line):
@@ -401,7 +449,10 @@ def word_split(line):
     return (output)
 
 
-def stringify_word_list(word_list):
+#
+#
+#
+def stringify_word_list(word_list: List[str]) -> str:
     output = word_list[0]
     if len(word_list) > 1:
         for word in word_list[1:]:
@@ -409,6 +460,9 @@ def stringify_word_list(word_list):
     return (output)
 
 
+#
+#
+#
 def term_classify(line, mitre=False):
     ## based on get_topic_terms, but based on smaller n-grams, typically with no punctuation
     ## return (lemma, classification, rating, other_terms)
@@ -675,15 +729,15 @@ def term_classify(line, mitre=False):
         else:
             ok_np = 0
             np_1 = False
-            np_1_bases = False
+            np_1_bases: List[str] = []      # @semanticbeeng @todo static typing
             np_1_pos_seq = False
-            np_1_variants = False
+            np_1_variants: List[str] = []      # @semanticbeeng @todo static typing
             np_2 = False
-            np_2_bases = False
-            np_2_variants = False
+            np_2_bases: List[str] = []      # @semanticbeeng @todo static typing
+            np_2_variants: List[str] = []      # @semanticbeeng @todo static typing
             vp_1 = False
             vp_2 = False
-            vp_bases = False
+            vp_bases: List[str] = []      # @semanticbeeng @todo static typing
             vp_variants = False
             vp_ing = False
             vp_pos_seq = False
@@ -713,18 +767,18 @@ def term_classify(line, mitre=False):
                             rating = 'Medium'
                         if np_1:
                             np_2 = [word_seq, rating]
-                            np_2_bases, np_2_variants, main_base = get_morph_variants(word_seq, pos_seq, 'NP')
+                            np_2_bases, np_2_variants, _, main_base = get_morph_variants(word_seq, pos_seq, 'NP')       # @semanticbeeng @todo  static typing
                         else:
                             np_1 = [word_seq, rating]
                             np_1_pos_seq = word_seq
-                            np_1_bases, np_1_variants, main_base = get_morph_variants(word_seq, pos_seq, 'NP')
+                            np_1_bases, np_1_variants, _, main_base = get_morph_variants(word_seq, pos_seq, 'NP')       # @semanticbeeng @todo  static typing
                     else:
                         if np_1:
                             np_2 = [word_seq, 'Bad']
-                            np_2_bases, np_2_variants, main_base = get_morph_variants(word_seq, pos_seq, 'NP')
+                            np_2_bases, np_2_variants, _, main_base = get_morph_variants(word_seq, pos_seq, 'NP')       # @semanticbeeng @todo  static typing
                         else:
                             np_1 = [word_seq, 'Bad']
-                            np_1_bases, np_1_variants, main_base = get_morph_variants(word_seq, pos_seq, 'NP')
+                            np_1_bases, np_1_variants, _, main_base = get_morph_variants(word_seq, pos_seq, 'NP')       # @semanticbeeng @todo  static typing
                 elif chunk[0] == 'VP':
                     if vp_1 or vp_2:
                         return (line.upper(), 'too_many_verbs', 'Bad', [line], chunks, .1)
