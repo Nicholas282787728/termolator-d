@@ -209,7 +209,7 @@ class NPParser:
             # filt = Filter.Filter() # class containing all filters
             for t in terms:
                 for f in filters:
-                    t = Filter.criteria[f](t)
+                    t = Filter.criteria[f](t)       # @semanticbeeng @todo global state mutation
                 if t:
                     fd[t] += 1
         if overwrite or (not os.path.isfile(filename + '.nps')):

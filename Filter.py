@@ -4,10 +4,9 @@ import re
 from nltk.corpus import stopwords  # not encumbered by license, see stopwords.readme()
 from nltk.stem import PorterStemmer as Stemmer  # NLTK's license, Apache
 
-from utilspie.collectionsutils import frozendict
-
 from DataDef import File
 from typing import Dict, List, Any
+import dictionary
 
 #
 #   #semanticbeeng @todo global state : consider moving to dictionary.py
@@ -37,7 +36,7 @@ def _get_abbreviations(file: File) -> None:
         for w in shortwords:
             abbreviations[w] = fullword
 
-    abbreviations = frozendict(abbreviations)       # @semanticbeeng @todo global state initialization
+    abbreviations = dictionary.freeze_dict(abbreviations)       # @semanticbeeng @todo global state initialization
     f.close()
 
 
@@ -70,8 +69,8 @@ def _get_stemdict(filename: str) -> None:
     stemdict, unstemdict = pickle.load(f)
     f.close()
 
-    stemdict = frozendict(stemdict)             # @semanticbeeng @todo global state initialization
-    unstemdict = frozendict(unstemdict)         # @semanticbeeng @todo global state initialization
+    # stemdict = dictionary.freeze_dict(stemdict)           # @semanticbeeng @todo global state initialization : this fails
+    unstemdict = dictionary.freeze_dict(unstemdict)         # @semanticbeeng @todo global state initialization
 
 
 #

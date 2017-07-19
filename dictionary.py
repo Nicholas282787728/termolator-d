@@ -417,6 +417,6 @@ def read_in_stat_term_dict(indict, dict_dir=DICT_DIRECTORY):
             stat_adj_dict.pop(key)
 
     # @semanticbeeng @arch global state immutable
-    stat_term_dict = frozendict(stat_term_dict)
-    stat_adj_dict = frozendict(stat_adj_dict)
+    stat_term_dict = freeze_dict(stat_term_dict)
+    stat_adj_dict =  freeze_dict(stat_adj_dict)
 

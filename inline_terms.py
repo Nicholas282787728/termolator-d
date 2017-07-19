@@ -45,7 +45,10 @@ def section_heading_word(word: str):
         return (True)
 
 
-def ugly_word(word: str):
+#
+#
+#
+def ugly_word(word: str) -> bool:
     ## words that are probably typos or other stuff we don't want
     if (len(word) > 3) and (word[0] in "0123456789") and word[-1].isalpha():
         return (True)
@@ -61,7 +64,7 @@ def ugly_word(word: str):
         return (True)
     elif re.search('^[0-9]{1,3}[a-zA-Z]$', word):
         return (True)
-
+    return (False)      #  @semanticbeeng @todo static typing
 
 # @semanticbeeng typing
 def topic_term_ok(word_list: List[str], pos_list: List[str], term_string: str):
@@ -1665,7 +1668,7 @@ def make_term_chunk_file_list(infiles: str, outfiles: str, no_head_terms_only=Fa
             chunk_file = outlist[num].strip()
         except:
             print("Error opening input/output files:")
-            print("Input: %s\nOutput: %s" % inlist[i].strip(), outlist[i].strip())
+            print("Input: %s\nOutput: %s" % inlist[num].strip(), outlist[num].strip())
 
         make_term_chunk_file(File[POS](pos_file), File[TERM](term_file),
                              File[ABBR](abbreviate_file), File[CHUNK](chunk_file),

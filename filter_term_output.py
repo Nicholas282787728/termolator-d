@@ -17,6 +17,7 @@ def main(args):
         print('You set the webscore flag to', args[2], 'but it must be either "True" or "False".')
         print('Use "True" if you want the system to use the webscore function and the system will run slowly and be more accurate.')
         print('Use "False" otherwise.')
+
     max_term_number = int(args[4])
 
     if (len(args) > 5) and (args[5].lower() != 'false'):
@@ -35,7 +36,7 @@ def main(args):
                  use_web_score,
                  numeric_cutoff=max_term_number,
                  reject_file=reject_file,
-                 web_score_dict_file=web_score_dict_file)
+                 web_score_dict_file=File(web_score_dict_file))
 
 
 if __name__ == '__main__': sys.exit(main(sys.argv))

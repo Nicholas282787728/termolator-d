@@ -1,15 +1,25 @@
 from find_terms import *
 from webscore import *
 import dictionary
+from typing import Tuple
 
-def large_prefix_overlap(term1, term2):
+#            confidence, term,  keep, classification,   rating, well_formedness_score, rank_score
+ScoreT=Tuple[float,      str,   bool, str,              str,    float,                 float]
+
+#
+#
+#
+def large_prefix_overlap(term1: str, term2: str) -> bool:
     small_length = min(len(term1), len(term2))
     sub_string_length = small_length // 2
     answer = term1[:sub_string_length] == term2[:sub_string_length]
     return (answer)
 
 
-def s_filter_check(word1, word2):
+#
+#
+#
+def s_filter_check(word1: str, word2: str) -> bool:
     if word1.endswith('s'):
         word1_s = True
         if word1.endswith('es'):
@@ -34,18 +44,22 @@ def s_filter_check(word1, word2):
             return (True)
     elif word2_s:
         return (True)
+    return (False)          # @semanticbeeng @todo static typing
 
+#
+#
+#
+def collapse_lines(lines: List[str], alternate_lists: Dict[str, List[str]]) -> List[List[str]]:
 
-#
-#
-#
-def collapse_lines(lines: List[str], alternate_lists: Dict[str, str]) -> List[str]:
-    output: List[str] = []
-    last_line_list = False
+    # print("###>>>> collapse_lines " + str(lines) + ", " + str(alternate_lists))
+
+    output: List[List[str]] = []
+    last_line_list: List[str] = []      # @semanticbeeng @todo static typing
     current_collection: List[str] = []
 
     for line in lines:
-        line_list = line.split('\t')
+        line_list: List[str] = line.split('\t')
+
         if last_line_list and (last_line_list[-1] == line_list[-1]) \
                 and large_prefix_overlap(last_line_list[0], line_list[0]) \
                 and (s_filter_check(last_line_list[0], line_list[0])):
@@ -63,11 +77,14 @@ def collapse_lines(lines: List[str], alternate_lists: Dict[str, str]) -> List[st
                 output.append(last_line_list)
             last_line_list = line_list
             current_collection = []
+
     if last_line_list:
         if not last_line_list[0] in current_collection:
             current_collection.append(last_line_list[0])
         alternate_lists[last_line_list[0]] = current_collection
         output.append(last_line_list)
+
+    # print("###>>>> collapse_lines " + str(output))
     return (output)
 
 
@@ -921,7 +938,7 @@ def ok_statistical_term(term, lenient=False, penalize_initial_the=False):
 
 
 #
-#
+#  @semanticbeeng still have two mypy errors in this file...
 #
 def filter_terms(infile: File[TERM],
                  outfile: File,
@@ -933,7 +950,7 @@ def filter_terms(infile: File[TERM],
                  numeric_cutoff=30000,
                  reject_file=None,
                  penalize_initial_the=True,
-                 web_score_dict_file=False) -> None:
+                 web_score_dict_file:File=None) -> None:
 
     ## it is possible that some people may want to allow NPs as well as noun groups as terms
     if abbr_full_file:   # @semanticbeeng @todo not used and full_abbr_file:
@@ -944,8 +961,8 @@ def filter_terms(infile: File[TERM],
         use_web_score_dict = True
     else:
         use_web_score_dict = False
-    stat_scores: List[float] = []
-    alternate_lists: Dict[str, str] = {}
+    stat_scores: List[str] = []
+    alternate_lists: Dict[str, List[str]] = {}
 
     if reject_file:
         reject_stream = reject_file.openText(mode='w')
@@ -956,7 +973,7 @@ def filter_terms(infile: File[TERM],
     instream = infile.openText()
     lines = instream.readlines()
     instream.close()
-    line_lists = collapse_lines(lines, alternate_lists)
+    line_lists: List[List[str]] = collapse_lines(lines, alternate_lists)
 
     for line in line_lists:
         if (len(stat_scores) > 0) and (line[-1] == stat_scores[-1]):
@@ -970,7 +987,8 @@ def filter_terms(infile: File[TERM],
 
     for score in stat_scores:
         percentile = (num_of_scores - num) / num_of_scores
-        percentile_score = round((percentile ** 2), 4)
+        percentile_score: float = round((percentile ** 2), 4)
+
         if score in stat_rank_scores:
             pass
         else:
@@ -981,20 +999,24 @@ def filter_terms(infile: File[TERM],
     length_of_terms = min(round(percent_cutoff * len(line_lists)), numeric_cutoff)
     num = 0
     output = []
-    final_output = []
+    final_output: List[List[float]] = []
+
     for line_list in line_lists:
         num = num + 1
         for term in line_list[:-1]:
             keep, classification, chunks, rating, well_formedness_score = ok_statistical_term(term, lenient=(num < lenient_simple_threshold),
                                                                                               penalize_initial_the=penalize_initial_the)
             rank_score = stat_rank_scores[line_list[-1]]
-            confidence = rank_score * well_formedness_score
+            confidence: float = rank_score * well_formedness_score
             output.append([confidence, term, keep, classification, rating, well_formedness_score, rank_score])
-    output.sort()
-    output.reverse()
+
+    output.sort()               # @semanticbeeng @todo optimization (reverse=True)
+    output.reverse()            # @semanticbeeng @todo optimization
+
     confidence_position = min(round(len(output) * percent_cutoff), numeric_cutoff)
     confidence_cutoff = output[confidence_position][0]
     no_more_good_ones = False
+
     for out in output:
         confidence, term, keep, classification, rating, well_formedness_score, rank_score = out
         num = False
@@ -1025,9 +1047,10 @@ def filter_terms(infile: File[TERM],
         if stream:
             rating = str(rating)
             well_formedness_score = str(well_formedness_score)
-            rank_score = str(rank_score)
-            confidence = str(confidence)
-            stream.write(term + '\t' + message + '\t' + classification + '\t' + rating + '\t' + well_formedness_score + '\t' + rank_score + '\t' + confidence + os.linesep)
+            # rank_score = str(rank_score)      # @semantcbeeng @todo static typing
+            # confidence = str(confidence)      # @semantcbeeng @todo static typing
+            stream.write(term + '\t' + message + '\t' + classification + '\t' + rating + '\t' + well_formedness_score + '\t' + str(rank_score) + '\t' + str(confidence) + os.linesep)
+
     final_output.sort()
     final_output.reverse()
 
@@ -1040,16 +1063,22 @@ def filter_terms(infile: File[TERM],
             confidence, term, keep, classification, rating, well_formedness_score, rank_score = out[1]
             web_score = False
             combined_score = False
-        confidence = str(confidence)
-        rating = str(rating)
-        well_formedness_score = str(well_formedness_score)
-        rank_score = str(rank_score)
+        # confidence = str(confidence)                  # @semanticbeeng @todo static type
+        # rating = str(rating)                          # @semanticbeeng @todo static type
+        # well_formedness_score = str(well_formedness_score) # @semanticbeeng @todo static type
+        # rank_score = str(rank_score)                  # @semanticbeeng @todo static type
+
         if use_web_score:
-            webscore = str(webscore)
-            combined_score = str(combined_score)
+            # webscore = str(webscore)                  # @semanticbeeng @todo static type
+            # combined_score = str(combined_score)      # @semanticbeeng @todo static type
             stream.write(
-                term + '\t' + classification + '\t' + rating + '\t' + well_formedness_score + '\t' + rank_score + '\t' + confidence + '\t' + webscore + '\t' + combined_score + os.linesep)
+                term + '\t' + classification + '\t' + rating + '\t' + str(well_formedness_score) + '\t' + str(rank_score) + '\t' + str(confidence) +
+                '\t' + str(webscore) + '\t' + str(combined_score) +
+                os.linesep)
         else:
-            stream.write(term + '\t' + classification + '\t' + rating + '\t' + well_formedness_score + '\t' + rank_score + '\t' + confidence + os.linesep)
+            stream.write(
+                term + '\t' + classification + '\t' + rating + '\t' + str(well_formedness_score) + '\t' + str(rank_score) + '\t' + str(confidence) +
+                os.linesep)
+
     if use_web_score and web_score_dict_file:
         write_webscore_dictionary(web_score_dict_file)

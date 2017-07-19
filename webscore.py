@@ -23,21 +23,30 @@ import urllib.request
 
 from term_utilities import *
 from typing import Dict
+from DataDef import File
 
 basic_yahoo_search_url_prefix = '''https://search.yahoo.com/search?p='''
 basic_bing_search_url_prefix = '''https://search.yahoo.com/search?q='''
 ## basic_google_search_url_prefix = '''https://www.google.com/search?q='''
-webscore_dict: Dict[str, float] = {}
+webscore_dict: Dict[str, float] = {}        # @semanticbeeng @todo global state
 
 
-def load_web_score_dict_file(dict_file):
+#
+#
+#
+def load_web_score_dict_file(dict_file: File) -> None:
+
+    global webscore_dict
     webscore_dict.clear()
-    if os.path.isfile(dict_file):
-        with open(dict_file) as instream:
-            for line in instream:
+
+    if os.path.isfile(dict_file.name):
+        with dict_file.openText() as instream:
+            for line in instream.readlines():
                 line = line.strip(os.linesep)
                 term, score = line.split('\t')
                 webscore_dict[term] = float(score)
+
+        webscore_dict = dictionary.freeze_dict(webscore_dict)       # @semanticbeeng @todo global state initialization: this fails
     else:
         print(dict_file, 'does not exist. Will be created')
 
