@@ -6,12 +6,14 @@ import sys
 from typing import List, Tuple, Optional, Pattern, Match
 from DataDef import File, ABBR, POS
 
+# @semanticbeeng @todo static typing; @data is PosFact same as POS ?
 PosFact=Tuple[int, int, str]
+
 #
 #
 #
 def get_pos_facts(fact_list: List[ABBR]) -> List[PosFact]:
-    output: List[Tuple[int, int, str]] = []
+    output: List[PosFact] = []
     bad_pos_pattern: Pattern[str] = re.compile('BAD_CHARACTER START=([0-9]*) END=([0-9]*) STRING="([^"]*)"')
 
     for fact in fact_list:
@@ -24,7 +26,7 @@ def get_pos_facts(fact_list: List[ABBR]) -> List[PosFact]:
 #
 #
 #
-def make_fact_pair(triple: Tuple[int, int, str]) -> Tuple[int, str]:
+def make_fact_pair(triple: PosFact) -> Tuple[int, str]:
     output = (triple[0], triple[2] + ' ||| S:' + str(triple[0]) + ' E:' + str(triple[1]) + ' ||| ' + 'SYM' + os.linesep)  # @semanticbeeng @todo static typing
     return (output)
 
@@ -37,9 +39,9 @@ def make_pos_triple(line: str) -> PosFact:
     start_match = start_pat.search(line)
     if not start_match:
         print('Warning: Error in POS file')
-        return ((0, 0, line))       # @semanticbeeng @todo static typing
+        return ((0, 0, line))       # @semanticbeeng @todo static typing @data PosFact
     else:
-        return ((int(start_match.group(1)), int(start_match.group(2)), line))   # @semanticbeeng @todo static typing
+        return ((int(start_match.group(1)), int(start_match.group(2)), line))   # @semanticbeeng @todo static typing @data PosFact
 
 
 #
@@ -61,16 +63,16 @@ def modify_pos_end(line: str, new_end: int) -> str:
 def fix_bad_char_in_file(fact: File[ABBR], pos: File[POS]):
 
     with fact.openText() as fact_stream:
-        fact_list: List[Tuple[int, int, str]] = get_pos_facts(fact_stream.readlines())
+        fact_list: List[PosFact] = get_pos_facts(fact_stream.readlines())
         fact_list.reverse()
 
     if fact_list:
         with pos.openText() as pos_stream:
-            pos_list = pos_stream.readlines()
+            pos_list: List[str] = pos_stream.readlines()
             pos_list.reverse()
 
-        next_fact = None        # @semanticbeeng @todo static typing
-        next_pos = None         # @semanticbeeng @todo static typing
+        next_fact: Tuple[int, str] = None        # @semanticbeeng @todo static typing
+        next_pos: PosFact = None                 # @semanticbeeng @todo static typing
 
         with pos.openText(mode='w') as outstream:
             while pos_list or fact_list:
