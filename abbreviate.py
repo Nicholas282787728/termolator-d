@@ -1209,7 +1209,10 @@ def run_abbreviate_on_file_list(file_list: File, dict_prefix=False):
                           File[ABBR](str(dict_prefix) + ".dict_full_to_abbr"))
 
 
-def get_expanded_forms_from_abbreviations(term):
+#
+#
+#
+def get_expanded_forms_from_abbreviations(term: str) -> List[str]:
     variations = [term.upper(), term.lower()]
     if (len(variations[0]) > 2) and (variations[0][-1] == 'S'):
         variations.append(variations[0][:-1] + 's')

@@ -356,7 +356,7 @@ def get_np1_lemma(np1_base: str) -> Tuple[str, bool]:
             if (not normal_word(word)) or word.isupper():
                 fulls = get_expanded_forms_from_abbreviations(upper)
             else:
-                fulls = False
+                fulls = []          # @semanticbeeng @todo static typing
             if not first:
                 np_out = np_out + ' '
             else:
@@ -463,7 +463,7 @@ def stringify_word_list(word_list: List[str]) -> str:
 #
 #
 #
-def term_classify(line, mitre=False):
+def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str], List[str], float]:
     ## based on get_topic_terms, but based on smaller n-grams, typically with no punctuation
     ## return (lemma, classification, rating, other_terms)
     weird_char = re.compile('[^ 0-9A-Za-z\-\'\.]')
@@ -472,10 +472,11 @@ def term_classify(line, mitre=False):
     pre_np = False
     main_base = False
     verb_base = False
-    chunks = False
+    chunks: List[str] = []  # @semanticbeeng @todo static typing
+
     ## ratings: good, medium, bad
     if weird_char.search(line) or weird_spacing.search(line):
-        return (line, 'bad_character', 'Bad', False, chunks, .1)
+        return (line, 'bad_character', 'Bad', [], chunks, .1)       # @semanticbeeng @todo static typing
     if mitre:
         words = word_pattern.split(line)
     else:
@@ -484,14 +485,15 @@ def term_classify(line, mitre=False):
         pos = guess_pos(words[0].lower(), False)
         base2 = False
         abbrevs = False
-        output = False
+        output: List[str] = []  # @semanticbeeng @todo static typing
+
         if pos in ['NOUN', 'AMBIG_NOUN', 'NOUN_OOV']:
             if '-' in words[0]:
                 base2 = re.sub('\-', ' ', words[0])
             if (not normal_word(words[0])) or words[0].isupper():
                 fulls = get_expanded_forms_from_abbreviations(words[0].upper())
             else:
-                fulls = False
+                fulls = []  # @semanticbeeng @todo static typing
             plurals = derive_plurals(words[0])
             if fulls:
                 output = fulls
@@ -592,7 +594,7 @@ def term_classify(line, mitre=False):
                 wf_score = .4
             elif rating == 'Bad':
                 wf_score = .2
-            return (line.upper(), classification, rating, False, chunks, wf_score)
+            return (line.upper(), classification, rating, [], chunks, wf_score)     # @semanticbeeng @todo static typing
     else:
         conjunction_position = False  ## there is never more than one in the current Mitre list
         position = 0
@@ -941,6 +943,9 @@ def term_classify(line, mitre=False):
                 ## e.g., support verbs, transparent nouns, boring nouns ('device', etc.)
 
 
+#
+#
+#
 def ok_statistical_term(term, lenient=False, penalize_initial_the=False):
     ## if single word, it should be a possible noun
     ##
