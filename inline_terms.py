@@ -2,6 +2,7 @@ import sys
 from typing import List, Dict, Pattern, Match
 
 from abbreviate import *
+from DataDef import File, POS, TERM, ABBR
 import dictionary
 
 et_al_citation: Pattern[str] = re.compile(' et[.]? al[.]? *$')
@@ -405,12 +406,16 @@ def OK_path(path_string, url=False):
         return (True)
 
 
-def get_next_path_match(text, start):
+#
+#
+#
+def get_next_path_match(text: str, start: int) -> Tuple[Optional[Match[str]], str]:
+
     path_chunk_string = '(([^ /;,=<>()\[\]]+)(//?([^ /;,=<>()\[\]]+)))'
     path_chunk_formula_string = '(' + path_chunk_string + ' ?)+' + path_chunk_string
     ## there must be at least two chunks for there to be a path
     ## all but the last chunk can end in a space
-    path_chunk_formula = re.compile(path_chunk_formula_string)
+    path_chunk_formula: Pattern[str] = re.compile(path_chunk_formula_string)
     ## add chunk to formula if separated by space
     ## this may need to be filtered because it may pick up words otherwise
     ## well-formedness constraints include: requirement of having at
@@ -418,18 +423,21 @@ def get_next_path_match(text, start):
     ## length without such things
     path_chunk_no_url = '(([^ /;,=<>()\[\]]+)(/([^ /;,=<>()\[\]]+)))'
     path_chunk_formula_no_url_string = '(' + path_chunk_no_url + ')+' + path_chunk_no_url
-    path_chunk_formula2 = re.compile(path_chunk_formula_no_url_string)
+    path_chunk_formula2: Pattern[str] = re.compile(path_chunk_formula_no_url_string)
     current_start = start
-    path_match = path_chunk_formula.search(text, current_start)
-    path_match2 = path_chunk_formula2.search(text, current_start)
+    path_match: Optional[Match[str]] = path_chunk_formula.search(text, current_start)
+    path_match2: Optional[Match[str]] = path_chunk_formula2.search(text, current_start)
+
     while path_match or path_match2:
         if path_match and path_match2:
             if (path_match.start() < path_match2.start()) or \
                     ((path_match.start() == path_match2.start()) and
                          (path_match.end() <= path_match2.end())):
+
                 if (re.search('^[^/]*:[^/]*/', path_match.group(0)) or re.search('^[^/]*[a-zA-Z]\.[a-zA-Z][^/]*/', path_match.group(0))) \
                         and OK_path(path_match.group(0), url=True):
                     return (path_match, 'url')
+
                 elif (path_match.end() == path_match2.end()):
                     if OK_path(path_match2.group(0)):
                         return (path_match2, 'ratio')
@@ -463,24 +471,26 @@ def get_next_path_match(text, start):
             ## path_match = path_chunk_formula.search(text,current_start)
             print('this should be impossible -- there must be a bug')
             input()
-            return (False, False)
-    return (False, False)
+            return (False, False)       # @semanticbeeng @todo static typung
+    return (False, False)               # @semanticbeeng @todo static typung
 
 
-def get_formulaic_term_pieces(text, offset):
+def get_formulaic_term_pieces(text: str, offset: int):
     start = 0
-    gene_sequence = re.compile('(^|[^A-Za-z0-9\'-])((-?[0-9]\'?)?(([CATG]{4,})|([CcAaTtGg]{5,}))(-?[0-9]\'?)?)(\$|[^A-Za-z0-9\'-])')
+    gene_sequence: Pattern[str] = re.compile('(^|[^A-Za-z0-9\'-])((-?[0-9]\'?)?(([CATG]{4,})|([CcAaTtGg]{5,}))(-?[0-9]\'?)?)(\$|[^A-Za-z0-9\'-])')
     ## keep group 2
     path_match, path_type = get_next_path_match(text, start)
     chemical_match = get_next_chemical_match(text, 0)
     gene_match = gene_sequence.search(text)
-    next_match = False
+    # next_match = False  # @semanticbeeng @todo static typic
     start = 0
     output = []
+
     while (path_match or chemical_match or gene_match):
         minimum_new_start = False
-        next_match = False
+        next_match = False       # @semanticbeeng @todo static typic
         match_type = False
+
         for match, local_type in [[path_match, 'path'], [chemical_match, 'chemical'], [gene_match, 'gene']]:
             if match and ((not next_match) or (match.start() < minimum_new_start)):
                 minimum_new_start = match.start()
@@ -1362,7 +1372,10 @@ def write_term_becomes_person(outstream, term, instances):
         outstream.write(' START=' + str(start) + ' END=' + str(end) + os.linesep)
 
 
-def find_inline_terms(lines, fact_file, pos_file, terms_file, marked_paragraphs=False, filter_off=False):
+#
+#   @semanticbeeng @todo global state initialization pos_offset_table
+#
+def find_inline_terms(lines: List[str], fact_file: File[ABBR], pos_file: File[POS], terms_file: File[TERM], marked_paragraphs=False, filter_off=False) -> None:
     # @semanticbeeng not used @todo
     global abbr_to_full_dict
     global full_to_abbr_dict
@@ -1378,27 +1391,34 @@ def find_inline_terms(lines, fact_file, pos_file, terms_file, marked_paragraphs=
     lemma_count = {}
     head_hash = {}
     term_type_hash = {}
+
     structure_pattern = re.compile('STRUCTURE *TYPE="TEXT" *START=([0-9]*) *END=([0-9]*)', re.I)
-    if os.path.isfile(pos_file):
+    if os.path.isfile(pos_file.name):
         load_pos_offset_table(pos_file)
     else:
+        # @semanticbeeng should this not be a fata fault?
         print('Warning POS file does not exist:', pos_file)
-    with open(fact_file) as instream:
-        for line in instream:
-            match = structure_pattern.search(line)
+
+    with fact_file.openText() as instream:
+        for line in instream.readlines():
+            match: Match[str] = structure_pattern.search(line)
             if match:
                 start = int(match.group(1))
                 end = int(match.group(2))
                 start_ends.append([start, end])
+
     start_ends.sort()
+
     if (len(start_ends) > 1) and (not marked_paragraphs):
         marked_paragraphs = True
     else:
         marked_paragraphs = False
     big_txt = ''
+
     if marked_paragraphs:
         for line in lines:
             big_txt = big_txt + re.sub(os.linesep, ' ', line)
+
         for start, end in start_ends:
             txt_strings.append([start, end, big_txt[start:end]])
     else:
@@ -1406,18 +1426,22 @@ def find_inline_terms(lines, fact_file, pos_file, terms_file, marked_paragraphs=
         end = 0
         current_block = ''
         so_far = start
+
         for line in lines:
             end = so_far + len(line)
             next_line = re.sub(os.linesep, ' ', line)
             current_block = current_block + next_line
             big_txt = big_txt + next_line
+
             if (not re.search('[a-zA-z]', line)) or re.search('[.?:!][ \t' + os.linesep + ']*$', line):
                 txt_strings.append([start, end, current_block])
                 current_block = ''
                 start = end
             so_far = end
+
         if current_block != '':
             txt_strings.append([start, end, current_block])
+
     for start, end, text in txt_strings:
         text = re.sub(line_break_match, ' \g<1>', text)
         if (text.count('\t') + text.count(' ')) < (len(text) / 3):
@@ -1429,6 +1453,7 @@ def find_inline_terms(lines, fact_file, pos_file, terms_file, marked_paragraphs=
             term_tuples = []
         compound_tuples = []
         last_tuple = False
+
         for t_start, t_end, term, term_type in term_tuples:
             ## for now we will limit compounding not to function and
             ## lemmas not to merge entries unless term_type ==
@@ -1448,8 +1473,10 @@ def find_inline_terms(lines, fact_file, pos_file, terms_file, marked_paragraphs=
                     lemma_count[lemma] = lemma_count[lemma] + 1
                 else:
                     lemma_count[lemma] = 1
+
             if last_tuple and (t_start > last_tuple[1]) and (last_tuple[3] in [False, 'chunk-based']) and (term_type in [False, 'chunk-based']):
                 inbetween = compound_inbetween_string.search(big_txt[last_tuple[1]:t_start])
+
                 if inbetween:
                     compound_term = interior_white_space_trim(big_txt[last_tuple[0]:t_end])
                     ## compound_term = re.sub('\s+',' ',big_txt[last_tuple[0]:t_end])
@@ -1471,6 +1498,7 @@ def find_inline_terms(lines, fact_file, pos_file, terms_file, marked_paragraphs=
                         else:
                             lemma_count[lemma] = 1
                     last_tuple = compound_tuple[:]
+
                 elif not re.search('[^\s]', big_txt[last_tuple[1]:t_start]):
                     compound_term = interior_white_space_trim(big_txt[last_tuple[0]:t_end])
                     compound_tuple = [last_tuple[0], t_end, compound_term, 'chunk-based']
@@ -1498,19 +1526,26 @@ def find_inline_terms(lines, fact_file, pos_file, terms_file, marked_paragraphs=
                     last_tuple = [t_start, t_end, term, term_type]
             else:
                 last_tuple = [t_start, t_end, term, term_type]
+
     term_list = list(term_hash.keys())
     term_list.sort()
     global_formula_filter(term_list, term_hash, term_type_hash)
-    with open(terms_file, 'w') as outstream:
+
+    with terms_file.openText('w') as outstream:
         for term in term_list:
+
             if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
                 write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count, head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
+
             elif et_al_citation.search(term):
                 write_term_becomes_article_citation(outstream, term, term_hash[term])
+
             elif org_ending_pattern.search(term) or org_head_ending(term, head_hash):
                 write_term_becomes_organization(outstream, term, term_hash[term])
+
             elif person_ending_pattern.search(term):
                 write_term_becomes_person(outstream, term, term_hash[term])
+
             elif term_is_org_with_write(outstream, term, term_hash[term]):
                 pass
             else:

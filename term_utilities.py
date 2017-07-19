@@ -3,7 +3,7 @@ import os
 import dictionary
 import re
 from typing import List, Dict, Tuple, Pattern, Match, Optional
-from DataDef import File
+from DataDef import File, POS
 
 pos_offset_table: Dict[int, str] = {}
 
@@ -256,7 +256,7 @@ def get_key_value(string: str) -> List[str]:
 
     elif string_starter(value) and string_ender(value):
         value = value.strip('"')
-    return [key, value]         # @semanticbeeng @todo verify okay to return List
+    return [key, value]         # @semanticbeeng @todo verify okay to return List @done
 
 
 #
@@ -307,11 +307,14 @@ def table_upper_split(line: str) -> List[str]:
     table_start: Optional[Match[str]] = table_pattern.search(line)
     output: List[str] = []
     start: int = 0
+
     if not table_start:
         return ([line])
+
     while table_start:
         output.append(line[start:table_start.start() - difference])
         end_table: Optional[Match[str]] = end_table_pattern.search(line, table_start.end())
+
         if end_table:
             output.append(line[table_start.start() + difference:end_table.start()])
             start = end_table.start()
@@ -320,9 +323,12 @@ def table_upper_split(line: str) -> List[str]:
             output.append(line[start:])
             start = len(line)
             table_start = None      # @semanticbeeng static typing
+
     output2: List[str] = []
+
     if start < len(line):
         output.append(line[start:])
+
     for out in output:
         if len(out) < 3000:
             output2.append(out)
@@ -348,12 +354,17 @@ def remove_xml(string: str) -> str:
     return (output)
 
 
-def clean_string_of_ampersand_characters(string):
+#
+#
+#
+def clean_string_of_ampersand_characters(string: str) -> str:
     ampersand_char_pattern = re.compile('&[^;]+;')
     ampersand_char_pattern2 = re.compile('&[^;<]+[<]')
     match = ampersand_char_pattern.search(string)
+
     if not match:
         match = ampersand_char_pattern2.search(string)
+
     while match:
         if match.group(0).endswith('<'):
             string = string[:match.start()] + (len(match.group(0)) - 1) * ' ' + string[match.end() - 1:]
@@ -365,18 +376,23 @@ def clean_string_of_ampersand_characters(string):
     return (string)
 
 
-def remove_xml_spit_out_paragraph_start_end(string, offset):
+#
+#
+#
+def remove_xml_spit_out_paragraph_start_end(string: str, offset) -> Tuple[str, List[int], List[int], List[int], List[int]]:
     string = clean_string_of_ampersand_characters(string)
     next_xml = xml_pattern.search(string)
     start = 0
     out_string = ''
     # bare_string_border = 0
-    paragraph_starts = []
-    paragraph_ends = []
-    remove_starts = []
-    remove_ends = []
+    paragraph_starts: List[int] = []
+    paragraph_ends: List[int] = []
+    remove_starts: List[int] = []
+    remove_ends: List[int] = []
+
     while next_xml:
         out_string = out_string + string[start:next_xml.start()]
+
         if next_xml.group(2).lower() in text_html_fields:
             if next_xml.group(1) == '/':
                 paragraph_ends.append(len(out_string) + offset)
@@ -387,17 +403,24 @@ def remove_xml_spit_out_paragraph_start_end(string, offset):
                 remove_ends.append(len(out_string) + offset)
             else:
                 remove_starts.append(len(out_string) + offset)
+
         start = next_xml.end()
         next_xml = xml_pattern.search(string, start)
+
     out_string = out_string + string[start:]
+
     return (out_string, paragraph_starts, paragraph_ends, remove_starts, remove_ends)
 
 
-def replace_less_than_with_positions(string, offset):
+#
+#
+#
+def replace_less_than_with_positions(string: str, offset: int) -> Tuple[str, List[List[int]]]:
     out_string = ''
     num = 0
-    less_thans = []
+    less_thans: List[List[int]] = []
     length = len(string)
+
     for char in string:
         if char == '<':
             start = num + offset
@@ -413,21 +436,32 @@ def replace_less_than_with_positions(string, offset):
     return (out_string, less_thans)
 
 
+#
+#
+#
 def interior_white_space_trim(instring: str) -> str:
     out1 = re.sub('\s+', ' ', instring)
     out2 = re.sub('\s*(.*[^\s])\s*$', '\g<1>', out1)
     return (out2)
 
 
+#
+#
+#
 def isStub(line: str) -> bool:
     if (len(line) < 1000) and re.search('[\(\[][ \t]*$', line):
         return (True)
     return (False)
 
+#
+#
+#
 def get_lines_from_file(infile: File) -> List[str]:
+
     with infile.openText('r') as instream:
         output: List[str] = []
-        short_line: Optional[str] = None        # @semanticbeeng static type
+        short_line: Optional[str] = None        # @semanticbeeng @todo static type
+
         for line in instream.readlines():
             line = remove_xml(line)
             if short_line:
@@ -443,12 +477,16 @@ def get_lines_from_file(infile: File) -> List[str]:
         return (output)
 
 
-def load_pos_offset_table(pos_file):
+#
+#   @semanticbeeng @todo consider moving this to dictionary.py
+#   @semanticbeeng @todo global state mutation or initialization ?
+#
+def load_pos_offset_table(pos_file: File[POS]) -> None:
     global pos_offset_table
     pos_offset_table.clear()
 
-    if os.path.isfile(pos_file):
-        with open(pos_file) as instream:
+    if os.path.isfile(pos_file.name):
+        with pos_file.openText() as instream:
             for line in instream.readlines():
                 line_info: List[str] = line.rstrip().split(' ||| ')
                 start_end = line_info[1]
@@ -458,7 +496,7 @@ def load_pos_offset_table(pos_file):
                 pos_offset_table[start] = pos
 
 
-def citation_number(word):
+def citation_number(word: str) -> bool:
     ## There may still be clashes with standard
     patent_number = r'((A-Z)*([0-9,/-]{4,})(A-Z)*)|([0-9][0-9]+( [0-9][0-9]+)+((([.-][0-9]+)| [A-Z][0-9]+)?)+)|([0-9][0-9]/[0-9]{3},[0-9]{3})|(PCT/[A-Z]{2}[0-9]{2,4}/[0-9]{5,})'
     german_patent = r'DE(-OS)? [0-9][0-9]+( [0-9][0-9]+)+(([.][0-9]+)| [A-Z][0-9]+)?'
@@ -466,13 +504,14 @@ def citation_number(word):
     isbn = r'ISBN[:]? *([0-9][ -][0-9]{3}[ -][0-9]{2}[ -][0-9]{3}[ -][0-9X])'
     ## these focus on citation IDs that are number+letter combos
     citation_number_match = re.compile('((((U[.]?S[.]?)? *)?(' + patent_number + '))|(' + german_patent + ')|(' + pct_patent + ')|(' + isbn + '))')
+
     if citation_number_match.search(word):
         return (True)
     else:
         return (False)
 
 
-def resolve_differences_with_pos_tagger(word, offset, dict_pos, tagger_pos):
+def resolve_differences_with_pos_tagger(word, offset, dict_pos, tagger_pos) -> List[str]:
     if (tagger_pos == 'ADJECTIVE') and ('ORDINAL' in dict_pos):
         return (['ORDINAL'])
     elif (tagger_pos == 'ADJECTIVE') and ('SKIPABLE_ADJ' in dict_pos):
@@ -495,7 +534,7 @@ def resolve_differences_with_pos_tagger(word, offset, dict_pos, tagger_pos):
         else:
             return (dict_pos)
     elif ('NATIONALITY' in dict_pos) and (tagger_pos == 'NOUN'):
-        return ('NOUN')
+        return (['NOUN'])       # @semanticbeeng @todo static type: can return List ???
     elif (tagger_pos == 'NOUN') and ('NOUN_OOV' in dict_pos):
         return (['NOUN_OOV'])
     else:

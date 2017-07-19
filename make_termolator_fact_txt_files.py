@@ -106,18 +106,27 @@ def create_termolotator_fact_txt_files(input_file, txt2_file, txt3_file, fact_fi
     nonprint_ends = []
     bad_chars = []
     inlinelist = get_my_string_list(input_file)
+
     with open(txt2_file, 'w') as txt2_stream, open(txt3_file, 'w') as txt3_stream:
         start = 0
         length = 0
+
         for line in merge_multiline_and_fix_xml(inlinelist):
             string2, starts1, ends1, nonprint_starts1, nonprint_ends1 = remove_xml_spit_out_paragraph_start_end(line, start)
             string3, bad1 = replace_less_than_with_positions(string2, start)
+
+            # # @semanticbeeng @todo debug
+            if type(bad1) != list:
+                print("ERROR ++++++ " + string3 + " , " + str(bad1))
+                raise ValueError("Unexpected type for " + str(bad1))
+
             if (len(paragraph_ends) == 0) and (len(starts1) > 0) and (len(paragraph_ends) == 0):
                 hypothetical_end = (starts1[0] - 1)
                 if not hypothetical_end in ends1:
                     ends1.append(hypothetical_end)
                     ends1.sort()
                     ## balances the addition of 0 as a start
+
             length = length + len(string2)
             start = start + len(string2)
             txt2_stream.write(string2)
