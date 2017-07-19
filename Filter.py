@@ -7,14 +7,18 @@ from nltk.stem import PorterStemmer as Stemmer  # NLTK's license, Apache
 from utilspie.collectionsutils import frozendict
 
 from DataDef import File
-from typing import Dict, List
+from typing import Dict, List, Any
 
-
+#
+#   #semanticbeeng @todo global state : consider moving to dictionary.py
+#
 abbreviations: Dict[str, str] = {}
 stops: List[str] = []
-stemmer = None
 stemdict: Dict[str, str] = {}  # stemming dictionary
-unstemdict: Dict[str, str] = {}  # reverse stemming dictionary
+unstemdict: Dict[str, List[str]] = {}  # reverse stemming dictionary
+
+#
+stemmer = Stemmer()
 logger = logging.getLogger()
 
 
@@ -94,7 +98,10 @@ def _reGlue(words: List[str]) -> str:
     return ret
 
 
-def expand(string):
+#
+#
+#
+def expand(string: str) -> str:
     """Expand abbreviations within string"""
     global abbreviations
     if not abbreviations:
@@ -108,7 +115,10 @@ def expand(string):
     return string
 
 
-def removeStops(string):  # NOT NEEDED AS NP EXTRACTING REMOVES THEM
+#
+#
+#
+def removeStops(string: str) -> str:  # NOT NEEDED AS NP EXTRACTING REMOVES THEM
     """Strip stop words off the beginning and ending of a phrase"""
     global stops
     if not stops:
@@ -133,14 +143,21 @@ def removeStops(string):  # NOT NEEDED AS NP EXTRACTING REMOVES THEM
     return string
 
 
-def bad_unicode(string):
+#
+#
+#
+def bad_unicode(string: str) -> bool:
     for char in string:
         if ord(char) > 127:
             print(char)
             return (True)
+    return (False)      # @semanticbeeng @todo static typing
 
 
-def remove_non_unicode(string):
+#
+#
+#
+def remove_non_unicode(string: str) -> str:
     output = ''
     for char in string:
         if ord(char) > 127:
@@ -151,11 +168,14 @@ def remove_non_unicode(string):
     return (output)
 
 
-def stem(string):
+#
+#
+#
+def stem(string: str) -> str:
     """Stem a phrase"""
-    global stemmer
-    if not stemmer:
-        stemmer = Stemmer()
+    # global stemmer            # @semanticbeeng not used
+    # if not stemmer:
+    #     stemmer = Stemmer()
     # words = string.split()
     # for i in range(len(words)):
     #    words[i] = self.stemmer.stem(words[i])
@@ -192,7 +212,10 @@ def stem(string):
     return temp
 
 
-def unstem(string):
+#
+#
+#
+def unstem(string: str) -> List[str]:
     """Undo stemming of a phrase"""
     global stemdict
     # if string in stemdict:
@@ -205,12 +228,18 @@ def unstem(string):
         return [string]
 
 
-def lowercase(string):
+#
+#
+#
+def lowercase(string: str) -> str:
     """Return an all lowercase representation of a string"""
     return string.lower()
 
 
-def isWord(string):
+#
+#
+#
+def isWord(string: str) -> str:
     """Test the legitimacy of the proposed phrase. Taken from Shasha's implementation"""
     # criteria:
     pattern = re.compile(r"""
@@ -241,7 +270,9 @@ def isWord(string):
 
 
 # available filters:
-criteria = {'abbreviation': expand,
+# @semanticbeeng @todo static typing: how to define a function type? F=(string: str) -> str
+criteria: Dict[str, Any] = {
+            'abbreviation': expand,
             'stops': removeStops,
             'stem': stem,
             'case': lowercase,
