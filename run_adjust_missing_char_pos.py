@@ -6,10 +6,11 @@ import sys
 from typing import List, Tuple, Optional, Pattern, Match
 from DataDef import File, ABBR, POS
 
+PosFact=Tuple[int, int, str]
 #
 #
 #
-def get_pos_facts(fact_list: List[ABBR]) -> List[Tuple[int, int, str]]:
+def get_pos_facts(fact_list: List[ABBR]) -> List[PosFact]:
     output: List[Tuple[int, int, str]] = []
     bad_pos_pattern: Pattern[str] = re.compile('BAD_CHARACTER START=([0-9]*) END=([0-9]*) STRING="([^"]*)"')
 
@@ -28,17 +29,23 @@ def make_fact_pair(triple: Tuple[int, int, str]) -> Tuple[int, str]:
     return (output)
 
 
-def make_pos_triple(line):
+#
+#
+#
+def make_pos_triple(line: str) -> PosFact:
     start_pat = re.compile('S:([0-9]*).*E:([0-9]*)')
     start_match = start_pat.search(line)
     if not start_match:
         print('Warning: Error in POS file')
-        return ([0, 0, line])
+        return ((0, 0, line))       # @semanticbeeng @todo static typing
     else:
-        return ([int(start_match.group(1)), int(start_match.group(2)), line])
+        return ((int(start_match.group(1)), int(start_match.group(2)), line))   # @semanticbeeng @todo static typing
 
 
-def modify_pos_end(line, new_end):
+#
+#
+#
+def modify_pos_end(line: str, new_end: int) -> str:
     start_pat = re.compile('E:([0-9]*)')
     start_match = start_pat.search(line)
     if start_match:
