@@ -34,6 +34,9 @@ class File(Generic[DT]):
     def openText(self, mode: str = 'r', encoding=None, errors=None) -> TextIO:
         return cast(TextIO, open(self.name, mode=mode, encoding=encoding, errors=errors))
 
+    def openBin(self, mode: str = 'r') -> IO[bytes]:
+        return cast(IO[bytes], open(self.name, mode=mode + 'b'))
+
 def main(args: List[str]):
     posFile1 = File[POS]("123.pos")
     termsFile2 = File[TERM]("123.terms")

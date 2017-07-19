@@ -1,22 +1,30 @@
 import logging
-import os
 import pickle
 import re
-
-from DataDef import File
 from nltk.corpus import stopwords  # not encumbered by license, see stopwords.readme()
 from nltk.stem import PorterStemmer as Stemmer  # NLTK's license, Apache
 
-abbreviations = {}
-stops = []
+from utilspie.collectionsutils import frozendict
+
+from DataDef import File
+from typing import Dict, List
+
+
+abbreviations: Dict[str, str] = {}
+stops: List[str] = []
 stemmer = None
-stemdict = {}  # stemming dictionary
-unstemdict = {}  # reverse stemming dictionary
+stemdict: Dict[str, str] = {}  # stemming dictionary
+unstemdict: Dict[str, str] = {}  # reverse stemming dictionary
 logger = logging.getLogger()
 
 
-def _get_abbreviations(file: File):
+#
+#
+#
+def _get_abbreviations(file: File) -> None:
     """Import abbreviations from jargon file"""
+    global abbreviations
+
     f = file.openText()
     for line in f.readlines():
         temp = line.split('|||')
@@ -24,10 +32,15 @@ def _get_abbreviations(file: File):
         shortwords = temp[1].split('||')
         for w in shortwords:
             abbreviations[w] = fullword
+
+    abbreviations = frozendict(abbreviations)       # @semanticbeeng @todo global state initialization
     f.close()
 
 
-def _get_stops():
+#
+#
+#
+def _get_stops() -> None:
     """Import stop words either from a text file or stopwords corpus"""
     global stops
     import Settings
@@ -42,25 +55,37 @@ def _get_stops():
         stops = stopwords.words('english')
 
 
-def _get_stemdict(filename):
+#
+#
+#
+def _get_stemdict(filename: str) -> None:
     logger.debug('Loading stemming dictionary...')
-    f = File(filename).openText(mode='rb')
+    f = File(filename).openBin(mode='r')
     global stemdict
     global unstemdict
     stemdict, unstemdict = pickle.load(f)
     f.close()
 
+    stemdict = frozendict(stemdict)             # @semanticbeeng @todo global state initialization
+    unstemdict = frozendict(unstemdict)         # @semanticbeeng @todo global state initialization
 
-def _save_stemdict(filename):
+
+#
+#
+#
+def _save_stemdict(filename: str) -> None:
     logger.debug('Saving stemming dictionary...')
-    f = File(filename).openText(mode='wb')
+    f = File(filename).openBin(mode='w')
     global stemdict
     global unstemdict
     pickle.dump((stemdict, unstemdict), f)
     f.close()
 
 
-def _reGlue(words):
+#
+#
+#
+def _reGlue(words: List[str]) -> str:
     """Helper function to turn a list of words into a string"""
     ret = ""
     for i in range(len(words)):
