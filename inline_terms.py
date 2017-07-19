@@ -1531,7 +1531,7 @@ def find_inline_terms(lines: List[str], fact_file: File[ABBR], pos_file: File[PO
     term_list.sort()
     global_formula_filter(term_list, term_hash, term_type_hash)
 
-    with terms_file.openText('w') as outstream:
+    with terms_file.openText(mode='w') as outstream:
         for term in term_list:
 
             if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):

@@ -30,8 +30,8 @@ class File(Generic[DT]):
     def get(self) -> str:
         return self.name  # + '.' + DT
 
-    def openText(self, mode: str = 'r') -> TextIO:
-        return cast(TextIO, open(self.name, mode))
+    def openText(self, mode: str = 'r', encoding=None) -> TextIO:
+        return cast(TextIO, open(self.name, mode=mode, encoding=encoding))
 
 def main(args: List[str]):
     posFile1 = File[POS]("123.pos")

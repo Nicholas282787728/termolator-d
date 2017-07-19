@@ -458,7 +458,7 @@ def isStub(line: str) -> bool:
 #
 def get_lines_from_file(infile: File) -> List[str]:
 
-    with infile.openText('r') as instream:
+    with infile.openText(mode='r') as instream:
         output: List[str] = []
         short_line: Optional[str] = None        # @semanticbeeng @todo static type
 
@@ -496,6 +496,9 @@ def load_pos_offset_table(pos_file: File[POS]) -> None:
                 pos_offset_table[start] = pos
 
 
+#
+#
+#
 def citation_number(word: str) -> bool:
     ## There may still be clashes with standard
     patent_number = r'((A-Z)*([0-9,/-]{4,})(A-Z)*)|([0-9][0-9]+( [0-9][0-9]+)+((([.-][0-9]+)| [A-Z][0-9]+)?)+)|([0-9][0-9]/[0-9]{3},[0-9]{3})|(PCT/[A-Z]{2}[0-9]{2,4}/[0-9]{5,})'
@@ -511,7 +514,10 @@ def citation_number(word: str) -> bool:
         return (False)
 
 
-def resolve_differences_with_pos_tagger(word, offset, dict_pos, tagger_pos) -> List[str]:
+#
+#
+#
+def resolve_differences_with_pos_tagger(word: str, offset: Optional[int], dict_pos: List[str], tagger_pos: Optional[str]) -> List[str]:
     if (tagger_pos == 'ADJECTIVE') and ('ORDINAL' in dict_pos):
         return (['ORDINAL'])
     elif (tagger_pos == 'ADJECTIVE') and ('SKIPABLE_ADJ' in dict_pos):
@@ -541,34 +547,51 @@ def resolve_differences_with_pos_tagger(word, offset, dict_pos, tagger_pos) -> L
         return (dict_pos)
 
 
-## @func comp_termChunker
-def closed_class_conflict(word):
+#
+# @func comp_termChunker
+#
+def closed_class_conflict(word: str) -> bool:
     if word in closed_class_stop_words:
         return (True)
     elif (word in dictionary.noun_base_form_dict):
         for base in (dictionary.noun_base_form_dict[word]):
             if base in closed_class_stop_words:
                 return (True)
+    return (False)          # @semanticbeeng @todo static typing
 
-
-def technical_adj(word):
+#
+#
+#
+def technical_adj(word: str) -> Optional[Match[str]]:
     technical_pattern = re.compile('(ic|[c-x]al|ous|[ao]ry|[coup]id|lar|ine|ian|rse|iac|ive)$')
     ## matches adjectives with certain endings
     return (technical_pattern.search(word))
 
 
-def id_number_profile(word):
+#
+#
+#
+def id_number_profile(word: str) -> bool:
     digits = len(re.sub('[^0-9]', '', word))
     alpha = len(re.sub('[0-9]', '', word))
     if (digits > 0) and (alpha > 0):
         return (True)
+    return (False)          # @semanticbeeng @todo static typing
 
 
-def verbal_profile(word):
+#
+#
+#
+def verbal_profile(word: str) -> bool:
     if (len(word) > 5) and re.search('[aeiou][b-df-hj-np-ts-z]ed$', word):
         return (True)
+    return (False)          # @semanticbeeng @todo static typing
 
-def nom_class(word, pos):
+
+#
+#
+#
+def nom_class(word: str, pos: str) -> int:
     if word in ['invention', 'inventions']:
         return (0)
     ## invention (patents) is usually a self-citation and we want to
@@ -592,13 +615,17 @@ def nom_class(word, pos):
         return (0)
 
 
-def term_dict_check(term, test_dict):
+#
+#
+#
+def term_dict_check(term: str, test_dict: Dict[str, int]) -> bool:
     if term in test_dict:
         return (True)
     elif ('-' in term):
         pat = re.search('-([^-]+)$', term)
         if pat and pat.group(1) in test_dict:
             return (True)
+    return (False)          # @semanticbeeng @todo static typing
 
 
 #
@@ -831,6 +858,9 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
     raise Exception('Unexpected to get here')       # @semanticbeeng
 
 
+#
+#
+#
 def divide_sentence_into_words_and_start_positions(sentence: str, start: int = 0) -> List[object]:
     ## only sequences of letters are needed for look up
     break_pattern: Pattern[str] = re.compile('[^0-9A-Za-z-]')
@@ -848,6 +878,9 @@ def divide_sentence_into_words_and_start_positions(sentence: str, start: int = 0
     return (output)
 
 
+#
+#
+#
 def list_intersect(list1: List[str], list2: List[str]) -> bool:
     for item1 in list1:
         for item2 in list2:
@@ -856,6 +889,9 @@ def list_intersect(list1: List[str], list2: List[str]) -> bool:
     return (False)
 
 
+#
+#
+#
 def get_integrated_line_attribute_value_structure_no_list(line: str, types: List[str]) -> Optional[Dict[str, str]]:
 
     start: int = line.find(' ')
@@ -947,6 +983,9 @@ def derive_plurals(word: str) -> List[str]:
 #             outstream.write(line)
 
 
+#
+#
+#
 def merge_multiline_and_fix_xml(inlinelist: List[str]) -> List[str]:
     outlinelist: List[str] = []
     current_line: str = ''
@@ -970,11 +1009,11 @@ def merge_multiline_and_fix_xml(inlinelist: List[str]) -> List[str]:
 #
 # @semanticbeeng use type FileName
 #
-def get_my_string_list(input_file: str) -> List[str]:
+def get_my_string_list(input_file: File) -> List[str]:
     try:
-        instream = open(input_file)
+        instream = input_file.openText()
         output = instream.readlines()
     except:
-        instream = open(input_file, encoding='ISO-8859-1')
+        instream = input_file.openText(encoding='ISO-8859-1')
         output = instream.readlines()
     return (output)

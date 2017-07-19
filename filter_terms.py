@@ -940,7 +940,7 @@ def filter_terms(infile,
     alternate_lists = {}
 
     if reject_file:
-        reject_stream = reject_file.openText('w')
+        reject_stream = reject_file.openText(mode='w')
     else:
         reject_stream = None
 

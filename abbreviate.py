@@ -1042,7 +1042,7 @@ def write_fact_file(output: List[Dict[str, str]], outfile: File[ABBR]) -> None:
     # global FACT_STYLE @semanticbeeng not used
 
     keys = ['ID', 'TYPE', 'SUBTYPE', 'START', 'END', 'ARG1', 'ARG2', 'ARG1_TEXT', 'ARG2_TEXT', 'GRAM_SIGNAL', 'TEXT_SIGNAL', 'TEXT']
-    with outfile.openText('w') as outstream:
+    with outfile.openText(mode='w') as outstream:
         for out in output:
 
             if out['CLASS'] == 'RELATION':
@@ -1148,7 +1148,7 @@ def run_abbreviate_on_lines(lines: List[str], abbr_file: File[ABBR], reset_dicti
 #
 def save_abbrev_dicts(abbr_to_full_file: File[ABBR], full_to_abbr_file: File[ABBR]) -> None:
 
-    with abbr_to_full_file.openText('w') as abbr_full_stream, full_to_abbr_file.openText('w') as full_abbr_stream:
+    with abbr_to_full_file.openText(mode='w') as abbr_full_stream, full_to_abbr_file.openText(mode='w') as full_abbr_stream:
 
         for key in abbr_to_full_dict:
             abbr_full_stream.write(interior_white_space_trim(key))

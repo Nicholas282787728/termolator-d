@@ -155,7 +155,7 @@ def read_in_org_dictionary(dict_file: File, dictionary: str='org', shallow: bool
         raise Exception('undefined variable term_rel_dictionary')       # @semanticbeeng @todo dead code
         # term_rel_dictionary.clear()
 
-    with dict_file.openText('r') as instream:
+    with dict_file.openText(mode='r') as instream:
         for line in instream.readlines():
             add_dictionary_entry(line, dictionary, shallow, lower=lower, patent=patent)
 

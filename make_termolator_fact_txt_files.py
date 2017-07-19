@@ -4,6 +4,7 @@ import sys
 
 from term_utilities import *
 import dictionary
+from DataDef import File
 
 dictionary.initialize_utilities()
 
@@ -97,7 +98,10 @@ def modify_paragraph_delimiters(paragraph_starts, paragraph_ends, paragraph_non_
     return (out_starts, out_ends)
 
 
-def create_termolotator_fact_txt_files(input_file, txt2_file, txt3_file, fact_file):
+#
+#
+#
+def create_termolotator_fact_txt_files(input_file: File, txt2_file: File, txt3_file: File, fact_file: File) -> None:
     global paragraph_starts
     global paragraph_ends
     paragraph_starts = [0]
@@ -107,7 +111,7 @@ def create_termolotator_fact_txt_files(input_file, txt2_file, txt3_file, fact_fi
     bad_chars = []
     inlinelist = get_my_string_list(input_file)
 
-    with open(txt2_file, 'w') as txt2_stream, open(txt3_file, 'w') as txt3_stream:
+    with txt2_file.openText(mode='w') as txt2_stream, txt3_file.openText(mode='w') as txt3_stream:
         start = 0
         length = 0
 
@@ -140,12 +144,16 @@ def create_termolotator_fact_txt_files(input_file, txt2_file, txt3_file, fact_fi
             paragraph_starts.append(1 + paragraph_ends[-1])
         paragraph_ends.append(length)
     paragraph_starts, paragraph_ends = modify_paragraph_delimiters(paragraph_starts, paragraph_ends, nonprint_starts, nonprint_ends)
-    with open(fact_file, 'w') as factstream:
+
+    with fact_file.openText(mode='w') as factstream:
+
         if len(paragraph_starts) == len(paragraph_ends):
             for item_num in range(len(paragraph_starts)):
                 factstream.write('STRUCTURE TYPE="TEXT" START=' + str(paragraph_starts[item_num]) + ' END=' + str(paragraph_ends[item_num]) + os.linesep)
+
         elif (len(paragraph_starts) > 1) and len(paragraph_ends) == 1:
             last_start = 0
+
             for start in paragraph_starts:
                 if start != 0:
                     factstream.write('STRUCTURE TYPE="TEXT" START=' + str(last_start) + ' END=' + str(start) + os.linesep)
@@ -153,6 +161,7 @@ def create_termolotator_fact_txt_files(input_file, txt2_file, txt3_file, fact_fi
             factstream.write('STRUCTURE TYPE="TEXT" START=' + str(last_start) + ' END=' + str(paragraph_ends[0]) + os.linesep)
         else:
             factstream.write('STRUCTURE TYPE="TEXT" START=0 END=' + str(paragraph_ends[0]) + os.linesep)
+
         for bad_char in bad_chars:
             factstream.write('BAD_CHARACTER START=' + str(bad_char[0]) + ' END=' + str(bad_char[1]) + ' STRING="<"' + os.linesep)
 
@@ -168,10 +177,10 @@ def main(args):
     with open(txt_file_list) as instream:
         for line in instream:
             infile = line.strip()
-            input_file = infile + file_type
-            txt2_file = infile + '.txt2'
-            txt3_file = infile + '.txt3'
-            fact_file = infile + '.fact'
+            input_file = File(infile + file_type)
+            txt2_file = File(infile + '.txt2')
+            txt3_file = File(infile + '.txt3')
+            fact_file = File(infile + '.fact')
             create_termolotator_fact_txt_files(input_file, txt2_file, txt3_file, fact_file)
 
 
