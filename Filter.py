@@ -3,6 +3,7 @@ import os
 import pickle
 import re
 
+from DataDef import File
 from nltk.corpus import stopwords  # not encumbered by license, see stopwords.readme()
 from nltk.stem import PorterStemmer as Stemmer  # NLTK's license, Apache
 
@@ -11,14 +12,13 @@ stops = []
 stemmer = None
 stemdict = {}  # stemming dictionary
 unstemdict = {}  # reverse stemming dictionary
-dir_name = os.path.dirname(os.path.realpath(__file__)) + os.sep + "dicts" + os.sep
 logger = logging.getLogger()
 
 
-def _get_abbreviations(filename='./jargon.out'):
+def _get_abbreviations(file: File):
     """Import abbreviations from jargon file"""
-    f = open(filename)
-    for line in f:
+    f = file.openText()
+    for line in f.readlines():
         temp = line.split('|||')
         fullword = temp[0]
         shortwords = temp[1].split('||')
@@ -27,12 +27,15 @@ def _get_abbreviations(filename='./jargon.out'):
     f.close()
 
 
-def _get_stops(filename=dir_name + 'patentstops.txt'):
+def _get_stops():
     """Import stop words either from a text file or stopwords corpus"""
     global stops
+    import Settings
+    filename=Settings.dir_name + 'patentstops.txt'
+
     if filename:
-        f = open(filename)
-        for line in f:
+        f = File(filename).openText()
+        for line in f.readlines():
             stops += line.split()
         f.close()
     else:
@@ -41,7 +44,7 @@ def _get_stops(filename=dir_name + 'patentstops.txt'):
 
 def _get_stemdict(filename):
     logger.debug('Loading stemming dictionary...')
-    f = open(filename, 'rb')
+    f = File(filename).openText(mode='rb')
     global stemdict
     global unstemdict
     stemdict, unstemdict = pickle.load(f)
@@ -50,7 +53,7 @@ def _get_stemdict(filename):
 
 def _save_stemdict(filename):
     logger.debug('Saving stemming dictionary...')
-    f = open(filename, 'wb')
+    f = File(filename).openText(mode='wb')
     global stemdict
     global unstemdict
     pickle.dump((stemdict, unstemdict), f)
@@ -70,7 +73,7 @@ def expand(string):
     """Expand abbreviations within string"""
     global abbreviations
     if not abbreviations:
-        _get_abbreviations()
+        _get_abbreviations(File('./jargon.out'))
     words = string.split()
     for i in range(len(words)):
         temp = abbreviations.get(words[i])
