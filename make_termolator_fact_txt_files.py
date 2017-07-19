@@ -4,7 +4,7 @@ import sys
 
 from term_utilities import *
 import dictionary
-from DataDef import File
+from DataDef import File, TXT2, TXT3, ABBR
 
 dictionary.initialize_utilities()
 
@@ -174,13 +174,13 @@ def main(args):
         print('Warning: File type must be a member of the list', ['.htm', '.html', '.txt', '.hml', '.xml', '.xhtml', '.sgm', '.sgml', '.xhml'])
         print('Halting Program. Choose a member of this list and run this function again.')
         return ('Fail')
-    with open(txt_file_list) as instream:
-        for line in instream:
+    with File(txt_file_list).openText() as instream:
+        for line in instream.readlines():
             infile = line.strip()
             input_file = File(infile + file_type)
-            txt2_file = File(infile + '.txt2')
-            txt3_file = File(infile + '.txt3')
-            fact_file = File(infile + '.fact')
+            txt2_file = File[TXT2](infile + '.txt2')
+            txt3_file = File[TXT3](infile + '.txt3')
+            fact_file = File[ABBR](infile + '.fact')        # @semanticbeeng @todo static typing: is FACT same as ABBR?
             create_termolotator_fact_txt_files(input_file, txt2_file, txt3_file, fact_file)
 
 

@@ -2,7 +2,7 @@ import sys
 from typing import List, Dict, Pattern, Match
 
 from abbreviate import *
-from DataDef import File, POS, TERM, ABBR
+from DataDef import File, POS, TERM, ABBR, CHUNK
 import dictionary
 
 et_al_citation: Pattern[str] = re.compile(' et[.]? al[.]? *$')
@@ -1587,13 +1587,17 @@ def get_pos_structure(line):
     return (word, pos, start, end)
 
 
-## @func comp_termChunker
-def make_term_chunk_file(pos_file, term_file, abbreviate_file, chunk_file, no_head_terms_only=False):
+#
+# @func comp_termChunker
+#
+def make_term_chunk_file(pos_file: File[POS], term_file: File[TERM], abbreviate_file: File[ABBR], chunk_file: File[CHUNK],
+                         no_head_terms_only: bool=False) -> None:
+
     term_hash = {}
     start_term = False
     end_term = False
-    with open(term_file) as instream:
-        for line in instream:
+    with term_file.openText() as instream:
+        for line in instream.readlines():
             fvs = get_integrated_line_attribute_value_structure_no_list(line, ['TERM'])
             if not fvs:
                 pass
@@ -1610,14 +1614,15 @@ def make_term_chunk_file(pos_file, term_file, abbreviate_file, chunk_file, no_he
                 else:
                     term_hash[START] = fvs
     if abbreviate_file:
-        with open(abbreviate_file) as instream:
-            for line in instream:
+        with abbreviate_file.openText() as instream:
+            for line in instream.readlines():
                 fvs = get_integrated_line_attribute_value_structure_no_list(line, ['JARGON'])
                 if 'START' in fvs:
                     START = int(fvs['START'])
                     term_hash[START] = fvs
-    with open(pos_file) as instream, open(chunk_file, 'w') as outstream:
-        for line in instream:
+
+    with pos_file.openText() as instream, chunk_file.openText(mode='w') as outstream:
+        for line in instream.readlines():
             word, pos, start, end = get_pos_structure(line)
             if not word:
                 pass
@@ -1637,14 +1642,18 @@ def make_term_chunk_file(pos_file, term_file, abbreviate_file, chunk_file, no_he
                 outstream.write(word + '\t' + word + '\t' + pos + '\t' + CHUNK_TAG + os.linesep)
 
 
-## @func comp_termChunker
-def make_term_chunk_file_list(infiles, outfiles, no_head_terms_only=False):
-    with open(infiles) as instream, open(outfiles) as outfile_stream:
+#
+#   ## @func comp_termChunker
+#
+def make_term_chunk_file_list(infiles: str, outfiles: str, no_head_terms_only=False):
+
+    with File(infiles).openText() as instream, File(outfiles).openText() as outfile_stream:
         inlist = instream.readlines()
         outlist = outfile_stream.readlines()
         if len(inlist) != len(outlist):
             print("Lists of input and output files should be of same length.")
             sys.exit(-1)
+
     for num in range(len(inlist)):
         try:
             out_list = inlist[num].strip().split(';')
@@ -1657,4 +1666,7 @@ def make_term_chunk_file_list(infiles, outfiles, no_head_terms_only=False):
         except:
             print("Error opening input/output files:")
             print("Input: %s\nOutput: %s" % inlist[i].strip(), outlist[i].strip())
-        make_term_chunk_file(pos_file, term_file, abbreviate_file, chunk_file, no_head_terms_only=no_head_terms_only)
+
+        make_term_chunk_file(File[POS](pos_file), File[TERM](term_file),
+                             File[ABBR](abbreviate_file), File[CHUNK](chunk_file),
+                             no_head_terms_only=no_head_terms_only)

@@ -36,10 +36,14 @@ def s_filter_check(word1, word2):
         return (True)
 
 
-def collapse_lines(lines, alternate_lists):
-    output = []
+#
+#
+#
+def collapse_lines(lines: List[str], alternate_lists: Dict[str, str]) -> List[str]:
+    output: List[str] = []
     last_line_list = False
-    current_collection = []
+    current_collection: List[str] = []
+
     for line in lines:
         line_list = line.split('\t')
         if last_line_list and (last_line_list[-1] == line_list[-1]) \
@@ -916,9 +920,12 @@ def ok_statistical_term(term, lenient=False, penalize_initial_the=False):
     return (False, classification, chunks, rating, well_formedness)
 
 
-def filter_terms(infile,
-                 outfile,
-                 abbr_full_file: File,
+#
+#
+#
+def filter_terms(infile: File[TERM],
+                 outfile: File,
+                 abbr_full_file: File[ABBR],
                  # @semanticbeeng @todo not used full_abbr_file, \
                  use_web_score=True,
                  ranking_pref_cutoff=.001,
@@ -926,18 +933,19 @@ def filter_terms(infile,
                  numeric_cutoff=30000,
                  reject_file=None,
                  penalize_initial_the=True,
-                 web_score_dict_file=False
-                 ):
+                 web_score_dict_file=False) -> None:
+
     ## it is possible that some people may want to allow NPs as well as noun groups as terms
     if abbr_full_file:   # @semanticbeeng @todo not used and full_abbr_file:
         read_in_abbrev_dicts_from_files(abbr_full_file)     # @semanticbeeng @todo not used , full_abbr_file)
+
     if use_web_score and web_score_dict_file:
         load_web_score_dict_file(web_score_dict_file)
         use_web_score_dict = True
     else:
         use_web_score_dict = False
     stat_scores: List[float] = []
-    alternate_lists = {}
+    alternate_lists: Dict[str, str] = {}
 
     if reject_file:
         reject_stream = reject_file.openText(mode='w')
@@ -945,18 +953,21 @@ def filter_terms(infile,
         reject_stream = None
 
     ## make_stat_term_dictionary4
-    instream = open(infile, errors='replace')
+    instream = infile.openText()
     lines = instream.readlines()
     instream.close()
     line_lists = collapse_lines(lines, alternate_lists)
+
     for line in line_lists:
         if (len(stat_scores) > 0) and (line[-1] == stat_scores[-1]):
             pass
         else:
             stat_scores.append(line[-1])
-    stat_rank_scores = {}
+
+    stat_rank_scores: Dict[str, float] = {}     # @semanticbeeng @todo static typing str or float ???
     num = 0
     num_of_scores = len(stat_scores)
+
     for score in stat_scores:
         percentile = (num_of_scores - num) / num_of_scores
         percentile_score = round((percentile ** 2), 4)
@@ -965,6 +976,7 @@ def filter_terms(infile,
         else:
             num = num + 1
             stat_rank_scores[score] = percentile_score
+
     lenient_simple_threshold = round(ranking_pref_cutoff * len(line_lists))
     length_of_terms = min(round(percent_cutoff * len(line_lists)), numeric_cutoff)
     num = 0
@@ -999,7 +1011,7 @@ def filter_terms(infile,
             if reject_stream:
                 stream = reject_stream
             else:
-                stream = False
+                stream = None       # @semanticbeeng static typing
         else:
             if use_web_score:
                 webscore = webscore_one_term(term, use_web_score_dict=use_web_score_dict)  ### fix this
@@ -1018,7 +1030,9 @@ def filter_terms(infile,
             stream.write(term + '\t' + message + '\t' + classification + '\t' + rating + '\t' + well_formedness_score + '\t' + rank_score + '\t' + confidence + os.linesep)
     final_output.sort()
     final_output.reverse()
-    stream = open(outfile, 'w')
+
+    stream = outfile.openText(mode='w')
+
     for out in final_output:
         if use_web_score:
             confidence, term, keep, classification, rating, well_formedness_score, rank_score, webscore, combined_score = out[1]

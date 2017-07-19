@@ -3,7 +3,7 @@
 import os
 import re
 import sys
-
+from DataDef import File
 
 def main(args):
     ## infile is the output file from distributional term extraction
@@ -11,9 +11,10 @@ def main(args):
     out_file = args[2]
     ## outfile is the main output dictionary file from this process
     extensions = args[3:]
+
     if extensions:
-        with open(txt_file_list) as instream, open(out_file, 'w') as outstream:
-            for line in instream:
+        with File(txt_file_list).openText() as instream, File(out_file).openText(mode='w') as outstream:
+            for line in instream.readlines():
                 line = line.strip()
                 ending_pattern = re.compile('\.((txt)|(hml)|(htm)|(html)|(xml)|(sgml))[^a-zA-Z]*$', re.I)
                 base = ending_pattern.sub('', line)

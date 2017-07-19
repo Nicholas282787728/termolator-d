@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from filter_terms import *
-from DataDef import File
+from DataDef import File, TERM, ABBR
 import dictionary
 
 def main(args):
@@ -24,14 +24,13 @@ def main(args):
 
     dictionary.initialize_utilities()
 
-    input_file = file_prefix + ".all_terms"
-    output_file = file_prefix + ".scored_output"
-    abbr_full_file = File(file_prefix + ".dict_abbr_to_full")
+    input_file = File[TERM](file_prefix + ".all_terms")
+    output_file = File(file_prefix + ".scored_output")
+    abbr_full_file = File[ABBR](file_prefix + ".dict_abbr_to_full")
     # @semanticbeeng @todo not used  full_abbr_file = file_prefix + ".dict_full_to_abbr"
     reject_file = File(file_prefix + ".rejected-terms")
 
-    filter_terms(input_file, output_file,
-                 abbr_full_file,
+    filter_terms(input_file, output_file, abbr_full_file,
                  # @semanticbeeng @todo not used  full_abbr_file,
                  use_web_score,
                  numeric_cutoff=max_term_number,

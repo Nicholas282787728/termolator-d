@@ -22,6 +22,7 @@ TERM = str
 ABBR = str
 TXT2 = str
 TXT3 = str
+CHUNK = str
 
 class File(Generic[DT]):
     def __init__(self, name: str) -> None:
@@ -30,8 +31,8 @@ class File(Generic[DT]):
     def get(self) -> str:
         return self.name  # + '.' + DT
 
-    def openText(self, mode: str = 'r', encoding=None) -> TextIO:
-        return cast(TextIO, open(self.name, mode=mode, encoding=encoding))
+    def openText(self, mode: str = 'r', encoding=None, errors=None) -> TextIO:
+        return cast(TextIO, open(self.name, mode=mode, encoding=encoding, errors=errors))
 
 def main(args: List[str]):
     posFile1 = File[POS]("123.pos")
