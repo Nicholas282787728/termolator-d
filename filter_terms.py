@@ -655,19 +655,19 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                 prep_count = 1 + prep_count
                 if current_chunk:
                     chunks.append(current_chunk)
-                    current_chunk = None                # @semanticbeeng @todo static typing
-                chunks.append([pos, word])              # @todo
+                    current_chunk = None                            # @semanticbeeng @todo static typing
+                chunks.append([pos, word])                          # @todo
 
             elif pos == 'CCONJ':
                 conjunction_position = True
                 if current_chunk:
                     chunks.append(current_chunk)
-                    current_chunk = None                # @semanticbeeng @todo static typing
+                    current_chunk = None                            # @semanticbeeng @todo static typing
 
             elif pos in ['DET', 'AMBIG_POSSESS', 'POSSESS', 'POSSESS_OOV']:
                 if current_chunk:
                     chunks.append(current_chunk)
-                current_chunk = ('NP', [(pos, word)])     # @semanticbeeng @todo static typing
+                current_chunk = ('NP', [(pos, word)])               # @semanticbeeng @todo static typing
                 if pos == 'DET':
                     unnecessary_pieces = 1 + unnecessary_pieces
 
@@ -676,25 +676,25 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     unnecessary_pieces = 1 + unnecessary_pieces
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk[1].append((pos, word))   # @semanticbeeng @todo static typing
+                        current_chunk[1].append((pos, word))        # @semanticbeeng @todo static typing
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ('NP', [(pos, word)])     # @semanticbeeng @todo static typing
+                        current_chunk = ('NP', [(pos, word)])       # @semanticbeeng @todo static typing
                 else:
-                    current_chunk = ('NP', [(pos, word)])         # @semanticbeeng @todo static typing
+                    current_chunk = ('NP', [(pos, word)])           # @semanticbeeng @todo static typing
 
             elif pos in ['PLURAL', 'AMBIG_PLURAL']:
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk[1].append((pos, word))   # @semanticbeeng @todo static typing
+                        current_chunk[1].append((pos, word))        # @semanticbeeng @todo static typing
                         chunks.append(current_chunk)
-                        current_chunk = None        # @semanticbeeng @todo static typing
+                        current_chunk = None                        # @semanticbeeng @todo static typing
 
                     elif simple_tech_adj_chunk(current_chunk):
                         current_chunk = ('NP', current_chunk[1] + (pos, word))   # @semanticbeeng @todo static typing
                         chunks.append(current_chunk)
                         ## print(1,current_chunk)
-                        current_chunk = None        # @semanticbeeng @todo static typing
+                        current_chunk = None                        # @semanticbeeng @todo static typing
 
                     else:
                         chunks.append(current_chunk)
