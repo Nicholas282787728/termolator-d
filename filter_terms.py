@@ -1,11 +1,13 @@
 from find_terms import *
 from webscore import *
 import dictionary
-from typing import Tuple
+from typing import Tuple, Any, NamedTuple
 
 #              confidence, term,  keep, classification,   rating, well_formedness_score, rank_score, webscore,  combined_score
 ScoreT = Tuple[float,      str,   bool, str,              str,    float,                 float,      float,     float]
-ChunkT = Tuple[str, List[Tuple[str, str]]]
+
+WordPosT = NamedTuple('WordPosT', [('word', str), ('pos', str)])
+ChunkT = NamedTuple('ChunkT',   [('term', str), ('positions', List[WordPosT])])
 
 #
 #
@@ -667,7 +669,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
             elif pos in ['DET', 'AMBIG_POSSESS', 'POSSESS', 'POSSESS_OOV']:
                 if current_chunk:
                     chunks.append(current_chunk)
-                current_chunk = ('NP', [(pos, word)])               # @semanticbeeng @todo static typing
+                current_chunk = ChunkT('NP', [WordPosT(pos, word)])               # @semanticbeeng @todo static typing
                 if pos == 'DET':
                     unnecessary_pieces = 1 + unnecessary_pieces
 
@@ -676,22 +678,22 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     unnecessary_pieces = 1 + unnecessary_pieces
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk[1].append((pos, word))        # @semanticbeeng @todo static typing
+                        current_chunk[1].append(WordPosT(pos, word))        # @semanticbeeng @todo static typing
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ('NP', [(pos, word)])       # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('NP', [WordPosT(pos, word)])       # @semanticbeeng @todo static typing
                 else:
-                    current_chunk = ('NP', [(pos, word)])           # @semanticbeeng @todo static typing
+                    current_chunk = ChunkT('NP', [WordPosT(pos, word)])           # @semanticbeeng @todo static typing
 
             elif pos in ['PLURAL', 'AMBIG_PLURAL']:
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk[1].append((pos, word))        # @semanticbeeng @todo static typing
+                        current_chunk[1].append(WordPosT(pos, word))        # @semanticbeeng @todo static typing
                         chunks.append(current_chunk)
                         current_chunk = None                        # @semanticbeeng @todo static typing
 
                     elif simple_tech_adj_chunk(current_chunk):
-                        current_chunk = ('NP', current_chunk[1] + (pos, word))   # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('NP', current_chunk[1] + WordPosT(pos, word))   # @semanticbeeng @todo static typing
                         chunks.append(current_chunk)
                         ## print(1,current_chunk)
                         current_chunk = None                        # @semanticbeeng @todo static typing
@@ -699,53 +701,53 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     else:
                         chunks.append(current_chunk)
                         current_chunk = None        # @semanticbeeng @todo static typing
-                        chunks.append(('NP', [(pos, word)]))  # @semanticbeeng @todo static typing
+                        chunks.append(ChunkT('NP', [WordPosT(pos, word)]))  # @semanticbeeng @todo static typing
                 else:
-                    chunks.append(['NP', [(pos, word)]])
+                    chunks.append(ChunkT('NP', [WordPosT(pos, word)]))
 
             elif pos in ['NOUN', 'AMBIG_NOUN', 'NOUN_OOV']:
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk[1].append((pos, word))   # @semanticbeeng @todo static typing
+                        current_chunk[1].append(WordPosT(pos, word))   # @semanticbeeng @todo static typing
 
                     elif simple_tech_adj_chunk(current_chunk):
                         ## print(2,current_chunk)
-                        current_chunk = ('NP', current_chunk[1] + (pos, word))   # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('NP', current_chunk[1] + WordPosT(pos, word))   # @semanticbeeng @todo static typing
                         ## print(2,current_chunk)
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ('NP', [(pos, word)])             # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('NP', [WordPosT(pos, word)])             # @semanticbeeng @todo static typing
                 else:
-                    current_chunk = ('NP', [(pos, word)])                 # @semanticbeeng @todo static typing
+                    current_chunk = ChunkT('NP', [WordPosT(pos, word)])                 # @semanticbeeng @todo static typing
 
             elif pos in ['VERB', 'AMBIG_VERB']:
                 if current_chunk:
                     if current_chunk[0] == 'ADVP':
-                        current_chunk = ('VP', current_chunk[1] + (pos, word))   # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('VP', current_chunk[1] + WordPosT(pos, word))   # @semanticbeeng @todo static typing
                     elif current_chunk[0] == 'VP':
-                        current_chunk[1].append((pos, word))    # @semanticbeeng @todo static typing
+                        current_chunk[1].append(WordPosT(pos, word))    # @semanticbeeng @todo static typing
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ('VP', [(pos, word)])               # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('VP', [WordPosT(pos, word)])               # @semanticbeeng @todo static typing
                 else:
                     if current_chunk:
                         chunks.append(current_chunk)
-                    current_chunk = ('VP', [(pos, word)])                   # @semanticbeeng @todo static typing
+                    current_chunk = ChunkT('VP', [WordPosT(pos, word)])                   # @semanticbeeng @todo static typing
 
             elif pos in ['ADVERB']:
                 if current_chunk:
                     if current_chunk[0] in ['VP', 'ADVP']:
-                        current_chunk[1].append((pos, word))
+                        current_chunk[1].append(WordPosT(pos, word))
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ('ADVP', [(pos, word)])
+                        current_chunk = ChunkT('ADVP', [WordPosT(pos, word)])
 
             elif current_chunk:
                 chunks.append(current_chunk)
-                chunks.append(('XP', [(pos, word)]))
+                chunks.append(ChunkT('XP', [WordPosT(pos, word)]))
                 current_chunk = None
             else:
-                current_chunk = ('XP', [(pos, word)])
+                current_chunk = ChunkT('XP', [WordPosT(pos, word)])
 
             position = 1 + position
         ## print(chunks)
@@ -753,7 +755,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
         if current_chunk:
             last_pos_word_pair = current_chunk[1][-1]
             if (current_chunk[0] == 'NP') and (not last_pos_word_pair[0] in ['NOUN', 'AMBIG_NOUN', 'PLURAL', 'AMBIG_PLURAL', 'NOUN_OOV']):
-                current_chunk = ('XP', current_chunk[1])
+                current_chunk = ChunkT('XP', current_chunk[1])
             ##            elif (current_chunk[0] == 'NP') and (not last_pos_word_pair[-1] in ['NOUN','AMBIG_NOUN','PLURAL','AMBIG_PLURAL','NOUN_OOV']):
             ##                current_chunk[0] = 'XP'
             chunks.append(current_chunk)
@@ -1216,9 +1218,10 @@ def filter_terms(infile: File[TERM],
         if use_web_score:
             confidence, term, keep, classification, rating, well_formedness_score, rank_score, webscore, combined_score = out[1]
         else:
-            confidence, term, keep, classification, rating, well_formedness_score, rank_score, _,        _              = out[1]
-            web_score = False
-            combined_score = False
+            confidence, term, keep, classification, rating, well_formedness_score, rank_score, webscore, combined_score = out[1]
+            web_score = 0.0                             # @semanticbeeng @todo static type
+            combined_score = 0.0                        # @semanticbeeng @todo static type
+
         # confidence = str(confidence)                  # @semanticbeeng @todo static type
         # rating = str(rating)                          # @semanticbeeng @todo static type
         # well_formedness_score = str(well_formedness_score) # @semanticbeeng @todo static type

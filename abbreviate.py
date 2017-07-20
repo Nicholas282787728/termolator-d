@@ -1,6 +1,6 @@
 from term_utilities import *
 from DataDef import File, TXT3, ABBR
-from typing import List, Dict, Tuple, Pattern, Match, Optional, Any, NamedTuple
+from typing import List, Dict, Tuple, Pattern, Match, Optional, NamedTuple
 import dictionary
 
 # global abbr_to_full_dict
