@@ -3,8 +3,9 @@ from webscore import *
 import dictionary
 from typing import Tuple
 
-#            confidence, term,  keep, classification,   rating, well_formedness_score, rank_score
-ScoreT=Tuple[float,      str,   bool, str,              str,    float,                 float]
+#              confidence, term,  keep, classification,   rating, well_formedness_score, rank_score
+ScoreT = Tuple[float,      str,   bool, str,              str,    float,                 float]
+ChunkT = Tuple[str, List[Tuple[str, str]]]
 
 #
 #
@@ -463,16 +464,18 @@ def stringify_word_list(word_list: List[str]) -> str:
 #
 #
 #
-def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str], List[str], float]:
+def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str], List[ChunkT], float]:
     ## based on get_topic_terms, but based on smaller n-grams, typically with no punctuation
     ## return (lemma, classification, rating, other_terms)
-    weird_char = re.compile('[^ 0-9A-Za-z\-\'\.]')
-    word_pattern = re.compile('[^\w]+')
-    weird_spacing = re.compile('([^a-zA-Z0-9] )|( [^a-zA-Z0-9])|(-$)')
-    pre_np = False
-    main_base = False
-    verb_base = False
-    chunks: List[str] = []  # @semanticbeeng @todo static typing
+    weird_char: Pattern[str] = re.compile('[^ 0-9A-Za-z\-\'\.]')
+    word_pattern: Pattern[str] = re.compile('[^\w]+')
+    weird_spacing: Pattern[str] = re.compile('([^a-zA-Z0-9] )|( [^a-zA-Z0-9])|(-$)')
+
+    # pre_np = False            @semanticbeeng not used
+    main_base: List[str] = None  # @semanticbeeng @todo static typing
+    verb_base: str = None        # @semanticbeeng @todo static typing
+    # wf_score: float
+    chunks: List[ChunkT] = []    # @semanticbeeng @todo static typing
 
     ## ratings: good, medium, bad
     if weird_char.search(line) or weird_spacing.search(line):
@@ -483,8 +486,8 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
         words = word_split(line)
     if len(words) == 1:
         pos = guess_pos(words[0].lower(), False)
-        base2 = False
-        abbrevs = False
+        base2: str = None                       # @semanticbeeng @todo static typing
+        abbrevs: List[str] = []                 # @semanticbeeng @todo static typing
         output: List[str] = []  # @semanticbeeng @todo static typing
 
         if pos in ['NOUN', 'AMBIG_NOUN', 'NOUN_OOV']:
@@ -506,11 +509,14 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
             elif base2:
                 rating = topic_term_rating(words[0], pos)
                 if rating == 'Good':
-                    wf_score = 1
+                    wf_score = 1.0              # @semanticbeeng @todo static typing
                 elif rating == 'Medium':
                     wf_score = .7
                 elif rating == 'Bad':
                     wf_score = .3
+                else:
+                    raise ValueError("Unexpected execution path")
+
                 return (base2.upper(), 'HYPHENATION', rating, output, chunks, wf_score)
             else:
                 rating = topic_term_rating(words[0], pos)
@@ -520,7 +526,11 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     wf_score = .7
                 elif rating == 'Bad':
                     wf_score = .3
+                else:
+                    raise ValueError("Unexpected execution path")
+
                 return (words[0].upper(), 'SIMPLE', rating, output, chunks, wf_score)
+
         elif pos in ['PLURAL', 'AMBIG_PLURAL']:
             bases = derive_base_form_from_plural(words[0])
             base2s = []
@@ -532,7 +542,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     if (not normal_word(base)) or words[0].isupper():
                         out = get_expanded_forms_from_abbreviations(base.upper())
                     else:
-                        out = False
+                        out = None            # @semanticbeeng @todo static typing
                     if out:
                         abbrevs.extend(out)
                 if base2s:
@@ -540,16 +550,20 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                         if (not normal_word(base)) or words[0].isupper():
                             out = get_expanded_forms_from_abbreviations(base.upper())
                         else:
-                            out = False
+                            out = None        # @semanticbeeng @todo static typing
                         if out:
                             abbrevs.extend(out)
+
             if abbrevs and (len(abbrevs) > 0):
                 output = abbrevs
                 output.append(words[0])
+
                 if base2s:
                     output.extend(base2s)
+
                 for abbrev in abbrevs:
                     return (abbrev, 'ABBREVIATION', 'Good', output, chunks, 1)
+
             elif base2s:
                 rating = topic_term_rating(words[0], pos)
                 if rating == 'Good':
@@ -558,7 +572,11 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     wf_score = .7
                 elif rating == 'Bad':
                     wf_score = .3
+                else:
+                    raise ValueError("Unexpected execution path")
+
                 return (base2s[0].upper(), 'HYPHENATION', rating, output, chunks, wf_score)
+
             elif bases:
                 rating = topic_term_rating(words[0], pos)
                 if rating == 'Good':
@@ -567,7 +585,11 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     wf_score = .7
                 elif rating == 'Bad':
                     wf_score = .3
+                else:
+                    raise ValueError("Unexpected execution path")
+
                 return (bases[0].upper(), 'SIMPLE', rating, output, chunks, wf_score)
+
             else:
                 rating = topic_term_rating(words[0], pos)
                 if rating == 'Good':
@@ -576,6 +598,9 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     wf_score = .7
                 elif rating == 'Bad':
                     wf_score = .3
+                else:
+                    raise ValueError("Unexpected execution path")
+
                 return (line.upper(), 'SIMPLE', rating, output, chunks, wf_score)
         else:
             ## 1) additional alternative for verb: look up nominalization
@@ -594,11 +619,14 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                 wf_score = .4
             elif rating == 'Bad':
                 wf_score = .2
+            else:
+                raise ValueError("Unexpected execution path")
+
             return (line.upper(), classification, rating, [], chunks, wf_score)     # @semanticbeeng @todo static typing
     else:
         conjunction_position = False  ## there is never more than one in the current Mitre list
         position = 0
-        current_chunk = False
+        current_chunk: ChunkT = None        # @semanticbeeng @todo static typing
         chunks = []
         unnecessary_pieces = 0
         prep_count = 0
@@ -627,17 +655,19 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                 prep_count = 1 + prep_count
                 if current_chunk:
                     chunks.append(current_chunk)
-                    current_chunk = False
-                chunks.append([pos, word])
+                    current_chunk = None                # @semanticbeeng @todo static typing
+                chunks.append([pos, word])              # @todo
+
             elif pos == 'CCONJ':
                 conjunction_position = True
                 if current_chunk:
                     chunks.append(current_chunk)
-                    current_chunk = False
+                    current_chunk = None                # @semanticbeeng @todo static typing
+
             elif pos in ['DET', 'AMBIG_POSSESS', 'POSSESS', 'POSSESS_OOV']:
                 if current_chunk:
                     chunks.append(current_chunk)
-                current_chunk = ['NP', [pos, word]]
+                current_chunk = ('NP', [(pos, word)])     # @semanticbeeng @todo static typing
                 if pos == 'DET':
                     unnecessary_pieces = 1 + unnecessary_pieces
             elif pos in ['SKIPABLE_ADJ', 'ADJECTIVE', 'TECH_ADJECTIVE', 'NATIONALITY_ADJ']:
@@ -645,77 +675,80 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     unnecessary_pieces = 1 + unnecessary_pieces
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk.append([pos, word])
+                        current_chunk[1].append((pos, word))   # @semanticbeeng @todo static typing
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ['NP', [pos, word]]
+                        current_chunk = ('NP', [(pos, word)])     # @semanticbeeng @todo static typing
                 else:
-                    current_chunk = ['NP', [pos, word]]
+                    current_chunk = ('NP', [(pos, word)])         # @semanticbeeng @todo static typing
+
             elif pos in ['PLURAL', 'AMBIG_PLURAL']:
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk.append([pos, word])
+                        current_chunk[1].append((pos, word))   # @semanticbeeng @todo static typing
                         chunks.append(current_chunk)
-                        current_chunk = False
+                        current_chunk = None        # @semanticbeeng @todo static typing
+
                     elif simple_tech_adj_chunk(current_chunk):
-                        current_chunk[0] = 'NP'
-                        current_chunk.append([pos, word])
+                        current_chunk = ('NP', current_chunk[1] + (pos, word))   # @semanticbeeng @todo static typing
                         chunks.append(current_chunk)
                         ## print(1,current_chunk)
-                        current_chunk = False
+                        current_chunk = None        # @semanticbeeng @todo static typing
+
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = False
-                        chunks.append(['NP', [pos, word]])
+                        current_chunk = None        # @semanticbeeng @todo static typing
+                        chunks.append(('NP', [(pos, word)]))  # @semanticbeeng @todo static typing
                 else:
-                    chunks.append(['NP', [pos, word]])
+                    chunks.append(['NP', [(pos, word)]])
             elif pos in ['NOUN', 'AMBIG_NOUN', 'NOUN_OOV']:
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk.append([pos, word])
+                        current_chunk[1].append((pos, word))   # @semanticbeeng @todo static typing
+
                     elif simple_tech_adj_chunk(current_chunk):
                         ## print(2,current_chunk)
-                        current_chunk[0] = 'NP'
-                        current_chunk.append([pos, word])
+                        current_chunk = ('NP', current_chunk[1] + (pos, word))   # @semanticbeeng @todo static typing
                         ## print(2,current_chunk)
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ['NP', [pos, word]]
+                        current_chunk = ('NP', [(pos, word)])             # @semanticbeeng @todo static typing
                 else:
-                    current_chunk = ['NP', [pos, word]]
+                    current_chunk = ('NP', [(pos, word)])                 # @semanticbeeng @todo static typing
+
             elif pos in ['VERB', 'AMBIG_VERB']:
                 if current_chunk:
                     if current_chunk[0] == 'ADVP':
-                        current_chunk[0] = 'VP'
-                        current_chunk.append([pos, word])
+                        current_chunk = ('VP', current_chunk[1] + (pos, word))   # @semanticbeeng @todo static typing
                     elif current_chunk[0] == 'VP':
-                        current_chunk.append([pos, word])
+                        current_chunk[1].append((pos, word))    # @semanticbeeng @todo static typing
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ['VP', [pos, word]]
+                        current_chunk = ('VP', [(pos, word)])               # @semanticbeeng @todo static typing
                 else:
                     if current_chunk:
                         chunks.append(current_chunk)
-                    current_chunk = ['VP', [pos, word]]
+                    current_chunk = ('VP', [(pos, word)])                   # @semanticbeeng @todo static typing
             elif pos in ['ADVERB']:
                 if current_chunk:
                     if current_chunk[0] in ['VP', 'ADVP']:
-                        current_chunk.append([pos, word])
+                        current_chunk[1].append((pos, word))
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ['ADVP', [pos, word]]
+                        current_chunk = ('ADVP', [(pos, word)])
             elif current_chunk:
                 chunks.append(current_chunk)
-                chunks.append(['XP', [pos, word]])
-                current_chunk = False
+                chunks.append(('XP', [(pos, word)]))
+                current_chunk = None
             else:
-                current_chunk = ['XP', [pos, word]]
+                current_chunk = ('XP', [(pos, word)])
             position = 1 + position
         ## print(chunks)
+
         if current_chunk:
-            last_pos_word_pair = current_chunk[-1]
+            last_pos_word_pair = current_chunk[1][-1]
             if (current_chunk[0] == 'NP') and (not last_pos_word_pair[0] in ['NOUN', 'AMBIG_NOUN', 'PLURAL', 'AMBIG_PLURAL', 'NOUN_OOV']):
-                current_chunk[0] = 'XP'
+                current_chunk = ('XP', current_chunk[1])
             ##            elif (current_chunk[0] == 'NP') and (not last_pos_word_pair[-1] in ['NOUN','AMBIG_NOUN','PLURAL','AMBIG_PLURAL','NOUN_OOV']):
             ##                current_chunk[0] = 'XP'
             chunks.append(current_chunk)
@@ -730,36 +763,41 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
             return (line.upper(), 'too_many_chunks', 'Bad', [line], chunks, .3)
         else:
             ok_np = 0
-            np_1 = False
+            np_1: Tuple[List[str], str] = None     # @semanticbeeng @todo static typing
             np_1_bases: List[str] = []      # @semanticbeeng @todo static typing
-            np_1_pos_seq = False
+            # np_1_pos_seq = False
             np_1_variants: List[str] = []      # @semanticbeeng @todo static typing
-            np_2 = False
+
+            np_2: Tuple[List[str], str] = None      # @semanticbeeng @todo static typing
             np_2_bases: List[str] = []      # @semanticbeeng @todo static typing
             np_2_variants: List[str] = []      # @semanticbeeng @todo static typing
-            vp_1 = False
-            vp_2 = False
-            vp_bases: List[str] = []      # @semanticbeeng @todo static typing
-            vp_variants = False
-            vp_ing = False
-            vp_pos_seq = False
+
+            vp_1 = False                        # @semanticbeeng @todo static typing
+            vp_2 = False                        # @semanticbeeng @todo static typing
+            vp_bases: List[str] = []            # @semanticbeeng @todo static typing
+            vp_variants: List[str] = None      # @semanticbeeng @todo static typing
+            vp_ing: List[str] = None           # @semanticbeeng @todo static typing
+            # vp_pos_seq = False
             new_construction = False
             position = 0
-            prep_position = False
+            prep_position: int = None        # @semanticbeeng @todo static typing
+
             for chunk in chunks:
                 if chunk[0] == 'PREP':
                     prep_position = position
+
                 elif chunk[0] == 'NP':
-                    word_seq = []
-                    pos_seq = []
-                    for leaf in chunk[1:]:
-                        ## print(leaf)
+                    word_seq: List[str] = []
+                    pos_seq: List[str] = []
+
+                    for leaf in chunk[1]:       # @semanticbeeng @todo @data
+                        #print(leaf)
                         pos_seq.append(leaf[0])
                         word_seq.append(leaf[1])
                     if word_seq:
                         term_string = stringify_word_list(word_seq)
                     else:
-                        term_string = False
+                        term_string = None          # @semanticbeeng @todo  static typing
                     OK_term, has_OOV = topic_term_ok(word_seq, pos_seq, term_string)
                     if OK_term:
                         ok_np = 1 + ok_np
@@ -768,36 +806,39 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                         else:
                             rating = 'Medium'
                         if np_1:
-                            np_2 = [word_seq, rating]
+                            np_2 = (word_seq, rating)
                             np_2_bases, np_2_variants, _, main_base = get_morph_variants(word_seq, pos_seq, 'NP')       # @semanticbeeng @todo  static typing
                         else:
-                            np_1 = [word_seq, rating]
-                            np_1_pos_seq = word_seq
+                            np_1 = (word_seq, rating)
+                            # np_1_pos_seq = word_seq
                             np_1_bases, np_1_variants, _, main_base = get_morph_variants(word_seq, pos_seq, 'NP')       # @semanticbeeng @todo  static typing
                     else:
                         if np_1:
-                            np_2 = [word_seq, 'Bad']
+                            np_2 = (word_seq, 'Bad')
                             np_2_bases, np_2_variants, _, main_base = get_morph_variants(word_seq, pos_seq, 'NP')       # @semanticbeeng @todo  static typing
                         else:
-                            np_1 = [word_seq, 'Bad']
+                            np_1 = (word_seq, 'Bad')
                             np_1_bases, np_1_variants, _, main_base = get_morph_variants(word_seq, pos_seq, 'NP')       # @semanticbeeng @todo  static typing
+
                 elif chunk[0] == 'VP':
                     if vp_1 or vp_2:
                         return (line.upper(), 'too_many_verbs', 'Bad', [line], chunks, .1)
                     else:
                         word_seq = []
                         pos_seq = []
-                        for leaf in chunk[1:]:
+
+                        for leaf in chunk[1]:           # @semanticbeeng @data
                             pos_seq.append(leaf[0])
                             word_seq.append(leaf[1])
+
                         if np_1:
                             vp_2 = [word_seq, 'OK']
                             vp_bases, vp_variants, vp_ing, verb_base = get_morph_variants(word_seq, pos_seq, 'VP', mitre=True)
-                            vp_pos_seq = pos_seq
+                            # vp_pos_seq = pos_seq
                         else:
                             vp_1 = [word_seq, 'OK']
                             vp_bases, vp_variants, vp_ing, verb_base = get_morph_variants(word_seq, pos_seq, 'VP', mitre=True)
-                            vp_pos_seq = pos_seq
+                            # vp_pos_seq = pos_seq
                 else:
                     new_construction = True
                 position = 1 + position
@@ -829,6 +870,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                 elif rating == 'Bad':
                     wf_score = .2
                 return (lemma, 'Normal_NP', rating, np_1_variants, chunks, wf_score)
+
             elif np_1 and np_2 and (prep_position == 1):
                 if unnecessary_pieces >= 2:
                     rating = 'Bad'
@@ -841,16 +883,19 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     rating = 'Medium'
                 else:
                     rating = 'Bad'
-                full_bases = []
-                full_variants = []
+                full_bases: List[str] = []
+                full_variants: List[str] = []
+
                 for np1 in np_1_bases:
                     for np2 in np_2_bases:
                         full_base = np1 + ' ' + chunks[1][1] + ' ' + np2
                         full_bases.append(full_base)
+
                 for np1 in np_1_variants:
                     for np2 in np_2_variants:
                         full_variant = np1 + ' ' + chunks[1][1] + ' ' + np2
                         full_variants.append(full_variant)
+
                 ## for NP NP constructions, just choose first one (for now)
                 ## Eventually, unify "recognition of speech" and "speech recognition"
                 ## print('term_classify',type(np_1[0]))
@@ -874,7 +919,8 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                 if vp_ing and (len(vp_ing) > 0):
                     ing = vp_ing[0]
                 else:
-                    ing = False
+                    ing = None         # @semanticbeeng @todo static typing
+
                 lemma, rating = get_np_vp_lemma(np_1_bases[0], vp_bases[0], ing, np_1[1], verb_base)
                 if unnecessary_pieces >= 2:
                     rating = 'Bad'
@@ -920,14 +966,17 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     rating = 'Bad'
                 full_bases = []
                 full_variants = []
+
                 for np1 in np_1_bases:
                     for np2 in np_2_bases:
                         full_base = np1 + ' ' + np2
                         full_bases.append(full_base)
+
                 for np1 in np_1_variants:
                     for np2 in np_2_variants:
                         full_variant = np1 + ' ' + np2
                         full_variants.append(full_variant)
+
                 lemma, nom = get_np_lemma(np_1_bases[0], np2=np_2_bases[0])
                 if rating == 'Good':
                     wf_score = .8
@@ -941,6 +990,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                 ## rating based on OOV and nominalizations
                 ## have not really attempted to identify "uninteresting" nouns and verbs
                 ## e.g., support verbs, transparent nouns, boring nouns ('device', etc.)
+    raise ValueError("Unexpected return path")
 
 
 #
@@ -969,7 +1019,7 @@ def ok_statistical_term(term, lenient=False, penalize_initial_the=False):
             well_formedness = well_formedness + .25
         return (True, classification, chunks, rating, well_formedness)
     elif classification in ['SIMPLE', 'HYPHENATION']:
-        POS = guess_pos(term.lower(), term.istitle())
+        POS: str = guess_pos(term.lower(), term.istitle())
         if lenient and classification == 'SIMPLE':
             if rating != 'Good':
                 rating = rating + '_but_top_term'
