@@ -3,8 +3,8 @@ from webscore import *
 import dictionary
 from typing import Tuple
 
-#              confidence, term,  keep, classification,   rating, well_formedness_score, rank_score
-ScoreT = Tuple[float,      str,   bool, str,              str,    float,                 float]
+#              confidence, term,  keep, classification,   rating, well_formedness_score, rank_score, webscore,  combined_score
+ScoreT = Tuple[float,      str,   bool, str,              str,    float,                 float,      float,     float]
 ChunkT = Tuple[str, List[Tuple[str, str]]]
 
 #
@@ -670,6 +670,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                 current_chunk = ('NP', [(pos, word)])     # @semanticbeeng @todo static typing
                 if pos == 'DET':
                     unnecessary_pieces = 1 + unnecessary_pieces
+
             elif pos in ['SKIPABLE_ADJ', 'ADJECTIVE', 'TECH_ADJECTIVE', 'NATIONALITY_ADJ']:
                 if (not (pos in ['TECH_ADJECTIVE', 'NATIONALITY_ADJ'])) and (not term_dict_check(word, dictionary.stat_adj_dict)):
                     unnecessary_pieces = 1 + unnecessary_pieces
@@ -701,6 +702,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                         chunks.append(('NP', [(pos, word)]))  # @semanticbeeng @todo static typing
                 else:
                     chunks.append(['NP', [(pos, word)]])
+
             elif pos in ['NOUN', 'AMBIG_NOUN', 'NOUN_OOV']:
                 if current_chunk:
                     if current_chunk[0] == 'NP':
@@ -729,6 +731,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     if current_chunk:
                         chunks.append(current_chunk)
                     current_chunk = ('VP', [(pos, word)])                   # @semanticbeeng @todo static typing
+
             elif pos in ['ADVERB']:
                 if current_chunk:
                     if current_chunk[0] in ['VP', 'ADVP']:
@@ -736,12 +739,14 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     else:
                         chunks.append(current_chunk)
                         current_chunk = ('ADVP', [(pos, word)])
+
             elif current_chunk:
                 chunks.append(current_chunk)
                 chunks.append(('XP', [(pos, word)]))
                 current_chunk = None
             else:
                 current_chunk = ('XP', [(pos, word)])
+
             position = 1 + position
         ## print(chunks)
 
@@ -752,6 +757,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
             ##            elif (current_chunk[0] == 'NP') and (not last_pos_word_pair[-1] in ['NOUN','AMBIG_NOUN','PLURAL','AMBIG_PLURAL','NOUN_OOV']):
             ##                current_chunk[0] = 'XP'
             chunks.append(current_chunk)
+
         ## print(2,chunks)
         if conjunction_position:
             ## a real term should not contain a conjunction
@@ -764,17 +770,17 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
         else:
             ok_np = 0
             np_1: Tuple[List[str], str] = None     # @semanticbeeng @todo static typing
-            np_1_bases: List[str] = []      # @semanticbeeng @todo static typing
+            np_1_bases: List[str] = []             # @semanticbeeng @todo static typing
             # np_1_pos_seq = False
-            np_1_variants: List[str] = []      # @semanticbeeng @todo static typing
+            np_1_variants: List[str] = []          # @semanticbeeng @todo static typing
 
-            np_2: Tuple[List[str], str] = None      # @semanticbeeng @todo static typing
-            np_2_bases: List[str] = []      # @semanticbeeng @todo static typing
-            np_2_variants: List[str] = []      # @semanticbeeng @todo static typing
+            np_2: Tuple[List[str], str] = None     # @semanticbeeng @todo static typing
+            np_2_bases: List[str] = []             # @semanticbeeng @todo static typing
+            np_2_variants: List[str] = []          # @semanticbeeng @todo static typing
 
-            vp_1 = False                        # @semanticbeeng @todo static typing
-            vp_2 = False                        # @semanticbeeng @todo static typing
-            vp_bases: List[str] = []            # @semanticbeeng @todo static typing
+            vp_1: List = None                  # @semanticbeeng @todo static typing
+            vp_2: List = None                  # @semanticbeeng @todo static typing
+            vp_bases: List[str] = []           # @semanticbeeng @todo static typing
             vp_variants: List[str] = None      # @semanticbeeng @todo static typing
             vp_ing: List[str] = None           # @semanticbeeng @todo static typing
             # vp_pos_seq = False
@@ -794,11 +800,14 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                         #print(leaf)
                         pos_seq.append(leaf[0])
                         word_seq.append(leaf[1])
+
                     if word_seq:
                         term_string = stringify_word_list(word_seq)
                     else:
                         term_string = None          # @semanticbeeng @todo  static typing
+
                     OK_term, has_OOV = topic_term_ok(word_seq, pos_seq, term_string)
+
                     if OK_term:
                         ok_np = 1 + ok_np
                         if has_OOV:
@@ -841,10 +850,13 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                             # vp_pos_seq = pos_seq
                 else:
                     new_construction = True
+
                 position = 1 + position
+
             if new_construction:
                 ## print(chunks)
                 return (line.upper(), 'sequence_with_XP_chunk', 'Bad', [line], chunks, .3)
+
             elif np_1 and (len(chunks) == 1):
                 if unnecessary_pieces >= 2:
                     rating = 'Bad'
@@ -863,26 +875,33 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                 lemma, nom = get_np_lemma(' '.join(np_1[0]))
                 ## print('np_1_lemma',lemma)
                 ## print(np_1,rating)
+
                 if rating == 'Good':
                     wf_score = 1
                 elif rating == 'Medium':
                     wf_score = .5
                 elif rating == 'Bad':
                     wf_score = .2
+                else:
+                    raise ValueError("Unexpected return path")
+
                 return (lemma, 'Normal_NP', rating, np_1_variants, chunks, wf_score)
 
             elif np_1 and np_2 and (prep_position == 1):
                 if unnecessary_pieces >= 2:
                     rating = 'Bad'
+
                 elif (np_1[1] == 'OK') and (np_2[1] == 'OK'):
                     if unnecessary_pieces > 0:
                         rating = 'Medium'
                     else:
                         rating = 'Good'
+
                 elif (np_1[1] in ['OK', 'Medium']) or (np_2[1] in ['OK', 'Medium']):
                     rating = 'Medium'
                 else:
                     rating = 'Bad'
+
                 full_bases: List[str] = []
                 full_variants: List[str] = []
 
@@ -900,13 +919,18 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                 ## Eventually, unify "recognition of speech" and "speech recognition"
                 ## print('term_classify',type(np_1[0]))
                 lemma, nom = get_np_lemma(np_1_bases[0], prep=chunks[1][1], np2=np_2_bases[0])
+
                 if rating == 'Good':
-                    wf_score = 1
+                    wf_score = 1.0
                 elif rating == 'Medium':
                     wf_score = .5
                 elif rating == 'Bad':
                     wf_score = .2
+                else:
+                    raise ValueError("Unexpected return path")
+
                 return (lemma, '2_Part_NP', rating, full_variants, chunks, wf_score)
+
             elif np_1 and (vp_1 or vp_2) and (len(chunks) == 2):
                 ## did not implement nominalization fixes
                 ##                if (len(np_1)<1) or (len(vp_bases)<1) or (len(vp_ing)<1) or (len(np_1)<2):
@@ -922,19 +946,23 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     ing = None         # @semanticbeeng @todo static typing
 
                 lemma, rating = get_np_vp_lemma(np_1_bases[0], vp_bases[0], ing, np_1[1], verb_base)
+
                 if unnecessary_pieces >= 2:
                     rating = 'Bad'
                 elif (rating == 'Good') and (unnecessary_pieces > 0):
                     rating = 'Medium'
+
                 ## vp first, e.g., "recognizing/recognizes/recognized speech"
                 full_variants = []
                 ## print(chunks)
+
                 for np1 in np_1_variants:
                     for vp in vp_variants:
                         full_variants.append(vp + ' ' + np1)
                     if vp_ing:
                         for vp in vp_ing:
                             full_variants.append(np1 + ' ' + vp)
+
                 if vp_2 and not (line in full_variants):
                     full_variants.append(line)
                 if rating == 'Good':
@@ -943,6 +971,9 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     wf_score = .3
                 elif rating == 'Bad':
                     wf_score = .2
+                else:
+                    raise ValueError("Unexpected return path")
+
                 if vp_2 and vp_ing:
                     return (lemma, 'NP+VP_ing', rating, full_variants, chunks, wf_score - .1)
                 elif vp_ing:
@@ -964,6 +995,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     rating = 'Medium'
                 else:
                     rating = 'Bad'
+
                 full_bases = []
                 full_variants = []
 
@@ -978,12 +1010,16 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                         full_variants.append(full_variant)
 
                 lemma, nom = get_np_lemma(np_1_bases[0], np2=np_2_bases[0])
+
                 if rating == 'Good':
                     wf_score = .8
                 elif rating == 'Medium':
                     wf_score = .5
                 elif rating == 'Bad':
                     wf_score = .2
+                else:
+                    raise ValueError("Unexpected return path")
+
                 return (lemma, '2_Part_NP_no_prep', rating, full_variants, chunks, wf_score)
             else:
                 return (line.upper(), 'unexpected_POS_sequence', 'Bad', [line], chunks, .1)
@@ -996,15 +1032,17 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
 #
 #
 #
-def ok_statistical_term(term, lenient=False, penalize_initial_the=False):
+def ok_statistical_term(term: str, lenient: bool=False, penalize_initial_the: bool=False) -> Tuple[bool, str, List[ChunkT], str, float]:
     ## if single word, it should be a possible noun
     ##
     initial_the_pattern = re.compile('^the ', re.I)
-    rating = False
-    well_formedness = 0
+    rating: str = None   # @semanticbeeng @todo static typing
+    well_formedness: float = 0
     if len(term) == 1:
-        return (False, '1-character-term', False, rating, well_formedness)
+        return (False, '1-character-term', [], rating, well_formedness)     # @semanticbeeng @todo static typing @data
+
     lemma, classification, rating, other_terms, chunks, well_formedness = term_classify(term)
+
     if penalize_initial_the and initial_the_pattern.search(term):
         well_formedness = 0
         ## for NYU internal purposes only, downgrade all terms beginning with "the"
@@ -1012,12 +1050,14 @@ def ok_statistical_term(term, lenient=False, penalize_initial_the=False):
         if well_formedness >= .1:
             well_formedness = well_formedness - .1
         return (False, classification, chunks, rating, well_formedness)
+
     elif classification in ['Normal_NP', 'ABBREVIATION', 'NP+VP_ing', 'VP_ing+NP', '2_Part_NP_no_prep']:
         if rating == 'Medium':
             well_formedness = well_formedness + .1
         elif rating == 'Bad':
             well_formedness = well_formedness + .25
         return (True, classification, chunks, rating, well_formedness)
+
     elif classification in ['SIMPLE', 'HYPHENATION']:
         POS: str = guess_pos(term.lower(), term.istitle())
         if lenient and classification == 'SIMPLE':
@@ -1040,9 +1080,12 @@ def ok_statistical_term(term, lenient=False, penalize_initial_the=False):
         else:
             well_formedness = well_formedness * .5
             return (False, POS, chunks, rating, well_formedness)
+
     elif (classification == 'In_or_Out_of_Dictionary'):
         POS = guess_pos(term.lower(), term.istitle())
+
     well_formedness = well_formedness * .5
+
     return (False, classification, chunks, rating, well_formedness)
 
 
@@ -1107,8 +1150,8 @@ def filter_terms(infile: File[TERM],
     lenient_simple_threshold = round(ranking_pref_cutoff * len(line_lists))
     length_of_terms = min(round(percent_cutoff * len(line_lists)), numeric_cutoff)
     num = 0
-    output = []
-    final_output: List[List[float]] = []
+    output: List[ScoreT] = []
+    final_output: List[Tuple[float, ScoreT]] = []
 
     for line_list in line_lists:
         num = num + 1
@@ -1117,7 +1160,7 @@ def filter_terms(infile: File[TERM],
                                                                                               penalize_initial_the=penalize_initial_the)
             rank_score = stat_rank_scores[line_list[-1]]
             confidence: float = rank_score * well_formedness_score
-            output.append([confidence, term, keep, classification, rating, well_formedness_score, rank_score])
+            output.append((confidence, term, keep, classification, rating, well_formedness_score, rank_score, 0.0, 0.0))
 
     output.sort()               # @semanticbeeng @todo optimization (reverse=True)
     output.reverse()            # @semanticbeeng @todo optimization
@@ -1127,7 +1170,7 @@ def filter_terms(infile: File[TERM],
     no_more_good_ones = False
 
     for out in output:
-        confidence, term, keep, classification, rating, well_formedness_score, rank_score = out
+        confidence, term, keep, classification, rating, well_formedness_score, rank_score, _, _ = out
         num = False
         if confidence < confidence_cutoff:
             no_more_good_ones = True
@@ -1145,20 +1188,24 @@ def filter_terms(infile: File[TERM],
                 stream = None       # @semanticbeeng static typing
         else:
             if use_web_score:
-                webscore = webscore_one_term(term, use_web_score_dict=use_web_score_dict)  ### fix this
-                combined_score = webscore * confidence
+
+                # raise ValueError("Unexpected execution path")       # @semanticbeeng @todo do not use web scoring
+                webscore: float = webscore_one_term(term, use_web_score_dict=use_web_score_dict)  ### fix this
+                combined_score: float = webscore * confidence
                 out.extend([webscore, combined_score])
-                final_output.append([combined_score, out])
+                final_output.append((combined_score, out))      # @semanticbeeng @todo static typing
             else:
                 webscore = False
-                final_output.append([confidence, out])
+                final_output.append((confidence, out))          # @semanticbeeng @todo static typing
+
             stream = False
+
         if stream:
-            rating = str(rating)
-            well_formedness_score = str(well_formedness_score)
+            # rating = str(rating)
+            # well_formedness_score = str(well_formedness_score)
             # rank_score = str(rank_score)      # @semantcbeeng @todo static typing
             # confidence = str(confidence)      # @semantcbeeng @todo static typing
-            stream.write(term + '\t' + message + '\t' + classification + '\t' + rating + '\t' + well_formedness_score + '\t' + str(rank_score) + '\t' + str(confidence) + os.linesep)
+            stream.write(term + '\t' + message + '\t' + classification + '\t' + str(rating) + '\t' + str(well_formedness_score) + '\t' + str(rank_score) + '\t' + str(confidence) + os.linesep)
 
     final_output.sort()
     final_output.reverse()
@@ -1169,7 +1216,7 @@ def filter_terms(infile: File[TERM],
         if use_web_score:
             confidence, term, keep, classification, rating, well_formedness_score, rank_score, webscore, combined_score = out[1]
         else:
-            confidence, term, keep, classification, rating, well_formedness_score, rank_score = out[1]
+            confidence, term, keep, classification, rating, well_formedness_score, rank_score, _,        _              = out[1]
             web_score = False
             combined_score = False
         # confidence = str(confidence)                  # @semanticbeeng @todo static type

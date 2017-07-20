@@ -279,17 +279,23 @@ def do_search_and_classify_top_10(term, provider='yahoo', minimum=5, debug=False
     return (rating, total_results)
 
 
-def webscore_one_term(term, debug=False, use_web_score_dict=False):
+#
+#
+#
+def webscore_one_term(term: str, debug=False, use_web_score_dict=False) -> float:
+
     if use_web_score_dict and (term in webscore_dict):
         return (webscore_dict[term])
+
     search_rating, total_results = do_search_and_classify_top_10(term, debug=False)
     ## search_rating = (academic_count+patent_count)/10
     ## total_results = number of hits
     ## sample call: score_one_term('speech recognition system')
-    output = []
-    score = 'unscored'
+    # output = []
+
+    score: float = None      # @ssemanticbeeng @todo static typing
     try:
-        component1 = search_rating
+        component1 = float(search_rating)
         component2 = min(math.log(total_results, 10), 10) / 10
         component2_weight = 2
         score = component1 * (component2 ** component2_weight)
@@ -300,7 +306,7 @@ def webscore_one_term(term, debug=False, use_web_score_dict=False):
     ## these scores can be adjusted by changing the weights or
     ## adding a reference score (component1 can be set to search_rating + reference_score
     ## see the comments in do_search_and_classify_top_10
-    if score == 'unscored':
+    if score is None:
         print('unscored:', term)
         if use_web_score_dict:
             webscore_dict[term] = 0
