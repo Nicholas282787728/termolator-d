@@ -1,5 +1,5 @@
 import sys
-from typing import TypeVar, Generic, List, IO, TextIO, cast
+from typing import TypeVar, Generic, List, IO, TextIO, cast, Tuple, NamedTuple
 
 # @resource https://www.python.org/dev/peps/pep-0484/#user-defined-generic-types
 
@@ -23,6 +23,18 @@ ABBR = str
 TXT2 = str
 TXT3 = str
 CHUNK = str
+
+#
+#   @data types
+#
+Abbr = NamedTuple("Abbr",  [('begin', int), ('end', int), ('out_string', str), ('out_type', str), ('one_off', bool)])
+
+#              confidence, term,  keep, classification,   rating, well_formedness_score, rank_score, webscore,  combined_score
+ScoreT = Tuple[float,      str,   bool, str,              str,    float,                 float,      float,     float]
+
+WordPosT = NamedTuple('WordPosT', [('word', str), ('pos', str)])
+ChunkT = NamedTuple('ChunkT',   [('term', str), ('positions', List[WordPosT])])
+
 
 class File(Generic[DT]):
     def __init__(self, name: str) -> None:

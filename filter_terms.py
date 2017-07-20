@@ -1,13 +1,8 @@
 from find_terms import *
 from webscore import *
 import dictionary
-from typing import Tuple, Any, NamedTuple
-
-#              confidence, term,  keep, classification,   rating, well_formedness_score, rank_score, webscore,  combined_score
-ScoreT = Tuple[float,      str,   bool, str,              str,    float,                 float,      float,     float]
-
-WordPosT = NamedTuple('WordPosT', [('word', str), ('pos', str)])
-ChunkT = NamedTuple('ChunkT',   [('term', str), ('positions', List[WordPosT])])
+from typing import Tuple, Any
+from DataDef import ScoreT, WordPosT, ChunkT
 
 #
 #

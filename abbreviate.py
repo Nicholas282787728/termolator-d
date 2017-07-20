@@ -1,6 +1,6 @@
 from term_utilities import *
-from DataDef import File, TXT3, ABBR
-from typing import List, Dict, Tuple, Pattern, Match, Optional, NamedTuple
+from DataDef import File, TXT3, ABBR, Abbr
+from typing import List, Dict, Tuple, Union, Pattern, Match, Optional
 import dictionary
 
 # global abbr_to_full_dict
@@ -11,7 +11,6 @@ import dictionary
 # global greek_match_table
 # global number_match_table
 
-Abbr = NamedTuple("Abbr",  [('begin', int), ('end', int), ('out_string', str), ('out_type', str), ('one_off', bool)])
 
 word_split_pattern: Pattern[str] = re.compile(r'[^\w@]+')
 ABBREVIATION_STOP_WORDS: List[str] = ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among', 'as', 'at', 'by', 'for', 'from', 'in', 'into',
@@ -145,14 +144,20 @@ def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: i
     return (output)
 
 
-def adjust_start_for_antecedent(line, start, search_end):
+#
+#
+#
+def adjust_start_for_antecedent(line: str, start: int, search_end: int) -> int:
     if start and search_end and (';' in line[start:search_end]):
         return (start + line[start:search_end].rindex(';'))
     else:
         return (start)
 
 
-def blocked_abbreviation(line, abbreviation_position, abbreviation):
+#
+#
+#
+def blocked_abbreviation(line: str, abbreviation_position: int, abbreviation: str) -> bool:
     pattern = re.search('([^ ]) *$', line[:abbreviation_position])
     if pattern:
         previous_character = pattern.group(1)
@@ -171,7 +176,10 @@ def blocked_abbreviation(line, abbreviation_position, abbreviation):
             return (True)
 
 
-def almost_the_same(word1, word2):
+#
+#
+#
+def almost_the_same(word1: str, word2: str) -> bool:
     ## print(word1,word2)
     if (word1 == word2):
         return (True)
@@ -185,7 +193,11 @@ def almost_the_same(word1, word2):
         return (False)
 
 
-def one_word_match_match(word, abbreviation):
+#
+#
+#
+def one_word_match_match(word: str, abbreviation: str) -> bool:
+
     if re.search('[A-Z]', abbreviation) and (len(word) > len(abbreviation) + 1) and \
             abbreviation.isalpha() and \
             (word[0].upper() == abbreviation[0].upper()):
@@ -196,6 +208,7 @@ def one_word_match_match(word, abbreviation):
         ## match in order, with any number of skips, but none are missed
         abbreviation_num = 1
         word_num = 1
+
         while (word_num < len(word)) and (abbreviation_num < len(abbreviation)):
             if word[word_num].upper() == abbreviation[abbreviation_num].upper():
                 abbreviation_num = abbreviation_num + 1
@@ -206,7 +219,11 @@ def one_word_match_match(word, abbreviation):
             return (False)
 
 
-def match_abbreviation_chunk(word, abbreviation, whole=False):
+#
+#   @semanticbeeng @todo trying out Union
+#
+def match_abbreviation_chunk(word: str, abbreviation: str, whole: str=False) -> Union[bool, str]:
+
     ## print(word,abbreviation,whole)
     ## print(len(abbreviation),(.7 *len(word)))
     if whole and (almost_the_same(word.upper(), whole.upper())):
@@ -225,13 +242,19 @@ def match_abbreviation_chunk(word, abbreviation, whole=False):
     return (False)
 
 
-def get_position_before_word(word, line):
+#
+#
+#
+def get_position_before_word(word: str, line: str) -> int:
     pattern = re.search(r'[^\w@]+' + word + '[^\w@]*$', line)
     if pattern:
         return (pattern.start() + 1)
 
 
-def unbalanced_delimiter(outstring):
+#
+#
+#
+def unbalanced_delimiter(outstring: str) -> bool:
     ## This will be False if there are no delimiters (brackets), or if
     ## there is a left and right delimiter, such that the left
     ## precedes the right.
@@ -251,7 +274,10 @@ def unbalanced_delimiter(outstring):
         return (False)
 
 
-def fix_unbalanced(outstring, line, line_position):
+#
+#
+#
+def fix_unbalanced(outstring: str, line: str, line_position: int) -> Tuple[int, str]:
     ## print(outstring,line,line_position,sep=os.linesep)
     ## this balances parens for formulaic items that contain parens
     ## the good ones all have hyphens either before the left paren
@@ -267,7 +293,7 @@ def fix_unbalanced(outstring, line, line_position):
             if re.search('(-[(\[{])|([)\]}]-)', new_string):
                 return (new_start, new_string)
             else:
-                return (False, False)
+                return (False, False)           # @semanticbeeng @todo static type
         else:
             return (False, False)
     elif quote:
@@ -280,14 +306,17 @@ def fix_unbalanced(outstring, line, line_position):
                 new_string = line[new_start:line_position] + outstring
                 return (new_start, new_string)
             else:
-                return (False, False)
+                return (False, False)           # @semanticbeeng @todo static type
         else:
             return (False, False)
     else:
         return (False, False)
 
 
-def get_word_substring_at_end(words, line, inbetween=False, no_check=False):
+#
+#
+#
+def get_word_substring_at_end(words, line, inbetween:str=False, no_check=False) -> Tuple[int, str]:
     ## this assumes that the words occur at the end of the line
     ## and that any characters ignored (hyphens, numbers, etc.) 
     ## are OK to ignore
@@ -295,7 +324,7 @@ def get_word_substring_at_end(words, line, inbetween=False, no_check=False):
         if re.search('[)\]}]', inbetween):
             ## the match is discarded if right brackets appear
             ## in between the abbreviation and antecedent
-            return (False, False)
+            return (False, False)               # @semanticbeeng @todo static typying
         elif (line[-1] == ' '):
             inbetween = False
         elif len(inbetween) == 1 and inbetween[0] in '([':
@@ -332,12 +361,15 @@ def get_word_substring_at_end(words, line, inbetween=False, no_check=False):
         if new_position:
             line_position = new_position
     if not outstring:
-        return (False, False)
+        return (False, False)                   # @semanticbeeng @todo static typying
     else:
         return (outstring, line_position)
 
 
-def letter_match(char1, word):
+#
+#
+#
+def letter_match(char1: str, word: str) -> bool:
     ## char 1 is from the abbreviation
     char2 = word[0]
     ## char 2 is from the word
@@ -382,7 +414,10 @@ def classify_abbreviated_string(word_string: str, wordlist: List[str] = []) -> s
     return ('JARGON')
 
 
-def abbreviation_match(abbreviation, previous_words, line, abbreviation_position, line_offset, previous_line, more_words):
+#
+#
+#
+def abbreviation_match(abbreviation, previous_words, line, abbreviation_position, line_offset, previous_line, more_words) -> Abbr:
     ## Missing cases: 1) "A recombinant form of SPARC (rSPARC)" -- not general -- not clear what we can skip
     ##                2) ADAMTS-2 (A Disintegrin And Metalloproteinase with ThromboSpondin motifs)  ## also not clear -- when can we add a number
     ##                3) tetracycline (tet) -- not completely clear because we get similar cases, but perhaps it is the length
