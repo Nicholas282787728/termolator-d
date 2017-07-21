@@ -1340,9 +1340,10 @@ def term_string_edit(instring):
 
 
 #
+#   @semanticbeeng @todo static type
 #
-#
-def write_term_summary_fact_set(outstream, term: str, instances, lemma_count: Dict[str, int], head_term=False, head_lemma=False, term_type=False) -> None:
+def write_term_summary_fact_set(outstream, term: str, instances, lemma_count: Dict[str, int],
+                                head_term: Optional[str]=None, head_lemma: Optional[str]=None, term_type: Optional[str]=None) -> None:
     global term_id_number
     frequency = len(instances)
     lemma = lemma_dict[term]
@@ -1583,7 +1584,7 @@ def find_inline_terms(lines: List[str], fact_file: File[ABBR], pos_file: File[PO
                     if head_term in lemma_dict:
                         head_lemma = lemma_dict[head_term]
                     elif head_term in term_type_hash:
-                        head_lemma = get_term_lemma(head_term, term_type=(term_type_hash(head_term)))
+                        head_lemma = get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
                     else:
                         head_lemma = get_term_lemma(head_term)
                 else:
