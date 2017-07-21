@@ -11,3 +11,4 @@ tests/gutenberg-test/.pos
 tests/gutenberg-test/.txt2
 tests/gutenberg-test/.txt3
 tmpexec
+.mypy_cache/

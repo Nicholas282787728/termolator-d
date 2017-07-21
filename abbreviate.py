@@ -1,9 +1,9 @@
 from term_utilities import *
 from DataDef import File, TXT3, ABBR, Abbr
-from typing import List, Dict, Tuple, Union, Pattern, Match, Optional
+from typing import List, Dict, Tuple, Pattern, Match, Optional
 import dictionary
 
-# global abbr_to_full_dict
+# global abbr_to_full_dict          # @semanticbeeng @todo not used
 # global full_to_abbr_dict
 # global id_number
 # global word_split_pattern
@@ -246,7 +246,7 @@ def one_word_match_match(word: str, abbreviation: str) -> bool:
 #
 #   @semanticbeeng @todo static typing
 #
-def match_abbreviation_chunk(word: str, abbreviation: str, whole: str=False) -> Optional[str]:
+def match_abbreviation_chunk(word: str, abbreviation: str, whole: str=None) -> Optional[str]:
 
     ## print(word,abbreviation,whole)
     ## print(len(abbreviation),(.7 *len(word)))
@@ -344,7 +344,7 @@ def fix_unbalanced(outstring: str, line: str, line_position: int) -> Tuple[Optio
 #
 #   @semanticbeeng @todo static typing
 #
-def get_word_substring_at_end(words: List[str], line: str, inbetween: Optional[str]=None, no_check=False) -> Tuple[Optional[str], Optional[int]]:
+def get_word_substring_at_end(words: List[str], line: str, inbetween: Optional[str]=None, no_check: bool=False) -> Tuple[Optional[str], Optional[int]]:
     ## this assumes that the words occur at the end of the line
     ## and that any characters ignored (hyphens, numbers, etc.) 
     ## are OK to ignore
@@ -352,14 +352,14 @@ def get_word_substring_at_end(words: List[str], line: str, inbetween: Optional[s
         if re.search('[)\]}]', inbetween):
             ## the match is discarded if right brackets appear
             ## in between the abbreviation and antecedent
-            return (False, False)               # @semanticbeeng @todo static typying
+            return (None, None)               # @semanticbeeng @todo static typying
         elif (line[-1] == ' '):
-            inbetween = False
+            inbetween = None                  # @semanticbeeng @todo static typying
         elif len(inbetween) == 1 and inbetween[0] in '([':
-            inbetween = False
+            inbetween = None                  # @semanticbeeng @todo static typying
         elif ' ' in inbetween:
             if inbetween[0] == ' ':
-                inbetween = False
+                inbetween = None              # @semanticbeeng @todo static typying
             else:
                 inbetween_space = inbetween.index(' ')
                 inbetween = inbetween[:inbetween_space]
@@ -394,7 +394,7 @@ def get_word_substring_at_end(words: List[str], line: str, inbetween: Optional[s
         if new_position:
             line_position = new_position
     if not outstring:
-        return (False, False)                   # @semanticbeeng @todo static typying
+        return (None, None)                   # @semanticbeeng @todo static typying
     else:
         return (outstring, line_position)
 
@@ -457,16 +457,16 @@ def abbreviation_match(abbreviation: str, previous_words: List[str], line: str, 
     ##                2) ADAMTS-2 (A Disintegrin And Metalloproteinase with ThromboSpondin motifs)  ## also not clear -- when can we add a number
     ##                3) tetracycline (tet) -- not completely clear because we get similar cases, but perhaps it is the length
     one_off = False
-    out_string = []                     # @semanticbeeng static type @todo
-    matching_words = []
-    # organization = False              @semanticbeeng not used
+    out_string: Optional[str] = None        # @semanticbeeng static type @todo
+    matching_words: List[str] = []
+    # organization = False                  @semanticbeeng not used
     abbreviation2 = abbreviation
     skipped_maximum = 3
     stop_words = 0
     skipped_words = 0
     trimmed_words = 0
-    last_word_was_stop_word = False
-    pattern_that_matched: int = None       # @semanticbeeng static type @todo
+    last_word_was_stop_word = None          # @semanticbeeng static type @todo
+    pattern_that_matched: int = None        # @semanticbeeng static type @todo
     final_s = False
     final_match = False
     # multi_letter = False
@@ -520,14 +520,14 @@ def abbreviation_match(abbreviation: str, previous_words: List[str], line: str, 
                 if previous_words[word_index].lower() in ABBREVIATION_STOP_WORDS:
                     last_word_was_stop_word = previous_words[word_index]
                 else:
-                    last_word_was_stop_word = False
+                    last_word_was_stop_word = None      # @semanticbeeng @todo static typing
                 number = number + 1
 
                 if (number == len(abbreviation2)) or (final_s and ((1 + number) == len(abbreviation2))):
                     final_match = True
 
             elif last_word_was_stop_word and (last_word_was_stop_word[0].upper() == previous_words[word_index][0].upper()):
-                last_word_was_stop_word = False
+                last_word_was_stop_word = None         # @semanticbeeng @todo static typying
                 stop_words = stop_words + 1
                 if number == 0:
                     trimmed_words = trimmed_words + 1
@@ -593,7 +593,7 @@ def abbreviation_match(abbreviation: str, previous_words: List[str], line: str, 
                 end = begin + len(out_string)
 
     if out_string and (len(out_string) <= (len(abbreviation2) + 1)):
-        out_string = False
+        out_string = None                  # @semanticbeeng @todo static typying
         all_matches = False
         Fail = True
 
@@ -601,9 +601,9 @@ def abbreviation_match(abbreviation: str, previous_words: List[str], line: str, 
         ## special case: one of the previous words is itself an allcaps abbreviation,
         ## typically the last one:  small interfering RNA (siRNA)
         ## Note: This version does not account for stop words  *****************
-        allcap_word = False
+        allcap_word: str = None                 # @semanticbeeng @todo static typing
         word_number = 0
-        ab_index = False
+        ab_index: Optional[int] = None          # @semanticbeeng @todo static typying
 
         for num in range(min(len(previous_words), len(abbreviation2) - 1)):
             word_num = -1 - num
@@ -615,7 +615,7 @@ def abbreviation_match(abbreviation: str, previous_words: List[str], line: str, 
 
         if allcap_word and allcap_word != abbreviation2 and (len(abbreviation2) > len(allcap_word)) and len(previous_words) > 1:
             all_matches = True
-            chosen_words = []
+            chosen_words: List[str] = []
             if (ab_index == 0):  ## allcaps is at beginning of abbreviation
 
                 for number in range(len(abbreviation2) - len(allcap_word)):
@@ -690,7 +690,7 @@ def abbreviation_match(abbreviation: str, previous_words: List[str], line: str, 
 #
 #
 #
-def bad_jargon(jargon: str) -> bool:
+def bad_jargon(jargon: str) -> Optional[Match[str]]:
     return (re.search('(19[89][0-9])|(20[01][0-9])|[\[=]|((^| )and($| ))|[\[\]:“"”\`\'‘]', jargon))
 
 
@@ -700,6 +700,10 @@ def bad_jargon(jargon: str) -> bool:
 def OK_jargon(jargon: str) -> bool:
     OK = (type(jargon) == str) and (len(jargon) > 1) and re.search('[^\W\d]', jargon) and not (bad_jargon(jargon))
     return (OK)
+
+    # return ((type(jargon) == str) and (len(jargon) > 1) and
+    #        (re.search('[^\W\d]', jargon) is True) and          # @semanticbeeng @todo static typing
+    #        (not bad_jargon(jargon)))
 
 
 #
@@ -893,14 +897,14 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
     ARG2_string: str                    # @semanticbeeng static type @ todo
     output_type: str                    # @semanticbeeng static type @ todo
 
-    result: Abbr = None                 # @semanticbeeng static type @ todo
+    # result: Optional[Abbr] = None     # @semanticbeeng static type @ todo
     Fail = False
     extend_antecedent: bool = False     # @semanticbeeng static type @ todo
     last_start: int = None              # @semanticbeeng static type @ todo
     alt_abbreviation: str = None        # @semanticbeeng static type @ todo
 
     while pattern:
-        result = None                   # @semanticbeeng static type @ todo
+        result: Optional[Abbr] = None   # @semanticbeeng static type @ todo
         Fail = False
         first_word_break: Optional[Match[str]] = re.search('[^\(]([ ,;:])', pattern.group(2))
 
@@ -953,7 +957,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                 offset_adjustment = len(previous_line)
                 more_words.extend(previous_words)
 
-                result: Optional[Abbr] = lookup_abbreviation(abbreviation, previous_line + line, search_end + offset_adjustment, position - offset_adjustment)
+                result = lookup_abbreviation(abbreviation, previous_line + line, search_end + offset_adjustment, position - offset_adjustment)
 
                 if alt_abbreviation and (not result):
 
@@ -1213,10 +1217,10 @@ def bad_patent_line(line: str) -> bool:
 #
 #   @semamanticbeeng @todo what is this doing?
 #
-def triplify(inlist: List[Dict[str, str]]) -> List[Dict[str, str]]:
+def triplify(inlist: List[Dict[str, str]]) -> List[List[Dict[str, str]]]:
     if len(inlist) % 3 != 0:
         print('problem with triplify for:', inlist)
-        return []       # @semanticbeeng @ todo static typing
+        return []     # [[{}]]       # @semanticbeeng @ todo static typing
     else:
         output = []
         start = 0
@@ -1348,7 +1352,7 @@ def get_expanded_forms_from_abbreviations(term: str) -> List[str]:
     variations = [term.upper(), term.lower()]
     if (len(variations[0]) > 2) and (variations[0][-1] == 'S'):
         variations.append(variations[0][:-1] + 's')
-    output = []
+    output: List[str] = []
     ## print(variations)
     for variation in variations:
         if variation in abbr_to_full_dict:
