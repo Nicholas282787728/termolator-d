@@ -36,7 +36,7 @@ dictionary_table: Dict[str, str] = {'legal': DICT_DIRECTORY + 'legal_dictionary.
 special_domains: List[str] = []
 
 stat_adj_dict: Dict[str, int] = {}  ## @func comp_termChunker, @arch static state
-stat_term_dict: Dict[str, bool] = {}  ## @func comp_termChunker, @arch static state
+stat_term_dict: Dict[str, int] = {}  ## @func comp_termChunker, @arch static state
 noun_base_form_dict: Dict[str, List[str]] = {}  ## @func comp_termChunker, @arch static state
 plural_dict: Dict[str, List[str]] = {}  ## @arch static state
 verb_base_form_dict: Dict[str, List[str]] = {}  ## @arch static state

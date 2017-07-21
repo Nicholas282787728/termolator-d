@@ -4,10 +4,7 @@ import os
 import re
 import sys
 from typing import List, Tuple, Optional, Pattern, Match
-from DataDef import File, ABBR, POS
-
-# @semanticbeeng @todo static typing; @data is PosFact same as POS ?
-PosFact=Tuple[int, int, str]
+from DataDef import File, ABBR, POS, PosFact
 
 #
 #
@@ -19,7 +16,7 @@ def get_pos_facts(fact_list: List[ABBR]) -> List[PosFact]:
     for fact in fact_list:
         bad_match: Optional[Match[str]] = bad_pos_pattern.search(fact)
         if bad_match:
-            output.append((int(bad_match.group(1)), int(bad_match.group(2)), bad_match.group(3)))   # @semanticbeeng @todo static typing
+            output.append(PosFact(int(bad_match.group(1)), int(bad_match.group(2)), bad_match.group(3)))   # @semanticbeeng @todo static typing
     return (output)
 
 
@@ -39,9 +36,9 @@ def make_pos_triple(line: str) -> PosFact:
     start_match = start_pat.search(line)
     if not start_match:
         print('Warning: Error in POS file')
-        return ((0, 0, line))       # @semanticbeeng @todo static typing @data PosFact
+        return (PosFact(0, 0, line))       # @semanticbeeng @todo static typing @data PosFact
     else:
-        return ((int(start_match.group(1)), int(start_match.group(2)), line))   # @semanticbeeng @todo static typing @data PosFact
+        return (PosFact(int(start_match.group(1)), int(start_match.group(2)), line))   # @semanticbeeng @todo static typing @data PosFact
 
 
 #
