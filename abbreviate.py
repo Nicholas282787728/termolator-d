@@ -698,12 +698,9 @@ def bad_jargon(jargon: str) -> Optional[Match[str]]:
 #
 #
 def OK_jargon(jargon: str) -> bool:
-    OK = (type(jargon) == str) and (len(jargon) > 1) and re.search('[^\W\d]', jargon) and not (bad_jargon(jargon))
-    return (OK)
-
-    # return ((type(jargon) == str) and (len(jargon) > 1) and
-    #        (re.search('[^\W\d]', jargon) is True) and          # @semanticbeeng @todo static typing
-    #        (not bad_jargon(jargon)))
+    return ((type(jargon) == str) and (len(jargon) > 1) and
+           (re.search('[^\W\d]', jargon)) and          # @semanticbeeng @todo static typing
+           (not bad_jargon(jargon)))
 
 
 #
