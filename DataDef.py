@@ -28,7 +28,7 @@ CHUNK = str
 #   @data types
 #
 # @semanticbeeng @todo static typing; @data is PosFact same as POS ?
-PosFact=NamedTuple('PosFact', [('start', int), ('end', int), ('string', str)])
+PosFact = NamedTuple('PosFact', [('start', int), ('end', int), ('string', str)])
 
 Abbr = NamedTuple("Abbr",  [('begin', int), ('end', int), ('out_string', str), ('out_type', str), ('one_off', bool)])
 

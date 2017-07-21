@@ -452,7 +452,8 @@ def classify_abbreviated_string(word_string: str, wordlist: List[str] = []) -> s
 #
 #
 def abbreviation_match(abbreviation: str, previous_words: List[str], line: str, abbreviation_position: int,
-                       line_offset: int, previous_line: List[str], more_words: bool) -> Optional[Abbr]:
+                       line_offset: int     # @semanticbeeng @todo not used previous_line: List[str], more_words: bool
+                       ) -> Optional[Abbr]:
     ## Missing cases: 1) "A recombinant form of SPARC (rSPARC)" -- not general -- not clear what we can skip
     ##                2) ADAMTS-2 (A Disintegrin And Metalloproteinase with ThromboSpondin motifs)  ## also not clear -- when can we add a number
     ##                3) tetracycline (tet) -- not completely clear because we get similar cases, but perhaps it is the length
@@ -964,10 +965,14 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
 
                 if not result:
                     ## print(1,start,search_end)
-                    result = abbreviation_match(abbreviation, more_words, previous_line + line, search_end + offset_adjustment, position - offset_adjustment, False, False)
+                    result = abbreviation_match(abbreviation, more_words, previous_line + line, search_end + offset_adjustment, position - offset_adjustment
+                                                # @semanticbeeng @todo not used , False, False
+                                                )
 
                 if (not result) and alt_abbreviation:
-                    result = abbreviation_match(alt_abbreviation, more_words, previous_line + line, search_end + offset_adjustment, position - offset_adjustment, False, False)
+                    result = abbreviation_match(alt_abbreviation, more_words, previous_line + line, search_end + offset_adjustment, position - offset_adjustment
+                                                # @semanticbeeng @todo not used , False, False
+                                                )
                     if result:
                         abbreviation = alt_abbreviation
 
@@ -977,12 +982,16 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
 
                 if not result:
                     ## print(2,start,search_end)
-                    result = abbreviation_match(abbreviation, previous_words, line, search_end, position, False, False)
+                    result = abbreviation_match(abbreviation, previous_words, line, search_end, position
+                                                # @semanticbeeng @todo not used  , False, False
+                                                )
 
                 if not result and alt_abbreviation:
                     result = lookup_abbreviation(abbreviation, line, search_end, position)
                     if not result:
-                        result = abbreviation_match(alt_abbreviation, previous_words, line, search_end, position, False, False)
+                        result = abbreviation_match(alt_abbreviation, previous_words, line, search_end, position
+                                                    # @semanticbeeng @todo not used , False, False
+                                                    )
                     if result:
                         abbreviation = alt_abbreviation
             ## print(result)
@@ -1024,13 +1033,17 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
 
                         if not result:
                             ## print(3)
-                            result = abbreviation_match(abbreviation, more_words, previous_line + line, search_end + offset_adjustment, position - offset_adjustment, False, False)
+                            result = abbreviation_match(abbreviation, more_words, previous_line + line, search_end + offset_adjustment, position - offset_adjustment
+                                                        # @semanticbeeng @todo not used , False, False
+                                                        )
 
                     else:
                         result = lookup_abbreviation(abbreviation, line, search_end, position)
                         ## print(4)
                         if not result:
-                            result = abbreviation_match(abbreviation, previous_words, line, search_end, position, previous_line, more_words)
+                            result = abbreviation_match(abbreviation, previous_words, line, search_end, position,
+                                                        # @semanticbeeng @todo not used previous_line, more_words
+                                                        )
 
                 if result:
                     if result[4]:
@@ -1067,7 +1080,9 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                         line_offset = len(pattern.group(0)) - 2
                         ## line_offset effects begin and end
                         ## *** 57 ***
-                        result = abbreviation_match(abbreviation, forward_words, antecedent_string, line_offset, position, previous_line, more_words)
+                        result = abbreviation_match(abbreviation, forward_words, antecedent_string, line_offset, position
+                                                    # @semanticbeeng @todo not used , previous_line, more_words
+                                                    )
 
                     if result:
                         ARG1_string = result[2]

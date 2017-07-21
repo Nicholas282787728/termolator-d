@@ -533,7 +533,10 @@ def get_formulaic_term_pieces(text: str, offset: int):
     return (output)
 
 
-def merge_formulaic_and_regular_term_tuples(term_tuples, formulaic_tuples):
+#
+#
+#
+def merge_formulaic_and_regular_term_tuples(term_tuples: List, formulaic_tuples):
     ## initially, remove term_tuples that intersect at all with formulaic_tuples
     ## this might be the wrong strategy -- we need to evaluate
     ## also, add a fourth element to term_tuples, 'chunk-based' indicting these are obtained with a chunking procedure
@@ -595,7 +598,7 @@ def merge_formulaic_and_regular_term_tuples(term_tuples, formulaic_tuples):
                 next_term = term_tuples[term_pointer]
                 next_term.append('chunk-based')
             else:
-                next_term = False
+                next_term = None           # @semanticbeeng @todo static typing
     return (output)
 
 
@@ -627,7 +630,10 @@ def global_formula_filter(term_list, term_hash: Dict[str, List[Tuple[int, int]]]
                 term_hash.pop(value)
 
 
-def get_topic_terms(text, offset, filter_off=False):
+#
+#
+#
+def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
 
     txt_markup = re.compile('(\[in-line-formulae\].*?\[/in-line-formulae\])|(</[a-z]+>)|(<(/)?[a-z]+( [a-z]+=[^>]+)* ?>)', re.I)
     single_quote_pattern = re.compile(
@@ -641,7 +647,7 @@ def get_topic_terms(text, offset, filter_off=False):
     ### parentheses_pattern3.search(text,start)
     txt_markup_match = txt_markup.search(text, start)
     pieces = []
-    topic_terms = []
+    topic_terms: List = []
     extend_antecedent = False
     last_start = False
     pre_np = False
@@ -656,17 +662,20 @@ def get_topic_terms(text, offset, filter_off=False):
         elif paren_pat and (paren_pat.start() < start):
             ## in case parens are inside of txt_markup
             ### paren_pat = parentheses_pattern3.search(text,start)
-            paren_pat: Optional[Match[str]] = parentheses_pattern_match(text, start, 3)
+            paren_pat = parentheses_pattern_match(text, start, 3)
+
         elif txt_markup_match and (not paren_pat):
-            txt_markup_match: Optional[Match[str]] = txt_markup.search(text, start)
+            txt_markup_match = txt_markup.search(text, start)
+
         else:
-            result = False
+            result = None                           # @semanticbeeng @todo static typing
             Fail = False
             first_word_break = re.search('[ ,;:]', paren_pat.group(2))
             if first_word_break:
-                abbreviation = paren_pat.group(2)[:first_word_break.start()]
+                abbreviation: str = paren_pat.group(2)[:first_word_break.start()]
             else:
                 abbreviation = paren_pat.group(2)
+
             search_end = paren_pat.start()
             search_end, Fail = find_search_end(text, search_end)
             if ill_formed_abbreviation_pattern(paren_pat) or re.search('^[a-zA-Z]$', abbreviation):
@@ -674,21 +683,26 @@ def get_topic_terms(text, offset, filter_off=False):
             else:
                 previous_words = remove_empties(word_split_pattern.split(text[start:search_end].rstrip(' ')))
             if Fail or (not abbreviation) or ((not abbreviation.isupper()) and (abbreviation in dictionary.pos_dict)):
-                result = False
+                previous_words = []                 # @semanticbeeng @todo static typing
+                result = None                       # @semanticbeeng @todo static typing
             else:
                 ## lowercase nouns in pos_dict are probably not really abbreviations
-                result = abbreviation_match(abbreviation, previous_words, text, search_end, offset, False, False)
+                result = abbreviation_match(abbreviation, previous_words, text, search_end, offset  # @semanticbeeng @todo not used , None, False
+                                            )       # @semanticbeeng @todo static typing
+
             if result and (result[3] == 'JARGON'):
                 ARG1_start = result[0]
                 ARG1_end = result[1]
                 if result[4]:
                     ARG2_start = paren_pat.start(2) + offset
                     ARG2_end = ARG2_start + len(abbreviation) - 1
+
                     if filter_off or (topic_term_ok_boolean([result[2]], 'NOUN_OOV', result[2]) and topic_term_ok_boolean([abbreviation[1:]], 'NOUN_OOV', abbreviation[1:])):
                         topic_terms.extend([[ARG1_start, ARG1_end, result[2]], [ARG2_start, ARG2_end, abbreviation[1:]]])
                 else:
                     ARG2_start = paren_pat.start(2) + offset
                     ARG2_end = ARG2_start + len(abbreviation)
+
                     if filter_off or (topic_term_ok_boolean([result[2]], 'NOUN_OOV', result[2]) and topic_term_ok_boolean([abbreviation], 'NOUN_OOV', abbreviation)):
                         topic_terms.extend([[ARG1_start, ARG1_end, result[2]], [ARG2_start, ARG2_end, abbreviation]])
                 pieces.append([start, text[start:paren_pat.start()]])
@@ -696,18 +710,22 @@ def get_topic_terms(text, offset, filter_off=False):
                     start = txt_markup_match.start()
                 else:
                     start = paren_pat.end()
+
             elif txt_markup_match and (txt_markup_match.start() > start) and (txt_markup_match.end() < paren_pat.end()):
                 start = txt_markup_match.start()
             else:
+
                 pieces.extend([[start, text[start:paren_pat.start()]], [paren_pat.start(2), paren_pat.group(2)]])
                 start = paren_pat.end()
                 ### paren_pat = parentheses_pattern3.search(text,paren_pat.end())
-                paren_pat: Optional[Match[str]] = parentheses_pattern_match(text, paren_pat.end(), 3)
+                paren_pat = parentheses_pattern_match(text, paren_pat.end(), 3)
+
     if start and (len(text) > start):
         pieces.append([start, text[start:]])
     if len(pieces) == 0:
         pieces = [[0, text]]
     pieces2 = []
+
     ## Part 2: quotation mark off reliable units, separate these out
     for meta_start, piece in pieces:
         start = 0
@@ -872,10 +890,12 @@ def get_topic_terms(text, offset, filter_off=False):
                             start_offset = term_start + meta_start + offset
                             end_offset = next_word_end + start + meta_start + offset
                             topic_terms.append([start_offset, end_offset, term_string])
+
                         current_out_list = False
                         current_pos_list = False
                         pre_np = False
                         first_piece = False
+
                     elif (pos in ['PLURAL', 'AMBIG_PLURAL']) or (current_out_list and (len(current_out_list) >= 1) and
                                                                      ((current_pos_list[-1] == 'ADJECTIVE') and
                                                                           (pos == 'VERB') and (len(piece3) > 3) and
@@ -910,7 +930,9 @@ def get_topic_terms(text, offset, filter_off=False):
                             if filter_off or topic_term_ok_boolean(current_out_list, current_pos_list, term_string):
                                 start_offset = term_start + meta_start + offset
                                 end_offset = next_word_end + start + meta_start + offset
+
                                 topic_terms.append([start_offset, end_offset, term_string])
+
                                 current_out_list = False
                                 current_pos_list = False
                             else:
@@ -1425,6 +1447,7 @@ def find_inline_terms(lines: List[str], fact_file: File[ABBR], pos_file: File[PO
         # @semanticbeeng should this not be a fata fault?
         print('Warning POS file does not exist:', pos_file)
 
+    # @semanticbeeng @todo @data check of PosFact
     with fact_file.openText() as instream:
         for line in instream.readlines():
             match: Match[str] = structure_pattern.search(line)
@@ -1472,7 +1495,7 @@ def find_inline_terms(lines: List[str], fact_file: File[ABBR], pos_file: File[PO
         text = re.sub(line_break_match, ' \g<1>', text)
         if (text.count('\t') + text.count(' ')) < (len(text) / 3):
             ##  ignore tables
-            term_triples = get_topic_terms(text, start, filter_off=filter_off)
+            term_triples: List = get_topic_terms(text, start, filter_off=filter_off)
             formulaic_tuples = get_formulaic_term_pieces(text, start)
             term_tuples = merge_formulaic_and_regular_term_tuples(term_triples, formulaic_tuples)
         else:
