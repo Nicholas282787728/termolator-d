@@ -240,15 +240,16 @@ def process_lexicon_list(value: str) -> List[str]:
 #
 #   @semanticbeeng @todo static type - conflict between List and Tuple; maybe to a conversion?
 #
-def get_key_value(string: str) -> List[str]:
+def get_key_value(string: str) -> Tuple[str, List[str]]:
 
     initial_list: Tuple[str, str, str] = string.partition(' ')
-    key = initial_list[0]
-    value = initial_list[2].strip(' ')
+    key: str = initial_list[0]
+    value: str = initial_list[2].strip(' ')
+    value_list: List[str] = [value]
 
     if list_starter(value):
         if list_ender(value):
-            value = process_lexicon_list(value)
+            value_list = process_lexicon_list(value)
         else:
             print('string', string)
             print('value', value)
@@ -256,7 +257,9 @@ def get_key_value(string: str) -> List[str]:
 
     elif string_starter(value) and string_ender(value):
         value = value.strip('"')
-    return [key, value]         # @semanticbeeng @todo verify okay to return List @done
+        value_list = [value]
+
+    return (key, value_list)         # @semanticbeeng @todo verify okay to return List @done
 
 
 #

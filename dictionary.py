@@ -1,6 +1,6 @@
 import os
 from utilspie.collectionsutils import frozendict
-from typing import List, Dict
+from typing import List, Dict, Tuple
 from DataDef import File
 import term_utilities
 
@@ -45,9 +45,9 @@ nom_dict: Dict[str, str] = {}
 pos_dict: Dict[str, List[str]] = {}
 jargon_words = set()        # @semanticbeeng @todo @arch global state mutated or read only?
 
-organization_dictionary: Dict[str, Dict[str, str]] = {}     # @semanticbeeng @todo @arch global state mutated or read only?
-location_dictionary: Dict[str, Dict[str, str]] = {}
-nationality_dictionary: Dict[str, Dict[str, str]] = {}
+organization_dictionary: Dict[str, Dict[str, List[str]]] = {}     # @semanticbeeng @todo @arch global state mutated or read only?
+location_dictionary: Dict[str, Dict[str, List[str]]] = {}
+nationality_dictionary: Dict[str, Dict[str, List[str]]] = {}
 nom_map_dict: Dict[str, str] = {}
 # unigram_dictionary = set()        # @semanticbeeng not used
 ## add all observed words (in the foreground set) to unigram_dictionary
@@ -69,38 +69,42 @@ def add_dictionary_entry(line: str, dictionary: str, shallow: bool, lower: bool=
         line_list[index] = term_utilities.return_stray_colons(line_list[index])
 
     # @semanticbeeng not used entry_type = line_list[0].strip(' ')
-    entry_dict: Dict[str, str] = {}
+    entry_dict: Dict[str, List[str]] = {}
     # @semanticbeeng not used current_key = False
     # @semanticbeeng not used current_value = False
     # @semanticbeeng not used started_string = False
 
     for key_value in line_list[1:]:
         # kv: str = key_value.strip(' ')
-        kv = term_utilities.get_key_value(key_value.strip(' '))
+        kv: Tuple[str, List[str]] = term_utilities.get_key_value(key_value.strip(' '))  # @semanticbeeng @todo static typing
         key = kv[0]
         value = kv[1]
         entry_dict[key] = value
 
     if dictionary == 'org':
         if lower:
-            orth = entry_dict['ORTH'].lower()
+            orth = entry_dict['ORTH'][0].lower()        # @semanticbeeng @todo static typing
         else:
-            orth = entry_dict['ORTH'].upper()
+            orth = entry_dict['ORTH'][0].upper()
         organization_dictionary[orth] = entry_dict
+
     elif dictionary == 'loc':
         if lower:
-            orth = entry_dict['ORTH'].lower()
+            orth = entry_dict['ORTH'][0].lower()
         else:
-            orth = entry_dict['ORTH'].upper()
+            orth = entry_dict['ORTH'][0].upper()
         location_dictionary[orth] = entry_dict
+
     elif dictionary == 'nat':
         if lower:
-            orth = entry_dict['ORTH'].lower()
+            orth = entry_dict['ORTH'][0].lower()
         else:
-            orth = entry_dict['ORTH'].upper()
+            orth = entry_dict['ORTH'][0].upper()
         nationality_dictionary[orth] = entry_dict
+
     elif dictionary in ['discourse', 'term_relation']:
         raise Exception('undefined variable discourse_dictionary and term_rel_dictionary')       # @semanticbeeng @todo dead code
+        # @semanticbeeng @todo static typing : maybe the List[str] dictionary values only apply to this dead code?
         # if dictionary == 'discourse':
         #     actual_dict = discourse_dictionary
         # else:

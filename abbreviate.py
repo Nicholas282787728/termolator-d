@@ -31,6 +31,9 @@ number_match_table: Dict[str, str] = {'ONE': '1', 'TWO': '2', 'THREE': '3', 'FOU
                       'QUINT': '5'}
 
 
+#
+#
+#
 def ill_formed_abbreviation_pattern(abbreviation_pattern: Match[str]) -> bool:
     ## attempts to identify parentheses that do not contain abbreviations
     ## first type is of the form (X,Y) (or (X,Y,Z,...) where X and Y are
@@ -49,14 +52,23 @@ def ill_formed_abbreviation_pattern(abbreviation_pattern: Match[str]) -> bool:
         return (False)
 
 
+#
+#
+#
 def regularize_match_string(string: str) -> str:
     return (re.sub('[- ]+', ' ', string.strip(''' ,.?><'";:][{}-_=)(*&^%$#@!~''').upper()))
 
 
+#
+#
+#
 def regularize_match_string1(string: str) -> str:
     return (re.sub('[-]', ' ', string.upper()))
 
 
+#
+#
+#
 def remove_empties(input_list: List[str]) -> List[str]:
     if type(input_list) == list:
         return ([x for x in input_list if (x != '')])
@@ -64,6 +76,9 @@ def remove_empties(input_list: List[str]) -> List[str]:
         return (input_list)
 
 
+#
+#
+#
 def get_more_words(line: str, length: int) -> List[str]:
     ## print(line)
     ## print(length)
@@ -77,6 +92,9 @@ def get_more_words(line: str, length: int) -> List[str]:
         return ([])  # @semanticbeeng static type @todo
 
 
+#
+#
+#
 def ok_inbetween_abbreviation_string(string: str) -> bool:
     word_list = remove_empties(word_split_pattern.split(string))
     if len(word_list) < 3:
@@ -86,7 +104,7 @@ def ok_inbetween_abbreviation_string(string: str) -> bool:
 
 
 #
-# @semanticbeeng static type @todo
+# @semanticbeeng @todo global state abbr_to_full_dict
 #
 def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: int, backwards_borders: List[int] = []) -> Optional[Abbr]:
     if len(abbreviation) > 1 and abbreviation[0] in '\'"“`':
@@ -106,6 +124,7 @@ def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: i
     out_type = 'JARGON'
 
     if key in abbr_to_full_dict:
+
         entry = abbr_to_full_dict[key]
         ## print(entry)
         ## print(search_string)
@@ -126,11 +145,14 @@ def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: i
 
             elif (position != -1):
                 match_end = (position + len(out_string))
+
                 if (match_end < len(search_string)) and (search_string[match_end] == 'S'):
                     add_s = True
                     match_end = 1 + match_end
+
                 if (match_end < len(search_string)) and (re.search('[A-Z]', search_string[match_end])):
                     position = -1
+
                 if position != -1:
                     out_string = line[position:match_end]
                     if ok_inbetween_abbreviation_string(search_string[position + len(out_string):]) and \
@@ -158,6 +180,7 @@ def adjust_start_for_antecedent(line: str, start: int, search_end: int) -> int:
 #
 #
 def blocked_abbreviation(line: str, abbreviation_position: int, abbreviation: str) -> bool:
+
     pattern = re.search('([^ ]) *$', line[:abbreviation_position])
     if pattern:
         previous_character = pattern.group(1)
@@ -174,7 +197,7 @@ def blocked_abbreviation(line: str, abbreviation_position: int, abbreviation: st
             return (True)
         elif abbreviation.istitle() and (abbreviation.lower() in ABBREVIATION_STOP_WORDS):
             return (True)
-
+    return (False)       # @semanticbeeng @ todo static typing
 
 #
 #
@@ -217,19 +240,20 @@ def one_word_match_match(word: str, abbreviation: str) -> bool:
             return (True)
         else:
             return (False)
+    return (False)       # @semanticbeeng @ todo static typing
 
 
 #
-#   @semanticbeeng @todo trying out Union
+#   @semanticbeeng @todo static typing
 #
-def match_abbreviation_chunk(word: str, abbreviation: str, whole: str=False) -> Union[bool, str]:
+def match_abbreviation_chunk(word: str, abbreviation: str, whole: str=False) -> Optional[str]:
 
     ## print(word,abbreviation,whole)
     ## print(len(abbreviation),(.7 *len(word)))
     if whole and (almost_the_same(word.upper(), whole.upper())):
         ## whole provides the whole abbreviation if the test is against a portion
         ## of the original
-        return (False)
+        return (None)                   # @semanticbeeng @todo static typing
     substrings = []
     for num in range(len(abbreviation)):
         if abbreviation[0 - num].upper() == word[0].upper():
@@ -239,16 +263,18 @@ def match_abbreviation_chunk(word: str, abbreviation: str, whole: str=False) -> 
         if one_word_match_match(word, substring):
             ## print('1',word,'2',abbreviation,'3',substring)
             return (substring)
-    return (False)
+    return (None)                      # @semanticbeeng @todo static typing
 
 
 #
 #
 #
-def get_position_before_word(word: str, line: str) -> int:
+def get_position_before_word(word: str, line: str) -> Optional[int]:
     pattern = re.search(r'[^\w@]+' + word + '[^\w@]*$', line)
     if pattern:
         return (pattern.start() + 1)
+
+    return (None)       # @semanticbeeng @ todo static typing
 
 
 #
@@ -277,7 +303,7 @@ def unbalanced_delimiter(outstring: str) -> bool:
 #
 #
 #
-def fix_unbalanced(outstring: str, line: str, line_position: int) -> Tuple[int, str]:
+def fix_unbalanced(outstring: str, line: str, line_position: int) -> Tuple[Optional[int], Optional[str]]:
     ## print(outstring,line,line_position,sep=os.linesep)
     ## this balances parens for formulaic items that contain parens
     ## the good ones all have hyphens either before the left paren
@@ -285,6 +311,7 @@ def fix_unbalanced(outstring: str, line: str, line_position: int) -> Tuple[int, 
     ## print(outstring,line,line_position,sep=os.linesep)
     right = re.search('[)\]}]', outstring)
     quote = re.search('"', outstring)
+
     if right:
         character_position = re.search('([^ ]+) *$', line[:line_position])
         if character_position and re.search('[{\[(]', character_position.group(1)):
@@ -293,9 +320,10 @@ def fix_unbalanced(outstring: str, line: str, line_position: int) -> Tuple[int, 
             if re.search('(-[(\[{])|([)\]}]-)', new_string):
                 return (new_start, new_string)
             else:
-                return (False, False)           # @semanticbeeng @todo static type
+                return (None, None)             # @semanticbeeng @todo static typying
         else:
-            return (False, False)
+            return (None, None)                 # @semanticbeeng @todo static typying
+
     elif quote:
         ## evaluates to True if out is found
         ## print(quote.start(),quote.group(0))
@@ -306,17 +334,17 @@ def fix_unbalanced(outstring: str, line: str, line_position: int) -> Tuple[int, 
                 new_string = line[new_start:line_position] + outstring
                 return (new_start, new_string)
             else:
-                return (False, False)           # @semanticbeeng @todo static type
+                return (None, None)             # @semanticbeeng @todo static typying
         else:
-            return (False, False)
+            return (None, None)                 # @semanticbeeng @todo static typying
     else:
-        return (False, False)
+        return (None, None)                     # @semanticbeeng @todo static typying
 
 
 #
+#   @semanticbeeng @todo static typing
 #
-#
-def get_word_substring_at_end(words, line, inbetween:str=False, no_check=False) -> Tuple[int, str]:
+def get_word_substring_at_end(words: List[str], line: str, inbetween: Optional[str]=None, no_check=False) -> Tuple[Optional[str], Optional[int]]:
     ## this assumes that the words occur at the end of the line
     ## and that any characters ignored (hyphens, numbers, etc.) 
     ## are OK to ignore
@@ -335,9 +363,11 @@ def get_word_substring_at_end(words, line, inbetween:str=False, no_check=False) 
             else:
                 inbetween_space = inbetween.index(' ')
                 inbetween = inbetween[:inbetween_space]
+
     line_upper = line.upper().rstrip(' ')
     line_position = len(line_upper)
     not_found = False
+
     for number in range(len(words)):
         word_position = -1 - number
         word = words[word_position]
@@ -347,13 +377,16 @@ def get_word_substring_at_end(words, line, inbetween:str=False, no_check=False) 
         else:
             not_found = True
             break
+
     if not_found:
-        outstring = False
+        outstring = None                        # @semanticbeeng @todo static typying
     else:
         outstring = line[line_position:]
+
     if outstring and inbetween:
         outstring = outstring + inbetween
         outstring = outstring.rstrip(' ')
+
     if outstring and unbalanced_delimiter(outstring) and (not no_check):
         ## if there is a left or right bracket, but not both
         ## this is ill-formed
@@ -404,6 +437,7 @@ def classify_abbreviated_string(word_string: str, wordlist: List[str] = []) -> s
         return ('GPE')
     might_be_gpe = True
     has_gpe_word = False
+
     for word in wordlist:
         if word.upper() in dictionary.location_dictionary:
             has_gpe_word = True
@@ -417,7 +451,8 @@ def classify_abbreviated_string(word_string: str, wordlist: List[str] = []) -> s
 #
 #
 #
-def abbreviation_match(abbreviation, previous_words, line, abbreviation_position, line_offset, previous_line, more_words) -> Abbr:
+def abbreviation_match(abbreviation: str, previous_words: List[str], line: str, abbreviation_position: int,
+                       line_offset: int, previous_line: List[str], more_words: bool) -> Optional[Abbr]:
     ## Missing cases: 1) "A recombinant form of SPARC (rSPARC)" -- not general -- not clear what we can skip
     ##                2) ADAMTS-2 (A Disintegrin And Metalloproteinase with ThromboSpondin motifs)  ## also not clear -- when can we add a number
     ##                3) tetracycline (tet) -- not completely clear because we get similar cases, but perhaps it is the length
@@ -434,75 +469,91 @@ def abbreviation_match(abbreviation, previous_words, line, abbreviation_position
     pattern_that_matched: int = None       # @semanticbeeng static type @todo
     final_s = False
     final_match = False
-    multi_letter = False
+    # multi_letter = False
+
     if len(abbreviation) > 1 and abbreviation[0] in '\'"“`':
         one_off = True
         abbreviation2 = abbreviation[1:]
+
     if re.search('[-/]', abbreviation2):
         abbreviation2 = re.sub('[-/]', '', abbreviation2)
+
     if blocked_abbreviation(line, abbreviation_position, abbreviation) \
             or not (re.search('[^\W\d]', abbreviation2)) or \
             ((len(abbreviation2) == 1) and not (re.search('[A-Z]', abbreviation2))):
         ## initially just covers semi-colon and enumeration cases
         ## also requires that abbreviations contain letters
         ## and that single character abbreviations be a capial letter
-        return (False)
+        return (None)                       # @semanticbeeng static type @todo
+
     if not re.search('[^\W\d]', abbreviation2):
         Fail = True
     else:
         Fail = False
+
     if not Fail:
         ## abbreviations must contain at least one letter
         all_matches = True
         number = 0
         extra_letters = 0
         word_index = 0
-        while (((number < len(abbreviation2)) and (not final_s)) or \
-                       (final_s and (number + 1 < len(abbreviation2)))) and \
+
+        while (((number < len(abbreviation2)) and (not final_s)) or
+                   (final_s and (number + 1 < len(abbreviation2)))) and \
                 all_matches and (len(previous_words) > ((stop_words + skipped_words + number) - extra_letters)):
+
             if (number == 0) and \
                     (len(previous_words) > 1) and (len(abbreviation2) > 1) and \
                     (abbreviation2[-1] in ['s', 'S']) and \
                     (previous_words[-1][-1] in ['s', 'S']) and \
                     (not previous_words[-1][0] in ['s', 'S']):
                 final_s = True
+
             if final_s:
                 index = -2 - number
                 word_index = 1 + (index - ((stop_words + skipped_words) - extra_letters))
             else:
                 index = -1 - number
                 word_index = index - ((stop_words + skipped_words) - extra_letters)
+
             if letter_match(abbreviation2[index].upper(), previous_words[word_index].upper()):
                 if previous_words[word_index].lower() in ABBREVIATION_STOP_WORDS:
                     last_word_was_stop_word = previous_words[word_index]
                 else:
                     last_word_was_stop_word = False
                 number = number + 1
+
                 if (number == len(abbreviation2)) or (final_s and ((1 + number) == len(abbreviation2))):
                     final_match = True
+
             elif last_word_was_stop_word and (last_word_was_stop_word[0].upper() == previous_words[word_index][0].upper()):
                 last_word_was_stop_word = False
                 stop_words = stop_words + 1
                 if number == 0:
                     trimmed_words = trimmed_words + 1
+
             elif previous_words[word_index].lower() in ABBREVIATION_STOP_WORDS:
                 stop_words = stop_words + 1
                 if number == 0:
                     trimmed_words = trimmed_words + 1
                 last_word_was_stop_word = previous_words[word_index]
+
             else:
                 if index == -1:  ## end of the word is special for Python
                     possible_match = match_abbreviation_chunk(previous_words[word_index].strip('''"'.,'''), abbreviation2)
-                    end_of_ab = True
+                    # end_of_ab = True
                 else:
                     possible_match = match_abbreviation_chunk(previous_words[word_index].strip('''"'.,'''), abbreviation2[:index + 1], abbreviation2)
-                    end_of_ab = False
+                    # end_of_ab = False
+
                 if possible_match:
                     number = number + len(possible_match)
+
                     if number == len(abbreviation2):
                         final_match = True
                     extra_letters = extra_letters + (len(possible_match) - 1)
-                    multi_letter = True
+                    # multi_letter = True
+
                 elif (len(abbreviation2) > 2) and (len(abbreviation2) > (skipped_words + 1)) and (skipped_words < skipped_maximum):
                     skipped_words = 1 + skipped_words
                     if number == 0:
@@ -525,6 +576,7 @@ def abbreviation_match(abbreviation, previous_words, line, abbreviation_position
             else:
                 matching_words = previous_words[0 - (len(abbreviation2) + (stop_words + skipped_words) - extra_letters):]
             end_position = abbreviation_position
+
             if trimmed_words > 0:
                 for num in range(trimmed_words):
                     if end_position:
@@ -533,14 +585,18 @@ def abbreviation_match(abbreviation, previous_words, line, abbreviation_position
                         ## also subtract one for the space (or other delimiter)
                 if end_position:
                     matching_words = matching_words[:(0 - trimmed_words)]
+
             out_string, start_position = get_word_substring_at_end(matching_words, line[:end_position], line[end_position:abbreviation_position])
+
             if out_string:
                 begin = line_offset + start_position
                 end = begin + len(out_string)
+
     if out_string and (len(out_string) <= (len(abbreviation2) + 1)):
         out_string = False
         all_matches = False
         Fail = True
+
     if (not out_string) and (not Fail):
         ## special case: one of the previous words is itself an allcaps abbreviation,
         ## typically the last one:  small interfering RNA (siRNA)
@@ -548,6 +604,7 @@ def abbreviation_match(abbreviation, previous_words, line, abbreviation_position
         allcap_word = False
         word_number = 0
         ab_index = False
+
         for num in range(min(len(previous_words), len(abbreviation2) - 1)):
             word_num = -1 - num
             word = previous_words[word_num]
@@ -555,19 +612,23 @@ def abbreviation_match(abbreviation, previous_words, line, abbreviation_position
                 ab_index = abbreviation2.upper().find(word)
                 if ab_index != -1:
                     allcap_word = word
+
         if allcap_word and allcap_word != abbreviation2 and (len(abbreviation2) > len(allcap_word)) and len(previous_words) > 1:
             all_matches = True
             chosen_words = []
             if (ab_index == 0):  ## allcaps is at beginning of abbreviation
+
                 for number in range(len(abbreviation2) - len(allcap_word)):
                     index = -1 - number
                     if all_matches and (abs(index) <= len(previous_words)) and \
                             (not letter_match(abbreviation2[index].upper(), previous_words[index].upper())):
                         all_matches = False
+
                 if all_matches:
                     chosen_words = previous_words[(len(allcap_word) - len(abbreviation2) - 1):]
                     matching_words.append(allcap_word)
                     matching_words.extend(chosen_words)
+
             elif (ab_index + len(allcap_word)) == len(abbreviation2):  ## allcaps is at end of abbreviation
                 for number in range(len(abbreviation2) - len(allcap_word)):
                     abbreviation_index = -1 - (len(allcap_word)) - number
@@ -576,16 +637,19 @@ def abbreviation_match(abbreviation, previous_words, line, abbreviation_position
                             (len(previous_words) >= abs(word_index)) and (previous_words[word_index] != '') and \
                             (not letter_match(abbreviation2[abbreviation_index].upper(), previous_words[word_index].upper())):
                         all_matches = False
+
                 if all_matches:
                     chosen_words = previous_words[word_index:]  ## last value of word_index
                     matching_words = []
                     matching_words.extend(chosen_words)
+
             if all_matches:
                 pattern_that_matched = 3
                 out_string, start_position = get_word_substring_at_end(chosen_words, line[:abbreviation_position])
                 if out_string:
                     begin = line_offset + start_position
                     end = begin + len(out_string)
+
     if (not out_string) and (not Fail):
         if len(previous_words) > 0 and one_word_match_match(previous_words[-1], abbreviation2):
             matching_words = previous_words[-1:]
@@ -594,12 +658,14 @@ def abbreviation_match(abbreviation, previous_words, line, abbreviation_position
             if out_string:
                 begin = line_offset + start_position
                 end = begin + len(out_string)
+
         elif len(previous_words) >= 2 and len(previous_words[-1]) <= 2 and len(abbreviation2) > 2 and \
                 abbreviation2.endswith(previous_words[-1]) and \
                 one_word_match_match(previous_words[-2], abbreviation2[:-1]):
             pattern_that_matched = 6
             matching_words = previous_words[-2:]
             out_string, start_position = get_word_substring_at_end(matching_words, line[:abbreviation_position])
+
             if out_string:
                 begin = line_offset + start_position
                 end = begin + len(out_string)
@@ -608,6 +674,7 @@ def abbreviation_match(abbreviation, previous_words, line, abbreviation_position
                 ## examples: peroxiredoxin (Prx) and thioredoxin 1 (Trx1)
     if out_string:
         output_type = classify_abbreviated_string(out_string, wordlist=matching_words)
+
     if matching_words and out_string and (not Fail):
         if (len(out_string) > 1) and (out_string[1] in '''`'"“"”'''):
             out_string = out_string[1:]
@@ -615,18 +682,29 @@ def abbreviation_match(abbreviation, previous_words, line, abbreviation_position
         if (len(out_string) > 1) and (out_string[-1] in '''`'"“"”'''):
             out_string = out_string[:-1]
             end = end - 1
-        return ([begin, end, out_string, output_type, one_off])
 
+        return Abbr(begin, end, out_string, output_type, one_off)
 
-def bad_jargon(jargon):
+    return (None)       # @semanticbeeng @ todo static typing
+
+#
+#
+#
+def bad_jargon(jargon: str) -> bool:
     return (re.search('(19[89][0-9])|(20[01][0-9])|[\[=]|((^| )and($| ))|[\[\]:“"”\`\'‘]', jargon))
 
 
-def OK_jargon(jargon):
+#
+#
+#
+def OK_jargon(jargon: str) -> bool:
     OK = (type(jargon) == str) and (len(jargon) > 1) and re.search('[^\W\d]', jargon) and not (bad_jargon(jargon))
     return (OK)
 
 
+#
+#
+#
 def OK_abbrev_antec(anteced):
     words = re.split('[ .-]+', anteced)
     all_one_letter = True
@@ -669,7 +747,10 @@ def make_nyu_entity(entity_type: str, string: str, begin: int, end: int) -> Dict
         raise ValueError('No such entity type:' + entity_type)
 
 
-def extend_abbreviation_context(pattern, line):
+#
+#
+#
+def extend_abbreviation_context(pattern: Optional[Match[str]], line: str) -> bool:
     end = pattern.end()
     if len(line) > end:
         next_character = line[end]
@@ -679,6 +760,9 @@ def extend_abbreviation_context(pattern, line):
     return (False)
 
 
+#
+#
+#
 def find_search_end(line: str, search_end: int) -> Tuple[int, bool]:
     Fail = False
     pattern = re.search('[\w][\W]+$', line[:search_end])
@@ -716,6 +800,9 @@ def invalid_abbreviation(ARG2_string: str) -> bool:
     return (False)
 
 
+#
+#
+#
 def invalid_abbrev_of(ARG2_string, ARG1_string, recurs=False) -> bool:
     if (ARG2_string == '') or (ARG1_string == ''):
         return (True)
@@ -866,7 +953,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
                 offset_adjustment = len(previous_line)
                 more_words.extend(previous_words)
 
-                result = lookup_abbreviation(abbreviation, previous_line + line, search_end + offset_adjustment, position - offset_adjustment)
+                result: Optional[Abbr] = lookup_abbreviation(abbreviation, previous_line + line, search_end + offset_adjustment, position - offset_adjustment)
 
                 if alt_abbreviation and (not result):
 
@@ -1030,7 +1117,10 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
     return (output)
 
 
-def record_abbreviate_dictionary(fulltext, abbreviation):
+#
+#
+#
+def record_abbreviate_dictionary(fulltext: str, abbreviation: str) -> None:
     ## print(fulltext,abbreviation,argclass)
     global abbr_to_full_dict
     global full_to_abbr_dict
@@ -1086,8 +1176,8 @@ def write_fact_file(output: List[Dict[str, str]], outfile: File[ABBR]) -> None:
                 else:
                     look_up = out['TYPE']
 
-                ARG1_NAME = ARG1_NAME_TABLE[look_up]
-                ARG2_NAME = ARG2_NAME_TABLE[look_up]
+                ARG1_NAME: str = ARG1_NAME_TABLE[look_up]
+                ARG2_NAME: str = ARG2_NAME_TABLE[look_up]
 
             fact: str = out['CLASS']
             for key in keys:
@@ -1110,16 +1200,23 @@ def write_fact_file(output: List[Dict[str, str]], outfile: File[ABBR]) -> None:
             outstream.write(fact + os.linesep)
 
 
-def bad_patent_line(line):
+#
+#
+#
+def bad_patent_line(line: str) -> bool:
     if (len(line) > 5000) and not (re.search('[a-z]', line)):
         return (True)
     else:
         return (False)
 
 
-def triplify(inlist):
+#
+#   @semamanticbeeng @todo what is this doing?
+#
+def triplify(inlist: List[Dict[str, str]]) -> List[Dict[str, str]]:
     if len(inlist) % 3 != 0:
         print('problem with triplify for:', inlist)
+        return []       # @semanticbeeng @ todo static typing
     else:
         output = []
         start = 0
@@ -1205,7 +1302,7 @@ def save_abbrev_dicts(abbr_to_full_file: File[ABBR], full_to_abbr_file: File[ABB
 #
 #
 #
-def read_in_abbrev_dicts_from_files(abbr_to_full_file: File):       # @todo not used , full_to_abbr_file):
+def read_in_abbrev_dicts_from_files(abbr_to_full_file: File) -> None:       # @todo not used , full_to_abbr_file):
     global abbr_to_full_dict
     global full_to_abbr_dict
 
@@ -1226,7 +1323,7 @@ def read_in_abbrev_dicts_from_files(abbr_to_full_file: File):       # @todo not 
 #
 #
 #
-def run_abbreviate_on_file_list(file_list: File, dict_prefix=False):
+def run_abbreviate_on_file_list(file_list: File, dict_prefix=False) -> None:
     start = True
     with file_list.openText() as instream:
 

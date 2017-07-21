@@ -2,9 +2,9 @@ from inline_terms import *
 from DataDef import File, TXT3, TERM, POS
 
 #
+#   @semanticbeeng @todo static typing
 #
-#
-def find_inline_terms_for_file_list(file_list: File, dict_prefix: bool = False) -> None:
+def find_inline_terms_for_file_list(file_list: File, dict_prefix: str = None) -> None:
     start = True
     with file_list.openText() as instream:
         # if dict_prefix:
