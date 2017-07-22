@@ -1,7 +1,0 @@
-MRI  ||| S:0 E:4 ||| NNP
-for  ||| S:4 E:8 ||| IN
-treatment  ||| S:8 E:18 ||| NN
-planning ||| S:18 E:26 ||| NN
-:  ||| S:26 E:28 ||| :
-a  ||| S:28 E:30 ||| DT
-necessity  ||| S:30 E:41 ||| NN

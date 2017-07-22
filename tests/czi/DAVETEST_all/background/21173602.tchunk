@@ -1,7 +1,0 @@
-Renal  	Renal  	 JJ	B-NP
-cell  	cell  	 NN	I-NP
-cancer 	cancer 	 NN	I-NP
-:  	:  	 :	O
-the  	the  	 DT	O
-unmet  	unmet  	 NN	B-NP
-needs  	needs  	 VBZ	O

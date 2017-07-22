@@ -1,6 +1,0 @@
-Intensity-modulated  ||| S:0 E:20 ||| JJ
-radiation  ||| S:20 E:30 ||| NN
-therapy  ||| S:30 E:38 ||| NN
-( ||| S:38 E:39 ||| -LRB-
-IMRT ||| S:39 E:43 ||| NNP
-)  ||| S:43 E:46 ||| -RRB-

@@ -1,5 +1,0 @@
-Brain  	Brain  	 NN	O
-tumor  	tumor  	 NN	O
-imaging 	imaging 	 NN	O
-:  	:  	 :	O
-posttherapy  	posttherapy  	 LS	B-NP

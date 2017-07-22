@@ -1,9 +1,0 @@
-7th  ||| S:0 E:4 ||| NNP
-International  ||| S:4 E:18 ||| NNP
-Work ||| S:18 E:22 ||| NNP
-,  ||| S:22 E:24 ||| ,
-Global  ||| S:24 E:31 ||| NNP
-Crisis  ||| S:31 E:38 ||| NNP
-and  ||| S:38 E:42 ||| CC
-Health  ||| S:42 E:49 ||| NNP
-Seminar  ||| S:49 E:58 ||| NNPS

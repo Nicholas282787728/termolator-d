@@ -1,6 +1,0 @@
-Diagnosis  	Diagnosis  	 NNP	O
-and  	and  	 CC	O
-classification  	classification  	 NN	B-NP
-of  	of  	 IN	I-NP
-diabetes  	diabetes  	 FW	I-NP
-mellitus  	mellitus  	 FW	I-NP

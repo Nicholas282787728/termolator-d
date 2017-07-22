@@ -1,9 +1,0 @@
-Dysmotility  ||| S:0 E:12 ||| NNP
-Symptoms  ||| S:12 E:21 ||| NNP
-and  ||| S:21 E:25 ||| CC
-Weight  ||| S:25 E:32 ||| NNP
-Change ||| S:32 E:38 ||| NNP
-:  ||| S:38 E:40 ||| :
-A  ||| S:40 E:42 ||| DT
-Psychiatric  ||| S:42 E:54 ||| NNP
-Perspective  ||| S:54 E:67 ||| NNP

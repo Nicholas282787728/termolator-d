@@ -1,7 +1,0 @@
-Diagnostic  	Diagnostic  	 JJ	B-NP
-approach  	approach  	 NN	I-NP
-and  	and  	 CC	O
-management  	management  	 NN	O
-of  	of  	 IN	O
-inpatient  	inpatient  	 FW	B-NP
-hyponatremia  	hyponatremia  	 FW	I-NP

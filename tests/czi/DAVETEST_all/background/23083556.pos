@@ -1,7 +1,0 @@
-Unenhanced  ||| S:0 E:11 ||| NNP
-MRI  ||| S:11 E:15 ||| NNP
-at  ||| S:15 E:18 ||| IN
-3T  ||| S:18 E:21 ||| CD
-in  ||| S:21 E:24 ||| IN
-neo-adjuvant  ||| S:24 E:37 ||| FW
-chemotherapy  ||| S:37 E:51 ||| FW

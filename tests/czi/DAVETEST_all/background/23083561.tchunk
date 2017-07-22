@@ -1,7 +1,0 @@
-Clinical  	Clinical  	 JJ	B-NP
-role  	role  	 NN	I-NP
-of  	of  	 IN	O
-detecting  	detecting  	 FW	O
-circulating  	circulating  	 FW	B-NP
-tumor  	tumor  	 FW	I-NP
-cells  	cells  	 FW	I-NP

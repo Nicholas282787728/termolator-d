@@ -1,7 +1,0 @@
-Carotid  ||| S:0 E:8 ||| JJ
-intima-media  ||| S:8 E:21 ||| JJ
-thickness ||| S:21 E:30 ||| NN
-,  ||| S:30 E:32 ||| ,
-thrombin  ||| S:32 E:41 ||| NN
-and  ||| S:41 E:45 ||| CC
-atherosclerosis  ||| S:45 E:62 ||| FW

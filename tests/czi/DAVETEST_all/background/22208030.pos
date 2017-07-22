@@ -1,8 +1,0 @@
-Adverse  ||| S:0 E:8 ||| JJ
-events  ||| S:8 E:15 ||| NNS
-of  ||| S:15 E:18 ||| IN
-endocrine  ||| S:18 E:28 ||| JJ
-therapy  ||| S:28 E:36 ||| NN
-for  ||| S:36 E:40 ||| IN
-prostate  ||| S:40 E:49 ||| JJ
-cancer  ||| S:49 E:57 ||| NN

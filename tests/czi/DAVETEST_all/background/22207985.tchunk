@@ -1,6 +1,0 @@
-Prostate  	Prostate  	 NNP	B-NP
-MR  	MR  	 NNP	I-NP
-imaging  	imaging  	 NN	I-NP
-at  	at  	 IN	O
-3  	3  	 CD	O
-tesla  	tesla  	 CD	B-NP

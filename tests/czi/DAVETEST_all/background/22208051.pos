@@ -1,8 +1,0 @@
-QOL  ||| S:0 E:4 ||| NNP
-as  ||| S:4 E:7 ||| IN
-an  ||| S:7 E:10 ||| DT
-outcome  ||| S:10 E:18 ||| NN
-of  ||| S:18 E:21 ||| IN
-prostate  ||| S:21 E:30 ||| JJ
-cancer  ||| S:30 E:37 ||| NN
-treatment  ||| S:37 E:48 ||| NN
