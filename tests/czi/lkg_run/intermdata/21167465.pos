@@ -1,0 +1,15 @@
+Pathogenesis ||| S:0 E:12 ||| NNP
+,  ||| S:12 E:14 ||| ,
+prevalence ||| S:14 E:24 ||| NN
+,  ||| S:24 E:26 ||| ,
+diagnosis ||| S:26 E:35 ||| NN
+,  ||| S:35 E:37 ||| ,
+and  ||| S:37 E:41 ||| CC
+management  ||| S:41 E:52 ||| NN
+of  ||| S:52 E:55 ||| IN
+exercise-induced  ||| S:55 E:72 ||| JJ
+bronchoconstriction ||| S:72 E:91 ||| NN
+:  ||| S:91 E:93 ||| :
+a  ||| S:93 E:95 ||| DT
+practice  ||| S:95 E:104 ||| NN
+parameter  ||| S:104 E:115 ||| FW

@@ -1,0 +1,13 @@
+Function  ||| S:0 E:9 ||| NN
+of  ||| S:9 E:12 ||| IN
+primary  ||| S:12 E:20 ||| JJ
+hospital  ||| S:20 E:29 ||| NN
+into  ||| S:29 E:34 ||| IN
+full  ||| S:34 E:39 ||| JJ
+play  ||| S:39 E:44 ||| NN
+in  ||| S:44 E:47 ||| IN
+treatment  ||| S:47 E:57 ||| NN
+of  ||| S:57 E:60 ||| IN
+traumatic  ||| S:60 E:70 ||| JJ
+brain  ||| S:70 E:76 ||| NN
+injury  ||| S:76 E:84 ||| NN

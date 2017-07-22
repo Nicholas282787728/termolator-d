@@ -1,0 +1,14 @@
+Prevalence  ||| S:0 E:11 ||| NNP
+of  ||| S:11 E:14 ||| IN
+microalbuminuria  ||| S:14 E:31 ||| NN
+in  ||| S:31 E:34 ||| IN
+type  ||| S:34 E:39 ||| NN
+2  ||| S:39 E:41 ||| CD
+diabetes ||| S:41 E:49 ||| NN
+:  ||| S:49 E:51 ||| :
+lessons  ||| S:51 E:59 ||| NNS
+learned  ||| S:59 E:67 ||| VBD
+from  ||| S:67 E:72 ||| IN
+the  ||| S:72 E:76 ||| DT
+ROADMAP  ||| S:76 E:84 ||| NNP
+study  ||| S:84 E:91 ||| NN

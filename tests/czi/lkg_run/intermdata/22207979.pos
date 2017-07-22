@@ -1,0 +1,12 @@
+PSA  ||| S:0 E:4 ||| NNP
+standardization ||| S:4 E:19 ||| NN
+;  ||| S:19 E:21 ||| :
+the  ||| S:21 E:25 ||| DT
+past  ||| S:25 E:30 ||| JJ
+progress  ||| S:30 E:39 ||| NN
+and  ||| S:39 E:43 ||| CC
+some  ||| S:43 E:48 ||| DT
+problems  ||| S:48 E:57 ||| NNS
+in  ||| S:57 E:60 ||| IN
+the  ||| S:60 E:64 ||| DT
+future  ||| S:64 E:72 ||| JJ

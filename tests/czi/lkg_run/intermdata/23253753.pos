@@ -1,0 +1,10 @@
+HIV  ||| S:0 E:4 ||| NNP
+pre-exposure  ||| S:4 E:17 ||| JJ
+prophylaxis  ||| S:17 E:29 ||| JJ
+diffusion  ||| S:29 E:39 ||| NN
+and  ||| S:39 E:43 ||| CC
+implementation  ||| S:43 E:58 ||| JJ
+issues  ||| S:58 E:65 ||| NNS
+in  ||| S:65 E:68 ||| IN
+nonclinical  ||| S:68 E:80 ||| FW
+settings  ||| S:80 E:90 ||| FW

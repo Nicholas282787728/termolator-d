@@ -1,0 +1,10 @@
+Role  ||| S:0 E:5 ||| NN
+of  ||| S:5 E:8 ||| IN
+Small  ||| S:8 E:14 ||| NNP
+Intestinal  ||| S:14 E:25 ||| NNP
+Bacterial  ||| S:25 E:35 ||| NNP
+Overgrowth  ||| S:35 E:46 ||| NNP
+in  ||| S:46 E:49 ||| IN
+Functional  ||| S:49 E:60 ||| NNP
+Gastrointestinal  ||| S:60 E:77 ||| NNP
+Disorders  ||| S:77 E:88 ||| NNPS

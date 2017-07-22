@@ -1,0 +1,6 @@
+Diagnosis  ||| S:0 E:10 ||| NNP
+and  ||| S:10 E:14 ||| CC
+classification  ||| S:14 E:29 ||| NN
+of  ||| S:29 E:32 ||| IN
+diabetes  ||| S:32 E:41 ||| FW
+mellitus  ||| S:41 E:51 ||| FW

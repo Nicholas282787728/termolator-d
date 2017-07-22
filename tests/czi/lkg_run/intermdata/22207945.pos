@@ -1,0 +1,7 @@
+Genetic  ||| S:0 E:8 ||| JJ
+diagnosis  ||| S:8 E:18 ||| NN
+of  ||| S:18 E:21 ||| IN
+prostate  ||| S:21 E:30 ||| JJ
+cancer ||| S:30 E:36 ||| NN
+:  ||| S:36 E:38 ||| :
+overview  ||| S:38 E:48 ||| LS

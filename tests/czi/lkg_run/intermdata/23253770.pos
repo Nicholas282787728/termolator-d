@@ -1,0 +1,13 @@
+Applying  ||| S:0 E:9 ||| VBG
+chronic  ||| S:9 E:17 ||| JJ
+illness  ||| S:17 E:25 ||| NN
+care ||| S:25 E:29 ||| NN
+,  ||| S:29 E:31 ||| ,
+implementation  ||| S:31 E:46 ||| JJ
+science ||| S:46 E:53 ||| NN
+,  ||| S:53 E:55 ||| ,
+and  ||| S:55 E:59 ||| CC
+self-management  ||| S:59 E:75 ||| JJ
+support  ||| S:75 E:83 ||| NN
+to  ||| S:83 E:86 ||| TO
+HIV  ||| S:86 E:91 ||| UH

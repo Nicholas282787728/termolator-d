@@ -1,0 +1,9 @@
+Registry-based  ||| S:0 E:15 ||| JJ
+clinical  ||| S:15 E:24 ||| JJ
+trial  ||| S:24 E:30 ||| NN
+puts  ||| S:30 E:35 ||| VBZ
+heart  ||| S:35 E:41 ||| NN
+treatment  ||| S:41 E:51 ||| NN
+to  ||| S:51 E:54 ||| TO
+the  ||| S:54 E:58 ||| DT
+test  ||| S:58 E:64 ||| NN

@@ -1,0 +1,15 @@
+Providing  ||| S:0 E:10 ||| VBG
+HIV  ||| S:10 E:14 ||| NNP
+pre-exposure  ||| S:14 E:27 ||| JJ
+prophylaxis ||| S:27 E:38 ||| NN
+:  ||| S:38 E:40 ||| :
+lessons  ||| S:40 E:48 ||| NNS
+learned  ||| S:48 E:56 ||| VBD
+from  ||| S:56 E:61 ||| IN
+the  ||| S:61 E:65 ||| DT
+Ryan  ||| S:65 E:70 ||| NNP
+White  ||| S:70 E:76 ||| NNP
+HIV ||| S:76 E:79 ||| NNP
+/ ||| S:79 E:80 ||| NNP
+AIDS  ||| S:80 E:85 ||| NNP
+Program  ||| S:85 E:94 ||| NNP

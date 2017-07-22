@@ -1,0 +1,15 @@
+Is  ||| S:0 E:3 ||| VBZ
+constraint-induced  ||| S:3 E:22 ||| JJ
+movement  ||| S:22 E:31 ||| NN
+therapy  ||| S:31 E:39 ||| NN
+harmful  ||| S:39 E:47 ||| NN
+in  ||| S:47 E:50 ||| IN
+unilateral  ||| S:50 E:61 ||| JJ
+spastic  ||| S:61 E:69 ||| JJ
+cerebral  ||| S:69 E:78 ||| JJ
+palsy  ||| S:78 E:84 ||| NN
+with  ||| S:84 E:89 ||| IN
+ipsilateral  ||| S:89 E:101 ||| JJ
+cortico-spinal  ||| S:101 E:116 ||| JJ
+projections ||| S:116 E:127 ||| NNS
+?  ||| S:127 E:130 ||| .

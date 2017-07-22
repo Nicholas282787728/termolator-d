@@ -1,0 +1,9 @@
+Suicide  ||| S:0 E:8 ||| JJ
+gene  ||| S:8 E:13 ||| NN
+and  ||| S:13 E:17 ||| CC
+immuno  ||| S:17 E:24 ||| JJ
+gene  ||| S:24 E:29 ||| NN
+therapy  ||| S:29 E:37 ||| NN
+for  ||| S:37 E:41 ||| IN
+prostate  ||| S:41 E:50 ||| JJ
+cancer  ||| S:50 E:58 ||| NN

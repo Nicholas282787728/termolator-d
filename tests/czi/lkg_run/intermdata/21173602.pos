@@ -1,0 +1,7 @@
+Renal  ||| S:0 E:6 ||| JJ
+cell  ||| S:6 E:11 ||| NN
+cancer ||| S:11 E:17 ||| NN
+:  ||| S:17 E:19 ||| :
+the  ||| S:19 E:23 ||| DT
+unmet  ||| S:23 E:29 ||| NN
+needs  ||| S:29 E:36 ||| VBZ

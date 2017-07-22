@@ -1,0 +1,10 @@
+Environmental  ||| S:0 E:14 ||| JJ
+pollutants ||| S:14 E:24 ||| NNS
+:  ||| S:24 E:26 ||| :
+a  ||| S:26 E:28 ||| DT
+risk  ||| S:28 E:33 ||| NN
+factor  ||| S:33 E:40 ||| NN
+for  ||| S:40 E:44 ||| IN
+obesity  ||| S:44 E:52 ||| NN
+and  ||| S:52 E:56 ||| CC
+diabetes  ||| S:56 E:66 ||| FW

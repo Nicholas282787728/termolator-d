@@ -1,0 +1,7 @@
+Molecular  ||| S:0 E:10 ||| JJ
+targeted  ||| S:10 E:19 ||| JJ
+therapy  ||| S:19 E:27 ||| NN
+for  ||| S:27 E:31 ||| IN
+castration-resistant  ||| S:31 E:52 ||| JJ
+prostate  ||| S:52 E:61 ||| JJ
+cancer  ||| S:61 E:69 ||| NN

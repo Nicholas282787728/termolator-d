@@ -1,0 +1,17 @@
+Healthcare  ||| S:0 E:11 ||| NNP
+reform  ||| S:11 E:18 ||| NN
+not  ||| S:18 E:22 ||| RB
+slowing  ||| S:22 E:30 ||| VBG
+scandemic  ||| S:30 E:40 ||| JJ
+innovations ||| S:40 E:51 ||| NNS
+:  ||| S:51 E:53 ||| :
+Progressive  ||| S:53 E:65 ||| JJ
+momentum  ||| S:65 E:74 ||| NN
+continues  ||| S:74 E:84 ||| VBZ
+despite  ||| S:84 E:92 ||| IN
+anticipated  ||| S:92 E:104 ||| JJ
+provider  ||| S:104 E:113 ||| NN
+budget ||| S:113 E:119 ||| NN
+,  ||| S:119 E:121 ||| ,
+reimbursement  ||| S:121 E:135 ||| JJ
+cuts  ||| S:135 E:141 ||| NNS

@@ -1,0 +1,11 @@
+Data ||| S:0 E:4 ||| NNP
+,  ||| S:4 E:6 ||| ,
+physician  ||| S:6 E:16 ||| NN
+engagement  ||| S:16 E:27 ||| NN
+key  ||| S:27 E:31 ||| NN
+to  ||| S:31 E:34 ||| TO
+decreasing  ||| S:34 E:45 ||| VB
+mortality  ||| S:45 E:55 ||| NN
+rate  ||| S:55 E:60 ||| NN
+at  ||| S:60 E:63 ||| IN
+UPHS  ||| S:63 E:69 ||| NNP

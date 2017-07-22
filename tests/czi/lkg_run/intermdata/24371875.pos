@@ -1,0 +1,10 @@
+Workforce  ||| S:0 E:10 ||| JJ
+planning  ||| S:10 E:19 ||| NN
+must  ||| S:19 E:24 ||| MD
+move  ||| S:24 E:29 ||| VB
+away  ||| S:29 E:34 ||| RP
+from  ||| S:34 E:39 ||| IN
+boom  ||| S:39 E:44 ||| NN
+and  ||| S:44 E:48 ||| CC
+bust  ||| S:48 E:53 ||| NN
+cycles  ||| S:53 E:61 ||| NNS

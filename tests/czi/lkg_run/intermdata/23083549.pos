@@ -1,0 +1,11 @@
+Breast  ||| S:0 E:7 ||| NNP
+MRI  ||| S:7 E:11 ||| NNP
+using  ||| S:11 E:17 ||| VBG
+SWeep  ||| S:17 E:23 ||| JJ
+Imaging  ||| S:23 E:31 ||| NNP
+with  ||| S:31 E:36 ||| IN
+Fourier  ||| S:36 E:44 ||| NNP
+Transform  ||| S:44 E:54 ||| NNP
+( ||| S:54 E:55 ||| -LRB-
+SWIFT ||| S:55 E:60 ||| NNP
+)  ||| S:60 E:63 ||| -RRB-

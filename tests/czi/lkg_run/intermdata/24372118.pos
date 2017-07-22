@@ -1,0 +1,10 @@
+Observing  ||| S:0 E:10 ||| JJ
+transformations  ||| S:10 E:26 ||| NN
+in  ||| S:26 E:29 ||| IN
+patients ||| S:29 E:37 ||| NNS
+:  ||| S:37 E:39 ||| :
+the  ||| S:39 E:43 ||| DT
+assessment  ||| S:43 E:54 ||| NN
+of  ||| S:54 E:57 ||| IN
+mental  ||| S:57 E:64 ||| JJ
+functioning  ||| S:64 E:77 ||| VBG

@@ -1,0 +1,11 @@
+NTDBA  ||| S:0 E:6 ||| NNP
+data  ||| S:6 E:11 ||| NN
+points ||| S:11 E:17 ||| NNS
+:  ||| S:17 E:19 ||| :
+Go  ||| S:19 E:22 ||| VB
+before  ||| S:22 E:29 ||| IN
+you  ||| S:29 E:33 ||| PRP
+go ||| S:33 E:35 ||| VBP
+:  ||| S:35 E:37 ||| :
+bladder  ||| S:37 E:45 ||| FW
+injuries  ||| S:45 E:55 ||| FW

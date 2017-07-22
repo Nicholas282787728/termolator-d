@@ -1,0 +1,6 @@
+Role  	Role  	 NN	O
+of  	of  	 IN	O
+androgen  	androgen  	 FW	B-NP
+in  	in  	 FW	O
+prostate  	prostate  	 FW	B-NP
+carcinogenesis  	carcinogenesis  	 FW	I-NP

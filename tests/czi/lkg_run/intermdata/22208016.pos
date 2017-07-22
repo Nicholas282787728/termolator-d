@@ -1,0 +1,8 @@
+Definition  ||| S:0 E:11 ||| NN
+and  ||| S:11 E:15 ||| CC
+issue  ||| S:15 E:21 ||| NN
+of  ||| S:21 E:24 ||| IN
+treatment  ||| S:24 E:34 ||| NN
+failure  ||| S:34 E:42 ||| NN
+with  ||| S:42 E:47 ||| IN
+radiotherapy  ||| S:47 E:61 ||| FW

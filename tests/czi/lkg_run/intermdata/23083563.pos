@@ -1,0 +1,10 @@
+Preoperative  ||| S:0 E:13 ||| NNP
+MRI ||| S:13 E:16 ||| NNP
+:  ||| S:16 E:18 ||| :
+did  ||| S:18 E:22 ||| VBD
+randomized  ||| S:22 E:33 ||| JJ
+trials  ||| S:33 E:40 ||| NNS
+conclude  ||| S:40 E:49 ||| VBP
+the  ||| S:49 E:53 ||| DT
+debate ||| S:53 E:59 ||| NN
+?  ||| S:59 E:62 ||| .

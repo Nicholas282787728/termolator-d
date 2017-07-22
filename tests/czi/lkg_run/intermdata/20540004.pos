@@ -1,0 +1,6 @@
+New  ||| S:0 E:4 ||| JJ
+hospital  ||| S:4 E:13 ||| NN
+medical  ||| S:13 E:21 ||| JJ
+libraries  ||| S:21 E:31 ||| NNS
+in  ||| S:31 E:34 ||| IN
+Micronesia  ||| S:34 E:46 ||| NNPS

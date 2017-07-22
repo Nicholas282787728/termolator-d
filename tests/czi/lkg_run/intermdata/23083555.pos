@@ -1,0 +1,6 @@
+MRgFUS ||| S:0 E:6 ||| NNP
+:  ||| S:6 E:8 ||| :
+from  ||| S:8 E:13 ||| IN
+diagnosis  ||| S:13 E:23 ||| NN
+to  ||| S:23 E:26 ||| TO
+therapy  ||| S:26 E:35 ||| VB

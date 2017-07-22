@@ -1,0 +1,11 @@
+Angiogenesis  ||| S:0 E:13 ||| NNP
+-  ||| S:13 E:15 ||| :
+still  ||| S:15 E:21 ||| RB
+a  ||| S:21 E:23 ||| DT
+worthwhile  ||| S:23 E:34 ||| JJ
+target  ||| S:34 E:41 ||| NN
+for  ||| S:41 E:45 ||| IN
+breast  ||| S:45 E:52 ||| JJ
+cancer  ||| S:52 E:59 ||| NN
+therapy ||| S:59 E:66 ||| NN
+?  ||| S:66 E:69 ||| .

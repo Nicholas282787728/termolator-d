@@ -1,0 +1,8 @@
+Androgen  ||| S:0 E:9 ||| JJ
+synthesis  ||| S:9 E:19 ||| NN
+inhibitors  ||| S:19 E:30 ||| NNS
+and  ||| S:30 E:34 ||| CC
+new  ||| S:34 E:38 ||| JJ
+androgen  ||| S:38 E:47 ||| FW
+receptor  ||| S:47 E:56 ||| FW
+antagonists  ||| S:56 E:69 ||| FW

@@ -1,0 +1,9 @@
+Trends  ||| S:0 E:7 ||| NNS
+and  ||| S:7 E:11 ||| CC
+future  ||| S:11 E:18 ||| NN
+of  ||| S:18 E:21 ||| IN
+external  ||| S:21 E:30 ||| JJ
+radiotherapy  ||| S:30 E:43 ||| NN
+for  ||| S:43 E:47 ||| IN
+prostate  ||| S:47 E:56 ||| JJ
+cancer  ||| S:56 E:64 ||| NN

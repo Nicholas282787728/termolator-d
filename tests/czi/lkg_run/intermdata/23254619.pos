@@ -1,0 +1,7 @@
+Vestibular  ||| S:0 E:11 ||| NNP
+and  ||| S:11 E:15 ||| CC
+balance  ||| S:15 E:23 ||| NN
+testing  ||| S:23 E:31 ||| NN
+in  ||| S:31 E:34 ||| IN
+childhood  ||| S:34 E:44 ||| FW
+migraine  ||| S:44 E:54 ||| FW

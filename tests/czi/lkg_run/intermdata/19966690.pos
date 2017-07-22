@@ -1,0 +1,8 @@
+Breast  ||| S:0 E:7 ||| JJ
+cancer-related  ||| S:7 E:22 ||| JJ
+lymphoedema ||| S:22 E:33 ||| NN
+:  ||| S:33 E:35 ||| :
+implications  ||| S:35 E:48 ||| NNS
+for  ||| S:48 E:52 ||| IN
+primary  ||| S:52 E:60 ||| JJ
+care  ||| S:60 E:66 ||| NN

@@ -1,0 +1,9 @@
+Contrast  ||| S:0 E:9 ||| NN
+enhanced  ||| S:9 E:18 ||| VBN
+spectral  ||| S:18 E:27 ||| JJ
+mammography ||| S:27 E:38 ||| NN
+:  ||| S:38 E:40 ||| :
+better  ||| S:40 E:47 ||| JJR
+than  ||| S:47 E:52 ||| IN
+MRI ||| S:52 E:55 ||| NNP
+?  ||| S:55 E:58 ||| .

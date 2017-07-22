@@ -1,0 +1,9 @@
+Integrated  ||| S:0 E:11 ||| NNP
+quantitative  ||| S:11 E:24 ||| JJ
+DCE-MRI  ||| S:24 E:32 ||| JJ
+and  ||| S:32 E:36 ||| CC
+DW-MRI  ||| S:36 E:43 ||| JJ
+to  ||| S:43 E:46 ||| TO
+characterize  ||| S:46 E:59 ||| VB
+breast  ||| S:59 E:66 ||| FW
+lesions  ||| S:66 E:75 ||| FW

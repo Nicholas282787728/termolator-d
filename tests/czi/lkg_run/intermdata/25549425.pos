@@ -1,0 +1,15 @@
+From  ||| S:0 E:5 ||| IN
+the  ||| S:5 E:9 ||| DT
+bedside  ||| S:9 E:17 ||| NN
+to  ||| S:17 E:20 ||| TO
+the  ||| S:20 E:24 ||| DT
+boardroom ||| S:24 E:33 ||| NN
+:  ||| S:33 E:35 ||| :
+preparing  ||| S:35 E:45 ||| VBG
+Tennessee ||| S:45 E:54 ||| NNP
+'s  ||| S:54 E:57 ||| POS
+next  ||| S:57 E:62 ||| JJ
+generation  ||| S:62 E:73 ||| NN
+of  ||| S:73 E:76 ||| IN
+nurse  ||| S:76 E:82 ||| JJ
+leaders  ||| S:82 E:91 ||| NNS

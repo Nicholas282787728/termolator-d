@@ -1,0 +1,17 @@
+RWDD3  ||| S:0 E:6 ||| NNP
+and  ||| S:6 E:10 ||| CC
+TECTA  ||| S:10 E:16 ||| NNP
+variants  ||| S:16 E:25 ||| VBD
+not  ||| S:25 E:29 ||| RB
+linked  ||| S:29 E:36 ||| VBN
+to  ||| S:36 E:39 ||| TO
+paclitaxel  ||| S:39 E:50 ||| VB
+induced  ||| S:50 E:58 ||| VBN
+peripheral  ||| S:58 E:69 ||| JJ
+neuropathy  ||| S:69 E:80 ||| NN
+in  ||| S:80 E:83 ||| IN
+North  ||| S:83 E:89 ||| NNP
+American  ||| S:89 E:98 ||| NNP
+trial  ||| S:98 E:104 ||| NN
+Alliance  ||| S:104 E:113 ||| NNP
+N08C1  ||| S:113 E:120 ||| FW

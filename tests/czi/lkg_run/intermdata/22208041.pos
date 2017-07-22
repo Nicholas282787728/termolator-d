@@ -1,0 +1,11 @@
+Gene  ||| S:0 E:5 ||| NN
+therapy  ||| S:5 E:13 ||| NN
+for  ||| S:13 E:17 ||| IN
+prostate  ||| S:17 E:26 ||| JJ
+cancer ||| S:26 E:32 ||| NN
+:  ||| S:32 E:34 ||| :
+current  ||| S:34 E:42 ||| JJ
+status  ||| S:42 E:49 ||| NN
+and  ||| S:49 E:53 ||| CC
+future  ||| S:53 E:60 ||| JJ
+prospects  ||| S:60 E:71 ||| NNS

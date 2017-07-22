@@ -1,0 +1,6 @@
+Free  ||| S:0 E:5 ||| JJ
+interval  ||| S:5 E:14 ||| NN
+and ||| S:14 E:17 ||| CC
+/ ||| S:17 E:18 ||| NNP
+or  ||| S:18 E:21 ||| CC
+remission  ||| S:21 E:32 ||| FW

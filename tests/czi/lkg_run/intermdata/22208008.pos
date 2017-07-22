@@ -1,0 +1,9 @@
+Prognostic  ||| S:0 E:11 ||| JJ
+factors  ||| S:11 E:19 ||| NNS
+predicting  ||| S:19 E:30 ||| VBG
+for  ||| S:30 E:34 ||| IN
+postoperative  ||| S:34 E:48 ||| JJ
+recurrence  ||| S:48 E:59 ||| NN
+in  ||| S:59 E:62 ||| IN
+prostate  ||| S:62 E:71 ||| JJ
+cancer  ||| S:71 E:79 ||| NN

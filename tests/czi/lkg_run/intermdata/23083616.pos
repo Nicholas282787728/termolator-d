@@ -1,0 +1,14 @@
+Hyperpolarized  ||| S:0 E:15 ||| NNP
+C-13  ||| S:15 E:20 ||| NNP
+studies  ||| S:20 E:28 ||| NNS
+of  ||| S:28 E:31 ||| IN
+cancer  ||| S:31 E:38 ||| NN
+metabolism  ||| S:38 E:49 ||| NN
+in  ||| S:49 E:52 ||| IN
+animal  ||| S:52 E:59 ||| JJ
+models ||| S:59 E:65 ||| NNS
+.  ||| S:65 E:67 ||| .
+Hype  ||| S:67 E:72 ||| NNP
+or  ||| S:72 E:75 ||| CC
+real ||| S:75 E:79 ||| JJ
+?  ||| S:79 E:82 ||| .

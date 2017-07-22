@@ -1,0 +1,11 @@
+Mass  ||| S:0 E:5 ||| NNP
+screening  ||| S:5 E:15 ||| NN
+program  ||| S:15 E:23 ||| NN
+for  ||| S:23 E:27 ||| IN
+prostate  ||| S:27 E:36 ||| JJ
+cancer  ||| S:36 E:43 ||| NN
+in  ||| S:43 E:46 ||| IN
+urban  ||| S:46 E:52 ||| JJ
+area  ||| S:52 E:57 ||| NN
+of  ||| S:57 E:60 ||| IN
+Kyoto  ||| S:60 E:67 ||| NNP

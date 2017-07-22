@@ -1,0 +1,12 @@
+Chronic  ||| S:0 E:8 ||| JJ
+oedema  ||| S:8 E:15 ||| NN
+in  ||| S:15 E:18 ||| IN
+patients  ||| S:18 E:27 ||| NNS
+with  ||| S:27 E:32 ||| IN
+CVI  ||| S:32 E:36 ||| NNP
+and  ||| S:36 E:40 ||| CC
+ulceration  ||| S:40 E:51 ||| NN
+of  ||| S:51 E:54 ||| IN
+the  ||| S:54 E:58 ||| DT
+lower  ||| S:58 E:64 ||| JJR
+limb  ||| S:64 E:70 ||| NNS

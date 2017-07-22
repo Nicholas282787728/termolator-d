@@ -1,0 +1,8 @@
+Screening  ||| S:0 E:10 ||| VBG
+high  ||| S:10 E:15 ||| JJ
+risk  ||| S:15 E:20 ||| NN
+women  ||| S:20 E:26 ||| NNS
+with  ||| S:26 E:31 ||| IN
+MRI  ||| S:31 E:35 ||| NNP
+alone ||| S:35 E:40 ||| RB
+?  ||| S:40 E:43 ||| .

@@ -1,0 +1,15 @@
+A  ||| S:0 E:2 ||| DT
+simple  ||| S:2 E:9 ||| JJ
+and  ||| S:9 E:13 ||| CC
+robust  ||| S:13 E:20 ||| JJ
+classification  ||| S:20 E:35 ||| JJ
+tree  ||| S:35 E:40 ||| NN
+for  ||| S:40 E:44 ||| IN
+differentiation  ||| S:44 E:60 ||| NN
+between  ||| S:60 E:68 ||| IN
+benign  ||| S:68 E:75 ||| JJ
+and  ||| S:75 E:79 ||| CC
+malignant  ||| S:79 E:89 ||| JJ
+lesions  ||| S:89 E:97 ||| NNS
+in  ||| S:97 E:100 ||| IN
+MR-mammography  ||| S:100 E:116 ||| JJ

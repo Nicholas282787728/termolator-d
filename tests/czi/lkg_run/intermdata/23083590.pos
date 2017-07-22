@@ -1,0 +1,17 @@
+Breast  ||| S:0 E:7 ||| NNP
+MRI  ||| S:7 E:11 ||| NNP
+without  ||| S:11 E:19 ||| IN
+gadolinium ||| S:19 E:29 ||| NNS
+:  ||| S:29 E:31 ||| :
+utility  ||| S:31 E:39 ||| NN
+of  ||| S:39 E:42 ||| IN
+3D  ||| S:42 E:45 ||| NNP
+DESS ||| S:45 E:49 ||| NNP
+,  ||| S:49 E:51 ||| ,
+a  ||| S:51 E:53 ||| DT
+new  ||| S:53 E:57 ||| JJ
+3D  ||| S:57 E:60 ||| FW
+diffusion  ||| S:60 E:70 ||| FW
+weighted  ||| S:70 E:79 ||| FW
+gradient-echo  ||| S:79 E:93 ||| FW
+sequence  ||| S:93 E:103 ||| FW

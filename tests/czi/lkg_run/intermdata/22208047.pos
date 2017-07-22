@@ -1,0 +1,8 @@
+Bisphosphonate  ||| S:0 E:15 ||| NNP
+against  ||| S:15 E:23 ||| IN
+patients  ||| S:23 E:32 ||| NNS
+with  ||| S:32 E:37 ||| IN
+hormone  ||| S:37 E:45 ||| FW
+refractory  ||| S:45 E:56 ||| FW
+prostate  ||| S:56 E:65 ||| FW
+cancer  ||| S:65 E:73 ||| FW

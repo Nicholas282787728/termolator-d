@@ -1,0 +1,12 @@
+Foreword ||| S:0 E:8 ||| NNP
+.  ||| S:8 E:10 ||| .
+REACH  ||| S:10 E:16 ||| NNP
+U.S.  ||| S:16 E:21 ||| NNP
+in  ||| S:21 E:24 ||| IN
+action ||| S:24 E:30 ||| NN
+:  ||| S:30 E:32 ||| :
+inspiring  ||| S:32 E:42 ||| JJ
+hope ||| S:42 E:46 ||| NN
+,  ||| S:46 E:48 ||| ,
+rewarding  ||| S:48 E:58 ||| FW
+courage  ||| S:58 E:67 ||| FW
