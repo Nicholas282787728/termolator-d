@@ -17,71 +17,71 @@ parentheses_pattern3b: Pattern[str] = re.compile(r'(\s|^)[(]([^)]*)([)\]]|$)([^a
 
 
 closed_class_stop_words: List[str] = \
-                          ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among',
-                           'as', 'at', 'by', 'for', 'from', 'in', 'into', 'like', 'minus', 'near', 'of', 'off', 'on',
-                           'onto', 'out', 'over', 'past', 'per', 'plus', 'since', 'till', 'to', 'under', 'until', 'up',
-                           'via', 'vs', 'with', 'that', 'can', 'cannot', 'could', 'may', 'might', 'must',
-                           'need', 'ought', 'shall', 'should', 'will', 'would', 'have', 'had', 'has', 'having', 'be',
-                           'is', 'am', 'are', 'was', 'were', 'being', 'been', 'get', 'gets', 'got', 'gotten',
-                           'getting', 'seem', 'seeming', 'seems', 'seemed',
-                           'enough', 'both', 'all', 'your' 'those', 'this', 'these',
-                           'their', 'the', 'that', 'some', 'our', 'no', 'neither', 'my',
-                           'its', 'his' 'her', 'every', 'either', 'each', 'any', 'another',
-                           'an', 'a', 'just', 'mere', 'such', 'merely' 'right', 'no', 'not',
-                           'only', 'sheer', 'even', 'especially', 'namely', 'as', 'more',
-                           'most', 'less' 'least', 'so', 'enough', 'too', 'pretty', 'quite',
-                           'rather', 'somewhat', 'sufficiently' 'same', 'different', 'such',
-                           'when', 'why', 'where', 'how', 'what', 'who', 'whom', 'which',
-                           'whether', 'why', 'whose', 'if', 'anybody', 'anyone', 'anyplace',
-                           'anything', 'anytime' 'anywhere', 'everybody', 'everyday',
-                           'everyone', 'everyplace', 'everything' 'everywhere', 'whatever',
-                           'whenever', 'whereever', 'whichever', 'whoever', 'whomever' 'he',
-                           'him', 'his', 'her', 'she', 'it', 'they', 'them', 'its', 'their', 'theirs',
-                           'you', 'your', 'yours', 'me', 'my', 'mine', 'I', 'we', 'us', 'much', 'and/or'
-                           ]
+    ['a', 'the', 'an', 'and', 'or', 'but', 'about', 'above', 'after', 'along', 'amid', 'among',
+     'as', 'at', 'by', 'for', 'from', 'in', 'into', 'like', 'minus', 'near', 'of', 'off', 'on',
+     'onto', 'out', 'over', 'past', 'per', 'plus', 'since', 'till', 'to', 'under', 'until', 'up',
+     'via', 'vs', 'with', 'that', 'can', 'cannot', 'could', 'may', 'might', 'must',
+     'need', 'ought', 'shall', 'should', 'will', 'would', 'have', 'had', 'has', 'having', 'be',
+     'is', 'am', 'are', 'was', 'were', 'being', 'been', 'get', 'gets', 'got', 'gotten',
+     'getting', 'seem', 'seeming', 'seems', 'seemed',
+     'enough', 'both', 'all', 'your' 'those', 'this', 'these',
+     'their', 'the', 'that', 'some', 'our', 'no', 'neither', 'my',
+     'its', 'his' 'her', 'every', 'either', 'each', 'any', 'another',
+     'an', 'a', 'just', 'mere', 'such', 'merely' 'right', 'no', 'not',
+     'only', 'sheer', 'even', 'especially', 'namely', 'as', 'more',
+     'most', 'less' 'least', 'so', 'enough', 'too', 'pretty', 'quite',
+     'rather', 'somewhat', 'sufficiently' 'same', 'different', 'such',
+     'when', 'why', 'where', 'how', 'what', 'who', 'whom', 'which',
+     'whether', 'why', 'whose', 'if', 'anybody', 'anyone', 'anyplace',
+     'anything', 'anytime' 'anywhere', 'everybody', 'everyday',
+     'everyone', 'everyplace', 'everything' 'everywhere', 'whatever',
+     'whenever', 'whereever', 'whichever', 'whoever', 'whomever' 'he',
+     'him', 'his', 'her', 'she', 'it', 'they', 'them', 'its', 'their', 'theirs',
+     'you', 'your', 'yours', 'me', 'my', 'mine', 'I', 'we', 'us', 'much', 'and/or'
+     ]
 ## ABBREVIATION_STOP_WORDS plus some
 
 patent_stop_words: List[str] = \
-                    ['patent', 'provisional', 'kokai', 'open', 'publication', 'number', 'nos', 'serial',
-                     'related', 'claim', 'claims', 'embodiment', 'related', 'present', 'priority', 'design',
-                     'said', 'respective', 'fig', 'figs', 'copyright', 'following', 'preceding', 'according',
-                     'barring', 'pending', 'pertaining', 'international', 'wo', 'pct']
+    ['patent', 'provisional', 'kokai', 'open', 'publication', 'number', 'nos', 'serial',
+     'related', 'claim', 'claims', 'embodiment', 'related', 'present', 'priority', 'design',
+     'said', 'respective', 'fig', 'figs', 'copyright', 'following', 'preceding', 'according',
+     'barring', 'pending', 'pertaining', 'international', 'wo', 'pct']
 
 signal_set: List[str] = \
-              ['academically', 'accordance', 'according', 'accordingly', 'actuality', 'actually', 'addition', 'additionally', 'administratively', 'admittedly', 'aesthetically',
-              'agreement', 'alarmingly', 'alas', 'all', 'allegedly', 'also', 'alternative', 'alternatively', 'although', 'altogether', 'amazingly', 'analogously', 'anyhow',
-              'anyway', 'anyways', 'apparently', 'appropriately', 'architecturally', 'arguably', 'arithmetically', 'artistically', 'as', 'assumingly', 'assuredly', 'astonishingly',
-              'astronomically', 'asymptotically', 'atypically', 'axiomatically', 'base', 'based', 'bases', 'basing', 'besides', 'biologically', 'but', 'case', 'certainly',
-              'coincidentally', 'colloquially', 'combination', 'combine', 'combined', 'combines', 'combining', 'commercially', 'compared', 'comparison', 'compliance',
-              'computationally', 'conceivably', 'conceptually', 'concord', 'concordance', 'confirm', 'confirmation', 'confirmed', 'confirming', 'confirms', 'conformity',
-              'consequence', 'consequentially', 'consequently', 'consistent', 'constitutionally', 'constrasts', 'contrarily', 'contrariwise', 'contrary', 'contrast', 'contrasted',
-              'contrasting', 'contrastingly', 'controversially', 'conversely', 'correlate', 'correlated', 'correlates', 'correlation', 'correspondingly', 'corroborate',
-              'corroborated', 'corroborates', 'corroborating', 'corroboration', 'couple', 'coupled', 'couples', 'coupling', 'course', 'curiously', 'definitely', 'described',
-              'descriptively', 'despite', 'done', 'doubtless', 'doubtlessly', 'due', 'ecologically', 'economically', 'effect', 'effectively', 'else', 'empirically', 'endorse',
-              'endorsed', 'endorsement', 'endorses', 'environmentally', 'ethically', 'event', 'eventually', 'evidently', 'example', 'excitingly', 'extend', 'extended', 'extending',
-              'extends', 'extension', 'fact', 'factually', 'far', 'fifthly', 'finally', 'first', 'firstly', 'following', 'formally', 'fortunately', 'fourth', 'fourthly', 'frankly',
-              'further', 'furthermore', 'genealogically', 'general', 'generally', 'genetically', 'geographically', 'geologically', 'geometrically', 'grammatically', 'gratuitously',
-              'hand', 'hence', 'historically', 'honestly', 'honesty', 'hopefully', 'however', 'ideally', 'implement', 'implementation', 'implemented', 'implementing', 'implements',
-              'incidentally', 'increasingly', 'indeed', 'indubitably', 'inevitably', 'informally', 'instance', 'instead', 'institutionally', 'interestingly', 'intriguingly',
-              'invoke', 'invoked', 'invokes', 'invoking', 'ironically', 'journalistically', 'lamentably', 'last', 'lastly', 'legally', 'lest', 'light', 'likelihood', 'likewise',
-              'line', 'linguistically', 'literally', 'logically', 'luckily', 'lyrically', 'manner', 'materialistically', 'mathematically', 'meantime', 'meanwhile', 'mechanically',
-              'mechanistically', 'medically', 'melodramatically', 'merge', 'merged', 'merges', 'merging', 'metaphorically', 'metaphysically', 'methodologically', 'metrically',
-              'militarily', 'ministerially', 'miraculously', 'mix', 'mixed', 'mixes', 'mixing', 'mixture', 'modestly', 'morally', 'moreover', 'morphologically', 'mundanely',
-              'musically', 'mutandis', 'mutatis', 'naturally', 'nay', 'necessarily', 'needfully', 'nevertheless', 'next', 'nonetheless', 'normally', 'not', 'notwithstanding',
-              'now', 'numerically', 'nutritionally', 'objectionably', 'obscenely', 'observably', 'obviously', 'oddly', 'odds-on', 'of', 'offhand', 'officially', 'ominously',
-              'optimally', 'optimistically', 'ordinarily', 'originally', 'ostensibly', 'otherwise', 'overall', 'paradoxically', 'parenthetically', 'particular', 'peculiarly',
-              'perceptively', 'perchance', 'personally', 'perversely', 'pessimistically', 'pettily', 'pharmacologically', 'philanthropically', 'philosophically', 'phonetically',
-              'photographically', 'physically', 'plausibly', 'poetically', 'politically', 'possibly', 'potentially', 'practically', 'pragmatically', 'predictably', 'preferably',
-              'presumably', 'presumptively', 'probabilistically', 'probability', 'probably', 'problematically', 'professedly', 'propitiously', 'rashly', 'rate', 'rather',
-              'rationally', 'realistically', 'really', 'reference', 'regardless', 'regretfully', 'regrettably', 'reportedly', 'reputedly', 'result', 'retrospectively',
-              'rhetorically', 'ridiculously', 'roughly', 'sceptically', 'scientifically', 'second', 'secondly', 'separately', 'seriously', 'shockingly', 'similar', 'similarly',
-              'simultaneously', 'somehow', 'speaking', 'specifically', 'statistically', 'still', 'strangely', 'strikingly', 'subsequently', 'superficially', 'superstitiously',
-              'support', 'supported', 'supporting', 'supports', 'supposedly', 'surely', 'surprisingly', 'symbolically', 'tactically', 'take', 'taken', 'takes', 'taking',
-              'technically', 'thankfully', 'thanks', 'then', 'thence', 'theologically', 'theoretically', 'thereafter', 'therefore', 'third', 'thirdly', 'though', 'thus', 'time',
-              'took', 'touchingly', 'traditionally', 'tragically', 'trivially', 'truly', 'truth', 'truthfully', 'ultimately', 'unaccountably', 'unarguably', 'undeniably',
-              'understandably', 'undisputedly', 'undoubtedly', 'unexpectedly', 'unfortunately', 'unsurprisingly', 'use', 'used', 'uses', 'using', 'usually', 'utilization',
-              'utilize', 'utilized', 'utilizes', 'utilizing', 'verily', 'view', 'way', 'whence', 'whereas', 'whereby', 'wherefore', 'wherein', 'whereof', 'whereon', 'whereto',
-              'whereunto', 'whereupon', 'while', 'withal', 'worryingly', 'yet']
+    ['academically', 'accordance', 'according', 'accordingly', 'actuality', 'actually', 'addition', 'additionally', 'administratively', 'admittedly', 'aesthetically',
+     'agreement', 'alarmingly', 'alas', 'all', 'allegedly', 'also', 'alternative', 'alternatively', 'although', 'altogether', 'amazingly', 'analogously', 'anyhow',
+     'anyway', 'anyways', 'apparently', 'appropriately', 'architecturally', 'arguably', 'arithmetically', 'artistically', 'as', 'assumingly', 'assuredly', 'astonishingly',
+     'astronomically', 'asymptotically', 'atypically', 'axiomatically', 'base', 'based', 'bases', 'basing', 'besides', 'biologically', 'but', 'case', 'certainly',
+     'coincidentally', 'colloquially', 'combination', 'combine', 'combined', 'combines', 'combining', 'commercially', 'compared', 'comparison', 'compliance',
+     'computationally', 'conceivably', 'conceptually', 'concord', 'concordance', 'confirm', 'confirmation', 'confirmed', 'confirming', 'confirms', 'conformity',
+     'consequence', 'consequentially', 'consequently', 'consistent', 'constitutionally', 'constrasts', 'contrarily', 'contrariwise', 'contrary', 'contrast', 'contrasted',
+     'contrasting', 'contrastingly', 'controversially', 'conversely', 'correlate', 'correlated', 'correlates', 'correlation', 'correspondingly', 'corroborate',
+     'corroborated', 'corroborates', 'corroborating', 'corroboration', 'couple', 'coupled', 'couples', 'coupling', 'course', 'curiously', 'definitely', 'described',
+     'descriptively', 'despite', 'done', 'doubtless', 'doubtlessly', 'due', 'ecologically', 'economically', 'effect', 'effectively', 'else', 'empirically', 'endorse',
+     'endorsed', 'endorsement', 'endorses', 'environmentally', 'ethically', 'event', 'eventually', 'evidently', 'example', 'excitingly', 'extend', 'extended', 'extending',
+     'extends', 'extension', 'fact', 'factually', 'far', 'fifthly', 'finally', 'first', 'firstly', 'following', 'formally', 'fortunately', 'fourth', 'fourthly', 'frankly',
+     'further', 'furthermore', 'genealogically', 'general', 'generally', 'genetically', 'geographically', 'geologically', 'geometrically', 'grammatically', 'gratuitously',
+     'hand', 'hence', 'historically', 'honestly', 'honesty', 'hopefully', 'however', 'ideally', 'implement', 'implementation', 'implemented', 'implementing', 'implements',
+     'incidentally', 'increasingly', 'indeed', 'indubitably', 'inevitably', 'informally', 'instance', 'instead', 'institutionally', 'interestingly', 'intriguingly',
+     'invoke', 'invoked', 'invokes', 'invoking', 'ironically', 'journalistically', 'lamentably', 'last', 'lastly', 'legally', 'lest', 'light', 'likelihood', 'likewise',
+     'line', 'linguistically', 'literally', 'logically', 'luckily', 'lyrically', 'manner', 'materialistically', 'mathematically', 'meantime', 'meanwhile', 'mechanically',
+     'mechanistically', 'medically', 'melodramatically', 'merge', 'merged', 'merges', 'merging', 'metaphorically', 'metaphysically', 'methodologically', 'metrically',
+     'militarily', 'ministerially', 'miraculously', 'mix', 'mixed', 'mixes', 'mixing', 'mixture', 'modestly', 'morally', 'moreover', 'morphologically', 'mundanely',
+     'musically', 'mutandis', 'mutatis', 'naturally', 'nay', 'necessarily', 'needfully', 'nevertheless', 'next', 'nonetheless', 'normally', 'not', 'notwithstanding',
+     'now', 'numerically', 'nutritionally', 'objectionably', 'obscenely', 'observably', 'obviously', 'oddly', 'odds-on', 'of', 'offhand', 'officially', 'ominously',
+     'optimally', 'optimistically', 'ordinarily', 'originally', 'ostensibly', 'otherwise', 'overall', 'paradoxically', 'parenthetically', 'particular', 'peculiarly',
+     'perceptively', 'perchance', 'personally', 'perversely', 'pessimistically', 'pettily', 'pharmacologically', 'philanthropically', 'philosophically', 'phonetically',
+     'photographically', 'physically', 'plausibly', 'poetically', 'politically', 'possibly', 'potentially', 'practically', 'pragmatically', 'predictably', 'preferably',
+     'presumably', 'presumptively', 'probabilistically', 'probability', 'probably', 'problematically', 'professedly', 'propitiously', 'rashly', 'rate', 'rather',
+     'rationally', 'realistically', 'really', 'reference', 'regardless', 'regretfully', 'regrettably', 'reportedly', 'reputedly', 'result', 'retrospectively',
+     'rhetorically', 'ridiculously', 'roughly', 'sceptically', 'scientifically', 'second', 'secondly', 'separately', 'seriously', 'shockingly', 'similar', 'similarly',
+     'simultaneously', 'somehow', 'speaking', 'specifically', 'statistically', 'still', 'strangely', 'strikingly', 'subsequently', 'superficially', 'superstitiously',
+     'support', 'supported', 'supporting', 'supports', 'supposedly', 'surely', 'surprisingly', 'symbolically', 'tactically', 'take', 'taken', 'takes', 'taking',
+     'technically', 'thankfully', 'thanks', 'then', 'thence', 'theologically', 'theoretically', 'thereafter', 'therefore', 'third', 'thirdly', 'though', 'thus', 'time',
+     'took', 'touchingly', 'traditionally', 'tragically', 'trivially', 'truly', 'truth', 'truthfully', 'ultimately', 'unaccountably', 'unarguably', 'undeniably',
+     'understandably', 'undisputedly', 'undoubtedly', 'unexpectedly', 'unfortunately', 'unsurprisingly', 'use', 'used', 'uses', 'using', 'usually', 'utilization',
+     'utilize', 'utilized', 'utilizes', 'utilizing', 'verily', 'view', 'way', 'whence', 'whereas', 'whereby', 'wherefore', 'wherein', 'whereof', 'whereon', 'whereto',
+     'whereunto', 'whereupon', 'while', 'withal', 'worryingly', 'yet']
 
 ## ne_stop_words = ['et', 'co', 'al', 'eds','corp','inc','sa','cia','ltd','GmbH','Esq','PhD']
 
@@ -864,20 +864,20 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
 #
 #
 #
-def divide_sentence_into_words_and_start_positions(sentence: str, start: int = 0) -> List[object]:
+def divide_sentence_into_words_and_start_positions(sentence: str, start: int = 0) -> List[Tuple[int, str]]:
     ## only sequences of letters are needed for look up
     break_pattern: Pattern[str] = re.compile('[^0-9A-Za-z-]')
     match: Optional[Match[str]] = break_pattern.search(sentence, start)
-    output: List[object] = []           # @semanticbeeng static type @todo
+    output: List[Tuple[int, str]] = []                                  # @semanticbeeng @todo static typing
 
     while match:
         if start != match.start():
-            output.append([start, sentence[start:match.start()]])
+            output.append((start, sentence[start:match.start()]))       # @semanticbeeng @todo static typing
         start = match.end()
         match = break_pattern.search(sentence, start)
 
     if start < len(sentence):
-        output.append([start, sentence[start:]])
+        output.append((start, sentence[start:]))                        # @semanticbeeng @todo static typing
     return (output)
 
 
@@ -1020,3 +1020,4 @@ def get_my_string_list(input_file: File) -> List[str]:
         instream = input_file.openText(encoding='ISO-8859-1')
         output = instream.readlines()
     return (output)
+
