@@ -1099,6 +1099,9 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
             if result:
                 if not invalid_abbreviation(ARG2_string) and not invalid_abbrev_of(ARG2_string, ARG1_string):
 
+                    #
+                    #   @semanticbeeng @todo extract @data entity definitions
+                    #
                     ARG2: Dict[str, str] = make_nyu_entity(output_type, ARG2_string, ARG2_begin, ARG2_end)
                     ARG1: Dict[str, str] = make_nyu_entity(output_type, ARG1_string, ARG1_begin, ARG1_end)
 

@@ -14,6 +14,7 @@ files_txt2=`find . -name *.txt2`
 files_txt3=`find . -name *.txt3`
 files_tchunk=`find . -name *.tchunk`
 files_tchunk_nps=`find . -name *.tchunk.nps`
+files_all="$files_abbr $files_fact $files_pos $files_terms $files_txt2 $files_txt3 $files_tchunk $files_tchunk_nps"
 
 echo $files_abbr        | wc
 echo $files_fact        | wc
@@ -34,6 +35,7 @@ rm -rf $files_txt3
 rm -rf $files_tchunk
 rm -rf $files_tchunk_nps
 
+cp $files_all /development/projects/04_clients/czi/ds/The_Termolator/tests/czi/lkg_run/intermdata/
 
 # cleanup internal intermediate data
 rm false.dict_full_to_abbr

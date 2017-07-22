@@ -13,6 +13,10 @@ term_stop_words_with_periods: Pattern[str] = re.compile('(^|\s)(u\.s|e\.g|i\.e|u
 term_hash: Dict[str, List[Tuple[int, int]]] = {}          # @semanticbeeng @todo global state - is this necessary ??
 lemma_dict: Dict[str, str] = {}
 
+#
+#   @semanticbeeng @todo global state
+#
+term_id_number = 0
 
 # @semanticbeeng not used cluster_hash: Dict = {}
 
@@ -45,14 +49,14 @@ def nationality_check(term_lower: str) -> bool:
 #
 #
 #
-def section_heading_word(word: str):
+def section_heading_word(word: str) -> bool:
     if (len(word) > 1) and (word[-1] == 's'):
         if (word in ['descriptions', 'claims', 'embodiments', 'examples', 'fields', 'inventions', 'priorities', 'applications']):
             return (True)
     elif word in ['description', 'summary', 'claim', 'embodiment', 'example', 'explanation', 'field', 'invention', 'introduction', 'priority', 'application(s)', 'statement',
                   'reference']:
         return (True)
-
+    return (False)               # @semanticbeeng @todo static typing - check this!
 
 #
 #
@@ -438,13 +442,14 @@ def get_next_chemical_match(text: str, start: int) -> Optional[Match[str]]:
 #
 #
 #
-def OK_url(path_string):
+def OK_url(path_string) -> bool:
     pivot_match = re.search('(^[^/]*)([:.])([^/]*)', path_string)
     if pivot_match:
         if pivot_match.group(2) == ':':
             return (True)
         elif (len(pivot_match.group(1)) > 1) and (len(pivot_match.group(3)) > 1):
             return (True)
+    return (false)               # @semanticbeeng @todo static typing - what to return if not url?
 
 #
 #
@@ -1477,11 +1482,6 @@ def org_head_ending(term: str, head_hash) -> bool:
     if (term in head_hash) and org_ending_pattern.search(head_hash[term]):
         return (True)
     return (False)
-
-#
-#   @semanticbeeng @todo global state
-#
-term_id_number = 0
 
 
 #
