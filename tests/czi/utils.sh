@@ -12,25 +12,26 @@ files_pos=`find . -name *.pos`
 files_terms=`find . -name *.terms`
 files_txt2=`find . -name *.txt2`
 files_txt3=`find . -name *.txt3`
-files_tchunk_=`find . -name *.tchunk`
+files_tchunk=`find . -name *.tchunk`
 files_tchunk_nps=`find . -name *.tchunk.nps`
 
-echo $files_abbr | wc
-echo $files_fact | wc
-echo $files_pos | wc
-echo $files_terms | wc
-echo $files_txt2 | wc
-echo $files_txt3 | wc
-echo $files_tchunk_| wc
-echo $files_tchunk_nps | wc
+echo $files_abbr        | wc
+echo $files_fact        | wc
+echo $files_pos         | wc
+echo $files_terms       | wc
+echo $files_txt2        | wc
+echo $files_txt3        | wc
+echo $files_tchunk      | wc
+echo $files_tchunk_nps  | wc
 
-rm $files_fact
-rm $files_pos
-rm $files_terms
-rm $files_txt2
-rm $files_txt3
-rm $files_tchunk
-rm $files_tchunk_nps
+rm -rf $files_abbr
+rm -rf $files_fact
+rm -rf $files_pos
+rm -rf $files_terms
+rm -rf $files_txt2
+rm -rf $files_txt3
+rm -rf $files_tchunk
+rm -rf $files_tchunk_nps
 
 
 # cleanup intermediate data
