@@ -24,6 +24,7 @@ echo $files_txt3        | wc
 echo $files_tchunk      | wc
 echo $files_tchunk_nps  | wc
 
+# cleanup intermediate data
 rm -rf $files_abbr
 rm -rf $files_fact
 rm -rf $files_pos
@@ -33,16 +34,6 @@ rm -rf $files_txt3
 rm -rf $files_tchunk
 rm -rf $files_tchunk_nps
 
-
-# cleanup intermediate data
-rm `find . -name *.abbr`
-rm `find . -name *.fact`
-rm `find . -name *.pos`
-rm `find . -name *.tchunk`
-rm `find . -name *.tchunk.nps`
-rm `find . -name *.terms`
-rm `find . -name *.txt2`
-rm `find . -name *.txt3`
 
 # cleanup internal intermediate data
 rm false.dict_full_to_abbr
@@ -67,4 +58,32 @@ rm *.rejected-terms
 
 rm *.all_terms
 rm *.scored_output
+
+# -- manual run
+TESTNAME=DAVETEST
+
+$TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_prefix_list BARE
+$TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_pos_list .pos
+$TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_txt_fact_list .txt3 .fact
+$TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_fact_pos_list .fact .pos
+$TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_txt_fact_pos_list .txt2 .fact .pos
+$TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_pos_terms_abbr_list .pos .terms .abbr
+$TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_foreground_tchunk_list .tchunk
+$TERMOLATOR/make_io_file.py $NYU_DIR/background.list $TESTNAME.internal_background_tchunk_list .tchunk
+
+$TERMOLATOR/make_termolator_fact_txt_files.py $TESTNAME.internal_prefix_list .txt
+
+echo "FuseJet.path1 = ${TERMOLATOR}/models" > temporary_TERMOLATOR_POS.properties
+tail -n +2 ${TERMOLATOR}/TERMOLATOR_POS.properties >> temporary_TERMOLATOR_POS.properties
+
+java -Xmx16g -cp ${TERMOLATOR}/lib/TJet.jar FuseJet.Utils.Console ./temporary_TERMOLATOR_POS.properties $TESTNAME.internal_txt_fact_list $TESTNAME.internal_pos_list
+
+$TERMOLATOR/run_adjust_missing_char_pos.py $TESTNAME.internal_fact_pos_list
+
+$TERMOLATOR/run_find_inline_terms.py $TESTNAME.internal_prefix_list $TESTNAME
+
+$TERMOLATOR/run_make_term_chunk.py $TESTNAME.internal_pos_terms_abbr_list $TESTNAME.internal_foreground_tchunk_list
+
+# $TERMOLATOR/distributional_component.py $4.internal_foreground_tchunk_list $4.internal_background_tchunk_list > $4.all_terms
+
 
