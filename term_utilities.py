@@ -118,7 +118,7 @@ xml_string: str = '<([/!?]?)([a-z?\-]+)[^>]*>'
 html_fields_to_remove = ['style', 'script']
 
 text_html_fields = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'dt', 'dd', 'address', 'pre', 'td', 'caption', 'br']
-## some of these may require additional formatting to properly process them, e.g., 
+## some of these may require additional formatting to properly process them, e.g.,
 ## the following (not implemented) may require additional new lines: address, pre
 
 roman_value: Dict[str, int] = {'i': 1, 'v': 5, 'x': 10, 'l': 50, 'c': 100, 'd': 500, 'm': 1000}
@@ -284,7 +284,7 @@ def breakup_line_into_chunks(inline: str, difference: int) -> List[str]:
     if difference == 0:
         ## this seems to happen sometimes
         ## perhaps this is the case where
-        ## the current filters do not 
+        ## the current filters do not
         ## detect good break points
         return ([inline])
     output = []
@@ -1020,4 +1020,3 @@ def get_my_string_list(input_file: File) -> List[str]:
         instream = input_file.openText(encoding='ISO-8859-1')
         output = instream.readlines()
     return (output)
-

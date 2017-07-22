@@ -775,9 +775,9 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
             else:
 
                 pieces.extend([
-                    (start, text[start:paren_pat.start()]),
-                    (paren_pat.start(2), paren_pat.group(2))
-                ])  # @semanticbeeng @todo static typing
+                        (start, text[start:paren_pat.start()]),
+                        (paren_pat.start(2), paren_pat.group(2))
+                        ])  # @semanticbeeng @todo static typing
                 start = paren_pat.end()
                 ### paren_pat = parentheses_pattern3.search(text,paren_pat.end())
                 paren_pat = parentheses_pattern_match(text, paren_pat.end(), 3)
@@ -801,9 +801,9 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
             if doub and ((not sing) or ((sing.start() < doub.start()) and (sing.end() > doub.end()))):
                 ## if doub nested inside of singular, assume singular quotes are in error
                 pieces2.extend([
-                    (meta_start + start, piece[start:doub.start()]),
-                    (meta_start + doub.start(2), doub.group(2))
-                ])              # @semanticbeeng @todo static typing
+                                (meta_start + start, piece[start:doub.start()]),
+                                (meta_start + doub.start(2), doub.group(2))
+                            ])              # @semanticbeeng @todo static typing
 
                 start = doub.end()
                 doub = double_quote_pattern.search(piece, start)
@@ -829,9 +829,9 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
             elif doub.end() < sing.start():
                 ## doub first -- do doub only  (treat similarly to first case, except don't reinitialize singular)
                 pieces2.extend([
-                    (meta_start + start, piece[start:doub.start()]),
-                    (meta_start + doub.start(2), doub.group(2))
-                ])                                                              # @semanticbeeng @todo static typing
+                                (meta_start + start, piece[start:doub.start()]),
+                                (meta_start + doub.start(2), doub.group(2))
+                                ])                                                              # @semanticbeeng @todo static typing
 
                 start = doub.end()
                 doub = double_quote_pattern.search(piece, start)
@@ -1004,7 +1004,7 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
                             # look_ahead2_offset = look_ahead2_start + start + meta_start + offset
 
                             if look_ahead2 and (
-                                        guess_pos(look_ahead2, False, offset=(look_ahead2_start + start + meta_start + offset))
+                                guess_pos(look_ahead2, False, offset=(look_ahead2_start + start + meta_start + offset))
                                     in ['PLURAL', 'AMBIG_PLURAL', 'NOUN', 'AMBIG_NOUN', 'NOUN_OOV']):
                                 look_ahead = None  # @semanticbeeng @todo static typing
 
@@ -1878,4 +1878,3 @@ def make_term_chunk_file_list(infiles: str, outfiles: str, no_head_terms_only=Fa
         make_term_chunk_file(File[POS](pos_file), File[TERM](term_file),
                              File[ABBR](abbreviate_file), File[CHUNK](chunk_file),
                              no_head_terms_only=no_head_terms_only)
-
