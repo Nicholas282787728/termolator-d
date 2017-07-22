@@ -739,10 +739,10 @@ def make_nyu_id(Class: str) -> str:
 def make_nyu_entity(entity_type: str, string: str, begin: int, end: int) -> Dict[str, str]:
     if entity_type == 'JARGON':
         return ({'CLASS': entity_type, 'ID': make_nyu_id(entity_type),
-                 'START': str(begin), 'END': str(end), 'TEXT': string})
+                 'START': begin, 'END': end, 'TEXT': string})
     elif entity_type in ['ORGANIZATION', 'PERSON', 'URL', 'EMAIL', 'GPE']:
         return ({'CLASS': 'ENAMEX', 'TYPE': entity_type, 'ID': make_nyu_id('ENAMEX'),
-                 'START': str(begin), 'END': str(end), 'TEXT': string})
+                 'START': begin, 'END': end, 'TEXT': string})
     else:
         print(1, string, begin, end)
         print('No such entity type:', entity_type)
@@ -1107,7 +1107,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
 
                     output.extend([ARG1, ARG2,
                                    {'CLASS': 'RELATION', 'TYPE': 'ABBREVIATE', 'ID': make_nyu_id('RELATION'),
-                                    'START': str(relation_start), 'END': str(relation_end),
+                                    'START': relation_start, 'END': relation_end,
                                     'ARG1': ARG1['ID'], 'ARG2': ARG2['ID'],
                                     'ARG1_TEXT': ARG1_string, 'ARG2_TEXT': ARG2_string, 'GRAM_SIGNAL': 'PARENTHESES'}])
                     ## not currently using context_string or context
@@ -1261,6 +1261,8 @@ def run_abbreviate_on_lines(lines: List[str], abbr_file: File[ABBR], reset_dicti
         id_number = 0
 
     # @semanticbeeng @todo not used with open(abbr_file, 'w') as outstream:
+    abbr_file.openText('w')     # create even empty
+
     for line in lines:
         line = line.replace(os.linesep, ' ')
         end: int = start + len(line)
