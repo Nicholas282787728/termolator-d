@@ -1,0 +1,8 @@
+Diagnostic  ||| S:0 E:11 ||| JJ
+imaging  ||| S:11 E:19 ||| NN
+in  ||| S:19 E:22 ||| IN
+bone  ||| S:22 E:27 ||| NN
+metastasis  ||| S:27 E:38 ||| NN
+from  ||| S:38 E:43 ||| IN
+prostate  ||| S:43 E:52 ||| JJ
+cancer  ||| S:52 E:60 ||| NN

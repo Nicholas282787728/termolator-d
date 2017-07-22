@@ -1,0 +1,7 @@
+Infectious  	Infectious  	 JJ	B-NP
+diseases 	diseases 	 NNS	I-NP
+:  	:  	 :	O
+Two-hit  	Two-hit  	 FW	B-NP
+antibody  	antibody  	 FW	I-NP
+tackles  	tackles  	 FW	I-NP
+bacteria  	bacteria  	 FW	O

@@ -1,0 +1,12 @@
+The  ||| S:0 E:4 ||| DT
+role  ||| S:4 E:9 ||| NN
+of  ||| S:9 E:12 ||| IN
+the  ||| S:12 E:16 ||| DT
+APRN  ||| S:16 E:21 ||| NNP
+in  ||| S:21 E:24 ||| IN
+addressing  ||| S:24 E:35 ||| VBG
+prescription  ||| S:35 E:48 ||| NN
+drug  ||| S:48 E:53 ||| NN
+abuse  ||| S:53 E:59 ||| NN
+in  ||| S:59 E:62 ||| IN
+Tennessee  ||| S:62 E:73 ||| NNP

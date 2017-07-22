@@ -1,0 +1,5 @@
+Mercury  ||| S:0 E:8 ||| NNP
+in  ||| S:8 E:11 ||| IN
+the  ||| S:11 E:15 ||| DT
+global  ||| S:15 E:22 ||| JJ
+ocean  ||| S:22 E:29 ||| NN

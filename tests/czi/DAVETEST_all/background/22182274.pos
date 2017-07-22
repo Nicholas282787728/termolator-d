@@ -1,0 +1,7 @@
+Comment  ||| S:0 E:8 ||| NN
+on  ||| S:8 E:11 ||| IN
+Endovascular  ||| S:11 E:24 ||| NNP
+treatment  ||| S:24 E:34 ||| NN
+of  ||| S:34 E:37 ||| IN
+intracranial  ||| S:37 E:50 ||| FW
+stenosis  ||| S:50 E:60 ||| FW

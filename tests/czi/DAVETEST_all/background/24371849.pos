@@ -1,0 +1,12 @@
+Another  ||| S:0 E:8 ||| DT
+false  ||| S:8 E:14 ||| JJ
+start  ||| S:14 E:20 ||| NN
+for  ||| S:20 E:24 ||| IN
+Obamacare ||| S:24 E:33 ||| NNP
+.  ||| S:33 E:35 ||| .
+Can  ||| S:35 E:39 ||| MD
+I  ||| S:39 E:41 ||| PRP
+keep  ||| S:41 E:46 ||| VB
+my  ||| S:46 E:49 ||| PRP$
+coverage ||| S:49 E:57 ||| NN
+?  ||| S:57 E:60 ||| .

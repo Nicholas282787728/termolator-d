@@ -1,0 +1,14 @@
+Early  ||| S:0 E:6 ||| JJ
+diagnosis  ||| S:6 E:16 ||| NN
+of  ||| S:16 E:19 ||| IN
+pediatric  ||| S:19 E:29 ||| JJ
+Takayasu  ||| S:29 E:38 ||| JJ
+arteritis  ||| S:38 E:48 ||| NNS
+( ||| S:48 E:49 ||| -LRB-
+TA ||| S:49 E:51 ||| NNP
+)  ||| S:51 E:53 ||| -RRB-
+not  ||| S:53 E:57 ||| RB
+fullfiling  ||| S:57 E:68 ||| VB
+the  ||| S:68 E:72 ||| DT
+ACR  ||| S:72 E:76 ||| FW
+criteria  ||| S:76 E:86 ||| FW

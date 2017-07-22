@@ -1,0 +1,13 @@
+Alexandr  ||| S:0 E:9 ||| NNP
+Anatol ||| S:9 E:15 ||| NNP
+' ||| S:15 E:16 ||| POS
+evich  ||| S:16 E:22 ||| JJ
+Eremenko  ||| S:22 E:31 ||| NNP
+( ||| S:31 E:32 ||| -LRB-
+to  ||| S:32 E:35 ||| TO
+the  ||| S:35 E:39 ||| DT
+60th  ||| S:39 E:44 ||| JJ
+anniversary  ||| S:44 E:56 ||| NN
+of  ||| S:56 E:59 ||| IN
+birthday ||| S:59 E:67 ||| NN
+)  ||| S:67 E:70 ||| -RRB-

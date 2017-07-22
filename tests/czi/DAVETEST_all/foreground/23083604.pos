@@ -1,0 +1,15 @@
+MR-spectroscopy  ||| S:0 E:16 ||| JJ
+at  ||| S:16 E:19 ||| IN
+1.5  ||| S:19 E:23 ||| CD
+tesla  ||| S:23 E:29 ||| NNS
+and  ||| S:29 E:33 ||| CC
+3  ||| S:33 E:35 ||| CD
+tesla ||| S:35 E:40 ||| NNS
+.  ||| S:40 E:42 ||| .
+Useful ||| S:42 E:48 ||| JJ
+?  ||| S:48 E:50 ||| .
+A  ||| S:50 E:52 ||| DT
+systematic  ||| S:52 E:63 ||| JJ
+review  ||| S:63 E:70 ||| NN
+and  ||| S:70 E:74 ||| CC
+meta-analysis  ||| S:74 E:89 ||| JJ

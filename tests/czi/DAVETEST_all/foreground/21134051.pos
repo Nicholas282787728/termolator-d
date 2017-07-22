@@ -1,0 +1,16 @@
+Incidental  ||| S:0 E:11 ||| JJ
+aggravation  ||| S:11 E:23 ||| NN
+of  ||| S:23 E:26 ||| IN
+venous  ||| S:26 E:33 ||| JJ
+malformation  ||| S:33 E:46 ||| NN
+after  ||| S:46 E:52 ||| IN
+botulinum  ||| S:52 E:62 ||| JJ
+toxin  ||| S:62 E:68 ||| NN
+type  ||| S:68 E:73 ||| NN
+a  ||| S:73 E:75 ||| DT
+injection  ||| S:75 E:85 ||| NN
+for  ||| S:85 E:89 ||| IN
+reducing  ||| S:89 E:98 ||| VBG
+benign  ||| S:98 E:105 ||| JJ
+masseteric  ||| S:105 E:116 ||| FW
+hypertrophy  ||| S:116 E:129 ||| FW

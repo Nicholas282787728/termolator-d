@@ -1,0 +1,11 @@
+Determining  ||| S:0 E:12 ||| VBG
+risk  ||| S:12 E:17 ||| NN
+factors  ||| S:17 E:25 ||| NNS
+for  ||| S:25 E:29 ||| IN
+early  ||| S:29 E:35 ||| JJ
+airway  ||| S:35 E:42 ||| JJ
+intervention  ||| S:42 E:55 ||| NN
+in  ||| S:55 E:58 ||| IN
+newborns  ||| S:58 E:67 ||| NNS
+with  ||| S:67 E:72 ||| IN
+micrognathia  ||| S:72 E:86 ||| FW

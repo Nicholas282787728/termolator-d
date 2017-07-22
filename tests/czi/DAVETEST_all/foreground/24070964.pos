@@ -1,0 +1,5 @@
+Pharmacotherapy  ||| S:0 E:16 ||| NNP
+in  ||| S:16 E:19 ||| IN
+type  ||| S:19 E:24 ||| NN
+1  ||| S:24 E:26 ||| CD
+diabetes  ||| S:26 E:36 ||| NN

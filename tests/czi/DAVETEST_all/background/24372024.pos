@@ -1,0 +1,11 @@
+Dissolved  ||| S:0 E:10 ||| JJ
+methane ||| S:10 E:17 ||| NN
+:  ||| S:17 E:19 ||| :
+a  ||| S:19 E:21 ||| DT
+hurdle  ||| S:21 E:28 ||| NN
+for  ||| S:28 E:32 ||| IN
+anaerobic  ||| S:32 E:42 ||| JJ
+treatment  ||| S:42 E:52 ||| NN
+of  ||| S:52 E:55 ||| IN
+municipal  ||| S:55 E:65 ||| JJ
+wastewater  ||| S:65 E:77 ||| NN

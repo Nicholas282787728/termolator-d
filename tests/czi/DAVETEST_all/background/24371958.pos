@@ -1,0 +1,12 @@
+Mandate  ||| S:0 E:8 ||| JJ
+delay  ||| S:8 E:14 ||| NN
+could  ||| S:14 E:20 ||| MD
+leave  ||| S:20 E:26 ||| VB
+insurers  ||| S:26 E:35 ||| NNS
+without  ||| S:35 E:43 ||| IN
+balance  ||| S:43 E:51 ||| NN
+of  ||| S:51 E:54 ||| IN
+sick ||| S:54 E:58 ||| JJ
+,  ||| S:58 E:60 ||| ,
+healthy  ||| S:60 E:68 ||| JJ
+subscribers  ||| S:68 E:81 ||| NNS

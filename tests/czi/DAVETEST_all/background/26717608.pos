@@ -1,0 +1,11 @@
+Briefly  ||| S:0 E:8 ||| RB
+about  ||| S:8 E:14 ||| IN
+O.  ||| S:14 E:17 ||| NNP
+V.  ||| S:17 E:20 ||| NNP
+Palladin ||| S:20 E:28 ||| NNP
+,  ||| S:28 E:30 ||| ,
+his  ||| S:30 E:34 ||| PRP$
+published  ||| S:34 E:44 ||| JJ
+works  ||| S:44 E:50 ||| NNS
+and  ||| S:50 E:54 ||| CC
+lectures  ||| S:54 E:64 ||| VBZ

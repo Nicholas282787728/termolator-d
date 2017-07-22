@@ -1,0 +1,6 @@
+NMC  ||| S:0 E:4 ||| NNP
+claims  ||| S:4 E:11 ||| NNS
+' ||| S:11 E:12 ||| POS
+substantial  ||| S:12 E:24 ||| JJ
+progress ||| S:24 E:32 ||| NN
+'  ||| S:32 E:35 ||| POS

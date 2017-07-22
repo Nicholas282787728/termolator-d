@@ -1,0 +1,10 @@
+N.Y.  ||| S:0 E:5 ||| NNP
+hospitals  ||| S:5 E:15 ||| NNS
+shift  ||| S:15 E:21 ||| NN
+focus  ||| S:21 E:27 ||| NN
+to  ||| S:27 E:30 ||| TO
+preparing  ||| S:30 E:40 ||| VBG
+facilities  ||| S:40 E:51 ||| NNS
+for  ||| S:51 E:55 ||| IN
+future  ||| S:55 E:62 ||| JJ
+superstorms  ||| S:62 E:75 ||| FW

@@ -1,0 +1,10 @@
+Public  ||| S:0 E:7 ||| JJ
+health ||| S:7 E:13 ||| NN
+,  ||| S:13 E:15 ||| ,
+childhood  ||| S:15 E:25 ||| NN
+and  ||| S:25 E:29 ||| CC
+adolescence ||| S:29 E:40 ||| NNS
+:  ||| S:40 E:42 ||| :
+a  ||| S:42 E:44 ||| DT
+pending  ||| S:44 E:52 ||| JJ
+challenge  ||| S:52 E:63 ||| NN

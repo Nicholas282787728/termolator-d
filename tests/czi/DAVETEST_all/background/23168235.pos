@@ -1,0 +1,11 @@
+Treat-to-target  ||| S:0 E:16 ||| JJ
+in  ||| S:16 E:19 ||| IN
+rheumatoid  ||| S:19 E:30 ||| JJ
+arthritis ||| S:30 E:39 ||| NN
+:  ||| S:39 E:41 ||| :
+clinical  ||| S:41 E:50 ||| JJ
+and  ||| S:50 E:54 ||| CC
+pharmacoeconomic  ||| S:54 E:71 ||| JJ
+considerations ||| S:71 E:85 ||| NNS
+.  ||| S:85 E:87 ||| .
+Introduction  ||| S:87 E:101 ||| UH

@@ -1,0 +1,7 @@
+Dental  	Dental  	 NNP	B-NP
+Postcards  	Postcards  	 NNP	I-NP
+LVI 	LVI 	 NNP	O
+.  	.  	 .	O
+A  	A  	 DT	O
+bad  	bad  	 JJ	O
+quarter-hour  	quarter-hour  	 JJ	B-NP

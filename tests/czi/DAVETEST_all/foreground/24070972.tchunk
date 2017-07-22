@@ -1,0 +1,4 @@
+Influenza  	Influenza  	 NNP	B-NP
+and  	and  	 CC	O
+pneumococcal  	pneumococcal  	 FW	B-NP
+immunization  	immunization  	 FW	I-NP

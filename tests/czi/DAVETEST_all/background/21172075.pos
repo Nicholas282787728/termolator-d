@@ -1,0 +1,7 @@
+Classical  ||| S:0 E:10 ||| JJ
+peer  ||| S:10 E:15 ||| JJ
+review ||| S:15 E:21 ||| NN
+:  ||| S:21 E:23 ||| :
+an  ||| S:23 E:26 ||| DT
+empty  ||| S:26 E:32 ||| JJ
+gun  ||| S:32 E:37 ||| NN

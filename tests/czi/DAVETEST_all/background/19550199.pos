@@ -1,0 +1,9 @@
+AM  ||| S:0 E:3 ||| NNP
+Last  ||| S:3 E:8 ||| NNP
+Page ||| S:8 E:12 ||| NNP
+:  ||| S:12 E:14 ||| :
+medical  ||| S:14 E:22 ||| JJ
+education  ||| S:22 E:32 ||| NN
+in  ||| S:32 E:35 ||| IN
+the  ||| S:35 E:39 ||| DT
+Netherlands  ||| S:39 E:52 ||| NNPS

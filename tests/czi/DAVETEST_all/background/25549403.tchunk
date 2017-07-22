@@ -1,0 +1,7 @@
+Dental  	Dental  	 NNP	B-NP
+Trade  	Trade  	 NNP	I-NP
+Cards  	Cards  	 NNP	I-NP
+XLI 	XLI 	 NNP	O
+.  	.  	 .	O
+Henri  	Henri  	 NNP	B-NP
+Gerbault  	Gerbault  	 NNPS	I-NP

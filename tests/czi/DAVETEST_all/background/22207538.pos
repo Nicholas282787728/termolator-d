@@ -1,0 +1,8 @@
+Community  ||| S:0 E:10 ||| NNP
+health  ||| S:10 E:17 ||| NN
+nursing ||| S:17 E:24 ||| NN
+:  ||| S:24 E:26 ||| :
+a  ||| S:26 E:28 ||| DT
+partnership  ||| S:28 E:40 ||| NN
+of  ||| S:40 E:43 ||| IN
+care  ||| S:43 E:49 ||| NN

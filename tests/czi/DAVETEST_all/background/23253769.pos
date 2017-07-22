@@ -1,0 +1,16 @@
+Adherence  ||| S:0 E:10 ||| JJ
+to  ||| S:10 E:13 ||| TO
+antiretroviral  ||| S:13 E:28 ||| VB
+medications  ||| S:28 E:40 ||| VBN
+for  ||| S:40 E:44 ||| IN
+HIV  ||| S:44 E:48 ||| NNP
+pre-exposure  ||| S:48 E:61 ||| JJ
+prophylaxis ||| S:61 E:72 ||| NN
+:  ||| S:72 E:74 ||| :
+lessons  ||| S:74 E:82 ||| NNS
+learned  ||| S:82 E:90 ||| VBD
+from  ||| S:90 E:95 ||| IN
+trials  ||| S:95 E:102 ||| NNS
+and  ||| S:102 E:106 ||| CC
+treatment  ||| S:106 E:116 ||| NN
+studies  ||| S:116 E:125 ||| NNS

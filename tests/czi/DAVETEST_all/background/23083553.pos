@@ -1,0 +1,10 @@
+Disseminated  ||| S:0 E:13 ||| JJ
+tumor  ||| S:13 E:19 ||| NN
+cells ||| S:19 E:24 ||| NNS
+:  ||| S:24 E:26 ||| :
+a  ||| S:26 E:28 ||| DT
+clinical  ||| S:28 E:37 ||| JJ
+help  ||| S:37 E:42 ||| NN
+or  ||| S:42 E:45 ||| CC
+over-information ||| S:45 E:61 ||| JJ
+?  ||| S:61 E:64 ||| .

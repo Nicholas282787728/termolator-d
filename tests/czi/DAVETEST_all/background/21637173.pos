@@ -1,0 +1,14 @@
+Special  ||| S:0 E:8 ||| JJ
+report ||| S:8 E:14 ||| NN
+.  ||| S:14 E:16 ||| .
+Understanding  ||| S:16 E:30 ||| VBG
+arthritis ||| S:30 E:39 ||| NN
+.  ||| S:39 E:41 ||| .
+A  ||| S:41 E:43 ||| DT
+look  ||| S:43 E:48 ||| NN
+at  ||| S:48 E:51 ||| IN
+common  ||| S:51 E:58 ||| JJ
+conditions ||| S:58 E:68 ||| NNS
+,  ||| S:68 E:70 ||| ,
+treatment  ||| S:70 E:80 ||| NN
+options  ||| S:80 E:89 ||| NNS

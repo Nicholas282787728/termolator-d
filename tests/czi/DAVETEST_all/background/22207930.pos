@@ -1,0 +1,10 @@
+Sclerosing  ||| S:0 E:11 ||| JJ
+cholangitis  ||| S:11 E:23 ||| NN
+after  ||| S:23 E:29 ||| IN
+transcatheter  ||| S:29 E:43 ||| JJ
+arterial  ||| S:43 E:52 ||| JJ
+chemoembolization ||| S:52 E:69 ||| NN
+:  ||| S:69 E:71 ||| :
+a  ||| S:71 E:73 ||| DT
+case  ||| S:73 E:78 ||| NN
+report  ||| S:78 E:86 ||| NN

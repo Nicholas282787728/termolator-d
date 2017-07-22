@@ -1,0 +1,8 @@
+Action  ||| S:0 E:7 ||| NN
+assignment  ||| S:7 E:18 ||| NN
+of  ||| S:18 E:21 ||| IN
+mass  ||| S:21 E:26 ||| JJ
+screening  ||| S:26 E:36 ||| NN
+for  ||| S:36 E:40 ||| IN
+prostate  ||| S:40 E:49 ||| JJ
+cancer  ||| S:49 E:57 ||| NN

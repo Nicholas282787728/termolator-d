@@ -1,0 +1,15 @@
+AM  ||| S:0 E:3 ||| NNP
+Last  ||| S:3 E:8 ||| NNP
+Page ||| S:8 E:12 ||| NNP
+:  ||| S:12 E:14 ||| :
+continuing  ||| S:14 E:25 ||| VBG
+medical  ||| S:25 E:33 ||| JJ
+education--the  ||| S:33 E:48 ||| JJ
+2008  ||| S:48 E:53 ||| CD
+survey  ||| S:53 E:60 ||| NN
+of  ||| S:60 E:63 ||| IN
+U.S.  ||| S:63 E:68 ||| NNP
+and  ||| S:68 E:72 ||| CC
+Canadian  ||| S:72 E:81 ||| JJ
+medical  ||| S:81 E:89 ||| JJ
+schools  ||| S:89 E:98 ||| NNS

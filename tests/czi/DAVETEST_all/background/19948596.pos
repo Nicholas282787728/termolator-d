@@ -1,0 +1,17 @@
+Building  ||| S:0 E:9 ||| VBG
+systems  ||| S:9 E:17 ||| NNS
+of  ||| S:17 E:20 ||| IN
+care ||| S:20 E:24 ||| NN
+:  ||| S:24 E:26 ||| :
+findings  ||| S:26 E:35 ||| NNS
+from  ||| S:35 E:40 ||| IN
+the  ||| S:40 E:44 ||| DT
+National  ||| S:44 E:53 ||| NNP
+Survey  ||| S:53 E:60 ||| NNP
+of  ||| S:60 E:63 ||| IN
+Children  ||| S:63 E:72 ||| NNS
+With  ||| S:72 E:77 ||| IN
+Special  ||| S:77 E:85 ||| NNP
+Health  ||| S:85 E:92 ||| NNP
+Care  ||| S:92 E:97 ||| NNP
+Needs  ||| S:97 E:104 ||| NNPS

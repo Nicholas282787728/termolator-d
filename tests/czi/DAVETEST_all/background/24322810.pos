@@ -1,0 +1,11 @@
+Sodium  ||| S:0 E:7 ||| JJ
+reduction ||| S:7 E:16 ||| NN
+:  ||| S:16 E:18 ||| :
+an  ||| S:18 E:21 ||| DT
+important  ||| S:21 E:31 ||| JJ
+public  ||| S:31 E:38 ||| JJ
+health  ||| S:38 E:45 ||| NN
+strategy  ||| S:45 E:54 ||| NN
+for  ||| S:54 E:58 ||| IN
+heart  ||| S:58 E:64 ||| NN
+health  ||| S:64 E:72 ||| NN

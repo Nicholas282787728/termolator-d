@@ -1,0 +1,10 @@
+Minimizing  ||| S:0 E:11 ||| VBG
+surgical  ||| S:11 E:20 ||| JJ
+management  ||| S:20 E:31 ||| NN
+through  ||| S:31 E:39 ||| IN
+the  ||| S:39 E:43 ||| DT
+use  ||| S:43 E:47 ||| NN
+of  ||| S:47 E:50 ||| IN
+adjuvant  ||| S:50 E:59 ||| JJ
+medical  ||| S:59 E:67 ||| JJ
+therapies  ||| S:67 E:78 ||| NNS

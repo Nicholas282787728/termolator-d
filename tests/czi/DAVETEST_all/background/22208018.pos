@@ -1,0 +1,7 @@
+Acute  ||| S:0 E:6 ||| NNP
+and  ||| S:6 E:10 ||| CC
+late  ||| S:10 E:15 ||| JJ
+toxicities  ||| S:15 E:26 ||| NN
+and  ||| S:26 E:30 ||| CC
+its  ||| S:30 E:34 ||| PRP$
+management  ||| S:34 E:46 ||| NN

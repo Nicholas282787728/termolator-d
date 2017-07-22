@@ -1,0 +1,6 @@
+Intensity-modulated  	Intensity-modulated  	 JJ	B-NP
+radiation  	radiation  	 NN	I-NP
+therapy  	therapy  	 NN	I-NP
+( 	( 	 -LRB-	O
+IMRT 	IMRT 	 NNP	B-NP
+)  	)  	 -RRB-	O

@@ -1,0 +1,17 @@
+Association  ||| S:0 E:12 ||| NNP
+of  ||| S:12 E:15 ||| IN
+polymorphism  ||| S:15 E:28 ||| NN
+of  ||| S:28 E:31 ||| IN
+human  ||| S:31 E:37 ||| JJ
+leukocyte  ||| S:37 E:47 ||| JJ
+antigen  ||| S:47 E:55 ||| NN
+alleles  ||| S:55 E:63 ||| NN
+with  ||| S:63 E:68 ||| IN
+development  ||| S:68 E:80 ||| NN
+of  ||| S:80 E:83 ||| IN
+hepatocellular  ||| S:83 E:98 ||| JJ
+carcinoma  ||| S:98 E:108 ||| NN
+in  ||| S:108 E:111 ||| IN
+Hong  ||| S:111 E:116 ||| NNP
+Kong  ||| S:116 E:121 ||| NNP
+Chinese  ||| S:121 E:130 ||| NNPS

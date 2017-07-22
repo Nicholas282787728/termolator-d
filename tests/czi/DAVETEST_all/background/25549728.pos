@@ -1,0 +1,11 @@
+Single  ||| S:0 E:7 ||| JJ
+coronary  ||| S:7 E:16 ||| JJ
+artery  ||| S:16 E:23 ||| NN
+anomaly  ||| S:23 E:31 ||| NN
+with  ||| S:31 E:36 ||| IN
+interarterial  ||| S:36 E:50 ||| NN
+left  ||| S:50 E:55 ||| VBD
+main ||| S:55 E:59 ||| JJ
+:  ||| S:59 E:61 ||| :
+caught  ||| S:61 E:68 ||| FW
+inbetween  ||| S:68 E:79 ||| FW

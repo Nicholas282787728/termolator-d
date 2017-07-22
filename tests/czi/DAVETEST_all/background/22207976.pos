@@ -1,0 +1,9 @@
+Advancement  ||| S:0 E:12 ||| NNP
+of  ||| S:12 E:15 ||| IN
+diagnosis  ||| S:15 E:25 ||| NN
+of  ||| S:25 E:28 ||| IN
+prostate  ||| S:28 E:37 ||| JJ
+cancer ||| S:37 E:43 ||| NN
+:  ||| S:43 E:45 ||| :
+general  ||| S:45 E:53 ||| JJ
+concept  ||| S:53 E:62 ||| NN

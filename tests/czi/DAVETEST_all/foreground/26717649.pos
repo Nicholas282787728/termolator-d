@@ -1,0 +1,13 @@
+Steadily  ||| S:0 E:9 ||| RB
+push  ||| S:9 E:14 ||| VB
+forward  ||| S:14 E:22 ||| RP
+applications  ||| S:22 E:35 ||| NNS
+of  ||| S:35 E:38 ||| IN
+extracorporeal  ||| S:38 E:53 ||| FW
+membrane  ||| S:53 E:62 ||| FW
+oxygenation  ||| S:62 E:74 ||| FW
+in  ||| S:74 E:77 ||| FW
+Pediatric  ||| S:77 E:87 ||| FW
+critical  ||| S:87 E:96 ||| FW
+care  ||| S:96 E:101 ||| FW
+medicine  ||| S:101 E:111 ||| FW

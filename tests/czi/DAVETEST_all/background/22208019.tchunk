@@ -1,0 +1,5 @@
+Brachytherapy  	Brachytherapy  	 NNP	B-NP
+with  	with  	 IN	O
+permanent  	permanent  	 JJ	O
+seed  	seed  	 NN	B-NP
+implantation  	implantation  	 FW	I-NP

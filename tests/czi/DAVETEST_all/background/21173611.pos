@@ -1,0 +1,15 @@
+Reflections  ||| S:0 E:12 ||| NNP
+of  ||| S:12 E:15 ||| IN
+an  ||| S:15 E:18 ||| DT
+orthopaedic  ||| S:18 E:30 ||| JJ
+surgeon  ||| S:30 E:38 ||| NN
+on  ||| S:38 E:41 ||| IN
+patient  ||| S:41 E:49 ||| JJ
+care  ||| S:49 E:54 ||| NN
+and  ||| S:54 E:58 ||| CC
+research  ||| S:58 E:67 ||| NN
+into  ||| S:67 E:72 ||| IN
+the  ||| S:72 E:76 ||| DT
+condition  ||| S:76 E:86 ||| NN
+of  ||| S:86 E:89 ||| IN
+scoliosis  ||| S:89 E:100 ||| FW

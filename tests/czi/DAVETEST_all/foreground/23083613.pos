@@ -1,0 +1,11 @@
+Wish  ||| S:0 E:5 ||| JJ
+list  ||| S:5 E:10 ||| NN
+for  ||| S:10 E:14 ||| IN
+future  ||| S:14 E:21 ||| JJ
+features  ||| S:21 E:30 ||| NNS
+of  ||| S:30 E:33 ||| IN
+breast  ||| S:33 E:40 ||| JJ
+MRI  ||| S:40 E:44 ||| NNP
+computer  ||| S:44 E:53 ||| NN
+aided  ||| S:53 E:59 ||| VBN
+evaluation  ||| S:59 E:71 ||| NN

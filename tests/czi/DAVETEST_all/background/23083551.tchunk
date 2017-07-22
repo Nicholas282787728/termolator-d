@@ -1,0 +1,7 @@
+MRI  	MRI  	 NNP	B-NP
+for  	for  	 IN	I-NP
+treatment  	treatment  	 NN	I-NP
+planning 	planning 	 NN	I-NP
+:  	:  	 :	O
+a  	a  	 DT	O
+necessity  	necessity  	 NN	O

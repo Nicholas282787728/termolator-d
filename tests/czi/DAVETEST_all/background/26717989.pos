@@ -1,0 +1,10 @@
+Value  ||| S:0 E:6 ||| NN
+of  ||| S:6 E:9 ||| IN
+small  ||| S:9 E:15 ||| JJ
+sample  ||| S:15 E:22 ||| NN
+sizes  ||| S:22 E:28 ||| NNS
+in  ||| S:28 E:31 ||| IN
+rapid-cycle  ||| S:31 E:43 ||| JJ
+quality  ||| S:43 E:51 ||| NN
+improvement  ||| S:51 E:63 ||| NN
+projects  ||| S:63 E:73 ||| NNS

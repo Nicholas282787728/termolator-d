@@ -1,0 +1,7 @@
+Prostate  ||| S:0 E:9 ||| JJ
+cancer  ||| S:9 E:16 ||| NN
+biomarker  ||| S:16 E:26 ||| NN
+search  ||| S:26 E:33 ||| NN
+by  ||| S:33 E:36 ||| IN
+genome  ||| S:36 E:43 ||| JJ
+analysis  ||| S:43 E:53 ||| NN

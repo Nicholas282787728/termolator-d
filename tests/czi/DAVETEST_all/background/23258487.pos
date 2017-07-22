@@ -1,0 +1,12 @@
+Splenic  ||| S:0 E:8 ||| JJ
+artery  ||| S:8 E:15 ||| NN
+aneurysm  ||| S:15 E:24 ||| VBZ
+masquerading  ||| S:24 E:37 ||| VBG
+as  ||| S:37 E:40 ||| IN
+a  ||| S:40 E:42 ||| DT
+pancreatic  ||| S:42 E:53 ||| JJ
+tumor--diagnosis  ||| S:53 E:70 ||| NN
+by  ||| S:70 E:73 ||| IN
+contrast-enhanced  ||| S:73 E:91 ||| FW
+endoscopic  ||| S:91 E:102 ||| FW
+ultrasound  ||| S:102 E:114 ||| FW

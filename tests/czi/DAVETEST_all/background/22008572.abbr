@@ -1,0 +1,3 @@
+JARGON ID="NYU_JARGON3161" START="565" END="657" TEXT="Responsive, Intersectoral-Interdisciplinary, Child-Community, Health, Education and Research"
+JARGON ID="NYU_JARGON3160" START="557" END="563" TEXT="RICHER"
+RELATION ID="NYU_RELATION3162" TYPE="ABBREVIATE" START="557" END="657" ARG1="NYU_JARGON3161" ARG1_NAME="FULLNAME" ARG2="NYU_JARGON3160" ARG2_NAME="SHORTNAME" ARG1_TEXT="Responsive, Intersectoral-Interdisciplinary, Child-Community, Health, Education and Research" ARG2_TEXT="RICHER" GRAM_SIGNAL="PARENTHESES"

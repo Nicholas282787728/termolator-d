@@ -1,0 +1,9 @@
+Congenital  ||| S:0 E:11 ||| JJ
+craniofacial  ||| S:11 E:24 ||| JJ
+malformations  ||| S:24 E:38 ||| NN
+or  ||| S:38 E:41 ||| CC
+syndromes  ||| S:41 E:51 ||| NN
+in  ||| S:51 E:54 ||| IN
+the  ||| S:54 E:58 ||| DT
+visual  ||| S:58 E:65 ||| JJ
+arts  ||| S:65 E:71 ||| NNS

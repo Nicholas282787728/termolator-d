@@ -1,0 +1,4 @@
+Predictive  	Predictive  	 NNP	B-NP
+and  	and  	 CC	O
+prognostic  	prognostic  	 JJ	B-NP
+factors  	factors  	 NNS	I-NP

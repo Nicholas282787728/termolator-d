@@ -1,0 +1,9 @@
+Drug  ||| S:0 E:5 ||| NN
+package  ||| S:5 E:13 ||| NN
+as  ||| S:13 E:16 ||| IN
+a  ||| S:16 E:18 ||| DT
+cause  ||| S:18 E:24 ||| NN
+of  ||| S:24 E:27 ||| IN
+gastric  ||| S:27 E:35 ||| FW
+outlet  ||| S:35 E:42 ||| FW
+obstruction  ||| S:42 E:55 ||| FW

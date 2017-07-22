@@ -1,0 +1,16 @@
+No.  ||| S:0 E:4 ||| NNP
+138 ||| S:4 E:7 ||| CD
+:  ||| S:7 E:9 ||| :
+Cough ||| S:9 E:14 ||| NNP
+,  ||| S:14 E:16 ||| ,
+abdominal  ||| S:16 E:26 ||| JJ
+pain  ||| S:26 E:31 ||| NN
+for  ||| S:31 E:35 ||| IN
+40  ||| S:35 E:38 ||| CD
+days ||| S:38 E:42 ||| NNS
+,  ||| S:42 E:44 ||| ,
+and  ||| S:44 E:48 ||| CC
+decompensation  ||| S:48 E:63 ||| NN
+for  ||| S:63 E:67 ||| IN
+20  ||| S:67 E:70 ||| CD
+days  ||| S:70 E:76 ||| NNS

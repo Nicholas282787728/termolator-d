@@ -1,0 +1,9 @@
+Medical  ||| S:0 E:8 ||| JJ
+confidentiality  ||| S:8 E:24 ||| NN
+in  ||| S:24 E:27 ||| IN
+prison ||| S:27 E:33 ||| NN
+:  ||| S:33 E:35 ||| :
+reactions  ||| S:35 E:45 ||| NNS
+to  ||| S:45 E:48 ||| TO
+the  ||| S:48 E:52 ||| DT
+bill  ||| S:52 E:58 ||| NN

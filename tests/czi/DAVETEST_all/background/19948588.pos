@@ -1,0 +1,12 @@
+Financing  ||| S:0 E:10 ||| NN
+vaccination  ||| S:10 E:22 ||| NN
+of  ||| S:22 E:25 ||| IN
+children  ||| S:25 E:34 ||| NNS
+and  ||| S:34 E:38 ||| CC
+adolescents ||| S:38 E:49 ||| NNS
+:  ||| S:49 E:51 ||| :
+National  ||| S:51 E:60 ||| NNP
+Vaccine  ||| S:60 E:68 ||| NNP
+Advisory  ||| S:68 E:77 ||| NNP
+Committee  ||| S:77 E:87 ||| NNP
+recommendations  ||| S:87 E:104 ||| NNS

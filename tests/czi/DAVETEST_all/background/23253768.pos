@@ -1,0 +1,11 @@
+Moving  ||| S:0 E:7 ||| VBG
+HIV  ||| S:7 E:11 ||| NNP
+pre-exposure  ||| S:11 E:24 ||| JJ
+prophylaxis  ||| S:24 E:36 ||| NN
+into  ||| S:36 E:41 ||| IN
+clinical  ||| S:41 E:50 ||| JJ
+settings ||| S:50 E:58 ||| NNS
+:  ||| S:58 E:60 ||| :
+lessons  ||| S:60 E:68 ||| NNS
+from  ||| S:68 E:73 ||| IN
+buprenorphine  ||| S:73 E:88 ||| FW

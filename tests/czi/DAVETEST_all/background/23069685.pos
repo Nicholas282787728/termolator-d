@@ -1,0 +1,12 @@
+Lymph  ||| S:0 E:6 ||| JJ
+node  ||| S:6 E:11 ||| JJ
+fine  ||| S:11 E:16 ||| NN
+needle  ||| S:16 E:23 ||| NN
+cytology  ||| S:23 E:32 ||| NN
+in  ||| S:32 E:35 ||| IN
+infectious  ||| S:35 E:46 ||| JJ
+diseases ||| S:46 E:54 ||| NNS
+:  ||| S:54 E:56 ||| :
+a  ||| S:56 E:58 ||| DT
+clinical  ||| S:58 E:67 ||| JJ
+perspective  ||| S:67 E:80 ||| NN
