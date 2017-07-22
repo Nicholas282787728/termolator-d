@@ -1,0 +1,13 @@
+Relationships ||| S:0 E:13 ||| NNS
+,  ||| S:13 E:15 ||| ,
+responsibility  ||| S:15 E:30 ||| NN
+key  ||| S:30 E:34 ||| NN
+to  ||| S:34 E:37 ||| TO
+lowering  ||| S:37 E:46 ||| VBG
+costs  ||| S:46 E:52 ||| NNS
+for  ||| S:52 E:56 ||| IN
+high-use  ||| S:56 E:65 ||| JJ
+patients ||| S:65 E:73 ||| NNS
+,  ||| S:73 E:75 ||| ,
+Brenner  ||| S:75 E:83 ||| NNP
+says  ||| S:83 E:89 ||| VBZ

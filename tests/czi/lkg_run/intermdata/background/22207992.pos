@@ -1,0 +1,11 @@
+Clinical  ||| S:0 E:9 ||| JJ
+staging  ||| S:9 E:17 ||| NN
+of  ||| S:17 E:20 ||| IN
+prostate  ||| S:20 E:29 ||| JJ
+cancer ||| S:29 E:35 ||| NN
+:  ||| S:35 E:37 ||| :
+the  ||| S:37 E:41 ||| DT
+significance  ||| S:41 E:54 ||| NN
+and  ||| S:54 E:58 ||| CC
+the  ||| S:58 E:62 ||| DT
+problem  ||| S:62 E:71 ||| NN

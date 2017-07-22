@@ -1,0 +1,7 @@
+Schizophrenia  ||| S:0 E:14 ||| NNP
+and  ||| S:14 E:18 ||| CC
+bipolar  ||| S:18 E:26 ||| JJ
+disorders ||| S:26 E:35 ||| NNS
+:  ||| S:35 E:37 ||| :
+clinical  ||| S:37 E:46 ||| FW
+dimensions  ||| S:46 E:58 ||| FW

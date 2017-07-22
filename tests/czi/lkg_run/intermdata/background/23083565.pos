@@ -1,0 +1,10 @@
+Positron  ||| S:0 E:9 ||| JJ
+emission  ||| S:9 E:18 ||| NN
+mammography ||| S:18 E:29 ||| NNS
+:  ||| S:29 E:31 ||| :
+better  ||| S:31 E:38 ||| JJR
+than  ||| S:38 E:43 ||| IN
+magnetic  ||| S:43 E:52 ||| JJ
+resonance  ||| S:52 E:62 ||| NN
+mammography ||| S:62 E:73 ||| NN
+?  ||| S:73 E:76 ||| .

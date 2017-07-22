@@ -1,0 +1,8 @@
+Focal  ||| S:0 E:6 ||| JJ
+transitional  ||| S:6 E:19 ||| JJ
+mastitis  ||| S:19 E:28 ||| NN
+in  ||| S:28 E:31 ||| IN
+MR-mammography ||| S:31 E:45 ||| JJ
+:  ||| S:45 E:47 ||| :
+preliminary  ||| S:47 E:59 ||| JJ
+findings  ||| S:59 E:69 ||| NNS

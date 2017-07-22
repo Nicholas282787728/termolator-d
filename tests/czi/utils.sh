@@ -6,14 +6,16 @@ for f in `find background -type f`; do echo `pwd`/$f; done | sort > background.l
 
 
 # collect intermediate files
-files_abbr=`find . -name *.abbr`
-files_fact=`find . -name *.fact`
-files_pos=`find . -name *.pos`
-files_terms=`find . -name *.terms`
-files_txt2=`find . -name *.txt2`
-files_txt3=`find . -name *.txt3`
-files_tchunk=`find . -name *.tchunk`
-files_tchunk_nps=`find . -name *.tchunk.nps`
+rootdir=.   # ., foreground or background
+
+files_abbr=`find $rootdir -name *.abbr`
+files_fact=`find $rootdir -name *.fact`
+files_pos=`find $rootdir -name *.pos`
+files_terms=`find $rootdir -name *.terms`
+files_txt2=`find $rootdir -name *.txt2`
+files_txt3=`find $rootdir -name *.txt3`
+files_tchunk=`find $rootdir -name *.tchunk`
+files_tchunk_nps=`find $rootdir -name *.tchunk.nps`
 files_all="$files_abbr $files_fact $files_pos $files_terms $files_txt2 $files_txt3 $files_tchunk $files_tchunk_nps"
 
 echo $files_abbr        | wc

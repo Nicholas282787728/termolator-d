@@ -1,0 +1,11 @@
+Incretin-based  ||| S:0 E:15 ||| JJ
+therapies  ||| S:15 E:25 ||| NNS
+for  ||| S:25 E:29 ||| IN
+type  ||| S:29 E:34 ||| NN
+2  ||| S:34 E:36 ||| CD
+diabetes  ||| S:36 E:45 ||| NN
+mellitus ||| S:45 E:53 ||| NNS
+:  ||| S:53 E:55 ||| :
+New  ||| S:55 E:59 ||| NNP
+therapeutic  ||| S:59 E:71 ||| FW
+mechanisms  ||| S:71 E:83 ||| FW

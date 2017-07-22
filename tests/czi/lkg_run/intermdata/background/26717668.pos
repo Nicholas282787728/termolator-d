@@ -1,0 +1,9 @@
+LEGISLATIVE  ||| S:0 E:12 ||| JJ
+UPDATE ||| S:12 E:18 ||| NNP
+:  ||| S:18 E:20 ||| :
+TNA  ||| S:20 E:24 ||| NNP
+PROTECTS  ||| S:24 E:33 ||| NNP
+NURSES  ||| S:33 E:40 ||| NNP
+IN  ||| S:40 E:43 ||| IN
+84TH  ||| S:43 E:48 ||| NNP
+SESSION  ||| S:48 E:57 ||| NNPS

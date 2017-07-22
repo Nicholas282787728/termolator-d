@@ -1,0 +1,6 @@
+High  ||| S:0 E:5 ||| JJ
+resolution  ||| S:5 E:16 ||| NN
+images  ||| S:16 E:23 ||| NNS
+of  ||| S:23 E:26 ||| IN
+the  ||| S:26 E:30 ||| DT
+breast  ||| S:30 E:38 ||| NN

@@ -1,0 +1,7 @@
+Author 	Author 	 NN	O
+'s  	's  	 POS	O
+reply 	reply 	 NN	O
+:  	:  	 :	O
+To  	To  	 TO	O
+PMID  	PMID  	 NNP	B-NP
+26548070  	26548070  	 CD	O

@@ -1,0 +1,10 @@
+Nutritional  ||| S:0 E:12 ||| NNP
+transition  ||| S:12 E:23 ||| NN
+-  ||| S:23 E:25 ||| :
+where  ||| S:25 E:31 ||| WRB
+do  ||| S:31 E:34 ||| VBP
+we  ||| S:34 E:37 ||| PRP
+go  ||| S:37 E:40 ||| VBP
+from  ||| S:40 E:45 ||| IN
+here ||| S:45 E:49 ||| RB
+?  ||| S:49 E:52 ||| .

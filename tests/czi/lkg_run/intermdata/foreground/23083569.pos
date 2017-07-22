@@ -1,0 +1,11 @@
+Dedicated  ||| S:0 E:10 ||| NNP
+PET  ||| S:10 E:14 ||| NNP
+device  ||| S:14 E:21 ||| NN
+for  ||| S:21 E:25 ||| IN
+breast  ||| S:25 E:32 ||| JJ
+PET  ||| S:32 E:36 ||| NNP
+and  ||| S:36 E:40 ||| CC
+MRI ||| S:40 E:43 ||| NNP
+/ ||| S:43 E:44 ||| FW
+PET  ||| S:44 E:48 ||| FW
+correlations  ||| S:48 E:62 ||| FW

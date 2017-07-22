@@ -1,0 +1,8 @@
+Clinical  ||| S:0 E:9 ||| JJ
+indications ||| S:9 E:20 ||| NNS
+:  ||| S:20 E:22 ||| :
+what  ||| S:22 E:27 ||| WP
+is  ||| S:27 E:30 ||| VBZ
+the  ||| S:30 E:34 ||| DT
+evidence ||| S:34 E:42 ||| NN
+?  ||| S:42 E:45 ||| .

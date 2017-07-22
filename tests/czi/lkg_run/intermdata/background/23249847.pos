@@ -1,0 +1,11 @@
+Cognitive  ||| S:0 E:10 ||| JJ
+training  ||| S:10 E:19 ||| NN
+for  ||| S:19 E:23 ||| IN
+Hong  ||| S:23 E:28 ||| NNP
+Kong  ||| S:28 E:33 ||| NNP
+Chinese  ||| S:33 E:41 ||| NNPS
+with  ||| S:41 E:46 ||| IN
+schizophrenia  ||| S:46 E:60 ||| NN
+in  ||| S:60 E:63 ||| IN
+vocational  ||| S:63 E:74 ||| FW
+rehabilitation  ||| S:74 E:90 ||| FW

@@ -1,0 +1,17 @@
+Editorial  ||| S:0 E:10 ||| NN
+( ||| S:10 E:11 ||| -LRB-
+thematic  ||| S:11 E:20 ||| JJ
+issue ||| S:20 E:25 ||| NN
+:  ||| S:25 E:27 ||| :
+all  ||| S:27 E:31 ||| DT
+roads  ||| S:31 E:37 ||| NNS
+of  ||| S:37 E:40 ||| IN
+renal  ||| S:40 E:46 ||| JJ
+hypertension  ||| S:46 E:59 ||| NN
+lead  ||| S:59 E:64 ||| NN
+to  ||| S:64 E:67 ||| TO
+or  ||| S:67 E:70 ||| CC
+come  ||| S:70 E:75 ||| VB
+from  ||| S:75 E:80 ||| IN
+CKD ||| S:80 E:83 ||| NNP
+)  ||| S:83 E:86 ||| -RRB-

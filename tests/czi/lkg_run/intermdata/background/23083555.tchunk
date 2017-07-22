@@ -1,0 +1,6 @@
+MRgFUS 	MRgFUS 	 NNP	B-NP
+:  	:  	 :	O
+from  	from  	 IN	O
+diagnosis  	diagnosis  	 NN	O
+to  	to  	 TO	O
+therapy  	therapy  	 VB	O

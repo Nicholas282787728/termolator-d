@@ -1,0 +1,14 @@
+On  ||| S:0 E:3 ||| IN
+the  ||| S:3 E:7 ||| DT
+endless  ||| S:7 E:15 ||| JJ
+incursions  ||| S:15 E:26 ||| NN
+of  ||| S:26 E:29 ||| IN
+Darwin  ||| S:29 E:36 ||| NNP
+in  ||| S:36 E:39 ||| IN
+Brazil ||| S:39 E:45 ||| NNP
+,  ||| S:45 E:47 ||| ,
+Latin  ||| S:47 E:53 ||| NNP
+America  ||| S:53 E:61 ||| NNP
+and  ||| S:61 E:65 ||| CC
+the  ||| S:65 E:69 ||| DT
+world  ||| S:69 E:76 ||| NN

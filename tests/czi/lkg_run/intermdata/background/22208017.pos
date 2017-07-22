@@ -1,0 +1,11 @@
+Treatment  ||| S:0 E:10 ||| NN
+option  ||| S:10 E:17 ||| NN
+for  ||| S:17 E:21 ||| IN
+locally  ||| S:21 E:29 ||| NN
+and ||| S:29 E:32 ||| CC
+/ ||| S:32 E:33 ||| NNP
+or  ||| S:33 E:36 ||| CC
+biochemically  ||| S:36 E:50 ||| FW
+radiorecurrent  ||| S:50 E:65 ||| FW
+prostate  ||| S:65 E:74 ||| FW
+cancer  ||| S:74 E:82 ||| FW

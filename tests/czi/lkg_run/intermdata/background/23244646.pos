@@ -1,0 +1,6 @@
+Color  ||| S:0 E:6 ||| NNP
+and  ||| S:6 E:10 ||| CC
+esthetics  ||| S:10 E:20 ||| NN
+for  ||| S:20 E:24 ||| IN
+a  ||| S:24 E:26 ||| DT
+lifetime  ||| S:26 E:36 ||| NN

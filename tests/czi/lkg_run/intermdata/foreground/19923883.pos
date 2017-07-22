@@ -1,0 +1,8 @@
+AME  ||| S:0 E:4 ||| NNP
+Position  ||| S:4 E:13 ||| NNP
+Statement  ||| S:13 E:23 ||| NNP
+on  ||| S:23 E:26 ||| IN
+clinical  ||| S:26 E:35 ||| JJ
+management  ||| S:35 E:46 ||| NN
+of  ||| S:46 E:49 ||| IN
+acromegaly  ||| S:49 E:61 ||| FW

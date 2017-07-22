@@ -1,0 +1,7 @@
+Breast  ||| S:0 E:7 ||| JJ
+cancer  ||| S:7 E:14 ||| NN
+prevention  ||| S:14 E:25 ||| NN
+in  ||| S:25 E:28 ||| IN
+the  ||| S:28 E:32 ||| DT
+developing  ||| S:32 E:43 ||| VBG
+world  ||| S:43 E:50 ||| NN

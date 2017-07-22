@@ -1,0 +1,4 @@
+Influenza  ||| S:0 E:10 ||| NNP
+and  ||| S:10 E:14 ||| CC
+pneumococcal  ||| S:14 E:27 ||| FW
+immunization  ||| S:27 E:41 ||| FW

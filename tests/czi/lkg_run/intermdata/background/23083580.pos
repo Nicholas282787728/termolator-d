@@ -1,0 +1,14 @@
+Kinetic  ||| S:0 E:8 ||| JJ
+characterization  ||| S:8 E:25 ||| NN
+of  ||| S:25 E:28 ||| IN
+non-mass  ||| S:28 E:37 ||| JJ
+lesions  ||| S:37 E:45 ||| NNS
+on  ||| S:45 E:48 ||| IN
+breast  ||| S:48 E:55 ||| JJ
+MRI  ||| S:55 E:59 ||| NNP
+using  ||| S:59 E:65 ||| VBG
+manual  ||| S:65 E:72 ||| NNS
+and  ||| S:72 E:76 ||| CC
+computer  ||| S:76 E:85 ||| NN
+assisted  ||| S:85 E:94 ||| VBN
+methods  ||| S:94 E:103 ||| NNS

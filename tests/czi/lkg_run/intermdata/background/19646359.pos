@@ -1,0 +1,15 @@
+Progressive  ||| S:0 E:12 ||| JJ
+multifocal  ||| S:12 E:23 ||| JJ
+leukoencephalopathy  ||| S:23 E:43 ||| NN
+in  ||| S:43 E:46 ||| IN
+a  ||| S:46 E:48 ||| DT
+patient  ||| S:48 E:56 ||| NN
+with  ||| S:56 E:61 ||| IN
+undifferentiated  ||| S:61 E:78 ||| JJ
+systemic  ||| S:78 E:87 ||| JJ
+vasculitis  ||| S:87 E:98 ||| NN
+and  ||| S:98 E:102 ||| CC
+bilateral  ||| S:102 E:112 ||| FW
+acute  ||| S:112 E:118 ||| FW
+retinal  ||| S:118 E:126 ||| FW
+necrosis  ||| S:126 E:136 ||| FW

@@ -1,0 +1,10 @@
+Planning ||| S:0 E:8 ||| NNP
+,  ||| S:8 E:10 ||| ,
+delivering  ||| S:10 E:21 ||| VBG
+and  ||| S:21 E:25 ||| CC
+evaluating  ||| S:25 E:36 ||| VBG
+care  ||| S:36 E:41 ||| NN
+for  ||| S:41 E:45 ||| IN
+children  ||| S:45 E:54 ||| NNS
+and  ||| S:54 E:58 ||| CC
+youth  ||| S:58 E:65 ||| NN

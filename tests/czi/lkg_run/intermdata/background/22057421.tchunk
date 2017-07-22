@@ -1,0 +1,7 @@
+Carotid  	Carotid  	 JJ	B-NP
+intima-media  	intima-media  	 JJ	I-NP
+thickness 	thickness 	 NN	I-NP
+,  	,  	 ,	O
+thrombin  	thrombin  	 NN	B-NP
+and  	and  	 CC	O
+atherosclerosis  	atherosclerosis  	 FW	B-NP

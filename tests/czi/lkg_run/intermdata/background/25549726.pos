@@ -1,0 +1,9 @@
+Rare  ||| S:0 E:5 ||| JJ
+case  ||| S:5 E:10 ||| NN
+of  ||| S:10 E:13 ||| IN
+isolated  ||| S:13 E:22 ||| JJ
+single  ||| S:22 E:29 ||| JJ
+coronary  ||| S:29 E:38 ||| FW
+artery  ||| S:38 E:45 ||| FW
+causing  ||| S:45 E:53 ||| FW
+ischaemia  ||| S:53 E:64 ||| FW

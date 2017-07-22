@@ -1,0 +1,12 @@
+How  ||| S:0 E:4 ||| WRB
+far  ||| S:4 E:8 ||| RB
+we  ||| S:8 E:11 ||| PRP
+have  ||| S:11 E:16 ||| VBP
+come  ||| S:16 E:21 ||| VBN
+&  ||| S:21 E:23 ||| CC
+the  ||| S:23 E:27 ||| DT
+places  ||| S:27 E:34 ||| NNS
+we  ||| S:34 E:37 ||| PRP
+will  ||| S:37 E:42 ||| MD
+go ||| S:42 E:44 ||| VB
+!  ||| S:44 E:47 ||| .

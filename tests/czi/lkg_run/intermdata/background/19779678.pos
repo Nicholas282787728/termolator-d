@@ -1,0 +1,16 @@
+Rheumatoid  ||| S:0 E:11 ||| JJ
+arthritis ||| S:11 E:20 ||| NN
+:  ||| S:20 E:22 ||| :
+subclinical  ||| S:22 E:34 ||| JJ
+atherosclerosis  ||| S:34 E:50 ||| NN
+of  ||| S:50 E:53 ||| IN
+the  ||| S:53 E:57 ||| DT
+coronary  ||| S:57 E:66 ||| JJ
+arteries--effect  ||| S:66 E:83 ||| NN
+of  ||| S:83 E:86 ||| IN
+age ||| S:86 E:89 ||| NN
+,  ||| S:89 E:91 ||| ,
+sex  ||| S:91 E:95 ||| NN
+and  ||| S:95 E:99 ||| CC
+disease  ||| S:99 E:107 ||| NN
+activity  ||| S:107 E:117 ||| NN

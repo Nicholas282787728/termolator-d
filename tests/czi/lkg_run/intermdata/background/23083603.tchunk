@@ -1,0 +1,5 @@
+Breast  	Breast  	 NNP	B-NP
+MR  	MR  	 NNP	I-NP
+for  	for  	 IN	I-NP
+intraductal  	intraductal  	 FW	I-NP
+masses  	masses  	 FW	I-NP

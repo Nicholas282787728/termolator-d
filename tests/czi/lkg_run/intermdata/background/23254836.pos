@@ -1,0 +1,12 @@
+Why  ||| S:0 E:4 ||| WRB
+health  ||| S:4 E:11 ||| NN
+professions  ||| S:11 E:23 ||| NN
+education  ||| S:23 E:33 ||| NN
+in  ||| S:33 E:36 ||| IN
+the  ||| S:36 E:40 ||| DT
+Journal  ||| S:40 E:48 ||| NNP
+of  ||| S:48 E:51 ||| IN
+Public  ||| S:51 E:58 ||| NNP
+Health  ||| S:58 E:65 ||| NNP
+Policy ||| S:65 E:71 ||| NNP
+?  ||| S:71 E:74 ||| .

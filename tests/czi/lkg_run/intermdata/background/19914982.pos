@@ -1,0 +1,10 @@
+Health  ||| S:0 E:7 ||| NNP
+promotion  ||| S:7 E:17 ||| NN
+international ||| S:17 E:30 ||| JJ
+:  ||| S:30 E:32 ||| :
+special  ||| S:32 E:40 ||| JJ
+supplement  ||| S:40 E:51 ||| NN
+on  ||| S:51 E:54 ||| IN
+European  ||| S:54 E:63 ||| NNP
+Healthy  ||| S:63 E:71 ||| NNP
+Cities  ||| S:71 E:79 ||| NNPS

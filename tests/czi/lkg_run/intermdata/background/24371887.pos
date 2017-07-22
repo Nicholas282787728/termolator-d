@@ -1,0 +1,9 @@
+Five  ||| S:0 E:5 ||| CD
+steps  ||| S:5 E:11 ||| NNS
+to  ||| S:11 E:14 ||| TO
+a  ||| S:14 E:16 ||| DT
+complete  ||| S:16 E:25 ||| JJ
+enterprise  ||| S:25 E:36 ||| NN
+data  ||| S:36 E:41 ||| NNS
+management  ||| S:41 E:52 ||| NN
+strategy  ||| S:52 E:62 ||| NN

@@ -1,0 +1,7 @@
+Classical  	Classical  	 JJ	B-NP
+peer  	peer  	 JJ	I-NP
+review 	review 	 NN	I-NP
+:  	:  	 :	O
+an  	an  	 DT	O
+empty  	empty  	 JJ	O
+gun  	gun  	 NN	O

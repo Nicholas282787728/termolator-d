@@ -1,0 +1,7 @@
+Unenhanced  	Unenhanced  	 NNP	B-NP
+MRI  	MRI  	 NNP	I-NP
+at  	at  	 IN	O
+3T  	3T  	 CD	O
+in  	in  	 IN	O
+neo-adjuvant  	neo-adjuvant  	 FW	B-NP
+chemotherapy  	chemotherapy  	 FW	I-NP

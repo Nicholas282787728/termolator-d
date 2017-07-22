@@ -1,0 +1,10 @@
+Steele  ||| S:0 E:7 ||| NNP
+becomes  ||| S:7 E:15 ||| VBZ
+first  ||| S:15 E:21 ||| RB
+registered  ||| S:21 E:32 ||| VBN
+U.S.  ||| S:32 E:37 ||| NNP
+osteopathic  ||| S:37 E:49 ||| JJ
+physician  ||| S:49 E:59 ||| NN
+in  ||| S:59 E:62 ||| IN
+South  ||| S:62 E:68 ||| NNP
+Africa  ||| S:68 E:76 ||| NNP

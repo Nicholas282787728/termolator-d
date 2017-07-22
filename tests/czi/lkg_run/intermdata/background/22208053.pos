@@ -1,0 +1,10 @@
+Quality  ||| S:0 E:8 ||| NN
+of  ||| S:8 E:11 ||| IN
+life  ||| S:11 E:16 ||| NN
+in  ||| S:16 E:19 ||| IN
+patients  ||| S:19 E:28 ||| NNS
+who  ||| S:28 E:32 ||| WP
+underwent  ||| S:32 E:42 ||| VBD
+retropubic  ||| S:42 E:53 ||| FW
+radical  ||| S:53 E:61 ||| FW
+prostatectomy  ||| S:61 E:76 ||| FW

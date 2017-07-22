@@ -1,0 +1,7 @@
+Peter  	Peter  	 NNP	O
+Lund 	Lund 	 NNP	O
+:  	:  	 :	O
+between  	between  	 IN	O
+myth  	myth  	 NN	B-NP
+and  	and  	 CC	O
+history  	history  	 NN	O

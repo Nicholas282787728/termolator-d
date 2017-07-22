@@ -1,0 +1,7 @@
+Biomarker  ||| S:0 E:10 ||| NNP
+of  ||| S:10 E:13 ||| IN
+prostate  ||| S:13 E:22 ||| JJ
+cancer--present  ||| S:22 E:38 ||| JJ
+status  ||| S:38 E:45 ||| NN
+and  ||| S:45 E:49 ||| CC
+future  ||| S:49 E:57 ||| JJ

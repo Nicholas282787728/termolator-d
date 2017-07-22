@@ -1,0 +1,7 @@
+Nutritional  	Nutritional  	 NNP	B-NP
+therapy  	therapy  	 NN	I-NP
+for  	for  	 IN	O
+early  	early  	 JJ	O
+recovery  	recovery  	 NN	O
+after  	after  	 IN	O
+surgery  	surgery  	 NN	O

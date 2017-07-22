@@ -1,0 +1,11 @@
+Provider-initiated  ||| S:0 E:19 ||| JJ
+HIV-risk  ||| S:19 E:28 ||| JJ
+behavior  ||| S:28 E:37 ||| NN
+counseling  ||| S:37 E:48 ||| NN
+in  ||| S:48 E:51 ||| IN
+the  ||| S:51 E:55 ||| DT
+context  ||| S:55 E:63 ||| NN
+of  ||| S:63 E:66 ||| IN
+HIV  ||| S:66 E:70 ||| NNP
+pre-exposure  ||| S:70 E:83 ||| FW
+prophylaxis  ||| S:83 E:96 ||| FW

@@ -1,0 +1,9 @@
+Can  ||| S:0 E:4 ||| MD
+we  ||| S:4 E:7 ||| PRP
+use  ||| S:7 E:11 ||| VBP
+MR-mammography  ||| S:11 E:26 ||| JJ
+to  ||| S:26 E:29 ||| TO
+predict  ||| S:29 E:37 ||| VB
+nodal  ||| S:37 E:43 ||| JJ
+status ||| S:43 E:49 ||| NN
+?  ||| S:49 E:52 ||| .

@@ -1,0 +1,16 @@
+Yesterday 	Yesterday 	 NN	O
+,  	,  	 ,	O
+Today  	Today  	 NNP	O
+and  	and  	 CC	O
+Tomorrow 	Tomorrow 	 NN	O
+:  	:  	 :	O
+Using the  	Using the  	 NNP	O
+Past  	Past  	 NNP	O
+and  	and  	 CC	O
+Present  	Present  	 NNP	O
+to  	to  	 TO	O
+Enhance  	Enhance  	 NNP	O
+and  	and  	 CC	O
+Prepare  	Prepare  	 NNP	O
+for  	for  	 IN	O
+the Future  	the Future  	 CD	O

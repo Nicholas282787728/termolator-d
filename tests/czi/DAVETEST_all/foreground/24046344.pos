@@ -1,0 +1,7 @@
+ADHA ||| S:0 E:4 ||| NNP
+'s  ||| S:4 E:7 ||| POS
+refereed  ||| S:7 E:16 ||| JJ
+publications  ||| S:16 E:29 ||| NNS
+in  ||| S:29 E:32 ||| IN
+the  ||| S:32 E:36 ||| DT
+1980s  ||| S:36 E:43 ||| CD

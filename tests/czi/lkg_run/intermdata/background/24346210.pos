@@ -1,0 +1,13 @@
+A  ||| S:0 E:2 ||| DT
+black  ||| S:2 E:8 ||| JJ
+woman ||| S:8 E:13 ||| NN
+,  ||| S:13 E:15 ||| ,
+her  ||| S:15 E:19 ||| PRP$
+cells ||| S:19 E:24 ||| NNS
+,  ||| S:24 E:26 ||| ,
+and  ||| S:26 E:30 ||| CC
+some  ||| S:30 E:35 ||| DT
+challenges  ||| S:35 E:46 ||| NNS
+for  ||| S:46 E:50 ||| IN
+research  ||| S:50 E:59 ||| NN
+ethics  ||| S:59 E:67 ||| NNS

@@ -1,0 +1,13 @@
+A  ||| S:0 E:2 ||| DT
+unifying  ||| S:2 E:11 ||| JJ
+theory  ||| S:11 E:18 ||| NN
+of  ||| S:18 E:21 ||| IN
+carcinogenesis ||| S:21 E:35 ||| NN
+,  ||| S:35 E:37 ||| ,
+and  ||| S:37 E:41 ||| CC
+why  ||| S:41 E:45 ||| WRB
+targeted  ||| S:45 E:54 ||| JJ
+therapy  ||| S:54 E:62 ||| NN
+does ||| S:62 E:66 ||| VBZ
+n't  ||| S:66 E:70 ||| RB
+work  ||| S:70 E:76 ||| VB

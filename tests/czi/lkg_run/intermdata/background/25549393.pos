@@ -1,0 +1,7 @@
+Georgia  ||| S:0 E:8 ||| NNP
+coalition  ||| S:8 E:18 ||| NN
+develops  ||| S:18 E:27 ||| VBZ
+bariatric  ||| S:27 E:37 ||| JJ
+surgery  ||| S:37 E:45 ||| NN
+pilot  ||| S:45 E:51 ||| NN
+project  ||| S:51 E:60 ||| NN

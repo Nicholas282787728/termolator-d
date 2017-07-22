@@ -1,0 +1,10 @@
+Professor  ||| S:0 E:10 ||| NNP
+Robert  ||| S:10 E:17 ||| NNP
+John  ||| S:17 E:22 ||| NNP
+Pierce ||| S:22 E:28 ||| NNP
+,  ||| S:28 E:30 ||| ,
+15  ||| S:30 E:33 ||| CD
+January  ||| S:33 E:41 ||| NNP
+1947--7  ||| S:41 E:49 ||| NNP
+February  ||| S:49 E:58 ||| NNP
+2009  ||| S:58 E:64 ||| CD

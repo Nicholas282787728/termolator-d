@@ -1,0 +1,7 @@
+MALDI-imaging 	MALDI-imaging 	 NNP	B-NP
+:  	:  	 :	O
+what  	what  	 WP	O
+can  	can  	 MD	O
+be  	be  	 VB	O
+expected 	expected 	 VBN	O
+?  	?  	 .	O

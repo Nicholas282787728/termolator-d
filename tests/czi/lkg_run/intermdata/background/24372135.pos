@@ -1,0 +1,12 @@
+On ||| S:0 E:2 ||| IN
+:  ||| S:2 E:4 ||| :
+From  ||| S:4 E:9 ||| IN
+Basle  ||| S:9 E:15 ||| NNP
+to  ||| S:15 E:18 ||| TO
+Milan  ||| S:18 E:24 ||| NNP
+to  ||| S:24 E:27 ||| TO
+Zurich ||| S:27 E:33 ||| NNP
+:  ||| S:33 E:35 ||| :
+On  ||| S:35 E:38 ||| IN
+psychoanalytic  ||| S:38 E:53 ||| JJ
+training  ||| S:53 E:63 ||| NN

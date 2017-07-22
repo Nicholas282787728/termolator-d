@@ -1,0 +1,11 @@
+No  ||| S:0 E:3 ||| DT
+animals  ||| S:3 E:11 ||| NNS
+harmed ||| S:11 E:17 ||| VBN
+:  ||| S:17 E:19 ||| :
+toward  ||| S:19 E:26 ||| IN
+a  ||| S:26 E:28 ||| DT
+paradigm  ||| S:28 E:37 ||| JJ
+shift  ||| S:37 E:43 ||| NN
+in  ||| S:43 E:46 ||| IN
+toxicity  ||| S:46 E:55 ||| JJ
+testing  ||| S:55 E:64 ||| NN

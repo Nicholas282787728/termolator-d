@@ -1,0 +1,13 @@
+The  ||| S:0 E:4 ||| DT
+culture  ||| S:4 E:12 ||| NN
+of  ||| S:12 E:15 ||| IN
+patient  ||| S:15 E:23 ||| JJ
+safety ||| S:23 E:29 ||| NN
+:  ||| S:29 E:31 ||| :
+from  ||| S:31 E:36 ||| IN
+past  ||| S:36 E:41 ||| JJ
+to  ||| S:41 E:44 ||| TO
+future  ||| S:44 E:51 ||| NN
+in  ||| S:51 E:54 ||| IN
+four  ||| S:54 E:59 ||| CD
+stages  ||| S:59 E:67 ||| NNS

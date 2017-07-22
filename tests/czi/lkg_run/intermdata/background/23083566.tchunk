@@ -1,0 +1,5 @@
+Whole-body  	Whole-body  	 NNP	B-NP
+MR  	MR  	 NNP	I-NP
+or  	or  	 CC	O
+PET-CT 	PET-CT 	 JJ	B-NP
+?  	?  	 .	O

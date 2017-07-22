@@ -1,0 +1,13 @@
+Fatal  ||| S:0 E:6 ||| JJ
+outcome  ||| S:6 E:14 ||| NN
+following  ||| S:14 E:24 ||| VBG
+gastric  ||| S:24 E:32 ||| JJ
+endoscopic  ||| S:32 E:43 ||| JJ
+submucosal  ||| S:43 E:54 ||| JJ
+dissection  ||| S:54 E:65 ||| NN
+in  ||| S:65 E:68 ||| IN
+a  ||| S:68 E:70 ||| DT
+patient  ||| S:70 E:78 ||| NN
+with  ||| S:78 E:83 ||| IN
+liver  ||| S:83 E:89 ||| FW
+cirrhosis  ||| S:89 E:100 ||| FW

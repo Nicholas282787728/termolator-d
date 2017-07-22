@@ -1,0 +1,6 @@
+Voice  ||| S:0 E:6 ||| NNP
+outcomes  ||| S:6 E:15 ||| NNS
+after  ||| S:15 E:21 ||| IN
+pediatric  ||| S:21 E:31 ||| FW
+airway  ||| S:31 E:38 ||| FW
+reconstruction  ||| S:38 E:54 ||| FW

@@ -1,0 +1,5 @@
+PSA  	PSA  	 NNP	B-NP
+kinetics  	kinetics  	 NN	I-NP
+after  	after  	 IN	O
+prostate  	prostate  	 FW	B-NP
+brachytherapy  	brachytherapy  	 FW	I-NP

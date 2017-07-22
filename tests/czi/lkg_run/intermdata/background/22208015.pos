@@ -1,0 +1,7 @@
+Radiation  ||| S:0 E:10 ||| NN
+therapy  ||| S:10 E:18 ||| NN
+for  ||| S:18 E:22 ||| IN
+locally  ||| S:22 E:30 ||| RB
+advanced  ||| S:30 E:39 ||| VBD
+prostate  ||| S:39 E:48 ||| JJ
+cancer  ||| S:48 E:56 ||| NN

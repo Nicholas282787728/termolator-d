@@ -1,0 +1,15 @@
+Clinical  ||| S:0 E:9 ||| JJ
+development  ||| S:9 E:21 ||| NN
+of  ||| S:21 E:24 ||| IN
+temsirolimus ||| S:24 E:36 ||| NN
+,  ||| S:36 E:38 ||| ,
+a  ||| S:38 E:40 ||| DT
+novel  ||| S:40 E:46 ||| NN
+mTOR  ||| S:46 E:51 ||| JJ
+inhibitor ||| S:51 E:60 ||| NN
+,  ||| S:60 E:62 ||| ,
+for  ||| S:62 E:66 ||| IN
+treatment  ||| S:66 E:76 ||| NN
+of  ||| S:76 E:79 ||| IN
+advanced  ||| S:79 E:88 ||| JJ
+malignancies  ||| S:88 E:102 ||| FW

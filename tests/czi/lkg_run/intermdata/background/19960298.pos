@@ -1,0 +1,9 @@
+Acceptance  ||| S:0 E:11 ||| NNP
+speech  ||| S:11 E:18 ||| NN
+of  ||| S:18 E:21 ||| IN
+the  ||| S:21 E:25 ||| DT
+2009  ||| S:25 E:30 ||| CD
+Rudolf  ||| S:30 E:37 ||| NNP
+Virchow  ||| S:37 E:45 ||| NNP
+Medal  ||| S:45 E:51 ||| NNP
+recipient  ||| S:51 E:62 ||| FW

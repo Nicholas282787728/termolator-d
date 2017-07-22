@@ -1,0 +1,13 @@
+Introduction ||| S:0 E:12 ||| NN
+.  ||| S:12 E:14 ||| .
+A  ||| S:14 E:16 ||| DT
+consistent  ||| S:16 E:27 ||| JJ
+and  ||| S:27 E:31 ||| CC
+powerful  ||| S:31 E:40 ||| JJ
+association  ||| S:40 E:52 ||| NN
+between  ||| S:52 E:60 ||| IN
+social  ||| S:60 E:67 ||| JJ
+factors  ||| S:67 E:75 ||| NNS
+and  ||| S:75 E:79 ||| CC
+health  ||| S:79 E:86 ||| NN
+outcomes  ||| S:86 E:96 ||| NNS

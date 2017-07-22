@@ -1,0 +1,16 @@
+Clinical  ||| S:0 E:9 ||| JJ
+usefulness  ||| S:9 E:20 ||| NN
+of  ||| S:20 E:23 ||| IN
+fluorescence  ||| S:23 E:36 ||| NN
+in  ||| S:36 E:39 ||| IN
+situ  ||| S:39 E:44 ||| JJ
+hybridization  ||| S:44 E:58 ||| NN
+for  ||| S:58 E:62 ||| IN
+detection  ||| S:62 E:72 ||| NN
+of  ||| S:72 E:75 ||| IN
+MLL  ||| S:75 E:79 ||| NNP
+rearrangements  ||| S:79 E:94 ||| FW
+in  ||| S:94 E:97 ||| FW
+acute  ||| S:97 E:103 ||| FW
+myeloid  ||| S:103 E:111 ||| FW
+leukemia  ||| S:111 E:121 ||| FW
