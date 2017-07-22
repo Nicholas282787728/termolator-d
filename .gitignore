@@ -8,3 +8,12 @@ temporary_TERMOLATOR_POS.properties
 __pycache__/
 tmpexec
 .mypy_cache/
+
+#*.abbr
+#*.fact
+#*.pos
+#*.tchunk
+#*.tchunk.nps
+#*.terms
+#*.txt2
+#*.txt3
