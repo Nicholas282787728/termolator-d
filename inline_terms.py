@@ -1566,7 +1566,7 @@ def write_term_becomes_person(outstream, term, instances) -> None:
 #
 #   @semanticbeeng @todo global state initialization pos_offset_table
 #
-def find_inline_terms(lines: List[str], fact_file: File[ABBR], pos_file: File[POS], terms_file: File[TERM], marked_paragraphs=False, filter_off=False) -> None:
+def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[POS], terms_file: File[TERM], marked_paragraphs=False, filter_off=False) -> None:
     # @semanticbeeng not used @todo
     global abbr_to_full_dict
     global full_to_abbr_dict
@@ -1732,16 +1732,20 @@ def find_inline_terms(lines: List[str], fact_file: File[ABBR], pos_file: File[PO
         for term in term_list:
 
             if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
+                #   @semanticbeeng @todo @dataFlow
                 write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count,
                                             head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
 
             elif et_al_citation.search(term):
+                #   @semanticbeeng @todo @dataFlow
                 write_term_becomes_article_citation(outstream, term, term_hash[term])
 
             elif org_ending_pattern.search(term) or org_head_ending(term, head_hash):
+                #   @semanticbeeng @todo @dataFlow
                 write_term_becomes_organization(outstream, term, term_hash[term])
 
             elif person_ending_pattern.search(term):
+                #   @semanticbeeng @todo @dataFlow
                 write_term_becomes_person(outstream, term, term_hash[term])
 
             elif term_is_org_with_write(outstream, term, term_hash[term]):
@@ -1758,6 +1762,7 @@ def find_inline_terms(lines: List[str], fact_file: File[ABBR], pos_file: File[PO
                 else:
                     head_term = None           #  @semanticbeeng @todo static typing
                     head_lemma = None              #  @semanticbeeng @todo static typing
+                #   @semanticbeeng @todo @dataFlow
                 write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count, head_term=head_term, head_lemma=head_lemma)
 
 
