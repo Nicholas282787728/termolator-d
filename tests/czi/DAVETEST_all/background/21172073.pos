@@ -1,9 +1,0 @@
-Emerging  ||| S:0 E:9 ||| VBG
-breast  ||| S:9 E:16 ||| NN
-cancer  ||| S:16 E:23 ||| NN
-epidemic ||| S:23 E:31 ||| NN
-:  ||| S:31 E:33 ||| :
-impact  ||| S:33 E:40 ||| NN
-on  ||| S:40 E:43 ||| IN
-palliative  ||| S:43 E:54 ||| JJ
-care  ||| S:54 E:60 ||| NN

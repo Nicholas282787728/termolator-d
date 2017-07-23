@@ -1,7 +1,0 @@
-Problems  	Problems  	 NNS	O
-in  	in  	 IN	O
-PSA  	PSA  	 NNP	B-NP
-screening--distinction  	screening--distinction  	 NNP	I-NP
-from  	from  	 IN	O
-false  	false  	 JJ	O
-positives  	positives  	 FW	O

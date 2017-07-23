@@ -1,8 +1,0 @@
-Hypertension  ||| S:0 E:13 ||| NNP
-and  ||| S:13 E:17 ||| CC
-cardiovascular  ||| S:17 E:32 ||| JJ
-risk  ||| S:32 E:37 ||| NN
-in  ||| S:37 E:40 ||| IN
-chronic  ||| S:40 E:48 ||| JJ
-kidney  ||| S:48 E:55 ||| NN
-disease  ||| S:55 E:64 ||| NN

@@ -1,9 +1,0 @@
-It  ||| S:0 E:3 ||| PRP
-is  ||| S:3 E:6 ||| VBZ
-not  ||| S:6 E:10 ||| RB
-all  ||| S:10 E:14 ||| RB
-in  ||| S:14 E:17 ||| IN
-the  ||| S:17 E:21 ||| DT
-CAD  ||| S:21 E:25 ||| NNP
-or  ||| S:25 E:28 ||| CC
-BI-RADS  ||| S:28 E:37 ||| JJ

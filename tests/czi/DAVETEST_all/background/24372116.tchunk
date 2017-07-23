@@ -1,7 +1,0 @@
-Major  	Major  	 NNP	O
-Panel 	Panel 	 NNP	O
-:  	:  	 :	O
-Transformations  	Transformations  	 NNP	B-NP
-of  	of  	 IN	I-NP
-emotional  	emotional  	 JJ	I-NP
-experience  	experience  	 NN	I-NP

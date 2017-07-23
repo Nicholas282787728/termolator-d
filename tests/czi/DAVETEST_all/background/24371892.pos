@@ -1,7 +1,0 @@
-E-prescribing  ||| S:0 E:14 ||| NNP
-controlled  ||| S:14 E:25 ||| VBD
-substances  ||| S:25 E:36 ||| JJ
-moves  ||| S:36 E:42 ||| NNS
-closer  ||| S:42 E:49 ||| RBR
-to  ||| S:49 E:52 ||| TO
-reality  ||| S:52 E:61 ||| VB

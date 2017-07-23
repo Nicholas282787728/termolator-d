@@ -1,9 +1,0 @@
-FDA  ||| S:0 E:4 ||| NNP
-reversal  ||| S:4 E:13 ||| NN
-sends  ||| S:13 E:19 ||| VBZ
-mixed  ||| S:19 E:25 ||| JJ
-message  ||| S:25 E:33 ||| NN
-to  ||| S:33 E:36 ||| TO
-multiple  ||| S:36 E:45 ||| JJ
-sclerosis  ||| S:45 E:55 ||| JJ
-community  ||| S:55 E:66 ||| NN

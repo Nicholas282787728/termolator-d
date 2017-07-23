@@ -1,8 +1,0 @@
-Bipolarity  ||| S:0 E:11 ||| NNP
-and  ||| S:11 E:15 ||| CC
-psychosis ||| S:15 E:24 ||| NNS
-:  ||| S:24 E:26 ||| :
-continuum  ||| S:26 E:36 ||| NNS
-or  ||| S:36 E:39 ||| CC
-discontinuity ||| S:39 E:52 ||| NN
-?  ||| S:52 E:55 ||| .

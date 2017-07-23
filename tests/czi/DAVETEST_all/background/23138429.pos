@@ -1,9 +1,0 @@
-U.S.  ||| S:0 E:5 ||| NNP
-law  ||| S:5 E:9 ||| NN
-and  ||| S:9 E:13 ||| CC
-animal  ||| S:13 E:20 ||| JJ
-experimentation ||| S:20 E:35 ||| NN
-:  ||| S:35 E:37 ||| :
-a  ||| S:37 E:39 ||| DT
-critical  ||| S:39 E:48 ||| JJ
-primer  ||| S:48 E:56 ||| FW

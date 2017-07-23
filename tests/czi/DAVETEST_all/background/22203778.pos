@@ -1,9 +1,0 @@
-Dynamics  ||| S:0 E:9 ||| NNP
-of  ||| S:9 E:12 ||| IN
-social ||| S:12 E:18 ||| JJ
-,  ||| S:18 E:20 ||| ,
-political ||| S:20 E:29 ||| JJ
-,  ||| S:29 E:31 ||| ,
-and  ||| S:31 E:35 ||| CC
-economic  ||| S:35 E:44 ||| JJ
-institutions  ||| S:44 E:58 ||| NNS

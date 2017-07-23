@@ -1,7 +1,0 @@
-Biomarker  	Biomarker  	 NNP	B-NP
-of  	of  	 IN	I-NP
-prostate  	prostate  	 JJ	I-NP
-cancer--present  	cancer--present  	 JJ	I-NP
-status  	status  	 NN	I-NP
-and  	and  	 CC	O
-future  	future  	 JJ	O

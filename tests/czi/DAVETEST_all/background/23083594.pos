@@ -1,9 +1,0 @@
-MRI  ||| S:0 E:4 ||| NNP
-guidelines ||| S:4 E:14 ||| NNS
-:  ||| S:14 E:16 ||| :
-what  ||| S:16 E:21 ||| WP
-a  ||| S:21 E:23 ||| DT
-surgeon  ||| S:23 E:31 ||| NN
-needs  ||| S:31 E:37 ||| VBZ
-to  ||| S:37 E:40 ||| TO
-know  ||| S:40 E:46 ||| VB

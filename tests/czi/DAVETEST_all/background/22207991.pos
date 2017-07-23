@@ -1,9 +1,0 @@
-Indication  ||| S:0 E:11 ||| NN
-and  ||| S:11 E:15 ||| CC
-signification  ||| S:15 E:29 ||| NN
-of  ||| S:29 E:32 ||| IN
-repeat  ||| S:32 E:39 ||| NN
-biopsy  ||| S:39 E:46 ||| NN
-of  ||| S:46 E:49 ||| IN
-the  ||| S:49 E:53 ||| DT
-prostate  ||| S:53 E:63 ||| FW

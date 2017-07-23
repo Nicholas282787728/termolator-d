@@ -1,7 +1,0 @@
-Malignant  	Malignant  	 JJ	B-NP
-transformation 	transformation 	 NN	I-NP
-:  	:  	 :	O
-the  	the  	 DT	O
-role  	role  	 NN	O
-of  	of  	 IN	O
-MRS  	MRS  	 NNP	B-NP

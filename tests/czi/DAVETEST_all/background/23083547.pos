@@ -1,8 +1,0 @@
-MR  ||| S:0 E:3 ||| NNP
-spectroscopy  ||| S:3 E:16 ||| NN
-in  ||| S:16 E:19 ||| IN
-the  ||| S:19 E:23 ||| DT
-breast  ||| S:23 E:30 ||| NN
-clinic  ||| S:30 E:37 ||| NN
-is  ||| S:37 E:40 ||| VBZ
-improving  ||| S:40 E:51 ||| VBG

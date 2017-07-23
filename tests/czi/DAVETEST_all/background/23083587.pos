@@ -1,9 +1,0 @@
-MRI  ||| S:0 E:4 ||| NNP
-in  ||| S:4 E:7 ||| IN
-high  ||| S:7 E:12 ||| JJ
-risk  ||| S:12 E:17 ||| NN
-women ||| S:17 E:22 ||| NNS
-:  ||| S:22 E:24 ||| :
-benefits  ||| S:24 E:33 ||| NNS
-and  ||| S:33 E:37 ||| CC
-problems  ||| S:37 E:47 ||| NNS

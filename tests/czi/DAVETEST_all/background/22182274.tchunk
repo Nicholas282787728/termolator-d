@@ -1,7 +1,0 @@
-Comment  	Comment  	 NN	O
-on  	on  	 IN	O
-Endovascular  	Endovascular  	 NNP	B-NP
-treatment  	treatment  	 NN	I-NP
-of  	of  	 IN	I-NP
-intracranial  	intracranial  	 FW	I-NP
-stenosis  	stenosis  	 FW	I-NP

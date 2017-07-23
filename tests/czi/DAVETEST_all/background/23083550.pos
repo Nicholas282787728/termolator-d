@@ -1,8 +1,0 @@
-Molecular  ||| S:0 E:10 ||| NNP
-and  ||| S:10 E:14 ||| CC
-functional  ||| S:14 E:25 ||| JJ
-ultrasound  ||| S:25 E:36 ||| NN
-imaging  ||| S:36 E:44 ||| NN
-of  ||| S:44 E:47 ||| IN
-breast  ||| S:47 E:54 ||| FW
-tumors  ||| S:54 E:62 ||| FW

@@ -1,7 +1,0 @@
-Schizophrenia  	Schizophrenia  	 NNP	O
-and  	and  	 CC	O
-bipolar  	bipolar  	 JJ	B-NP
-disorders 	disorders 	 NNS	I-NP
-:  	:  	 :	O
-clinical  	clinical  	 FW	B-NP
-dimensions  	dimensions  	 FW	I-NP

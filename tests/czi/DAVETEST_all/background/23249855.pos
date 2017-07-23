@@ -1,9 +1,0 @@
-Identification  ||| S:0 E:15 ||| NN
-of  ||| S:15 E:18 ||| IN
-hepatitis  ||| S:18 E:28 ||| NNP
-B  ||| S:28 E:30 ||| NNP
-virus  ||| S:30 E:36 ||| FW
-encoding ||| S:36 E:44 ||| FW
-/ ||| S:44 E:45 ||| FW
-affecting  ||| S:45 E:55 ||| FW
-microRNAs  ||| S:55 E:66 ||| FW

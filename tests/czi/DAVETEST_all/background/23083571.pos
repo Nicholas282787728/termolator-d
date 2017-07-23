@@ -1,9 +1,0 @@
-Supine  ||| S:0 E:7 ||| JJ
-breast  ||| S:7 E:14 ||| NN
-MRI  ||| S:14 E:18 ||| NNP
-and  ||| S:18 E:22 ||| CC
-assessment  ||| S:22 E:33 ||| NN
-of  ||| S:33 E:36 ||| IN
-future  ||| S:36 E:43 ||| JJ
-clinical  ||| S:43 E:52 ||| JJ
-applications  ||| S:52 E:66 ||| NNS

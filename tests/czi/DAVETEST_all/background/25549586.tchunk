@@ -1,7 +1,0 @@
-Cancer 	Cancer 	 NNP	O
-:  	:  	 :	O
-mTOR  	mTOR  	 FW	B-NP
-inhibition  	inhibition  	 FW	I-NP
-curbs  	curbs  	 FW	I-NP
-colorectal  	colorectal  	 FW	I-NP
-cancer  	cancer  	 FW	I-NP

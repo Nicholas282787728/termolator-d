@@ -1,8 +1,0 @@
-Tomosynthesis  ||| S:0 E:14 ||| NNP
-in  ||| S:14 E:17 ||| IN
-X-ray ||| S:17 E:22 ||| NN
-:  ||| S:22 E:24 ||| :
-proven  ||| S:24 E:31 ||| VBN
-additional  ||| S:31 E:42 ||| JJ
-value ||| S:42 E:47 ||| NN
-?  ||| S:47 E:50 ||| .

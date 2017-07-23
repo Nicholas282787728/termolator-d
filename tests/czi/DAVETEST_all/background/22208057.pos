@@ -1,8 +1,0 @@
-Isolation  ||| S:0 E:10 ||| NNP
-and  ||| S:10 E:14 ||| CC
-characterization  ||| S:14 E:31 ||| NN
-of  ||| S:31 E:34 ||| IN
-prostate  ||| S:34 E:43 ||| JJ
-cancer  ||| S:43 E:50 ||| NN
-stem  ||| S:50 E:55 ||| NN
-cell  ||| S:55 E:61 ||| NN
