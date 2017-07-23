@@ -135,7 +135,7 @@ def create_termolotator_fact_txt_files(input_file: File, txt2_file: File, txt3_f
             start = start + len(string2)
 
             #
-            #   @semanticbeeng @todo @dataflow - writing same thing to both TXT2 and TXT3 files
+            #   @semanticbeeng @todo @dataflow - writing to both TXT2 and TXT3 files
             #
             txt2_stream.write(string2)
             txt3_stream.write(string3)
@@ -159,6 +159,9 @@ def create_termolotator_fact_txt_files(input_file: File, txt2_file: File, txt3_f
         elif (len(paragraph_starts) > 1) and len(paragraph_ends) == 1:
             last_start = 0
 
+            #
+            #   @semanticbeeng @todo @dataflow - writing FACT files
+            #
             for start in paragraph_starts:
                 if start != 0:
                     factstream.write('STRUCTURE TYPE="TEXT" START=' + str(last_start) + ' END=' + str(start) + os.linesep)
@@ -167,6 +170,9 @@ def create_termolotator_fact_txt_files(input_file: File, txt2_file: File, txt3_f
         else:
             factstream.write('STRUCTURE TYPE="TEXT" START=0 END=' + str(paragraph_ends[0]) + os.linesep)
 
+        #
+        #   @semanticbeeng @todo @dataflow - writing FACT files
+        #
         for bad_char in bad_chars:
             factstream.write('BAD_CHARACTER START=' + str(bad_char[0]) + ' END=' + str(bad_char[1]) + ' STRING="<"' + os.linesep)
 
