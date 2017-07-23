@@ -1850,6 +1850,7 @@ def make_term_chunk_file(pos_file: File[POS], term_file: File[TERM], abbreviate_
             else:
                 CHUNK_TAG = 'O'
             if word:
+                # @semanticbeeng @todo @dataFlow
                 outstream.write(word + '\t' + word + '\t' + pos + '\t' + CHUNK_TAG + os.linesep)
 
 
