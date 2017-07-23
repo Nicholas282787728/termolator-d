@@ -1807,7 +1807,7 @@ def make_term_chunk_file(pos_file: File[POS], term_file: File[TERM], abbreviate_
     start_term = False
     end_term: int = None            # @semanticbeeng @todo static typing
 
-    with term_file.openText() as instream:
+    with term_file.openText() as instream:                  # @semanticbeeng @todo @dataFlow
         for line in instream.readlines():
             fvs: Optional[Dict[str, str]] = get_integrated_line_attribute_value_structure_no_list(line, ['TERM'])
             if not fvs:
@@ -1825,14 +1825,14 @@ def make_term_chunk_file(pos_file: File[POS], term_file: File[TERM], abbreviate_
                 else:
                     term_hash[START] = fvs
     if abbreviate_file:
-        with abbreviate_file.openText() as instream:
+        with abbreviate_file.openText() as instream:        # @semanticbeeng @todo @dataFlow
             for line in instream.readlines():
                 fvs = get_integrated_line_attribute_value_structure_no_list(line, ['JARGON'])
                 if 'START' in fvs:
                     START = int(fvs['START'])
                     term_hash[START] = fvs
 
-    with pos_file.openText() as instream, chunk_file.openText(mode='w') as outstream:
+    with pos_file.openText() as instream, chunk_file.openText(mode='w') as outstream:   # @semanticbeeng @todo @dataFlow
         for line in instream.readlines():
             word, pos, start, end = get_pos_structure(line)
             if not word:
