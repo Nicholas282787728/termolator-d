@@ -4,7 +4,7 @@ import os
 import re
 import sys
 from typing import List, Tuple, Optional, Pattern, Match
-from DataDef import File, ABBR, POS, PosFact
+from DataDef import File, ABBR, POS, PosFact, FACT
 
 #
 #
@@ -57,7 +57,7 @@ def modify_pos_end(line: str, new_end: int) -> str:
 #
 #
 #
-def fix_bad_char_in_file(fact: File[ABBR], pos: File[POS]):
+def fix_bad_char_in_file(fact: File[FACT], pos: File[POS]):
 
     with fact.openText() as fact_stream:
         fact_list: List[PosFact] = get_pos_facts(fact_stream.readlines())
@@ -77,14 +77,17 @@ def fix_bad_char_in_file(fact: File[ABBR], pos: File[POS]):
                     next_fact = make_fact_pair(fact_list.pop())
                 if pos_list and (not next_pos):
                     next_pos = make_pos_triple(pos_list.pop())
+
                 if (next_pos and next_fact and (next_pos[0] > next_fact[0])) or (next_fact and not next_pos):
-                    outstream.write(next_fact[1])
+                    outstream.write(next_fact[1])    # @semanticbeeng @todo @dataFlow
                     next_fact = None       # @semanticbeeng @todo static typing
+
                 elif next_pos:
+
                     if next_fact and (next_fact[0] > next_pos[0]) and (next_fact[0] < next_pos[1]):
-                        outstream.write(modify_pos_end(next_pos[2], next_fact[0]))
+                        outstream.write(modify_pos_end(next_pos[2], next_fact[0]))  # @semanticbeeng @todo @dataFlow
                     else:
-                        outstream.write(next_pos[2])
+                        outstream.write(next_pos[2])    # @semanticbeeng @todo @dataFlow
                     next_pos = None        # @semanticbeeng @todo static typing
 
 
@@ -94,7 +97,7 @@ def main(args):
     with File(file_list).openText() as instream:
         for line in instream.readlines():
             fact, pos = line.strip().split(';')
-            fix_bad_char_in_file(File[ABBR](fact), File[POS](pos))
+            fix_bad_char_in_file(File[FACT](fact), File[POS](pos))
 
 
 if __name__ == '__main__': sys.exit(main(sys.argv))
