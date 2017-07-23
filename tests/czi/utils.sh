@@ -66,6 +66,7 @@ rm *.scored_output
 # -- manual run
 TESTNAME=DAVETEST
 
+# Process foreground files
 $TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_prefix_list BARE
 $TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_pos_list .pos
 $TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_txt_fact_list .txt3 .fact
@@ -88,6 +89,41 @@ $TERMOLATOR/run_find_inline_terms.py $TESTNAME.internal_prefix_list $TESTNAME
 
 $TERMOLATOR/run_make_term_chunk.py $TESTNAME.internal_pos_terms_abbr_list $TESTNAME.internal_foreground_tchunk_list
 
-# $TERMOLATOR/distributional_component.py $4.internal_foreground_tchunk_list $4.internal_background_tchunk_list > $4.all_terms
+# -----
+# Process background files
+# -----
 
+$TERMOLATOR/make_io_file.py $NYU_DIR/background.list $TESTNAME.internal_prefix_list BARE
+$TERMOLATOR/make_io_file.py $NYU_DIR/background.list $TESTNAME.internal_pos_list .pos
+$TERMOLATOR/make_io_file.py $NYU_DIR/background.list $TESTNAME.internal_txt_fact_list .txt3 .fact
+$TERMOLATOR/make_io_file.py $NYU_DIR/background.list $TESTNAME.internal_fact_pos_list .fact .pos
+$TERMOLATOR/make_io_file.py $NYU_DIR/background.list $TESTNAME.internal_txt_fact_pos_list .txt2 .fact .pos
+$TERMOLATOR/make_io_file.py $NYU_DIR/background.list $TESTNAME.internal_pos_terms_abbr_list .pos .terms .abbr
+
+$TERMOLATOR/make_termolator_fact_txt_files.py $TESTNAME.internal_prefix_list $3
+## generates fact, txt2 and txt3 files from input files
+
+java -Xmx16g -cp ${TERMOLATOR}/lib/TJet.jar FuseJet.Utils.Console ./temporary_TERMOLATOR_POS.properties $TESTNAME.internal_txt_fact_list $TESTNAME.internal_pos_list
+## generates POS files
+
+$TERMOLATOR/run_adjust_missing_char_pos.py $TESTNAME.internal_fact_pos_list
+
+$TERMOLATOR/run_find_inline_terms.py $TESTNAME.internal_prefix_list false $TESTNAME
+
+$TERMOLATOR/run_make_term_chunk.py $TESTNAME.internal_pos_terms_abbr_list $TESTNAME.internal_background_tchunk_list
+
+echo "calling distributional_component.py in term_extration using foreground and background tchunk list with output to file $TESTNAME.all_terms"
+
+$TERMOLATOR/distributional_component.py $TESTNAME.internal_foreground_tchunk_list $TESTNAME.internal_background_tchunk_list > $TESTNAME.all_terms
+
+#if [ "${12}" = "False" ]; then
+   echo "calling filter_term_output.py with $TESTNAME $4.outputweb.score $6 $7 ${10}"
+   $TERMOLATOR/filter_term_output.py $TESTNAME $TESTNAME.outputweb.score False 8400
+#else
+#   echo "calling filter_term_output.py with $4 ${12} $6 $7 ${10}"
+#   $TERMOLATOR/filter_term_output.py $4 ${12} $6 $7 ${10}
+#fi
+
+echo "Final terms can be found in $4.out_term_list from the scored file in $4.scored_output"
+head -1400 $TESTNAME.scored_output | cut -f 1 > $TESTNAME.out_term_list
 
