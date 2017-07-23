@@ -133,8 +133,13 @@ def create_termolotator_fact_txt_files(input_file: File, txt2_file: File, txt3_f
 
             length = length + len(string2)
             start = start + len(string2)
+
+            #
+            #   @semanticbeeng @todo @dataflow - writing same thing to both TXT2 and TXT3 files
+            #
             txt2_stream.write(string2)
             txt3_stream.write(string3)
+
             paragraph_starts.extend(starts1)
             paragraph_ends.extend(ends1)
             nonprint_starts.extend(nonprint_starts1)
