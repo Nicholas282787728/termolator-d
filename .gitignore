@@ -9,11 +9,11 @@ __pycache__/
 tmpexec
 .mypy_cache/
 
-#*.abbr
-#*.fact
-#*.pos
-#*.tchunk
-#*.tchunk.nps
-#*.terms
-#*.txt2
-#*.txt3
+*.abbr
+*.fact
+*.pos
+*.tchunk
+*.tchunk.nps
+*.terms
+*.txt2
+*.txt3

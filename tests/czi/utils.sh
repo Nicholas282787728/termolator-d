@@ -100,7 +100,7 @@ $TERMOLATOR/make_io_file.py $NYU_DIR/background.list $TESTNAME.internal_fact_pos
 $TERMOLATOR/make_io_file.py $NYU_DIR/background.list $TESTNAME.internal_txt_fact_pos_list .txt2 .fact .pos
 $TERMOLATOR/make_io_file.py $NYU_DIR/background.list $TESTNAME.internal_pos_terms_abbr_list .pos .terms .abbr
 
-$TERMOLATOR/make_termolator_fact_txt_files.py $TESTNAME.internal_prefix_list $3
+$TERMOLATOR/make_termolator_fact_txt_files.py $TESTNAME.internal_prefix_list .txt
 ## generates fact, txt2 and txt3 files from input files
 
 java -Xmx16g -cp ${TERMOLATOR}/lib/TJet.jar FuseJet.Utils.Console ./temporary_TERMOLATOR_POS.properties $TESTNAME.internal_txt_fact_list $TESTNAME.internal_pos_list
@@ -108,7 +108,7 @@ java -Xmx16g -cp ${TERMOLATOR}/lib/TJet.jar FuseJet.Utils.Console ./temporary_TE
 
 $TERMOLATOR/run_adjust_missing_char_pos.py $TESTNAME.internal_fact_pos_list
 
-$TERMOLATOR/run_find_inline_terms.py $TESTNAME.internal_prefix_list false $TESTNAME
+$TERMOLATOR/run_find_inline_terms.py $TESTNAME.internal_prefix_list false
 
 $TERMOLATOR/run_make_term_chunk.py $TESTNAME.internal_pos_terms_abbr_list $TESTNAME.internal_background_tchunk_list
 
