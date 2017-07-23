@@ -24,7 +24,7 @@ def find_inline_terms_for_file_list(file_list: File, dict_prefix: str = None) ->
             # if dict_prefix:
             #     increment_unigram_dict_from_lines(lines)
 
-            find_inline_terms(lines, File[ABBR](file_prefix + '.fact'), File[POS](file_prefix + '.pos'), File[TERM](file_prefix + '.terms'))
+            find_inline_terms(lines, File[FACT](file_prefix + '.fact'), File[POS](file_prefix + '.pos'), File[TERM](file_prefix + '.terms'))
             if start:
                 start = False
         if dict_prefix:

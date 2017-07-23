@@ -63,7 +63,8 @@ rm *.rejected-terms
 rm *.all_terms
 rm *.scored_output
 
-# -- manual run
+# -- manual run ---
+# -----------------
 TESTNAME=DAVETEST
 
 # Process foreground files
