@@ -104,8 +104,8 @@ def modify_paragraph_delimiters(paragraph_starts, paragraph_ends, paragraph_non_
 def create_termolotator_fact_txt_files(input_file: File, txt2_file: File, txt3_file: File, fact_file: File) -> None:
     global paragraph_starts
     global paragraph_ends
-    paragraph_starts = [0]      # @semanticbeeng @todo dataflow
-    paragraph_ends = []         # @semanticbeeng @todo dataflow
+    paragraph_starts = [0]      # @semanticbeeng @todo @dataflow
+    paragraph_ends = []         # @semanticbeeng @todo @dataflow
     nonprint_starts = []
     nonprint_ends = []
     bad_chars = []
