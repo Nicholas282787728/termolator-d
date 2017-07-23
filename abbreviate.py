@@ -1291,6 +1291,7 @@ def run_abbreviate_on_lines(lines: List[str], abbr_file: File[ABBR], reset_dicti
         previous_line = line
 
     if output:
+        #   @semanticbeeng @todo @dataFlow
         write_fact_file(output, abbr_file)
 
     return (output)
