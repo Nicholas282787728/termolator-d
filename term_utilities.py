@@ -3,7 +3,7 @@ import os
 import dictionary
 import re
 from typing import List, Dict, Tuple, Pattern, Match, Optional
-from DataDef import File, POS
+from DataDef import File, POS, TXT3
 
 pos_offset_table: Dict[int, str] = {}
 
@@ -459,7 +459,7 @@ def isStub(line: str) -> bool:
 #
 #
 #
-def get_lines_from_file(infile: File) -> List[str]:
+def get_lines_from_file(infile: File[TXT3]) -> List[str]:
 
     with infile.openText(mode='r') as instream:
         output: List[str] = []
