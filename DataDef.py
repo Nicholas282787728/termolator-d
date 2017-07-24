@@ -17,9 +17,10 @@ DT = TypeVar('DT')  # , contravariant=True)
 #
 # class ABBR(TP):
 #     pass
+TXT = str
 POS = str
 TERM = str
-FACT
+FACT = str
 ABBR = str
 TXT2 = str
 TXT3 = str

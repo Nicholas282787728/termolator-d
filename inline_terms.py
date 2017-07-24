@@ -1,7 +1,7 @@
 import sys
 
 from abbreviate import *
-from DataDef import File, POS, TERM, ABBR, CHUNK, PosFact
+from DataDef import File, POS, FACT, TERM, ABBR, CHUNK, PosFact
 import dictionary
 from typing import List, Dict, Optional, Pattern, Match
 

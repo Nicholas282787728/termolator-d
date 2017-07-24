@@ -4,7 +4,7 @@ import sys
 
 from term_utilities import *
 import dictionary
-from DataDef import File, TXT2, TXT3, ABBR
+from DataDef import File, TXT, TXT2, TXT3, ABBR, FACT
 
 dictionary.initialize_utilities()
 
@@ -101,7 +101,7 @@ def modify_paragraph_delimiters(paragraph_starts, paragraph_ends, paragraph_non_
 #
 #
 #
-def create_termolotator_fact_txt_files(input_file: File, txt2_file: File, txt3_file: File, fact_file: File) -> None:
+def create_termolotator_fact_txt_files(input_file: File[TXT], txt2_file: File[TXT2], txt3_file: File[TXT3], fact_file: File[FACT]) -> None:
     global paragraph_starts
     global paragraph_ends
     paragraph_starts = [0]      # @semanticbeeng @todo @dataflow
