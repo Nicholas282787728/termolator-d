@@ -594,7 +594,7 @@ def get_formulaic_term_pieces(text: str, offset: int) -> List[Tuple[int, int, st
 #
 #
 #
-def merge_formulaic_and_regular_term_tuples(term_tuples: List[Tuple[int, int, str]], formulaic_tuples: List[Tuple[int, int, str, str]]) -> List:
+def merge_formulaic_and_regular_term_tuples(term_tuples: List[Tuple[int, int, str]], formulaic_tuples: List[Tuple[int, int, str, str]]) -> List[Tuple[int, int, str, str]]:
     ## initially, remove term_tuples that intersect at all with formulaic_tuples
     ## this might be the wrong strategy -- we need to evaluate
     ## also, add a fourth element to term_tuples, 'chunk-based' indicting these are obtained with a chunking procedure
@@ -614,7 +614,7 @@ def merge_formulaic_and_regular_term_tuples(term_tuples: List[Tuple[int, int, st
         next_term = term_tuples[term_pointer] + ('chunk-based', )
     #    next_term.append('chunk-based')         # @semanticbeeng @todo static typing fix
     else:
-        next_term = None                        # @semanticbeeng @todo static typing
+        next_term = None                         # @semanticbeeng @todo static typing
 
     if len(formulaic_tuples) > 0:
         next_formula = formulaic_tuples[formula_pointer]
@@ -634,7 +634,7 @@ def merge_formulaic_and_regular_term_tuples(term_tuples: List[Tuple[int, int, st
                     extended_term = term + (None, )           # @semanticbeeng @todo static typing verify
                 output.append(extended_term)
 
-            next_term = None                    # @semanticbeeng @todo static typing
+            next_term = None                        # @semanticbeeng @todo static typing
 
         elif next_term[0] < next_formula[0]:
             ## 2 conditions:
@@ -647,7 +647,7 @@ def merge_formulaic_and_regular_term_tuples(term_tuples: List[Tuple[int, int, st
             term_pointer = term_pointer + 1
             if len(term_tuples) > term_pointer:
                 next_term = term_tuples[term_pointer] + ('chunk-based', )
-            #    next_term.append('chunk-based')     # @semanticbeeng @todo static typing
+            #    next_term.append('chunk-based')    # @semanticbeeng @todo static typing
             else:
                 next_term = None                    # @semanticbeeng @todo static typing
 
@@ -1677,7 +1677,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
 
             formulaic_tuples: List[Tuple[int, int, str, str]] = get_formulaic_term_pieces(text, start)
 
-            term_tuples = merge_formulaic_and_regular_term_tuples(term_triples, formulaic_tuples)
+            term_tuples: List[Tuple[int, int, str, str]] = merge_formulaic_and_regular_term_tuples(term_triples, formulaic_tuples)
         else:
             term_tuples = []
 
