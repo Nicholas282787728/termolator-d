@@ -1685,7 +1685,11 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
         # compound_tuples = []              # @semanticbeeng @todo not used
         last_tuple: Tuple[int, int, str, str] = None        # @semanticbeeng @todo static typing  @data what is this
 
+        # unit testing print("find_inline_terms >> ")
         for t_start, t_end, term, term_type in term_tuples:
+            # unit testing
+            # print("find_inline_terms >> tuple(" + str(t_start) + ", " + str(t_end) + ", " + term + ", " + term_type + ")")
+
             ## for now we will limit compounding not to function and
             ## lemmas not to merge entries unless term_type ==
             ## 'chunk-based'
