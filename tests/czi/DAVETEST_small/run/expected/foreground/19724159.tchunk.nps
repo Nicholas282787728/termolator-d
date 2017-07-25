@@ -1,0 +1,122 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+Vvascular biolog
+p7
+I1
+sVregulator of vascular calcif
+p8
+I1
+sVparacrine regulator of vascular calcif
+p9
+I1
+sVrankl-mediated vascular diseas
+p10
+I1
+sVdisord
+p11
+I1
+sS'rank'
+p12
+I2
+sVbiolog
+p13
+I2
+sS'receptor'
+p14
+I1
+sVdisease osteoporosi
+p15
+I1
+sS'factor-kb'
+p16
+I1
+sS'serum marker of'
+p17
+I1
+sVof vascular diseas
+p18
+I1
+sVreceptor activ
+p19
+I1
+sVvascular diseas
+p20
+I3
+sVarterial calcif
+p21
+I1
+sVcardio-vascular diseas
+p22
+I1
+sVdiseas
+p23
+I5
+sS'activator of nuclear factor-kb'
+p24
+I1
+sS'nuclear factor-kb'
+p25
+I1
+sS'receptor activator of nuclear factor-kb'
+p26
+I1
+sS'osteoprotegerin'
+p27
+I1
+sVosteoporosi
+p28
+I4
+sS'opg'
+p29
+I5
+sVvascular calcif
+p30
+I2
+sVserum mark
+p31
+I1
+sVcalcif
+p32
+I3
+sVof vascular calcif
+p33
+I1
+sS'of nuclear factor-kb'
+p34
+I1
+sVserum marker of vascular diseas
+p35
+I1
+sS'receptor activator of'
+p36
+I1
+sVatherosclerosi
+p37
+I1
+sS'rankl'
+p38
+I2
+sVskeletal biolog
+p39
+I1
+sVdegenerative disord
+p40
+I1
+sVmarker of vascular diseas
+p41
+I1
+stp42
+Rp43
+tp44
+.

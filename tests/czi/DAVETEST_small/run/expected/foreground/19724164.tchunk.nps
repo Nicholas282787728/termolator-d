@@ -1,0 +1,140 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+Vremodeling statin
+p7
+I1
+sVreductas
+p8
+I1
+sS'fracture risk'
+p9
+I2
+sS'vitro'
+p10
+I1
+sVprenyl
+p11
+I1
+sS'ldl'
+p12
+I1
+sVclinical tri
+p13
+I1
+sVhydrophilic statin
+p14
+I1
+sS'total cholesterol'
+p15
+I1
+sVstatin
+p16
+I11
+sVfemoral bone dens
+p17
+I1
+sVactiv
+p18
+I1
+sVof mevalon
+p19
+I2
+sVof statin
+p20
+I6
+sS'answer'
+p21
+I1
+sS'pathway'
+p22
+I1
+sVfemoral bon
+p23
+I1
+sVmevalon
+p24
+I1
+sVbone remodel
+p25
+I1
+sS'risk'
+p26
+I2
+sVdensiti
+p27
+I1
+sS'mevalonate pathway'
+p28
+I1
+sVsatisfactory answ
+p29
+I1
+sVhmg-coa reductas
+p30
+I1
+sVchemical compound
+p31
+I1
+sVcompound
+p32
+I1
+sVapoptosi
+p33
+I1
+sVbone remodeling statin
+p34
+I1
+sS'intracellular formation of'
+p35
+I1
+sVlipophilic statin
+p36
+I1
+sS'of'
+p37
+I2
+sS'hdl cholesterol'
+p38
+I1
+sS'bmp-2'
+p39
+I1
+sVintracellular formation of mevalon
+p40
+I1
+sVtrial
+p41
+I2
+sVbone dens
+p42
+I1
+sVosteoblast apoptosi
+p43
+I1
+sS'cholesterol'
+p44
+I3
+sS'ldl cholesterol'
+p45
+I1
+sS'bone'
+p46
+I2
+sVosteoclast act
+p47
+I1
+stp48
+Rp49
+tp50
+.

@@ -1,0 +1,65 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+Vprevent
+p7
+I2
+sVprimary prevention tri
+p8
+I1
+sS'hmg-coa'
+p9
+I1
+sVprevention studi
+p10
+I1
+sVmid-1980
+p11
+I1
+sVjupiter tri
+p12
+I2
+sVstatin
+p13
+I1
+sVprimary prevent
+p14
+I3
+sVprimary prevention studi
+p15
+I1
+sVreductase inhibitor
+p16
+I1
+sVtrial
+p17
+I3
+sVprevention tri
+p18
+I1
+sVsecondary prevent
+p19
+I1
+sVstudi
+p20
+I1
+sVinhibitor
+p21
+I1
+sVjupit
+p22
+I2
+stp23
+Rp24
+tp25
+.

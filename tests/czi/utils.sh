@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # make lists
-for f in `find foreground -type f`; do echo `pwd`/$f; done | sort > foreground.list
-for f in `find background -type f`; do echo `pwd`/$f; done | sort > background.list
+for f in `find foreground -name *.txt`; do echo `pwd`/$f; done | sort > foreground.list
+for f in `find background -name *.txt`; do echo `pwd`/$f; done | sort > background.list
 
 
 # collect intermediate files

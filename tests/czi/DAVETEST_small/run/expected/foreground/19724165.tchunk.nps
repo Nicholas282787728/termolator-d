@@ -1,0 +1,116 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+Vdual-purpose therapi
+p7
+I1
+sS'fracture risk'
+p8
+I1
+sVlinkag
+p9
+I1
+sS'bp'
+p10
+I2
+sVanti-atherogenic act
+p11
+I1
+sVaffin
+p12
+I1
+sVconcentr
+p13
+I1
+sVbisphosphon
+p14
+I2
+sVinterfer
+p15
+I1
+sVresorpt
+p16
+I1
+sVosteoporosi
+p17
+I1
+sVatherosclerosi
+p18
+I1
+sVprogress
+p19
+I1
+sS'anti-atherogenic activity of'
+p20
+I1
+sS'activity of bp'
+p21
+I1
+sS'affinity of bp'
+p22
+I1
+sVdiseas
+p23
+I1
+sVtherapi
+p24
+I1
+sS'risk'
+p25
+I1
+sVcholesterol synthesi
+p26
+I1
+sVcardiovascular diseas
+p27
+I1
+sVinflammatory progress
+p28
+I1
+sS'anti-atherogenic activity of bp'
+p29
+I1
+sS'affinity of'
+p30
+I1
+sVcalcif
+p31
+I1
+sVsynthesi
+p32
+I1
+sVstress
+p33
+I1
+sVbiological linkag
+p34
+I1
+sVbone resorpt
+p35
+I1
+sVoxidative stress
+p36
+I1
+sS'of bp'
+p37
+I2
+sS'cholesterol'
+p38
+I1
+sVvascular calcif
+p39
+I1
+stp40
+Rp41
+tp42
+.

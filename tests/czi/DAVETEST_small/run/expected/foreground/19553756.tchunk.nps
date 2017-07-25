@@ -1,0 +1,107 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+Vdiseas
+p7
+I2
+sS'risk'
+p8
+I4
+sVindividu
+p9
+I1
+sVprotein identif
+p10
+I1
+sVclinical tri
+p11
+I1
+sVprospective cohort studi
+p12
+I1
+sS'non-lipid risk'
+p13
+I1
+sS'protein'
+p14
+I1
+sS'current risk'
+p15
+I1
+sVbiomark
+p16
+I1
+sS'atherosclerotic heart'
+p17
+I1
+sS'crp'
+p18
+I2
+sVcohort studi
+p19
+I1
+sVheart diseas
+p20
+I1
+sVdiscrimin
+p21
+I1
+sVrisk calcul
+p22
+I2
+sVatherosclerotic heart diseas
+p23
+I1
+sVc-reactive protein identif
+p24
+I1
+sVaccuraci
+p25
+I1
+sVidentif
+p26
+I1
+sVtrial
+p27
+I1
+sS'c-reactive protein'
+p28
+I2
+sVcalcul
+p29
+I2
+sVcardiolog
+p30
+I1
+sVcurrent risk calcul
+p31
+I1
+sVpreventive cardiolog
+p32
+I1
+sS'cardiovascular risk'
+p33
+I1
+sVstudi
+p34
+I1
+sVhigh-risk individu
+p35
+I1
+sVatherosclerosis-related diseas
+p36
+I1
+stp37
+Rp38
+tp39
+.

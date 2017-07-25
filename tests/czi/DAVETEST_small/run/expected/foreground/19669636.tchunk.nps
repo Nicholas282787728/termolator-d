@@ -1,0 +1,92 @@
+((lp0
+VisWord
+p1
+aVcase
+p2
+aVstops
+p3
+aVstem
+p4
+acnltk.probability
+FreqDist
+p5
+((dp6
+S'insensitive measurement of her2'
+p7
+I1
+sVphosphatas
+p8
+I1
+sVher2 express
+p9
+I1
+sVexpress
+p10
+I2
+sVamplif
+p11
+I1
+sS'human epidermal growth'
+p12
+I1
+sS'tensin analog'
+p13
+I1
+sS'validation of her2'
+p14
+I1
+sS'insensitive measurement of'
+p15
+I1
+sS'trastuzumab'
+p16
+I1
+sVreceptor express
+p17
+I1
+sS'her2'
+p18
+I2
+sS'human epidermal growth factor receptor'
+p19
+I1
+sS'analog'
+p20
+I1
+sS'validation of'
+p21
+I1
+sVstatu
+p22
+I1
+sVprognosi
+p23
+I1
+sVimmunogen
+p24
+I2
+sVof her2 express
+p25
+I2
+sVinsensitive measurement of her2 express
+p26
+I1
+sVnonspecif
+p27
+I1
+sVvalid
+p28
+I1
+sVabsenc
+p29
+I1
+sVoncologist
+p30
+I1
+sVimprov
+p31
+I1
+stp32
+Rp33
+tp34
+.
