@@ -1246,7 +1246,7 @@ def triplify(inlist: List[Dict[str, str]]) -> List[List[Dict[str, str]]]:
 
 
 #
-#
+#  Find abbreviations for the content of a file fo @data TXT3
 #
 def run_abbreviate_on_lines(lines: List[str], abbr_file: File[ABBR], reset_dictionary: bool=False) -> List[Dict[str, str]]:
 
@@ -1351,6 +1351,8 @@ def run_abbreviate_on_file_list(file_list: File, dict_prefix=False) -> None:
 
         for line in instream.readlines():
             file_prefix: str = line.strip()
+
+            # @semanticbeeng @todo @dataFlow
             lines: List[str] = get_lines_from_file(File[TXT3](file_prefix + '.txt3'))
 
             run_abbreviate_on_lines(lines, File[ABBR](file_prefix + '.abbr'), reset_dictionary=start)       # @semanticbeeng @todo @arch global state mutation
