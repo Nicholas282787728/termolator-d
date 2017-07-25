@@ -25,6 +25,7 @@ ABBR = str
 TXT2 = str
 TXT3 = str
 CHUNK = str
+CHUNKNPS = str
 
 #
 #   @data types

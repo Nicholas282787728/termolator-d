@@ -10,7 +10,7 @@ ok_path_types = ['url']  ##  currently 'ratio' is not an ok_path_type
 compound_inbetween_string: Pattern[str] = re.compile('^ +(of|for) +((the|a|[A-Z]\.) +)?$', re.I)
 term_stop_words_with_periods: Pattern[str] = re.compile('(^|\s)(u\.s|e\.g|i\.e|u\.k|c\.f|see|ser)([\.\s]|$)', re.I)
 
-term_hash: Dict[str, List[Tuple[int, int]]] = {}          # @semanticbeeng @todo global state - is this necessary ??
+# term_hash: Dict[str, List[Tuple[int, int]]] = {}          # @semanticbeeng @todo global state - is this necessary ??
 lemma_dict: Dict[str, str] = {}
 
 #
@@ -1306,7 +1306,7 @@ def get_term_lemma(term: str, term_type: str=None) -> str:
 #
 def get_compound_lemma(compound_term: str, first_term: str, second_term: str) -> str:
     if compound_term in lemma_dict:
-        return (lemma_dict[compound_term])      # @semanticbeeng @todo global state mutation
+        return (lemma_dict[compound_term])      # @semanticbeeng @todo global state reference
     else:
         first_lemma = get_term_lemma(first_term, term_type='chunk-based')
         second_lemma = get_term_lemma(second_term, term_type='chunk-based')
@@ -1530,7 +1530,7 @@ def write_term_summary_fact_set(outstream, term: str, instances, lemma_count: Di
                                 head_term: Optional[str]=None, head_lemma: Optional[str]=None, term_type: Optional[str]=None) -> None:
     global term_id_number
     frequency = len(instances)
-    lemma = lemma_dict[term]            # @semanticbeeng @todo global state access
+    lemma = lemma_dict[term]            # @semanticbeeng @todo global state reference
     lemma_freq = lemma_count[lemma]
 
     for start, end in instances:
@@ -1602,9 +1602,10 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     # global abbr_to_full_dict              # @semanticbeeng @todo not used
     # global full_to_abbr_dict              # @semanticbeeng @todo not used
     global term_id_number
-    global term_hash
+    # global term_hash                      # @semanticbeeng @todo not used TEST
     term_id_number = 0                      # @semanticbeeng @todo @global state mutation initialization
-    term_hash = {}                          # @semanticbeeng @todo global state: is this initiaized every time? then why global?
+    term_hash: Dict[str, List[Tuple[int, int]]] = {}
+                                            # @semanticbeeng @todo global state: is this initiaized every time? then why global?
     pos_offset_table.clear()                # @semanticbeeng @todo @global state mutation initialization
     lemma_dict.clear()                      # @semanticbeeng @todo @global state mutation initialization
 
@@ -1612,8 +1613,8 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     start_ends: List[Tuple[int, int]] = []
     txt_strings: List[PosFact] = []
 
-    lemma_count: Dict[str, int] = {}
-    head_hash = {}
+    lemma_count: Dict[str, int] = {}        # @semanticbeeng @todo refactor this and the related duplicate code below into an inner class LemmaCounter
+    head_hash: Dict[str, str] = {}
     term_type_hash: Dict[str, str] = {}
 
     structure_pattern: Pattern[str] = re.compile('STRUCTURE *TYPE="TEXT" *START=([0-9]*) *END=([0-9]*)', re.I)
@@ -1792,7 +1793,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
                     head_term: str = head_hash[term]
 
                     if head_term in lemma_dict:
-                        head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state access
+                        head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state reference
                     elif head_term in term_type_hash:
                         head_lemma = get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
                     else:

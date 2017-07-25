@@ -6,6 +6,7 @@ import pickle
 import subprocess
 
 from nltk import FreqDist
+from DataDef import File, CHUNKNPS
 
 import Filter
 
@@ -213,7 +214,7 @@ class NPParser:
                 if t:
                     fd[t] += 1
         if overwrite or (not os.path.isfile(filename + '.nps')):
-            f = open(filename + '.nps', 'wb')
+            f = File[CHUNKNPS](filename + '.nps').openBin('w')
             pickle.dump((filters, fd), f)
             f.close()
         if os.path.exists(filterfname):
