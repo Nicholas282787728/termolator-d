@@ -10,22 +10,13 @@ tmpexec
 .mypy_cache/
 
 
-tests/czi/DAVETEST_all/source/*/*.txt2
-tests/czi/DAVETEST_all/source/*/*.txt3
-tests/czi/DAVETEST_all/source/*/*.pos
-tests/czi/DAVETEST_all/source/*/*.fact
-tests/czi/DAVETEST_all/source/*/*.abbr
-tests/czi/DAVETEST_all/source/*/*.terms
-tests/czi/DAVETEST_all/source/*/*.tchunk
-tests/czi/DAVETEST_all/source/*/*.tchunk.nps
-
-tests/czi/DAVETEST_small/source/*/*.txt2
-tests/czi/DAVETEST_small/source/*/*.txt3
-tests/czi/DAVETEST_small/source/*/*.pos
-tests/czi/DAVETEST_small/source/*/*.fact
-tests/czi/DAVETEST_small/source/*/*.abbr
-tests/czi/DAVETEST_small/source/*/*.terms
-tests/czi/DAVETEST_small/source/*/*.tchunk
-tests/czi/DAVETEST_small/source/*/*.tchunk.nps
+tests/czi/*/source/*/*.txt2
+tests/czi/*/source/*/*.txt3
+tests/czi/*/source/*/*.pos
+tests/czi/*/source/*/*.fact
+tests/czi/*/source/*/*.abbr
+tests/czi/*/source/*/*.terms
+tests/czi/*/source/*/*.tchunk
+tests/czi/*/source/*/*.tchunk.nps
 
 tests/czi/DAVETEST_small/run/actual/*
