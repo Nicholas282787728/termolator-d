@@ -1290,6 +1290,10 @@ def run_abbreviate_on_lines(lines: List[str], abbr_file: File[ABBR], reset_dicti
         start = end
         previous_line = line
 
+    # @semanticbeeng @todo @arch global state control - this fails
+    # abbr_to_full_dict = dictionary.freeze_dict(abbr_to_full_dict)
+    # full_to_abbr_dict = dictionary.freeze_dict(full_to_abbr_dict)
+
     if output:
         #   @semanticbeeng @todo @dataFlow
         write_fact_file(output, abbr_file)

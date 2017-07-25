@@ -1297,7 +1297,7 @@ def get_term_lemma(term: str, term_type: str=None) -> str:
             output = term[:-3].upper()
         else:
             output = term.upper()
-    lemma_dict[term] = output
+    lemma_dict[term] = output           # @semanticbeeng @todo global state mutation
     return (output)
 
 
@@ -1306,12 +1306,12 @@ def get_term_lemma(term: str, term_type: str=None) -> str:
 #
 def get_compound_lemma(compound_term: str, first_term: str, second_term: str) -> str:
     if compound_term in lemma_dict:
-        return (lemma_dict[compound_term])
+        return (lemma_dict[compound_term])      # @semanticbeeng @todo global state mutation
     else:
         first_lemma = get_term_lemma(first_term, term_type='chunk-based')
         second_lemma = get_term_lemma(second_term, term_type='chunk-based')
         output = (second_lemma + ' ' + first_lemma).upper()
-        lemma_dict[compound_term] = output
+        lemma_dict[compound_term] = output      # @semanticbeeng @todo global state mutation
         return (output)
 
 
@@ -1530,7 +1530,7 @@ def write_term_summary_fact_set(outstream, term: str, instances, lemma_count: Di
                                 head_term: Optional[str]=None, head_lemma: Optional[str]=None, term_type: Optional[str]=None) -> None:
     global term_id_number
     frequency = len(instances)
-    lemma = lemma_dict[term]
+    lemma = lemma_dict[term]            # @semanticbeeng @todo global state access
     lemma_freq = lemma_count[lemma]
 
     for start, end in instances:
@@ -1790,8 +1790,9 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
             else:
                 if term in head_hash:
                     head_term: str = head_hash[term]
+
                     if head_term in lemma_dict:
-                        head_lemma = lemma_dict[head_term]
+                        head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state access
                     elif head_term in term_type_hash:
                         head_lemma = get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
                     else:
