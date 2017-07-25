@@ -6,7 +6,7 @@ for f in `find background -type f`; do echo `pwd`/$f; done | sort > background.l
 
 
 # collect intermediate files
-rootdir=.   # ., foreground or background
+rootdir=.    # ., foreground or background
 
 files_abbr=`find $rootdir -name *.abbr`
 files_fact=`find $rootdir -name *.fact`

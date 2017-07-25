@@ -17,3 +17,11 @@ tmpexec
 *.terms
 *.txt2
 *.txt3
+tests/czi/DAVETEST_small/source/foreground/*.txt2
+tests/czi/DAVETEST_small/source/foreground/*.txt3
+tests/czi/DAVETEST_small/source/foreground/*.pos
+tests/czi/DAVETEST_small/source/foreground/*.fact
+tests/czi/DAVETEST_small/source/foreground/*.abbr
+tests/czi/DAVETEST_small/source/foreground/*.terms
+
+tests/czi/DAVETEST_small/run/actual/*
