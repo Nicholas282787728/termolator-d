@@ -457,7 +457,7 @@ def isStub(line: str) -> bool:
     return (False)
 
 #
-#
+# @semanticbeeng static typing : TXT3 contains paragraphs (str)
 #
 def get_lines_from_file(infile: File[TXT3]) -> List[str]:
 
@@ -639,7 +639,7 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
     pos: List[str] = []
     plural = False
     if offset and (offset in pos_offset_table):
-        tagger_pos = pos_offset_table[offset]
+        tagger_pos = pos_offset_table[offset]           # @semanticbeeng @todo global state reference
         ## Most conservative move is to use for disambiguation,
         ## and for identifying ing nouns (whether NNP or NN)
         ## We care about:

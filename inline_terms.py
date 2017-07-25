@@ -216,8 +216,8 @@ def get_next_word(instring: str, start: int) -> Tuple[str, int, int]:
     ##
     ## 2) Don't break continuous string of non-space chars
     ##    if they contain one non-letter char
-    word_pattern = re.compile('\w+')
-    punctuation_pattern = re.compile('\S')
+    word_pattern: Pattern[str] = re.compile('\w+')
+    punctuation_pattern: Pattern[str] = re.compile('\S')
     found: Optional[Match[str]] = word_pattern.search(instring, start)
     non_white_space: Optional[Match[str]] = punctuation_pattern.search(instring, start)
 
@@ -449,7 +449,7 @@ def OK_url(path_string) -> bool:
             return (True)
         elif (len(pivot_match.group(1)) > 1) and (len(pivot_match.group(3)) > 1):
             return (True)
-    return (false)               # @semanticbeeng @todo static typing - what to return if not url?
+    return (False)               # @semanticbeeng @todo static typing - what to return if not url?
 
 #
 #
@@ -536,7 +536,7 @@ def get_next_path_match(text: str, start: int) -> Tuple[Optional[Match[str]], Op
 #
 #
 #
-def get_formulaic_term_pieces(text: str, offset: int) -> List:
+def get_formulaic_term_pieces(text: str, offset: int) -> List[Tuple[int, int, str, str]]:
     start = 0
     gene_sequence: Pattern[str] = re.compile('(^|[^A-Za-z0-9\'-])((-?[0-9]\'?)?(([CATG]{4,})|([CcAaTtGg]{5,}))(-?[0-9]\'?)?)(\$|[^A-Za-z0-9\'-])')
     ## keep group 2
@@ -545,12 +545,12 @@ def get_formulaic_term_pieces(text: str, offset: int) -> List:
     gene_match = gene_sequence.search(text)
     # next_match = False  # @semanticbeeng @todo static typic
     start = 0
-    output = []
+    output: List[Tuple[int, int, str, str]] = []
 
     while (path_match or chemical_match or gene_match):
         minimum_new_start = False
-        next_match: Optional[Match[str]] = None       # @semanticbeeng @todo static typic
-        match_type = False
+        next_match: Optional[Match[str]] = None         # @semanticbeeng @todo static typic
+        match_type = None                               # @semanticbeeng @todo static typing
 
         for match, local_type in [[path_match, 'path'], [chemical_match, 'chemical'], [gene_match, 'gene']]:
             if match and ((not next_match) or (match.start() < minimum_new_start)):
@@ -567,7 +567,7 @@ def get_formulaic_term_pieces(text: str, offset: int) -> List:
                 end_offset = next_match.end(2) + offset
                 term_string = next_match.group(2)
                 start = next_match.end(2)
-                output.append([start_offset, end_offset, term_string, match_type])
+                output.append((start_offset, end_offset, term_string, match_type))          # @semanticbeeng @todo static typing
                 ## print(term_string)
             else:
                 start_offset = next_match.start() + offset
@@ -576,9 +576,10 @@ def get_formulaic_term_pieces(text: str, offset: int) -> List:
                 if match_type == 'path':
                     ## preparing for futher elaboration of code
                     if path_type in ok_path_types:
-                        output.append([start_offset, end_offset, term_string, path_type])
+                        output.append((start_offset, end_offset, term_string, path_type))   # @semanticbeeng @todo static typing
                 else:
-                    output.append([start_offset, end_offset, term_string, match_type])
+                    output.append((start_offset, end_offset, term_string, match_type))      # @semanticbeeng @todo static typing
+
                 start = next_match.end()
             if next_match == path_match:
                 path_match, path_type = get_next_path_match(text, start)
@@ -593,7 +594,7 @@ def get_formulaic_term_pieces(text: str, offset: int) -> List:
 #
 #
 #
-def merge_formulaic_and_regular_term_tuples(term_tuples: List, formulaic_tuples: List[Tuple]) -> List:
+def merge_formulaic_and_regular_term_tuples(term_tuples: List[Tuple[int, int, str]], formulaic_tuples: List[Tuple[int, int, str, str]]) -> List:
     ## initially, remove term_tuples that intersect at all with formulaic_tuples
     ## this might be the wrong strategy -- we need to evaluate
     ## also, add a fourth element to term_tuples, 'chunk-based' indicting these are obtained with a chunking procedure
@@ -602,15 +603,19 @@ def merge_formulaic_and_regular_term_tuples(term_tuples: List, formulaic_tuples:
     ## not sure exactly of the ramifications
 
     ## ALSO: add term type to all next_term instances
-    output = []
+    output: List[Tuple[int, int, str, str]] = []         # @semanticbeeng @todo static typing
     ## both term_tuples and formulaic_tuples are sorted (the first 2 fields are start and end offsets)
     term_pointer = 0
     formula_pointer = 0
+
+    next_term: Tuple[int, int, str, str] = None
+
     if len(term_tuples) > 0:
-        next_term = term_tuples[term_pointer]
-        next_term.append('chunk-based')
+        next_term = term_tuples[term_pointer] + ('chunk-based', )
+    #    next_term.append('chunk-based')         # @semanticbeeng @todo static typing fix
     else:
-        next_term = False
+        next_term = None                        # @semanticbeeng @todo static typing
+
     if len(formulaic_tuples) > 0:
         next_formula = formulaic_tuples[formula_pointer]
     else:
@@ -619,14 +624,18 @@ def merge_formulaic_and_regular_term_tuples(term_tuples: List, formulaic_tuples:
     while next_term or next_formula:
         if not next_term:
             output.extend(formulaic_tuples[formula_pointer:])
-            next_formula = None                # @semanticbeeng @todo static typing
+            next_formula = None                 # @semanticbeeng @todo static typing
 
         elif not next_formula:
             for term in term_tuples[term_pointer:]:
                 if len(term) < 4:
-                    term.append('chunk-based')
-                output.append(term)
-            next_term = False
+                    extended_term = term + ('chunk-based', )  # @semanticbeeng @todo static typing
+                else:
+                    extended_term = term + (None, )           # @semanticbeeng @todo static typing verify
+                output.append(extended_term)
+
+            next_term = None                    # @semanticbeeng @todo static typing
+
         elif next_term[0] < next_formula[0]:
             ## 2 conditions:
             ## A) next term completely preceded
@@ -637,10 +646,11 @@ def merge_formulaic_and_regular_term_tuples(term_tuples: List, formulaic_tuples:
                 output.append(next_term)
             term_pointer = term_pointer + 1
             if len(term_tuples) > term_pointer:
-                next_term = term_tuples[term_pointer]
-                next_term.append('chunk-based')
+                next_term = term_tuples[term_pointer] + ('chunk-based', )
+            #    next_term.append('chunk-based')     # @semanticbeeng @todo static typing
             else:
-                next_term = False
+                next_term = None                    # @semanticbeeng @todo static typing
+
         elif next_formula[1] < next_term[0]:
             ## if next_formula completely precedes next_term, keep formula and increment
             output.append(next_formula)
@@ -648,16 +658,17 @@ def merge_formulaic_and_regular_term_tuples(term_tuples: List, formulaic_tuples:
             if len(formulaic_tuples) > formula_pointer:
                 next_formula = formulaic_tuples[formula_pointer]
             else:
-                next_formula = None        # @semanticbeeng @todo static typing
+                next_formula = None                 # @semanticbeeng @todo static typing
+
         else:
             ## in all other conditions there is some overlap, but getting rid of
             ## the next term would solve the overlap
             term_pointer = term_pointer + 1
             if len(term_tuples) > term_pointer:
-                next_term = term_tuples[term_pointer]
-                next_term.append('chunk-based')
+                next_term = term_tuples[term_pointer] + ('chunk-based', )
+            #   next_term.append('chunk-based')     # @semanticbeeng @todo static typing
             else:
-                next_term = None           # @semanticbeeng @todo static typing
+                next_term = None                    # @semanticbeeng @todo static typing
     return (output)
 
 
@@ -692,22 +703,22 @@ def global_formula_filter(term_list, term_hash: Dict[str, List[Tuple[int, int]]]
 #
 #   @semanticbeeng @todo extract @data
 #
-def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
+def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List[Tuple[int, int, str]]:
 
-    txt_markup = re.compile('(\[in-line-formulae\].*?\[/in-line-formulae\])|(</[a-z]+>)|(<(/)?[a-z]+( [a-z]+=[^>]+)* ?>)', re.I)
-    single_quote_pattern = re.compile(
+    txt_markup: Pattern[str] = re.compile('(\[in-line-formulae\].*?\[/in-line-formulae\])|(</[a-z]+>)|(<(/)?[a-z]+( [a-z]+=[^>]+)* ?>)', re.I)
+    single_quote_pattern: Pattern[str] = re.compile(
         '(\s|^)[\`\'‘](?!(s[^a-z]|d[^a-z]| |t[^a-z]|ll[^a-z]|m[^a-z]|ve[^a-z]|re[^a-z]))([^\`\']*?)[\'’](?!(s[^a-z]|d[^a-z]|t[^a-z]|ll[^a-z]|m[^a-z]|ve[^a-z]|re[^a-z]))')
     ## '...', where ' is not followed by a contraction or possessive marker (the first one cannot be followed by a space either,
     ## since this would make it a second quote or a plural possessive marker -- note this procludes an apostrophe inside a single quote
-    double_quote_pattern = re.compile('(\s|^)["“]([^"“”]*?)["”](\s|$)')
-    first_character_pattern = re.compile('[^ ,\.?><\'";:\]\[{}\-_=)(*&\^%$\#@!~]')
+    double_quote_pattern: Pattern[str] = re.compile('(\s|^)["“]([^"“”]*?)["”](\s|$)')
+    first_character_pattern: Pattern[str] = re.compile('[^ ,\.?><\'";:\]\[{}\-_=)(*&\^%$\#@!~]')
     start = 0
     paren_pat: Optional[Match[str]] = parentheses_pattern_match(text, start, 3)
     ### parentheses_pattern3.search(text,start)
-    txt_markup_match = txt_markup.search(text, start)
+    txt_markup_match: Optional[Match[str]] = txt_markup.search(text, start)
 
     pieces: List[Tuple[int, str]] = []
-    topic_terms: List = []
+    topic_terms: List[Tuple[int, int, str]] = []
     extend_antecedent = False
     last_start = False
     pre_np = False
@@ -753,20 +764,27 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
                                             )       # @semanticbeeng @todo static typing
 
             if result and (result[3] == 'JARGON'):
-                ARG1_start = result[0]
-                ARG1_end = result[1]
+                ARG1_start: int = result[0]
+                ARG1_end: int = result[1]
+
                 if result[4]:
                     ARG2_start = paren_pat.start(2) + offset
                     ARG2_end = ARG2_start + len(abbreviation) - 1
 
-                    if filter_off or (topic_term_ok_boolean([result[2]], ['NOUN_OOV'], result[2]) and topic_term_ok_boolean([abbreviation[1:]], ['NOUN_OOV'], abbreviation[1:])):
-                        topic_terms.extend([[ARG1_start, ARG1_end, result[2]], [ARG2_start, ARG2_end, abbreviation[1:]]])
+                    if filter_off or (topic_term_ok_boolean([result[2]], ['NOUN_OOV'], result[2]) and
+                                      topic_term_ok_boolean([abbreviation[1:]], ['NOUN_OOV'], abbreviation[1:])):
+
+                        # @semanticbeeng @todo static typic
+                        topic_terms.extend([(ARG1_start, ARG1_end, result[2]), (ARG2_start, ARG2_end, abbreviation[1:])])
                 else:
                     ARG2_start = paren_pat.start(2) + offset
                     ARG2_end = ARG2_start + len(abbreviation)
 
-                    if filter_off or (topic_term_ok_boolean([result[2]], ['NOUN_OOV'], result[2]) and topic_term_ok_boolean([abbreviation], ['NOUN_OOV'], abbreviation)):
-                        topic_terms.extend([[ARG1_start, ARG1_end, result[2]], [ARG2_start, ARG2_end, abbreviation]])
+                    if filter_off or (topic_term_ok_boolean([result[2]], ['NOUN_OOV'], result[2]) and
+                                      topic_term_ok_boolean([abbreviation], ['NOUN_OOV'], abbreviation)):
+
+                        # @semanticbeeng @todo static typic
+                        topic_terms.extend([(ARG1_start, ARG1_end, result[2]), (ARG2_start, ARG2_end, abbreviation)])
 
                 pieces.append((start, text[start:paren_pat.start()]))       # @semanticbeeng @todo static typing
 
@@ -922,7 +940,8 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
                         if current_out_list and (filter_off or topic_term_ok_boolean(current_out_list, current_pos_list, term_string)):
                             start_offset = term_start + meta_start + offset
                             end_offset = piece2_start + start + meta_start + offset
-                            topic_terms.append([start_offset, end_offset, term_string])
+                            # @semanticbeeng @todo static typic
+                            topic_terms.append((start_offset, end_offset, term_string))
 
                         current_out_list = None                 # @semanticbeeng @todo static typing
                         current_pos_list = None                 # @semanticbeeng @todo static typing
@@ -948,7 +967,8 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
                         if filter_off or topic_term_ok_boolean(current_out_list, current_pos_list, term_string):
                             start_offset = term_start + meta_start + offset
                             end_offset = next_word_end + start + meta_start + offset - end_minus
-                            topic_terms.append([start_offset, end_offset, term_string])
+                            # @semanticbeeng @todo static typic
+                            topic_terms.append((start_offset, end_offset, term_string))
 
                         current_out_list = None            # @semanticbeeng @todo static typing
                         current_pos_list = None            # @semanticbeeng @todo static typing
@@ -983,7 +1003,8 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
                             current_pos_list.append(pos)
                             start_offset = term_start + meta_start + offset
                             end_offset = next_word_end + start + meta_start + offset
-                            topic_terms.append([start_offset, end_offset, term_string])
+                            # @semanticbeeng @todo static typic
+                            topic_terms.append((start_offset, end_offset, term_string))
 
                         current_out_list = None         # @semanticbeeng @todo static typing
                         current_pos_list = None         # @semanticbeeng @todo static typing
@@ -1033,8 +1054,8 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
                             if filter_off or topic_term_ok_boolean(current_out_list, current_pos_list, term_string):
                                 start_offset = term_start + meta_start + offset
                                 end_offset = next_word_end + start + meta_start + offset
-
-                                topic_terms.append([start_offset, end_offset, term_string])
+                                # @semanticbeeng @todo static typic
+                                topic_terms.append((start_offset, end_offset, term_string))
 
                                 current_out_list = None         # @semanticbeeng @todo static typing
                                 current_pos_list = None         # @semanticbeeng @todo static typing
@@ -1059,10 +1080,13 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
                                 current_pos_list = [pos]
                                 term_start = next_word_start + start
                             term_string = interior_white_space_trim(piece2[term_start - start:next_word_end - 2])
+
                             if filter_off or topic_term_ok_boolean(current_out_list, current_pos_list, term_string):
                                 start_offset = term_start + meta_start + offset
                                 end_offset = next_word_end + start + meta_start + offset
-                                topic_terms.append([start_offset, end_offset, term_string])
+                                # @semanticbeeng @todo static typic
+                                topic_terms.append((start_offset, end_offset, term_string))
+
                                 current_out_list = None             # @semanticbeeng @todo static typing
                                 current_pos_list = None             # @semanticbeeng @todo static typing
                             else:
@@ -1124,7 +1148,9 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
                         if current_out_list and (filter_off or topic_term_ok_boolean(current_out_list, current_pos_list, term_string)):
                             start_offset = term_start + meta_start + offset
                             end_offset = piece2_start + start + meta_start + offset
-                            topic_terms.append([start_offset, end_offset, term_string])
+                            # @semanticbeeng @todo static typic
+                            topic_terms.append((start_offset, end_offset, term_string))
+
                             current_out_list = None             # @semanticbeeng @todo static typing
                             current_pos_list = None             # @semanticbeeng @todo static typing
                             pre_np = False
@@ -1170,10 +1196,13 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
                                 current_pos_list = [pos]
                                 term_start = next_word_start + start
                                 term_string = interior_white_space_trim(piece2[term_start - start:next_word_end - 2])
+
                                 if filter_off or topic_term_ok_boolean(current_out_list, current_pos_list, term_string):
                                     start_offset = term_start + meta_start + offset
                                     end_offset = next_word_end + start + meta_start + offset
-                                    topic_terms.append([start_offset, end_offset, term_string])
+                                    # @semanticbeeng @todo static typic
+                                    topic_terms.append((start_offset, end_offset, term_string))
+
                                     current_out_list = None         # @semanticbeeng @todo static typing
                                     current_pos_list = None         # @semanticbeeng @todo static typing
                                 else:
@@ -1210,7 +1239,9 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List:
                 if filter_off or topic_term_ok_boolean(current_out_list, current_pos_list, term_string):
                     start_offset = term_start + meta_start + offset
                     end_offset = piece2_start + start + meta_start + offset
-                    topic_terms.append([start_offset, end_offset, term_string])
+                    # @semanticbeeng @todo static typic
+                    topic_terms.append((start_offset, end_offset, term_string))
+
             if split_position:
                 start = split_position.end()
                 split_position = next_splitter_pattern(piece, start)
@@ -1567,23 +1598,25 @@ def write_term_becomes_person(outstream, term, instances) -> None:
 #   @semanticbeeng @todo global state initialization pos_offset_table
 #
 def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[POS], terms_file: File[TERM], marked_paragraphs=False, filter_off=False) -> None:
-    # @semanticbeeng not used @todo
-    global abbr_to_full_dict
-    global full_to_abbr_dict
+
+    # global abbr_to_full_dict              # @semanticbeeng @todo not used
+    # global full_to_abbr_dict              # @semanticbeeng @todo not used
     global term_id_number
     global term_hash
-    term_id_number = 0
+    term_id_number = 0                      # @semanticbeeng @todo @global state mutation initialization
+    term_hash = {}                          # @semanticbeeng @todo global state: is this initiaized every time? then why global?
+    pos_offset_table.clear()                # @semanticbeeng @todo @global state mutation initialization
+    lemma_dict.clear()                      # @semanticbeeng @todo @global state mutation initialization
+
     line_break_match = os.linesep + '(([ \t]*)[^A-Z \t])'
-    start_ends = []
+    start_ends: List[Tuple[int, int]] = []
     txt_strings: List[PosFact] = []
-    term_hash = {}        # @semanticbeeng @todo global state: is this initiaized every time? then why global?
-    pos_offset_table.clear()
-    lemma_dict.clear()
+
     lemma_count: Dict[str, int] = {}
     head_hash = {}
     term_type_hash: Dict[str, str] = {}
 
-    structure_pattern = re.compile('STRUCTURE *TYPE="TEXT" *START=([0-9]*) *END=([0-9]*)', re.I)
+    structure_pattern: Pattern[str] = re.compile('STRUCTURE *TYPE="TEXT" *START=([0-9]*) *END=([0-9]*)', re.I)
     if os.path.isfile(pos_file.name):
         load_pos_offset_table(pos_file)
     else:
@@ -1597,7 +1630,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
             if match:
                 start = int(match.group(1))
                 end = int(match.group(2))
-                start_ends.append([start, end])
+                start_ends.append((start, end))     # @semanticbeeng @todo static typic
 
     start_ends.sort()
 
@@ -1616,12 +1649,12 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     else:
         start, end = start_ends[0]
         end = 0
-        current_block = ''
+        current_block: str = ''
         so_far = start
 
         for line in lines:
             end = so_far + len(line)
-            next_line = re.sub(os.linesep, ' ', line)
+            next_line: str = re.sub(os.linesep, ' ', line)
             current_block = current_block + next_line
             big_txt = big_txt + next_line
 
@@ -1638,8 +1671,12 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
         text = re.sub(line_break_match, ' \g<1>', text)
         if (text.count('\t') + text.count(' ')) < (len(text) / 3):
             ##  ignore tables
-            term_triples: List = get_topic_terms(text, start, filter_off=filter_off)
-            formulaic_tuples = get_formulaic_term_pieces(text, start)
+
+            # @semanticbeeng @todo static typic
+            term_triples: List[Tuple[int, int, str]] = get_topic_terms(text, start, filter_off=filter_off)
+
+            formulaic_tuples: List[Tuple[int, int, str, str]] = get_formulaic_term_pieces(text, start)
+
             term_tuples = merge_formulaic_and_regular_term_tuples(term_triples, formulaic_tuples)
         else:
             term_tuples = []
