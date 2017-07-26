@@ -3,7 +3,7 @@ package org.czi.termolator.porting
 import scala.collection.immutable.Seq
 
 /**
-  * Created by nickdsc on 7/12/17.
+  *
   */
 object make_termolator_fact_txt_files {
 

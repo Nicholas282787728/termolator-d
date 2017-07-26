@@ -4,7 +4,7 @@ import jep.{Jep, JepConfig}
 
 
 /**
-  * Created by nickdsc on 7/26/17.
+  *
   */
 trait JepEnabled {
 
@@ -55,6 +55,7 @@ trait JepEnabled {
     args.toList.map {
       case a: String ⇒ s"`$a`"
       case a: Boolean ⇒ if (a) "True" else "False"
+      case a: Option[_] ⇒ if (a.isDefined) mapArgs(Seq(a.get)) else "None"
       case a: Seq[_] ⇒ s"[ ${mapArgs(a)} ]"
       case a ⇒ a.toString
     }.mkString(", ")

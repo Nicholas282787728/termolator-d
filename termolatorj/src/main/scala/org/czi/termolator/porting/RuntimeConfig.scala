@@ -1,7 +1,7 @@
 package org.czi.termolator.porting
 
 /**
-  * Created by nickdsc on 7/26/17.
+  *
   */
 object RuntimeConfig {
 

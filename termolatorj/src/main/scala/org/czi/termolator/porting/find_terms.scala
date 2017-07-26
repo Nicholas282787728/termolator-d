@@ -12,15 +12,13 @@ object find_terms extends JepEnabled {
   /**
     * @code_reference [[./nyu_english_new.find_terms.find_inline_terms_for_file_list]]
     */
-  def find_inline_terms_for_file_list(file_list : List[File[_]], dict_prefix : Boolean = false) = {
+  def find_inline_terms_for_file_list(file_list : List[File[_]], dict_prefix : Option[String] = None) = {
 
     val functionName = "find_inline_terms_for_file_list"
 
-    //jep.eval("dictionary.initialize_utilities()")
-    //jep.eval("find_inline_terms_for_file_list(File('DAVETEST.internal_prefix_list'), dict_prefix=False)")
+    pyCall(functionName, File("DAVETEST.internal_prefix_list"), None) // @todo "dict_prefix=False")
 
-    pyCall(functionName, File("DAVETEST.internal_prefix_list"), false) // @todo "dict_prefix=False")
-
+    // @todo
 //    file_list map { file : File[_] ⇒
 //      term_utilities.get_lines_from_file(file)
 //

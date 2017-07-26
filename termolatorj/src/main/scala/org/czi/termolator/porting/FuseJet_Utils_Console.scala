@@ -4,7 +4,7 @@ import DataDef.{FACT, File, POS, TXT3}
 
 
 /**
-  * Created by nickdsc on 7/23/17.
+  *
   */
 object FuseJet_Utils_Console {
 

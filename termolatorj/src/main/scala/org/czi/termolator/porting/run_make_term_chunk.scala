@@ -1,7 +1,7 @@
 package org.czi.termolator.porting
 
 /**
-  * Created by nickdsc on 7/12/17.
+  *
   */
 object run_make_term_chunk {
 
