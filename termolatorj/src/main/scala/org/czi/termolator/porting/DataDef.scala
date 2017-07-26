@@ -1,5 +1,8 @@
 package org.czi.termolator.porting
 
+import scala.io.Source
+
+
 /**
   * rm -rf `find . -name *.txt2`
 *rm -rf `find . -name *.txt3`
@@ -30,7 +33,12 @@ object DataDef {
     * Represents a persistent list of records of type [[T]]s
     */
   case class File[T](name: String) {
-    def items: List[T] = List.empty
+
+    def readlines(): List[String] = {
+      // @todo wrap lines in in File T is File;
+      // @todo @hack for now
+      Source.fromFile(name).getLines.toList
+    }
 
     override def toString : String = s"File('$name')"
   }

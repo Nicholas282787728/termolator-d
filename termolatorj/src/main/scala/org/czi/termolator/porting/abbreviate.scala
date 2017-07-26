@@ -17,9 +17,10 @@ object abbreviate extends JepEnabled {
     */
   def run_abbreviate_on_lines(lines : List[String],
                               abbr_file : File[ABBR],
-                              reset_dictionary : Boolean = false) : List[Map[String, String]]= {
+                              reset_dictionary : Boolean = false) : List[Map[String, String]] = {
 
     FunctionDef("run_abbreviate_on_lines", ("lines", lines), ("abbr_file", abbr_file), ("reset_dictionary", reset_dictionary)).pyCall()
+    null //@todo implement returns
   }
 
   /**
