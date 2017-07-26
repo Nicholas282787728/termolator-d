@@ -32,7 +32,11 @@ public class run_find_inline_terms {
             jep.eval(null);
 
             jep.runScript(root + "run_find_inline_terms.py");
-            jep.eval("main(['" + NYU_DIR +"DAVETEST.internal_prefix_list', False])");
+
+            jep.eval("dictionary.initialize_utilities()");
+
+            jep.eval("find_inline_terms_for_file_list(File('DAVETEST.internal_prefix_list'), dict_prefix=False)");
+            //jep.eval("main(['" + NYU_DIR +"DAVETEST.internal_prefix_list', False])");
             Object result = null; //jep.getValue("isGood()");
             jep.close();
 //        if(!Boolean.TRUE.equals(result)){

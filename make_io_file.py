@@ -32,4 +32,5 @@ def main(args):
                 outstream.write(os.linesep)
 
 
+# @semanticbeeng @todo to run from Jep
 if __name__ == '__main__': sys.exit(main(sys.argv))
