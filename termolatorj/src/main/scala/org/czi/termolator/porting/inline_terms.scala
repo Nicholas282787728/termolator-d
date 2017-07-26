@@ -3,10 +3,11 @@ package org.czi.termolator.porting
 /**
   *
   */
-object inline_terms {
+object inline_terms extends JepEnabled {
 
   import DataDef._
 
+  val moduleName = "inline_terms"
 
   /**
     * @code_reference [[./nyu-english-new/inline_terms.py:1562]]
@@ -67,6 +68,12 @@ object inline_terms {
                         pos_file : File[POS],
                         terms_file : File[TERMS],
                         marked_paragraphs : Boolean = false,
-                        filter_off : Boolean = false) = ???
+                        filter_off : Boolean = false) : Unit = {
+
+    FunctionDef("find_inline_terms",
+      ("lines", lines), ("fact_file", fact_file),
+      ("pos_file", pos_file),  ("terms_file", terms_file), ("marked_paragraphs", marked_paragraphs),
+      ("filter_off", filter_off)).pyCall()
+  }
 
 }

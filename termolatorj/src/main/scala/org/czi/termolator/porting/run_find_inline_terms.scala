@@ -12,7 +12,7 @@ object run_find_inline_terms {
   /**
     * @see [[internal_prefix_list]]
     */
-  def main(files: File[File[BARE]], output_file_name: String, topic_areas : List[String]) = {
+  def main(files: File[File[BARE]], output_file_name: String, topic_areas : List[String]) : Unit = {
 
     dictionary.initialize_utilities()
     find_terms.find_inline_terms_for_file_list(files, None)

@@ -3,9 +3,11 @@ package org.czi.termolator.porting
 /**
   *
   */
-object term_utilities {
+object term_utilities extends JepEnabled {
 
-  /**
+  val moduleName = "term_utilities"
+
+    /**
     * @code_reference [[./nyu-english-new/term_utilities.py:1088]]
     */
   def get_my_string_list : List[String] = ???
@@ -38,5 +40,7 @@ object term_utilities {
   /**
     * @code_reference [[term_utilities.get_lines_from_file]]
     */
-  def get_lines_from_file(infile: File[_]) = ???
+  def get_lines_from_file(infile: File[_]) = {
+      FunctionDef("get_lines_from_file", ("infile", infile)).pyCall()
+  }
 }
