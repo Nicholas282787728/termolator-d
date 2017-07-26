@@ -143,7 +143,7 @@ object run_termolator extends App {
     *echo "calling distributional_component.py in term_extration using foreground and background tchunk list with output to file $4.all_terms"
     */
 
-
+    JepContext.close
 
 
   // ============== END ==============

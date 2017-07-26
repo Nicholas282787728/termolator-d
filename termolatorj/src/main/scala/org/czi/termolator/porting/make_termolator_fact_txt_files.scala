@@ -16,13 +16,15 @@ object make_termolator_fact_txt_files {
   def main(input_file: File[File[TXT]], file_type: String): Seq[(File[TXT2], File[TXT3], File[FACT])] = {
 
     if(input_file != null)
-    input_file.items map { f ⇒
-      create_termolotator_fact_txt_files(f,
-        File[TXT2](s"${f.name}.txt2"),
-        File[TXT3](s"${f.name}.txt3"),
-        File[FACT](s"${f.name}.fact"))
+      input_file.readlines() map { f ⇒
 
-    } else
+        val file = File[TXT](f)
+        create_termolotator_fact_txt_files(file,
+          File[TXT2](s"${file.name}.txt2"),
+          File[TXT3](s"${file.name}.txt3"),
+          File[FACT](s"${file.name}.fact"))
+
+      } else
       Seq.empty
   }
 
@@ -56,6 +58,6 @@ object make_termolator_fact_txt_files {
   /**
     * @code_reference [[./nyu-english-new/make_termolator_fact_txt_files.py:8]]
     */
-  def modify_paragraph_delimiters = ???
+  def modify_paragraph_delimiters = Unit
 
 }
