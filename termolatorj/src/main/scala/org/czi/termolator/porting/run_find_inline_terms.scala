@@ -6,7 +6,7 @@ package org.czi.termolator.porting
   */
 object run_find_inline_terms {
 
-  import DataDef_j._
+  import DataDef._
   import run_termolator_j._
 
   /**

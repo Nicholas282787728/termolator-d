@@ -7,7 +7,7 @@ import scala.collection.immutable.Seq
   */
 object make_termolator_fact_txt_files {
 
-  import DataDef_j._
+  import DataDef._
 
 
   /**

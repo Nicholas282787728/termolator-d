@@ -21,7 +21,7 @@ import scala.language.higherKinds
 
 object run_termolator_j {
 
-  import DataDef_j._
+  import DataDef._
 
 
   /**

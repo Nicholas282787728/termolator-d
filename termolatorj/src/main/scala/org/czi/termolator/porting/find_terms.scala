@@ -5,7 +5,7 @@ package org.czi.termolator.porting
   */
 object find_terms extends JepEnabled {
 
-  import DataDef_j._
+  import DataDef._
 
   val moduleName = "find_terms.py"
 

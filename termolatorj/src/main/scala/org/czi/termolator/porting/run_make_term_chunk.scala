@@ -5,7 +5,7 @@ package org.czi.termolator.porting
   */
 object run_make_term_chunk {
 
-  import DataDef_j._
+  import DataDef._
   import run_termolator_j._
 
   /**
@@ -17,7 +17,7 @@ object run_make_term_chunk {
   def main(infiles: File[(File[POS],  File[TERMS], File[ABBR])]
            /*List[(FileName[POS], FileName[TERMS], FileName[ABBR])]*/) : File[File[TCHUNK]] = {
 
-    inline_terms.make_term_chunk_file_list(infiles)
+    // @todo inline_terms.make_term_chunk_file_list(infiles)
 
     internal_foreground_tchunk_list //@todo
   }

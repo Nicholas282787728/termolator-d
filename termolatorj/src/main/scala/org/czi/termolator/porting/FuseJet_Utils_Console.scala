@@ -1,6 +1,6 @@
 package org.czi.termolator.porting
 
-import DataDef_j.{FACT, File, POS, TXT3}
+import DataDef.{FACT, File, POS, TXT3}
 
 
 /**

@@ -5,7 +5,7 @@ package org.czi.termolator.porting
   */
 object make_io_file {
 
-  import DataDef_j._
+  import DataDef._
   import run_termolator_j._
 
   /**

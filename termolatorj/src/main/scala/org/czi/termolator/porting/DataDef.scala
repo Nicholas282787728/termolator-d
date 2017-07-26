@@ -12,7 +12,7 @@ package org.czi.termolator.porting
  *
  */
 
-object DataDef_j {
+object DataDef {
 
   type TXT = String
   type BARE = String

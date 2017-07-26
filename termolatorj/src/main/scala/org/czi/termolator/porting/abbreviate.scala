@@ -5,7 +5,7 @@ package org.czi.termolator.porting
   */
 object abbreviate {
 
-  import DataDef_j._
+  import DataDef._
 
   /**
     * @code_reference [[abbreviate.run_abbreviate_on_lines]]

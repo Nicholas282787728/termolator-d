@@ -5,14 +5,14 @@ package org.czi.termolator.porting
   */
 object run_adjust_missing_char_pos {
 
-  import DataDef_j._
+  import DataDef._
   import run_termolator_j._
 
 
   /**
     * [[internal_fact_pos_list]]
     */
-  def main(input: File[(File[FACT], File[POS])]) = _ {
+  def main(input: File[(File[FACT], File[POS])]) = {
     fix_bad_char_in_file(null, null) //@todo
   }
 

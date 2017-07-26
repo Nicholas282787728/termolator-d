@@ -34,7 +34,7 @@ object term_utilities_j {
     null
   }
 
-  import DataDef_j._
+  import DataDef._
   /**
     * @code_reference [[term_utilities_j.get_lines_from_file]]
     */

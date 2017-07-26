@@ -11,7 +11,7 @@ trait JepEnabled {
   import RuntimeConfig._
 
   val config = new JepConfig
-  config.addIncludePaths(Array(".", root))
+  config.addIncludePaths(Array(".", root):_*)
 
   val jep = new Jep(config)
   var moduleInited: Boolean = false
