@@ -1,6 +1,6 @@
 package org.czi.termolator.porting
 
-import scala.io.Source
+import scala.io.{BufferedSource, Source}
 
 
 /**
@@ -34,10 +34,27 @@ object DataDef {
     */
   case class File[T](name: String) {
 
+    class InternalStream(name: String) {
+      val b = Source.fromFile(name)
+
+      def readlines(): List[String] = {
+        // @todo wrap lines in in File T is File;
+        // @todo @hack for now
+        b.getLines.toList
+      }
+    }
+
+    var theStream : InternalStream = null
+
+    def openText(mode: String, encoding: String = "", errors: String = "") = {
+      theStream = new InternalStream(name)
+    }
+
     def readlines(): List[String] = {
       // @todo wrap lines in in File T is File;
       // @todo @hack for now
-      Source.fromFile(name).getLines.toList
+      theStream = new InternalStream(name)
+      theStream.readlines()
     }
 
     override def toString : String = s"File('$name')"
