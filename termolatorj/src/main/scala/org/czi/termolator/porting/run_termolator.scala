@@ -125,7 +125,7 @@ object run_termolator extends App {
     * @note this is run again for background files
     */
   //val topic_areas = null
-  run_find_inline_terms.main(internal_prefix_list, /*output_file_name*/null, null)
+  //@todo run_find_inline_terms.main(internal_prefix_list, /*output_file_name*/null, null)
 
   /**
     * @code_reference [[./nyu-english-new/run_termolator.sh:76]]
