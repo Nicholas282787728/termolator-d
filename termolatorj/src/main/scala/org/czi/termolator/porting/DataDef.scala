@@ -30,7 +30,9 @@ object DataDef {
     * Represents a persistent list of records of type [[T]]s
     */
   case class File[T](name: String) {
-    def items: List[T] = ???
+    def items: List[T] = List.empty
+
+    override def toString : String = s"File('$name')"
   }
 
 //  type Records[T] = List[Record[T]]

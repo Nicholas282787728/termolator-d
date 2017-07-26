@@ -7,7 +7,7 @@ object find_terms extends JepEnabled {
 
   import DataDef._
 
-  val moduleName = "find_terms.py"
+  val moduleName = "find_terms"
 
   /**
     * @code_reference [[./nyu_english_new.find_terms.find_inline_terms_for_file_list]]
@@ -16,10 +16,10 @@ object find_terms extends JepEnabled {
 
     val functionName = "find_inline_terms_for_file_list"
 
-    jep.eval("dictionary.initialize_utilities()")
+    //jep.eval("dictionary.initialize_utilities()")
     //jep.eval("find_inline_terms_for_file_list(File('DAVETEST.internal_prefix_list'), dict_prefix=False)")
 
-    call(functionName, "File('DAVETEST.internal_prefix_list')", "dict_prefix=False")
+    pyCall(functionName, File("DAVETEST.internal_prefix_list"), false) // @todo "dict_prefix=False")
 
 //    file_list map { file : File[_] ⇒
 //      term_utilities.get_lines_from_file(file)

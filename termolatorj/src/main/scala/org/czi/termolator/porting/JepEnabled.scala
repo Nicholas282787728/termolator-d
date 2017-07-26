@@ -21,7 +21,8 @@ trait JepEnabled {
     */
   private def ensureModuleInitialized(): Unit = {
     if (!moduleInited) {
-      runScript(moduleName)
+      jep.set("__file__", root + "/another")
+      runScript(s"$moduleName.py")
       moduleInited = true
     }
   }
@@ -35,20 +36,27 @@ trait JepEnabled {
     jep.runScript(root + functinName)
   }
 
-  def call(functionName: String, args: Any*) = {
+  /**
+    *
+    */
+  def pyCall(functionName: String, args: Any*) = {
 
     ensureModuleInitialized()
 
-    val callString = s"$functionName( ${mapArgs(args)} )"
+    val callString = s"$functionName(${mapArgs(args)})"
+    println(s"calling $moduleName.$callString")
     jep.eval(callString)
   }
 
+  /**
+    *
+    */
   private def mapArgs(args: Seq[Any]) : String = {
     args.toList.map {
       case a: String ⇒ s"`$a`"
       case a: Boolean ⇒ if (a) "True" else "False"
       case a: Seq[_] ⇒ s"[ ${mapArgs(a)} ]"
-      case _ ⇒ ""
+      case a ⇒ a.toString
     }.mkString(", ")
   }
 }

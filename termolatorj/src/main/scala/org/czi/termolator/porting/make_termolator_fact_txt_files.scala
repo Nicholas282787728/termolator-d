@@ -15,16 +15,18 @@ object make_termolator_fact_txt_files {
     */
   def main(input_file: File[File[TXT]], file_type: String): Seq[(File[TXT2], File[TXT3], File[FACT])] = {
 
+    if(input_file != null)
     input_file.items map { f ⇒
       create_termolotator_fact_txt_files(f,
         File[TXT2](s"${f.name}.txt2"),
         File[TXT3](s"${f.name}.txt3"),
         File[FACT](s"${f.name}.fact"))
 
-    }
+    } else
+      Seq.empty
   }
 
-  import term_utilities_j._
+  import term_utilities._
 
 
   /**

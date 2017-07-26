@@ -45,12 +45,12 @@ object inline_terms {
     /**
       * @todo for [[term_file]]
       */
-    term_utilities_j.get_integrated_line_attribute_value_structure_no_list
+    term_utilities.get_integrated_line_attribute_value_structure_no_list
 
     /**
       * @todo for [[abbreviate_file]]
       */
-    term_utilities_j.get_integrated_line_attribute_value_structure_no_list
+    term_utilities.get_integrated_line_attribute_value_structure_no_list
 
     get_pos_structure(null) //@todo
     null //@todo

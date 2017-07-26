@@ -3,7 +3,7 @@ package org.czi.termolator.porting
 /**
   * Created by nickdsc on 7/12/17.
   */
-object term_utilities_j {
+object term_utilities {
 
   /**
     * @code_reference [[./nyu-english-new/term_utilities.py:1088]]
@@ -36,7 +36,7 @@ object term_utilities_j {
 
   import DataDef._
   /**
-    * @code_reference [[term_utilities_j.get_lines_from_file]]
+    * @code_reference [[term_utilities.get_lines_from_file]]
     */
   def get_lines_from_file(infile: File[_]) = ???
 }
