@@ -20,18 +20,19 @@ public class run_find_inline_terms {
 
         File pwd = new File(".");
         JepConfig config = new JepConfig();
-        config.addIncludePaths(new String[]{"."});
+        config.addIncludePaths(new String[]{".", root});
 
-        Jep jep = new Jep(false, pwd.getAbsolutePath());
-//        jep.eval("import py_compile");
-//        jep.eval("py_compile.compile(file='build/testScript.py', cfile='build/testScript.pyc')");
-//        jep.eval(null);
-        jep.runScript(root + "run_find_inline_terms.py"); //DAVETEST.internal_prefix_list false
+        //Jep jep = new Jep(false, pwd.getAbsolutePath());
+        Jep jep = new Jep(config);
+        jep.eval("import DataDef");
+        //jep.eval(null);
+
+        jep.runScript(root + "make_io_file.py"); //DAVETEST.internal_prefix_list false
         Object result = null; //jep.getValue("isGood()");
-        jep.close();
-        if(!Boolean.TRUE.equals(result)){
-            throw new IllegalStateException("isGood() returned " + result);
-        }
+        jep.close();ddd
+//        if(!Boolean.TRUE.equals(result)){
+//            throw new IllegalStateException("isGood() returned " + result);
+//        }
 
     }
 }
