@@ -16,6 +16,7 @@ import java.io.FileReader;
 public class run_find_inline_terms {
 
     private static final String root = "/development/projects/04_clients/czi/ds/The_Termolator/";
+    private static final String NYU_DIR = "/development/projects/04_clients/czi/ds/The_Termolator/tests/czi/DAVETEST_small/source/";
 
     public static void main(String[] args)  {
 
@@ -31,7 +32,7 @@ public class run_find_inline_terms {
             jep.eval(null);
 
             jep.runScript(root + "run_find_inline_terms.py");
-            jep.eval("main(['DAVETEST.internal_prefix_list', 'false'])");
+            jep.eval("main(['" + NYU_DIR +"DAVETEST.internal_prefix_list', False])");
             Object result = null; //jep.getValue("isGood()");
             jep.close();
 //        if(!Boolean.TRUE.equals(result)){
