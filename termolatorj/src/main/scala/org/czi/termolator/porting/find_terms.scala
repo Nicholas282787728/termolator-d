@@ -14,9 +14,9 @@ object find_terms extends JepEnabled {
     */
   def find_inline_terms_for_file_list(file_list : File[File[BARE]], dict_prefix : Option[String] = None) = {
 
-    val functionName = "find_inline_terms_for_file_list"
+    val funDef = FunctionDef("find_inline_terms_for_file_list", ("file_list", file_list), ("dict_prefix ", None))
 
-    pyCall(functionName, file_list, None) // @todo "dict_prefix=False")
+    pyCall(funDef) // @todo "dict_prefix=False")
 
     // @todo
 //    file_list map { file : File[_] ⇒

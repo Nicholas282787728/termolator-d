@@ -9,7 +9,7 @@ object dictionary extends JepEnabled {
 
 
   def initialize_utilities() = {
-    val functionName = "initialize_utilities"
+    val functionName = FunctionDef("initialize_utilities")
 
     pyCall(functionName)
 
