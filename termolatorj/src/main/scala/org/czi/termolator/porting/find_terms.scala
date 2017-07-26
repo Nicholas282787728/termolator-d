@@ -12,11 +12,9 @@ object find_terms extends JepEnabled {
   /**
     * @code_reference [[./nyu_english_new.find_terms.find_inline_terms_for_file_list]]
     */
-  def find_inline_terms_for_file_list(file_list : File[File[BARE]], dict_prefix : Option[String] = None) = {
+  def find_inline_terms_for_file_list(file_list : File[File[BARE]], dict_prefix : Option[String] = None) : Unit = {
 
-    val funDef = FunctionDef("find_inline_terms_for_file_list", ("file_list", file_list), ("dict_prefix ", None))
-
-    pyCall(funDef) // @todo "dict_prefix=False")
+    FunctionDef("find_inline_terms_for_file_list", ("file_list", file_list), ("dict_prefix ", None)).pyCall()
 
     // @todo
 //    file_list map { file : File[_] ⇒
@@ -34,6 +32,5 @@ object find_terms extends JepEnabled {
 //      val fileAbbr = _
 //      abbreviate.save_abbrev_dicts(fileAbbr, null) //@todo
 //    }
-    null
   }
 }

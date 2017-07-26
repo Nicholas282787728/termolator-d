@@ -75,8 +75,8 @@ object run_termolator extends App {
 
   run_adjust_missing_char_pos.main(internal_fact_pos_list)
 
-  val files: List[(File[FACT], File[POS], File[TERMS])] =
-    run_find_inline_terms.main(internal_prefix_list, "DAVETEST", null)
+  //@todo @dataFlow val files: List[(File[FACT], File[POS], File[TERMS])] =
+  run_find_inline_terms.main(internal_prefix_list, "DAVETEST", null)
 
   /**
     * @code_reference [[./nyu-english-new/run_termolator.sh:56]]

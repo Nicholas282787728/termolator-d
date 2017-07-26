@@ -16,7 +16,33 @@ trait JepEnabled {
   val jep = new Jep(config)
   var moduleInited: Boolean = false
 
-  case class FunctionDef(name: String, args: (String, Any)*)
+  case class FunctionDef(name: String, args: (String, Any)*) {
+    /**
+      *
+      */
+    def pyCall() = {
+
+      ensureModuleInitialized()
+
+      val callString = s"$name(${mapArgs(args)})"
+      println(s"calling $moduleName.$callString")
+      jep.eval(callString)
+    }
+
+    /**
+      *
+      */
+    private def mapArgs(args: Seq[(String, Any)]) : String = {
+      args.toList.map {
+        case (n: String, v: String) ⇒ s"$n = `$v`"
+        case (n: String, v: Boolean) ⇒ if (v) s"$n = True" else s"$n = False"
+        case (n: String, v: Option[_]) ⇒ if (v.isDefined) mapArgs(Seq((n, v.get))) else s"$n = None"
+        case (n: String, v: Seq[_]) ⇒ s"$n = [ ${mapArgs(Seq((n, v)))} ]"
+        case (n: String, v: Any) ⇒ s"$n = ${v.toString}"
+      }.mkString(", ")
+    }
+
+  }
 
   /**
     *
@@ -38,29 +64,5 @@ trait JepEnabled {
     jep.runScript(root + functinName)
   }
 
-  /**
-    *
-    */
-  def pyCall(funDef : FunctionDef) = {
-
-    ensureModuleInitialized()
-
-    val callString = s"${funDef.name}(${mapArgs({funDef.args})})"
-    println(s"calling $moduleName.$callString")
-    jep.eval(callString)
-  }
-
-  /**
-    *
-    */
-  private def mapArgs(args: Seq[(String, Any)]) : String = {
-    args.toList.map {
-      case (n: String, v: String) ⇒ s"`$v`"
-      case (n: String, v: Boolean) ⇒ if (v) "True" else "False"
-      case (n: String, v: Option[_]) ⇒ if (v.isDefined) mapArgs(Seq((n, v.get))) else "None"
-      case (n: String, v: Seq[_]) ⇒ s"[ ${mapArgs(Seq((n, v)))} ]"
-      case (n: String, v: Any) ⇒ v.toString
-    }.mkString(", ")
-  }
 }
 
