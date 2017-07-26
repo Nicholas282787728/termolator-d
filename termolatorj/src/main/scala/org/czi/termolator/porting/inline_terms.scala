@@ -5,7 +5,7 @@ package org.czi.termolator.porting
   */
 object inline_terms {
 
-  import DataDef._
+  import DataDef_j._
 
 
   /**
@@ -45,18 +45,18 @@ object inline_terms {
     /**
       * @todo for [[term_file]]
       */
-    term_utilities.get_integrated_line_attribute_value_structure_no_list
+    term_utilities_j.get_integrated_line_attribute_value_structure_no_list
 
     /**
       * @todo for [[abbreviate_file]]
       */
-    term_utilities.get_integrated_line_attribute_value_structure_no_list
+    term_utilities_j.get_integrated_line_attribute_value_structure_no_list
 
     get_pos_structure(null) //@todo
     null //@todo
   }
 
-  def get_pos_structure (line: String) = _
+  def get_pos_structure (line: String) = ???
 
   /**
     * @dataFlow write to [[TERMS]]
@@ -67,6 +67,6 @@ object inline_terms {
                         pos_file : File[POS],
                         terms_file : File[TERMS],
                         marked_paragraphs : Boolean = false,
-                        filter_off : Boolean = false) = _
+                        filter_off : Boolean = false) = ???
 
 }

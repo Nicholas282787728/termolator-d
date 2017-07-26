@@ -5,8 +5,8 @@ package org.czi.termolator.porting
   */
 object run_make_term_chunk {
 
-  import DataDef._
-  import run_termolator._
+  import DataDef_j._
+  import run_termolator_j._
 
   /**
     * @code_reference [[./nyu-english-new/run_make_term_chunk.py:8]]

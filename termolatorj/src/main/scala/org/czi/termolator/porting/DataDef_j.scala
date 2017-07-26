@@ -12,7 +12,7 @@ package org.czi.termolator.porting
  *
  */
 
-object DataDef {
+object DataDef_j {
 
   type TXT = String
   type BARE = String
@@ -30,7 +30,7 @@ object DataDef {
     * Represents a persistent list of records of type [[T]]s
     */
   case class File[T](name: String) {
-    def items: List[T] = _
+    def items: List[T] = ???
   }
 
 //  type Records[T] = List[Record[T]]

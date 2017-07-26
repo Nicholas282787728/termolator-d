@@ -5,8 +5,8 @@ package org.czi.termolator.porting
   */
 object run_adjust_missing_char_pos {
 
-  import DataDef._
-  import run_termolator._
+  import DataDef_j._
+  import run_termolator_j._
 
 
   /**
@@ -37,21 +37,21 @@ object run_adjust_missing_char_pos {
   /**
     * @code_reference [[./nyu-english-new/run_adjust_missing_char_pos.py:7]]
     */
-  private def get_pos_facts(facts: List[FACT]) = _
+  private def get_pos_facts(facts: List[FACT]) = ???
 
   /**
     * @code_reference [[./nyu-english-new/run_adjust_missing_char_pos.py:20]]
     */
-  private def make_fact_pair = _
+  private def make_fact_pair = ???
 
 
   /**
     * @code_reference [[./nyu-english-new/run_adjust_missing_char_pos.py:20]]
     */
-  private def make_pos_triple = _
+  private def make_pos_triple = ???
 
   /**
     * @code_reference [[./nyu-english-new/run_adjust_missing_char_pos.py:29]]
     */
-  private def modify_pos_end = _
+  private def modify_pos_end = ???
 }

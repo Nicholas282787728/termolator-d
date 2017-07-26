@@ -19,9 +19,9 @@ import scala.language.higherKinds
 
 
 
-object run_termolator {
+object run_termolator_j {
 
-  import DataDef._
+  import DataDef_j._
 
 
   /**
@@ -31,7 +31,7 @@ object run_termolator {
     * echo "Running Step 1: finding inline terms for foreground files"
     * ## generates fact, txt2 and txt3 files from input files
     */
-  val foregroundFiles : File[File[TXT]] = _ // @todo
+  val foregroundFiles : File[File[TXT]] = ??? // @todo
 
   /**
     * "$TESTNAME.internal_prefix_list"
@@ -57,7 +57,7 @@ object run_termolator {
   var internal_foreground_tchunk_list : File[File[TCHUNK]] =
     make_io_file.main_internal_foreground_tchunk_list(foregroundFiles, ".tchunk")
 
-  val backgroundFiles : File[File[TXT]] = _ // @todo
+  val backgroundFiles : File[File[TXT]] = ???  // @todo
 
   var internal_background_tchunk_list  : File[File[TCHUNK]] =
     make_io_file.main_internal_background_tchunk_list(backgroundFiles, ".tchunk")
@@ -65,7 +65,7 @@ object run_termolator {
   /**
     * Generate the actual context (some of it?)
     */
-  val factFiles: Seq(File[TXT2], File[TXT3], File[FACT]) =
+  val factFiles: Seq[(File[TXT2], File[TXT3], File[FACT])] =
     make_termolator_fact_txt_files.main(internal_prefix_list, ".txt")
 
   /**

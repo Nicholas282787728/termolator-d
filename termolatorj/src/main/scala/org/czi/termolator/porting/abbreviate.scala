@@ -5,7 +5,7 @@ package org.czi.termolator.porting
   */
 object abbreviate {
 
-  import DataDef._
+  import DataDef_j._
 
   /**
     * @code_reference [[abbreviate.run_abbreviate_on_lines]]
@@ -15,12 +15,12 @@ object abbreviate {
     */
   def run_abbreviate_on_lines(lines : List[String],
                               abbr_file : File[ABBR],
-                              reset_dictionary : Boolean = false) = _
+                              reset_dictionary : Boolean = false) = ???
 
-  def save_abbrev_dicts(abbr_to_full_file : File[ABBR], full_to_abbr_file: File[ABBR]) = _
+  def save_abbrev_dicts(abbr_to_full_file : File[ABBR], full_to_abbr_file: File[ABBR]) = ???
 
   /**
     *
     */
-  def record_abbreviate_dictionary = _
+  def record_abbreviate_dictionary = ???
 }

@@ -7,7 +7,7 @@ import scala.collection.immutable.Seq
   */
 object make_termolator_fact_txt_files {
 
-  import DataDef._
+  import DataDef_j._
 
 
   /**
@@ -24,7 +24,7 @@ object make_termolator_fact_txt_files {
     }
   }
 
-  import term_utilities._
+  import term_utilities_j._
 
 
   /**
@@ -54,6 +54,6 @@ object make_termolator_fact_txt_files {
   /**
     * @code_reference [[./nyu-english-new/make_termolator_fact_txt_files.py:8]]
     */
-  def modify_paragraph_delimiters = _
+  def modify_paragraph_delimiters = ???
 
 }
