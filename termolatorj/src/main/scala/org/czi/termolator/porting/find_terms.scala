@@ -29,7 +29,7 @@ object find_terms extends JepEnabled {
 
       val lines: List[String] = term_utilities.get_lines_from_file(new File[TXT3](file_prefix + ".txt3"))
 
-      lines foreach println
+      //lines foreach println
 
       abbreviate.run_abbreviate_on_lines(lines, new File[ABBR](file_prefix + ".abbr"), reset_dictionary = start)
 
