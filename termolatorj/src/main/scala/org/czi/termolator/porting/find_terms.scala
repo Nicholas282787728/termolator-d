@@ -27,12 +27,13 @@ object find_terms extends JepEnabled {
 
       val file_prefix = f.trim
 
-      val lines: List[String] = term_utilities.get_lines_from_file(new File[TXT3](file_prefix + ".txt3"))
+      val lines: List[String] = term_utilities.get_lines_from_file(
+        new File[TXT3](file_prefix + ".txt3"))
 
       //lines foreach println
 
-      abbreviate.run_abbreviate_on_lines(lines, new File[ABBR](file_prefix + ".abbr"), reset_dictionary = start)
-
+      abbreviate.run_abbreviate_on_lines(lines,
+        new File[ABBR](file_prefix + ".abbr"), reset_dictionary = start)
       //      ## creates abbreviation files and acquires abbreviation --> term
       //      ## and term --> abbreviation dictionaries
       //      ## Possibly add alternative which loads existing abbreviation files into
@@ -41,7 +42,10 @@ object find_terms extends JepEnabled {
       //      # if dict_prefix:
       //      #     increment_unigram_dict_from_lines(lines)
       //
-      inline_terms.find_inline_terms(lines, new File[FACT](file_prefix + ".fact"), new File[POS](file_prefix + ".pos"),
+
+      inline_terms.find_inline_terms(lines,
+        new File[FACT](file_prefix + ".fact"),
+        new File[POS](file_prefix + ".pos"),
         new File[TERMS](file_prefix + ".terms"))
 
       start = false

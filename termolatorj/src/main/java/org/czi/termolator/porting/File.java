@@ -17,6 +17,9 @@ public class File<T> {
         this.name = name;
     }
 
+    /**
+     *
+     */
     public InternalStream openText(String mode, String encoding, String errors) {
 
         if (stream == null)
@@ -27,15 +30,24 @@ public class File<T> {
         return stream;
     }
 
+    /**
+     *
+     */
     public InternalStream openText(String mode) {
         return openText(mode, null, null);
     }
 
+    /**
+     *
+     */
     public InternalStream openText() {
 
         return openText("r");
     }
 
+    /**
+     *
+     */
     public List<String> readlines() {
       // @todo wrap lines in in File T is File;
       // @todo @hack for now
@@ -45,6 +57,9 @@ public class File<T> {
 }
 
 
+/**
+ *
+ */
 class InternalStream {
 
     private String name;
@@ -71,6 +86,7 @@ class InternalStream {
         try {
             file.seek(0);
             String line;
+            //new BufferedReader(file);
             List<String> lines = new ArrayList<String>();
             while ((line = file.readLine()) != null) {
                 System.out.println("reading line " + line);
@@ -97,6 +113,7 @@ class InternalStream {
     public void empty() {
         try {
             System.out.println("Resetting file " + name);
+            //file.seek(0);
             file.setLength(0);
         } catch (IOException e) {
             e.printStackTrace();

@@ -19,7 +19,7 @@ def find_inline_terms_for_file_list(file_list: File, dict_prefix: str = None) ->
                 File[TXT3](file_prefix + '.txt3'))  ## add feature to remove xml
 
             run_abbreviate_on_lines(lines,
-                File[ABBR](file_prefix + '.abbr'), reset_dictionary=start)       # @semanticbeeng @todo @arch global state mutation
+                 File[ABBR](file_prefix + '.abbr'), reset_dictionary=start)       # @semanticbeeng @todo @arch global state mutation
 
             ## creates abbreviation files and acquires abbreviation --> term
             ## and term --> abbreviation dictionaries
@@ -30,9 +30,9 @@ def find_inline_terms_for_file_list(file_list: File, dict_prefix: str = None) ->
             #     increment_unigram_dict_from_lines(lines)
 
             find_inline_terms(lines,
-                File[FACT](file_prefix + '.fact'),
-                File[POS](file_prefix + '.pos'),
-                File[TERM](file_prefix + '.terms'))
+                 File[FACT](file_prefix + '.fact'),
+                 File[POS](file_prefix + '.pos'),
+                 File[TERM](file_prefix + '.terms'))
 
             if start:
                 start = False
