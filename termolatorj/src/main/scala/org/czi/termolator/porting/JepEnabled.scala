@@ -30,7 +30,7 @@ trait JepEnabled {
 
   var moduleInited: Boolean = false
 
-  case class FunctionDef(func: String, args: (String, AnyRef)*) {
+  case class FunctionDef(func: String, args: (String, Any)*) {
     /**
       *
       */

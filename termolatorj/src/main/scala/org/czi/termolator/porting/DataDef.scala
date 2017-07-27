@@ -1,19 +1,6 @@
 package org.czi.termolator.porting
 
-import scala.io.{BufferedSource, Source}
-
-
-/**
-  * rm -rf `find . -name *.txt2`
-*rm -rf `find . -name *.txt3`
-*rm -rf `find . -name *.pos`
-*rm -rf `find . -name *.terms`
-*rm -rf `find . -name *.abbr`
-*rm -rf `find . -name *.fact`
-*rm -rf `find . -name *.tchunk`
-*rm -rf `find . -name *.tchunk.nps`
- *
- */
+import scala.io.Source
 
 object DataDef {
 

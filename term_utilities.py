@@ -461,23 +461,26 @@ def isStub(line: str) -> bool:
 #
 def get_lines_from_file(infile: File[TXT3]) -> List[str]:
 
-    with infile.openText(mode='r') as instream:
-        output: List[str] = []
-        short_line: Optional[str] = None        # @semanticbeeng @todo static type
+    # @semanticbeeng @todo @jep
+    # with infile.openText(mode='r') as instream:
 
-        for line in instream.readlines():
-            line = remove_xml(line)
-            if short_line:
-                line = short_line + line
-            if isStub(line):
-                short_line = re.sub(os.linesep, ' ', line)
-            else:
-                short_line = None
-                for line2 in long_line_split(line):
-                    output.append(line2)
+    instream = infile.openText('r')
+    output: List[str] = []
+    short_line: Optional[str] = None        # @semanticbeeng @todo static type
+
+    for line in instream.readlines():
+        line = remove_xml(line)
         if short_line:
-            output.append(short_line)
-        return (output)
+            line = short_line + line
+        if isStub(line):
+            short_line = re.sub(os.linesep, ' ', line)
+        else:
+            short_line = None
+            for line2 in long_line_split(line):
+                output.append(line2)
+    if short_line:
+        output.append(short_line)
+    return (output)
 
 
 #
