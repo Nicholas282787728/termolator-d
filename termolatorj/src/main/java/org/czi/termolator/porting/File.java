@@ -2,6 +2,7 @@ package org.czi.termolator.porting;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,46 +10,60 @@ import java.util.List;
 /**
  *
  */
-public class File2<T> {
+public class File<T> {
 
-    private String name;
+    public String name;
 
-    public File2(String name) {
+    public InternalStream stream;
+
+    public File(String name) {
         this.name = name;
     }
 
     public InternalStream openText(String mode, String encoding, String errors) {
-        return new InternalStream(name);
+
+        if (stream == null)
+            stream = new InternalStream(name);
+        return stream;
     }
 
     public InternalStream openText(String mode) {
-        return new InternalStream(name);
+        return openText(mode, null, null);
     }
 
-    public Object doThis() {
-        return null;
+    public InternalStream openText() {
+
+        return openText("r");
+    }
+
+    public List<String> readlines() {
+      // @todo wrap lines in in File T is File;
+      // @todo @hack for now
+        assert stream != null;
+        return stream.readlines();
     }
 }
 
 
 class InternalStream {
 
-
     private String name;
+    private java.io.File file;
 
-    public InternalStream(String name)
+    InternalStream(String name)
     {
+
         this.name = name;
+        this.file = new java.io.File(name);
     }
 
     public java.util.List<String> readlines() {
         // @todo wrap lines in in File T is File;
         // @todo @hack for now
-        java.io.File b = new java.io.File(name);
 
         BufferedReader br = null;
         try {
-            br = new BufferedReader(new FileReader(b));
+            br = new BufferedReader(new FileReader(file));
 
             String line = null;
             // if no more lines the readLine() returns null
@@ -66,6 +81,22 @@ class InternalStream {
         } finally {
             try {
                 br.close();
+            }
+            catch(IOException e) {}
+        }
+    }
+
+    public void write(String text) {
+        FileWriter w = null;
+
+        try {
+            w = new FileWriter(file);
+            w.write(text);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                w.close();
             }
             catch(IOException e) {}
         }

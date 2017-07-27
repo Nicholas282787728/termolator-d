@@ -43,6 +43,6 @@ object term_utilities extends JepEnabled {
     */
   def get_lines_from_file(infile: File[_]) : List[String] = {
       import collection.JavaConverters._
-      FunctionDef("get_lines_from_file", ("infile", new File2(infile.name))).pyCallAndReturn[java.util.ArrayList[String]]().asScala.toList
+      FunctionDef("get_lines_from_file", ("infile", infile)).pyCallAndReturn[java.util.ArrayList[String]]().asScala.toList
   }
 }

@@ -1625,13 +1625,15 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
         print('Warning POS file does not exist:', pos_file)
 
     # @semanticbeeng @todo @data check of PosFact
-    with fact_file.openText() as instream:
-        for line in instream.readlines():
-            match: Match[str] = structure_pattern.search(line)
-            if match:
-                start = int(match.group(1))
-                end = int(match.group(2))
-                start_ends.append((start, end))     # @semanticbeeng @todo static typic
+    # @semanticbeeng @todo @jep
+    # with fact_file.openText() as instream:
+    instream = fact_file.openText()
+    for line in instream.readlines():
+        match: Match[str] = structure_pattern.search(line)
+        if match:
+            start = int(match.group(1))
+            end = int(match.group(2))
+            start_ends.append((start, end))     # @semanticbeeng @todo static typic
 
     start_ends.sort()
 
@@ -1770,43 +1772,45 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     term_list.sort()
     global_formula_filter(term_list, term_hash, term_type_hash)
 
-    with terms_file.openText(mode='w') as outstream:
-        for term in term_list:
+    # @semanticbeeng @todo @jep
+    outstream = terms_file.openText('w')
+    # with terms_file.openText(mode='w') as outstream:
+    for term in term_list:
 
-            if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
-                #   @semanticbeeng @todo @dataFlow
-                write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count,
-                                            head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
+        if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
+            #   @semanticbeeng @todo @dataFlow
+            write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count,
+                                        head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
 
-            elif et_al_citation.search(term):
-                #   @semanticbeeng @todo @dataFlow
-                write_term_becomes_article_citation(outstream, term, term_hash[term])
+        elif et_al_citation.search(term):
+            #   @semanticbeeng @todo @dataFlow
+            write_term_becomes_article_citation(outstream, term, term_hash[term])
 
-            elif org_ending_pattern.search(term) or org_head_ending(term, head_hash):
-                #   @semanticbeeng @todo @dataFlow
-                write_term_becomes_organization(outstream, term, term_hash[term])
+        elif org_ending_pattern.search(term) or org_head_ending(term, head_hash):
+            #   @semanticbeeng @todo @dataFlow
+            write_term_becomes_organization(outstream, term, term_hash[term])
 
-            elif person_ending_pattern.search(term):
-                #   @semanticbeeng @todo @dataFlow
-                write_term_becomes_person(outstream, term, term_hash[term])
+        elif person_ending_pattern.search(term):
+            #   @semanticbeeng @todo @dataFlow
+            write_term_becomes_person(outstream, term, term_hash[term])
 
-            elif term_is_org_with_write(outstream, term, term_hash[term]):
-                pass
-            else:
-                if term in head_hash:
-                    head_term: str = head_hash[term]
+        elif term_is_org_with_write(outstream, term, term_hash[term]):
+            pass
+        else:
+            if term in head_hash:
+                head_term: str = head_hash[term]
 
-                    if head_term in lemma_dict:
-                        head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state reference
-                    elif head_term in term_type_hash:
-                        head_lemma = get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
-                    else:
-                        head_lemma = get_term_lemma(head_term)
+                if head_term in lemma_dict:
+                    head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state reference
+                elif head_term in term_type_hash:
+                    head_lemma = get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
                 else:
-                    head_term = None           #  @semanticbeeng @todo static typing
-                    head_lemma = None              #  @semanticbeeng @todo static typing
-                #   @semanticbeeng @todo @dataFlow
-                write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count, head_term=head_term, head_lemma=head_lemma)
+                    head_lemma = get_term_lemma(head_term)
+            else:
+                head_term = None           #  @semanticbeeng @todo static typing
+                head_lemma = None              #  @semanticbeeng @todo static typing
+            #   @semanticbeeng @todo @dataFlow
+            write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count, head_term=head_term, head_lemma=head_lemma)
 
 
 #

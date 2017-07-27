@@ -94,7 +94,14 @@ trait JepEnabled {
       *
       */
     private def argsValues[T] = {
-      args map { _._2.asInstanceOf[AnyRef] }
+
+      import collection.JavaConverters._
+
+      args map { _._2.asInstanceOf[AnyRef] } map {
+        case arg: List[_] ⇒ arg.asJava
+
+        case arg ⇒ arg
+      }
     }
 
     private def invokeWith(vals: Object*): Object = {

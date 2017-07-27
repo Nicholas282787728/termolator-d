@@ -1186,37 +1186,40 @@ def write_fact_file(output: List[Dict[str, str]], outfile: File[ABBR]) -> None:
     # global FACT_STYLE @semanticbeeng not used
 
     keys = ['ID', 'TYPE', 'SUBTYPE', 'START', 'END', 'ARG1', 'ARG2', 'ARG1_TEXT', 'ARG2_TEXT', 'GRAM_SIGNAL', 'TEXT_SIGNAL', 'TEXT']
-    with outfile.openText(mode='w') as outstream:
-        for out in output:
 
-            if out['CLASS'] == 'RELATION':
-                if 'SUBTYPE' in out:
-                    look_up = out['SUBTYPE']
+    # @semanticbeeng @todo @jep
+    # with outfile.openText(mode='w') as outstream:
+    outstream = outfile.openText('w')
+    for out in output:
+
+        if out['CLASS'] == 'RELATION':
+            if 'SUBTYPE' in out:
+                look_up = out['SUBTYPE']
+            else:
+                look_up = out['TYPE']
+
+            ARG1_NAME: str = ARG1_NAME_TABLE[look_up]
+            ARG2_NAME: str = ARG2_NAME_TABLE[look_up]
+
+        fact: str = out['CLASS']
+        for key in keys:
+            if key in out:
+                value = out[key]
+                if type(value) == int:
+                    value = str(value)
                 else:
-                    look_up = out['TYPE']
+                    value = '"' + value + '"'
 
-                ARG1_NAME: str = ARG1_NAME_TABLE[look_up]
-                ARG2_NAME: str = ARG2_NAME_TABLE[look_up]
+                fact = fact + ' ' + key + '=' + value
 
-            fact: str = out['CLASS']
-            for key in keys:
-                if key in out:
-                    value = out[key]
-                    if type(value) == int:
-                        value = str(value)
-                    else:
-                        value = '"' + value + '"'
+                if key == 'ARG1':
+                    assert 'ARG1_NAME' in locals()
+                    fact = fact + ' ARG1_NAME="' + ARG1_NAME + '"'
+                elif key == 'ARG2':
+                    assert 'ARG2_NAME' in locals()
+                    fact = fact + ' ARG2_NAME="' + ARG2_NAME + '"'
 
-                    fact = fact + ' ' + key + '=' + value
-
-                    if key == 'ARG1':
-                        assert 'ARG1_NAME' in locals()
-                        fact = fact + ' ARG1_NAME="' + ARG1_NAME + '"'
-                    elif key == 'ARG2':
-                        assert 'ARG2_NAME' in locals()
-                        fact = fact + ' ARG2_NAME="' + ARG2_NAME + '"'
-
-            outstream.write(fact + os.linesep)
+        outstream.write(fact + os.linesep)
 
 
 #

@@ -12,7 +12,7 @@ object make_io_file {
     * nyu-english-new/run_termolator.sh:30
     */
   def main_internal_prefix_list(files : File[File[TXT]], fileTypes : String*)
-    : File[File[BARE]] = File("DAVETEST.internal_prefix_list")
+    : File[File[BARE]] = new File("DAVETEST.internal_prefix_list")
 
   def main_internal_pos_list(files : File[File[TXT]], fileTypes : String*)
     : File[File[POS]] = internal_pos_list

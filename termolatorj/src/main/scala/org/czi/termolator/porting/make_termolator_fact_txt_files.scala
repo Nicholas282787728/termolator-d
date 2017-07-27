@@ -13,18 +13,24 @@ object make_termolator_fact_txt_files {
   /**
     * @code_reference [[./nyu-english-new/make_termolator_fact_txt_files.py:95]]
     */
-  def main(input_file: File[File[TXT]], file_type: String): Seq[(File[TXT2], File[TXT3], File[FACT])] = {
+  def main(input_file: File[File[TXT]], file_type: String)/*: Seq[(File[TXT2], File[TXT3], File[FACT])] */= {
 
-    if(input_file != null)
-      input_file.readlines() map { f ⇒
+    import scala.collection.JavaConverters._
 
-        val file = File[TXT](f)
+    input_file.openText("r")
+
+    if(input_file != null) {
+      input_file.readlines().asScala map { f: String ⇒
+
+        val file = new File[TXT](f)
         create_termolotator_fact_txt_files(file,
-          File[TXT2](s"${file.name}.txt2"),
-          File[TXT3](s"${file.name}.txt3"),
-          File[FACT](s"${file.name}.fact"))
+          new File[TXT2](s"${file.name}.txt2"),
+          new File[TXT3](s"${file.name}.txt3"),
+          new File[FACT](s"${file.name}.fact"))
 
-      } else
+      }
+    }
+    else
       Seq.empty
   }
 

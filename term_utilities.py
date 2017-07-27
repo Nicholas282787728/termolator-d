@@ -492,14 +492,16 @@ def load_pos_offset_table(pos_file: File[POS]) -> None:
     pos_offset_table.clear()
 
     if os.path.isfile(pos_file.name):
-        with pos_file.openText() as instream:
-            for line in instream.readlines():
-                line_info: List[str] = line.rstrip().split(' ||| ')
-                start_end = line_info[1]
-                start_end_strings = start_end.split(' ')
-                start = int(start_end_strings[0][2:])
-                pos = line_info[2]
-                pos_offset_table[start] = pos
+        # @semanticbeeng @todo @jep
+        # with pos_file.openText() as instream:
+        instream = pos_file.openText()
+        for line in instream.readlines():
+            line_info: List[str] = line.rstrip().split(' ||| ')
+            start_end = line_info[1]
+            start_end_strings = start_end.split(' ')
+            start = int(start_end_strings[0][2:])
+            pos = line_info[2]
+            pos_offset_table[start] = pos
 
 
 #
