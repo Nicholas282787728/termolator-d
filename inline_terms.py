@@ -1626,191 +1626,191 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
 
     # @semanticbeeng @todo @data check of PosFact
     # @semanticbeeng @todo @jep
-    with fact_file.openText() as instream:
-        # instream = fact_file.openText()
-        for line in instream.readlines():
-            match: Match[str] = structure_pattern.search(line)
-            if match:
-                start = int(match.group(1))
-                end = int(match.group(2))
-                start_ends.append((start, end))     # @semanticbeeng @todo static typic
+    # with fact_file.openText() as instream:
+    instream = fact_file.openText()
+    for line in instream.readlines():
+        match: Match[str] = structure_pattern.search(line)
+        if match:
+            start = int(match.group(1))
+            end = int(match.group(2))
+            start_ends.append((start, end))     # @semanticbeeng @todo static typic
 
-        start_ends.sort()
+    start_ends.sort()
 
-        if (len(start_ends) > 1) and (not marked_paragraphs):
-            marked_paragraphs = True
-        else:
-            marked_paragraphs = False
-        big_txt = ''
+    if (len(start_ends) > 1) and (not marked_paragraphs):
+        marked_paragraphs = True
+    else:
+        marked_paragraphs = False
+    big_txt = ''
 
-        if marked_paragraphs:
-            for line in lines:
-                big_txt = big_txt + re.sub(os.linesep, ' ', line)
+    if marked_paragraphs:
+        for line in lines:
+            big_txt = big_txt + re.sub(os.linesep, ' ', line)
 
-            for start, end in start_ends:
-                txt_strings.append(PosFact(start, end, big_txt[start:end]))
-        else:
-            start, end = start_ends[0]
-            end = 0
-            current_block: str = ''
-            so_far = start
+        for start, end in start_ends:
+            txt_strings.append(PosFact(start, end, big_txt[start:end]))
+    else:
+        start, end = start_ends[0]
+        end = 0
+        current_block: str = ''
+        so_far = start
 
-            for line in lines:
-                end = so_far + len(line)
-                next_line: str = re.sub(os.linesep, ' ', line)
-                current_block = current_block + next_line
-                big_txt = big_txt + next_line
+        for line in lines:
+            end = so_far + len(line)
+            next_line: str = re.sub(os.linesep, ' ', line)
+            current_block = current_block + next_line
+            big_txt = big_txt + next_line
 
-                if (not re.search('[a-zA-z]', line)) or re.search('[.?:!][ \t' + os.linesep + ']*$', line):
-                    txt_strings.append(PosFact(start, end, current_block))
-                    current_block = ''
-                    start = end
-                so_far = end
-
-            if current_block != '':
+            if (not re.search('[a-zA-z]', line)) or re.search('[.?:!][ \t' + os.linesep + ']*$', line):
                 txt_strings.append(PosFact(start, end, current_block))
+                current_block = ''
+                start = end
+            so_far = end
 
-        for start, end, text in txt_strings:
-            text = re.sub(line_break_match, ' \g<1>', text)
-            if (text.count('\t') + text.count(' ')) < (len(text) / 3):
-                ##  ignore tables
+        if current_block != '':
+            txt_strings.append(PosFact(start, end, current_block))
 
-                # @semanticbeeng @todo static typic
-                term_triples: List[Tuple[int, int, str]] = get_topic_terms(text, start, filter_off=filter_off)
+    for start, end, text in txt_strings:
+        text = re.sub(line_break_match, ' \g<1>', text)
+        if (text.count('\t') + text.count(' ')) < (len(text) / 3):
+            ##  ignore tables
 
-                formulaic_tuples: List[Tuple[int, int, str, str]] = get_formulaic_term_pieces(text, start)
+            # @semanticbeeng @todo static typic
+            term_triples: List[Tuple[int, int, str]] = get_topic_terms(text, start, filter_off=filter_off)
 
-                term_tuples: List[Tuple[int, int, str, str]] = merge_formulaic_and_regular_term_tuples(term_triples, formulaic_tuples)
+            formulaic_tuples: List[Tuple[int, int, str, str]] = get_formulaic_term_pieces(text, start)
+
+            term_tuples: List[Tuple[int, int, str, str]] = merge_formulaic_and_regular_term_tuples(term_triples, formulaic_tuples)
+        else:
+            term_tuples = []
+
+        # compound_tuples = []              # @semanticbeeng @todo not used
+        last_tuple: Tuple[int, int, str, str] = None        # @semanticbeeng @todo static typing  @data what is this
+
+        # unit testing print("find_inline_terms >> ")
+        for t_start, t_end, term, term_type in term_tuples:
+            # unit testing
+            # print("find_inline_terms >> tuple(" + str(t_start) + ", " + str(t_end) + ", " + term + ", " + term_type + ")")
+
+            ## for now we will limit compounding not to function and
+            ## lemmas not to merge entries unless term_type ==
+            ## 'chunk-based'
+            if term in term_hash:
+                term_hash[term].append((t_start, t_end))                            # @semanticbeeng @todo static typing
+                lemma = get_term_lemma(term, term_type=term_type)
+                if lemma in lemma_count:
+                    lemma_count[lemma] = lemma_count[lemma] + 1
+                else:
+                    lemma_count[lemma] = 1
             else:
-                term_tuples = []
-
-            # compound_tuples = []              # @semanticbeeng @todo not used
-            last_tuple: Tuple[int, int, str, str] = None        # @semanticbeeng @todo static typing  @data what is this
-
-            # unit testing print("find_inline_terms >> ")
-            for t_start, t_end, term, term_type in term_tuples:
-                # unit testing
-                # print("find_inline_terms >> tuple(" + str(t_start) + ", " + str(t_end) + ", " + term + ", " + term_type + ")")
-
-                ## for now we will limit compounding not to function and
-                ## lemmas not to merge entries unless term_type ==
-                ## 'chunk-based'
-                if term in term_hash:
-                    term_hash[term].append((t_start, t_end))                            # @semanticbeeng @todo static typing
-                    lemma = get_term_lemma(term, term_type=term_type)
-                    if lemma in lemma_count:
-                        lemma_count[lemma] = lemma_count[lemma] + 1
-                    else:
-                        lemma_count[lemma] = 1
+                term_hash[term] = [(t_start, t_end)]                                # @semanticbeeng @todo static typing
+                term_type_hash[term] = term_type
+                lemma = get_term_lemma(term, term_type=term_type)
+                if lemma in lemma_count:
+                    lemma_count[lemma] = lemma_count[lemma] + 1
                 else:
-                    term_hash[term] = [(t_start, t_end)]                                # @semanticbeeng @todo static typing
-                    term_type_hash[term] = term_type
-                    lemma = get_term_lemma(term, term_type=term_type)
-                    if lemma in lemma_count:
-                        lemma_count[lemma] = lemma_count[lemma] + 1
-                    else:
-                        lemma_count[lemma] = 1
+                    lemma_count[lemma] = 1
 
-                if last_tuple and (t_start > last_tuple[1]) and (last_tuple[3] in [False, 'chunk-based']) and (term_type in [False, 'chunk-based']):
-                    inbetween = compound_inbetween_string.search(big_txt[last_tuple[1]:t_start])
+            if last_tuple and (t_start > last_tuple[1]) and (last_tuple[3] in [False, 'chunk-based']) and (term_type in [False, 'chunk-based']):
+                inbetween = compound_inbetween_string.search(big_txt[last_tuple[1]:t_start])
 
-                    if inbetween:
-                        compound_term: str = interior_white_space_trim(big_txt[last_tuple[0]:t_end])
-                        ## compound_term = re.sub('\s+',' ',big_txt[last_tuple[0]:t_end])
+                if inbetween:
+                    compound_term: str = interior_white_space_trim(big_txt[last_tuple[0]:t_end])
+                    ## compound_term = re.sub('\s+',' ',big_txt[last_tuple[0]:t_end])
 
-                        compound_tuple: Tuple[int, int, str, str] = (last_tuple[0], t_end, compound_term, 'chunk-based')        # @semanticbeeng @todo static typing @data ??
-                        ## term_tuples.append(compound_tuple)
+                    compound_tuple: Tuple[int, int, str, str] = (last_tuple[0], t_end, compound_term, 'chunk-based')        # @semanticbeeng @todo static typing @data ??
+                    ## term_tuples.append(compound_tuple)
 
-                        if compound_term in term_hash:
-                            term_hash[compound_term].append((last_tuple[0], t_end))     # @semanticbeeng @todo static typing
-                            lemma = get_compound_lemma(compound_term, last_tuple[2], term)
-                            if lemma in lemma_count:
-                                lemma_count[lemma] = lemma_count[lemma] + 1
-                            else:
-                                lemma_count[lemma] = 1
+                    if compound_term in term_hash:
+                        term_hash[compound_term].append((last_tuple[0], t_end))     # @semanticbeeng @todo static typing
+                        lemma = get_compound_lemma(compound_term, last_tuple[2], term)
+                        if lemma in lemma_count:
+                            lemma_count[lemma] = lemma_count[lemma] + 1
                         else:
-                            term_hash[compound_term] = [(last_tuple[0], t_end)]           # @semanticbeeng @todo static typing
-                            head_hash[compound_term] = last_tuple[2]
-                            lemma = get_compound_lemma(compound_term, last_tuple[2], term)
-                            if lemma in lemma_count:
-                                lemma_count[lemma] = lemma_count[lemma] + 1
-                            else:
-                                lemma_count[lemma] = 1
-                        last_tuple = compound_tuple[:]
-
-                    elif not re.search('[^\s]', big_txt[last_tuple[1]:t_start]):
-                        compound_term = interior_white_space_trim(big_txt[last_tuple[0]:t_end])
-
-                        compound_tuple = (last_tuple[0], t_end, compound_term, 'chunk-based')   #  @semanticbeeng @todo static typing
-
-                        if compound_term in term_hash:
-                            term_hash[compound_term].append((last_tuple[0], t_end))     #  @semanticbeeng @todo static typing
-                            lemma = get_compound_lemma(compound_term, last_tuple[2], term)
-                            if lemma in lemma_count:
-                                lemma_count[lemma] = lemma_count[lemma] + 1
-                            else:
-                                lemma_count[lemma] = 1
-                        else:
-                            term_hash[compound_term] = [(last_tuple[0], t_end)]         #  @semanticbeeng @todo static typing
-                            ## if there is only blank space and no
-                            ## preposition between terms, the
-                            ## compounding is normal noun noun
-                            ## compounding, rather than the inversion
-                            ## used for noun prep noun sequences
-                            lemma = get_compound_lemma(compound_term, last_tuple[2], term)
-                            head_hash[compound_term] = term
-                            if lemma in lemma_count:
-                                lemma_count[lemma] = lemma_count[lemma] + 1
-                            else:
-                                lemma_count[lemma] = 1
+                            lemma_count[lemma] = 1
                     else:
-                        last_tuple = (t_start, t_end, term, term_type)      #  @semanticbeeng @todo static typing
+                        term_hash[compound_term] = [(last_tuple[0], t_end)]           # @semanticbeeng @todo static typing
+                        head_hash[compound_term] = last_tuple[2]
+                        lemma = get_compound_lemma(compound_term, last_tuple[2], term)
+                        if lemma in lemma_count:
+                            lemma_count[lemma] = lemma_count[lemma] + 1
+                        else:
+                            lemma_count[lemma] = 1
+                    last_tuple = compound_tuple[:]
+
+                elif not re.search('[^\s]', big_txt[last_tuple[1]:t_start]):
+                    compound_term = interior_white_space_trim(big_txt[last_tuple[0]:t_end])
+
+                    compound_tuple = (last_tuple[0], t_end, compound_term, 'chunk-based')   #  @semanticbeeng @todo static typing
+
+                    if compound_term in term_hash:
+                        term_hash[compound_term].append((last_tuple[0], t_end))     #  @semanticbeeng @todo static typing
+                        lemma = get_compound_lemma(compound_term, last_tuple[2], term)
+                        if lemma in lemma_count:
+                            lemma_count[lemma] = lemma_count[lemma] + 1
+                        else:
+                            lemma_count[lemma] = 1
+                    else:
+                        term_hash[compound_term] = [(last_tuple[0], t_end)]         #  @semanticbeeng @todo static typing
+                        ## if there is only blank space and no
+                        ## preposition between terms, the
+                        ## compounding is normal noun noun
+                        ## compounding, rather than the inversion
+                        ## used for noun prep noun sequences
+                        lemma = get_compound_lemma(compound_term, last_tuple[2], term)
+                        head_hash[compound_term] = term
+                        if lemma in lemma_count:
+                            lemma_count[lemma] = lemma_count[lemma] + 1
+                        else:
+                            lemma_count[lemma] = 1
                 else:
-                    last_tuple = (t_start, t_end, term, term_type)          #  @semanticbeeng @todo static typing
+                    last_tuple = (t_start, t_end, term, term_type)      #  @semanticbeeng @todo static typing
+            else:
+                last_tuple = (t_start, t_end, term, term_type)          #  @semanticbeeng @todo static typing
 
-        term_list = list(term_hash.keys())
-        term_list.sort()
-        global_formula_filter(term_list, term_hash, term_type_hash)
+    term_list = list(term_hash.keys())
+    term_list.sort()
+    global_formula_filter(term_list, term_hash, term_type_hash)
 
     # @semanticbeeng @todo @jep
-    # outstream = terms_file.openText('w')
-    with terms_file.openText(mode='w') as outstream:
-        for term in term_list:
+    # with terms_file.openText(mode='w') as outstream:
+    outstream = terms_file.openText('w')
+    for term in term_list:
 
-            if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
-                #   @semanticbeeng @todo @dataFlow
-                write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count,
-                                            head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
+        if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
+            #   @semanticbeeng @todo @dataFlow
+            write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count,
+                                        head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
 
-            elif et_al_citation.search(term):
-                #   @semanticbeeng @todo @dataFlow
-                write_term_becomes_article_citation(outstream, term, term_hash[term])
+        elif et_al_citation.search(term):
+            #   @semanticbeeng @todo @dataFlow
+            write_term_becomes_article_citation(outstream, term, term_hash[term])
 
-            elif org_ending_pattern.search(term) or org_head_ending(term, head_hash):
-                #   @semanticbeeng @todo @dataFlow
-                write_term_becomes_organization(outstream, term, term_hash[term])
+        elif org_ending_pattern.search(term) or org_head_ending(term, head_hash):
+            #   @semanticbeeng @todo @dataFlow
+            write_term_becomes_organization(outstream, term, term_hash[term])
 
-            elif person_ending_pattern.search(term):
-                #   @semanticbeeng @todo @dataFlow
-                write_term_becomes_person(outstream, term, term_hash[term])
+        elif person_ending_pattern.search(term):
+            #   @semanticbeeng @todo @dataFlow
+            write_term_becomes_person(outstream, term, term_hash[term])
 
-            elif term_is_org_with_write(outstream, term, term_hash[term]):
-                pass
-            else:
-                if term in head_hash:
-                    head_term: str = head_hash[term]
+        elif term_is_org_with_write(outstream, term, term_hash[term]):
+            pass
+        else:
+            if term in head_hash:
+                head_term: str = head_hash[term]
 
-                    if head_term in lemma_dict:
-                        head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state reference
-                    elif head_term in term_type_hash:
-                        head_lemma = get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
-                    else:
-                        head_lemma = get_term_lemma(head_term)
+                if head_term in lemma_dict:
+                    head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state reference
+                elif head_term in term_type_hash:
+                    head_lemma = get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
                 else:
-                    head_term = None           #  @semanticbeeng @todo static typing
-                    head_lemma = None              #  @semanticbeeng @todo static typing
-                #   @semanticbeeng @todo @dataFlow
-                write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count, head_term=head_term, head_lemma=head_lemma)
+                    head_lemma = get_term_lemma(head_term)
+            else:
+                head_term = None           #  @semanticbeeng @todo static typing
+                head_lemma = None              #  @semanticbeeng @todo static typing
+            #   @semanticbeeng @todo @dataFlow
+            write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count, head_term=head_term, head_lemma=head_lemma)
 
 
 #

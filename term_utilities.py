@@ -462,24 +462,24 @@ def isStub(line: str) -> bool:
 def get_lines_from_file(infile: File[TXT3]) -> List[str]:
 
     # @semanticbeeng @todo @jep
-    with infile.openText(mode='r') as instream:
-        # instream = infile.openText('r')
-        output: List[str] = []
-        short_line: Optional[str] = None        # @semanticbeeng @todo static type
+    # with infile.openText(mode='r') as instream:
+    instream = infile.openText('r')
+    output: List[str] = []
+    short_line: Optional[str] = None        # @semanticbeeng @todo static type
 
-        for line in instream.readlines():
-            line = remove_xml(line)
-            if short_line:
-                line = short_line + line
-            if isStub(line):
-                short_line = re.sub(os.linesep, ' ', line)
-            else:
-                short_line = None
-                for line2 in long_line_split(line):
-                    output.append(line2)
+    for line in instream.readlines():
+        line = remove_xml(line)
         if short_line:
-            output.append(short_line)
-        return (output)
+            line = short_line + line
+        if isStub(line):
+            short_line = re.sub(os.linesep, ' ', line)
+        else:
+            short_line = None
+            for line2 in long_line_split(line):
+                output.append(line2)
+    if short_line:
+        output.append(short_line)
+    return (output)
 
 
 #
@@ -492,15 +492,15 @@ def load_pos_offset_table(pos_file: File[POS]) -> None:
 
     if os.path.isfile(pos_file.name):
         # @semanticbeeng @todo @jep
-        with pos_file.openText() as instream:
-            # instream = pos_file.openText()
-            for line in instream.readlines():
-                line_info: List[str] = line.rstrip().split(' ||| ')
-                start_end = line_info[1]
-                start_end_strings = start_end.split(' ')
-                start = int(start_end_strings[0][2:])
-                pos = line_info[2]
-                pos_offset_table[start] = pos
+        # with pos_file.openText() as instream:
+        instream = pos_file.openText()
+        for line in instream.readlines():
+            line_info: List[str] = line.rstrip().split(' ||| ')
+            start_end = line_info[1]
+            start_end_strings = start_end.split(' ')
+            start = int(start_end_strings[0][2:])
+            pos = line_info[2]
+            pos_offset_table[start] = pos
 
 
 #
