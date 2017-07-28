@@ -24,14 +24,9 @@ class TermWriter:
     #
     #
     def write_all(self, term_list: List[str],
-                lemmer: inline_terms_lemmer.TermLemmer
-                # term_hash: Dict[str, List[Tuple[int, int]]],
-                # term_type_hash: Dict[str, str],
-                # head_hash: Dict[str, str],
-                # lemma_dict : Dict[str, str],
-                # lemma_count: Dict[str, int]
-    ):
+                lemmer: inline_terms_lemmer.TermLemmer):
 
+        # @semanticbeeng @global state : ensure no mutations from here on
         term_hash: Dict[str, List[Tuple[int, int]]] = lemmer.term_hash
         term_type_hash: Dict[str, str] = dictionary.freeze_dict(lemmer.term_type_hash)
         head_hash: Dict[str, str] = dictionary.freeze_dict(lemmer.head_hash)
@@ -245,6 +240,3 @@ class TermWriter:
         if (term in head_hash) and term_utilities.org_ending_pattern.search(head_hash[term]):
             return (True)
         return (False)
-
-
-

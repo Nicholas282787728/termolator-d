@@ -1365,33 +1365,6 @@ def term_is_org_tester(term: str) -> bool:
 #
 def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[POS], terms_file: File[TERM], marked_paragraphs=False, filter_off=False) -> None:
 
-    # inspect.trace(1)
-    # frame = inspect.currentframe()
-    # try:
-    #     frame.
-    # finally:
-    #     del frame
-    # frames = inspect.trace()
-    # frmes2 = inspect.currentframe()
-    # currframe = inspect.currentframe()
-    # currframe = inspect.stack()[6]
-    # argvalues = inspect.getargvalues(currframe)
-    #
-    # # calframe = inspect.getouterframes(curframe, 2)
-    # print("Argvalues: ", inspect.formatargvalues(*argvalues))
-
-    # @semanticbeeng @todo @debug
-    # debugstream = File("find_inline_terms - debug.txt").openText("w")
-    # debugstream.write("Param lines" + "\n")
-    # for line in lines:
-    #     debugstream.write("Param lines = " + line + "\n")
-    # debugstream.write("Param fact_file = " + fact_file.name + "\n")
-    # debugstream.write("Param pos_file = " + pos_file.name + "\n")
-    # debugstream.write("Param terms_file = " + terms_file.name + "\n")
-    # debugstream.write("Param filter_offs = " + str(marked_paragraphs) + "\n")
-    # debugstream.write("Param filter_off = " + str(filter_off) + "\n")
-    # end
-
     # global abbr_to_full_dict              # @semanticbeeng @todo not used
     # global full_to_abbr_dict              # @semanticbeeng @todo not used
     # global term_id_number                 # @semanticbeeng @todo global state
@@ -1483,7 +1456,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
             term_tuples: List[Tuple[int, int, str, str]] = []
 
         # @semanticbeeng @todo unsure about scoping HEHRE!!
-        termLemmer.doit(term_tuples, big_txt)
+        termLemmer.process(term_tuples, big_txt)
 
     term_list = list(termLemmer.term_hash.keys())
     term_list.sort()
@@ -1493,16 +1466,9 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     # with terms_file.openText(mode='w') as outstream:
     outstream = terms_file.openText('w')
 
-    # @semanticbeeng @global state : ensure no mutations from here on
     termWriter = inline_terms_writer.TermWriter(outstream)
-    termWriter.write_all(term_list,
-                         termLemmer
-                         # dictionary.freeze_dict(termLemmer.term_hash),
-                         # dictionary.freeze_dict(termLemmer.term_type_hash),
-                         # dictionary.freeze_dict(termLemmer.head_hash),
-                         # dictionary.freeze_dict(termLemmer.lemma_dict),
-                         # dictionary.freeze_dict(termLemmer.lemma_count)
-                         )
+    termWriter.write_all(term_list, termLemmer)
+
     del termLemmer
     del termWriter
 

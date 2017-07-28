@@ -130,3 +130,9 @@ $TERMOLATOR/distributional_component.py $TESTNAME.internal_foreground_tchunk_lis
 echo "Final terms can be found in $4.out_term_list from the scored file in $4.scored_output"
 head -1400 $TESTNAME.scored_output | cut -f 1 > $TESTNAME.out_term_list
 
+
+# ----
+# Regresion testing
+
+sort $TESTNAME.all_terms > $TESTNAME.all_terms.sorted
+sort $TESTNAME.scored_output > $TESTNAME.scored_output.sorted
