@@ -642,40 +642,9 @@ def term_dict_check(term: str, test_dict: Dict[str, int]) -> bool:
 def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @semanticbeeng static type @todo
     pos: List[str] = []
     plural = False
-    if offset and (offset in pos_offset_table):
-        tagger_pos = pos_offset_table[offset]           # @semanticbeeng @todo global state reference
-        ## Most conservative move is to use for disambiguation,
-        ## and for identifying ing nouns (whether NNP or NN)
-        ## We care about:
-        ## Easy translations: NN NNP NNPS NNS; JJ JJR JJS; RB RBR RBS RP WRB;
-        ## 'FW' 'SYM' '-LRB-''-RRB-'; VBD VBG VBN VBP VBZ VB; DT PDT WDT PRP$ WP$
-        ## CC CD EX FW LS MD POS PRP UH WP
-        if tagger_pos in ['NNP', 'NNPS', 'FW', 'SYM', '-LRB-', '-RRB-']:
-            ## these are inaccurate for this corpus or irrelevant for this task
-            ## NNP and NNPS are not very accurate, FW identifies some conventionalized abbreviations (et. al. and i.e.)
-            ##     and latin terms (per se).  SYM cases are eliminated in other ways
-            ## Punctuation cases are already ignored
-            tagger_pos = None          # @semanticbeeng static type @todo !
-        elif tagger_pos == 'NN':
-            tagger_pos = 'NOUN'
-        elif tagger_pos == 'NNS':
-            tagger_pos = 'PLURAL'
-        elif tagger_pos in ['TO', 'IN']:
-            tagger_pos = 'PREP'
-        elif tagger_pos in ['RB', 'RBR', 'RBS', 'RP', 'WRB']:
-            tagger_pos = 'ADVERB'
-        elif tagger_pos in ['JJ', 'JJR', 'JJS']:
-            tagger_pos = 'ADJECTIVE'
-        elif tagger_pos in ['VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'VB']:
-            tagger_pos = 'VERB'
-        elif tagger_pos in ['DT', 'PDT', 'WDT', 'PRP$', 'WP$', 'CD']:
-            tagger_pos = 'DET'
-        elif tagger_pos == 'POS':
-            pass
-        else:
-            tagger_pos = 'OTHER'
-    else:
-        tagger_pos = None           # @semanticbeeng static type @todo !
+
+    tagger_pos = get_tagger_pos(offset)
+
     if (len(word) > 2) and word[-2:] in ['\'s', 's\'']:
         possessive = True
         word = word[:-2]
@@ -864,6 +833,47 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
         ## otherwise assume most OOV words are nouns
     raise Exception('Unexpected to get here')       # @semanticbeeng
 
+
+#
+#   @ssemanticbeeng @todo @global state pos_offset_table - clarify meaning since it may be empty if raaan from filter_term_output.py
+#
+def get_tagger_pos(offset: int) -> str:
+
+    if offset and (offset in pos_offset_table):
+        tagger_pos = pos_offset_table[offset]  # @semanticbeeng @todo global state reference
+        ## Most conservative move is to use for disambiguation,
+        ## and for identifying ing nouns (whether NNP or NN)
+        ## We care about:
+        ## Easy translations: NN NNP NNPS NNS; JJ JJR JJS; RB RBR RBS RP WRB;
+        ## 'FW' 'SYM' '-LRB-''-RRB-'; VBD VBG VBN VBP VBZ VB; DT PDT WDT PRP$ WP$
+        ## CC CD EX FW LS MD POS PRP UH WP
+        if tagger_pos in ['NNP', 'NNPS', 'FW', 'SYM', '-LRB-', '-RRB-']:
+            ## these are inaccurate for this corpus or irrelevant for this task
+            ## NNP and NNPS are not very accurate, FW identifies some conventionalized abbreviations (et. al. and i.e.)
+            ##     and latin terms (per se).  SYM cases are eliminated in other ways
+            ## Punctuation cases are already ignored
+            tagger_pos = None  # @semanticbeeng static type @todo !
+        elif tagger_pos == 'NN':
+            tagger_pos = 'NOUN'
+        elif tagger_pos == 'NNS':
+            tagger_pos = 'PLURAL'
+        elif tagger_pos in ['TO', 'IN']:
+            tagger_pos = 'PREP'
+        elif tagger_pos in ['RB', 'RBR', 'RBS', 'RP', 'WRB']:
+            tagger_pos = 'ADVERB'
+        elif tagger_pos in ['JJ', 'JJR', 'JJS']:
+            tagger_pos = 'ADJECTIVE'
+        elif tagger_pos in ['VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'VB']:
+            tagger_pos = 'VERB'
+        elif tagger_pos in ['DT', 'PDT', 'WDT', 'PRP$', 'WP$', 'CD']:
+            tagger_pos = 'DET'
+        elif tagger_pos == 'POS':
+            pass
+        else:
+            tagger_pos = 'OTHER'
+    else:
+        tagger_pos = None  # @semanticbeeng static type @todo !
+    return tagger_pos
 
 #
 #
