@@ -54,6 +54,11 @@ public class File<T> {
         assert stream != null;
         return stream.readlines();
     }
+
+    @Override
+    public String toString() {
+        return "File{name='" + name +')';
+    }
 }
 
 
@@ -89,8 +94,13 @@ class InternalStream {
             //new BufferedReader(file);
             List<String> lines = new ArrayList<String>();
             while ((line = file.readLine()) != null) {
-                System.out.println("reading line " + line);
-                lines.add(line);
+//                System.out.println("reading line " + line);
+                // lines.add(new String(line.getBytes("ISO-8859-1"), "UTF-8"));
+//                if(line.endsWith("\r")) {
+//                    line = line.substring(0, line.length()-1);
+//                }
+
+                lines.add(line + '\n');
             }
 
             return lines;
@@ -101,6 +111,7 @@ class InternalStream {
     public void write(String text) {
 
         try {
+            //System.out.println("File " + name + " line " + text);
             file.writeBytes(text);
 
         } catch (IOException e) { e.printStackTrace(); }
@@ -113,7 +124,6 @@ class InternalStream {
     public void empty() {
         try {
             System.out.println("Resetting file " + name);
-            //file.seek(0);
             file.setLength(0);
         } catch (IOException e) {
             e.printStackTrace();

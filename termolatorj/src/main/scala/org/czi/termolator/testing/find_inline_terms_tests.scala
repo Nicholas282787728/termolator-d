@@ -1,12 +1,17 @@
 package org.czi.termolator.testing
 
-import org.czi.termolator.porting.{dictionary, find_terms}
+import org.czi.termolator.porting.{abbreviate, dictionary, find_terms, term_utilities}
 
 
 /**
   *
   */
-class find_inline_terms_tests extends App {
+object find_inline_terms_tests extends App {
+
+  term_utilities.ensureModuleInitialized()
+  abbreviate.ensureModuleInitialized()
+  find_terms.ensureModuleInitialized()
+  dictionary.ensureModuleInitialized()
 
   dictionary.initialize_utilities()
 
@@ -16,6 +21,6 @@ class find_inline_terms_tests extends App {
   /**
     * @todo cannot assert anything about this becuase it is monolithical
     */
-  find_terms.find_inline_terms_for(file, true)
+  find_terms.find_inline_terms_for(file, start = true)
 
 }

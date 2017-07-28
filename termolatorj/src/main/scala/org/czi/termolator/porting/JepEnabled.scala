@@ -38,76 +38,75 @@ trait JepEnabled {
 
       ensureModuleInitialized()
 
-      val vals = argsValues
-      val callString = s"$func(${vals.mkString(", ")})"
-      println(s"calling $moduleName.$callString")
+      val vals = argsValues(args)
+      val callString = s"$func(${printArgs(args)})"
+      println(s"\nCalling $callString")
 
       invokeWith(vals : _*)
-      //      if(vals.nonEmpty)
-      //        jep.invokeWith(func, vals:_*)
-      //      else
-      //        jep.invokeWith(func)
     }
 
     /**
       *
       */
-    //var callCount = 1
+    val sep = "\n\t\t"
 
     def pyCallAndReturn[T](): T = {
 
       ensureModuleInitialized()
 
-      val vals = argsValues
-      val callString = s"$func(${vals.mkString(", ")})"
-      // val callString = s"$moduleName.$name(${mapArgs(args)})"
+      val vals = argsValues(args)
+      val callString = s"$func($sep${printArgs(args)}$sep)"
       println(s"calling $callString")
 
-      //val varName = s"var_$func$callCount"
-      //      jep.eval(s"$varName = $callString")
-      //      jep.getValue(varName).asInstanceOf[T]
-      //jep.invokeWith(func, vals).asInstanceOf[T]
-
       invokeWith(vals : _*).asInstanceOf[T]
-      //      if(vals.nonEmpty)
-      //        jep.invokeWith(func, vals:_*).asInstanceOf[T]
-      //      else
-      //        jep.invokeWith(func).asInstanceOf[T]
     }
-
-    //    /**
-    //      *
-    //      */
-    //    private def mapArgs(args: Seq[(String, Object)]) : String = {
-    //      args.toList.map {
-    //        case (n: String, v: String) ⇒ s"$n = `$v`"
-    //        case (n: String, v: Boolean) ⇒ if (v) s"$n = True" else s"$n = False"
-    //        case (n: String, v: Option[_]) ⇒ if (v.isDefined) mapArgs(Seq((n, v.get))) else s"$n = None"
-    //        case (n: String, v: Seq[_]) ⇒ s"$n = [ ${mapArgs(Seq((n, v)))} ]"
-    //        case (n: String, v: Any) ⇒ s"$n = ${v.toString}"
-    //        case (n: String, null) ⇒ s"$n = None"   // @todo unsure how to do this better
-    //        case _ ⇒ ""           // sot sure what this is but hoping for the best
-    //      }.mkString(", ")
-    //    }
 
     /**
       *
       */
-    private def argsValues[T] = {
+    private def mapArgs(args: Seq[(String, Any)]): Seq[(String, Any/*, String*/)] = {
 
       import collection.JavaConverters._
-
-      args map { _._2.asInstanceOf[AnyRef] } map {
-        case arg: List[_] ⇒ arg.asJava
-
-        case arg ⇒ arg
+      args.map {
+        case (n: String, v: File[_])    ⇒ (n, v)
+        case (n: String, v: String)     ⇒ (n, v)
+        case (n: String, v: Boolean)    ⇒ (n, if(v) java.lang.Boolean.TRUE else java.lang.Boolean.FALSE)
+        case (n: String, v: Option[_])  ⇒ (n, if (v.isDefined) mapArgs(Seq((n, v.get))) else (n, "None"))
+        case (n: String, v: Seq[_])     ⇒ (n, v.asJava)
+        case (n: String, v: Any)        ⇒ (n, v.toString)
+        case (n: String, null)          ⇒ (n,  "None")      // @todo unsure how to do this better
+        case (n, v)                     ⇒ (n, v)            // sot sure what this is but hoping for the best
       }
     }
 
+    private def printArgs(args: Seq[(String, Any)]) : String  = {
+      args.map {
+        case (n: String, v: File[_])    ⇒ s"$n = ${v.toString}"
+        case (n: String, v: String)     ⇒ s"$n = '$v'"
+        case (n: String, v: Boolean)    ⇒ s"$n = $v"
+        case (n: String, v: Option[_])  ⇒ s"$n = todo"
+        case (n: String, v: Seq[_])     ⇒ s"$n = [$sep\t${v.mkString(s",$sep\t ")}]"
+        case (n: String, v: Any)        ⇒ s"$n = ${v.toString}"
+        case (n: String, null)          ⇒ s"$n = None"      // @todo unsure how to do this better
+        case (n, v)                     ⇒ s"$n = ??$v??"    // sot sure what this is but hoping for the best
+      }.mkString(s", $sep")
+    }
+    /**
+      *
+      */
+    private def argsValues[T](args: Seq[(String, Any)]): Seq[AnyRef] = {
+
+      val mapped = mapArgs(args)
+      mapped map { a ⇒ a._2.asInstanceOf[AnyRef] }
+    }
+
+    /**
+      *
+      */
     private def invokeWith(vals: Object*): Object = {
 
         if(vals.nonEmpty)
-          jep.invoke(func, vals.toArray : _*)
+          jep.invoke(func, vals : _*)
         else
           jep.invoke(func)
     }
@@ -116,7 +115,7 @@ trait JepEnabled {
   /**
     *
     */
-  private def ensureModuleInitialized(): Unit = {
+  def ensureModuleInitialized(): Unit = {
 
     if (!moduleInited) {
       jep.set("__file__", root + "/another")
