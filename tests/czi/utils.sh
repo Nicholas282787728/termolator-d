@@ -67,6 +67,8 @@ rm *.scored_output
 # -----------------
 TESTNAME=DAVETEST
 
+rm $TESTNAME.*
+
 # Process foreground files
 $TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_prefix_list BARE
 $TERMOLATOR/make_io_file.py $NYU_DIR/foreground.list $TESTNAME.internal_pos_list .pos

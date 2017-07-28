@@ -26,6 +26,8 @@ public class File<T> {
             stream = new InternalStream(name, mode);
         if (mode != null && mode.contains("w")) {
             stream.empty();
+        } else {
+            stream.reset();
         }
         return stream;
     }
@@ -99,8 +101,10 @@ class InternalStream {
 //                if(line.endsWith("\r")) {
 //                    line = line.substring(0, line.length()-1);
 //                }
+                line = line + '\n';  // Python leaves the newline ...
+                System.out.print("read line " + line);
 
-                lines.add(line + '\n');
+                lines.add(line);
             }
 
             return lines;
@@ -123,8 +127,17 @@ class InternalStream {
 
     public void empty() {
         try {
-            System.out.println("Resetting file " + name);
+            System.out.println("Emptying file " + name);
             file.setLength(0);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void reset() {
+        try {
+            System.out.println("Resetting file " + name);
+            file.seek(0);
         } catch (IOException e) {
             e.printStackTrace();
         }

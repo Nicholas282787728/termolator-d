@@ -2,7 +2,8 @@ from inline_terms import *
 from DataDef import File, TXT3, TERM, POS
 
 #
-#   @semanticbeeng @todo static typing
+#   @semanticbeeng @done static typing
+#   @semanticbeeng @pported
 #
 def find_inline_terms_for_file_list(file_list: File, dict_prefix: str = None) -> None:
     start = True

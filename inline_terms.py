@@ -1,9 +1,11 @@
 import sys
 
 from abbreviate import *
+from inline_terms_writer import TermWriter
 from DataDef import File, POS, FACT, TERM, ABBR, CHUNK, PosFact
 import dictionary
 from typing import List, Dict, Optional, Pattern, Match
+# import inspect
 
 et_al_citation: Pattern[str] = re.compile(' et[.]? al[.]? *$')
 ok_path_types = ['url']  ##  currently 'ratio' is not an ok_path_type
@@ -16,7 +18,7 @@ lemma_dict: Dict[str, str] = {}
 #
 #   @semanticbeeng @todo global state
 #
-term_id_number = 0
+# term_id_number = 0
 
 # @semanticbeeng not used cluster_hash: Dict = {}
 
@@ -1418,91 +1420,8 @@ def term_is_org_tester(term: str) -> bool:
     else:
         ## ne_class = 'ORGANIZATION'
         return (False)
-    global term_id_number
+    # global term_id_number   @semanticbeeng @todo global state
     print(ne_class)
-    return (True)
-
-
-#
-#   @semanticbeeng @todo
-#
-def term_is_org_with_write(outstream, term, instances) -> bool:
-    if not re.search('[A-Z]', term[0]):
-        return (False)
-    words = divide_sentence_into_words_and_start_positions(term)
-    person_names = 0
-    Fail = False
-    ambiguous_person_names = 0
-    word_pattern = []
-    if re.search('^[A-Z][a-z]', words[-1][1]):
-        if last_word_organization.search(words[-1][1]):
-            ends_in = 'ORG'
-        elif last_word_gpe.search(words[-1][1]):
-            ends_in = 'GPE'
-        elif last_word_loc.search(words[-1][1]):
-            ends_in = 'LOC'
-        else:
-            ends_in = None              # @semanticbeeng @todo static typing
-    else:
-        ends_in = None                  # @semanticbeeng @todo static typing
-
-    for position, word in words:
-        lower = word.lower()
-        is_capital = re.search('^[A-Z][a-z]', word)
-
-        if is_capital and (lower in dictionary.pos_dict) and ('PERSON_NAME' in dictionary.pos_dict[lower]):
-            person_names = person_names + 1
-            if len(dictionary.pos_dict[lower]) > 1:
-                ambiguous_person_names = ambiguous_person_names + 1
-                word_pattern.append('ambig_name')
-            else:
-                word_pattern.append('name')
-        else:
-            word_pattern.append('not_name')
-
-        if is_capital or closed_class_check2.search(word):
-            pass
-        else:
-            Fail = True
-
-    if not ambig_last_word_org.search(words[-1][1]):
-        length_name_criterion = True
-    elif (len(words) < 4) or \
-            ((person_names > 1) and (person_names > ambiguous_person_names)):
-        length_name_criterion = True
-    else:
-        length_name_criterion = False
-
-    if (len(words) <= 1) or (not ' ' in term):
-        return (False)
-    elif (ends_in == 'ORG') and length_name_criterion:
-        ne_class = 'ORGANIZATION'
-    elif (ends_in == 'GPE') and length_name_criterion:
-        ne_class = 'GPE'
-    elif (ends_in == 'LOC') and length_name_criterion:
-        ne_class = 'LOCATION'
-    elif person_names == 0:
-        return (False)
-    elif (len(words) == 2) and (person_names == 2) and (person_names > ambiguous_person_names) and (' ' in term) \
-            and (word_pattern[-1] == 'name'):
-        ## all words of an organization except for closed class words should
-        ## be capitalized.
-        ## However, 2 word capitalized phrases can be person names, particularly if
-        ## both words are in our person dictionary, so let's not include these
-        ## If first word is a name and second word is a non-name, probably this is not
-        ## an organization.
-        ne_class = 'ORGANIZATION_OR_GPE'
-    elif Fail:
-        return (False)
-    else:
-        ## ne_class = 'ORGANIZATION'
-        return (False)
-    global term_id_number
-
-    for start, end in instances:
-        term_id_number = 1 + term_id_number
-        outstream.write(ne_class + ' ID="NYU_ID_' + str(term_id_number) + '" STRING="' + term + '"')
-        outstream.write(' START=' + str(start) + ' END=' + str(end) + os.linesep)
     return (True)
 
 
@@ -1516,94 +1435,42 @@ def org_head_ending(term: str, head_hash) -> bool:
 
 
 #
-#
-#
-def term_string_edit(instring: str) -> str:
-    output = re.sub('>', '&gt;', instring)
-    return (output)
-
-
-#
-#   @semanticbeeng @todo static type
-#
-def write_term_summary_fact_set(outstream, term: str, instances, lemma_count: Dict[str, int],
-                                head_term: Optional[str]=None, head_lemma: Optional[str]=None, term_type: Optional[str]=None) -> None:
-    global term_id_number
-    frequency = len(instances)
-    lemma = lemma_dict[term]            # @semanticbeeng @todo global state reference
-    lemma_freq = lemma_count[lemma]
-
-    for start, end in instances:
-        term_id_number = 1 + term_id_number
-        if term_type == 'url':
-            outstream.write('URL ID="NYU_TERM_' + str(term_id_number) + '" STRING="' + term_string_edit(term) + '"' + ' FREQUENCY=' + str(frequency))
-        else:
-            outstream.write('TERM ID="NYU_TERM_' + str(term_id_number) + '" STRING="' + term_string_edit(term) + '"' + ' FREQUENCY=' + str(frequency))
-        outstream.write(' START=' + str(start) + ' END=' + str(end))
-        outstream.write(' LEMMA="' + term_string_edit(lemma) + '" LEMMA_FREQUENCY=' + str(lemma_freq))
-        if head_term:
-            outstream.write(' HEAD_TERM="' + term_string_edit(head_term) + '"')
-        if head_lemma:
-            outstream.write(' HEAD_LEMMA="' + term_string_edit(head_lemma) + '"')
-        if term_type and (not term_type == 'url'):
-            outstream.write(' TERM_PATTERN_TYPE="' + term_type + '"')
-        outstream.write(os.linesep)
-
-
-#
-#
-#
-def write_term_becomes_article_citation(outstream, term, instances) -> None:
-    global term_id_number
-    for start, end in instances:
-        term_id_number = 1 + term_id_number
-        outstream.write('CITATION ID="NYU_ID_' + str(term_id_number) + '" STRING="' + term + '" CITE_CLASS="article"')
-        outstream.write(' START=' + str(start) + ' END=' + str(end) + os.linesep)
-
-
-#
-#
-#
-def write_term_becomes_organization(outstream, term, instances) -> None:
-    global term_id_number
-    for start, end in instances:
-        term_id_number = 1 + term_id_number
-        outstream.write('ORGANIZATION ID="NYU_ID_' + str(term_id_number) + '" STRING="' + term + '"')
-        outstream.write(' START=' + str(start) + ' END=' + str(end) + os.linesep)
-
-
-#
-#
-#
-def write_term_becomes_gpe(outstream, term, instances) -> None:
-    global term_id_number
-    for start, end in instances:
-        term_id_number = 1 + term_id_number
-        outstream.write('GPE ID="NYU_ID_' + str(term_id_number) + '" STRING="' + term + '"')
-        outstream.write(' START=' + str(start) + ' END=' + str(end) + os.linesep)
-
-
-#
-#
-#
-def write_term_becomes_person(outstream, term, instances) -> None:
-    global term_id_number
-    for start, end in instances:
-        term_id_number = 1 + term_id_number
-        outstream.write('PERSON ID="NYU_ID_' + str(term_id_number) + '" STRING="' + term + '"')
-        outstream.write(' START=' + str(start) + ' END=' + str(end) + os.linesep)
-
-
-#
 #   @semanticbeeng @todo global state initialization pos_offset_table
 #
 def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[POS], terms_file: File[TERM], marked_paragraphs=False, filter_off=False) -> None:
 
+    # inspect.trace(1)
+    # frame = inspect.currentframe()
+    # try:
+    #     frame.
+    # finally:
+    #     del frame
+    # frames = inspect.trace()
+    # frmes2 = inspect.currentframe()
+    # currframe = inspect.currentframe()
+    # currframe = inspect.stack()[6]
+    # argvalues = inspect.getargvalues(currframe)
+    #
+    # # calframe = inspect.getouterframes(curframe, 2)
+    # print("Argvalues: ", inspect.formatargvalues(*argvalues))
+
+    # @semanticbeeng @todo @debug
+    # debugstream = File("find_inline_terms - debug.txt").openText("w")
+    # debugstream.write("Param lines" + "\n")
+    # for line in lines:
+    #     debugstream.write("Param lines = " + line + "\n")
+    # debugstream.write("Param fact_file = " + fact_file.name + "\n")
+    # debugstream.write("Param pos_file = " + pos_file.name + "\n")
+    # debugstream.write("Param terms_file = " + terms_file.name + "\n")
+    # debugstream.write("Param filter_offs = " + str(marked_paragraphs) + "\n")
+    # debugstream.write("Param filter_off = " + str(filter_off) + "\n")
+    # end
+
     # global abbr_to_full_dict              # @semanticbeeng @todo not used
     # global full_to_abbr_dict              # @semanticbeeng @todo not used
-    global term_id_number
+    # global term_id_number                 # @semanticbeeng @todo global state
+    # term_id_number = 0                      # @semanticbeeng @todo @global state mutation initialization
     # global term_hash                      # @semanticbeeng @todo not used TEST
-    term_id_number = 0                      # @semanticbeeng @todo @global state mutation initialization
     term_hash: Dict[str, List[Tuple[int, int]]] = {}
                                             # @semanticbeeng @todo global state: is this initiaized every time? then why global?
     pos_offset_table.clear()                # @semanticbeeng @todo @global state mutation initialization
@@ -1775,26 +1642,29 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     # @semanticbeeng @todo @jep
     # with terms_file.openText(mode='w') as outstream:
     outstream = terms_file.openText('w')
+    termWriter = TermWriter(outstream)
+
     for term in term_list:
 
         if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
             #   @semanticbeeng @todo @dataFlow
-            write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count,
+            termWriter.write_term_summary_fact_set(term, term_hash[term],
+                                                   lemma_dict, lemma_count,
                                         head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
 
         elif et_al_citation.search(term):
             #   @semanticbeeng @todo @dataFlow
-            write_term_becomes_article_citation(outstream, term, term_hash[term])
+            termWriter.write_term_becomes_article_citation(term, term_hash[term])
 
         elif org_ending_pattern.search(term) or org_head_ending(term, head_hash):
             #   @semanticbeeng @todo @dataFlow
-            write_term_becomes_organization(outstream, term, term_hash[term])
+            termWriter.write_term_becomes_organization(term, term_hash[term])
 
         elif person_ending_pattern.search(term):
             #   @semanticbeeng @todo @dataFlow
-            write_term_becomes_person(outstream, term, term_hash[term])
+            termWriter.write_term_becomes_person(term, term_hash[term])
 
-        elif term_is_org_with_write(outstream, term, term_hash[term]):
+        elif termWriter.term_is_org_with_write(term, term_hash[term]):
             pass
         else:
             if term in head_hash:
@@ -1810,7 +1680,9 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
                 head_term = None           #  @semanticbeeng @todo static typing
                 head_lemma = None              #  @semanticbeeng @todo static typing
             #   @semanticbeeng @todo @dataFlow
-            write_term_summary_fact_set(outstream, term, term_hash[term], lemma_count, head_term=head_term, head_lemma=head_lemma)
+
+            termWriter.write_term_summary_fact_set(term, term_hash[term], lemma_dict, lemma_count,
+                                                   head_term=head_term, head_lemma=head_lemma)
 
 
 #

@@ -85,7 +85,7 @@ trait JepEnabled {
         case (n: String, v: String)     ⇒ s"$n = '$v'"
         case (n: String, v: Boolean)    ⇒ s"$n = $v"
         case (n: String, v: Option[_])  ⇒ s"$n = todo"
-        case (n: String, v: Seq[_])     ⇒ s"$n = [$sep\t${v.mkString(s",$sep\t ")}]"
+        case (n: String, v: Seq[_])     ⇒ s"$n = [$sep\t${v.mkString(s",\t\t\t\t ")}]"
         case (n: String, v: Any)        ⇒ s"$n = ${v.toString}"
         case (n: String, null)          ⇒ s"$n = None"      // @todo unsure how to do this better
         case (n, v)                     ⇒ s"$n = ??$v??"    // sot sure what this is but hoping for the best
