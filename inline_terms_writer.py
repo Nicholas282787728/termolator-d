@@ -3,7 +3,7 @@ import term_utilities
 import dictionary
 from typing import List, Tuple, Dict, Optional, Pattern
 
-import inline_terms     # @todo remove this dependency
+import inline_terms_lemmer      # @todo remove this dependency
 
 #
 #
@@ -14,7 +14,7 @@ class TermWriter:
         et_al_citation: Pattern[str] = re.compile(' et[.]? al[.]? *$')
 
     #
-    term_id_number: int
+    # term_id_number: int
     
     def __init__(self, outstream) -> None:
         self.outstream = outstream
@@ -24,11 +24,19 @@ class TermWriter:
     #
     #
     def write_all(self, term_list: List[str],
-                term_hash: Dict[str, List[Tuple[int, int]]],
-                term_type_hash: Dict[str, str],
-                head_hash: Dict[str, str],
-                lemma_dict : Dict[str, str],
-                lemma_count: Dict[str, int]):
+                lemmer: inline_terms_lemmer.TermLemmer
+                # term_hash: Dict[str, List[Tuple[int, int]]],
+                # term_type_hash: Dict[str, str],
+                # head_hash: Dict[str, str],
+                # lemma_dict : Dict[str, str],
+                # lemma_count: Dict[str, int]
+    ):
+
+        term_hash: Dict[str, List[Tuple[int, int]]] = lemmer.term_hash
+        term_type_hash: Dict[str, str] = dictionary.freeze_dict(lemmer.term_type_hash)
+        head_hash: Dict[str, str] = dictionary.freeze_dict(lemmer.head_hash)
+        lemma_dict : Dict[str, str] = dictionary.freeze_dict(lemmer.lemma_dict)
+        lemma_count: Dict[str, int] = dictionary.freeze_dict(lemmer.lemma_count)
 
         for term in term_list:
 
@@ -59,9 +67,9 @@ class TermWriter:
                     if head_term in lemma_dict:
                         head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state reference
                     elif head_term in term_type_hash:
-                        head_lemma = inline_terms.get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
+                        head_lemma = lemmer.get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
                     else:
-                        head_lemma = inline_terms.get_term_lemma(head_term)
+                        head_lemma = lemmer.get_term_lemma(head_term)
                 else:
                     head_term = None           #  @semanticbeeng @todo static typing
                     head_lemma = None              #  @semanticbeeng @todo static typing
