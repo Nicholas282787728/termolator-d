@@ -6,7 +6,7 @@ from typing import List, Tuple, Dict, Optional, Pattern
 import inline_terms_lemmer      # @todo remove this dependency
 
 #
-#
+#   Perists the TERMSS for a single source "file"
 #
 class TermWriter:
 

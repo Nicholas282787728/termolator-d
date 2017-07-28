@@ -4,7 +4,7 @@ import term_utilities
 from typing import List, Tuple, Dict, Pattern
 
 #
-#
+#   Extracts stats for a a single source "file" and manages the @state derived
 #
 class TermLemmer:
 
