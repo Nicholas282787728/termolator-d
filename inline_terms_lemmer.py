@@ -24,7 +24,7 @@ class TermsLemmer:
         self.head_hash: Dict[str, str] = {}
 
         # @semanticbeeng @global state : assert that this will not change from the time of construction
-        self.abbr_to_full_dict = dictionary.freeze_dict(abbr_to_full_dict)
+        self._abbr_to_full_dict = dictionary.freeze_dict(abbr_to_full_dict)
 
     #
     #
@@ -140,9 +140,9 @@ class TermsLemmer:
             ## this takes care of all the patterned cases
             output = term.upper()
 
-        elif (term in self.abbr_to_full_dict) and (len(self.abbr_to_full_dict[term]) > 0) and \
+        elif (term in self._abbr_to_full_dict) and (len(self._abbr_to_full_dict[term]) > 0) and \
                 (term.isupper() or (not term in dictionary.pos_dict) or (term in dictionary.jargon_words)):
-            output = self.abbr_to_full_dict[term][0]
+            output = self._abbr_to_full_dict[term][0]
 
         else:
             last_word_match = last_word_pat.search(term)

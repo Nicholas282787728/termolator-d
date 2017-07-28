@@ -630,13 +630,13 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
         ## allow at most 1 verb chunk
         length = len(words)
 
-        if line.upper() in full_to_abbr_dict:
+        if line.upper() in Abbreviate.full_to_abbr_dict:
             return (line.upper(), 'ABBREVIATION', 'Good', [line], chunks, 1)
 
-        elif (len(line) > 2) and (line[-1] in ['s', 'S']) and (line[:-1].upper() in full_to_abbr_dict):     # @semanticbeeng @todo @arch global state reference
+        elif (len(line) > 2) and (line[-1] in ['s', 'S']) and (line[:-1].upper() in Abbreviate.full_to_abbr_dict):     # @semanticbeeng @todo @arch global state reference
             return (line[:-1].upper(), 'ABBREVIATION', 'Good', [line], chunks, 1)
 
-        elif (len(line) > 3) and (line[-1] in ['es', 'ES']) and (line[:-2].upper() in full_to_abbr_dict):   # @semanticbeeng @todo @arch global state reference
+        elif (len(line) > 3) and (line[-1] in ['es', 'ES']) and (line[:-2].upper() in Abbreviate.full_to_abbr_dict):   # @semanticbeeng @todo @arch global state reference
             return (line[:-2].upper(), 'ABBREVIATION', 'Good', [line], chunks, 1)
 
         for word in words:

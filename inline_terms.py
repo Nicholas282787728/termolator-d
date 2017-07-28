@@ -371,7 +371,7 @@ def is_nom_piece(word: str) -> bool:
 def OK_chemical(chem_string: str) -> bool:
     if len(chem_string) <= 2:
         return (False)
-    elif chem_string in abbr_to_full_dict:
+    elif chem_string in Abbreviate.abbr_to_full_dict:
         return (False)
     else:
         cap_count = 0
@@ -1410,7 +1410,8 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
         marked_paragraphs = True
     else:
         marked_paragraphs = False
-    big_txt = ''
+
+    big_txt: str = ''
 
     if marked_paragraphs:
         for line in lines:
@@ -1439,7 +1440,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
         if current_block != '':
             txt_strings.append(PosFact(start, end, current_block))
 
-    termLemmer = inline_terms_lemmer.TermsLemmer(abbr_to_full_dict)
+    termLemmer = inline_terms_lemmer.TermsLemmer(Abbreviate.abbr_to_full_dict)
 
     for start, end, text in txt_strings:
         text = re.sub(line_break_match, ' \g<1>', text)
@@ -1453,7 +1454,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
 
             term_tuples: List[Tuple[int, int, str, str]] = merge_formulaic_and_regular_term_tuples(term_triples, formulaic_tuples)
         else:
-            term_tuples: List[Tuple[int, int, str, str]] = []
+            term_tuples = []
 
         # @semanticbeeng @todo unsure about scoping HEHRE!!
         termLemmer.process(term_tuples, big_txt)

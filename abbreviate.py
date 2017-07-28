@@ -20,8 +20,14 @@ ABBREVIATION_STOP_WORDS: List[str] = ['a', 'the', 'an', 'and', 'or', 'but', 'abo
                                       'that']
 
 id_number: int = 0
-abbr_to_full_dict: Dict[str, List[str]] = {}
-full_to_abbr_dict: Dict[str, List[str]] = {}
+
+#
+#
+#
+class Abbreviate:
+    abbr_to_full_dict: Dict[str, List[str]] = {}
+    full_to_abbr_dict: Dict[str, List[str]] = {}
+
 greek_match_table: Dict[str, str] = {'Α': 'A', 'Β': 'B', 'Γ': 'G', 'Δ': 'D', 'Ε': 'E', 'Ζ': 'Z', 'Η': 'H', 'Θ': 'T',
                      'Ι': 'I', 'Κ': 'K', 'Λ': 'L', 'Μ': 'M', 'Ν': 'N', 'Ξ': 'X', 'Ο': 'O',
                      'Π': 'P', 'Ρ': 'R', 'Σ': 'S', 'Τ': 'T', 'Υ': 'U', 'Φ': 'P', 'Χ': 'C', 'Ψ': 'P', 'ϖ': 'P'}
@@ -123,9 +129,9 @@ def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: i
     maxlength = 0
     out_type = 'JARGON'
 
-    if key in abbr_to_full_dict:
+    if key in Abbreviate.abbr_to_full_dict:
 
-        entry = abbr_to_full_dict[key]
+        entry = Abbreviate.abbr_to_full_dict[key]
         ## print(entry)
         ## print(search_string)
         for out_string in entry:
@@ -1141,23 +1147,23 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
 #
 def record_abbreviate_dictionary(fulltext: str, abbreviation: str) -> None:
     ## print(fulltext,abbreviation,argclass)
-    global abbr_to_full_dict
-    global full_to_abbr_dict
+    # global abbr_to_full_dict
+    # global full_to_abbr_dict
     ### also need to update full_to_abbr_dict *** 57 ***
     key = abbreviation  ## use naturally occuring form of abbreviations (otherwise causes problems, e.g., if abbreviation is OR
     value = regularize_match_string1(fulltext)
 
-    if key in abbr_to_full_dict:
-        if not value in abbr_to_full_dict[key]:
-            abbr_to_full_dict[key].append(value)
+    if key in Abbreviate.abbr_to_full_dict:
+        if not value in Abbreviate.abbr_to_full_dict[key]:
+            Abbreviate.abbr_to_full_dict[key].append(value)
     else:
-        abbr_to_full_dict[key] = [value]
+        Abbreviate.abbr_to_full_dict[key] = [value]
 
-    if value in full_to_abbr_dict:
-        if not key in full_to_abbr_dict[value]:
-            full_to_abbr_dict[value].append(key)                # @semanticbeeng @todo @arch global state mutation
+    if value in Abbreviate.full_to_abbr_dict:
+        if not key in Abbreviate.full_to_abbr_dict[value]:
+            Abbreviate.full_to_abbr_dict[value].append(key)                # @semanticbeeng @todo @arch global state mutation
     else:
-        full_to_abbr_dict[value] = [key]                        # @semanticbeeng @todo @arch global state mutation
+        Abbreviate.full_to_abbr_dict[value] = [key]                        # @semanticbeeng @todo @arch global state mutation
 
 
 #
@@ -1253,8 +1259,8 @@ def triplify(inlist: List[Dict[str, str]]) -> List[List[Dict[str, str]]]:
 #
 def run_abbreviate_on_lines(lines: List[str], abbr_file: File[ABBR], reset_dictionary: bool=False) -> List[Dict[str, str]]:
 
-    global abbr_to_full_dict
-    global full_to_abbr_dict
+    # global abbr_to_full_dict
+    # global full_to_abbr_dict
     global id_number
 
     output: List[Dict[str, str]] = []
@@ -1262,8 +1268,8 @@ def run_abbreviate_on_lines(lines: List[str], abbr_file: File[ABBR], reset_dicti
     previous_line: str = None
 
     if reset_dictionary:
-        abbr_to_full_dict.clear()               # @semanticbeeng @todo @arch global state mutation
-        full_to_abbr_dict.clear()               # @semanticbeeng @todo @arch global state mutation
+        Abbreviate.abbr_to_full_dict.clear()               # @semanticbeeng @todo @arch global state mutation
+        Abbreviate.full_to_abbr_dict.clear()               # @semanticbeeng @todo @arch global state mutation
         id_number = 0
 
     # @semanticbeeng @todo not used with open(abbr_file, 'w') as outstream:
@@ -1311,17 +1317,17 @@ def save_abbrev_dicts(abbr_to_full_file: File[ABBR], full_to_abbr_file: File[ABB
 
     with abbr_to_full_file.openText(mode='w') as abbr_full_stream, full_to_abbr_file.openText(mode='w') as full_abbr_stream:
 
-        for key in abbr_to_full_dict:
+        for key in Abbreviate.abbr_to_full_dict:
             abbr_full_stream.write(interior_white_space_trim(key))
-            for value in abbr_to_full_dict[key]:
+            for value in Abbreviate.abbr_to_full_dict[key]:
                 value = interior_white_space_trim(value)
                 abbr_full_stream.write('\t' + value)
             abbr_full_stream.write(os.linesep)
 
-        for key in full_to_abbr_dict:
+        for key in Abbreviate.full_to_abbr_dict:
             full_abbr_stream.write(interior_white_space_trim(key))
 
-            for value in full_to_abbr_dict[key]:                # @semanticbeeng @todo @arch global state reference
+            for value in Abbreviate.full_to_abbr_dict[key]:                # @semanticbeeng @todo @arch global state reference
                 value = interior_white_space_trim(value)
                 full_abbr_stream.write('\t' + value)
 
@@ -1332,21 +1338,21 @@ def save_abbrev_dicts(abbr_to_full_file: File[ABBR], full_to_abbr_file: File[ABB
 #
 #
 def read_in_abbrev_dicts_from_files(abbr_to_full_file: File) -> None:       # @todo not used , full_to_abbr_file):
-    global abbr_to_full_dict
-    global full_to_abbr_dict
+    # global abbr_to_full_dict
+    # global full_to_abbr_dict
 
-    abbr_to_full_dict.clear()                                       # @semanticbeeng @todo @arch global state mutation
-    full_to_abbr_dict.clear()                                       # @semanticbeeng @todo @arch global state mutation
+    Abbreviate.abbr_to_full_dict.clear()                                       # @semanticbeeng @todo @arch global state mutation
+    Abbreviate.full_to_abbr_dict.clear()                                       # @semanticbeeng @todo @arch global state mutation
 
     with abbr_to_full_file.openText() as abbr_full_stream:          # @semanticbeeng @todo not used , open(full_to_abbr_file) as full_abbr_stream:
 
         for line in abbr_full_stream.readlines():
             line_list = line.strip().split('\t')
-            abbr_to_full_dict[line_list[0]] = line_list[1:]
+            Abbreviate.abbr_to_full_dict[line_list[0]] = line_list[1:]
 
-        for line in full_to_abbr_dict:                              # @semanticbeeng @todo how is this built?
+        for line in Abbreviate.full_to_abbr_dict:                              # @semanticbeeng @todo how is this built?
             line_list = line.strip().split('\t')
-            full_to_abbr_dict[line_list[0]] = line_list[1:]         # @semanticbeeng @todo @arch global state mutation
+            Abbreviate.full_to_abbr_dict[line_list[0]] = line_list[1:]         # @semanticbeeng @todo @arch global state mutation
 
 
 #
@@ -1382,8 +1388,8 @@ def get_expanded_forms_from_abbreviations(term: str) -> List[str]:
     output: List[str] = []
     ## print(variations)
     for variation in variations:
-        if variation in abbr_to_full_dict:
-            for item in abbr_to_full_dict[variation]:
+        if variation in Abbreviate.abbr_to_full_dict:
+            for item in Abbreviate.abbr_to_full_dict[variation]:
                 if not item in output:
                     ## print(2,'*',variation,'*',item)
                     output.append(item)
