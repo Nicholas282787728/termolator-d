@@ -1474,7 +1474,11 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     term_hash: Dict[str, List[Tuple[int, int]]] = {}
                                             # @semanticbeeng @todo global state: is this initiaized every time? then why global?
     pos_offset_table.clear()                # @semanticbeeng @todo @global state mutation initialization
-    lemma_dict.clear()                      # @semanticbeeng @todo @global state mutation initialization
+
+    global lemma_dict
+    # lemma_dict.clear()                      # @semanticbeeng @todo @global state mutation initialization
+    del lemma_dict
+    lemma_dict = {}
 
     line_break_match = os.linesep + '(([ \t]*)[^A-Z \t])'
     start_ends: List[Tuple[int, int]] = []
@@ -1642,6 +1646,12 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     # @semanticbeeng @todo @jep
     # with terms_file.openText(mode='w') as outstream:
     outstream = terms_file.openText('w')
+
+    # @semanticbeeng @global state : ensure no mutations from here on
+    lemma_dict = dictionary.freeze_dict(lemma_dict)
+    lemma_count = dictionary.freeze_dict(lemma_count)
+    term_type_hash = dictionary.freeze_dict(term_type_hash)
+
     termWriter = TermWriter(outstream)
 
     for term in term_list:
@@ -1649,7 +1659,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
         if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
             #   @semanticbeeng @todo @dataFlow
             termWriter.write_term_summary_fact_set(term, term_hash[term],
-                                                   lemma_dict, lemma_count,
+                                        lemma_dict, lemma_count,
                                         head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
 
         elif et_al_citation.search(term):
