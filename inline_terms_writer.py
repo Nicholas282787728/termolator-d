@@ -1,18 +1,74 @@
 import re, os
 import term_utilities
 import dictionary
-from typing import List, Tuple, Dict, Optional
+from typing import List, Tuple, Dict, Optional, Pattern
+
+import inline_terms     # @todo remove this dependency
 
 #
 #
 #
 class TermWriter:
 
+    class Patterns:
+        et_al_citation: Pattern[str] = re.compile(' et[.]? al[.]? *$')
+
+    #
     term_id_number: int
     
     def __init__(self, outstream) -> None:
         self.outstream = outstream
         self.term_id_number = 0
+
+    #
+    #
+    #
+    def write_all(self, term_list: List[str],
+                term_hash: Dict[str, List[Tuple[int, int]]],
+                term_type_hash: Dict[str, str],
+                head_hash: Dict[str, str],
+                lemma_dict : Dict[str, str],
+                lemma_count: Dict[str, int]):
+
+        for term in term_list:
+
+            if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
+                #   @semanticbeeng @todo @dataFlow
+                self.write_term_summary_fact_set(term, term_hash[term],
+                                                       lemma_dict, lemma_count,
+                                                       head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
+
+            elif self.Patterns.et_al_citation.search(term):
+                #   @semanticbeeng @todo @dataFlow
+                self.write_term_becomes_article_citation(term, term_hash[term])
+
+            elif term_utilities.org_ending_pattern.search(term) or self.org_head_ending(term, head_hash):
+                #   @semanticbeeng @todo @dataFlow
+                self.write_term_becomes_organization(term, term_hash[term])
+
+            elif term_utilities.person_ending_pattern.search(term):
+                #   @semanticbeeng @todo @dataFlow
+                self.write_term_becomes_person(term, term_hash[term])
+
+            elif self.term_is_org_with_write(term, term_hash[term]):
+                pass
+            else:
+                if term in head_hash:
+                    head_term: str = head_hash[term]
+
+                    if head_term in lemma_dict:
+                        head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state reference
+                    elif head_term in term_type_hash:
+                        head_lemma = inline_terms.get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
+                    else:
+                        head_lemma = inline_terms.get_term_lemma(head_term)
+                else:
+                    head_term = None           #  @semanticbeeng @todo static typing
+                    head_lemma = None              #  @semanticbeeng @todo static typing
+                #   @semanticbeeng @todo @dataFlow
+
+                self.write_term_summary_fact_set(term, term_hash[term], lemma_dict, lemma_count,
+                                                       head_term=head_term, head_lemma=head_lemma)
 
     #
     #   @semanticbeeng @todo
@@ -172,5 +228,15 @@ class TermWriter:
     def term_string_edit(instring: str) -> str:
         output = re.sub('>', '&gt;', instring)
         return (output)
+
+    #
+    #
+    #
+    @staticmethod
+    def org_head_ending(term: str, head_hash) -> bool:
+        if (term in head_hash) and term_utilities.org_ending_pattern.search(head_hash[term]):
+            return (True)
+        return (False)
+
 
 

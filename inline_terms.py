@@ -1,13 +1,12 @@
 import sys
 
 from abbreviate import *
-from inline_terms_writer import TermWriter
+import inline_terms_writer
 from DataDef import File, POS, FACT, TERM, ABBR, CHUNK, PosFact
 import dictionary
 from typing import List, Dict, Optional, Pattern, Match
 # import inspect
 
-et_al_citation: Pattern[str] = re.compile(' et[.]? al[.]? *$')
 ok_path_types = ['url']  ##  currently 'ratio' is not an ok_path_type
 compound_inbetween_string: Pattern[str] = re.compile('^ +(of|for) +((the|a|[A-Z]\.) +)?$', re.I)
 term_stop_words_with_periods: Pattern[str] = re.compile('(^|\s)(u\.s|e\.g|i\.e|u\.k|c\.f|see|ser)([\.\s]|$)', re.I)
@@ -1426,15 +1425,6 @@ def term_is_org_tester(term: str) -> bool:
 
 
 #
-#
-#
-def org_head_ending(term: str, head_hash) -> bool:
-    if (term in head_hash) and org_ending_pattern.search(head_hash[term]):
-        return (True)
-    return (False)
-
-
-#
 #   @semanticbeeng @todo global state initialization pos_offset_table
 #
 def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[POS], terms_file: File[TERM], marked_paragraphs=False, filter_off=False) -> None:
@@ -1476,9 +1466,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     pos_offset_table.clear()                # @semanticbeeng @todo @global state mutation initialization
 
     global lemma_dict
-    # lemma_dict.clear()                      # @semanticbeeng @todo @global state mutation initialization
-    del lemma_dict
-    lemma_dict = {}
+    lemma_dict.clear()                      # @semanticbeeng @todo @global state mutation initialization
 
     line_break_match = os.linesep + '(([ \t]*)[^A-Z \t])'
     start_ends: List[Tuple[int, int]] = []
@@ -1648,51 +1636,13 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     outstream = terms_file.openText('w')
 
     # @semanticbeeng @global state : ensure no mutations from here on
-    lemma_dict = dictionary.freeze_dict(lemma_dict)
-    lemma_count = dictionary.freeze_dict(lemma_count)
-    term_type_hash = dictionary.freeze_dict(term_type_hash)
-
-    termWriter = TermWriter(outstream)
-
-    for term in term_list:
-
-        if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
-            #   @semanticbeeng @todo @dataFlow
-            termWriter.write_term_summary_fact_set(term, term_hash[term],
-                                        lemma_dict, lemma_count,
-                                        head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
-
-        elif et_al_citation.search(term):
-            #   @semanticbeeng @todo @dataFlow
-            termWriter.write_term_becomes_article_citation(term, term_hash[term])
-
-        elif org_ending_pattern.search(term) or org_head_ending(term, head_hash):
-            #   @semanticbeeng @todo @dataFlow
-            termWriter.write_term_becomes_organization(term, term_hash[term])
-
-        elif person_ending_pattern.search(term):
-            #   @semanticbeeng @todo @dataFlow
-            termWriter.write_term_becomes_person(term, term_hash[term])
-
-        elif termWriter.term_is_org_with_write(term, term_hash[term]):
-            pass
-        else:
-            if term in head_hash:
-                head_term: str = head_hash[term]
-
-                if head_term in lemma_dict:
-                    head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state reference
-                elif head_term in term_type_hash:
-                    head_lemma = get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
-                else:
-                    head_lemma = get_term_lemma(head_term)
-            else:
-                head_term = None           #  @semanticbeeng @todo static typing
-                head_lemma = None              #  @semanticbeeng @todo static typing
-            #   @semanticbeeng @todo @dataFlow
-
-            termWriter.write_term_summary_fact_set(term, term_hash[term], lemma_dict, lemma_count,
-                                                   head_term=head_term, head_lemma=head_lemma)
+    termWriter = inline_terms_writer.TermWriter(outstream)
+    termWriter.write_all(term_list,
+                         dictionary.freeze_dict(term_hash),
+                         dictionary.freeze_dict(term_type_hash),
+                         dictionary.freeze_dict(head_hash),
+                         dictionary.freeze_dict(lemma_dict),
+                         dictionary.freeze_dict(lemma_count))
 
 
 #
