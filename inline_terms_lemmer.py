@@ -6,7 +6,7 @@ from typing import List, Tuple, Dict, Pattern
 #
 #   Extracts stats for a a single source "file" and manages the @state derived
 #
-class TermLemmer:
+class TermsLemmer:
 
     class Patterns:
         compound_inbetween_string: Pattern[str] = re.compile('^ +(of|for) +((the|a|[A-Z]\.) +)?$', re.I)

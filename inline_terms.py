@@ -1439,7 +1439,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
         if current_block != '':
             txt_strings.append(PosFact(start, end, current_block))
 
-    termLemmer = inline_terms_lemmer.TermLemmer(abbr_to_full_dict)
+    termLemmer = inline_terms_lemmer.TermsLemmer(abbr_to_full_dict)
 
     for start, end, text in txt_strings:
         text = re.sub(line_break_match, ' \g<1>', text)
@@ -1466,7 +1466,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
     # with terms_file.openText(mode='w') as outstream:
     outstream = terms_file.openText('w')
 
-    termWriter = inline_terms_writer.TermWriter(outstream)
+    termWriter = inline_terms_writer.TermsWriter(outstream)
     termWriter.write_all(term_list, termLemmer)
 
     del termLemmer

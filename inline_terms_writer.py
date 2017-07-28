@@ -8,7 +8,7 @@ import inline_terms_lemmer      # @todo remove this dependency
 #
 #   Perists the TERMSS for a single source "file"
 #
-class TermWriter:
+class TermsWriter:
 
     class Patterns:
         et_al_citation: Pattern[str] = re.compile(' et[.]? al[.]? *$')
@@ -24,7 +24,7 @@ class TermWriter:
     #
     #
     def write_all(self, term_list: List[str],
-                lemmer: inline_terms_lemmer.TermLemmer):
+                  lemmer: inline_terms_lemmer.TermsLemmer):
 
         # @semanticbeeng @global state : ensure no mutations from here on
         term_hash: Dict[str, List[Tuple[int, int]]] = lemmer.term_hash
