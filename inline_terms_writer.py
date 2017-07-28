@@ -13,15 +13,12 @@ class TermsWriter:
     class Patterns:
         et_al_citation: Pattern[str] = re.compile(' et[.]? al[.]? *$')
 
-    #
-    # term_id_number: int
-    
     def __init__(self, outstream) -> None:
         self.outstream = outstream
         self.term_id_number = 0
 
     #
-    #
+    # @semanticbeeng @dataFlow
     #
     def write_all(self, term_list: List[str],
                   lemmer: inline_terms_lemmer.TermsLemmer):
@@ -36,21 +33,17 @@ class TermsWriter:
         for term in term_list:
 
             if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
-                #   @semanticbeeng @todo @dataFlow
                 self.write_term_summary_fact_set(term, term_hash[term],
                                                        lemma_dict, lemma_count,
                                                        head_term=term.upper(), head_lemma=term.upper(), term_type=term_type_hash[term])
 
             elif self.Patterns.et_al_citation.search(term):
-                #   @semanticbeeng @todo @dataFlow
                 self.write_term_becomes_article_citation(term, term_hash[term])
 
             elif term_utilities.org_ending_pattern.search(term) or self.org_head_ending(term, head_hash):
-                #   @semanticbeeng @todo @dataFlow
                 self.write_term_becomes_organization(term, term_hash[term])
 
             elif term_utilities.person_ending_pattern.search(term):
-                #   @semanticbeeng @todo @dataFlow
                 self.write_term_becomes_person(term, term_hash[term])
 
             elif self.term_is_org_with_write(term, term_hash[term]):
@@ -60,7 +53,7 @@ class TermsWriter:
                     head_term: str = head_hash[term]
 
                     if head_term in lemma_dict:
-                        head_lemma = lemma_dict[head_term]  # @semanticbeeng @todo global state reference
+                        head_lemma = lemma_dict[head_term]
                     elif head_term in term_type_hash:
                         head_lemma = lemmer.get_term_lemma(head_term, term_type=(term_type_hash[head_term]))
                     else:
@@ -149,7 +142,7 @@ class TermsWriter:
         else:
             ## ne_class = 'ORGANIZATION'
             return (False)
-        # global term_id_number @semanticbeeng @todo global state
+        # global term_id_number @semanticbeeng @global state
     
         for start, end in instances:
             self.term_id_number = 1 + self.term_id_number
@@ -163,9 +156,9 @@ class TermsWriter:
     def write_term_summary_fact_set(self, term: str, instances: List[Tuple[int, int]],
                                     lemma_dict: Dict[str, str], lemma_count: Dict[str, int],
                                     head_term: Optional[str]=None, head_lemma: Optional[str]=None, term_type: Optional[str]=None) -> None:
-        # global term_id_number @semanticbeeng @todo global state
+        # global term_id_number @semanticbeeng global state
         frequency = len(instances)
-        lemma = lemma_dict[term]            # @semanticbeeng @todo global state reference
+        lemma = lemma_dict[term]
         lemma_freq = lemma_count[lemma]
     
         for start, end in instances:
@@ -188,7 +181,7 @@ class TermsWriter:
     #
     #
     def write_term_becomes_article_citation(self, term: str, instances: List[Tuple[int, int]]) -> None:
-        # global term_id_number @semanticbeeng @todo global state
+        # global term_id_number @semanticbeeng @global state
         for start, end in instances:
             self.term_id_number = 1 + self.term_id_number
             self.outstream.write('CITATION ID="NYU_ID_' + str(self.term_id_number) + '" STRING="' + term + '" CITE_CLASS="article"')
@@ -198,7 +191,7 @@ class TermsWriter:
     #
     #
     def write_term_becomes_organization(self, term: str, instances: List[Tuple[int, int]]) -> None:
-        # global term_id_number @semanticbeeng @todo global state
+        # global term_id_number @semanticbeeng @global state
         for start, end in instances:
             self.term_id_number = 1 + self.term_id_number
             self.outstream.write('ORGANIZATION ID="NYU_ID_' + str(self.term_id_number) + '" STRING="' + term + '"')
@@ -208,7 +201,7 @@ class TermsWriter:
     #
     #
     def write_term_becomes_gpe(self, term: str, instances: List[Tuple[int, int]]) -> None:
-        # global term_id_number @semanticbeeng @todo global state
+        # global term_id_number @semanticbeeng @global state
         for start, end in instances:
             self.term_id_number = 1 + self.term_id_number
             self.outstream.write('GPE ID="NYU_ID_' + str(self.term_id_number) + '" STRING="' + term + '"')
@@ -218,7 +211,7 @@ class TermsWriter:
     #
     #
     def write_term_becomes_person(self, term: str, instances: List[Tuple[int, int]]) -> None:
-        # global term_id_number @semanticbeeng @todo global state
+        # global term_id_number @semanticbeeng @global state
         for start, end in instances:
             self.term_id_number = 1 + self.term_id_number
             self.outstream.write('PERSON ID="NYU_ID_' + str(self.term_id_number) + '" STRING="' + term + '"')
