@@ -4,8 +4,12 @@ from filter_terms import *
 from DataDef import File, TERM, ABBR
 import dictionary
 
+
 def main(args):
     # global special_domains
+
+    global debug_run_without_pos
+    debug_run_without_pos = True
 
     file_prefix = args[1]
     web_score_dict_file = args[2]
