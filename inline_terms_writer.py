@@ -21,7 +21,7 @@ class TermsWriter:
     # @semanticbeeng @dataFlow
     #
     def write_all(self, term_list: List[str],
-                  lemmer: inline_terms_lemmer.TermsLemmer):
+                  lemmer: inline_terms_lemmer.TermsLemmer) -> None:
 
         # @semanticbeeng @global state : ensure no mutations from here on
         term_hash: Dict[str, List[Tuple[int, int]]] = lemmer.term_hash

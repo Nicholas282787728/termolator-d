@@ -29,9 +29,9 @@ class TermsLemmer:
     #
     #
     #
-    def process(self,
-                term_tuples: List[Tuple[int, int, str, str]],
-                big_txt: str):
+    def process_line(self,
+                     term_tuples: List[Tuple[int, int, str, str]],
+                     big_txt: str):
 
         # compound_tuples = []              # @semanticbeeng @todo not used
         last_tuple: Tuple[int, int, str, str] = None        # @semanticbeeng @todo static typing  @data what is this

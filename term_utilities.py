@@ -501,7 +501,7 @@ def load_pos_offset_table(pos_file: File[POS]) -> None:
             start_end_strings = start_end.split(' ')
             start = int(start_end_strings[0][2:])
             pos = line_info[2]
-            pos_offset_table[start] = pos
+            pos_offset_table[start] = pos       # @semanticbeeng @data : is this PosFact
 
 
 #
@@ -880,6 +880,7 @@ def get_tagger_pos(offset: int) -> str:
         tagger_pos = None  # @semanticbeeng static type @todo !
     return tagger_pos
 
+
 #
 #
 #
@@ -887,7 +888,7 @@ def divide_sentence_into_words_and_start_positions(sentence: str, start: int = 0
     ## only sequences of letters are needed for look up
     break_pattern: Pattern[str] = re.compile('[^0-9A-Za-z-]')
     match: Optional[Match[str]] = break_pattern.search(sentence, start)
-    output: List[Tuple[int, str]] = []                                  # @semanticbeeng @todo static typing
+    output: List[Tuple[int, str]] = []
 
     while match:
         if start != match.start():

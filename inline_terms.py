@@ -676,13 +676,13 @@ def merge_formulaic_and_regular_term_tuples(term_tuples: List[Tuple[int, int, st
 #
 #
 #
-def global_formula_filter(term_list, term_hash: Dict[str, List[Tuple[int, int]]], type_hash: Dict[str, str]) -> None:
+def global_formula_filter(term_list, term_hash: Dict[str, List[Tuple[int, int]]], term_type_hash: Dict[str, str]) -> None:
 
     chemical_filter_pattern = re.compile('^([A-Z]*)([0-9])$')
     chemical_matches: Dict[str, List[str]] = {}
 
     for term in term_list:
-        if (term in type_hash) and (type_hash[term] == 'chemical'):
+        if (term in term_type_hash) and (term_type_hash[term] == 'chemical'):
             match = chemical_filter_pattern.search(term)
             if match:
                 key = match.group(1)
@@ -697,8 +697,8 @@ def global_formula_filter(term_list, term_hash: Dict[str, List[Tuple[int, int]]]
     for key in chemical_matches:
         if len(chemical_matches[key]) > 1:
             for value in chemical_matches[key]:
-                term_list.remove(value)
-                term_hash.pop(value)
+                term_list.remove(value)                 # @semanticbeeng @todo @sideEffect - does this belong to TermLemmer just because it mutates its state>
+                term_hash.pop(value)                    # @semanticbeeng @todo @sideEffect
 
 
 #
@@ -1363,7 +1363,8 @@ def term_is_org_tester(term: str) -> bool:
 #
 #   @semanticbeeng @todo global state initialization pos_offset_table
 #
-def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[POS], terms_file: File[TERM], marked_paragraphs=False, filter_off=False) -> None:
+def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[POS], terms_file: File[TERM],
+                      marked_paragraphs=False, filter_off=False) -> None:
 
     # global abbr_to_full_dict              # @semanticbeeng @todo not used
     # global full_to_abbr_dict              # @semanticbeeng @todo not used
@@ -1456,7 +1457,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
         else:
             term_tuples = []
 
-        termLemmer.process(term_tuples, big_txt)
+        termLemmer.process_line(term_tuples, big_txt)
 
     term_list: List[str] = list(termLemmer.term_hash.keys())
     term_list.sort()
