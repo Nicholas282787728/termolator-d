@@ -1448,7 +1448,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
             ##  ignore tables
 
             # @semanticbeeng @todo static typic
-            term_triples: List[Tuple[int, int, str]] = get_topic_terms(text, start, filter_off=filter_off)
+            term_triples: List[Tuple[int, int, str]] = get_topic_terms(text, start, filter_off=filter_off)  # @todo is this PosFact? or Term
 
             formulaic_tuples: List[Tuple[int, int, str, str]] = get_formulaic_term_pieces(text, start)
 
