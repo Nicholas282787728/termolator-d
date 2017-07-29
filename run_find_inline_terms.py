@@ -3,12 +3,12 @@
 from find_terms import *
 from DataDef import File
 import dictionary
-from refactoring_support import Debug
+from refactoring_support import Refactoring
 
 def main(args):
     # global special_domains
 
-    Debug.run_filter_phase = False
+    Refactoring.run_filter_phase = False
 
     file_list = args[1]
     if len(args) > 2:

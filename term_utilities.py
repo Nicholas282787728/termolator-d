@@ -4,7 +4,7 @@ import dictionary
 import re
 from typing import List, Dict, Tuple, Pattern, Match, Optional
 from DataDef import File, POS, TXT3
-from refactoring_support import Debug
+from refactoring_support import Refactoring
 
 pos_offset_table: Dict[int, str] = {}
 
@@ -644,7 +644,7 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
     pos: List[str] = []
     plural = False
 
-    if Debug.run_filter_phase:
+    if Refactoring.run_filter_phase:
         assert not pos_offset_table
         tagger_pos: str = None
     else:

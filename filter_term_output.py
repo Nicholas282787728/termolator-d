@@ -3,12 +3,12 @@
 from filter_terms import *
 from DataDef import File, TERM, ABBR
 import dictionary
-from refactoring_support import Debug
+from refactoring_support import Refactoring
 
 def main(args):
     # global special_domains
 
-    Debug.run_filter_phase = True
+    Refactoring.run_filter_phase = True
 
     file_prefix = args[1]
     web_score_dict_file = args[2]
