@@ -12,6 +12,8 @@ def main(args):
 
     file_prefix = args[1]
     web_score_dict_file = args[2]
+
+    use_web_score: bool = None
     if args[3].lower() in ['true', 't']:
         use_web_score = True
     elif args[3].lower() in ['false', 'f']:
@@ -24,21 +26,17 @@ def main(args):
     max_term_number = int(args[4])
 
     if (len(args) > 5) and (args[5].lower() != 'false'):
-        dictionary.special_domains.extend(args[5].split('+'))              # @semanticbeeng @todo @arch global state initialization
+        dictionary.special_domains.extend(args[5].split('+'))               # @semanticbeeng @todo @arch global state initialization
 
     dictionary.initialize_utilities()
 
-    input_file = File[TERM](file_prefix + ".all_terms")
-    output_file = File(file_prefix + ".scored_output")
-    abbr_full_file = File[ABBR](file_prefix + ".dict_abbr_to_full")
-    # @semanticbeeng @todo not used  full_abbr_file = file_prefix + ".dict_full_to_abbr"
-    reject_file = File(file_prefix + ".rejected-terms")
-
-    filter_terms(input_file, output_file, abbr_full_file,
-                 # @semanticbeeng @todo not used  full_abbr_file,
+    filter_terms(File[TERM](file_prefix + ".all_terms"),
+                 File(file_prefix + ".scored_output"),
+                 File[ABBR](file_prefix + ".dict_abbr_to_full"),
+                 # full_abbr_file = file_prefix + ".dict_full_to_abbr"      # @semanticbeeng not used
                  use_web_score,
                  numeric_cutoff=max_term_number,
-                 reject_file=reject_file,
+                 reject_file=File(file_prefix + ".rejected-terms"),
                  web_score_dict_file=File(web_score_dict_file))
 
 
