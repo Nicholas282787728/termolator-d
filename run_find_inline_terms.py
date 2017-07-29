@@ -3,12 +3,12 @@
 from find_terms import *
 from DataDef import File
 import dictionary
+from refactoring_support import Debug
 
 def main(args):
     # global special_domains
 
-    global debug_run_without_pos
-    debug_run_without_pos = False
+    Debug.run_without_pos = False
 
     file_list = args[1]
     if len(args) > 2:

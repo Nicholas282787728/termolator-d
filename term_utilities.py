@@ -4,8 +4,7 @@ import dictionary
 import re
 from typing import List, Dict, Tuple, Pattern, Match, Optional
 from DataDef import File, POS, TXT3
-
-debug_run_without_pos: bool = None
+from refactoring_support import Debug
 
 pos_offset_table: Dict[int, str] = {}
 
@@ -645,11 +644,10 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
     pos: List[str] = []
     plural = False
 
-    global debug_run_without_pos
-    if debug_run_without_pos:
+    if Debug.run_without_pos:
         tagger_pos: str = None
     else:
-        tagger_pos: str = get_tagger_pos(offset)
+        tagger_pos = get_tagger_pos(offset)
 
     if (len(word) > 2) and word[-2:] in ['\'s', 's\'']:
         possessive = True
