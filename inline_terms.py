@@ -1456,10 +1456,9 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
         else:
             term_tuples = []
 
-        # @semanticbeeng @todo unsure about scoping HEHRE!!
         termLemmer.process(term_tuples, big_txt)
 
-    term_list = list(termLemmer.term_hash.keys())
+    term_list: List[str] = list(termLemmer.term_hash.keys())
     term_list.sort()
     global_formula_filter(term_list, termLemmer.term_hash, termLemmer.term_type_hash)
 
