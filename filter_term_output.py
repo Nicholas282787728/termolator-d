@@ -8,7 +8,7 @@ from refactoring_support import Debug
 def main(args):
     # global special_domains
 
-    Debug.run_without_pos = True
+    Debug.run_filter_phase = True
 
     file_prefix = args[1]
     web_score_dict_file = args[2]

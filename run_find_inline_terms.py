@@ -8,7 +8,7 @@ from refactoring_support import Debug
 def main(args):
     # global special_domains
 
-    Debug.run_without_pos = False
+    Debug.run_filter_phase = False
 
     file_list = args[1]
     if len(args) > 2:

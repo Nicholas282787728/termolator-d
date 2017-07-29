@@ -644,7 +644,8 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
     pos: List[str] = []
     plural = False
 
-    if Debug.run_without_pos:
+    if Debug.run_filter_phase:
+        assert not pos_offset_table
         tagger_pos: str = None
     else:
         tagger_pos = get_tagger_pos(offset)
