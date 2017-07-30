@@ -309,7 +309,7 @@ def unbalanced_delimiter(outstring: str) -> bool:
 #
 #
 #
-def fix_unbalanced(outstring: str, line: str, line_position: int) -> Tuple[Optional[int], Optional[str]]:
+def fix_unbalanced(outstring: str, line: str, line_position: int) -> Optional[Tuple[int, str]]:
     ## print(outstring,line,line_position,sep=os.linesep)
     ## this balances parens for formulaic items that contain parens
     ## the good ones all have hyphens either before the left paren
@@ -350,7 +350,7 @@ def fix_unbalanced(outstring: str, line: str, line_position: int) -> Tuple[Optio
 #
 #   @semanticbeeng @todo static typing
 #
-def get_word_substring_at_end(words: List[str], line: str, inbetween: Optional[str]=None, no_check: bool=False) -> Tuple[Optional[str], Optional[int]]:
+def get_word_substring_at_end(words: List[str], line: str, inbetween: Optional[str]=None, no_check: bool=False) -> Optional[Tuple[str, int]]:
     ## this assumes that the words occur at the end of the line
     ## and that any characters ignored (hyphens, numbers, etc.) 
     ## are OK to ignore

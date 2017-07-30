@@ -210,7 +210,7 @@ def topic_term_ok_boolean(word_list: List[str], pos_list: List[str], term_string
 #
 #
 #
-def get_next_word(instring: str, start: int) -> Tuple[str, int, int]:
+def get_next_word(instring: str, start: int) -> Optional[Tuple[str, int, int]]:
     ## 1) don't split before paren or , unless
     ## one of the adjacent characters is an alphachar
     ## or space
@@ -311,10 +311,10 @@ def get_next_word(instring: str, start: int) -> Tuple[str, int, int]:
                 found = paren_pat
             else:
                 end = found.end()
-                found = None                        # @semanticbeeng @todo static typing
+                found = None                       # @semanticbeeng @todo static typing
         else:
             end = found.end()
-            found = None                            # @semanticbeeng @todo static typing
+            found = None                           # @semanticbeeng @todo static typing
     if end:
         return (instring[start:end], start, end)
     else:
@@ -468,7 +468,7 @@ def OK_path(path_string: str, url=False) -> bool:
 #
 #
 #
-def get_next_path_match(text: str, start: int) -> Tuple[Optional[Match[str]], Optional[str]]:
+def get_next_path_match(text: str, start: int) -> Optional[Tuple[Optional[Match[str]], str]]:
 
     path_chunk_string = '(([^ /;,=<>()\[\]]+)(//?([^ /;,=<>()\[\]]+)))'
     path_chunk_formula_string = '(' + path_chunk_string + ' ?)+' + path_chunk_string
@@ -902,8 +902,9 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List[Tupl
                 piece2 = piece[start:]
             else:
                 piece2 = piece[start:split_position.start()]
-            current_out_list = None             # @semanticbeeng @todo static typing
-            current_pos_list = None             # @semanticbeeng @todo static typing
+
+            current_out_list: List[str] = None             # @semanticbeeng @todo static typing
+            current_pos_list: List[str] = None             # @semanticbeeng @todo static typing
             pre_np = False
             first_piece = True
             last_pos = None                     # @semanticbeeng @todo static typing
@@ -1476,7 +1477,7 @@ def find_inline_terms(lines: List[str], fact_file: File[FACT], pos_file: File[PO
 #
 #  @semanticbeeng @todo @data check with PosFact
 #
-def get_pos_structure(line: str) -> Tuple[Optional[str], Optional[str], Optional[int], Optional[int]]:
+def get_pos_structure(line: str) -> Optional[Tuple[str, str, int, int]]:
 
     start_end: Pattern[str] = re.compile('S:([0-9]+) E:([0-9]+)')
 
@@ -1501,7 +1502,7 @@ def get_pos_structure(line: str) -> Tuple[Optional[str], Optional[str], Optional
         # end = int(end)
     else:
         return (None, None, None, None)         # @semanticbeeng @todo static typing
-    return (word, pos, int(start), int(end))       # @semanticbeeng @todo static typing
+    return (word, pos, int(start), int(end))        # @semanticbeeng @todo static typing
 
 
 #

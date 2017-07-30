@@ -21,7 +21,7 @@ object abbreviate extends JepEnabled {
 
     import collection.JavaConverters._
     FunctionDef("run_abbreviate_on_lines", ("lines", lines), ("abbr_file", abbr_file), ("reset_dictionary", reset_dictionary)).
-      pyCallAndReturn[java.util.ArrayList[Map[String, String]]]().asScala.toList
+      pyCallAndReturn[java.util.List[Map[String, String]]]().asScala.toList
   }
 
   /**

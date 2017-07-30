@@ -6,6 +6,10 @@ package org.czi.termolator.porting
 object inline_terms extends JepEnabled {
 
   import DataDef._
+  type str = String
+  type int = Int
+  type bool = Boolean
+  val False = false
 
   val moduleName = "inline_terms"
 
@@ -76,4 +80,13 @@ object inline_terms extends JepEnabled {
       ("filter_off", filter_off)).pyCall()
   }
 
+  /**
+    *
+    */
+  def get_topic_terms(text: str, offset: int, filter_off: bool=False) : List[(int, int, str)] = {
+
+    import collection.JavaConverters._
+    FunctionDef("get_topic_terms", ("text", text), ("offset", offset), ("filter_off", filter_off)).
+      pyCallAndReturn[java.util.List[(int, int, str)]]().asScala.toList
+  }
 }

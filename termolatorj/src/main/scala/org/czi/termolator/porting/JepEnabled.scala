@@ -69,6 +69,9 @@ trait JepEnabled {
       import collection.JavaConverters._
       args.map {
         case (n: String, v: File[_])    ⇒ (n, v)
+        case (n: String, v: Int)        ⇒ (n, Int.box(v))
+        case (n: String, v: Float)      ⇒ (n, Float.box(v))
+        case (n: String, v: Double)     ⇒ (n, Double.box(v))
         case (n: String, v: String)     ⇒ (n, v)
         case (n: String, v: Boolean)    ⇒ (n, if(v) java.lang.Boolean.TRUE else java.lang.Boolean.FALSE)
         case (n: String, v: Option[_])  ⇒ (n, if (v.isDefined) mapArgs(Seq((n, v.get))) else (n, "None"))

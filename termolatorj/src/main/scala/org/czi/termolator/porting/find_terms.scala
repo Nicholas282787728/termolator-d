@@ -17,12 +17,13 @@ object find_terms extends JepEnabled {
 
     // @done ported FunctionDef("find_inline_terms_for_file_list", ("file_list", file_list), ("dict_prefix ", None)).pyCall()
 
-    import scala.collection.JavaConverters._
     //    # if dict_prefix:
     //    #     unigram_dictionary.clear()
     //    ## see derive_plurals in term_utilities
     //    ## and other instances of "unigram_dict" below
     var start = true
+
+    import scala.collection.JavaConverters._
     file_list.readlines().asScala foreach { f: String ⇒
 
       find_inline_terms_for(f.trim, start)
