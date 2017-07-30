@@ -22,5 +22,5 @@ def main(args):
     find_inline_terms_for_file_list(File(file_list), dict_prefix=outfile_prefix)
 
 
-# @semanticbeeng @todo to run from Jep
+# @semanticbeeng @todo to run from @jep
 if __name__ == '__main__': sys.exit(main(sys.argv))

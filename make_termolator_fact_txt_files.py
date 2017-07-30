@@ -111,70 +111,77 @@ def create_termolotator_fact_txt_files(input_file: File[TXT], txt2_file: File[TX
     bad_chars = []
     inlinelist = get_my_string_list(input_file)
 
-    with txt2_file.openText(mode='w') as txt2_stream, txt3_file.openText(mode='w') as txt3_stream:
-        start = 0
-        length = 0
+    # @semanticbeeng @todo @jep
+    # with txt2_file.openText(mode='w') as txt2_stream, txt3_file.openText(mode='w') as txt3_stream:
 
-        for line in merge_multiline_and_fix_xml(inlinelist):
-            string2, starts1, ends1, nonprint_starts1, nonprint_ends1 = remove_xml_spit_out_paragraph_start_end(line, start)
-            string3, bad1 = replace_less_than_with_positions(string2, start)
+    txt2_stream = txt2_file.openText('w')
+    txt3_stream = txt3_file.openText('w')
+    start = 0
+    length = 0
 
-            # # @semanticbeeng @todo debug
-            if type(bad1) != list:
-                print("ERROR ++++++ " + string3 + " , " + str(bad1))
-                raise ValueError("Unexpected type for " + str(bad1))
+    for line in merge_multiline_and_fix_xml(inlinelist):
+        string2, starts1, ends1, nonprint_starts1, nonprint_ends1 = remove_xml_spit_out_paragraph_start_end(line, start)
+        string3, bad1 = replace_less_than_with_positions(string2, start)
 
-            if (len(paragraph_ends) == 0) and (len(starts1) > 0) and (len(paragraph_ends) == 0):
-                hypothetical_end = (starts1[0] - 1)
-                if not hypothetical_end in ends1:
-                    ends1.append(hypothetical_end)
-                    ends1.sort()
-                    ## balances the addition of 0 as a start
+        # # @semanticbeeng @todo debug
+        if type(bad1) != list:
+            print("ERROR ++++++ " + string3 + " , " + str(bad1))
+            raise ValueError("Unexpected type for " + str(bad1))
 
-            length = length + len(string2)
-            start = start + len(string2)
+        if (len(paragraph_ends) == 0) and (len(starts1) > 0) and (len(paragraph_ends) == 0):
+            hypothetical_end = (starts1[0] - 1)
+            if not hypothetical_end in ends1:
+                ends1.append(hypothetical_end)
+                ends1.sort()
+                ## balances the addition of 0 as a start
 
-            #
-            #   @semanticbeeng @todo @dataflow - writing to both TXT2 and TXT3 files
-            #
-            txt2_stream.write(string2)
-            txt3_stream.write(string3)
+        length = length + len(string2)
+        start = start + len(string2)
 
-            paragraph_starts.extend(starts1)
-            paragraph_ends.extend(ends1)
-            nonprint_starts.extend(nonprint_starts1)
-            nonprint_ends.extend(nonprint_ends1)
-            bad_chars.extend(bad1)
-        if len(paragraph_ends) > 0:
-            paragraph_starts.append(1 + paragraph_ends[-1])
-        paragraph_ends.append(length)
+        #
+        #   @semanticbeeng @todo @dataflow - writing to both TXT2 and TXT3 files
+        #
+        txt2_stream.write(string2)
+        txt3_stream.write(string3)
+
+        paragraph_starts.extend(starts1)
+        paragraph_ends.extend(ends1)
+        nonprint_starts.extend(nonprint_starts1)
+        nonprint_ends.extend(nonprint_ends1)
+        bad_chars.extend(bad1)
+    if len(paragraph_ends) > 0:
+        paragraph_starts.append(1 + paragraph_ends[-1])
+    paragraph_ends.append(length)
+
     paragraph_starts, paragraph_ends = modify_paragraph_delimiters(paragraph_starts, paragraph_ends, nonprint_starts, nonprint_ends)
 
-    with fact_file.openText(mode='w') as factstream:
+    # @semanticbeeng @todo @jep
+    # with fact_file.openText(mode='w') as factstream:
+    factstream = fact_file.openText('w')
 
-        if len(paragraph_starts) == len(paragraph_ends):
-            for item_num in range(len(paragraph_starts)):
-                factstream.write('STRUCTURE TYPE="TEXT" START=' + str(paragraph_starts[item_num]) + ' END=' + str(paragraph_ends[item_num]) + os.linesep)
+    if len(paragraph_starts) == len(paragraph_ends):
+        for item_num in range(len(paragraph_starts)):
+            factstream.write('STRUCTURE TYPE="TEXT" START=' + str(paragraph_starts[item_num]) + ' END=' + str(paragraph_ends[item_num]) + os.linesep)
 
-        elif (len(paragraph_starts) > 1) and len(paragraph_ends) == 1:
-            last_start = 0
-
-            #
-            #   @semanticbeeng @todo @dataflow - writing FACT files
-            #
-            for start in paragraph_starts:
-                if start != 0:
-                    factstream.write('STRUCTURE TYPE="TEXT" START=' + str(last_start) + ' END=' + str(start) + os.linesep)
-                last_start = start
-            factstream.write('STRUCTURE TYPE="TEXT" START=' + str(last_start) + ' END=' + str(paragraph_ends[0]) + os.linesep)
-        else:
-            factstream.write('STRUCTURE TYPE="TEXT" START=0 END=' + str(paragraph_ends[0]) + os.linesep)
+    elif (len(paragraph_starts) > 1) and len(paragraph_ends) == 1:
+        last_start = 0
 
         #
         #   @semanticbeeng @todo @dataflow - writing FACT files
         #
-        for bad_char in bad_chars:
-            factstream.write('BAD_CHARACTER START=' + str(bad_char[0]) + ' END=' + str(bad_char[1]) + ' STRING="<"' + os.linesep)
+        for start in paragraph_starts:
+            if start != 0:
+                factstream.write('STRUCTURE TYPE="TEXT" START=' + str(last_start) + ' END=' + str(start) + os.linesep)
+            last_start = start
+        factstream.write('STRUCTURE TYPE="TEXT" START=' + str(last_start) + ' END=' + str(paragraph_ends[0]) + os.linesep)
+    else:
+        factstream.write('STRUCTURE TYPE="TEXT" START=0 END=' + str(paragraph_ends[0]) + os.linesep)
+
+    #
+    #   @semanticbeeng @todo @dataflow - writing FACT files
+    #
+    for bad_char in bad_chars:
+        factstream.write('BAD_CHARACTER START=' + str(bad_char[0]) + ' END=' + str(bad_char[1]) + ' STRING="<"' + os.linesep)
 
 
 def main(args):
@@ -195,4 +202,5 @@ def main(args):
             create_termolotator_fact_txt_files(input_file, txt2_file, txt3_file, fact_file)
 
 
-if __name__ == '__main__': sys.exit(main(sys.argv))
+# @semanticbeeng @todo to run from Jep
+# if __name__ == '__main__': sys.exit(main(sys.argv))

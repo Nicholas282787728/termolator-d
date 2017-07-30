@@ -5,10 +5,11 @@ import scala.collection.immutable.Seq
 /**
   *
   */
-object make_termolator_fact_txt_files {
+object make_termolator_fact_txt_files extends JepEnabled {
 
   import DataDef._
 
+  val moduleName = "make_termolator_fact_txt_files"
 
   /**
     * @code_reference [[./nyu-english-new/make_termolator_fact_txt_files.py:95]]
@@ -51,14 +52,22 @@ object make_termolator_fact_txt_files {
     */
   def create_termolotator_fact_txt_files(input_file: File[TXT],
                                          txt2_file : File[TXT2], txt3_file: File[TXT3], fact_file: File[FACT]) = {
-    val lines = get_my_string_list
 
-    merge_multiline_and_fix_xml(lines)
+    FunctionDef("create_termolotator_fact_txt_files",
+      ("input_file", input_file), ("txt2_file", txt2_file), ("txt3_file", txt3_file), ("fact_file", fact_file)).
+      pyCall()
 
-    remove_xml_spit_out_paragraph_start_end
-
-    modify_paragraph_delimiters
     (txt2_file, txt3_file, fact_file)
+
+    // @todo impl
+//    val lines = get_my_string_list
+//
+//    merge_multiline_and_fix_xml(lines)
+//
+//    remove_xml_spit_out_paragraph_start_end
+//
+//    modify_paragraph_delimiters
+//    (txt2_file, txt3_file, fact_file)
   }
 
   /**
