@@ -22,12 +22,18 @@ object DataDef {
   type str = String
   type int = Long
   type bool = Boolean
-  type jepInt = java.lang.Long
-  type jepStr = String
-  type jepTuple = java.util.List[_]
-  def jepUnbox(i: jepInt) : int = Long.unbox(i)
+
   val False = false
   val nullInt : int = 0L
   val nullStr : str = ""
+  // val nullBool : bool = None
+
+  object jep {
+    type int = java.lang.Long
+    type str = String
+    type tuple = java.util.List[_]
+    def unbox(i: int) : Long = Long.unbox(i)
+  }
+
 
 }

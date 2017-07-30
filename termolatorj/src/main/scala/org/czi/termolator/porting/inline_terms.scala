@@ -88,8 +88,8 @@ object inline_terms extends JepEnabled {
 
     import collection.JavaConverters._
     FunctionDef("get_topic_terms", ("text", text), ("offset", offset), ("filter_off", filter_off)).
-      pyCallAndReturn[util.List[jepTuple]]().asScala.toList map { e ⇒ e.asScala match {
-        case mutable.Buffer(_1: jepInt, _2: jepInt, _3: jepStr) ⇒ (jepUnbox(_1), jepUnbox(_2), _3)
+      pyCallAndReturn[util.List[jep.tuple]]().asScala.toList map { e ⇒ e.asScala match {
+        case mutable.Buffer(_1: jep.int, _2: jep.int, _3: jep.str) ⇒ (jep.unbox(_1), jep.unbox(_2), _3)
         case _ ⇒ assert(false); (nullInt, nullInt, nullStr)
       }
     }
