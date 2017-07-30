@@ -82,7 +82,17 @@ object inline_terms extends JepEnabled {
   }
 
   /**
-    * @todo try a more generic solution with https://stackoverflow.com/a/19901310/4032515
+    * Really must do this to avoid having to reference Jep specifics in client code
+    * For example Jep seems to map Python Tuples to [[mutable.Buffer]]
+    *
+    * @todo try a more generic solution with
+    *       https://stackoverflow.com/a/19901310/4032515
+    *
+    * @todo how would I do this from Java??
+    *       "So it is clear that Java has tuples, but we can use them only as function's arguments
+    *       and not for function's return values."
+    *       https://dzone.com/articles/whats-wrong-java-8-part-v
+    *
     */
   def get_topic_terms(text: str, offset: int, filter_off: bool=False) : List[(int, int, str)] = {
 
