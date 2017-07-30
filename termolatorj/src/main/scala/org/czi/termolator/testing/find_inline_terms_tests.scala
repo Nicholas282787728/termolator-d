@@ -27,10 +27,19 @@ object find_inline_terms_tests extends App {
     val infile = new File[TXT](fileName+ ".txt")
     val txt2_file = new File[TXT2](fileName+ ".txt2")
 
-    make_termolator_fact_txt_files.create_termolotator_fact_txt_files(input_file = infile,
+    make_termolator_fact_txt_files.create_termolotator_fact_txt_files(
+      input_file = infile,
       txt2_file,
-      txt3_file = new File[TXT3](fileName+ ".txt3"),
-      fact_file = new File[FACT](fileName+ ".fact"))
+      txt3_file = new File[TXT3](fileName + ".txt3"),
+      fact_file = new File[FACT](fileName + ".fact"))
+
+    val fact = new File[FACT](fileName + ".fact")
+    val pos = new File[FACT](fileName + ".pos")
+    run_adjust_missing_char_pos.fix_bad_char_in_file(
+      fact,
+      pos)
+
+    run_adjust_missing_char_pos.fix_bad_char_in_file(fact, pos)
 
     val lines: Seq[str] = term_utilities.get_lines_from_file(txt2_file)
 

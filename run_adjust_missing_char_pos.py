@@ -57,38 +57,44 @@ def modify_pos_end(line: str, new_end: int) -> str:
 #
 #
 #
-def fix_bad_char_in_file(fact: File[FACT], pos: File[POS]):
+def fix_bad_char_in_file(fact: File[FACT], pos: File[POS]) -> None:
 
-    with fact.openText() as fact_stream:
-        fact_list: List[PosFact] = get_pos_facts(fact_stream.readlines())
-        fact_list.reverse()
+    # @semanticbeeng @todo @jep
+    # with fact.openText() as fact_stream:
+    fact_stream = fact.openText()
+    fact_list: List[PosFact] = get_pos_facts(fact_stream.readlines())
+    fact_list.reverse()
 
     if fact_list:
-        with pos.openText() as pos_stream:
-            pos_list: List[str] = pos_stream.readlines()
-            pos_list.reverse()
+        # @semanticbeeng @todo @jep
+        # with pos.openText() as pos_stream:
+        pos_stream = pos.openText()
+        pos_list: List[str] = pos_stream.readlines()
+        pos_list.reverse()
 
         next_fact: Tuple[int, str] = None        # @semanticbeeng @todo static typing
         next_pos: PosFact = None                 # @semanticbeeng @todo static typing
 
-        with pos.openText(mode='w') as outstream:
-            while pos_list or fact_list:
-                if fact_list and (not next_fact):
-                    next_fact = make_fact_pair(fact_list.pop())
-                if pos_list and (not next_pos):
-                    next_pos = make_pos_triple(pos_list.pop())
+        # @semanticbeeng @todo @jep
+        # with pos.openText(mode='w') as outstream:
+        outstream = pos.openText('w')
+        while pos_list or fact_list:
+            if fact_list and (not next_fact):
+                next_fact = make_fact_pair(fact_list.pop())
+            if pos_list and (not next_pos):
+                next_pos = make_pos_triple(pos_list.pop())
 
-                if (next_pos and next_fact and (next_pos[0] > next_fact[0])) or (next_fact and not next_pos):
-                    outstream.write(next_fact[1])    # @semanticbeeng @todo @dataFlow
-                    next_fact = None       # @semanticbeeng @todo static typing
+            if (next_pos and next_fact and (next_pos[0] > next_fact[0])) or (next_fact and not next_pos):
+                outstream.write(next_fact[1])    # @semanticbeeng @todo @dataFlow
+                next_fact = None       # @semanticbeeng @todo static typing
 
-                elif next_pos:
+            elif next_pos:
 
-                    if next_fact and (next_fact[0] > next_pos[0]) and (next_fact[0] < next_pos[1]):
-                        outstream.write(modify_pos_end(next_pos[2], next_fact[0]))  # @semanticbeeng @todo @dataFlow
-                    else:
-                        outstream.write(next_pos[2])    # @semanticbeeng @todo @dataFlow
-                    next_pos = None        # @semanticbeeng @todo static typing
+                if next_fact and (next_fact[0] > next_pos[0]) and (next_fact[0] < next_pos[1]):
+                    outstream.write(modify_pos_end(next_pos[2], next_fact[0]))  # @semanticbeeng @todo @dataFlow
+                else:
+                    outstream.write(next_pos[2])    # @semanticbeeng @todo @dataFlow
+                next_pos = None        # @semanticbeeng @todo static typing
 
 
 def main(args):
@@ -100,4 +106,5 @@ def main(args):
             fix_bad_char_in_file(File[FACT](fact), File[POS](pos))
 
 
-if __name__ == '__main__': sys.exit(main(sys.argv))
+# @semanticbeeng @todo to run from @jep
+# if __name__ == '__main__': sys.exit(main(sys.argv))

@@ -202,5 +202,5 @@ def main(args):
             create_termolotator_fact_txt_files(input_file, txt2_file, txt3_file, fact_file)
 
 
-# @semanticbeeng @todo to run from Jep
+# @semanticbeeng @todo to run from @jep
 # if __name__ == '__main__': sys.exit(main(sys.argv))

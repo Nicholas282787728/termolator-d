@@ -3,10 +3,12 @@ package org.czi.termolator.porting
 /**
   *
   */
-object run_adjust_missing_char_pos {
+object run_adjust_missing_char_pos extends JepEnabled {
 
   import DataDef._
   import run_termolator._
+
+  val moduleName = "run_adjust_missing_char_pos"
 
 
   /**
@@ -24,14 +26,18 @@ object run_adjust_missing_char_pos {
     *          https://github.com/SemanticBeeng/The_Termolator/blob/99dcaa723dfc443c5ba70a10de65abe00f3ebe4a/run_adjust_missing_char_pos.py#L88-L88
     *          https://github.com/SemanticBeeng/The_Termolator/blob/99dcaa723dfc443c5ba70a10de65abe00f3ebe4a/run_adjust_missing_char_pos.py#L90-L90
     */
-  private def fix_bad_char_in_file(fact: File[FACT], pos: File[POS]) = {
-    get_pos_facts(null) //@todo
+  def fix_bad_char_in_file(fact: File[FACT], pos: File[POS]) : Unit = {
 
-    make_fact_pair
+    FunctionDef("fix_bad_char_in_file", ("fact", fact), ("pos", pos)).pyCall()
 
-    make_pos_triple
-
-    modify_pos_end
+    // @todo impl
+//    get_pos_facts(null) //@todo
+//
+//    make_fact_pair
+//
+//    make_pos_triple
+//
+//    modify_pos_end
   }
 
   /**
