@@ -2,7 +2,6 @@ package org.czi.termolator.porting
 
 import java.util
 
-import scala.collection.immutable.Seq
 import scala.collection.mutable
 
 
@@ -83,35 +82,18 @@ object inline_terms extends JepEnabled {
   }
 
   /**
-    *
+    * @todo try a more generic solution with https://stackoverflow.com/a/19901310/4032515
     */
-  def get_topic_terms(text: str, offset: int, filter_off: bool=False) : List[(Long, Long, str)] = {
+  def get_topic_terms(text: str, offset: int, filter_off: bool=False) : List[(int, int, str)] = {
 
     import collection.JavaConverters._
-    val r: Seq[util.List[_]] = FunctionDef("get_topic_terms", ("text", text), ("offset", offset), ("filter_off", filter_off)).
-      pyCallAndReturn[util.List[util.List[_]]]().asScala.toList
-
-    val r2: Seq[(Long, Long, String)] = r map { e ⇒
-      val e1 = e.asScala
-      print("koko" + e1)
-
-      val e2: (Long, Long, String) = e1 match {
-        case mutable.Buffer(a: java.lang.Long, b: java.lang.Long, c: str) ⇒ (Long.unbox(a), Long.unbox(b), c)
-        case _ ⇒ assert(false); (0, 0, "")
+    FunctionDef("get_topic_terms", ("text", text), ("offset", offset), ("filter_off", filter_off)).
+      pyCallAndReturn[util.List[jepTuple]]().asScala.toList map { e ⇒ e.asScala match {
+        case mutable.Buffer(_1: jepInt, _2: jepInt, _3: jepStr) ⇒ (jepUnbox(_1), jepUnbox(_2), _3)
+        case _ ⇒ assert(false); (nullInt, nullInt, nullStr)
       }
-      e2
     }
-
-    r2.toList
   }
-
-//  FunctionDef("get_topic_terms", ("text", text), ("offset", offset), ("filter_off", filter_off)).
-//    pyCallAndReturn[util.List[_]]().asScala.toList map {
-//    _.asInstanceOf[java.util.List[_]].asScala.toList
-//  } map {
-//    case mutable.Buffer(a: java.lang.Long, b: java.lang.Long, c: str) ⇒ (a, b, c)
-//    case _ ⇒ None; assert(false)
-//  }
 
   /**
     *

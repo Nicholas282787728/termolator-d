@@ -20,8 +20,14 @@ object DataDef {
     * Python type aliases
     */
   type str = String
-  type int = Int
+  type int = Long
   type bool = Boolean
+  type jepInt = java.lang.Long
+  type jepStr = String
+  type jepTuple = java.util.List[_]
+  def jepUnbox(i: jepInt) : int = Long.unbox(i)
   val False = false
+  val nullInt : int = 0L
+  val nullStr : str = ""
 
 }

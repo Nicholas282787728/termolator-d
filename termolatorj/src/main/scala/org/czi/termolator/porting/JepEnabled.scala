@@ -70,6 +70,7 @@ trait JepEnabled {
       args.map {
         case (n: String, v: File[_])    ⇒ (n, v)
         case (n: String, v: Int)        ⇒ (n, Int.box(v))
+        case (n: String, v: Long)       ⇒ (n, Long.box(v))
         case (n: String, v: Float)      ⇒ (n, Float.box(v))
         case (n: String, v: Double)     ⇒ (n, Double.box(v))
         case (n: String, v: String)     ⇒ (n, v)
