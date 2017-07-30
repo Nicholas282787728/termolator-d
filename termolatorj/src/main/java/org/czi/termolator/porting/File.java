@@ -102,7 +102,7 @@ class InternalStream {
 //                    line = line.substring(0, line.length()-1);
 //                }
                 line = line + '\n';  // Python leaves the newline ...
-                System.out.print("read line " + line);
+                //System.out.print("read line " + line);
 
                 lines.add(line);
             }

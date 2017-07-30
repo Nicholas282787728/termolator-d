@@ -12,7 +12,7 @@ object JepContext {
 
 
   val config = new JepConfig
-  config.addIncludePaths(Array(".", root): _*)
+  config.addIncludePaths(Array(".", projectRoorDir): _*)
 
   val jep = new Jep(config)
 
@@ -121,7 +121,7 @@ trait JepEnabled {
   def ensureModuleInitialized(): Unit = {
 
     if (!moduleInited) {
-      jep.set("__file__", root + "/another")
+      jep.set("__file__", projectRoorDir + "/another")
       runScript(s"$moduleName.py")
       moduleInited = true
     }
@@ -133,7 +133,7 @@ trait JepEnabled {
   def moduleName: String
 
   def runScript(functinName: String) = {
-    jep.runScript(root + functinName)
+    jep.runScript(projectRoorDir + functinName)
   }
 
 }
