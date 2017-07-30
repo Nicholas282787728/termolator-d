@@ -16,35 +16,12 @@ object DataDef {
   type TCHUNK_NPS = String
   //type NPOS = String
 
-//  /**
-//    * Represents a persistent list of records of type [[T]]s
-//    */
-//  case class File[T](name: String) {
-//
-//    class InternalStream(name: String) {
-//      val b = Source.fromFile(name)
-//
-//      def readlines(): List[String] = {
-//        // @todo wrap lines in in File T is File;
-//        // @todo @hack for now
-//        b.getLines.toList
-//      }
-//    }
-//
-//    var theStream : InternalStream = null
-//
-//    def openText(mode: String, encoding: String = "", errors: String = "") = {
-//      theStream = new InternalStream(name)
-//    }
-//
-//    def readlines(): List[String] = {
-//      // @todo wrap lines in in File T is File;
-//      // @todo @hack for now
-//      theStream = new InternalStream(name)
-//      theStream.readlines()
-//    }
-//
-//    override def toString : String = s"File('$name')"
-//  }
+  /**
+    * Python type aliases
+    */
+  type str = String
+  type int = Int
+  type bool = Boolean
+  val False = false
 
 }

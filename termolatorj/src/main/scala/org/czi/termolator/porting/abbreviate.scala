@@ -15,13 +15,13 @@ object abbreviate extends JepEnabled {
     *  @dataFlow write to [[ABBR]]
     *           https://github.com/SemanticBeeng/The_Termolator/blob/99192d6931510972b780f301405d11d37757ee66/abbreviate.py#L1294-L1294
     */
-  def run_abbreviate_on_lines(lines : List[String],
+  def run_abbreviate_on_lines(lines : List[str],
                               abbr_file : File[ABBR],
-                              reset_dictionary : Boolean = false) : List[Map[String, String]] = {
+                              reset_dictionary : Boolean = false) : List[Map[str, str]] = {
 
     import collection.JavaConverters._
     FunctionDef("run_abbreviate_on_lines", ("lines", lines), ("abbr_file", abbr_file), ("reset_dictionary", reset_dictionary)).
-      pyCallAndReturn[java.util.List[Map[String, String]]]().asScala.toList
+      pyCallAndReturn[java.util.List[Map[str, str]]]().asScala.toList
   }
 
   /**

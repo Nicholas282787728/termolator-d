@@ -6,10 +6,6 @@ package org.czi.termolator.porting
 object inline_terms extends JepEnabled {
 
   import DataDef._
-  type str = String
-  type int = Int
-  type bool = Boolean
-  val False = false
 
   val moduleName = "inline_terms"
 
@@ -19,7 +15,7 @@ object inline_terms extends JepEnabled {
     */
   def make_term_chunk_file_list(infiles: List[(File[POS],  File[TERMS], File[ABBR])]
                                 /*List[(FileName[POS], FileName[TERMS], FileName[ABBR])]*/,
-                                no_head_terms_only: Boolean = false) : /*outfiles*/ List[File[TCHUNK]] = {
+                                no_head_terms_only: bool = False) : /*outfiles*/ List[File[TCHUNK]] = {
 
     infiles map { infile ⇒
 
@@ -45,7 +41,7 @@ object inline_terms extends JepEnabled {
   def make_term_chunk_file(pos_file : File[POS],
                            term_file : File[TERMS],
                            abbreviate_file : File[ABBR],
-                           no_head_terms_only : Boolean = false) : File[TCHUNK] = {
+                           no_head_terms_only : bool = False) : File[TCHUNK] = {
 
     /**
       * @todo for [[term_file]]
@@ -61,13 +57,13 @@ object inline_terms extends JepEnabled {
     null //@todo
   }
 
-  def get_pos_structure (line: String) = ???
+  def get_pos_structure (line: str) = ???
 
   /**
     * @dataFlow write to [[TERMS]]
     *          https://github.com/SemanticBeeng/The_Termolator/blob/7ed860ac1209600e8d1c97b72169cf6f262ed2ff/inline_terms.py#L1735-L1735
     */
-  def find_inline_terms(lines : List[String],
+  def find_inline_terms(lines : List[str],
                         fact_file : File[FACT],
                         pos_file : File[POS],
                         terms_file : File[TERMS],
@@ -88,5 +84,12 @@ object inline_terms extends JepEnabled {
     import collection.JavaConverters._
     FunctionDef("get_topic_terms", ("text", text), ("offset", offset), ("filter_off", filter_off)).
       pyCallAndReturn[java.util.List[(int, int, str)]]().asScala.toList
+  }
+
+  /**
+    *
+    */
+  def get_next_word(instring: str, start: int) : Option[(str, int, int)] = {
+    None
   }
 }

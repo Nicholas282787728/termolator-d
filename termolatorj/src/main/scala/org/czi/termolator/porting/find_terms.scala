@@ -13,7 +13,7 @@ object find_terms extends JepEnabled {
   /**
     * @code_reference [[./nyu_english_new.find_terms.find_inline_terms_for_file_list]]
     */
-  def find_inline_terms_for_file_list(file_list: File[File[BARE]], dict_prefix: Option[String] = None): Unit = {
+  def find_inline_terms_for_file_list(file_list: File[File[BARE]], dict_prefix: Option[str] = None): Unit = {
 
     // @done ported FunctionDef("find_inline_terms_for_file_list", ("file_list", file_list), ("dict_prefix ", None)).pyCall()
 
@@ -24,7 +24,7 @@ object find_terms extends JepEnabled {
     var start = true
 
     import scala.collection.JavaConverters._
-    file_list.readlines().asScala foreach { f: String ⇒
+    file_list.readlines().asScala foreach { f: str ⇒
 
       find_inline_terms_for(f.trim, start)
 
@@ -43,7 +43,7 @@ object find_terms extends JepEnabled {
     */
   def find_inline_terms_for(file_prefix: ABBR, start: Boolean) = {
 
-    val lines: List[String] = term_utilities.get_lines_from_file(
+    val lines: List[str] = term_utilities.get_lines_from_file(
       new File[TXT3](file_prefix + ".txt3"))
 
 //    println(s"Lines for $file_prefix")

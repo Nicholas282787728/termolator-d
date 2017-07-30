@@ -5,17 +5,18 @@ package org.czi.termolator.porting
   */
 object term_utilities extends JepEnabled {
 
+  import DataDef._
   val moduleName = "term_utilities"
 
     /**
     * @code_reference [[./nyu-english-new/term_utilities.py:1088]]
     */
-  def get_my_string_list : List[String] = List.empty
+  def get_my_string_list : List[str] = List.empty
 
   /**
     * @code_reference [[./nyu-english-new/term_utilities.py:1069]]
     */
-  def merge_multiline_and_fix_xml(lines: List[String]) = List.empty
+  def merge_multiline_and_fix_xml(lines: List[str]) = List.empty
 
   /**
     * @code_reference [[./nyu-english-new/term_utilities.py:553]]
@@ -41,8 +42,8 @@ object term_utilities extends JepEnabled {
   /**
     * @code_reference [[term_utilities.get_lines_from_file]]
     */
-  def get_lines_from_file(infile: File[_]) : List[String] = {
+  def get_lines_from_file(infile: File[_]) : List[str] = {
       import collection.JavaConverters._
-      FunctionDef("get_lines_from_file", ("infile", infile)).pyCallAndReturn[java.util.ArrayList[String]]().asScala.toList
+      FunctionDef("get_lines_from_file", ("infile", infile)).pyCallAndReturn[java.util.List[str]]().asScala.toList
   }
 }
