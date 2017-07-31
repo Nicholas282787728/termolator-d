@@ -1,3 +1,5 @@
+from typing import Dict, List
+import json
 
 #
 # Misc things to support the effort to comprehend, de-entangle and refactor the code
@@ -15,6 +17,11 @@ class Refactoring:
 # @resource https://pymotw.com/2/sys/tracing.html
 # @resource https://docs.python.org/3.0/library/trace.html
 #
+
+CallInfo = Dict[str, Dict[str, str]]
+calls: Dict[str, List[CallInfo]] = {}
+# callPos: Dict[str, int] = {}
+
 def trace_args_and_return(frame, msg, arg):
 
     func_name: str = frame.f_code.co_name
@@ -35,16 +42,49 @@ def trace_args_and_return(frame, msg, arg):
         return None
 
     print("tracing " + func_name)
-    with open("trace_" + func_name + ".txt", mode='a') as out:
+    with open("trace_" + func_name + ".json", mode='a') as out:
         if msg == 'call':
-            out.write("called   `{}`".format(func_name) + "\n")
+
+            paramInfo: Dict[str, str] = {}
+            thisCall : CallInfo = {
+                "funcName": func_name,
+                "args": paramInfo
+            }
+
+            # out.write("called   `{}`".format(func_name) + "\n")
+
             for i in range(frame.f_code.co_argcount):
                 name = frame.f_code.co_varnames[i]
-                out.write("    `{}` = {}".format(name, str(frame.f_locals[name])) + "\n")
+                paramInfo[name] = str(frame.f_locals[name])
+                # out.write("    `{}` = {}".format(name, str(frame.f_locals[name])) + "\n")
+
+            # print(json.dumps(thisCall))
+            # out.write(json.dumps(thisCall))
+
+            funcCalls: List[CallInfo] = []
+            if func_name in calls:
+                funcCalls = calls[func_name]
+
+            funcCalls.append(thisCall)
+            calls[func_name] = funcCalls
+
             return trace_args_and_return
+
         elif msg == 'return':
-            out.write("returned `{}`".format(func_name) + "\n")
-            out.write("    `return` = {}".format(arg) + "\n")
+
+            funcCalls: List[CallInfo] = calls[func_name]
+            if not funcCalls:
+                assert False, "No calls for " + func_name
+
+            # thisCallPos: int = callPos[func_name]
+            thisCall: CallInfo = funcCalls.pop()
+            thisCall["return"] = arg
+            # callPos[func_name] = thisCallPos - 1
+
+            # out.write("returned `{}`".format(func_name) + "\n")
+            # out.write("    `return` = {}".format(arg) + "\n")
+            out.write(json.dumps(thisCall) + ",\n")
             return None
+
         elif msg == 'line':
             return None
