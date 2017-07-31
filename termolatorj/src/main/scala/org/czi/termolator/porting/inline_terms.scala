@@ -111,4 +111,13 @@ object inline_terms extends JepEnabled {
   def get_next_word(instring: str, start: int) : Option[(str, int, int)] = {
     None
   }
+
+  /**
+    *
+    */
+  def topic_term_ok_boolean(word_list: List[str], pos_list: List[str], term_string: str) : bool = {
+
+    FunctionDef("topic_term_ok_boolean", ("word_list", word_list), ("pos_list", pos_list), ("term_string", term_string)).
+      pyCallAndReturn[bool]()
+    }
 }

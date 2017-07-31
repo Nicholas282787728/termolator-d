@@ -19,6 +19,9 @@ object find_inline_terms_tests extends App {
   dictionary.ensureModuleInitialized()
 
   dictionary.initialize_utilities()
+
+  test_topic_term_ok_boolean()
+
   allFiles foreach { fileName ⇒
     test_get_topic_terms(fileName)
     test_find_inline_terms_for(fileName)
@@ -66,5 +69,18 @@ object find_inline_terms_tests extends App {
       * @todo cannot assert anything about this becuase it is monolithical
       */
     find_terms.find_inline_terms_for(fileName, start = true)
+  }
+
+  /**
+    *
+    */
+  def test_topic_term_ok_boolean() = {
+
+    val word_list = List("proximal interphalangeal")
+    val pos_list = List("NOUN_OOV")
+    val term_string = "proximal interphalangeal"
+    val result = inline_terms.topic_term_ok_boolean(word_list, pos_list, term_string)
+
+    assert(result == true)
   }
 }
