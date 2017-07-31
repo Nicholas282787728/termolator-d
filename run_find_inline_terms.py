@@ -4,7 +4,6 @@ from find_terms import *
 from DataDef import File
 import dictionary
 from refactoring_support import *
-import sys
 
 def main(args):
     # global special_domains

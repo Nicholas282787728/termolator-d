@@ -13,20 +13,29 @@ class Refactoring:
 #
 # System trace to dump arguments and returns for purpose of program comprehension and test generation
 # @resource https://pymotw.com/2/sys/tracing.html
+# @resource https://docs.python.org/3.0/library/trace.html
 #
 def trace_args_and_return(frame, msg, arg):
-    if msg == 'call':
-        # Filter as appropriate
-        if frame.f_code.co_filename.startswith("/development/bin"):
-            return
-        print("called   `", frame.f_code.co_name, '`')
-        for i in range(frame.f_code.co_argcount):
-            name = frame.f_code.co_varnames[i]
-            print("    `", name, "`=", frame.f_locals[name])
-        return trace_args_and_return
-    elif msg == 'return':
-        print("returned `", frame.f_code.co_name, '`')
-        print("    `", 'return', "`=", arg)
-        return None
-    elif msg == 'line':
-        return None
+
+    func_name: str = frame.f_code.co_name
+
+    # TRACE = ['trace_OK_chemical']
+    #
+    # # Filter as appropriate
+    # if func_name not in TRACE:
+    #     return None
+
+    print("tracing " + func_name)
+    with open("trace_" + func_name + ".txt", mode='a') as out:
+        if msg == 'call':
+            out.write("(called   `{}`)".format(func_name) + "\n")
+            for i in range(frame.f_code.co_argcount):
+                name = frame.f_code.co_varnames[i]
+                out.write("(    `{}` = {})".format(name, frame.f_locals[name]) + "\n")
+            return trace_args_and_return
+        elif msg == 'return':
+            out.write("(returned `{}'`)".format(func_name) + "\n")
+            out.write("(    `return` = {})".format(arg) + "\n")
+            return None
+        elif msg == 'line':
+            return None
