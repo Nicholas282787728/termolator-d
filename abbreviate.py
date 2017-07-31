@@ -79,7 +79,9 @@ def remove_empties(input_list: List[str]) -> List[str]:
     if type(input_list) == list:
         return ([x for x in input_list if (x != '')])
     else:
-        return (input_list)
+        raise ValueError('@refactoring: unexpected argument' + str(input_list))
+        # @semanticbeeng @todo not used
+        # return (input_list)
 
 
 #

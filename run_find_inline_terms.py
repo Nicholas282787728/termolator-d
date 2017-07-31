@@ -3,7 +3,8 @@
 from find_terms import *
 from DataDef import File
 import dictionary
-from refactoring_support import Refactoring
+from refactoring_support import *
+import sys
 
 def main(args):
     # global special_domains
@@ -22,5 +23,6 @@ def main(args):
     find_inline_terms_for_file_list(File(file_list), dict_prefix=outfile_prefix)
 
 
+
 # @semanticbeeng @todo to run from @jep
-if __name__ == '__main__': sys.exit(main(sys.argv))
+if __name__ == '__main__': sys.settrace(trace_args_and_return); sys.exit(main(sys.argv))
