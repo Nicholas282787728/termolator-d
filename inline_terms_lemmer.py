@@ -2,6 +2,7 @@ import re
 import dictionary
 import term_utilities
 from typing import List, Tuple, Dict, Pattern
+import config
 
 #
 #   Extracts stats for a a single source "file" and manages the @state derived
@@ -141,7 +142,7 @@ class TermsLemmer:
             output = term.upper()
 
         elif (term in self._abbr_to_full_dict) and (len(self._abbr_to_full_dict[term]) > 0) and \
-                (term.isupper() or (not term in dictionary.pos_dict) or (term in dictionary.jargon_words)):
+                (term.isupper() or (not term in config.pos_dict) or (term in dictionary.jargon_words)):
             output = self._abbr_to_full_dict[term][0]
 
         else:

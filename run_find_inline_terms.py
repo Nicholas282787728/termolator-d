@@ -24,4 +24,6 @@ def main(args):
 
 
 # @semanticbeeng @todo to run from @jep
-if __name__ == '__main__': sys.settrace(trace_args_and_return); sys.exit(main(sys.argv))
+if __name__ == '__main__':
+    # sys.settrace(trace_args_and_return);
+    sys.exit(main(sys.argv))

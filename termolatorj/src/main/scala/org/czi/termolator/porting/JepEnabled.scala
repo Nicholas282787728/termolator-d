@@ -77,6 +77,7 @@ trait JepEnabled {
         case (n: String, v: Boolean)    ⇒ (n, if(v) java.lang.Boolean.TRUE else java.lang.Boolean.FALSE)
         case (n: String, v: Option[_])  ⇒ (n, if (v.isDefined) mapArgs(Seq((n, v.get))) else (n, "None"))
         case (n: String, v: Seq[_])     ⇒ (n, v.asJava)
+        // case (n: String, v: List[_])    ⇒ (n, v.asJava)
         case (n: String, v: Any)        ⇒ (n, v.toString)
         case (n: String, null)          ⇒ (n,  "None")      // @todo unsure how to do this better
         case (n, v)                     ⇒ (n, v)            // sot sure what this is but hoping for the best
@@ -86,10 +87,15 @@ trait JepEnabled {
     private def printArgs(args: Seq[(String, Any)]) : String  = {
       args.map {
         case (n: String, v: File[_])    ⇒ s"$n = ${v.toString}"
+        case (n: String, v: Int)        ⇒ s"$n = '$v'"
+        case (n: String, v: Long)       ⇒ s"$n = '$v'"
+        case (n: String, v: Float)      ⇒ s"$n = '$v'"
+        case (n: String, v: Double)     ⇒ s"$n = '$v'"
         case (n: String, v: String)     ⇒ s"$n = '$v'"
         case (n: String, v: Boolean)    ⇒ s"$n = $v"
         case (n: String, v: Option[_])  ⇒ s"$n = todo"
         case (n: String, v: Seq[_])     ⇒ s"$n = [$sep\t${v.mkString(s",\t\t\t\t ")}]"
+        // case (n: String, v: List[_])    ⇒ s"$n = [$sep\t${v.mkString(s",\t\t\t\t ")}]"
         case (n: String, v: Any)        ⇒ s"$n = ${v.toString}"
         case (n: String, null)          ⇒ s"$n = None"      // @todo unsure how to do this better
         case (n, v)                     ⇒ s"$n = ??$v??"    // sot sure what this is but hoping for the best
@@ -123,6 +129,7 @@ trait JepEnabled {
 
     if (!moduleInited) {
       jep.set("__file__", projectRoorDir + "/another")
+      println(s"Initializing module $moduleName.py")
       runScript(s"$moduleName.py")
       moduleInited = true
     }

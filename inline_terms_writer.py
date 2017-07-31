@@ -4,6 +4,7 @@ import dictionary
 from typing import List, Tuple, Dict, Optional, Pattern
 
 import inline_terms_lemmer      # @todo remove this dependency
+import config
 
 #
 #   Perists the TERMSS for a single source "file"
@@ -97,9 +98,9 @@ class TermsWriter:
             lower = word.lower()
             is_capital = re.search('^[A-Z][a-z]', word)
     
-            if is_capital and (lower in dictionary.pos_dict) and ('PERSON_NAME' in dictionary.pos_dict[lower]):
+            if is_capital and (lower in config.pos_dict) and ('PERSON_NAME' in config.pos_dict[lower]):
                 person_names = person_names + 1
-                if len(dictionary.pos_dict[lower]) > 1:
+                if len(config.pos_dict[lower]) > 1:
                     ambiguous_person_names = ambiguous_person_names + 1
                     word_pattern.append('ambig_name')
                 else:

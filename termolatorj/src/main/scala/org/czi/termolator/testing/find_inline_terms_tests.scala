@@ -13,14 +13,20 @@ object find_inline_terms_tests extends App {
 
   import DataSet._
 
+  dictionary.ensureModuleInitialized()
   term_utilities.ensureModuleInitialized()
   abbreviate.ensureModuleInitialized()
   find_terms.ensureModuleInitialized()
-  dictionary.ensureModuleInitialized()
 
+  // dictionary.read_in_nom_dict()
+  // dictionary.read_in_noun_morph_file()
   dictionary.initialize_utilities()
 
+  test_nom_class()
+
   test_topic_term_ok_boolean()
+
+  test_get_topic_terms()
 
   allFiles foreach { fileName ⇒
     test_get_topic_terms(fileName)
@@ -74,13 +80,102 @@ object find_inline_terms_tests extends App {
   /**
     *
     */
+  def test_get_topic_terms() = {
+
+    val text = "Biomechanical Evaluation of Scaphoid and Lunate Kinematics Following Selective Sectioning of Portions of the Scapholunate Interosseous Ligament To determine the relative roles of the dorsal and volar portions of the scapholunate interosseous ligament (SLIL) in the stability of the scaphoid and lunate. Sixteen fresh cadaver wrists were moved through physiological motions using a wrist joint simulator. Electromagnetic sensors measured the motion of the scaphoid and lunate. Data were collected with the wrist intact, after randomly sectioning the dorsal SLIL first (8 wrists) or the volar SLIL first (8 wrists), and after full ligamentous sectioning. Differences in the percent increase in scaphoid flexion or lunate extension were compared using a t test with significance set at P   .05. Sectioning the dorsal SLIL accounted for 37%, 72%, and 68% of the increase in scaphoid flexion in wrist flexion-extension, radioulnar deviation, and dart throw motion as compared with complete SLIL sectioning. Sectioning the volar SLIL accounted for only 7%, 6%, and 14%, respectively. In the same 3 motions, sectioning the dorsal SLIL accounted for 55%, 57%, and 58% of the increase in lunate extension, whereas volar SLIL sectioning accounted for 27%, 28%, and 22%. The dorsal SLIL provides more stability to the scaphoid and lunate in biomechanical testing. The volar SLIL does provide some, although less, stability. Although this study supports the critical importance of dorsal SLIL repairs or reconstructions, it also shows that there may be some value in implementing a volar SLIL repair or reconstruction. "
+    val offset = 0
+    val filter_off = False
+    val out = Array(
+      (216, 250, "scapholunate interosseous ligament"),
+      (252, 256, "SLIL"),
+      (0, 24, "Biomechanical Evaluation"),
+      (28, 36, "Scaphoid"),
+      (41, 58, "Lunate Kinematics"),
+      (69, 89, "Selective Sectioning"),
+      (109, 143, "Scapholunate Interosseous Ligament"),
+      (161, 175, "relative roles"),
+      (183, 189, "dorsal"),
+      (194, 208, "volar portions"),
+      (216, 250, "scapholunate interosseous ligament"),
+      (282, 290, "scaphoid"),
+      (295, 301, "lunate"),
+      (351, 372, "physiological motions"),
+      (404, 427, "Electromagnetic sensors"),
+      (455, 463, "scaphoid"),
+      (468, 474, "lunate"),
+      (549, 560, "dorsal SLIL"),
+      (585, 595, "volar SLIL"),
+      (629, 651, "ligamentous sectioning"),
+      (692, 708, "scaphoid flexion"),
+      (712, 728, "lunate extension"),
+      (751, 757, "t test"),
+      (763, 775, "significance"),
+      (807, 818, "dorsal SLIL"),
+      (870, 886, "scaphoid flexion"),
+      (890, 913, "wrist flexion-extension"),
+      (915, 935, "radioulnar deviation"),
+      (985, 1000, "SLIL sectioning"),
+      (1017, 1027, "volar SLIL"),
+      (1116, 1127, "dorsal SLIL"),
+      (1179, 1195, "lunate extension"),
+      (1205, 1215, "volar SLIL"),
+      (1264, 1275, "dorsal SLIL"),
+      (1307, 1315, "scaphoid"),
+      (1320, 1326, "lunate"),
+      (1330, 1351, "biomechanical testing"),
+      (1357, 1367, "volar SLIL"),
+      (1446, 1465, "critical importance"),
+      (1469, 1488, "dorsal SLIL repairs"),
+      (1492, 1507, "reconstructions"),
+      (1570, 1587, "volar SLIL repair"),
+      (1591, 1605, "reconstruction")
+    )
+    val result = inline_terms.get_topic_terms(text, offset, filter_off)
+
+    val diff = result.diff(out)
+
+    if (diff.nonEmpty) {
+      println("Result different than expected")
+      diff foreach println
+    }
+  }
+
+
+  /**
+    *
+    */
   def test_topic_term_ok_boolean() = {
 
-    val word_list = List("proximal interphalangeal")
-    val pos_list = List("NOUN_OOV")
-    val term_string = "proximal interphalangeal"
-    val result = inline_terms.topic_term_ok_boolean(word_list, pos_list, term_string)
+    {
+      val word_list = List("proximal interphalangeal")
+      val pos_list = List("NOUN_OOV")
+      val term_string = "proximal interphalangeal"
+      val return1 = true
 
-    assert(result == true)
+      val result = inline_terms.topic_term_ok_boolean(word_list, pos_list, term_string)
+
+      assert(result == return1)
+    }
+
+    {
+      val word_list = List("average")
+      val pos_list = List("NOUN")
+      val term_string = "average"
+      val return1 = false
+      val result =  inline_terms.topic_term_ok_boolean(word_list, pos_list, term_string)
+
+       assert(result == return1)
+    }
+  }
+
+  def test_nom_class() = {
+
+    val  word =  "average"
+    val pos = "NOUN"
+    val return1 = 2
+
+    val result = term_utilities.nom_class(word, pos)
+
+    assert(result == return1)
   }
 }

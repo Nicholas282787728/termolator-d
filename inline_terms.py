@@ -43,7 +43,7 @@ def derive_base_form_from_plural(word: str) -> List[str]:
 #
 #
 def nationality_check(term_lower: str) -> bool:
-    if (term_lower in dictionary.pos_dict) and ('NATIONALITY' in dictionary.pos_dict[term_lower]):
+    if (term_lower in config.pos_dict) and ('NATIONALITY' in config.pos_dict[term_lower]):
         return (True)
     return (False)                  # @semanticbeeng @todo static typing
 
@@ -136,8 +136,8 @@ def topic_term_ok(word_list: List[str], pos_list: List[str], term_string: str) -
             signif_term = signif_term + 1
         if (not alpha) and re.search('[a-zA-Z]', lower):
             alpha = True
-        if lower in dictionary.pos_dict:
-            if ('NOUN' in dictionary.pos_dict[lower]) and (len(lower) < 8):
+        if lower in config.pos_dict:
+            if ('NOUN' in config.pos_dict[lower]) and (len(lower) < 8):
                 common = True
             if 'NOUN_OOV' == pos_list[num]:
                 oov = True
@@ -756,7 +756,7 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List[Tupl
                 Fail = True
             else:
                 previous_words = remove_empties(word_split_pattern.split(text[start:search_end].rstrip(' ')))
-            if Fail or (not abbreviation) or ((not abbreviation.isupper()) and (abbreviation in dictionary.pos_dict)):
+            if Fail or (not abbreviation) or ((not abbreviation.isupper()) and (abbreviation in config.pos_dict)):
                 previous_words = []                 # @semanticbeeng @todo static typing
                 result = None                       # @semanticbeeng @todo static typing
             else:
@@ -1263,7 +1263,7 @@ def term_is_org(term: str) -> bool:
     for position, word in words:
         lower = word.lower()
         is_capital = re.search('^[A-Z][a-z]', word)
-        if is_capital and (lower in dictionary.pos_dict) and ('PERSON_NAME' in dictionary.pos_dict[lower]):
+        if is_capital and (lower in config.pos_dict) and ('PERSON_NAME' in config.pos_dict[lower]):
             person_names = person_names + 1
         if is_capital or closed_class_check2.search(word):
             pass
@@ -1311,9 +1311,9 @@ def term_is_org_tester(term: str) -> bool:
         lower = word.lower()
         is_capital = re.search('^[A-Z][a-z]', word)
 
-        if is_capital and (lower in dictionary.pos_dict) and ('PERSON_NAME' in dictionary.pos_dict[lower]):
+        if is_capital and (lower in config.pos_dict) and ('PERSON_NAME' in config.pos_dict[lower]):
             person_names = person_names + 1
-            if len(dictionary.pos_dict[lower]) > 1:
+            if len(config.pos_dict[lower]) > 1:
                 ambiguous_person_names = ambiguous_person_names + 1
                 word_pattern.append('ambig_name')
             else:

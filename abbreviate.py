@@ -2,6 +2,7 @@ from term_utilities import *
 from DataDef import File, TXT3, ABBR, Abbr
 from typing import List, Dict, Tuple, Pattern, Match, Optional
 import dictionary
+import config
 
 # global abbr_to_full_dict          # @semanticbeeng @todo not used
 # global full_to_abbr_dict
@@ -80,8 +81,7 @@ def remove_empties(input_list: List[str]) -> List[str]:
         return ([x for x in input_list if (x != '')])
     else:
         raise ValueError('@refactoring: unexpected argument' + str(input_list))
-        # @semanticbeeng @todo not used
-        # return (input_list)
+        return (input_list)
 
 
 #
@@ -795,11 +795,11 @@ def invalid_abbreviation(ARG2_string: str) -> bool:
         return (True)
 
     elif ARG2_string.islower() and \
-            ((ARG2_string in dictionary.pos_dict) or (ARG2_string in dictionary.nom_dict)):
+            ((ARG2_string in config.pos_dict) or (ARG2_string in config.nom_dict)):
         return (True)
 
     elif ARG2_string.istitle() and \
-            ((ARG2_string.lower() in dictionary.pos_dict) or (ARG2_string.lower() in dictionary.nom_dict)
+            ((ARG2_string.lower() in config.pos_dict) or (ARG2_string.lower() in config.nom_dict)
              or ((ARG2_string.lower() in dictionary.location_dictionary)
              and (not 'ABBREVIATION-OF' in dictionary.location_dictionary[ARG2_string.lower()]))):
         return (True)

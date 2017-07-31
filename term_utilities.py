@@ -5,6 +5,7 @@ import re
 from typing import List, Dict, Tuple, Pattern, Match, Optional
 from DataDef import File, POS, TXT3
 from refactoring_support import Refactoring
+import config
 
 pos_offset_table: Dict[int, str] = {}
 
@@ -604,9 +605,9 @@ def nom_class(word: str, pos: str) -> int:
         return (0)
     ## invention (patents) is usually a self-citation and we want to
     ## downgrade its score
-    elif word in dictionary.nom_dict:
+    elif word in config.nom_dict:
         rank = 0
-        for feature in dictionary.nom_dict[word]:
+        for feature in config.nom_dict[word]:
             if feature in ['NOM', 'NOMLIKE', 'ABLE-NOM']:
                 ## 'NOMADJ', 'NOMADJLIKE'
                 ## secondary: ability, attribute, type, group
@@ -659,8 +660,8 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
     if (len(word) == 1) and not word.isalnum():
         return ('OTHER')
 
-    if word in dictionary.pos_dict:
-        pos = dictionary.pos_dict[word][:]
+    if word in config.pos_dict:
+        pos = config.pos_dict[word][:]
         if not possessive:
             pos = resolve_differences_with_pos_tagger(word, offset, pos, tagger_pos)
         if ('PERSON_NAME' in pos) and (not is_capital):
@@ -668,7 +669,7 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
             if len(pos) == 0:
                 pos.append('NOUN_OOV')
         ## initially set pos based on dictionary
-        if (word in dictionary.nom_dict) and ('NOM' in dictionary.nom_dict[word]):
+        if (word in config.nom_dict) and ('NOM' in config.nom_dict[word]):
             is_nom = True
         else:
             is_nom = False
@@ -749,8 +750,8 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
             return (guess_pos(little_words[0], is_capital))     # @semanticbeeng todo !!
             # return (guess_pos(little_words[0]), is_capital)
 
-        if little_words[1] in dictionary.pos_dict:  ## the last word
-            last_pos = dictionary.pos_dict[little_words[1]][:]
+        if little_words[1] in config.pos_dict:  ## the last word
+            last_pos = config.pos_dict[little_words[1]][:]
             first_pos = guess_pos(little_words[0], little_words[0].istitle())
             first_word = little_words[0].lower()
             if first_pos == 'NOUN_OOV':
@@ -778,13 +779,13 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
             elif 'ADJECTIVE' in last_pos:
                 if technical_adj(word):
                     return ('TECH_ADJECTIVE')
-                elif (first_pos == 'NOUN') and ((not first_word in dictionary.pos_dict) or (nom_class(first_word, first_pos) > 1)):
+                elif (first_pos == 'NOUN') and ((not first_word in config.pos_dict) or (nom_class(first_word, first_pos) > 1)):
                     return ('TECH_ADJECTIVE')
                 else:
                     return ('ADJECTIVE')
             elif 'VERB' in last_pos:
                 if word.endswith('ed') or word.endswith('ing'):
-                    if (first_pos == 'NOUN') and ((not first_word in dictionary.pos_dict) or (nom_class(first_word, first_pos) > 1)):
+                    if (first_pos == 'NOUN') and ((not first_word in config.pos_dict) or (nom_class(first_word, first_pos) > 1)):
                         return ('TECH_ADJECTIVE')
                     else:
                         return ('ADJECTIVE')

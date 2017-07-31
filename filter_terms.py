@@ -111,12 +111,12 @@ def topic_term_rating(word: str, pos: str) -> str:
     ## print(word)
     word = word.lower()
 
-    if (word in dictionary.pos_dict) and not (pos == 'NOUN_OOV'):
+    if (word in config.pos_dict) and not (pos == 'NOUN_OOV'):
         in_dictionary = True
     else:
         in_dictionary = False
 
-    if (pos in ['NOUN', 'AMBIG_NOUN']) or ((pos == 'NOUN_OOV') and not (word in dictionary.pos_dict)):
+    if (pos in ['NOUN', 'AMBIG_NOUN']) or ((pos == 'NOUN_OOV') and not (word in config.pos_dict)):
         ## adding 'NOUN_OOV' to this list without modification has the effect
         ## of permitting people names as terms
         if word.isnumeric():
@@ -304,7 +304,7 @@ def get_morph_variants(word_seq: List[str], pos_seq, POS: str, mitre=False) -> T
 #
 def get_noun_nom_map(word: str) -> Optional[str]:
 
-    if word in dictionary.pos_dict:
+    if word in config.pos_dict:
         if word in dictionary.nom_map_dict:
             return (dictionary.nom_map_dict[word])
     elif (len(word) > 3) and (word[-1] == 'r') and (word[-2] in 'eo'):
@@ -323,8 +323,8 @@ def get_noun_nom_map(word: str) -> Optional[str]:
 #
 #
 def normal_word(word: str) -> bool:
-    if (word in dictionary.pos_dict) and (not word in dictionary.jargon_words):
-        pos = dictionary.pos_dict[word][:]
+    if (word in config.pos_dict) and (not word in dictionary.jargon_words):
+        pos = config.pos_dict[word][:]
         if 'PERSON_NAME' in pos:
             if len(pos) > 1:
                 return (True)

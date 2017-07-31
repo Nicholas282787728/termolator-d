@@ -3,6 +3,7 @@ from utilspie.collectionsutils import frozendict
 from typing import List, Dict, Tuple
 from DataDef import File
 import term_utilities
+import config
 
 ##
 #   Dictionaries
@@ -41,8 +42,6 @@ noun_base_form_dict: Dict[str, List[str]] = {}  ## @func comp_termChunker, @arch
 plural_dict: Dict[str, List[str]] = {}  ## @arch static state
 verb_base_form_dict: Dict[str, List[str]] = {}  ## @arch static state
 verb_variants_dict: Dict[str, List[str]] = {}  ## @arch static state
-nom_dict: Dict[str, str] = {}
-pos_dict: Dict[str, List[str]] = {}
 jargon_words = set()        # @semanticbeeng @todo @arch global state mutated or read only?
 
 organization_dictionary: Dict[str, Dict[str, List[str]]] = {}     # @semanticbeeng @todo @arch global state mutated or read only?
@@ -260,15 +259,16 @@ def read_in_verb_morph_file() -> None:
 #
 #
 def read_in_pos_file() -> None:
-    global pos_dict
+    # global pos_dict
     global pos_file
     global jargon_files
-    pos_dict.clear()
+
+    config.pos_dict.clear()
 
     for line in pos_file.openText().readlines():
         line = line.strip()
         items = line.split('\t')
-        pos_dict[items[0]] = items[1:]
+        config.pos_dict[items[0]] = items[1:]
 
     for dictionary in special_domains:
         jargon_files.append(File(dictionary_table[dictionary]))
@@ -279,7 +279,7 @@ def read_in_pos_file() -> None:
             for line in instream.readlines():
                 word: str = line.strip()
                 word = word.lower()
-                if word in pos_dict:
+                if word in config.pos_dict:
                     ## pos_dict.pop(word)
                     jargon_words.add(word)
 
@@ -297,17 +297,17 @@ def freeze_dict(d: Dict) -> Dict:
 #
 def update_pos_dict(name_infiles: List[File]=[person_name_file, nat_name_file],
                     other_infiles: List[File]=[skippable_adj_file, out_ing_file, time_name_file]) -> None:
-    global pos_dict
+    # global pos_dict
 
     for infile in name_infiles:
         for line in infile.openText().readlines():
             line = line.strip()
             word, word_class = line.split('\t')
             word = word.lower()
-            if word in pos_dict:
-                pos_dict[word].append(word_class)
+            if word in config.pos_dict:
+                config.pos_dict[word].append(word_class)
             else:
-                pos_dict[word] = [word_class]
+                config.pos_dict[word] = [word_class]
 
     for infile in other_infiles:
         for line in infile.openText().readlines():
@@ -323,36 +323,36 @@ def update_pos_dict(name_infiles: List[File]=[person_name_file, nat_name_file],
             word = word.lower()
 
             if flag == 'ABSOLUTE':
-                pos_dict[word] = [word_class]
-            elif word in pos_dict:
-                pos_dict[word].append(word_class)
+                config.pos_dict[word] = [word_class]
+            elif word in config.pos_dict:
+                config.pos_dict[word].append(word_class)
             else:
-                pos_dict[word] = [word_class]
+                config.pos_dict[word] = [word_class]
 
     for word in term_utilities.patent_stop_words:
-        pos_dict[word] = ['OTHER']
+        config.pos_dict[word] = ['OTHER']
         ## treat stop words as inadmissable parts of terms
 
     for word in term_utilities.NE_stop_words:
-        pos_dict[word] = ['OTHER']
+        config.pos_dict[word] = ['OTHER']
 
 
 #
 #
 #
 def read_in_nom_dict():
-    global nom_dict
-    global nom_file
+    # global nom_dict
+    # global nom_file
 
     for line in nom_file.openText().readlines():
         nom_class, word = line.strip().split('\t')
-        if word in nom_dict:
-            nom_dict[word].append(nom_class)
+        if word in config.nom_dict:
+            config.nom_dict[word].append(nom_class)
         else:
-            nom_dict[word] = [nom_class]
+            config.nom_dict[word] = [nom_class]
 
     # @semanticbeeng @arch global state immutable
-    nom_dict = freeze_dict(nom_dict)
+    config.nom_dict = freeze_dict(config.nom_dict)
 
 
 #
@@ -364,9 +364,9 @@ def initialize_utilities():
     read_in_pos_file()
     update_pos_dict()
 
-    global pos_dict
+    # global pos_dict
     # @semanticbeeng @arch global state immutable
-    pos_dict = freeze_dict(pos_dict)
+    # config.pos_dict = freeze_dict(config.pos_dict)
 
     read_in_org_dictionary(ORG_DICTIONARY, dictionary='org', lower=True)
     read_in_org_dictionary(LOC_DICTIONARY, dictionary='loc', lower=True)

@@ -35,7 +35,8 @@ def trace_args_and_return(frame, msg, arg):
              'interior_white_space_trim',
              'topic_term_ok_boolean',
              'get_term_lemma',
-             'get_compound_lemma']
+             'get_compound_lemma',
+             'nom_class']
 
     # Filter as appropriate
     if func_name not in TRACE:
