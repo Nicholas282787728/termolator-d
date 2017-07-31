@@ -57,7 +57,6 @@ object find_inline_terms_tests extends App {
     result foreach println
   }
 
-
   /**
     *
     */
