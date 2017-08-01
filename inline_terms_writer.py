@@ -232,7 +232,7 @@ class TermsWriter:
     #
     #
     @staticmethod
-    def org_head_ending(term: str, head_hash) -> bool:
+    def org_head_ending(term: str, head_hash: Dict[str, str]) -> bool:
         if (term in head_hash) and term_utilities.org_ending_pattern.search(head_hash[term]):
             return (True)
         return (False)

@@ -1,5 +1,8 @@
 package org.czi.termolator.porting
 
+import org.czi.termolator.porting.DataDef.Dict
+
+
 /**
   *
   */
@@ -7,6 +10,15 @@ object dictionary extends JepEnabled {
 
   val moduleName = "dictionary"
 
+  /**
+    *
+    */
+  def freeze_dict[K, V](d: Dict[K, V]) = d
+
+
+  /**
+    *
+    */
   def initialize_utilities() = {
     FunctionDef("initialize_utilities").pyCall()
 

@@ -11,6 +11,18 @@ object term_utilities extends JepEnabled {
   val moduleName = "term_utilities"
 
   /**
+    *
+    */
+  val org_ending_pattern : Pattern = re.compile("([A-Z0-9_]+) *[=] *(([\"][^\"]*[\"])|([0-9]+))", re.I)
+  val person_ending_pattern: Pattern = null
+  val last_word_organization: Pattern = null
+  val last_word_gpe : Pattern = null
+  val last_word_loc: Pattern = null
+  val closed_class_check2: Pattern = null
+  val ambig_last_word_org: Pattern = null
+
+
+  /**
     * @code_reference [[./nyu-english-new/term_utilities.py:1088]]
     */
   def get_my_string_list: List[str] = List.empty
@@ -55,5 +67,12 @@ object term_utilities extends JepEnabled {
     */
   def nom_class(word: str, pos: str): int = {
     FunctionDef("nom_class", ("word", word), ("pos", pos)).pyCallAndReturn[jep.int]().toLong
+  }
+
+  /**
+    *
+    */
+  def divide_sentence_into_words_and_start_positions(sentence: str, start: int = 0) : List[Tuple[int, str]] = {
+    null
   }
 }

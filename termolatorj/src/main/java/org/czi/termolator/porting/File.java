@@ -57,6 +57,10 @@ public class File<T> {
         return stream.readlines();
     }
 
+    public void write(String value) {
+        stream.write(value);
+    }
+
     @Override
     public String toString() {
         return "File{name='" + name +')';
