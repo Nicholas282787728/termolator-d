@@ -11,8 +11,8 @@ object dictionary extends JepEnabled {
 
   val moduleName = "dictionary"
 
-  val jargon_words: Set[str] // @todo
-  val noun_base_form_dict: Dict[str, List[str]]
+  val jargon_words: Set[str] = null// @todo
+  val noun_base_form_dict: Dict[str, List[str]] = null
 
   /**
     *

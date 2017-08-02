@@ -25,11 +25,13 @@ object DataDef {
   type str = String
   type int = Long
   type bool = Boolean
-  type Dict[K, V] = Map[K, V]
+  type Dict[K, V] = mutable.Map[K, V]
+  // type DictM[K, V] = mutable.Map[K, V]
+  type ListM[T] = mutable.ListBuffer[T]
   type Optional[T] = Option[T]
   type Tuple[T1, T2] = (T1, T2)
-  type Tuple[T1, T2, T3] = (T1, T2, T3)
-  type Tuple[T1, T2, T3, T4] = (T1, T2, T3, T4)
+  type Tuple3[T1, T2, T3] = (T1, T2, T3)
+  type Tuple4[T1, T2, T3, T4] = (T1, T2, T3, T4)
   type Pattern = java.util.regex.Pattern
 
   val False = false
@@ -37,6 +39,12 @@ object DataDef {
   val nullInt : int = 0L
   val nullStr : str = ""
   // val nullBool : bool = None
+
+  def list[T1, T2](t : (T1, T2)) = {
+    val l: mutable.ListBuffer[(T1, T2)] = new mutable.ListBuffer[(T1, T2)]()
+    l.append(t)
+    l
+  }
 
   /**
     *
@@ -57,16 +65,18 @@ object DataDef {
 
     def isalpha(): bool = value.isalpha()
 
+    def isupper(): bool = value.isupper()
+
     def slice(start: int, end: int) : str = {
       if(end > 0)
         value.substring(start.toInt, end.toInt)
       else
-        value.substring(value.length - index.toInt)
+        value.substring(value.length - end.toInt)
     }
 
     def at(index : int) : str = {
       if(index > 0)
-        value.charAt(index)
+        value.charAt(index.toInt)
       else
         value.charAt(value.length - index.toInt)
     }
@@ -77,12 +87,12 @@ object DataDef {
   /**
     *
     */
-  class CharDSL(value: char) {
+  class CharDSL(value: Character) {
 
     def in(text: str) : bool = text.contains(value)
   }
 
-  implicit def char2CharDSL(value: char): CharDSL = new CharDSL(value)
+  implicit def char2CharDSL(value: Character): CharDSL = new CharDSL(value)
 
   /**
     *

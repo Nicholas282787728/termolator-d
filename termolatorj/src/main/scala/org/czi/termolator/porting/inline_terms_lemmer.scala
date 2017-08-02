@@ -10,33 +10,28 @@ package org.czi.termolator.porting
 //;
 import org.czi.termolator.porting.DataDef._
 
+import scala.collection.mutable
+
 object inline_terms_lemmer {
 
-  class TermsLemmer {
+  class TermsLemmer(abbr_to_full_dict: Dict[str, List[str]]) {
 
     object Patterns {
       val compound_inbetween_string: Pattern = re.compile("^ +(of|for) +((the|a|[A-Z]\\.) +)?$", re.I)
     }
 
-    val lemma_dict: Dict[str, str] = Map()
-    val lemma_count: Dict[str, int] = Map()
-    val term_hash: Dict[str, List[Tuple[int, int]]] = Map()
-    val term_type_hash: Dict[str, str] = Map()
-    val head_hash: Dict[str, str] = Map()
+    val term_hash: Dict[str, ListM[Tuple[int, int]]] = new mutable.HashMap[str, ListM[Tuple[int, int]]]()
+    val term_type_hash: Dict[str, str] = new mutable.HashMap[str, str]()
+
+    val head_hash: Dict[str, str] = new mutable.HashMap[str, str]()
+
+    val lemma_dict: Dict[str, str] = new mutable.HashMap[str, str]()
+    val lemma_count: Dict[str, int] = new mutable.HashMap[str, int]()
+
     // @semanticbeeng @global state  assert that this will ! change from the time of construction;
-    var _abbr_to_full_dict: Dict[str, List[str]] = null
+    var _abbr_to_full_dict: Dict[str, List[str]] = _
 
-
-    def this(abbr_to_full_dict: Dict[str, List[str]]) = {
-      //    this.lemma_dict = Map()
-      //    this.lemma_count = Map()
-      //    this.term_hash = Map()
-      //    this.term_type_hash = Map()
-      //    this.head_hash Map()
-      // @semanticbeeng @global state  assert that this will ! change from the time of construction;
-      val k: int
-      this._abbr_to_full_dict = dictionary.freeze_dict (abbr_to_full_dict)
-    }
+    // def this(abbr_to_full_dict: Dict[str, List[str]]) = this(dictionary.freeze_dict (abbr_to_full_dict))
 
     object Patterns {
       val compound_inbetween_string: Pattern = re.compile("^ +(of|for) +((the|a|[A-Z]\.) +)?$", re.I)
@@ -45,27 +40,16 @@ object inline_terms_lemmer {
     // 
     // 
     // 
-    def this(abbr_to_full_dict: Dict[str, List[str]]) = { 
-    
-//      this.lemma_dict: Dict[str, str] = {}
-//      this.lemma_count: Dict[str, int] = {}
-//      
-//      this.term_hash: Dict[str, List[Tuple[int, int]]] = {}
-//      this.term_type_hash: Dict[str, str] = {}
-//      this.head_hash: Dict[str, str] = {}
-      
-      // @semanticbeeng @global state : assert that this will not change from the time of construction
-      val k = 0
-      this._abbr_to_full_dict = dictionary.freeze_dict(abbr_to_full_dict)
-    }
+    def this(abbr_to_full_dict: Dict[str, List[str]]) =
+      this(0L, dictionary.freeze_dict(abbr_to_full_dict))
     
     //
     //
     //
-    def process_line(term_tuples: List[Tuple[int, int, str, str]], big_txt: str): Unit = {
+    def process_line(term_tuples: List[Tuple4[int, int, str, str]], big_txt: str): Unit = {
 
-        // compound_tuples = []              // @semanticbeeng @todo not used
-        val last_tuple: Tuple[int, int, str, str] = null        // @semanticbeeng @todo static typing  @data what is this
+        // compound_tuples = []                               // @semanticbeeng @todo not used
+        var last_tuple: Tuple4[int, int, str, str] = null        // @semanticbeeng static typing  @data what is this
 
         // unit testing print("find_inline_terms >> ")
         for ((t_start, t_end, term, term_type) ← term_tuples) {
@@ -76,18 +60,19 @@ object inline_terms_lemmer {
             //// lemmas not to merge entries unless term_type ==
             //// 'chunk-based'
             if (term in this.term_hash) {
-                this.term_hash(term).append((t_start, t_end))                            // @semanticbeeng @todo static typing
-                val lemma = this.get_term_lemma(term, term_type=term_type)
+
+                this.term_hash(term).append((t_start, t_end))                               // @semanticbeeng static typing
+                val lemma = this.get_term_lemma(term, term_type=Some(term_type))
 
                 if (lemma in this.lemma_count)
                     this.lemma_count(lemma) = this.lemma_count(lemma) + 1
                 else
                     this.lemma_count(lemma) = 1
             } else {
-                this.term_hash(term) = List((t_start, t_end))                                // @semanticbeeng @todo static typing
+                this.term_hash(term) = list((t_start, t_end))                                // @semanticbeeng static typing
                 this.term_type_hash(term) = term_type
 
-                val lemma = this.get_term_lemma(term, term_type=term_type)
+                val lemma = this.get_term_lemma(term, term_type=Some(term_type))
 
                 if (lemma in this.lemma_count)
                     this.lemma_count(lemma) = this.lemma_count(lemma) + 1
@@ -103,11 +88,11 @@ object inline_terms_lemmer {
                     val compound_term: str = term_utilities.interior_white_space_trim(big_txt.slice(last_tuple._1, t_end))
                     //// compound_term = re.sub("\s+"," ",big_txt[last_tuple[0]:t_end])
 
-                    val compound_tuple: Tuple[int, int, str, str] = (last_tuple._1, t_end, compound_term, "chunk-based")        // @semanticbeeng @todo static typing @data ??
+                    val compound_tuple: Tuple4[int, int, str, str] = (last_tuple._1, t_end, compound_term, "chunk-based")        // @semanticbeeng static typing @data ??
                     //// term_tuples.append(compound_tuple)
 
                     if (compound_term in this.term_hash) {
-                        this.term_hash(compound_term).append((last_tuple._1, t_end))     // @semanticbeeng @todo static typing
+                        this.term_hash(compound_term).append((last_tuple._1, t_end))     // @semanticbeeng static typing
                         val lemma = this.get_compound_lemma(compound_term, last_tuple._3, term)
 
                         if (lemma in this.lemma_count)
@@ -116,7 +101,7 @@ object inline_terms_lemmer {
                             this.lemma_count(lemma) = 1
                     }
                     else
-                        this.term_hash(compound_term) = List((last_tuple._1, t_end))           // @semanticbeeng @todo static typing
+                        this.term_hash(compound_term) = list((last_tuple._1, t_end))           // @semanticbeeng static typing
                         this.head_hash(compound_term) = last_tuple._3
                         val lemma = this.get_compound_lemma(compound_term, last_tuple._3, term)
 
@@ -124,22 +109,23 @@ object inline_terms_lemmer {
                             this.lemma_count(lemma) = this.lemma_count(lemma) + 1
                         else
                             this.lemma_count(lemma) = 1
-                    last_tuple = compound_tuple[:]
+                    last_tuple = compound_tuple //@todo syntax [:]
                 }
-                else if  (not re.search("[^\s]", big_txt.slice(last_tuple._2, t_start))) {
+                else if  (not (re.search("[^\s]", big_txt.slice(last_tuple._2, t_start)))) {
                     val compound_term = term_utilities.interior_white_space_trim(big_txt.slice(last_tuple._1, t_end))
 
-                    val compound_tuple = (last_tuple._1, t_end, compound_term, "chunk-based")   //  @semanticbeeng @todo static typing
+                    val compound_tuple = (last_tuple._1, t_end, compound_term, "chunk-based")   //  @semanticbeeng static typing
 
-                    if (compound_term in this.term_hash)
-                        this.term_hash(compound_term).append((last_tuple._1, t_end))     //  @semanticbeeng @todo static typing
+                    if (compound_term in this.term_hash) {
+                        this.term_hash(compound_term).append((last_tuple._1, t_end))     //  @semanticbeeng static typing
                         val lemma = this.get_compound_lemma(compound_term, last_tuple._3, term)
                         if (lemma in this.lemma_count)
                             this.lemma_count(lemma) = this.lemma_count(lemma) + 1
                         else
                             this.lemma_count(lemma) = 1
+                    }
                     else {
-                        this.term_hash(compound_term) = List((last_tuple._1, t_end))         //  @semanticbeeng @todo static typing
+                        this.term_hash(compound_term) = list((last_tuple._1, t_end))         //  @semanticbeeng static typing
                         //// if there is only blank space and no
                         //// preposition between terms, the
                         //// compounding is normal noun noun
@@ -154,18 +140,18 @@ object inline_terms_lemmer {
                      }       
                 }     
                 else
-                    last_tuple = (t_start, t_end, term, term_type)      //  @semanticbeeng @todo static typing
+                    last_tuple = (t_start, t_end, term, term_type)      //  @semanticbeeng static typing
             }
             else
-                last_tuple = (t_start, t_end, term, term_type)          //  @semanticbeeng @todo static typing
+                last_tuple = (t_start, t_end, term, term_type)          //  @semanticbeeng static typing
           }
     }
     
     //
     //  @semanticbeeng @func comp_termChunker
-    //  @semanticbeeng @todo static typing
+    //  @semanticbeeng static typing
     //
-    def get_term_lemma(term: str, term_type: str=None) : str = {
+    def get_term_lemma(term: str, term_type: Optional[str] = None) : str = {
         //// add plural --> singular
         //// print(term,term_type)
         // global lemma_dict
@@ -176,7 +162,7 @@ object inline_terms_lemmer {
         if (term in this.lemma_dict)
             return (this.lemma_dict(term))
 
-        else if (term_type and (term_type != "chunk-based"))
+        else if (isDefined(term_type) and (term_type.get != "chunk-based"))
             //// this takes care of all the patterned cases
             output = term.upper()
 
@@ -200,8 +186,8 @@ object inline_terms_lemmer {
                 else if (last_word.endswith("ies"))
                     output = (term.slice(0, -3) + "y").upper()
                 else if (last_word.endswith("es") and (len(last_word) > 3) and (last_word.at(-3) in "oshzx"))
-                    output = tterm.slice(0, -2).upper()
-                else if last_word.endswith("(s)")
+                    output = term.slice(0, -2).upper()
+                else if (last_word.endswith("(s)"))
                     output = term.slice(0, -3).upper()
                 else if ((len(last_word) > 1) and last_word.endswith("s") and term.at(-1).isalpha() and (not (last_word.at(-2) in "u")))
                     output = term.slice(0, -1).upper()
@@ -213,7 +199,7 @@ object inline_terms_lemmer {
             else
                 output = term.upper()
         }
-        this.lemma_dict[(term) = output           // @semanticbeeng @todo global state mutation
+        this.lemma_dict(term) = output           // @semanticbeeng global state mutation
         return (output)
     }
 
@@ -222,13 +208,14 @@ object inline_terms_lemmer {
     //
     def get_compound_lemma(compound_term: str, first_term: str, second_term: str) : str = {
         if (compound_term in this.lemma_dict) 
-            return (this.lemma_dict[compound_term)      // @semanticbeeng @todo global state reference
+            return (this.lemma_dict(compound_term))     // @semanticbeeng global state reference
         else {
-            val first_lemma = this.get_term_lemma(first_term, term_type="chunk-based")
-            val second_lemma = this.get_term_lemma(second_term, term_type="chunk-based")
+            val first_lemma = this.get_term_lemma(first_term, term_type=Some("chunk-based"))
+            val second_lemma = this.get_term_lemma(second_term, term_type=Some("chunk-based"))
             val output = (second_lemma + " " + first_lemma).upper()
-            this.lemma_dict(compound_term) = output      // @semanticbeeng @todo global state mutation
+            this.lemma_dict(compound_term) = output      // @semanticbeeng global state mutation
             return (output)
         }    
      }
+  }
 }
