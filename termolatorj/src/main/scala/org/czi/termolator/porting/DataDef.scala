@@ -1,6 +1,6 @@
 package org.czi.termolator.porting
 
-import java.util.regex.Pattern
+import java.util.regex.{Matcher, Pattern}
 
 import scala.collection.mutable
 import scala.language.implicitConversions
@@ -33,6 +33,7 @@ object DataDef {
   type Tuple3[T1, T2, T3] = (T1, T2, T3)
   type Tuple4[T1, T2, T3, T4] = (T1, T2, T3, T4)
   type Pattern = java.util.regex.Pattern
+  type Match = java.util.regex.Matcher
 
   val False = false
   val True = true
@@ -55,7 +56,7 @@ object DataDef {
 
     def in(list: Seq[Any]): bool = list.contains(value)
 
-    def in(set: Set[Any]): bool = set.contains(value)
+    def in(set: Set[str]): bool = set.contains(value)
 
     def upper() : str = value.toUpperCase
 
@@ -74,7 +75,7 @@ object DataDef {
         value.substring(value.length - end.toInt)
     }
 
-    def at(index : int) : str = {
+    def at(index : int) : Character = {
       if(index > 0)
         value.charAt(index.toInt)
       else
@@ -90,6 +91,8 @@ object DataDef {
   class CharDSL(value: Character) {
 
     def in(text: str) : bool = text.contains(value)
+
+    def isalpha(): bool = value.isalpha()
   }
 
   implicit def char2CharDSL(value: Character): CharDSL = new CharDSL(value)
@@ -163,6 +166,10 @@ object DataDef {
       regex.matcher(value).find
     }
 
+    def searchM(regex: Pattern, value: String): Matcher = {
+      regex.matcher(value)
+    }
+
     def sub(from: str, to: str, in: str) : str = {
       ""
     }
@@ -173,6 +180,8 @@ object DataDef {
     */
   class RegExDSL(value: Pattern) {
     def search(text: String): bool = re.search(value, text)
+
+    def searchM(text: String): Matcher = re.searchM(value, text)
   }
 
   implicit def pattern2RegexDSL(value: Pattern): RegExDSL = new RegExDSL(value)
@@ -183,8 +192,9 @@ object DataDef {
 
   def isDefined(o: Any) = {
     o match {
-      case o1: Option[_] ⇒ o1.isDefined
-      case o1 ⇒ o1 != null
+      case o1: Option[_]  ⇒ o1.isDefined
+      case o1: Match      ⇒ o1.matches()
+      case o1             ⇒ o1 != null
     }
   }
 

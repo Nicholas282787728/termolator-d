@@ -17,7 +17,7 @@ object inline_terms_lemmer {
   class TermsLemmer(abbr_to_full_dict: Dict[str, List[str]]) {
 
     object Patterns {
-      val compound_inbetween_string: Pattern = re.compile("^ +(of|for) +((the|a|[A-Z]\\.) +)?$", re.I)
+      val compound_inbetween_string: Pattern = re.compile("^ +(of|for) +((the|a|[A-Z]\.) +)?$", re.I)
     }
 
     val term_hash: Dict[str, ListM[Tuple[int, int]]] = new mutable.HashMap[str, ListM[Tuple[int, int]]]()
@@ -31,13 +31,7 @@ object inline_terms_lemmer {
     // @semanticbeeng @global state  assert that this will ! change from the time of construction;
     var _abbr_to_full_dict: Dict[str, List[str]] = _
 
-    // def this(abbr_to_full_dict: Dict[str, List[str]]) = this(dictionary.freeze_dict (abbr_to_full_dict))
-
-    object Patterns {
-      val compound_inbetween_string: Pattern = re.compile("^ +(of|for) +((the|a|[A-Z]\.) +)?$", re.I)
-    }
-    
-    // 
+    //
     // 
     // 
     def this(abbr_to_full_dict: Dict[str, List[str]]) =
@@ -171,9 +165,9 @@ object inline_terms_lemmer {
             output = this._abbr_to_full_dict(term)(0)
 
         else {
-            val last_word_match = last_word_pat.search(term)
+            val last_word_match: Match = last_word_pat.searchM(term)
 
-            if (last_word_match) {
+            if (isDefined(last_word_match)) {
                 val last_word: str = last_word_match.group(0).lower()
                 val last_word_start: int = last_word_match.start()
 

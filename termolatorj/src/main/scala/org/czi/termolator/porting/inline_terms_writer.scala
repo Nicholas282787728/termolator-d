@@ -34,7 +34,7 @@ object inline_terms_writer {
     //
     def write_all(term_list: List[str], lemmer: inline_terms_lemmer.TermsLemmer): Unit = {
       // @semanticbeeng @sideEffect  ensure no mutations from here on
-      val term_hash: Dict[str, List[Tuple[int, int]]] = lemmer.term_hash
+      val term_hash: Dict[str, List[Tuple[int, int]]] = lemmer.term_hash.asInstanceOf[Dict[str, List[Tuple[int, int]]]] //@todo hack
       val term_type_hash: Dict[str, str] = dictionary.freeze_dict(lemmer.term_type_hash)
       val head_hash: Dict[str, str] = dictionary.freeze_dict(lemmer.head_hash)
       val lemma_dict: Dict[str, str] = dictionary.freeze_dict(lemmer.lemma_dict)
@@ -72,7 +72,7 @@ object inline_terms_writer {
                 head_lemma = lemma_dict(head_term)
 
               else if (head_term in term_type_hash)
-                head_lemma = lemmer.get_term_lemma(head_term, term_type = (term_type_hash(head_term)))
+                head_lemma = lemmer.get_term_lemma(head_term, term_type = Some(term_type_hash(head_term)))
               else
                 head_lemma = lemmer.get_term_lemma(head_term)
 
