@@ -35,14 +35,22 @@ object DataDef {
   type Pattern = java.util.regex.Pattern
   type Match = java.util.regex.Matcher
 
+  type PosFact = Tuple3[int, int, str]
+
   val False = false
   val True = true
   val nullInt : int = 0L
   val nullStr : str = ""
   // val nullBool : bool = None
 
+  def list(args: _*) = {
+    val l = new mutable.ListBuffer[Any]()
+    l.append(args)
+    l
+  }
+
   def list[T1, T2](t : (T1, T2)) = {
-    val l: mutable.ListBuffer[(T1, T2)] = new mutable.ListBuffer[(T1, T2)]()
+    val l = new mutable.ListBuffer[(T1, T2)]()
     l.append(t)
     l
   }
@@ -55,6 +63,8 @@ object DataDef {
     def in(map: Dict[str, _]): bool = map.contains(value)
 
     def in(list: Seq[Any]): bool = list.contains(value)
+
+    //def in(list: mutable.Seq[Any]): bool = list.contains(value)
 
     def in(set: Set[str]): bool = set.contains(value)
 
@@ -137,11 +147,13 @@ object DataDef {
   }
 
   /**
+    * Bridge between the Scala/Java and Python apis/syntax and semantics
     *
+    * @resource http://langref.org/scala+python/pattern-matching
     */
   object re {
 
-    val I: Int = 0
+    val I: Int = Pattern.CASE_INSENSITIVE
 
     def quote(regex : String): String = {
       Pattern.quote(regex)
@@ -190,6 +202,9 @@ object DataDef {
 
   def str(o : int) = o.toString
 
+  def int(o : str) = o.toInt
+
+
   def str(o : Object) = o.toString
 
   def isDefined(o: Any) = {
@@ -201,4 +216,10 @@ object DataDef {
   }
 
   val pass = Unit
+
+  object os {
+    object path {
+      def isfile(name: str) = true
+    }
+  }
 }

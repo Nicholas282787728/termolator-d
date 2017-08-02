@@ -45,8 +45,8 @@ object inline_terms_lemmer {
     //
     def process_line(term_tuples: List[Tuple4[int, int, str, str]], big_txt: str): Unit = {
 
-        // compound_tuples = []                               // @semanticbeeng @todo not used
-        var last_tuple: Tuple4[int, int, str, str] = null        // @semanticbeeng static typing  @data what is this
+        // compound_tuples = []                                   // @semanticbeeng @todo not used
+        var last_tuple: Tuple4[int, int, str, str] = null         // @semanticbeeng static typing  @data what is this
 
         // unit testing print("find_inline_terms >> ")
         for ((t_start, t_end, term, term_type) ← term_tuples) {

@@ -178,4 +178,8 @@ object find_inline_terms_tests extends App {
 
     assert(result == return1)
   }
+
+  def test_term_lemmer = {
+    val lemmer = new inline_terms_lemmer.TermsLemmer(null)
+  }
 }

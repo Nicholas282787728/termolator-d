@@ -8,7 +8,7 @@ import scala.collection.mutable
 /**
   *
   */
-object inline_terms extends JepEnabled {
+trait inline_terms_intf extends JepEnabled {
 
   import DataDef._
 
@@ -72,8 +72,8 @@ object inline_terms extends JepEnabled {
                         fact_file : File[FACT],
                         pos_file : File[POS],
                         terms_file : File[TERMS],
-                        marked_paragraphs : Boolean = false,
-                        filter_off : Boolean = false) : Unit = {
+                        marked_paragraphs : bool = False,
+                        filter_off : bool = False) : Unit = {
 
     FunctionDef("find_inline_terms",
       ("lines", lines), ("fact_file", fact_file),
@@ -108,6 +108,36 @@ object inline_terms extends JepEnabled {
   /**
     *
     */
+   def get_formulaic_term_pieces(text: str, offset: int) : List[Tuple4[int, int, str, str]] = {
+      import collection.JavaConverters._
+      FunctionDef("get_formulaic_term_pieces", ("text", text), ("offset", offset)).
+        pyCallAndReturn[util.List[jep.tuple]]().asScala.toList map { e ⇒
+        e.asScala match {
+          case mutable.Buffer(_1: jep.int, _2: jep.int, _3: jep.str, _4: jep.str) ⇒ (jep.unbox(_1), jep.unbox(_2), _3, _4)
+          case _ ⇒ assert(false); (nullInt, nullInt, nullStr, nullStr)
+        }
+      }
+   }
+
+  /**
+    *
+    */
+  def merge_formulaic_and_regular_term_tuples(term_tuples: List[Tuple3[int, int, str]], formulaic_tuples: List[Tuple4[int, int, str, str]])
+    : List[Tuple4[int, int, str, str]] = {
+
+      import collection.JavaConverters._
+      FunctionDef("merge_formulaic_and_regular_term_tuples", ("term_tuples", term_tuples), ("formulaic_tuples", formulaic_tuples)).
+        pyCallAndReturn[util.List[jep.tuple]]().asScala.toList map { e ⇒
+        e.asScala match {
+          case mutable.Buffer(_1: jep.int, _2: jep.int, _3: jep.str, _4: jep.str) ⇒ (jep.unbox(_1), jep.unbox(_2), _3, _4)
+          case _ ⇒ assert(false); (nullInt, nullInt, nullStr, nullStr)
+        }
+      }
+  }
+
+  /**
+    *
+    */
   def get_next_word(instring: str, start: int) : Option[(str, int, int)] = {
     None
   }
@@ -120,4 +150,14 @@ object inline_terms extends JepEnabled {
     FunctionDef("topic_term_ok_boolean", ("word_list", word_list), ("pos_list", pos_list), ("term_string", term_string)).
       pyCallAndReturn[bool]()
     }
+
+    /**
+     *
+     */
+    def load_pos_offset_table(pos_file: File[POS]) : Unit = {
+      FunctionDef("load_pos_offset_table", ("pos_file", pos_file)).pyCall()
+    }
 }
+
+
+object inline_terms extends inline_terms_intf
