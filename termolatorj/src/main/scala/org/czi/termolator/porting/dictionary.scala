@@ -2,6 +2,7 @@ package org.czi.termolator.porting
 
 import org.czi.termolator.porting.DataDef.Dict
 
+import DataDef._
 
 /**
   *
@@ -9,6 +10,9 @@ import org.czi.termolator.porting.DataDef.Dict
 object dictionary extends JepEnabled {
 
   val moduleName = "dictionary"
+
+  val jargon_words: Set[str] // @todo
+  val noun_base_form_dict: Dict[str, List[str]]
 
   /**
     *

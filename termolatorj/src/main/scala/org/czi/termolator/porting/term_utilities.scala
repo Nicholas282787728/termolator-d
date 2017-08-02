@@ -75,4 +75,14 @@ object term_utilities extends JepEnabled {
   def divide_sentence_into_words_and_start_positions(sentence: str, start: int = 0) : List[Tuple[int, str]] = {
     null
   }
+
+  /**
+    *
+    */
+  def interior_white_space_trim(instring: str) : str = {
+      val out1 = re.sub("\s+", " ", instring)
+      val out2 = re.sub("\s*(.*[^\s])\s*$", "\g<1>", out1)
+      return (out2)
+  }
+
 }

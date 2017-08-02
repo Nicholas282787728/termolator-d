@@ -28,6 +28,8 @@ object DataDef {
   type Dict[K, V] = Map[K, V]
   type Optional[T] = Option[T]
   type Tuple[T1, T2] = (T1, T2)
+  type Tuple[T1, T2, T3] = (T1, T2, T3)
+  type Tuple[T1, T2, T3, T4] = (T1, T2, T3, T4)
   type Pattern = java.util.regex.Pattern
 
   val False = false
@@ -36,21 +38,55 @@ object DataDef {
   val nullStr : str = ""
   // val nullBool : bool = None
 
-
+  /**
+    *
+    */
   class StringDSL(value: str) {
 
     def in(map: Dict[str, _]): bool = map.contains(value)
 
     def in(list: Seq[Any]): bool = list.contains(value)
 
+    def in(set: Set[Any]): bool = set.contains(value)
+
     def upper() : str = value.toUpperCase
 
     def lower() : str = value.toLowerCase
 
+    def endswith(suffix: str) : bool = value.endsWith(suffix)
+
+    def isalpha(): bool = value.isalpha()
+
+    def slice(start: int, end: int) : str = {
+      if(end > 0)
+        value.substring(start.toInt, end.toInt)
+      else
+        value.substring(value.length - index.toInt)
+    }
+
+    def at(index : int) : str = {
+      if(index > 0)
+        value.charAt(index)
+      else
+        value.charAt(value.length - index.toInt)
+    }
   }
 
   implicit def string2StringDSL(value: str): StringDSL = new StringDSL(value)
 
+  /**
+    *
+    */
+  class CharDSL(value: char) {
+
+    def in(text: str) : bool = text.contains(value)
+  }
+
+  implicit def char2CharDSL(value: char): CharDSL = new CharDSL(value)
+
+  /**
+    *
+    */
   class BooleanDSL(value: bool) {
     def and(another: bool) = value && another
 
@@ -60,16 +96,18 @@ object DataDef {
   }
 
   def not(value : bool) = !value
-
   implicit def bool2BoolDSL(value: bool): BooleanDSL = new BooleanDSL(value)
 
+  /**
+    *
+    */
   class ListDSL[T](value: mutable.ListBuffer[T]) {
 
     def append(another: T) = value += another
 
   }
 
-  implicit def list2ListDSL[T](value: mutable.ListBuffer[T]): ListDSL = new ListDSL[T](value)
+  implicit def list2ListDSL[T](value: mutable.ListBuffer[T]): ListDSL[T] = new ListDSL[T](value)
 
   /**
     *
@@ -97,6 +135,9 @@ object DataDef {
     }
 
     def compile(regex: String, flags: Int = 0): Pattern = {
+      /**
+        * @todo https://stackoverflow.com/a/10502921/4032515 quoting in Java vs Python
+        */
       Pattern.compile(quote(regex), flags)
     }
 
@@ -129,6 +170,13 @@ object DataDef {
   def len(list: Seq[Any]) = list.size
 
   def str(o : Object) = o.toString
+
+  def isDefined(o: Any) = {
+    o match {
+      case o1: Option[_] ⇒ o1.isDefined
+      case o1 ⇒ o1 != null
+    }
+  }
 
   val pass = Unit
 }
