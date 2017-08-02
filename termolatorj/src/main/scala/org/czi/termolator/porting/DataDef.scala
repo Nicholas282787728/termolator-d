@@ -188,6 +188,8 @@ object DataDef {
 
   def len(list: Seq[Any]) = list.size
 
+  def str(o : int) = o.toString
+
   def str(o : Object) = o.toString
 
   def isDefined(o: Any) = {

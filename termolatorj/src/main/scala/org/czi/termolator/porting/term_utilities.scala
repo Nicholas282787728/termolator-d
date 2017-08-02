@@ -80,8 +80,8 @@ object term_utilities extends JepEnabled {
     *
     */
   def interior_white_space_trim(instring: str) : str = {
-      val out1 = re.sub("\s+", " ", instring)
-      val out2 = re.sub("\s*(.*[^\s])\s*$", "\g<1>", out1)
+      val out1 = re.sub("\\s+", " ", instring)
+      val out2 = re.sub("\\s*(.*[^\\s])\\s*$", "\\g<1>", out1)
       return (out2)
   }
 

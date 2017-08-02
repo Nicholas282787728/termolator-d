@@ -17,7 +17,7 @@ object inline_terms_lemmer {
   class TermsLemmer(abbr_to_full_dict: Dict[str, List[str]]) {
 
     object Patterns {
-      val compound_inbetween_string: Pattern = re.compile("^ +(of|for) +((the|a|[A-Z]\.) +)?$", re.I)
+      val compound_inbetween_string: Pattern = re.compile("^ +(of|for) +((the|a|[A-Z]\\.) +)?$", re.I)
     }
 
     val term_hash: Dict[str, ListM[Tuple[int, int]]] = new mutable.HashMap[str, ListM[Tuple[int, int]]]()
@@ -31,11 +31,14 @@ object inline_terms_lemmer {
     // @semanticbeeng @global state  assert that this will ! change from the time of construction;
     var _abbr_to_full_dict: Dict[str, List[str]] = _
 
+    init(abbr_to_full_dict)
+
     //
     // 
     // 
-    def this(abbr_to_full_dict: Dict[str, List[str]]) =
-      this(0L, dictionary.freeze_dict(abbr_to_full_dict))
+    def init(abbr_to_full_dict: Dict[str, List[str]]) =
+      this._abbr_to_full_dict = dictionary.freeze_dict(abbr_to_full_dict)
+
     
     //
     //
@@ -105,7 +108,7 @@ object inline_terms_lemmer {
                             this.lemma_count(lemma) = 1
                     last_tuple = compound_tuple //@todo syntax [:]
                 }
-                else if  (not (re.search("[^\s]", big_txt.slice(last_tuple._2, t_start)))) {
+                else if  (not (re.search("[^\\s]", big_txt.slice(last_tuple._2, t_start)))) {
                     val compound_term = term_utilities.interior_white_space_trim(big_txt.slice(last_tuple._1, t_end))
 
                     val compound_tuple = (last_tuple._1, t_end, compound_term, "chunk-based")   //  @semanticbeeng static typing
@@ -178,18 +181,18 @@ object inline_terms_lemmer {
                         output = (term.slice(0L, last_word_start) + dictionary.noun_base_form_dict(last_word)(0)).upper()
                 }
                 else if (last_word.endswith("ies"))
-                    output = (term.slice(0, -3) + "y").upper()
+                    output = (term.slice(0L, -3L) + "y").upper()
                 else if (last_word.endswith("es") and (len(last_word) > 3) and (last_word.at(-3) in "oshzx"))
-                    output = term.slice(0, -2).upper()
+                    output = term.slice(0L, -2L).upper()
                 else if (last_word.endswith("(s)"))
-                    output = term.slice(0, -3).upper()
+                    output = term.slice(0L, -3L).upper()
                 else if ((len(last_word) > 1) and last_word.endswith("s") and term.at(-1).isalpha() and (not (last_word.at(-2) in "u")))
-                    output = term.slice(0, -1).upper()
+                    output = term.slice(0L, -1L).upper()
                 else
                     output = term.upper()
             }
-            else if (re.search("\([sS]\)$", term))
-                output = term.slice(0,-3).upper()
+            else if (re.search("\\([sS]\\)$", term))
+                output = term.slice(0L, -3L).upper()
             else
                 output = term.upper()
         }
