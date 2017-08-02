@@ -15,14 +15,14 @@ import org.czi.termolator.porting.DataDef._
 object inline_terms_writer {
 
 
-  class TermsWriter {
+  class TermsWriter(outstream: InternalStream) {
 
     object Patterns {
       val et_al_citation: Pattern = re.compile(" et[.]? al[.]? *$")
     }
 
     private var term_id_number: int = 0
-    private var outstream: File[TERMS] = _
+    //private var outstream: File[TERMS] = _
 
 //    def this(is: File[TERMS]) = {
 //      this.outstream = os

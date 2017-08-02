@@ -91,6 +91,8 @@ object DataDef {
       else
         value.charAt(value.length - index.toInt)
     }
+
+    def count(another: str) : int = another.r.findAllMatchIn(value).length
   }
 
   implicit def string2StringDSL(value: str): StringDSL = new StringDSL(value)
@@ -218,8 +220,13 @@ object DataDef {
   val pass = Unit
 
   object os {
+
+    val linesep = "\n"
+
     object path {
       def isfile(name: str) = true
     }
   }
+
+  def del(o: Object) = None
 }

@@ -1,7 +1,7 @@
 package org.czi.termolator.porting.impl
 
 import org.czi.termolator.porting.DataDef.{FACT, POS, TERMS, str}
-import org.czi.termolator.porting.{File, inline_terms_lemmer}
+import org.czi.termolator.porting.{File, inline_terms_lemmer, inline_terms_writer}
 import org.czi.termolator.porting.DataDef._
 
 /**
@@ -65,59 +65,64 @@ object inline_terms extends org.czi.termolator.porting.inline_terms_intf {
           for ((start, end) ← start_ends)
               txt_strings.append(PosFact(start, end, big_txt.slice(start, end)))
       else {
-          start, end = start_ends[0]
-          end = 0
-          current_block: str = ''
-          so_far = start
+          val (start, end) = start_ends._1
+          val end = 0
+          val current_block: str = ""
+          var so_far = start
   
-          for line in lines:
-              end = so_far + len(line)
-              next_line: str = re.sub(os.linesep, ' ', line)
-              current_block = current_block + next_line
-              big_txt = big_txt + next_line
+          for (line ← lines) {
+              val end = so_far + len(line)
+              val next_line: str = re.sub(os.linesep, " ", line)
+              val current_block = current_block + next_line
+              val big_txt = big_txt + next_line
   
-              if (not re.search('[a-zA-z]', line)) or re.search('[.?:!][ \t' + os.linesep + ']*$', line):
+              if (not re.search('[a-zA-z]', line)) or re.search('[.?:!][ \t' + os.linesep + ']*$', line) {
                   txt_strings.append(PosFact(start, end, current_block))
-                  current_block = ''
+                  current_block = ""
                   start = end
+              }
               so_far = end
-  
+          }
           if (current_block != "")
               txt_strings.append(PosFact(start, end, current_block))
       }
 
-      val termLemmer = inline_terms_lemmer.TermsLemmer(Abbreviate.abbr_to_full_dict)
+      val termLemmer = new inline_terms_lemmer.TermsLemmer(Abbreviate.abbr_to_full_dict)
   
-      for start, end, text in txt_strings:
-          text = re.sub(line_break_match, ' \g<1>', text)
-          if (text.count('\t') + text.count(' ')) < (len(text) / 3):
+      for ((start, end, text) ← txt_strings) {
+          val text = re.sub(line_break_match, " \g<1>", text)
+          var term_tuples : List[Tuple4[int, int, str, str]]
+
+          if ((text.count("\t") + text.count(" ")) < (len(text) / 3)) {
               ////  ignore tables
   
               // @semanticbeeng @todo static typic
-              term_triples: List[Tuple[int, int, str]] = get_topic_terms(text, start, filter_off=filter_off)  // @todo is this PosFact? or Term
+              val term_triples: List[Tuple3[int, int, str]] = get_topic_terms(text, start, filter_off=filter_off)  // @todo is this PosFact? or Term
   
-              formulaic_tuples: List[Tuple[int, int, str, str]] = get_formulaic_term_pieces(text, start)
+              val formulaic_tuples: List[Tuple4[int, int, str, str]] = get_formulaic_term_pieces(text, start)
   
-              term_tuples: List[Tuple[int, int, str, str]] = merge_formulaic_and_regular_term_tuples(term_triples, formulaic_tuples)
-          else:
-              term_tuples = []
-  
+              term_tuples = merge_formulaic_and_regular_term_tuples(term_triples, formulaic_tuples)
+          }
+          else
+              term_tuples = list()
+
           termLemmer.process_line(term_tuples, big_txt)
-  
-      term_list: List[str] = list(termLemmer.term_hash.keys())
+      }
+
+      val term_list: List[str] = list(termLemmer.term_hash.keys())
       term_list.sort()
-      global_formula_filter(term_list, termLemmer.term_hash, termLemmer.term_type_hash)
+
+      global_formula_filter(term_list, termLemmer.term_hash.toList, termLemmer.term_type_hash)
   
       // @semanticbeeng @todo @jep
       // with terms_file.openText(mode='w') as outstream:
-      outstream = terms_file.openText('w')
+      val outstream = terms_file.openText("w")
   
-      termWriter = inline_terms_writer.TermsWriter(outstream)
+      val termWriter = new inline_terms_writer.TermsWriter(outstream)
       termWriter.write_all(term_list, termLemmer)
   
-      del termLemmer
-      del termWriter
-                        
+      del (termLemmer)
+      del (termWriter)
     }
 
 

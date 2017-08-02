@@ -157,6 +157,13 @@ trait inline_terms_intf extends JepEnabled {
     def load_pos_offset_table(pos_file: File[POS]) : Unit = {
       FunctionDef("load_pos_offset_table", ("pos_file", pos_file)).pyCall()
     }
+
+   /**
+    *
+    */
+    def global_formula_filter(term_list: List[str], term_hash: Dict[str, List[Tuple[int, int]]], term_type_hash: Dict[str, str]) : Unit = {
+      FunctionDef("global_formula_filter", ("term_list", term_list), ("term_hash", term_hash), , ("term_type_hash", term_type_hash)).pyCall()
+    }
 }
 
 
