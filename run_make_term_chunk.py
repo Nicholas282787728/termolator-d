@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from inline_terms import *
+from refactoring_support import *
 
 
 ## @func comp_termChunker
@@ -10,4 +11,6 @@ def main(args):
     make_term_chunk_file_list(infile_list, outfile_list)
 
 
-if __name__ == '__main__': sys.exit(main(sys.argv))
+if __name__ == '__main__':
+    # sys.settrace(trace_args_and_return)
+    sys.exit(main(sys.argv))

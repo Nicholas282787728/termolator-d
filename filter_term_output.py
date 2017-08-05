@@ -4,6 +4,7 @@ from filter_terms import *
 from DataDef import File, TERM, ABBR
 import dictionary
 from refactoring_support import Refactoring
+from refactoring_support import *
 
 def main(args):
     # global special_domains
@@ -40,4 +41,6 @@ def main(args):
                  web_score_dict_file=File(web_score_dict_file))
 
 
-if __name__ == '__main__': sys.exit(main(sys.argv))
+if __name__ == '__main__':
+    # sys.settrace(trace_args_and_return)
+    sys.exit(main(sys.argv))

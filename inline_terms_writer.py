@@ -3,8 +3,9 @@ import term_utilities
 import dictionary
 from typing import List, Tuple, Dict, Optional, Pattern
 
-import inline_terms_lemmer      # @todo remove this dependency
+import inline_terms_lemmer    # @todo remove this dependency
 import config
+
 
 #
 #   Perists the TERMSS for a single source "file"
@@ -21,24 +22,26 @@ class TermsWriter:
     #
     # @semanticbeeng @dataFlow
     #
-    def write_all(self, term_list: List[str],
-                  lemmer: inline_terms_lemmer.TermsLemmer) -> None:
+    def write_all(self, term_list: List[str], lemmer: inline_terms_lemmer.TermsLemmer) -> None:
 
         # @semanticbeeng @sideEffect : ensure no mutations from here on
         term_hash: Dict[str, List[Tuple[int, int]]] = lemmer.term_hash
         term_type_hash: Dict[str, str] = dictionary.freeze_dict(lemmer.term_type_hash)
         head_hash: Dict[str, str] = dictionary.freeze_dict(lemmer.head_hash)
-        lemma_dict : Dict[str, str] = dictionary.freeze_dict(lemmer.lemma_dict)
+        lemma_dict: Dict[str, str] = dictionary.freeze_dict(lemmer.lemma_dict)
         lemma_count: Dict[str, int] = dictionary.freeze_dict(lemmer.lemma_count)
 
         for term in term_list:
 
             if (term in term_type_hash) and (not term_type_hash[term] in [False, 'chunk-based']):
-                self.__write_term_summary_fact_set(term, term_hash[term],
-                                                   lemma_dict, lemma_count,
-                                                   head_term=term.upper(),
-                                                   head_lemma=term.upper(),
-                                                   term_type=term_type_hash[term])
+                self.__write_term_summary_fact_set(
+                    term,
+                    term_hash[term],
+                    lemma_dict,
+                    lemma_count,
+                    head_term=term.upper(),
+                    head_lemma=term.upper(),
+                    term_type=term_type_hash[term])
 
             elif self.Patterns.et_al_citation.search(term):
                 self.__write_term_becomes_article_citation(term, term_hash[term])
@@ -62,12 +65,12 @@ class TermsWriter:
                     else:
                         head_lemma = lemmer.get_term_lemma(head_term)
                 else:
-                    head_term = None           #  @semanticbeeng @todo static typing
-                    head_lemma = None              #  @semanticbeeng @todo static typing
+                    head_term = None    #  @semanticbeeng @todo static typing
+                    head_lemma = None    #  @semanticbeeng @todo static typing
                 #   @semanticbeeng @todo @dataFlow
 
-                self.__write_term_summary_fact_set(term, term_hash[term], lemma_dict, lemma_count,
-                                                   head_term=head_term, head_lemma=head_lemma)
+                self.__write_term_summary_fact_set(
+                    term, term_hash[term], lemma_dict, lemma_count, head_term=head_term, head_lemma=head_lemma)
 
     #
     #   @semanticbeeng @todo
@@ -90,14 +93,14 @@ class TermsWriter:
             elif term_utilities.last_word_loc.search(words[-1][1]):
                 ends_in = 'LOC'
             else:
-                ends_in = None              # @semanticbeeng @todo static typing
+                ends_in = None    # @semanticbeeng @todo static typing
         else:
-            ends_in = None                  # @semanticbeeng @todo static typing
-    
+            ends_in = None    # @semanticbeeng @todo static typing
+
         for position, word in words:
             lower = word.lower()
             is_capital = re.search('^[A-Z][a-z]', word)
-    
+
             if is_capital and (lower in config.pos_dict) and ('PERSON_NAME' in config.pos_dict[lower]):
                 person_names = person_names + 1
                 if len(config.pos_dict[lower]) > 1:
@@ -107,12 +110,12 @@ class TermsWriter:
                     word_pattern.append('name')
             else:
                 word_pattern.append('not_name')
-    
+
             if is_capital or term_utilities.closed_class_check2.search(word):
                 pass
             else:
                 Fail = True
-    
+
         if not term_utilities.ambig_last_word_org.search(words[-1][1]):
             length_name_criterion = True
         elif (len(words) < 4) or \
@@ -120,7 +123,7 @@ class TermsWriter:
             length_name_criterion = True
         else:
             length_name_criterion = False
-    
+
         if (len(words) <= 1) or (not ' ' in term):
             return (False)
         elif (ends_in == 'ORG') and length_name_criterion:
@@ -146,7 +149,7 @@ class TermsWriter:
             ## ne_class = 'ORGANIZATION'
             return (False)
         # global term_id_number @semanticbeeng @global state
-    
+
         for start, end in instances:
             self.term_id_number = 1 + self.term_id_number
             self.outstream.write(ne_class + ' ID="NYU_ID_' + str(self.term_id_number) + '" STRING="' + term + '"')
@@ -156,20 +159,30 @@ class TermsWriter:
     #
     #   @semanticbeeng @todo static type
     #
-    def __write_term_summary_fact_set(self, term: str, instances: List[Tuple[int, int]],
-                                      lemma_dict: Dict[str, str], lemma_count: Dict[str, int],
-                                      head_term: Optional[str]=None, head_lemma: Optional[str]=None, term_type: Optional[str]=None) -> None:
+    def __write_term_summary_fact_set(
+        self,
+        term: str,
+        instances: List[Tuple[int, int]],
+        lemma_dict: Dict[str, str],
+        lemma_count: Dict[str, int],
+        head_term: Optional[str]=None,
+        head_lemma: Optional[str]=None,
+        term_type: Optional[str]=None) -> None:
         # global term_id_number @semanticbeeng global state
         frequency = len(instances)
         lemma = lemma_dict[term]
         lemma_freq = lemma_count[lemma]
-    
+
         for start, end in instances:
             self.term_id_number = 1 + self.term_id_number
             if term_type == 'url':
-                self.outstream.write('URL ID="NYU_TERM_' + str(self.term_id_number) + '" STRING="' + self.term_string_edit(term) + '"' + ' FREQUENCY=' + str(frequency))
+                self.outstream.write(
+                    'URL ID="NYU_TERM_' + str(self.term_id_number) + '" STRING="' + self.term_string_edit(term) + '"' +
+                    ' FREQUENCY=' + str(frequency))
             else:
-                self.outstream.write('TERM ID="NYU_TERM_' + str(self.term_id_number) + '" STRING="' + self.term_string_edit(term) + '"' + ' FREQUENCY=' + str(frequency))
+                self.outstream.write(
+                    'TERM ID="NYU_TERM_' + str(self.term_id_number) + '" STRING="' + self.term_string_edit(term) + '"' +
+                    ' FREQUENCY=' + str(frequency))
             self.outstream.write(' START=' + str(start) + ' END=' + str(end))
             self.outstream.write(' LEMMA="' + self.term_string_edit(lemma) + '" LEMMA_FREQUENCY=' + str(lemma_freq))
             if head_term:
@@ -179,7 +192,7 @@ class TermsWriter:
             if term_type and (not term_type == 'url'):
                 self.outstream.write(' TERM_PATTERN_TYPE="' + term_type + '"')
             self.outstream.write(os.linesep)
-    
+
     #
     #
     #
@@ -187,9 +200,10 @@ class TermsWriter:
         # global term_id_number @semanticbeeng @global state
         for start, end in instances:
             self.term_id_number = 1 + self.term_id_number
-            self.outstream.write('CITATION ID="NYU_ID_' + str(self.term_id_number) + '" STRING="' + term + '" CITE_CLASS="article"')
+            self.outstream.write(
+                'CITATION ID="NYU_ID_' + str(self.term_id_number) + '" STRING="' + term + '" CITE_CLASS="article"')
             self.outstream.write(' START=' + str(start) + ' END=' + str(end) + os.linesep)
-    
+
     #
     #
     #
@@ -199,7 +213,7 @@ class TermsWriter:
             self.term_id_number = 1 + self.term_id_number
             self.outstream.write('ORGANIZATION ID="NYU_ID_' + str(self.term_id_number) + '" STRING="' + term + '"')
             self.outstream.write(' START=' + str(start) + ' END=' + str(end) + os.linesep)
-    
+
     #
     #   @semanticbeeng not used
     #
@@ -209,7 +223,7 @@ class TermsWriter:
             self.term_id_number = 1 + self.term_id_number
             self.outstream.write('GPE ID="NYU_ID_' + str(self.term_id_number) + '" STRING="' + term + '"')
             self.outstream.write(' START=' + str(start) + ' END=' + str(end) + os.linesep)
-    
+
     #
     #
     #

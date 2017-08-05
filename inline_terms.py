@@ -676,7 +676,7 @@ def merge_formulaic_and_regular_term_tuples(term_tuples: List[Tuple[int, int, st
 #
 #
 #
-def global_formula_filter(term_list, term_hash: Dict[str, List[Tuple[int, int]]], term_type_hash: Dict[str, str]) -> None:
+def global_formula_filter(term_list: List[str], term_hash: Dict[str, List[Tuple[int, int]]], term_type_hash: Dict[str, str]) -> None:
 
     chemical_filter_pattern = re.compile('^([A-Z]*)([0-9])$')
     chemical_matches: Dict[str, List[str]] = {}
@@ -756,6 +756,7 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List[Tupl
                 Fail = True
             else:
                 previous_words = remove_empties(word_split_pattern.split(text[start:search_end].rstrip(' ')))
+
             if Fail or (not abbreviation) or ((not abbreviation.isupper()) and (abbreviation in config.pos_dict)):
                 previous_words = []                 # @semanticbeeng @todo static typing
                 result = None                       # @semanticbeeng @todo static typing

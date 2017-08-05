@@ -3,6 +3,7 @@ import errno
 import sys
 
 from Metric import *
+from refactoring_support import *
 
 LEVEL = logging.DEBUG
 MEASURES = ['TFIDF', 'DRDC', 'KLDiv', 'Weighted']
@@ -103,4 +104,5 @@ def __main__(args):
 
 
 if __name__ == '__main__':
+    # sys.settrace(trace_args_and_return)
     __main__(sys.argv)

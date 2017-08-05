@@ -1,8 +1,9 @@
 import re
 import dictionary
 import term_utilities
-from typing import List, Tuple, Dict, Pattern
+from typing import List, Tuple, Dict, Optional, Pattern, Match
 import config
+
 
 #
 #   Extracts stats for a a single source "file" and manages the @state derived
@@ -30,12 +31,10 @@ class TermsLemmer:
     #
     #
     #
-    def process_line(self,
-                     term_tuples: List[Tuple[int, int, str, str]],
-                     big_txt: str):
+    def process_line(self, term_tuples: List[Tuple[int, int, str, str]], big_txt: str):
 
         # compound_tuples = []              # @semanticbeeng @todo not used
-        last_tuple: Tuple[int, int, str, str] = None        # @semanticbeeng @todo static typing  @data what is this
+        last_tuple: Tuple[int, int, str, str] = None    # @semanticbeeng @todo static typing  @data what is this
 
         # unit testing print("find_inline_terms >> ")
         for t_start, t_end, term, term_type in term_tuples:
@@ -46,7 +45,7 @@ class TermsLemmer:
             ## lemmas not to merge entries unless term_type ==
             ## 'chunk-based'
             if term in self.term_hash:
-                self.term_hash[term].append((t_start, t_end))                            # @semanticbeeng @todo static typing
+                self.term_hash[term].append((t_start, t_end))    # @semanticbeeng @todo static typing
                 lemma = self.get_term_lemma(term, term_type=term_type)
 
                 if lemma in self.lemma_count:
@@ -54,7 +53,7 @@ class TermsLemmer:
                 else:
                     self.lemma_count[lemma] = 1
             else:
-                self.term_hash[term] = [(t_start, t_end)]                                # @semanticbeeng @todo static typing
+                self.term_hash[term] = [(t_start, t_end)]    # @semanticbeeng @todo static typing
                 self.term_type_hash[term] = term_type
 
                 lemma = self.get_term_lemma(term, term_type=term_type)
@@ -64,18 +63,22 @@ class TermsLemmer:
                 else:
                     self.lemma_count[lemma] = 1
 
-            if last_tuple and (t_start > last_tuple[1]) and (last_tuple[3] in [False, 'chunk-based']) and (term_type in [False, 'chunk-based']):
+            if last_tuple and (t_start > last_tuple[1]) \
+                        and (last_tuple[3] in [False, 'chunk-based']) \
+                        and (term_type in [False, 'chunk-based']):
                 inbetween = self.Patterns.compound_inbetween_string.search(big_txt[last_tuple[1]:t_start])
 
                 if inbetween:
                     compound_term: str = term_utilities.interior_white_space_trim(big_txt[last_tuple[0]:t_end])
                     ## compound_term = re.sub('\s+',' ',big_txt[last_tuple[0]:t_end])
 
-                    compound_tuple: Tuple[int, int, str, str] = (last_tuple[0], t_end, compound_term, 'chunk-based')        # @semanticbeeng @todo static typing @data ??
+                    # @semanticbeeng @todo static typing @data ??
+                    compound_tuple: Tuple[int, int, str, str] = (last_tuple[0], t_end, compound_term, 'chunk-based')
                     ## term_tuples.append(compound_tuple)
 
                     if compound_term in self.term_hash:
-                        self.term_hash[compound_term].append((last_tuple[0], t_end))     # @semanticbeeng @todo static typing
+                        # @semanticbeeng @todo static typing
+                        self.term_hash[compound_term].append((last_tuple[0], t_end))
                         lemma = self.get_compound_lemma(compound_term, last_tuple[2], term)
 
                         if lemma in self.lemma_count:
@@ -83,7 +86,7 @@ class TermsLemmer:
                         else:
                             self.lemma_count[lemma] = 1
                     else:
-                        self.term_hash[compound_term] = [(last_tuple[0], t_end)]           # @semanticbeeng @todo static typing
+                        self.term_hash[compound_term] = [(last_tuple[0], t_end)]    # @semanticbeeng @todo static typing
                         self.head_hash[compound_term] = last_tuple[2]
                         lemma = self.get_compound_lemma(compound_term, last_tuple[2], term)
 
@@ -96,17 +99,20 @@ class TermsLemmer:
                 elif not re.search('[^\s]', big_txt[last_tuple[1]:t_start]):
                     compound_term = term_utilities.interior_white_space_trim(big_txt[last_tuple[0]:t_end])
 
-                    compound_tuple = (last_tuple[0], t_end, compound_term, 'chunk-based')   #  @semanticbeeng @todo static typing
+                    #  @semanticbeeng @todo static typing
+                    compound_tuple = (last_tuple[0], t_end, compound_term, 'chunk-based')
 
                     if compound_term in self.term_hash:
-                        self.term_hash[compound_term].append((last_tuple[0], t_end))     #  @semanticbeeng @todo static typing
+                        #  @semanticbeeng @todo static typing
+                        self.term_hash[compound_term].append((last_tuple[0], t_end))
                         lemma = self.get_compound_lemma(compound_term, last_tuple[2], term)
                         if lemma in self.lemma_count:
                             self.lemma_count[lemma] = self.lemma_count[lemma] + 1
                         else:
                             self.lemma_count[lemma] = 1
                     else:
-                        self.term_hash[compound_term] = [(last_tuple[0], t_end)]         #  @semanticbeeng @todo static typing
+                        #  @semanticbeeng @todo static typing
+                        self.term_hash[compound_term] = [(last_tuple[0], t_end)]
                         ## if there is only blank space and no
                         ## preposition between terms, the
                         ## compounding is normal noun noun
@@ -119,9 +125,9 @@ class TermsLemmer:
                         else:
                             self.lemma_count[lemma] = 1
                 else:
-                    last_tuple = (t_start, t_end, term, term_type)      #  @semanticbeeng @todo static typing
+                    last_tuple = (t_start, t_end, term, term_type)    #  @semanticbeeng @todo static typing
             else:
-                last_tuple = (t_start, t_end, term, term_type)          #  @semanticbeeng @todo static typing
+                last_tuple = (t_start, t_end, term, term_type)    #  @semanticbeeng @todo static typing
 
     #
     #  @semanticbeeng @func comp_termChunker
@@ -146,7 +152,7 @@ class TermsLemmer:
             output = self._abbr_to_full_dict[term][0]
 
         else:
-            last_word_match = last_word_pat.search(term)
+            last_word_match: Optional[Match[str]] = last_word_pat.search(term)
 
             if last_word_match:
                 last_word = last_word_match.group(0).lower()
@@ -163,7 +169,8 @@ class TermsLemmer:
                     output = term[:-2].upper()
                 elif last_word.endswith('(s)'):
                     output = term[:-3].upper()
-                elif (len(last_word) > 1) and last_word.endswith('s') and term[-1].isalpha() and (not last_word[-2] in 'u'):
+                elif (len(last_word) > 1) and last_word.endswith('s') and term[-1].isalpha() \
+                        and (not last_word[-2] in 'u'):
                     output = term[:-1].upper()
                 else:
                     output = term.upper()
@@ -171,19 +178,18 @@ class TermsLemmer:
                 output = term[:-3].upper()
             else:
                 output = term.upper()
-        self.lemma_dict[term] = output           # @semanticbeeng @todo global state mutation
+        self.lemma_dict[term] = output    # @semanticbeeng @todo global state mutation
         return (output)
-
 
     #
     #
     #
     def get_compound_lemma(self, compound_term: str, first_term: str, second_term: str) -> str:
         if compound_term in self.lemma_dict:
-            return (self.lemma_dict[compound_term])      # @semanticbeeng @todo global state reference
+            return (self.lemma_dict[compound_term])    # @semanticbeeng @todo global state reference
         else:
             first_lemma = self.get_term_lemma(first_term, term_type='chunk-based')
             second_lemma = self.get_term_lemma(second_term, term_type='chunk-based')
             output = (second_lemma + ' ' + first_lemma).upper()
-            self.lemma_dict[compound_term] = output      # @semanticbeeng @todo global state mutation
+            self.lemma_dict[compound_term] = output    # @semanticbeeng @todo global state mutation
             return (output)
