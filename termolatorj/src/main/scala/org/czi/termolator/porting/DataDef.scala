@@ -43,9 +43,19 @@ object DataDef {
   val nullStr : str = ""
   // val nullBool : bool = None
 
+  def emptyList[T]() : ListM[T] = {
+    new mutable.ListBuffer[T]()
+  }
+
   def list(args: _*) = {
     val l = new mutable.ListBuffer[Any]()
     l.append(args)
+    l
+  }
+
+  def list[T](iterable: Iterable[T]): ListM[T] = {
+    val l = new mutable.ListBuffer[T]()
+    l.append(iterable)
     l
   }
 
@@ -130,6 +140,7 @@ object DataDef {
 
     def append(another: T) = value += another
 
+    def append(iterable: Iterable[T]) = value ++= iterable
   }
 
   implicit def list2ListDSL[T](value: mutable.ListBuffer[T]): ListDSL[T] = new ListDSL[T](value)
