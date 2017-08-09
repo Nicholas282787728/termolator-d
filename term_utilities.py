@@ -1,13 +1,10 @@
 import os
-# import random
 import dictionary
 import re
 from typing import List, Dict, Tuple, Pattern, Match, Optional
-from DataDef import File, POS, TXT3
-from refactoring_support import Refactoring
+from DataDef import File, TXT3
+import pos_tagger
 import config
-
-pos_offset_table: Dict[int, str] = {}
 
 ## abbreviate patterns -- the b patterns ignore square brackets
 # global parentheses_pattern2
@@ -485,27 +482,6 @@ def get_lines_from_file(infile: File[TXT3]) -> List[str]:
 
 
 #
-#   @semanticbeeng @todo consider moving this to dictionary.py
-#   @semanticbeeng @todo global state mutation or initialization ?
-#
-def load_pos_offset_table(pos_file: File[POS]) -> None:
-    global pos_offset_table
-    pos_offset_table.clear()
-
-    if os.path.isfile(pos_file.name):
-        # @semanticbeeng @todo @jep
-        # with pos_file.openText() as instream:
-        instream = pos_file.openText()
-        for line in instream.readlines():
-            line_info: List[str] = line.rstrip().split(' ||| ')
-            start_end = line_info[1]
-            start_end_strings = start_end.split(' ')
-            start = int(start_end_strings[0][2:])
-            pos = line_info[2]
-            pos_offset_table[start] = pos       # @semanticbeeng @data : is this PosFact
-
-
-#
 #
 #
 def citation_number(word: str) -> bool:
@@ -526,7 +502,9 @@ def citation_number(word: str) -> bool:
 #
 #
 #
-def resolve_differences_with_pos_tagger(word: str, offset: Optional[int], dict_pos: List[str], tagger_pos: Optional[str]) -> List[str]:
+def resolve_differences_with_pos_tagger(word: str, # offset: Optional[int], @semanticbeeng not used
+        dict_pos: List[str], tagger_pos: Optional[str]) -> List[str]:
+
     if (tagger_pos == 'ADJECTIVE') and ('ORDINAL' in dict_pos):
         return (['ORDINAL'])
     elif (tagger_pos == 'ADJECTIVE') and ('SKIPABLE_ADJ' in dict_pos):
@@ -641,15 +619,13 @@ def term_dict_check(term: str, test_dict: Dict[str, int]) -> bool:
 # @semanticbeeng func comp_termChunker
 # @semanticbeeng global to object @todo
 #
-def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @semanticbeeng static type @todo
+def guess_pos(word: str, is_capital: bool, context: Tuple[pos_tagger.POSTagger, int] = None) -> str:  # @semanticbeeng static type @todo
     pos: List[str] = []
     plural = False
 
-    if Refactoring.run_filter_phase:
-        assert not pos_offset_table
-        tagger_pos: str = None
-    else:
-        tagger_pos = get_tagger_pos(offset)
+    tagger_pos: str = None
+    if context:
+        tagger_pos = context[0].get_tagger_pos(offset=context[1])
 
     if (len(word) > 2) and word[-2:] in ['\'s', 's\'']:
         possessive = True
@@ -663,7 +639,8 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
     if word in config.pos_dict:
         pos = config.pos_dict[word][:]
         if not possessive:
-            pos = resolve_differences_with_pos_tagger(word, offset, pos, tagger_pos)
+            pos = resolve_differences_with_pos_tagger(word,  # offset, @semanticbeeng not used
+                pos, tagger_pos)
         if ('PERSON_NAME' in pos) and (not is_capital):
             pos.remove('PERSON_NAME')
             if len(pos) == 0:
@@ -841,48 +818,6 @@ def guess_pos(word: str, is_capital: bool, offset: int = None) -> str:  # @seman
 
 
 #
-#   @ssemanticbeeng @todo @global state pos_offset_table - clarify meaning since it may be empty if raaan from filter_term_output.py
-#
-def get_tagger_pos(offset: int) -> str:
-
-    if offset and (offset in pos_offset_table):
-        tagger_pos = pos_offset_table[offset]  # @semanticbeeng @todo global state reference
-        ## Most conservative move is to use for disambiguation,
-        ## and for identifying ing nouns (whether NNP or NN)
-        ## We care about:
-        ## Easy translations: NN NNP NNPS NNS; JJ JJR JJS; RB RBR RBS RP WRB;
-        ## 'FW' 'SYM' '-LRB-''-RRB-'; VBD VBG VBN VBP VBZ VB; DT PDT WDT PRP$ WP$
-        ## CC CD EX FW LS MD POS PRP UH WP
-        if tagger_pos in ['NNP', 'NNPS', 'FW', 'SYM', '-LRB-', '-RRB-']:
-            ## these are inaccurate for this corpus or irrelevant for this task
-            ## NNP and NNPS are not very accurate, FW identifies some conventionalized abbreviations (et. al. and i.e.)
-            ##     and latin terms (per se).  SYM cases are eliminated in other ways
-            ## Punctuation cases are already ignored
-            tagger_pos = None  # @semanticbeeng static type @todo !
-        elif tagger_pos == 'NN':
-            tagger_pos = 'NOUN'
-        elif tagger_pos == 'NNS':
-            tagger_pos = 'PLURAL'
-        elif tagger_pos in ['TO', 'IN']:
-            tagger_pos = 'PREP'
-        elif tagger_pos in ['RB', 'RBR', 'RBS', 'RP', 'WRB']:
-            tagger_pos = 'ADVERB'
-        elif tagger_pos in ['JJ', 'JJR', 'JJS']:
-            tagger_pos = 'ADJECTIVE'
-        elif tagger_pos in ['VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'VB']:
-            tagger_pos = 'VERB'
-        elif tagger_pos in ['DT', 'PDT', 'WDT', 'PRP$', 'WP$', 'CD']:
-            tagger_pos = 'DET'
-        elif tagger_pos == 'POS':
-            pass
-        else:
-            tagger_pos = 'OTHER'
-    else:
-        tagger_pos = None  # @semanticbeeng static type @todo !
-    return tagger_pos
-
-
-#
 #
 #
 def divide_sentence_into_words_and_start_positions(sentence: str, start: int = 0) -> List[Tuple[int, str]]:
@@ -1041,3 +976,4 @@ def get_my_string_list(input_file: File) -> List[str]:
         instream = input_file.openText(encoding='ISO-8859-1')
         output = instream.readlines()
     return (output)
+

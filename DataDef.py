@@ -19,6 +19,7 @@ DT = TypeVar('DT')  # , contravariant=True)
 #     pass
 TXT = str
 POS = str
+POSTag = str
 TERM = str
 FACT = str
 ABBR = str

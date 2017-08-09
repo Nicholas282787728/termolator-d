@@ -7,6 +7,7 @@ from DataDef import File, POS, FACT, TERM, ABBR, CHUNK, PosFact
 import dictionary
 from typing import List, Dict, Optional, Pattern, Match
 # import inspect
+import pos_tagger
 
 ok_path_types = ['url']    ##  currently 'ratio' is not an ok_path_type
 term_stop_words_with_periods: Pattern[str] = re.compile('(^|\s)(u\.s|e\.g|i\.e|u\.k|c\.f|see|ser)([\.\s]|$)', re.I)
@@ -720,7 +721,7 @@ def global_formula_filter(
 #
 #   @semanticbeeng @todo extract @data
 #
-def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List[Tuple[int, int, str]]:
+def get_topic_terms(text: str, offset: int, filter_off: bool=False, posTagger: pos_tagger.POSTagger = None) -> List[Tuple[int, int, str]]:
 
     txt_markup: Pattern[str] = re.compile(
         '(\[in-line-formulae\].*?\[/in-line-formulae\])|(</[a-z]+>)|(<(/)?[a-z]+( [a-z]+=[^>]+)* ?>)', re.I)
@@ -950,7 +951,7 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List[Tupl
                 if piece3 == '':
                     pass
                 else:
-                    pos = guess_pos(lower, is_capital, offset=word_offset)
+                    pos = guess_pos(lower, is_capital, context=(posTagger, word_offset))
 
                     if (pos == 'SKIPABLE_ADJ') and is_capital:
                         pos = 'ADJECTIVE'
@@ -1058,7 +1059,7 @@ def get_topic_terms(text: str, offset: int, filter_off: bool=False) -> List[Tupl
                             # look_ahead2_offset = look_ahead2_start + start + meta_start + offset
 
                             if look_ahead2 and (
-                                guess_pos(look_ahead2, False, offset=(look_ahead2_start + start + meta_start + offset)
+                                guess_pos(look_ahead2, False, context=(posTagger, look_ahead2_start + start + meta_start + offset)
                                           ) in ['PLURAL', 'AMBIG_PLURAL', 'NOUN', 'AMBIG_NOUN', 'NOUN_OOV']):
                                 look_ahead = None    # @semanticbeeng @todo static typing
 
@@ -1417,18 +1418,19 @@ def find_inline_terms(
     # term_type_hash: Dict[str, str] = {}
     # termLemmer = inline_terms_lemmer.TermLemmer(abbr_to_full_dict)
 
-    pos_offset_table.clear()    # @semanticbeeng @todo @global state mutation initialization
+    # pos_offset_table.clear()    # @semanticbeeng @todo @global state mutation initialization
+    posTagger = pos_tagger.POSTagger()
+    if os.path.isfile(pos_file.name):
+        posTagger.load_pos_offset_table(pos_file)
+    else:
+        # @semanticbeeng should this not be a fata fault?
+        print('Warning POS file does not exist:', pos_file)
 
     line_break_match = os.linesep + '(([ \t]*)[^A-Z \t])'
     start_ends: List[Tuple[int, int]] = []
     txt_strings: List[PosFact] = []
 
     structure_pattern: Pattern[str] = re.compile('STRUCTURE *TYPE="TEXT" *START=([0-9]*) *END=([0-9]*)', re.I)
-    if os.path.isfile(pos_file.name):
-        load_pos_offset_table(pos_file)
-    else:
-        # @semanticbeeng should this not be a fata fault?
-        print('Warning POS file does not exist:', pos_file)
 
     # @semanticbeeng @todo @data check of PosFact
     # @semanticbeeng @todo @jep
@@ -1486,7 +1488,7 @@ def find_inline_terms(
 
             # @semanticbeeng @todo static typic
             term_triples: List[Tuple[int, int, str]] = get_topic_terms(
-                text, start, filter_off=filter_off)    # @todo is this PosFact? or Term
+                text, start, filter_off=filter_off, posTagger=posTagger)    # @todo is this PosFact? or Term
 
             formulaic_tuples: List[Tuple[int, int, str, str]] = get_formulaic_term_pieces(text, start)
 
