@@ -3,7 +3,7 @@ import sys
 from abbreviate import *
 import inline_terms_writer
 import inline_terms_lemmer
-from DataDef import File, POS, FACT, TERM, ABBR, CHUNK, PosFact
+from DataDef import File, POS, FACT, TERM, ABBR, CHUNK, FactT
 import dictionary
 from typing import List, Dict, Optional, Pattern, Match
 # import inspect
@@ -1428,7 +1428,7 @@ def find_inline_terms(
 
     line_break_match = os.linesep + '(([ \t]*)[^A-Z \t])'
     start_ends: List[Tuple[int, int]] = []
-    txt_strings: List[PosFact] = []
+    txt_strings: List[FactT] = []
 
     structure_pattern: Pattern[str] = re.compile('STRUCTURE *TYPE="TEXT" *START=([0-9]*) *END=([0-9]*)', re.I)
 
@@ -1457,7 +1457,7 @@ def find_inline_terms(
             big_txt = big_txt + re.sub(os.linesep, ' ', line)
 
         for start, end in start_ends:
-            txt_strings.append(PosFact(start, end, big_txt[start:end]))
+            txt_strings.append(FactT(start, end, big_txt[start:end]))
     else:
         start, end = start_ends[0]
         end = 0
@@ -1471,13 +1471,13 @@ def find_inline_terms(
             big_txt = big_txt + next_line
 
             if (not re.search('[a-zA-z]', line)) or re.search('[.?:!][ \t' + os.linesep + ']*$', line):
-                txt_strings.append(PosFact(start, end, current_block))
+                txt_strings.append(FactT(start, end, current_block))
                 current_block = ''
                 start = end
             so_far = end
 
         if current_block != '':
-            txt_strings.append(PosFact(start, end, current_block))
+            txt_strings.append(FactT(start, end, current_block))
 
     termLemmer = inline_terms_lemmer.TermsLemmer(Abbreviate.abbr_to_full_dict)
 

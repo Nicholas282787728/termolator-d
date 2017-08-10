@@ -32,15 +32,15 @@ CHUNKNPS = str
 #   @data types
 #
 # @semanticbeeng @todo static typing; @data is PosFact same as POS ?
-PosFact = NamedTuple('PosFact', [('start', int), ('end', int), ('string', str)])
+FactT = NamedTuple('Fact', [('start', int), ('end', int), ('string', str)])
 
-Abbr = NamedTuple("Abbr",  [('begin', int), ('end', int), ('out_string', str), ('out_type', str), ('one_off', bool)])
+AbbrT = NamedTuple("Abbr", [('begin', int), ('end', int), ('out_string', str), ('out_type', str), ('one_off', bool)])
 
 #              confidence, term,  keep, classification,   rating, well_formedness_score, rank_score, webscore,  combined_score
-ScoreT = Tuple[float,      str,   bool, str,              str,    float,                 float,      float,     float]
+ScoreT = Tuple[float,      str,   bool, POSTag,           str,    float,                 float,      float,     float]
 
-WordPosT = NamedTuple('WordPosT', [('word', str), ('pos', str)])
-ChunkT = NamedTuple('ChunkT',   [('term', str), ('positions', List[WordPosT])])
+PosWordT = NamedTuple('WordPosT', [('pos', str), ('word', POSTag)])
+ChunkT = NamedTuple('ChunkT', [('term', str), ('positions', List[PosWordT])])
 
 
 class File(Generic[DT]):

@@ -406,7 +406,7 @@ def read_in_stat_term_dict(indict, dict_dir=DICT_DIRECTORY):
             else:
                 first_word = line_entry[0].lower()
 
-            pos = guess_pos(first_word, False)
+            pos = term_utilities.guess_pos(first_word, False)
 
             if pos in ['ADJECTIVE', 'SKIPABLE_ADJ', 'TECH_ADJECTIVE']:
                 if not first_word in stat_adj_dict:

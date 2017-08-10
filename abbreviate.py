@@ -1,5 +1,5 @@
 from term_utilities import *
-from DataDef import File, TXT3, ABBR, Abbr
+from DataDef import File, TXT3, ABBR, AbbrT
 from typing import List, Dict, Tuple, Pattern, Match, Optional
 import dictionary
 import config
@@ -114,7 +114,7 @@ def ok_inbetween_abbreviation_string(string: str) -> bool:
 #
 # @semanticbeeng @todo global state abbr_to_full_dict
 #
-def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: int, backwards_borders: List[int] = []) -> Optional[Abbr]:
+def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: int, backwards_borders: List[int] = []) -> Optional[AbbrT]:
     if len(abbreviation) > 1 and abbreviation[0] in '\'"“`':
         abbreviation2 = abbreviation[1:]
         one_off = True
@@ -126,7 +126,7 @@ def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: i
         abbreviation2 = re.sub('[-/]', '', abbreviation2)
 
     key = abbreviation2.upper()
-    output: Optional[Abbr] = None
+    output: Optional[AbbrT] = None
     search_string = regularize_match_string1(line[:end])
     maxlength = 0
     out_type = 'JARGON'
@@ -149,7 +149,7 @@ def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: i
                 begin: int = backwards_borders[0] + file_position
                 out_string = line[:match_end]
 
-                output = Abbr(begin, end, out_string, out_type, one_off)
+                output = AbbrT(begin, end, out_string, out_type, one_off)
 
             elif (position != -1):
                 match_end = (position + len(out_string))
@@ -170,7 +170,7 @@ def lookup_abbreviation(abbreviation: str, line: str, end: int, file_position: i
                         end = begin + len(out_string)
                         out_type = 'JARGON'
 
-                        output = Abbr(begin, end, out_string, out_type, one_off)
+                        output = AbbrT(begin, end, out_string, out_type, one_off)
     return (output)
 
 
@@ -461,7 +461,7 @@ def classify_abbreviated_string(word_string: str, wordlist: List[str] = []) -> s
 #
 def abbreviation_match(abbreviation: str, previous_words: List[str], line: str, abbreviation_position: int,
                        line_offset: int     # @semanticbeeng @todo not used previous_line: List[str], more_words: bool
-                       ) -> Optional[Abbr]:
+                       ) -> Optional[AbbrT]:
     ## Missing cases: 1) "A recombinant form of SPARC (rSPARC)" -- not general -- not clear what we can skip
     ##                2) ADAMTS-2 (A Disintegrin And Metalloproteinase with ThromboSpondin motifs)  ## also not clear -- when can we add a number
     ##                3) tetracycline (tet) -- not completely clear because we get similar cases, but perhaps it is the length
@@ -692,7 +692,7 @@ def abbreviation_match(abbreviation: str, previous_words: List[str], line: str, 
             out_string = out_string[:-1]
             end = end - 1
 
-        return Abbr(begin, end, out_string, output_type, one_off)
+        return AbbrT(begin, end, out_string, output_type, one_off)
 
     return (None)       # @semanticbeeng @ todo static typing
 
@@ -910,7 +910,7 @@ def get_next_abbreviate_relations(previous_line: str, line: str, position: int) 
     alt_abbreviation: str = None        # @semanticbeeng static type @ todo
 
     while pattern:
-        result: Optional[Abbr] = None   # @semanticbeeng static type @ todo
+        result: Optional[AbbrT] = None   # @semanticbeeng static type @ todo
         Fail = False
         first_word_break: Optional[Match[str]] = re.search('[^\(]([ ,;:])', pattern.group(2))
 

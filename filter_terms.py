@@ -2,7 +2,7 @@ from find_terms import *
 from webscore import *
 import dictionary
 from typing import Tuple, Any
-from DataDef import ScoreT, WordPosT, ChunkT
+from DataDef import ScoreT, PosWordT, ChunkT
 
 #
 #
@@ -461,7 +461,7 @@ def stringify_word_list(word_list: List[str]) -> str:
 #
 #
 #
-def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str], List[ChunkT], float]:
+def term_classify(line: str, mitre: bool=False) -> Tuple[str, POSTag, str, List[str], List[ChunkT], float]:
     ## based on get_topic_terms, but based on smaller n-grams, typically with no punctuation
     ## return (lemma, classification, rating, other_terms)
     weird_char: Pattern[str] = re.compile('[^ 0-9A-Za-z\-\'\.]')
@@ -664,7 +664,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
             elif pos in ['DET', 'AMBIG_POSSESS', 'POSSESS', 'POSSESS_OOV']:
                 if current_chunk:
                     chunks.append(current_chunk)
-                current_chunk = ChunkT('NP', [WordPosT(pos, word)])               # @semanticbeeng @todo static typing
+                current_chunk = ChunkT('NP', [PosWordT(pos, word)])               # @semanticbeeng @todo static typing
                 if pos == 'DET':
                     unnecessary_pieces = 1 + unnecessary_pieces
 
@@ -673,22 +673,22 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     unnecessary_pieces = 1 + unnecessary_pieces
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk[1].append(WordPosT(pos, word))        # @semanticbeeng @todo static typing
+                        current_chunk[1].append(PosWordT(pos, word))        # @semanticbeeng @todo static typing
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ChunkT('NP', [WordPosT(pos, word)])       # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('NP', [PosWordT(pos, word)])       # @semanticbeeng @todo static typing
                 else:
-                    current_chunk = ChunkT('NP', [WordPosT(pos, word)])           # @semanticbeeng @todo static typing
+                    current_chunk = ChunkT('NP', [PosWordT(pos, word)])           # @semanticbeeng @todo static typing
 
             elif pos in ['PLURAL', 'AMBIG_PLURAL']:
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk[1].append(WordPosT(pos, word))        # @semanticbeeng @todo static typing
+                        current_chunk[1].append(PosWordT(pos, word))        # @semanticbeeng @todo static typing
                         chunks.append(current_chunk)
                         current_chunk = None                        # @semanticbeeng @todo static typing
 
                     elif simple_tech_adj_chunk(current_chunk):
-                        current_chunk = ChunkT('NP', current_chunk[1] + WordPosT(pos, word))   # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('NP', current_chunk[1] + PosWordT(pos, word))   # @semanticbeeng @todo static typing
                         chunks.append(current_chunk)
                         ## print(1,current_chunk)
                         current_chunk = None                        # @semanticbeeng @todo static typing
@@ -696,53 +696,53 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
                     else:
                         chunks.append(current_chunk)
                         current_chunk = None        # @semanticbeeng @todo static typing
-                        chunks.append(ChunkT('NP', [WordPosT(pos, word)]))  # @semanticbeeng @todo static typing
+                        chunks.append(ChunkT('NP', [PosWordT(pos, word)]))  # @semanticbeeng @todo static typing
                 else:
-                    chunks.append(ChunkT('NP', [WordPosT(pos, word)]))
+                    chunks.append(ChunkT('NP', [PosWordT(pos, word)]))
 
             elif pos in ['NOUN', 'AMBIG_NOUN', 'NOUN_OOV']:
                 if current_chunk:
                     if current_chunk[0] == 'NP':
-                        current_chunk[1].append(WordPosT(pos, word))   # @semanticbeeng @todo static typing
+                        current_chunk[1].append(PosWordT(pos, word))   # @semanticbeeng @todo static typing
 
                     elif simple_tech_adj_chunk(current_chunk):
                         ## print(2,current_chunk)
-                        current_chunk = ChunkT('NP', current_chunk[1] + WordPosT(pos, word))   # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('NP', current_chunk[1] + PosWordT(pos, word))   # @semanticbeeng @todo static typing
                         ## print(2,current_chunk)
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ChunkT('NP', [WordPosT(pos, word)])             # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('NP', [PosWordT(pos, word)])             # @semanticbeeng @todo static typing
                 else:
-                    current_chunk = ChunkT('NP', [WordPosT(pos, word)])                 # @semanticbeeng @todo static typing
+                    current_chunk = ChunkT('NP', [PosWordT(pos, word)])                 # @semanticbeeng @todo static typing
 
             elif pos in ['VERB', 'AMBIG_VERB']:
                 if current_chunk:
                     if current_chunk[0] == 'ADVP':
-                        current_chunk = ChunkT('VP', current_chunk[1] + WordPosT(pos, word))   # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('VP', current_chunk[1] + PosWordT(pos, word))   # @semanticbeeng @todo static typing
                     elif current_chunk[0] == 'VP':
-                        current_chunk[1].append(WordPosT(pos, word))    # @semanticbeeng @todo static typing
+                        current_chunk[1].append(PosWordT(pos, word))    # @semanticbeeng @todo static typing
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ChunkT('VP', [WordPosT(pos, word)])               # @semanticbeeng @todo static typing
+                        current_chunk = ChunkT('VP', [PosWordT(pos, word)])               # @semanticbeeng @todo static typing
                 else:
                     if current_chunk:
                         chunks.append(current_chunk)
-                    current_chunk = ChunkT('VP', [WordPosT(pos, word)])                   # @semanticbeeng @todo static typing
+                    current_chunk = ChunkT('VP', [PosWordT(pos, word)])                   # @semanticbeeng @todo static typing
 
             elif pos in ['ADVERB']:
                 if current_chunk:
                     if current_chunk[0] in ['VP', 'ADVP']:
-                        current_chunk[1].append(WordPosT(pos, word))
+                        current_chunk[1].append(PosWordT(pos, word))
                     else:
                         chunks.append(current_chunk)
-                        current_chunk = ChunkT('ADVP', [WordPosT(pos, word)])
+                        current_chunk = ChunkT('ADVP', [PosWordT(pos, word)])
 
             elif current_chunk:
                 chunks.append(current_chunk)
-                chunks.append(ChunkT('XP', [WordPosT(pos, word)]))
+                chunks.append(ChunkT('XP', [PosWordT(pos, word)]))
                 current_chunk = None
             else:
-                current_chunk = ChunkT('XP', [WordPosT(pos, word)])
+                current_chunk = ChunkT('XP', [PosWordT(pos, word)])
 
             position = 1 + position
         ## print(chunks)
@@ -1029,7 +1029,7 @@ def term_classify(line: str, mitre: bool=False) -> Tuple[str, str, str, List[str
 #
 #
 #
-def ok_statistical_term(term: str, lenient: bool=False, penalize_initial_the: bool=False) -> Tuple[bool, str, List[ChunkT], str, float]:
+def ok_statistical_term(term: str, lenient: bool=False, penalize_initial_the: bool=False) -> Tuple[bool, POSTag, List[ChunkT], str, float]:
     ## if single word, it should be a possible noun
     ##
     initial_the_pattern = re.compile('^the ', re.I)
@@ -1056,7 +1056,7 @@ def ok_statistical_term(term: str, lenient: bool=False, penalize_initial_the: bo
         return (True, classification, chunks, rating, well_formedness)
 
     elif classification in ['SIMPLE', 'HYPHENATION']:
-        POS: str = guess_pos(term.lower(), term.istitle())
+        partOfSpeec: POSTag = guess_pos(term.lower(), term.istitle())
         if lenient and classification == 'SIMPLE':
             if rating != 'Good':
                 rating = rating + '_but_top_term'
@@ -1065,7 +1065,7 @@ def ok_statistical_term(term: str, lenient: bool=False, penalize_initial_the: bo
         elif rating != 'Good':
             ## well_formedness = well_formedness *1.5
             return (False, classification, chunks, rating, well_formedness)
-        elif POS in ['NOUN', 'AMBIG_NOUN', 'PLURAL', 'AMBIG_PLURAL', 'NOUN_OOV']:
+        elif partOfSpeec in ['NOUN', 'AMBIG_NOUN', 'PLURAL', 'AMBIG_PLURAL', 'NOUN_OOV']:
             if rating == 'Medium':
                 well_formedness = well_formedness + .1
             elif rating == 'Bad':
@@ -1076,10 +1076,10 @@ def ok_statistical_term(term: str, lenient: bool=False, penalize_initial_the: bo
             return (False, classification, chunks, rating, well_formedness)
         else:
             well_formedness = well_formedness * .5
-            return (False, POS, chunks, rating, well_formedness)
+            return (False, partOfSpeec, chunks, rating, well_formedness)
 
     elif (classification == 'In_or_Out_of_Dictionary'):
-        POS = guess_pos(term.lower(), term.istitle())
+        partOfSpeec = guess_pos(term.lower(), term.istitle())
 
     well_formedness = well_formedness * .5
 

@@ -2,7 +2,7 @@ import os
 import dictionary
 import re
 from typing import List, Dict, Tuple, Pattern, Match, Optional
-from DataDef import File, TXT3
+from DataDef import File, TXT3, POSTag
 import pos_tagger
 import config
 
@@ -381,7 +381,7 @@ def clean_string_of_ampersand_characters(string: str) -> str:
 #
 #
 #
-def remove_xml_spit_out_paragraph_start_end(string: str, offset) -> Tuple[str, List[int], List[int], List[int], List[int]]:
+def remove_xml_spit_out_paragraph_start_end(string: str, offset: int) -> Tuple[str, List[int], List[int], List[int], List[int]]:
     string = clean_string_of_ampersand_characters(string)
     next_xml = xml_pattern.search(string)
     start = 0
@@ -503,7 +503,7 @@ def citation_number(word: str) -> bool:
 #
 #
 def resolve_differences_with_pos_tagger(word: str, # offset: Optional[int], @semanticbeeng not used
-        dict_pos: List[str], tagger_pos: Optional[str]) -> List[str]:
+        dict_pos: List[POSTag], tagger_pos: Optional[POSTag]) -> List[POSTag]:
 
     if (tagger_pos == 'ADJECTIVE') and ('ORDINAL' in dict_pos):
         return (['ORDINAL'])
@@ -617,13 +617,11 @@ def term_dict_check(term: str, test_dict: Dict[str, int]) -> bool:
 
 #
 # @semanticbeeng func comp_termChunker
-# @semanticbeeng global to object @todo
 #
-def guess_pos(word: str, is_capital: bool, context: Tuple[pos_tagger.POSTagger, int] = None) -> str:  # @semanticbeeng static type @todo
-    pos: List[str] = []
-    plural = False
+def guess_pos(word: str, is_capital: bool, context: Tuple[pos_tagger.POSTagger, int] = None) -> POSTag:
+    pos: List[POSTag] = []
 
-    tagger_pos: str = None
+    tagger_pos: POSTag = None
     if context:
         tagger_pos = context[0].get_tagger_pos(offset=context[1])
 

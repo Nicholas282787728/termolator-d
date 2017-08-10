@@ -4,26 +4,26 @@ import os
 import re
 import sys
 from typing import List, Tuple, Optional, Pattern, Match
-from DataDef import File, ABBR, POS, PosFact, FACT
+from DataDef import File, ABBR, POS, FactT, FACT
 
 #
 #
 #
-def get_pos_facts(fact_list: List[ABBR]) -> List[PosFact]:
-    output: List[PosFact] = []
+def get_pos_facts(fact_list: List[ABBR]) -> List[FactT]:
+    output: List[FactT] = []
     bad_pos_pattern: Pattern[str] = re.compile('BAD_CHARACTER START=([0-9]*) END=([0-9]*) STRING="([^"]*)"')
 
     for fact in fact_list:
         bad_match: Optional[Match[str]] = bad_pos_pattern.search(fact)
         if bad_match:
-            output.append(PosFact(int(bad_match.group(1)), int(bad_match.group(2)), bad_match.group(3)))   # @semanticbeeng @todo static typing
+            output.append(FactT(int(bad_match.group(1)), int(bad_match.group(2)), bad_match.group(3)))   # @semanticbeeng @todo static typing
     return (output)
 
 
 #
 #
 #
-def make_fact_pair(triple: PosFact) -> Tuple[int, str]:
+def make_fact_pair(triple: FactT) -> Tuple[int, str]:
     output = (triple[0], triple[2] + ' ||| S:' + str(triple[0]) + ' E:' + str(triple[1]) + ' ||| ' + 'SYM' + os.linesep)  # @semanticbeeng @todo static typing
     return (output)
 
@@ -31,14 +31,14 @@ def make_fact_pair(triple: PosFact) -> Tuple[int, str]:
 #
 #
 #
-def make_pos_triple(line: str) -> PosFact:
+def make_pos_triple(line: str) -> FactT:
     start_pat = re.compile('S:([0-9]*).*E:([0-9]*)')
     start_match = start_pat.search(line)
     if not start_match:
         print('Warning: Error in POS file')
-        return (PosFact(0, 0, line))       # @semanticbeeng @todo static typing @data PosFact
+        return (FactT(0, 0, line))       # @semanticbeeng @todo static typing @data PosFact
     else:
-        return (PosFact(int(start_match.group(1)), int(start_match.group(2)), line))   # @semanticbeeng @todo static typing @data PosFact
+        return (FactT(int(start_match.group(1)), int(start_match.group(2)), line))   # @semanticbeeng @todo static typing @data PosFact
 
 
 #
@@ -62,7 +62,7 @@ def fix_bad_char_in_file(fact: File[FACT], pos: File[POS]) -> None:
     # @semanticbeeng @todo @jep
     # with fact.openText() as fact_stream:
     fact_stream = fact.openText()
-    fact_list: List[PosFact] = get_pos_facts(fact_stream.readlines())
+    fact_list: List[FactT] = get_pos_facts(fact_stream.readlines())
     fact_list.reverse()
 
     if fact_list:
@@ -73,7 +73,7 @@ def fix_bad_char_in_file(fact: File[FACT], pos: File[POS]) -> None:
         pos_list.reverse()
 
         next_fact: Tuple[int, str] = None        # @semanticbeeng @todo static typing
-        next_pos: PosFact = None                 # @semanticbeeng @todo static typing
+        next_pos: FactT = None                 # @semanticbeeng @todo static typing
 
         # @semanticbeeng @todo @jep
         # with pos.openText(mode='w') as outstream:
@@ -107,4 +107,4 @@ def main(args):
 
 
 # @semanticbeeng @todo to run from @jep
-# if __name__ == '__main__': sys.exit(main(sys.argv))
+if __name__ == '__main__': sys.exit(main(sys.argv))
